@@ -340,6 +340,18 @@ if (!metricsOnly) {
   }
   fs.writeFileSync(path.join(publicRoot, "pc-trends.json"), `${JSON.stringify({ meta: mergeExisting ? { ...existingPcTrends.meta, query_range: [queryStart, queryEnd], games: Object.keys(mergedPcTrends).length } : { query_range: [queryStart, queryEnd], games: Object.keys(mergedPcTrends).length }, games: mergedPcTrends }, null, 2)}\n`);
 }
+const requestedCanonical = manifest?.batches?.length
+  ? [...new Set(manifest.batches.flatMap(batch => batch.games.map(game => game.canonical)))]
+  : [...trackedCanonicalNames];
+const returnedMetricNames = new Set([...Object.keys(mobileMetrics), ...Object.keys(pcMetrics)]);
+const retainedMetricNames = new Set([...Object.keys(metricResult.mobile_games), ...Object.keys(metricResult.pc_games)]);
+metricResult.meta.refresh_coverage = {
+  queried_games: requestedCanonical.length,
+  returned_metric_games: [...returnedMetricNames],
+  retained_previous_games: requestedCanonical.filter(name => !returnedMetricNames.has(name) && retainedMetricNames.has(name)),
+  no_metric_returned_games: requestedCanonical.filter(name => !returnedMetricNames.has(name) && !retainedMetricNames.has(name)),
+  note: "Successful queries do not imply every product returned metrics. Retained snapshots keep their original field dates and sources.",
+};
 if (!process.argv.includes("--pc-only")) {
   if (!metricsOnly) fs.writeFileSync(path.join(publicRoot, "databrain_trends_90d.json"), `${JSON.stringify(trendResult, null, 2)}\n`);
   fs.writeFileSync(path.join(publicRoot, "databrain_latest_metrics.json"), `${JSON.stringify(metricResult, null, 2)}\n`);

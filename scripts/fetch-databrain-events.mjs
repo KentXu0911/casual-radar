@@ -134,7 +134,7 @@ function parseResponseRows(markdown, structured) {
 }
 
 function parseArgs(argv) {
-  const options = { games: [], start: "", end: "", batchSize: 10, maxPerGame: 8, cleanOnly: false };
+  const options = { games: [], start: "", end: "", batchSize: 10, maxPerGame: 8, concurrency: 3, cleanOnly: false };
   for (let index = 0; index < argv.length; index += 1) {
     const argument = argv[index];
     const [key, inlineValue] = argument.split("=", 2);
@@ -156,9 +156,25 @@ function parseArgs(argv) {
     } else if (key === "--max-per-game") {
       options.maxPerGame = Math.max(1, Number(value) || 8);
       if (inlineValue === undefined) index += 1;
+    } else if (key === "--concurrency") {
+      options.concurrency = Math.min(3, Math.max(1, Number(value) || 3));
+      if (inlineValue === undefined) index += 1;
     }
   }
   return options;
+}
+
+export async function collectBatchResults(batches, query, concurrency = 3) {
+  const results = new Array(batches.length);
+  let next = 0;
+  await Promise.all(Array.from({ length: Math.min(concurrency, batches.length) }, async () => {
+    while (next < batches.length) {
+      const index = next++;
+      try { results[index] = { result: await query(batches[index], index) }; }
+      catch (error) { results[index] = { error }; }
+    }
+  }));
+  return results;
 }
 
 function eventDateMeaning(value) {
@@ -274,7 +290,7 @@ async function queryDataBrainOnce(query) {
       id: sessionId,
       sessionId,
       message: { role: "user", parts: [{ type: "text", text: query }] },
-      metadata: { mode: "auto", source: "skill", platform: "codex", disable_memory: true },
+      metadata: { mode: "auto", source: "skill", platform: "codex", disable_memory: true, date_time: new Date().toISOString() },
     },
   };
   const response = await fetch(endpoint, {
@@ -286,15 +302,17 @@ async function queryDataBrainOnce(query) {
   if (!response.ok) throw new Error(`DataBrain HTTP ${response.status}`);
   const textParts = [];
   const structuredParts = [];
+  const rawEvents = [];
   const decoder = new TextDecoder();
   const reader = response.body?.getReader();
-  if (!reader) return { sessionId, markdown: "", structured: [] };
+  if (!reader) throw new Error("DataBrain 未返回流式响应。");
   let buffer = "";
   const consumeLine = (line) => {
     const trimmed = line.trim();
     if (!trimmed.startsWith("data: ")) return;
     try {
       const message = JSON.parse(trimmed.slice(6));
+      rawEvents.push(message);
       if (message.error) throw new Error(message.error.message || "DataBrain 返回错误");
       for (const part of message.result?.artifact?.parts || []) {
         if (part.type === "text") textParts.push(text(part.text));
@@ -318,6 +336,10 @@ async function queryDataBrainOnce(query) {
   }
   if (buffer.trim()) consumeLine(buffer);
   const markdown = textParts.join("");
+  const auditRoot = path.join(siteRoot, ".automation", "databrain-events");
+  fs.mkdirSync(auditRoot, { recursive: true });
+  fs.writeFileSync(path.join(auditRoot, `${sessionId}.json`), `${JSON.stringify({ sessionId, query, events: rawEvents }, null, 2)}\n`);
+  if (/无法处理.*未来|cannot[^\n]*future/i.test(markdown)) throw new Error(`DataBrain refused date range: ${markdown.trim()}`);
   return { sessionId, markdown, structured: structuredParts };
 }
 
@@ -329,7 +351,7 @@ async function queryDataBrain(query, maxAttempts = 3) {
     } catch (error) {
       lastError = error;
       const message = error instanceof Error ? error.message : String(error);
-      if (/DataBrain HTTP 4\d\d/.test(message) || attempt === maxAttempts) throw error;
+      if (/DataBrain HTTP 4\d\d|DataBrain refused date range/.test(message) || attempt === maxAttempts) throw error;
       const waitMs = attempt * 5000;
       process.stdout.write(`  transient DataBrain error; retry ${attempt + 1}/${maxAttempts} in ${waitMs / 1000}s (${message})\n`);
       await new Promise((resolve) => setTimeout(resolve, waitMs));
@@ -443,13 +465,19 @@ async function main() {
   let researchRows = existingResearchRows;
   const completedBatches = [];
   const failedBatches = [];
+  const responses = await collectBatchResults(batches, async (batch, index) => {
+    process.stdout.write(`DataBrain query ${index + 1}/${batches.length}: ${batch.join("、")}\n`);
+    const response = await queryDataBrain(queryText(batch, aliasesByCanonical, start, end, options.maxPerGame));
+    process.stdout.write(`  query ${index + 1}/${batches.length} returned\n`);
+    return response;
+  }, options.concurrency);
   for (const [index, batch] of batches.entries()) {
     process.stdout.write(`DataBrain events ${index + 1}/${batches.length}: ${batch.join("、")}\n`);
-    const batchSet = new Set(batch);
     const query = queryText(batch, aliasesByCanonical, start, end, options.maxPerGame);
     let result;
     try {
-      result = await queryDataBrain(query);
+      if (responses[index].error) throw responses[index].error;
+      result = responses[index].result;
     } catch (error) {
       const message = error instanceof Error ? error.message : String(error);
       failedBatches.push({ batch: index + 1, games: batch, error: message });
@@ -478,6 +506,11 @@ async function main() {
         continue;
       }
     }
+    if (!parsed.length) {
+      failedBatches.push({ batch: index + 1, games: batch, error: "Two responses contained no parseable records; coverage is unconfirmed" });
+      process.stdout.write("  no parseable records after retry; coverage failed, previous rows retained\n");
+      continue;
+    }
     sessions.push({ sessionId: result.sessionId, system_url: `https://databrain.woa.com/v2/agent/chat?sessionId=${result.sessionId}`, games: batch });
     const normalized = parsed.map((row) => normalizeRow(row, entityIndex, aliasesByCanonical, new Set(batch), start, end)).filter(Boolean);
     const normalizedResearch = parsed.map((row) => normalizeResearchRow(row, entityIndex, aliasesByCanonical, new Set(batch), start, end)).filter(Boolean);
@@ -497,9 +530,10 @@ async function main() {
   const final = writeBundle(bundleGames, rows, meta);
   const research = writeResearchBundle(bundleGames, researchRows, meta);
   process.stdout.write(`${JSON.stringify({ output: outputPath, research_output: researchOutputPath, games_queried: requested.length, games_with_events: final.meta.games_with_events, events: final.meta.events, games_with_research: research.meta.games_with_research, research_records: research.meta.records, sessions: sessions.length, failed_batches: failedBatches.length })}\n`);
+  if (failedBatches.length) throw new Error(`DataBrain events/research coverage failed for ${failedBatches.length}/${batches.length} batches; see failed_batches`);
 }
 
-if (path.resolve(process.argv[1] || "") === fileURLToPath(import.meta.url)) {
+if (process.argv[1] && fs.realpathSync(process.argv[1]) === fileURLToPath(import.meta.url)) {
   main().catch((error) => {
     console.error(error instanceof Error ? error.message : error);
     process.exitCode = 1;

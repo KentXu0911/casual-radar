@@ -3,7 +3,7 @@ import os from "node:os";
 import path from "node:path";
 import { spawnSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
-import { resolveRange, snapshotSummary, validateRefresh } from "./weekly-refresh-lib.mjs";
+import { resolveRange, snapshotSummary, validateRefresh, loadTrackedGames, validateMetricCheckpoint } from "./weekly-refresh-lib.mjs";
 import { acquireRefreshLock, assertCleanWorktree, backupFiles, commitStagedArtifacts, publicationReport, restoreFiles, writeRefreshReport } from "./refresh-runner-lib.mjs";
 
 const siteRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -37,6 +37,9 @@ const sourceModules = {};
 function run(label, command, args) {
   const names = /DataBrain|指标|快照/.test(label) ? ["metrics"] : /Steam/.test(label) ? ["steam"] : /事件与研究/.test(label) ? ["events", "research"] : /GRP/.test(label) ? ["grp"] : /异动/.test(label) ? ["attributions"] : /游研所/.test(label) ? ["intelligence"] : [];
   if (names.length) activeSource = names[0];
+  else if (/构建与测试/.test(label)) activeSource = "build";
+  else if (/影像核查队列/.test(label)) activeSource = "media";
+  else if (/已核验/.test(label)) activeSource = "editorial";
   for (const name of names) sourceModules[name] = { required: true, status: "running" };
   process.stdout.write(`\n[weekly-refresh] ${label}\n`);
   const result = spawnSync(command, args, { cwd: siteRoot, env: process.env, stdio: "inherit" });
@@ -60,6 +63,7 @@ function main() {
   const windowDays = Math.max(1, Number(arg("--window-days", "90")) || 90);
   const dryRun = process.argv.includes("--dry-run");
   const reuseMetrics = process.argv.includes("--reuse-metrics");
+  const metricCheckpoint = arg("--metrics-checkpoint");
   const skipTests = process.argv.includes("--skip-tests");
   const youyansuoInput = arg("--youyansuo-input", "");
   const before = snapshotSummary(publicRoot);
@@ -101,7 +105,20 @@ function main() {
   let began = false;
   try {
     run("保存整批内容基线", process.execPath, ["scripts/content-workflow.mjs", "begin", "--cadence=weekly"]); began = true;
-    if (!reuseMetrics) {
+    if (metricCheckpoint) {
+      activeSource = "metrics";
+      const checkpointRoot = path.resolve(metricCheckpoint);
+      const manifest = JSON.parse(fs.readFileSync(path.join(checkpointRoot, "databrain_latest_90d_manifest.json"), "utf8"));
+      validateMetricCheckpoint(manifest, fetchRange, loadTrackedGames(path.join(publicRoot, "games.json")));
+      for (const batch of manifest.batches) {
+        const document = JSON.parse(fs.readFileSync(path.join(checkpointRoot, batch.file), "utf8"));
+        const parts = document.events.flatMap(event => event.result?.artifact?.parts || []).filter(part => part.data?.type === "bi_data");
+        if (document.sessionId !== batch.session_id || parts.length !== batch.bi_data_parts) throw new Error("Metric checkpoint response differs from its manifest");
+      }
+      fs.cpSync(checkpointRoot, path.join(stageRoot, "outputs"), { recursive: true });
+      sourceModules.metrics = { required: true, status: "passed", provenance: "same_day_checkpoint", collected_at: manifest.created_at };
+      process.stdout.write("[weekly-refresh] Resumed verified same-day metric responses\n");
+    } else if (!reuseMetrics) {
       run("刷新 DataBrain 指标", process.execPath, [
         "scripts/fetch-databrain-trends.mjs",
         `--start=${fetchRange.start}`,
@@ -142,6 +159,7 @@ function main() {
     run("同步已核验新品的厂商归属", process.execPath, ["scripts/sync-studio-associations.mjs"]);
     run("归并已核验首曝 PV 与实机", process.execPath, ["scripts/sync-pipeline-reveal-media.mjs"]);
     const after = snapshotSummary(publicRoot);
+    activeSource = "validation";
     const errors = validateRefresh(before, after, { ...fetchRange, windowDays });
     if (errors.length) throw new Error(`安全校验未通过：${errors.join("；")}`);
     run("生成首曝与测试影像核查队列", process.execPath, ["scripts/content-workflow.mjs", "queue", "--cadence=weekly"]);
@@ -173,6 +191,7 @@ function main() {
         research_records: after.research_records - before.research_records,
       },
       reused_metric_batches: reuseMetrics,
+      resumed_metric_batches: Boolean(metricCheckpoint),
       steam_products: steamProducts,
       youyansuo: youyansuoInput
         ? (() => {

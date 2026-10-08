@@ -3,6 +3,16 @@ import path from "node:path";
 
 const DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
 
+export function validateMetricCheckpoint(manifest, range, tracked, now = new Date()) {
+  const scanDay = value => new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Shanghai" }).format(new Date(value));
+  if (!manifest?.created_at || !Number.isFinite(Date.parse(manifest.created_at)) || scanDay(manifest.created_at) !== scanDay(now)) throw new Error("Metric checkpoint was not collected today");
+  if (manifest.query_range?.[0] !== range.start || manifest.query_range?.[1] !== range.end) throw new Error("Metric checkpoint query range differs from this run");
+  if (!manifest.batches?.length || manifest.batches.some(batch => batch.status !== "complete" || batch.bi_data_parts < 1 || !batch.session_id || !/^databrain_latest_90d_batch\d+\.json$/.test(batch.file))) throw new Error("Metric checkpoint contains incomplete batches");
+  const saved = manifest.batches.flatMap(batch => batch.games.map(game => game.canonical)).sort();
+  const requested = tracked.map(game => game.canonical).sort();
+  if (JSON.stringify(saved) !== JSON.stringify(requested)) throw new Error("Metric checkpoint product scope differs from this run");
+}
+
 export function formatDate(date) {
   return date.toISOString().slice(0, 10);
 }

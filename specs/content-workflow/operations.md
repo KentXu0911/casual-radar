@@ -13,6 +13,14 @@
 
 已核验内容通过产品与节点 ID 关联。候选区不等于主池；新入池需核心循环、品类、产品身份、平台和可追溯官方证据。开发商、发行商分别填写，不凭同名或文章标题推断主体。既有人工核验字段不能被生成快照覆盖；明确修订直接编辑并记录理由。改变节点标题/URL/日期时保留原 milestone_id。未知事件日期保留 null，视频 date 是上传日，milestone_date 才是已确认事件日。
 
+## 采集故障与检查点
+
+DataBrain 请求显式传递本次 `date_time`。HTTP 失败、日期拒绝、两次空表不能标记为完整扫描。原始事件响应保存在忽略目录 `.automation/databrain-events/`；公开指标的 `meta.refresh_coverage` 区分本轮返回、旧快照保留和未返回指标。
+
+事件/研究查询最多并发 3 批，结果按原批次顺序归并。完整周更仍要求全部批次成功。来源失败时保留失败报告并回滚 public，不允许拿部分扫描声明完整成功。
+
+若同日指标已成功、后续阶段失败，可以保留完整原始 outputs，再以 `--metrics-checkpoint=/absolute/path/outputs` 重跑周更。检查点必须是当天、相同104天请求区间、相同产品清单、全部批次完整且响应 session 与 manifest 一致。它恢复本次已完成采集；`--reuse-metrics` 沿用旧数据，仍不能通过周更指标完成门槛。
+
 ## 影像核查
 
 编辑后执行 `npm run content:queue -- --cadence=weekly`（或对应 cadence）。读取 `reports/media-search-queue.json`。新/变化首曝、测试节点是必做任务；历史缺口单列，不会被迁移过程虚报完成。按名称、别名、旧代号检索官方、Bilibili、YouTube；打开结果核验产品与轮次。使用节点 milestone_id 和当前 fingerprint 导入：

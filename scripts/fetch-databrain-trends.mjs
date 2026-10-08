@@ -33,7 +33,7 @@ async function fetchBatch(games, start, end) {
       id: sessionId,
       sessionId,
       message: { role: "user", parts: [{ type: "text", text: queryText(games, start, end) }] },
-      metadata: { mode: "auto", source: "skill", platform: "codex", disable_memory: true }
+      metadata: { mode: "auto", source: "skill", platform: "codex", disable_memory: true, date_time: new Date().toISOString() }
     }
   };
   const response = await fetch(endpoint, {
@@ -113,6 +113,9 @@ async function main() {
       const result = await fetchBatch(queryEntities, start, range.end);
       fs.writeFileSync(output, `${JSON.stringify(result, null, 2)}\n`);
       const biParts = result.events.reduce((total, event) => total + (event.result?.artifact?.parts || []).filter((part) => part.type === "data" && part.data?.type === "bi_data").length, 0);
+      batch.bi_data_parts = biParts;
+      batch.session_id = result.sessionId;
+      if (!biParts) throw new Error("DataBrain returned no bi_data; metric coverage is unconfirmed");
       batch.status = "complete";
       batch.bi_data_parts = biParts;
       batch.session_id = result.sessionId;
@@ -128,7 +131,7 @@ async function main() {
   if (failed) process.exitCode = 1;
 }
 
-main().catch((error) => {
+if (process.argv[1] && fs.realpathSync(process.argv[1]) === fileURLToPath(import.meta.url)) main().catch((error) => {
   console.error(error instanceof Error ? error.message : error);
   process.exitCode = 1;
 });

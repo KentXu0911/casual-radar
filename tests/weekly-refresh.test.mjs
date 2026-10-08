@@ -8,7 +8,28 @@ import { fileURLToPath } from "node:url";
 import { buildGameEntityIndex, canonicalGameName, chunk, defaultEndDate, isLowConfidenceEventSource, loadTrackedGames, matchesEntityEvidence, queryNamesForGame, resolveRange, validateDailyRefresh, validateRefresh } from "../scripts/weekly-refresh-lib.mjs";
 import { acquireRefreshLock, writeRefreshReport } from "../scripts/refresh-runner-lib.mjs";
 import { buildAnomalyAttributionBundle } from "../scripts/anomaly-attribution-lib.mjs";
-import { normalizeResearchRow, normalizeRow, parseResponseRows, queryText } from "../scripts/fetch-databrain-events.mjs";
+import { normalizeResearchRow, normalizeRow, parseResponseRows, queryText, collectBatchResults } from "../scripts/fetch-databrain-events.mjs";
+import { validateMetricCheckpoint } from "../scripts/weekly-refresh-lib.mjs";
+
+test("checkpoint resume rejects stale, partial or differently scoped collection", () => {
+  const now = new Date("2026-10-08T08:00:00Z"), range = { start: "2026-06-26", end: "2026-10-07" };
+  const manifest = { created_at: now.toISOString(), query_range: [range.start, range.end], batches: [{ status: "complete", bi_data_parts: 1, session_id: "real-session", file: "databrain_latest_90d_batch1.json", games: [{ canonical: "Demo" }] }] };
+  assert.doesNotThrow(() => validateMetricCheckpoint(manifest, range, [{ canonical: "Demo" }], now));
+  assert.throws(() => validateMetricCheckpoint({ ...manifest, created_at: "2026-10-07T08:00:00Z" }, range, [{ canonical: "Demo" }], now), /today/);
+  assert.throws(() => validateMetricCheckpoint(manifest, range, [{ canonical: "Another" }], now), /scope/);
+  assert.throws(() => validateMetricCheckpoint({ ...manifest, batches: [{ ...manifest.batches[0], status: "failed" }] }, range, [{ canonical: "Demo" }], now), /incomplete/);
+});
+
+test("bounded batch queries preserve order and report failures without losing other results", async () => {
+  let running = 0, maximum = 0;
+  const results = await collectBatchResults([0, 1, 2, 3, 4], async value => {
+    running++; maximum = Math.max(maximum, running);
+    await new Promise(resolve => setTimeout(resolve, 5)); running--;
+    if (value === 2) throw new Error("denied"); return value * 10;
+  }, 3);
+  assert.equal(maximum, 3);
+  assert.deepEqual(results.map(result => result.result ?? result.error.message), [0, 10, "denied", 30, 40]);
+});
 
 test("rejects non-game homonyms while retaining actual product updates", () => {
   const games = ["PEAK", "珊瑚岛", "WePlay"].map(name => ({ name }));

@@ -62,3 +62,52 @@ test("content versions stay stable on rebuild and change automatically with data
     assert.equal(s.invoke("prepare-release.mjs").status, 0); assert.notEqual(JSON.parse(fs.readFileSync(file)).version, JSON.parse(original).version);
   } finally { s.remove(); }
 });
+
+test("DataBrain collectors reject denied or empty responses instead of claiming coverage", () => {
+  const s = sandbox();
+  try {
+    const mock = path.join(s.root, "mock-fetch.mjs");
+    const invoke = (script, mode) => {
+      const response = mode === "denied"
+        ? 'globalThis.fetch = async () => new Response("denied", { status: 403 });'
+        : 'globalThis.fetch = async () => new Response(\'data: {"result":{"artifact":{"parts":[]}}}\\n\\n\', { status: 200 });';
+      fs.writeFileSync(mock, response + '\nconst mockFetch = globalThis.fetch; globalThis.fetch = async (url, options) => { const fs = await import("node:fs"); fs.writeFileSync("request.json", options.body); return mockFetch(); };');
+      return spawnSync(process.execPath, ["--import", mock, path.join(s.root, "scripts", script), "--games=糖豆人", "--batch-size=1", `--output-root=${path.join(s.root, "outputs")}`], {
+        cwd: s.root, encoding: "utf8", env: { ...process.env, DATABRAIN_TOKEN: "test-token" },
+      });
+    };
+    for (const mode of ["denied", "empty"]) {
+      const events = invoke("fetch-databrain-events.mjs", mode);
+      assert.notEqual(events.status, 0, events.stdout);
+      const bundle = JSON.parse(fs.readFileSync(path.join(s.root, "public/databrain_events.json")));
+      assert.equal(bundle.meta.failed_batches.length, 1);
+      assert.deepEqual(bundle.meta.completed_batches, []);
+      const metrics = invoke("fetch-databrain-trends.mjs", mode);
+      assert.notEqual(metrics.status, 0, metrics.stdout);
+      const manifest = JSON.parse(fs.readFileSync(path.join(s.root, "outputs/databrain_latest_90d_manifest.json")));
+      assert.equal(manifest.batches[0].status, "failed");
+      const request = JSON.parse(fs.readFileSync(path.join(s.root, "request.json")));
+      assert.ok(Math.abs(Date.now() - Date.parse(request.params.metadata.date_time)) < 60000, "DataBrain receives actual execution time");
+    }
+    const raw = fs.readdirSync(path.join(s.root, ".automation/databrain-events"));
+    assert.equal(raw.length, 2, "Both empty-response attempts are retained for diagnosis");
+  } finally { s.remove(); }
+});
+
+test("partial metric returns distinguish refreshed, retained and unavailable products", () => {
+  const s = sandbox();
+  try {
+    const outputs = path.join(s.root, "outputs"); fs.mkdirSync(outputs);
+    fs.writeFileSync(path.join(s.root, "public/databrain_latest_metrics.json"), JSON.stringify({ meta: {}, mobile_games: { "蛋仔派对": { date: "2026-09-30", dau: 123 } }, pc_games: {} }));
+    const manifest = { query_range: ["2026-10-01", "2026-10-07"], batches: [{ status: "complete", file: "batch.json", games: ["糖豆人", "蛋仔派对", "Project63"].map(canonical => ({ canonical })) }] };
+    fs.writeFileSync(path.join(outputs, "databrain_latest_90d_manifest.json"), JSON.stringify(manifest));
+    fs.writeFileSync(path.join(outputs, "batch.json"), JSON.stringify({ sessionId: "test-session", system_url: "https://example.com/session", events: [{ result: { artifact: { parts: [{ type: "data", data: { type: "bi_data", value: [{ data: { data: [{ game_name: "糖豆人", game_type: "mobile", granularity: "daily", metric: "dau", date: "2026-10-07", value: 456, platform: "all", source: "test" }] } }] } }] } } }] }));
+    const result = s.invoke("build-latest-databrain.mjs", "--merge", `--output-root=${outputs}`, `--bi-root=${path.join(s.root, "bi_data")}`);
+    assert.equal(result.status, 0, result.stderr);
+    const metrics = JSON.parse(fs.readFileSync(path.join(s.root, "public/databrain_latest_metrics.json")));
+    assert.deepEqual(metrics.meta.refresh_coverage.returned_metric_games, ["糖豆人"]);
+    assert.deepEqual(metrics.meta.refresh_coverage.retained_previous_games, ["蛋仔派对"]);
+    assert.deepEqual(metrics.meta.refresh_coverage.no_metric_returned_games, ["Project63"]);
+    assert.equal(metrics.mobile_games["蛋仔派对"].date, "2026-09-30");
+  } finally { s.remove(); }
+});
