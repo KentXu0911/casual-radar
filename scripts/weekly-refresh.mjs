@@ -129,6 +129,7 @@ function main() {
     }
 
     run("同步已核验新品的厂商归属", process.execPath, ["scripts/sync-studio-associations.mjs"]);
+    run("归并已核验首曝 PV 与实机", process.execPath, ["scripts/sync-pipeline-reveal-media.mjs"]);
     const after = snapshotSummary(publicRoot);
     const errors = validateRefresh(before, after, { ...fetchRange, windowDays });
     if (errors.length) throw new Error(`安全校验未通过：${errors.join("；")}`);

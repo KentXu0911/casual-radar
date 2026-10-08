@@ -2,16 +2,21 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import ts from 'typescript';
+import { synchronizeRevealMedia } from '../scripts/pipeline-reveal-media-lib.mjs';
 const root = new URL('../', import.meta.url);
 const read = file => JSON.parse(fs.readFileSync(new URL(file, root)));
 function mediaBuilder() {
   const page = fs.readFileSync(new URL('app/page.tsx', root), 'utf8');
   const source = page.slice(page.indexOf('function lifecyclePhase('), page.indexOf('function ProjectProgressMedia('));
   const js = ts.transpileModule(source, { compilerOptions: { target: ts.ScriptTarget.ES2022 } }).outputText;
+  const recordText = (item, key) => typeof item[key] === 'string' ? item[key] : '';
+  const kindSource = page.slice(page.indexOf('function evidenceKind('), page.indexOf('function isProductEventEvidence('));
+  const kindJs = ts.transpileModule(kindSource, { compilerOptions: { target: ts.ScriptTarget.ES2022 } }).outputText;
+  const kind = new Function('recordText', kindJs + '; return evidenceKind;')(recordText);
   return new Function('recordText', 'dateKey', 'shortDate', 'readableHeadline', 'timelineStatus', 'evidenceKind', js + '; return buildProgressMediaNodes;')(
     (item, key) => typeof item[key] === 'string' ? item[key] : '',
     value => typeof value === 'string' ? value.slice(0, 10) : '',
-    value => value.replaceAll('-', '.'), value => value, item => item.status || 'confirmed', () => 'video'
+    value => value.replaceAll('-', '.'), value => value, item => item.status || 'confirmed', kind
   );
 }
 test('new test footage links to its verified round without changing the test date', () => {
@@ -35,6 +40,53 @@ test('new test footage links to its verified round without changing the test dat
     assert.ok(result.unlinkedMedia.length > 0);
     assert.equal(item.stage_date, null);
   }
+});
+test('a primary reveal video renders as evidence while a text-only announcement stays a source link', () => {
+  const build = mediaBuilder();
+  const pv = {date:'2026-09-24',type:'首次公开',title:'首曝 PV',url:'https://www.bilibili.com/video/BV1yph76uEdF/'};
+  const result = build([pv], [pv]);
+  assert.equal(result.nodes[0].evidence.length, 1);
+  assert.equal(result.nodes[0].evidence[0].evidence_kind, 'video');
+  const report = build([{...pv,url:'https://example.com/announcement'}], []);
+  assert.equal(report.nodes[0].evidence.length, 0);
+});
+test('a reveal without a verified target does not attach to a nearby test, and linked media is never truncated', () => {
+  const build = mediaBuilder();
+  const milestone = {date:'2026-09-20',type:'首次测试',title:'首测开启'};
+  assert.equal(build([milestone],[{date:'2026-09-19',type:'首曝PV',url:'https://example.com/pv'}]).nodes[0].evidence.length,0);
+  assert.equal(build([milestone],[{date:'2026-09-20',type:'首曝PV',url:'https://example.com/pv'}]).unlinkedMedia.length,1);
+  const videos = Array.from({length:6},(_,i)=>({date:'2026-09-24',milestone_date:'2026-09-20',url:`https://www.bilibili.com/video/test${i}/`,type:'实机'}));
+  assert.equal(build([milestone],videos).nodes[0].evidence.length,6);
+});
+test('verified reveal media survives a regenerated detail and keeps upload dates separate from test dates', () => {
+  const archive = read('public/pipeline-reveal-media.json');
+  const dashboard = read('public/dashboard_data.json');
+  const games = read('public/games.json');
+  const build = mediaBuilder();
+  for (const [name, entry] of Object.entries(archive.products)) {
+    const detail = dashboard.pipelineDetails[name];
+    for (const video of entry.videos) {
+      const result = build(detail.testing.records,detail.gameplay_videos);
+      const node = result.nodes.find(x=>x.dateKeys.includes(video.milestone_date));
+      assert.equal(node?.phase,'project',name);
+      assert.ok(node.evidence.some(x=>x.url===video.url && x.evidence_kind==='video'),name);
+      for (const document of [dashboard,games]) {
+        const game = document.games.find(x=>x.name===name);
+        if (game) assert.ok(game.intelligence.videos.some(x=>x.url===video.url),name);
+      }
+    }
+  }
+  const fog = dashboard.pipelineDetails['雾海之下'];
+  const footage = fog.gameplay_videos.find(v=>v.url.includes('BV1JJMy62E5C'));
+  assert.equal(footage.milestone_date,'2026-08-05');
+  assert.equal(fog.testing.records.find(x=>x.type==='首次测试').date,'2026-08-17');
+  const fresh = {pipelineDetails:{'奇遇动物城':{testing:{records:[]}}},games:[]};
+  synchronizeRevealMedia(fresh,null,archive);
+  const once = structuredClone(fresh);
+  synchronizeRevealMedia(fresh,null,archive);
+  assert.deepEqual(fresh,once);
+  assert.equal(fresh.pipelineDetails['奇遇动物城'].testing.records[0].date,'2026-09-24');
+  assert.equal(fresh.pipelineDetails['奇遇动物城'].gameplay_videos.length,1);
 });
 test('an explicit missing or unconfirmed video target never falls onto a nearby test', () => {
   const build = mediaBuilder();

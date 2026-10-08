@@ -184,7 +184,7 @@ test("promoted product details retain sourced gameplay, team and real lifecycle 
     assert.equal(detail.assessment.source.url, product.intelligence.recent_articles.find((article) => article.title === detail.assessment.source.title)?.url);
     assert.notEqual(detail.assessment.source.url, "https://ai.xianjianwendao.com/kb/mcp/mcp");
     for (const record of detail.testing.records) {
-      assert.match(record.date, /^2026-\d{2}-\d{2}$/);
+      assert.match(record.date, /^20\d{2}-\d{2}-\d{2}$/);
       assert.match(record.url, /^https?:\/\//);
     }
   }
@@ -194,7 +194,7 @@ test("promoted product details retain sourced gameplay, team and real lifecycle 
   assert.match(dashboard.pipelineDetails["源初之结"].analysis.readiness, /媒体线下试玩/);
   assert.match(dashboard.pipelineDetails["奇遇动物城"].team.experience, /游戏葡萄/);
   assert.ok(dashboard.pipelineDetails["蓝色星原：旅谣"].media_reports.some((report) => report.source === "游戏葡萄"));
-  assert.equal(dashboard.pipelineDetails["蓝色星原：旅谣"].testing.records[0].date, "2026-09-17");
+  assert.equal(dashboard.pipelineDetails["蓝色星原：旅谣"].testing.records.find(record => record.type === "三测").date, "2026-09-17");
   assert.equal(dashboard.pipelineDetails["时之铃"].stage_date, null);
   assert.equal(dashboard.pipelineDetails["时之铃"].media_reports[0].timeline_date_basis, "report_date");
   assert.equal(dashboard.pipelineDetails["火人冲冲冲"].stage_date, null);

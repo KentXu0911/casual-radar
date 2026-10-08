@@ -283,7 +283,7 @@ type RecentLaunchEntry = {
 };
 // Keep the preview from reusing a stale JSON response after an icon refresh.
 // Bump this value whenever the static data bundle is regenerated.
-const DATA_VERSION = "20261008-pipeline-groups-1";
+const DATA_VERSION = "20261008-reveal-media-1";
 
 const PIPELINE_STATUS_PATTERN = /在研|研发|测试|首测|二测|内测|删档|不删档|冒泡|预约|未上线|Early Access|\bEA\b|试玩|上线前|上线验证|公测预约/u;
 const PIPELINE_VALIDATION_GROUP = "试玩验证样本";
@@ -716,7 +716,7 @@ function timelineRange(items: Array<Record<string, unknown>>) {
 function timelineEvidenceItem(item: Record<string, unknown>): Record<string, string> | null {
   const text = `${recordText(item, "type")} ${recordText(item, "kind")} ${recordText(item, "title")} ${recordText(item, "source")}`;
   const url = recordText(item, "url");
-  if (!url || !/测评|评测|实机|体验|复盘|回顾|试玩|媒体|观察|GameLook|17173|游戏茶馆|游民星空/i.test(text)) return null;
+  if (!url || (evidenceKind(item) !== "video" && !/测评|评测|实机|体验|复盘|回顾|试玩|媒体|观察|GameLook|17173|游戏茶馆|游民星空/i.test(text))) return null;
   return {
     date: recordText(item, "date"),
     url,
@@ -784,7 +784,7 @@ function condensedProgressNodes(milestones: Array<Record<string, unknown>>) {
     node.planned = node.items.every((item) => timelineStatus(item) === "planned");
     node.evidence = node.items
       .map(timelineEvidenceItem)
-      .filter((item): item is Record<string, string> => Boolean(item) && item?.url !== node.url);
+      .filter((item): item is Record<string, string> => Boolean(item) && (item?.url !== node.url || item.evidence_kind === "video"));
     return node;
   });
   return compacted.sort((a, b) => a.sortDate.localeCompare(b.sortDate));
@@ -794,13 +794,15 @@ function buildProgressMediaNodes(milestones: Array<Record<string, unknown>>, med
   const nodes = condensedProgressNodes(milestones);
   const unlinkedMedia: Array<Record<string, string>> = [];
   media.forEach((item) => {
+    const reveal = /首曝|首次公开|首支.*(?:PV|预告)|announcement trailer|reveal trailer/i.test(`${item.type || ""} ${item.title || ""}`);
     const linkedDate = dateKey(item.milestone_date || item.date);
     let target = nodes.find((node) => linkedDate && node.dateKeys.includes(linkedDate));
+    if (reveal && !item.milestone_date && target?.phase !== "project") target = undefined;
     if (!target && linkedDate && !item.milestone_date && item.node_link_status !== "unconfirmed") {
       const linkedDay = timelineDay(linkedDate);
       target = [...nodes]
         .map((node) => ({ node, distance: Math.min(...node.dateKeys.map((value) => Math.abs(timelineDay(value) - linkedDay))) }))
-        .filter((entry) => Number.isFinite(entry.distance) && entry.distance <= 45)
+        .filter((entry) => Number.isFinite(entry.distance) && entry.distance <= 45 && (!reveal || entry.node.phase === "project"))
         .sort((a, b) => a.distance - b.distance)[0]?.node;
     }
     if (item.node_link_status === "unconfirmed") target = undefined;
@@ -811,8 +813,7 @@ function buildProgressMediaNodes(milestones: Array<Record<string, unknown>>, med
     const seen = new Set<string>();
     node.evidence = node.evidence
       .sort((a, b) => (a.evidence_kind === b.evidence_kind ? 0 : a.evidence_kind === "video" ? -1 : 1))
-      .filter((item) => Boolean(item.url) && !seen.has(item.url) && Boolean(seen.add(item.url)))
-      .slice(0, 4);
+      .filter((item) => Boolean(item.url) && !seen.has(item.url) && Boolean(seen.add(item.url)));
   });
   return { nodes, unlinkedMedia };
 }

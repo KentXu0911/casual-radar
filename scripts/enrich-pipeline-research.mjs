@@ -1,4 +1,5 @@
 import { readFile, writeFile } from "node:fs/promises";
+import { synchronizeRevealMedia } from "./pipeline-reveal-media-lib.mjs";
 
 const DATA_PATH = new URL("../public/dashboard_data.json", import.meta.url);
 const data = JSON.parse(await readFile(DATA_PATH, "utf8"));
@@ -647,5 +648,6 @@ data.pipelineMeta.research_updated_at = "2026-08-25";
 data.pipelineMeta.structured_assessment_count = Object.values(data.pipelineDetails).filter((item) => item.assessment).length;
 data.pipelineMeta.grp_reports = [76, 131, 145, 158, 163, 169];
 
+synchronizeRevealMedia(data, null, JSON.parse(await readFile(new URL("../public/pipeline-reveal-media.json", import.meta.url), "utf8")));
 await writeFile(DATA_PATH, `${JSON.stringify(data, null, 2)}\n`);
 console.log(`Enriched ${data.pipelineMeta.structured_assessment_count} pipeline assessments.`);

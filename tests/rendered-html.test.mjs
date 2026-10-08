@@ -837,7 +837,7 @@ test("shows Shan Hai Journey testing and team source details", async () => {
   assert.ok(shanhai.testing.records.some((record) => record.title.includes("代号：奇旅")));
   assert.equal(shanhai.testing.platforms, "PC / iOS / Android");
   assert.equal(shanhai.testing.records.length, 6);
-  assert.equal(shanhai.gameplay_videos.length, 2);
+  assert.ok(shanhai.gameplay_videos.some(video => video.milestone_date === "2024-08-21" && video.url.includes("BV1f6eueKEUR")));
   assert.equal(shanhai.gameplay_videos.find((video) => video.url.includes("BV15KTv6rEe3"))?.milestone_date, "2026-07-02");
   assert.equal(shanhai.gameplay_videos.find((video) => video.url.includes("L35NJQOH0526D7OK"))?.milestone_date, "2026-07-24");
   const lilliputVideos = dashboard.pipelineDetails["粒粒的小人国"].gameplay_videos;

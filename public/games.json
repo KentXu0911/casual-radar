@@ -10572,6 +10572,22 @@
             "duration_seconds": "303",
             "version_verified": "true",
             "milestone_date": "2026-09-20"
+          },
+          {
+            "title": "《星布谷地》 宜居PV：星球很小，生活恰好",
+            "type": "官方首曝 PV",
+            "date": "2025-09-25",
+            "published_date": "2025-09-25",
+            "milestone_date": "2025-09-25",
+            "url": "https://www.bilibili.com/video/BV1hjJQzwEq8/",
+            "source": "Bilibili · 星布谷地",
+            "platform": "Bilibili",
+            "evidence_kind": "video",
+            "verified_at": "2026-10-08",
+            "duration_seconds": "175",
+            "publisher_id": "3546622923377024",
+            "node_link_status": "matched",
+            "summary": "已核验原始发布者、标题与发布时间；此为首曝公开影像，不代表玩家测试版本。"
           }
         ],
         "resources": [
@@ -10745,14 +10761,6 @@
         "status": "当前文章库未检索到直接命中",
         "videos": [
           {
-            "title": "《粒粒的小人国》首曝PV&实机演示丨世界无限放大，烦恼统统变小",
-            "url": "https://www.bilibili.com/video/BV12Ap2zjE5C/",
-            "platform": "B站",
-            "date": "2025-09-24",
-            "type": "official",
-            "replacement_note": "替代地址"
-          },
-          {
             "date": "2026-09-22",
             "published_date": "2026-09-22",
             "source": "Bilibili · 胖墩和喵喵",
@@ -10781,6 +10789,22 @@
             "duration_seconds": "60",
             "version_verified": "true",
             "milestone_date": "2026-09-22"
+          },
+          {
+            "title": "《粒粒的小人国》首曝PV&实机演示丨世界无限放大，烦恼统统变小",
+            "type": "官方首曝 PV 与实机演示",
+            "date": "2025-09-24",
+            "published_date": "2025-09-24",
+            "milestone_date": "2025-09-24",
+            "url": "https://www.bilibili.com/video/BV12Ap2zjE5C/",
+            "source": "Bilibili · 粒粒的小人国",
+            "platform": "Bilibili",
+            "evidence_kind": "video",
+            "verified_at": "2026-10-08",
+            "duration_seconds": "750",
+            "publisher_id": "3546939362642175",
+            "node_link_status": "matched",
+            "summary": "已核验原始发布者、标题与发布时间；此为首曝公开影像，不代表玩家测试版本。"
           }
         ],
         "resources": [
@@ -11717,6 +11741,22 @@
             "platform": "B站",
             "date": "2026-07-29",
             "type": "showcase"
+          },
+          {
+            "title": "《崩坏：因缘精灵》结缘PV：相伴同行",
+            "type": "官方结缘 PV（首次公开）",
+            "date": "2025-08-29",
+            "published_date": "2025-08-29",
+            "milestone_date": "2025-08-29",
+            "url": "https://www.bilibili.com/video/BV1azeozQEzx/",
+            "source": "Bilibili · 崩坏因缘精灵",
+            "platform": "Bilibili",
+            "evidence_kind": "video",
+            "verified_at": "2026-10-08",
+            "duration_seconds": "362",
+            "publisher_id": "3546886017387331",
+            "node_link_status": "matched",
+            "summary": "已核验原始发布者、标题与发布时间；此为首曝公开影像，不代表玩家测试版本。"
           }
         ],
         "media_coverage": 6,
@@ -12330,20 +12370,28 @@
         ],
         "videos": [
           {
-            "title": "《代号：奇旅》首曝PV | 烦恼暂停，上岛数云！",
-            "url": "https://www.bilibili.com/video/BV1f6eueKEUR/",
-            "platform": "B站",
-            "date": "2024-08-21",
-            "type": "official",
-            "replacement_note": "官方替代"
-          },
-          {
             "title": "「冒泡测试」定档7月24日！",
             "url": "https://www.bilibili.com/video/BV15KTv6rEe3/",
             "platform": "B站",
             "date": "2026-07-02",
             "type": "showcase",
             "replacement_note": "官方替代"
+          },
+          {
+            "title": "《代号：奇旅》首曝PV | 烦恼暂停，上岛数云！",
+            "type": "官方首曝 PV（旧名：代号奇旅）",
+            "date": "2024-08-21",
+            "published_date": "2024-08-21",
+            "milestone_date": "2024-08-21",
+            "url": "https://www.bilibili.com/video/BV1f6eueKEUR/",
+            "source": "Bilibili · 山海奇旅官方",
+            "platform": "Bilibili",
+            "evidence_kind": "video",
+            "verified_at": "2026-10-08",
+            "duration_seconds": "176",
+            "publisher_id": "3546735506885365",
+            "node_link_status": "matched",
+            "summary": "已核验原始发布者、标题与发布时间；此为首曝公开影像，不代表玩家测试版本。"
           }
         ],
         "media_coverage": 4,
@@ -13145,6 +13193,17 @@
             "type": "内部报告",
             "url": "https://grp.woa.com/report.html?id=164",
             "summary": "首测包括9种小游戏入口，以装扮为主要养成追求；广场互动有助陌生人交流，但庄园目标、自由度与长期内容不足。国内首测尚未实装商业化，不能用海外下载量推断国内留存和收入。"
+          }
+        ],
+        "videos": [
+          {
+            "title": "官方首曝 PV：预约开启",
+            "url": "https://game.xiaomi.com/viewpoint/1683503284_1776999173117_16",
+            "platform": "小米游戏中心 · 官方账号",
+            "date": "2026-04-24",
+            "milestone_date": "2026-04-24",
+            "evidence_kind": "video",
+            "type": "首曝 PV（非测试录屏）"
           }
         ]
       },
@@ -14652,7 +14711,24 @@
             "type": "数据"
           }
         ],
-        "status": "已按官方商店与 DataBrain 交叉核验"
+        "status": "已按官方商店与 DataBrain 交叉核验",
+        "videos": [
+          {
+            "url": "https://www.youtube.com/watch?v=Y4nq2iN6ZmU",
+            "title": "My Time at Evershine Kickstarter is Now Live! – New Trailer Released!",
+            "date": "2024-09-24",
+            "published_date": "2024-09-24",
+            "milestone_date": "2024-09-24",
+            "type": "官方众筹预告（非玩家测试录屏）",
+            "source": "YouTube · My Time series（Pathea）",
+            "platform": "YouTube",
+            "evidence_kind": "video",
+            "duration_seconds": "131",
+            "verified_at": "2026-10-08",
+            "node_link_status": "matched",
+            "summary": "Pathea 官方产品页嵌入此预告；原始上传为 2024-09-24，区别于 9 月 17 日文字公布。"
+          }
+        ]
       },
       "data_coverage": {
         "metrics_fields": [],
@@ -15128,7 +15204,25 @@
             "type": "MCP 数据源"
           }
         ],
-        "status": "产品与进展信息已按公开信源核验；暂无 DataBrain 日频量化覆盖。"
+        "status": "产品与进展信息已按公开信源核验；暂无 DataBrain 日频量化覆盖。",
+        "videos": [
+          {
+            "title": "《奇遇动物城》游戏首曝PV丨搬进动物城，遇见无限可能",
+            "type": "官方首曝 PV（非玩家测试录屏）",
+            "date": "2026-09-24",
+            "published_date": "2026-09-24",
+            "milestone_date": "2026-09-24",
+            "url": "https://www.bilibili.com/video/BV1yph76uEdF/",
+            "source": "Bilibili · 奇遇动物城",
+            "platform": "Bilibili",
+            "evidence_kind": "video",
+            "verified_at": "2026-10-08",
+            "duration_seconds": "145",
+            "publisher_id": "3707048153844209",
+            "node_link_status": "matched",
+            "summary": "已核验原始发布者、标题与发布时间；此为首曝公开影像，不代表玩家测试版本。"
+          }
+        ]
       },
       "data_coverage": {
         "metrics_fields": [],
@@ -15304,6 +15398,22 @@
             "verified_at": "2026-10-08",
             "duration_seconds": "570",
             "version_verified": "true"
+          },
+          {
+            "title": "《未眠野》首曝PV | 万物都在回应，世界没有答案",
+            "type": "官方首曝 PV（非玩家测试录屏）",
+            "date": "2026-09-09",
+            "published_date": "2026-09-09",
+            "milestone_date": "2026-09-09",
+            "url": "https://www.bilibili.com/video/BV18gtJ6LECq/",
+            "source": "Bilibili · 未眠野",
+            "platform": "Bilibili",
+            "evidence_kind": "video",
+            "verified_at": "2026-10-08",
+            "duration_seconds": "296",
+            "publisher_id": "3707030810396819",
+            "node_link_status": "matched",
+            "summary": "已核验原始发布者、标题与发布时间；此为首曝公开影像，不代表玩家测试版本。"
           }
         ]
       },
@@ -15632,7 +15742,25 @@
             "type": "MCP 数据源"
           }
         ],
-        "status": "产品与进展信息已按公开信源核验；暂无 DataBrain 日频量化覆盖。"
+        "status": "产品与进展信息已按公开信源核验；暂无 DataBrain 日频量化覆盖。",
+        "videos": [
+          {
+            "title": "源初之结首曝PV「诸神入刃，斩尽死结」",
+            "type": "官方首曝 PV（实机与引擎内过场混合）",
+            "date": "2026-08-26",
+            "published_date": "2026-08-26",
+            "milestone_date": "2026-08-26",
+            "url": "https://www.bilibili.com/video/BV1erhL6EE6k/",
+            "source": "Bilibili · 源初之结",
+            "platform": "Bilibili",
+            "evidence_kind": "video",
+            "verified_at": "2026-10-08",
+            "duration_seconds": "347",
+            "publisher_id": "3706979079949044",
+            "node_link_status": "matched",
+            "summary": "官方说明：包含实机演示与引擎内过场动画，均以 UE5 录制；开发中画面不代表最终形态。"
+          }
+        ]
       },
       "data_coverage": {
         "metrics_fields": [],
@@ -15919,6 +16047,22 @@
             "verified_at": "2026-10-08",
             "duration_seconds": "582",
             "version_verified": "true"
+          },
+          {
+            "title": "《蓝色星原：旅谣》首曝PV＆实机演示",
+            "type": "官方首曝 PV 与实机演示",
+            "date": "2024-03-20",
+            "published_date": "2024-03-20",
+            "milestone_date": "2024-03-20",
+            "url": "https://www.bilibili.com/video/BV1Jr421n7n4/",
+            "source": "Bilibili · 蓝色星原旅谣",
+            "platform": "Bilibili",
+            "evidence_kind": "video",
+            "verified_at": "2026-10-08",
+            "duration_seconds": "1758",
+            "publisher_id": "3546569016085336",
+            "node_link_status": "matched",
+            "summary": "已核验原始发布者、标题与发布时间；此为首曝公开影像，不代表玩家测试版本。"
           }
         ]
       },
