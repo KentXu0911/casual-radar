@@ -62,6 +62,7 @@ export function normalizeDiscovery(input, gamesDocument, options = {}) {
     throw new Error("游研所扫描缺少候选或已跟踪动态数组。");
   }
   const entityIndex = buildGameEntityIndex(gamesDocument.games || []);
+  const products = new Map((gamesDocument.games || []).map(game => [game.name, game]));
   const aliases = new Map();
   for (const entity of entityIndex.entities) {
     for (const name of [entity.canonical, ...entity.queryNames]) {
@@ -81,6 +82,7 @@ export function normalizeDiscovery(input, gamesDocument, options = {}) {
     const sourceUrl = validSourceUrl(row.source_url);
     if (!name || !publishedDate || !sourceUrl || publishedDate > scanDate || row.scope_status === "out_of_scope") return null;
     const tracked = matches.size === 1;
+    const product = tracked ? products.get(name) : null;
     const disposition = matches.size > 1 ? "身份冲突" : kind === "candidate" && tracked ? "已晋级" : kind === "tracked" && tracked ? "已跟踪" : "待人工核验";
     const key = `${kind}|${name}|${sourceUrl}`;
     if (seen.has(key)) return null;
@@ -95,10 +97,10 @@ export function normalizeDiscovery(input, gamesDocument, options = {}) {
       identity_status: matches.size > 1 ? "ambiguous_alias" : kind === "candidate" ? String(row.identity_status || (tracked ? "matched_tracked" : "unverified")) : tracked ? "matched_tracked" : String(row.identity_status || "unverified"),
       scope_status: row.scope_status === "in_scope" ? "in_scope" : "uncertain",
       scope_reason: String(row.scope_reason || "").trim(),
-      category: strings(row.category),
-      platform: strings(row.platform),
-      developer: String(row.developer || "").trim(),
-      publisher: String(row.publisher || "").trim(),
+      category: strings(product?.category || row.category),
+      platform: strings(product?.platform || row.platform),
+      developer: String(product?.developer || row.developer || "").trim(),
+      publisher: String(product?.publisher || row.publisher || "").trim(),
       disposition,
       metrics_status: "未接入 DataBrain",
     };

@@ -2438,7 +2438,7 @@ function YouyansuoSection({ discovery }: { discovery: YouyansuoDiscovery | null 
       <div className="youyansuo-column-head"><strong>{title}</strong><b>{count}</b></div>
       <div className="youyansuo-list">{rows.length ? rows.map((item) => <article className="youyansuo-row" key={`${item.name}-${item.source_url}`}>
         <div className="youyansuo-row-top"><strong>{item.name}</strong><span>{item.disposition}</span></div>
-        <div className="youyansuo-row-meta"><time dateTime={item.published_date}>来源 {item.published_date}</time><span>{item.category.join(" / ") || (kind === "candidate" ? "品类待核验" : "已跟踪产品")}</span>{kind === "candidate" && <span>{item.identity_status.startsWith("confirmed") ? "身份已核验" : "身份待核验"}</span>}</div>
+        <div className="youyansuo-row-meta"><time dateTime={item.published_date}>来源 {item.published_date}</time><span>{item.category.join(" / ") || (kind === "candidate" ? "品类待核验" : "已跟踪产品")}</span>{kind === "candidate" && <span>{item.identity_status.startsWith("confirmed") ? "身份已核验" : item.identity_status === "matched_tracked" ? "已关联主池" : "身份待核验"}</span>}</div>
         <p>{item.summary}</p>
         <a href={item.source_url} target="_blank" rel="noreferrer" aria-label={`查看${item.name}的来源：${item.evidence_title}`}>{item.evidence_title || "查看来源"} <span aria-hidden="true">↗</span></a>
       </article>) : <p className="youyansuo-empty">本期暂无可核验报道</p>}</div>

@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "version": "747cf32b5a172f953552",
+  "version": "f6dba96527deea923198",
   "source_commit": null,
-  "generated_at": "2026-10-08T09:40:27.185Z",
+  "generated_at": "2026-10-08T09:43:44.672Z",
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "anomaly-attributions.json": "7fb5668a3b8358281bee3c2d8f1d1e775b9b7e36b1b99098b66aaed19ede63aa",
-    "content-health.json": "2401dae2b88e7b01cf06b1dc8a7c0408b6844f5b61c76b5eef9626b2739b456d",
+    "content-health.json": "67fbfea8eed9e68afcc982aa3216fa8744d4b0aa7f43330cc82e49b7f232f4f3",
     "dashboard_data.json": "595a46f3d7b87066531221fc475a846165da29f440a5690a83f8f06076a5c333",
     "databrain_events.json": "9d541a7db691715a9868bea6e5c35110a621c590037625bcd21ca5a5e39ae0fe",
     "databrain_latest_metrics.json": "5a75367ea939b8d6a68bd46349d9edfce60670878b52a0713e6d6036567ae324",
@@ -345,6 +345,6 @@
     "video-thumbnails/xiaomi-star-draw-second-test.jpg": "704028393e814a887f96e7e4c9d7416ccfe37f528546f13d11314fa8e2cc7ea3",
     "weekly_scan.json": "5449e93caa70e9b8cb5e0d263553c30a50be61f9f674ada3498c69be601004fb",
     "window.svg": "decf1cf7bb22b5c99c4857cfcd5718ce5465c4454166317589c83fc73df74b66",
-    "youyansuo_discovery.json": "eb47f319f92595f068157490aca571683155efc3ff776f4eb1b3723583d26bd2"
+    "youyansuo_discovery.json": "2f07b8af5fa1f8a9cb407f0f377096a0dfb1a45e868fed36619613c78e0cb253"
   }
 }

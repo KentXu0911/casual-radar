@@ -3,7 +3,7 @@
     "source": "youyansuo",
     "mode": "mcp_read_only",
     "scan_date": "2026-10-08",
-    "generated_at": "2026-10-08T09:39:04.826Z",
+    "generated_at": "2026-10-08T09:43:41.171Z",
     "status": "imported",
     "candidates": 2,
     "tracked_updates": 12,
@@ -189,10 +189,14 @@
       "identity_status": "matched_tracked",
       "scope_status": "in_scope",
       "scope_reason": "",
-      "category": [],
-      "platform": [],
-      "developer": "",
-      "publisher": "",
+      "category": [
+        "社交-多人合作类"
+      ],
+      "platform": [
+        "Android"
+      ],
+      "developer": "Qookka Entertainment Limited（Google Play开发主体）",
+      "publisher": "QOOKKA GAMES",
       "disposition": "已晋级",
       "metrics_status": "未接入 DataBrain"
     },
@@ -206,10 +210,14 @@
       "identity_status": "matched_tracked",
       "scope_status": "in_scope",
       "scope_reason": "",
-      "category": [],
-      "platform": [],
-      "developer": "",
-      "publisher": "",
+      "category": [
+        "社交-多人合作类"
+      ],
+      "platform": [
+        "PC/Steam"
+      ],
+      "developer": "FLEXUS",
+      "publisher": "FLEXUS",
       "disposition": "已晋级",
       "metrics_status": "未接入 DataBrain"
     }
@@ -225,10 +233,14 @@
       "identity_status": "matched_tracked",
       "scope_status": "in_scope",
       "scope_reason": "",
-      "category": [],
-      "platform": [],
-      "developer": "",
-      "publisher": "",
+      "category": [
+        "模拟经营类"
+      ],
+      "platform": [
+        "PC/Nintendo Switch 2/iOS/Android"
+      ],
+      "developer": "米哈游",
+      "publisher": "米哈游 (Cognosphere)",
       "disposition": "已跟踪",
       "metrics_status": "未接入 DataBrain"
     },
@@ -242,10 +254,14 @@
       "identity_status": "matched_tracked",
       "scope_status": "in_scope",
       "scope_reason": "",
-      "category": [],
-      "platform": [],
-      "developer": "",
-      "publisher": "",
+      "category": [
+        "社交-多人合作类"
+      ],
+      "platform": [
+        "Android"
+      ],
+      "developer": "Qookka Entertainment Limited（Google Play开发主体）",
+      "publisher": "QOOKKA GAMES",
       "disposition": "已跟踪",
       "metrics_status": "未接入 DataBrain"
     },
@@ -259,10 +275,14 @@
       "identity_status": "matched_tracked",
       "scope_status": "in_scope",
       "scope_reason": "",
-      "category": [],
-      "platform": [],
-      "developer": "",
-      "publisher": "",
+      "category": [
+        "模拟经营类"
+      ],
+      "platform": [
+        "PC/iOS/Android"
+      ],
+      "developer": "腾讯 (银之心工作室)",
+      "publisher": "腾讯",
       "disposition": "已跟踪",
       "metrics_status": "未接入 DataBrain"
     },
@@ -276,10 +296,14 @@
       "identity_status": "matched_tracked",
       "scope_status": "in_scope",
       "scope_reason": "",
-      "category": [],
-      "platform": [],
-      "developer": "",
-      "publisher": "",
+      "category": [
+        "模拟经营类"
+      ],
+      "platform": [
+        "PC/Steam"
+      ],
+      "developer": "Cozy Lives",
+      "publisher": "Free Lives",
       "disposition": "已跟踪",
       "metrics_status": "未接入 DataBrain"
     },
@@ -293,10 +317,14 @@
       "identity_status": "matched_tracked",
       "scope_status": "in_scope",
       "scope_reason": "",
-      "category": [],
-      "platform": [],
-      "developer": "",
-      "publisher": "",
+      "category": [
+        "捉宠类"
+      ],
+      "platform": [
+        "移动/小游戏"
+      ],
+      "developer": "莉莉丝",
+      "publisher": "莉莉丝",
       "disposition": "已跟踪",
       "metrics_status": "未接入 DataBrain"
     },
@@ -310,10 +338,14 @@
       "identity_status": "matched_tracked",
       "scope_status": "in_scope",
       "scope_reason": "",
-      "category": [],
-      "platform": [],
-      "developer": "",
-      "publisher": "",
+      "category": [
+        "社交-多人合作类"
+      ],
+      "platform": [
+        "PC/Steam"
+      ],
+      "developer": "FLEXUS",
+      "publisher": "FLEXUS",
       "disposition": "已跟踪",
       "metrics_status": "未接入 DataBrain"
     },
@@ -327,10 +359,14 @@
       "identity_status": "matched_tracked",
       "scope_status": "in_scope",
       "scope_reason": "",
-      "category": [],
-      "platform": [],
-      "developer": "",
-      "publisher": "",
+      "category": [
+        "自走棋"
+      ],
+      "platform": [
+        "移动端/抖音端（媒体报道）"
+      ],
+      "developer": "待核验",
+      "publisher": "凉屋游戏（早期发行，当前主体待核验）",
       "disposition": "已跟踪",
       "metrics_status": "未接入 DataBrain"
     },
@@ -344,10 +380,14 @@
       "identity_status": "matched_tracked",
       "scope_status": "in_scope",
       "scope_reason": "",
-      "category": [],
-      "platform": [],
-      "developer": "",
-      "publisher": "",
+      "category": [
+        "社交-多人合作类"
+      ],
+      "platform": [
+        "移动"
+      ],
+      "developer": "Supercell",
+      "publisher": "Supercell",
       "disposition": "已跟踪",
       "metrics_status": "未接入 DataBrain"
     },
@@ -361,10 +401,14 @@
       "identity_status": "matched_tracked",
       "scope_status": "in_scope",
       "scope_reason": "",
-      "category": [],
-      "platform": [],
-      "developer": "",
-      "publisher": "",
+      "category": [
+        "模拟经营类"
+      ],
+      "platform": [
+        "Android/iOS/PC"
+      ],
+      "developer": "猫爪拿铁工作室",
+      "publisher": "莉莉丝游戏",
       "disposition": "已跟踪",
       "metrics_status": "未接入 DataBrain"
     },
@@ -378,10 +422,14 @@
       "identity_status": "matched_tracked",
       "scope_status": "in_scope",
       "scope_reason": "",
-      "category": [],
-      "platform": [],
-      "developer": "",
-      "publisher": "",
+      "category": [
+        "社交-多人合作类"
+      ],
+      "platform": [
+        "Android/iOS/PC"
+      ],
+      "developer": "ZEALORY GAMES（成都小智游戏）",
+      "publisher": "悦然互动",
       "disposition": "已跟踪",
       "metrics_status": "未接入 DataBrain"
     },
@@ -395,10 +443,14 @@
       "identity_status": "matched_tracked",
       "scope_status": "in_scope",
       "scope_reason": "",
-      "category": [],
-      "platform": [],
-      "developer": "",
-      "publisher": "",
+      "category": [
+        "社交-多人合作类"
+      ],
+      "platform": [
+        "PC 首发"
+      ],
+      "developer": "米哈游",
+      "publisher": "米哈游",
       "disposition": "已跟踪",
       "metrics_status": "未接入 DataBrain"
     },
@@ -412,10 +464,14 @@
       "identity_status": "matched_tracked",
       "scope_status": "in_scope",
       "scope_reason": "",
-      "category": [],
-      "platform": [],
-      "developer": "",
-      "publisher": "",
+      "category": [
+        "捉宠类"
+      ],
+      "platform": [
+        "Android/iOS/PC"
+      ],
+      "developer": "积咪网络（蛮啾网络旗下）",
+      "publisher": "蛮奈网络",
       "disposition": "已跟踪",
       "metrics_status": "未接入 DataBrain"
     }

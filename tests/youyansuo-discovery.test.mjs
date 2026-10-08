@@ -79,10 +79,13 @@ test("the CLI never replaces a snapshot with a partial scan", () => {
 test("publication preserves editorial decisions and defers unapproved discoveries across scans", () => {
   const tracked = row("Project63", { scope_status: "in_scope" });
   const bundle = normalizeDiscovery(input({ candidates: [row("尚未核验的新游戏")], tracked_updates: [tracked] }), {
-    games: [{ name: "Project63" }],
+    games: [{ name: "Project63", category: "社交-多人合作类", platform: "Android", publisher: "QOOKKA GAMES" }],
   }, { today: "2026-09-28", publishApprovedOnly: true });
   assert.deepEqual(bundle.candidates.map(row => row.name), ["Project63"]);
   assert.equal(bundle.candidates[0].disposition, "已晋级");
+  assert.deepEqual(bundle.candidates[0].category, ["社交-多人合作类"]);
+  assert.deepEqual(bundle.candidates[0].platform, ["Android"]);
+  assert.equal(bundle.candidates[0].publisher, "QOOKKA GAMES");
   assert.deepEqual(bundle.tracked_updates.map(row => row.name), ["Project63"]);
   assert.equal(bundle.meta.pending_candidates, 1);
   assert.equal(bundle.meta.rejected_rows, 0);
