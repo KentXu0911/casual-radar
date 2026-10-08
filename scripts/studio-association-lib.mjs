@@ -26,6 +26,9 @@ export function synchronizeDiscoveredStudioProducts(dashboard, gamesDocument) {
     // Unknown and conflicting affiliations stay in the discovery bucket for review.
     if (matches.length !== 1) continue;
     const studio = matches[0];
+    for (const other of studios) {
+      if (other !== studio && other.known_pipeline) other.known_pipeline = other.known_pipeline.filter(entry => productName(entry) !== name);
+    }
     studio.known_pipeline ||= [];
     const added = !studio.known_pipeline.some((entry) => productName(entry) === name);
     if (added) studio.known_pipeline.push(name);
@@ -39,6 +42,9 @@ export function synchronizeDiscoveredStudioProducts(dashboard, gamesDocument) {
       if (other !== group && other.name !== "试玩验证样本") other.projects = other.projects.filter(entry => entry !== name);
     }
 
+    for (const cached of gamesDocument.meta?.studio_tracking?.domestic_majors?.studios || []) {
+      if (cached.name !== studio.name && cached.known_pipeline) cached.known_pipeline = cached.known_pipeline.filter(entry => productName(entry) !== name);
+    }
     const cachedStudio = gamesDocument.meta?.studio_tracking?.domestic_majors?.studios?.find((entry) => entry.name === studio.name);
     if (cachedStudio) {
       cachedStudio.known_pipeline ||= [];

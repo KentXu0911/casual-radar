@@ -79,3 +79,14 @@ test("snapshot without event IDs merges into curated records without duplication
   const merged = mergeVerifiedDetail({ testing: { records: [old] } }, { testing: { records: [{ date: old.date, type: old.type, title: old.title }] } });
   assert.equal(merged.testing.records.length, 1); assert.equal(merged.testing.records[0].milestone_id, "stable");
 });
+test("verified company correction removes stale associations from every studio view", () => {
+  const f = fixture();
+  f.dashboard.domesticStudios.push({ name: "新厂商", known_pipeline: [] });
+  const previous = structuredClone(f.dashboard);
+  f.dashboard.pipelineDetails["演示"].team.company = "新厂商";
+  synchronizeDiscoveredStudioProducts(f.dashboard, f.games);
+  assert.equal(f.dashboard.domesticStudios[0].known_pipeline.includes("演示"), false);
+  assert.equal(f.dashboard.domesticStudios[1].known_pipeline.includes("演示"), true);
+  assert.deepEqual(buildMediaQueue(f.dashboard, previous, f.archive), []);
+  assert.deepEqual(validateContent(f.dashboard, f.games, previous, f.archive), []);
+});

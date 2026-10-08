@@ -141,6 +141,16 @@
       "recheck_trigger": "核心玩法或产品身份发生明确变化后重新编辑核验",
       "name": "点点大冒险",
       "evidence_url": "http://mp.weixin.qq.com/s?__biz=MzU2ODg0NzI5NQ==&mid=2247491720&idx=1&sn=4cca00f11f86bf82745a2e747855cbdf&chksm=fd626e2af44ab83e134f84075d3f203a889b8d9e65e6c5cc0ebbfb40c4030df07456ca4ad1f8&scene=126&sessionid=0#rd"
+    },
+    {
+      "name": "王者万象棋",
+      "normalized_name": "王者万象棋",
+      "action": "exclude_candidate",
+      "scope": "candidate_duplicate",
+      "reason": "已在主池跟踪，避免作为新品候选重复展示；继续保留跟踪动态。",
+      "source": "既有看板候选去重规则",
+      "reviewed_at": "2026-10-08",
+      "recheck_trigger": "产品身份发生变化后重新核验"
     }
   ]
 }

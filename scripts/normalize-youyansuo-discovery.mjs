@@ -12,7 +12,7 @@ const OUT_OF_SCOPE_REASONS = new Map(decisions.decisions.filter(decision => deci
 export function discoveryExclusionReason(name) {
   return OUT_OF_SCOPE_REASONS.get(normalizeEntityName(String(name || ""))) || "";
 }
-const ALREADY_TRACKED_CANDIDATE_NAMES = new Set(["王者万象棋"]);
+const EXCLUDED_CANDIDATES = new Set(decisions.decisions.filter(decision => decision.action === "exclude_candidate").map(decision => decision.normalized_name || normalizeEntityName(decision.name)));
 
 function arg(name) {
   const inline = process.argv.find((value) => value.startsWith(`${name}=`));
@@ -72,7 +72,7 @@ export function normalizeDiscovery(input, gamesDocument, options = {}) {
   const seen = new Set();
   const normalize = (row, kind) => {
     const rawName = String(row.name || "").trim();
-    if (discoveryExclusionReason(rawName) || row.scope_status === "out_of_scope" || (kind === "candidate" && ALREADY_TRACKED_CANDIDATE_NAMES.has(rawName))) return null;
+    if (discoveryExclusionReason(rawName) || row.scope_status === "out_of_scope" || (kind === "candidate" && EXCLUDED_CANDIDATES.has(normalizeEntityName(rawName)))) return null;
     const matches = aliases.get(normalizeEntityName(rawName)) || new Set();
     const name = matches.size === 1 ? [...matches][0] : rawName;
     if (discoveryExclusionReason(name)) return null;

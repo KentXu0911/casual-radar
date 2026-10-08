@@ -150,6 +150,7 @@ export function validateContent(dashboard, games, previous, archive, decisions =
       if (record && video.milestone_date && record.date !== video.milestone_date) errors.push(`Wrong footage round: ${name}`);
     }
     const affiliations = allStudios.filter(studio => [studio.name, ...list(studio.company_aliases)].includes(detail.team?.company));
+    if (names.includes(name) && detail.team?.sources?.some(source => validUrl(source.url)) && affiliations.length === 1 && allStudios.some(studio => studio !== affiliations[0] && studio.known_pipeline?.some(value => value.replace(/（[^）]*）\s*$/, "").trim() === name))) errors.push(`Conflicting studio association: ${name}`);
     if (names.includes(name) && detail.team?.sources?.some(source => validUrl(source.url)) && affiliations.length === 1 && !affiliations[0].known_pipeline?.some(value => value.replace(/（[^）]*）\s*$/, "").trim() === name)) errors.push(`Missing studio association: ${name}`);
   }
   for (const [name, detail] of Object.entries(previous?.pipelineDetails || {})) {

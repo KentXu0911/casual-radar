@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "version": "de34a020902e74201cb9",
+  "version": "36c3c27ffb6f91cb0825",
   "source_commit": null,
-  "generated_at": "2026-10-08T07:47:05.094Z",
+  "generated_at": "2026-10-08T07:59:14.045Z",
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "anomaly-attributions.json": "641d7d684722a5842df51c0f4a738ce71ccd9fbc5b3553f54dd2ab6d6712652c",
@@ -15,7 +15,7 @@
     "databrain_trends.json": "3dcd4394105a0d10134937ebd05bd1aa1ab1b1bbb31219782adf0e5c2f2d35a3",
     "databrain_trends_90d.json": "a0f2d56776e7becacbfd791d7730a9b3ea874e05f1bf1844854cec20ba13a661",
     "development-profiles.json": "7a44422d353ac978e61b2b190acf58aaeb5e7bebddc79da902f151e98638ff23",
-    "editorial-decisions.json": "b6ad22a2d2df9d31d91bd42afc7e8b5d0eb0538b3c2492440ee13db8806e43af",
+    "editorial-decisions.json": "e765dcd2c8d3abc8f272dedbc3a5a749e5c8fd925d30db64675abff9f2f14b62",
     "favicon.svg": "e6d2e59b7b5bbb0342e0fb496dfc262decbfe4426bbb7b047aec8d467d1dc6f7",
     "file.svg": "1e0ae4d1a1ddfa36752988647b731e4abf150c414d069ec83c96fb0aaeff0307",
     "game-icons/001-fallguys.jpg": "12b7e6bbaf9a25dc629d4e99fb887d9c9a91ee30c2187b8e8de69c2e6f5fd988",
