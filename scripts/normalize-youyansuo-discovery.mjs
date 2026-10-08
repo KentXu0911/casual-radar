@@ -13,6 +13,7 @@ export function discoveryExclusionReason(name) {
   return OUT_OF_SCOPE_REASONS.get(normalizeEntityName(String(name || ""))) || "";
 }
 const EXCLUDED_CANDIDATES = new Set(decisions.decisions.filter(decision => decision.action === "exclude_candidate").map(decision => decision.normalized_name || normalizeEntityName(decision.name)));
+const APPROVED_CANDIDATES = new Set(decisions.decisions.filter(decision => decision.action === "include_candidate").map(decision => decision.normalized_name || normalizeEntityName(decision.name)));
 
 function arg(name) {
   const inline = process.argv.find((value) => value.startsWith(`${name}=`));
@@ -81,7 +82,7 @@ export function normalizeDiscovery(input, gamesDocument, options = {}) {
     if (!name || !publishedDate || !sourceUrl || publishedDate > scanDate || row.scope_status === "out_of_scope") return null;
     const tracked = matches.size === 1;
     const disposition = matches.size > 1 ? "身份冲突" : kind === "candidate" && tracked ? "已晋级" : kind === "tracked" && tracked ? "已跟踪" : "待人工核验";
-    const key = `${name}|${sourceUrl}`;
+    const key = `${kind}|${name}|${sourceUrl}`;
     if (seen.has(key)) return null;
     seen.add(key);
     return {
@@ -102,8 +103,26 @@ export function normalizeDiscovery(input, gamesDocument, options = {}) {
       metrics_status: "未接入 DataBrain",
     };
   };
-  const candidates = input.candidates.map((row) => normalize(row, "candidate")).filter(Boolean);
+  const normalizedCandidates = input.candidates.map((row) => normalize(row, "candidate")).filter(Boolean);
   const trackedUpdates = input.tracked_updates.map((row) => normalize(row, "tracked")).filter(Boolean);
+  const approved = row => APPROVED_CANDIDATES.has(normalizeEntityName(row.name));
+  const candidates = options.publishApprovedOnly
+    ? [...normalizedCandidates.filter(approved), ...input.tracked_updates.filter(approved).map(row => normalize(row, "candidate")).filter(Boolean)]
+    : normalizedCandidates;
+  const excludedRows = new Map();
+  for (const decision of decisions.decisions.filter(row => ["exclude", "exclude_candidate"].includes(row.action))) {
+    excludedRows.set(normalizeEntityName(decision.name), {
+      name: decision.name, scope_status: decision.action === "exclude" ? "out_of_scope" : "candidate_duplicate",
+      scope_reason: decision.reason, action: decision.action, source: decision.source,
+      reviewed_at: decision.reviewed_at, evidence_url: decision.evidence_url || null,
+      ...(decision.scope === "candidate_selection" ? { decision_source: "用户候选筛选" } : {}),
+    });
+  }
+  for (const row of [...input.candidates, ...input.tracked_updates]) {
+    if (row.scope_status === "out_of_scope" && !excludedRows.has(normalizeEntityName(row.name))) {
+      excludedRows.set(normalizeEntityName(row.name), { name: String(row.name || "").trim(), scope_status: "out_of_scope", scope_reason: String(row.scope_reason || "重点品类外产品，不进入游研所情报区。") });
+    }
+  }
   candidates.sort((a, b) => b.published_date.localeCompare(a.published_date));
   trackedUpdates.sort((a, b) => b.published_date.localeCompare(a.published_date));
   return {
@@ -115,12 +134,12 @@ export function normalizeDiscovery(input, gamesDocument, options = {}) {
       status: "imported",
       candidates: candidates.length,
       tracked_updates: trackedUpdates.length,
-      rejected_rows: input.candidates.length + input.tracked_updates.length - candidates.length - trackedUpdates.length,
+      rejected_rows: input.candidates.length + input.tracked_updates.length - normalizedCandidates.length - trackedUpdates.length,
+      pending_candidates: options.publishApprovedOnly ? normalizedCandidates.filter(row => !approved(row)).length : 0,
+      candidate_publication_policy: options.publishApprovedOnly ? "editorial_approval_required" : "draft",
       tool_calls: input.tool_calls,
       coverage_notes: input.coverage_notes || [],
-      excluded_rows: [...input.candidates, ...input.tracked_updates]
-        .filter((row) => discoveryExclusionReason(row.name) || row.scope_status === "out_of_scope")
-        .map((row) => ({ name: String(row.name || "").trim(), scope_status: "out_of_scope", scope_reason: discoveryExclusionReason(row.name) || String(row.scope_reason || "重点品类外产品，不进入游研所情报区。") })),
+      excluded_rows: [...excludedRows.values()],
       coverage_note: "游研所提供产品情报；报道日期不等于事件发生日期，缺失指标不由 MCP 填充。",
     },
     candidates,
@@ -135,7 +154,7 @@ function main() {
   const outputPath = path.resolve(arg("--output") || path.join(publicRoot, "youyansuo_discovery.json"));
   const input = JSON.parse(fs.readFileSync(inputPath, "utf8"));
   const games = JSON.parse(fs.readFileSync(path.join(publicRoot, "games.json"), "utf8"));
-  const bundle = normalizeDiscovery(input, games, { allowHistorical: process.argv.includes("--allow-historical") });
+  const bundle = normalizeDiscovery(input, games, { allowHistorical: process.argv.includes("--allow-historical"), publishApprovedOnly: true });
   fs.mkdirSync(path.dirname(outputPath), { recursive: true });
   const temporary = `${outputPath}.${process.pid}.tmp`;
   fs.writeFileSync(temporary, `${JSON.stringify(bundle, null, 2)}\n`);

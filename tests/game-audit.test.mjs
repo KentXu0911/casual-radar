@@ -91,7 +91,7 @@ test("keeps audited DataBrain coverage platform-specific and leaves real gaps em
   assert.equal(pcTrend.activity.label, "PC 日均 ACU");
   assert.ok(pcTrend.activity.points.length >= 4);
   assert.match(games.games.find((game) => game.name === "Aniimo").data_coverage.metrics_status, /PC 日频序列/);
-  assert.ok(events.games.Aniimo.some((event) => event.title.includes("《伊莫》")));
+  assert.ok(events.games.Aniimo.some((event) => /Aniimo|伊莫/i.test(`${event.title} ${event.summary}`) && /^https:\/\//.test(event.url)));
   assert.equal(events.games["妖妖棋"].some((event) => /91手游网|交易猫|\/apk\//i.test(`${event.source} ${event.url}`)), false);
 });
 

@@ -9,7 +9,16 @@ import { buildGameEntityIndex, canonicalGameName, chunk, defaultEndDate, isLowCo
 import { acquireRefreshLock, writeRefreshReport } from "../scripts/refresh-runner-lib.mjs";
 import { buildAnomalyAttributionBundle } from "../scripts/anomaly-attribution-lib.mjs";
 import { normalizeResearchRow, normalizeRow, parseResponseRows, queryText, collectBatchResults, responseFromEvents } from "../scripts/fetch-databrain-events.mjs";
-import { validateMetricCheckpoint } from "../scripts/weekly-refresh-lib.mjs";
+import { validateMetricCheckpoint, evidenceUrlIssue } from "../scripts/weekly-refresh-lib.mjs";
+
+test("placeholder citations and the wrong homonymous game cannot enter public intelligence", () => {
+  for (const url of ["https://store.steampowered.com/app/XXXXXXXXX/Rift_Expedition_Demo/", "https://www.taptap.cn/app/234599/topic/300000000000000000000000", "https://mp.weixin.qq.com/s/example2", "https://news.17173.com/content/09162026/123456789.shtml", ""]) assert.ok(evidenceUrlIssue(url));
+  assert.equal(evidenceUrlIssue("https://mo.co/en/news/news/moco-goes-back-to-beta-2/"), "");
+  const index = buildGameEntityIndex([{ name: "火人冲冲冲" }]), aliases = new Map([["火人冲冲冲", ["火人冲冲冲"]]]);
+  const row = { game_name: "火人冲冲冲", event_date: "2026-09-06", published_date: "2026-09-06", title: "火人冲冲冲上线测试", summary: "拖动巨人移动吃小人变大", source: "TapTap", url: "https://www.taptap.cn/app/927013" };
+  assert.equal(normalizeRow(row, index, aliases, new Set(["火人冲冲冲"]), "2026-07-01", "2026-10-07"), null);
+  assert.equal(normalizeResearchRow(row, index, aliases, new Set(["火人冲冲冲"]), "2026-07-01", "2026-10-07"), null);
+});
 
 test("stream assembly preserves split newlines so real event tables remain parseable", () => {
   const chunks = ["| game_name | record_type | published_date | title |", "\n", "|---|---|---|---|", "\n", "| Demo | research | 2026-10-01 | Demo report |", "\n"];
@@ -21,7 +30,7 @@ test("stream assembly preserves split newlines so real event tables remain parse
 
 test("partial or invalid source dates never become invented first-of-month event days", () => {
   const index = buildGameEntityIndex([{ name: "Demo" }]), aliases = new Map([["Demo", ["Demo"]]]);
-  const record = { game_name: "Demo", title: "Demo test", summary: "Demo testing", source: "Official", url: "https://example.com/test" };
+  const record = { game_name: "Demo", title: "Demo test", summary: "Demo testing", source: "Official", url: "https://verified.test/test" };
   for (const event_date of ["2026-09", "2026-09-31", "2026-13-01"]) assert.equal(normalizeRow({ ...record, event_date }, index, aliases, new Set(["Demo"]), "2026-07-01", "2026-10-07"), null);
   assert.equal(normalizeRow({ ...record, event_date: "2026-09-22" }, index, aliases, new Set(["Demo"]), "2026-07-01", "2026-10-07").event_date, "2026-09-22");
 });
@@ -57,12 +66,12 @@ test("rejects non-game homonyms while retaining actual product updates", () => {
     { game_name: "WePlay", title: "WePlay展会亮相", summary: "WePlay展会的游戏外设" },
   ];
   for (const row of rows) {
-    const record = { ...row, event_date: "2026-10-01", published_date: "2026-10-01", source: "资讯媒体", url: "https://example.com/article" };
+    const record = { ...row, event_date: "2026-10-01", published_date: "2026-10-01", source: "资讯媒体", url: "https://verified.test/article" };
     assert.equal(normalizeRow(record, index, aliases, requested, "2026-07-10", "2026-10-07"), null);
     assert.equal(normalizeResearchRow(record, index, aliases, requested, "2026-07-10", "2026-10-07"), null);
   }
   for (const game of games) {
-    const record = { game_name: game.name, title: `${game.name} 游戏版本更新`, summary: `${game.name} 新增游戏内容`, event_date: "2026-10-01", published_date: "2026-10-01", source: "官方公告", url: "https://example.com/game-update" };
+    const record = { game_name: game.name, title: `${game.name} 游戏版本更新`, summary: `${game.name} 新增游戏内容`, event_date: "2026-10-01", published_date: "2026-10-01", source: "官方公告", url: "https://verified.test/game-update" };
     assert.ok(normalizeRow(record, index, aliases, requested, "2026-07-10", "2026-10-07"));
     assert.ok(normalizeResearchRow(record, index, aliases, requested, "2026-07-10", "2026-10-07"));
   }
@@ -88,13 +97,13 @@ test("derives query names and batches from the tracked games file", () => {
   assert.deepEqual(queryNamesForGame({ name: "Demo", grp_queries: ["不再读取"] }), ["Demo"]);
   assert.deepEqual(queryNamesForGame({ name: "粒粒的小人国", en: "Animula Nook / Lili's Tiny Kingdom" }), ["Animula Nook / Lili's Tiny Kingdom", "Animula Nook", "Lili's Tiny Kingdom", "粒粒的小人国"]);
   assert.equal(matchesEntityEvidence(["妖妖棋", "代号：妖鬼"], ["《代号：妖鬼》奇谭论道测试开启", "网易中式自走棋", "https://yyq.163.com/"]), true);
-  assert.equal(matchesEntityEvidence(["妖妖棋", "代号：妖鬼"], ["出租车接管活动延长", "Gangstar Mirage City", "https://example.com/gangstar"]), false);
+  assert.equal(matchesEntityEvidence(["妖妖棋", "代号：妖鬼"], ["出租车接管活动延长", "Gangstar Mirage City", "https://verified.test/gangstar"]), false);
   assert.equal(isLowConfidenceEventSource("91手游网", "https://www.91danji.com/apk/1403133.html"), true);
   assert.equal(isLowConfidenceEventSource("Aniimo 官方", "https://www.aniimo.com/"), false);
-  assert.equal(isLowConfidenceEventSource("3322软件站", "https://example.com/"), true);
+  assert.equal(isLowConfidenceEventSource("3322软件站", "https://verified.test/"), true);
   assert.equal(isLowConfidenceEventSource("APKFab", "https://apkfab.com/game/download"), true);
-  assert.equal(isLowConfidenceEventSource("TapTap / 多多软件站", "https://example.com/game"), true);
-  assert.equal(isLowConfidenceEventSource("PP助手", "https://example.com/game"), true);
+  assert.equal(isLowConfidenceEventSource("TapTap / 多多软件站", "https://verified.test/game"), true);
+  assert.equal(isLowConfidenceEventSource("PP助手", "https://verified.test/game"), true);
   assert.equal(isLowConfidenceEventSource("This sentence was incorrectly returned as the source name and is far too long to identify a publisher or channel.", ""), true);
   assert.equal(isLowConfidenceEventSource("微信公众号资料库", ""), false);
   assert.equal(chunk(games, 18).flat().length, games.length);
@@ -123,7 +132,7 @@ test("scans aliases across events and research while keeping publication-only ro
   const source = JSON.parse(fs.readFileSync(path.join(projectRoot, "public", "games.json"), "utf8"));
   const entityIndex = buildGameEntityIndex(source.games);
   const requested = new Set(["Aniimo"]);
-  const markdown = `| game_name | record_type | event_date | published_date | title | summary | source | url | date_meaning |\n|---|---|---|---|---|---|---|---|---|\n| 伊莫 | research |  | 2026-07-10 | 《伊莫》三测产品分析 | 伊莫三测商业化与长线风险 | GRP | https://example.com/aniimo | 报告发布日期 |`;
+  const markdown = `| game_name | record_type | event_date | published_date | title | summary | source | url | date_meaning |\n|---|---|---|---|---|---|---|---|---|\n| 伊莫 | research |  | 2026-07-10 | 《伊莫》三测产品分析 | 伊莫三测商业化与长线风险 | GRP | https://verified.test/aniimo | 报告发布日期 |`;
   const [row] = parseResponseRows(markdown, []);
   assert.equal(normalizeRow(row, entityIndex, aliases, requested, "2026-06-01", "2026-09-20"), null);
   assert.deepEqual(normalizeResearchRow(row, entityIndex, aliases, requested, "2026-06-01", "2026-09-20"), {
@@ -132,7 +141,7 @@ test("scans aliases across events and research while keeping publication-only ro
     title: "《伊莫》三测产品分析",
     summary: "伊莫三测商业化与长线风险",
     source: "GRP",
-    url: "https://example.com/aniimo",
+    url: "https://verified.test/aniimo",
     content_type: "research",
   });
 });
@@ -247,7 +256,7 @@ test("keeps anomaly copy concise when a matching event exists", () => {
   const bundle = buildAnomalyAttributionBundle({
     trends: { Demo: { source: "test", activity: { label: "DAU", scope: "移动端全球", granularity: "daily", points: values } } },
     games: [{ name: "Demo", platform: "移动端" }],
-    events: { Demo: [{ event_date: "2026-09-03", title: "版本 1.2 更新", source: "官方", url: "https://example.com/update" }] },
+    events: { Demo: [{ event_date: "2026-09-03", title: "版本 1.2 更新", source: "官方", url: "https://verified.test/update" }] },
     asOf: "2026-09-04",
     reviewedAt: "2026-09-05",
   });

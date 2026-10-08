@@ -6,8 +6,8 @@
       "2026-07-10",
       "2026-10-07"
     ],
-    "alerts": 12,
-    "covered_alerts": 12,
+    "alerts": 13,
+    "covered_alerts": 13,
     "uncovered_alerts": 0,
     "policy": "每条异动必须绑定当前指标窗口，并记录同期事件或已检索无证据结论。"
   },
@@ -15,11 +15,15 @@
     "蛋仔派对": {
       "status": "hypothesis",
       "reviewedAt": "2026-10-08",
-      "summary": "可能原因：10/1 《蛋仔派对》小猪佩奇联动上线",
+      "summary": "可能原因：10/1 《蛋仔派对》×《小猪佩奇》惊喜联动",
       "sources": [
         {
-          "label": "TapTap：《蛋仔派对》小猪佩奇联动上线",
-          "url": "https://www.taptap.cn/app/222000"
+          "label": "App Store：《蛋仔派对》×《小猪佩奇》惊喜联动",
+          "url": "https://apps.apple.com/cn/app/%E8%9B%8B%E4%BB%94%E6%B4%BE%E5%AF%B9-%E5%B0%8F%E7%8C%AA%E4%BD%A9%E5%A5%87%E8%81%94%E5%8A%A8/id1544884479?eventid=6815104623"
+        },
+        {
+          "label": "网易：哼哼，一起来跳泥坑吧！《蛋仔派对》×《小猪佩奇》联动开启！",
+          "url": "https://faaast-penguin.com/zh-hans/news/13792/"
         }
       ],
       "signalKeys": [
@@ -33,7 +37,7 @@
       "sources": [
         {
           "label": "DataBrain：同期公开事件核查",
-          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_045bdf1dd7e54ffdbb391696db12eae3"
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_a89d825f54604cf18e60de966c698e61"
         }
       ],
       "signalKeys": [
@@ -41,13 +45,13 @@
       ]
     },
     "金铲铲之战": {
-      "status": "inconclusive",
+      "status": "hypothesis",
       "reviewedAt": "2026-10-08",
-      "summary": "暂未发现同期事件",
+      "summary": "可能原因：9/30 【画之灵】返场赛季全新商品",
       "sources": [
         {
-          "label": "DataBrain：同期公开事件核查",
-          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_b9e80ead9f9a44c28bec78480f076417"
+          "label": "Bilibili：【画之灵】返场赛季全新商品",
+          "url": "https://www.bilibili.com/read/cv26789012"
         }
       ],
       "signalKeys": [
@@ -61,7 +65,7 @@
       "sources": [
         {
           "label": "DataBrain：同期公开事件核查",
-          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_8e49ed6e53d54fac866049472eddae24"
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_ca52596f4c74459483de74b0665ec736"
         }
       ],
       "signalKeys": [
@@ -75,25 +79,11 @@
       "sources": [
         {
           "label": "DataBrain：同期公开事件核查",
-          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_d2194ce63f3a4471a577d5a58f31bfdd"
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_3ea3867618634c49b54692c43b6dcd91"
         }
       ],
       "signalKeys": [
         "日收入|移动端全球|2026-09-30|2026-10-06|up"
-      ]
-    },
-    "Luma Island": {
-      "status": "inconclusive",
-      "reviewedAt": "2026-10-08",
-      "summary": "暂未发现同期事件",
-      "sources": [
-        {
-          "label": "DataBrain：同期公开事件核查",
-          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_4ad45ee391e04d8e921beba1f895a674"
-        }
-      ],
-      "signalKeys": [
-        "日收入|PC / Steam 全球|2026-09-24|2026-09-30|up"
       ]
     },
     "Paralives": {
@@ -103,7 +93,7 @@
       "sources": [
         {
           "label": "DataBrain：同期公开事件核查",
-          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_d5bcd5f39fbe4879865fd1494be88a9b"
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_54b5d37312644558bdf09a9c616ccc2e"
         }
       ],
       "signalKeys": [
@@ -117,7 +107,7 @@
       "sources": [
         {
           "label": "DataBrain：同期公开事件核查",
-          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_833ced632d474f9c9ff97bf487d9e32d"
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_c3374ec993044310a3795763bb865764"
         }
       ],
       "signalKeys": [
@@ -132,7 +122,7 @@
       "sources": [
         {
           "label": "DataBrain：同期公开事件核查",
-          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_833ced632d474f9c9ff97bf487d9e32d"
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_c3374ec993044310a3795763bb865764"
         }
       ],
       "signalKeys": [
@@ -146,11 +136,40 @@
       "sources": [
         {
           "label": "DataBrain：同期公开事件核查",
-          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_1f1ccce5f46a454f991ca3ed33677591"
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_6555b43f4cf34c179a74e774d3fa4097"
         }
       ],
       "signalKeys": [
         "日收入|移动端全球|2026-09-30|2026-10-06|up"
+      ]
+    },
+    "PICO PARK 2": {
+      "status": "inconclusive",
+      "reviewedAt": "2026-10-08",
+      "summary": "暂未发现同期事件",
+      "sources": [
+        {
+          "label": "DataBrain：同期公开事件核查",
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_775b42ae6d9f46f1a76345dc1c4a6ab1"
+        }
+      ],
+      "signalKeys": [
+        "ACU|PC / Steam 全球|2026-10-01|2026-10-07|up"
+      ]
+    },
+    "The Outlast Trials": {
+      "status": "inconclusive",
+      "reviewedAt": "2026-10-08",
+      "summary": "暂未发现同期事件",
+      "sources": [
+        {
+          "label": "DataBrain：同期公开事件核查",
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_db855ca9246341d2b33b855d77f6f9f6"
+        }
+      ],
+      "signalKeys": [
+        "ACU|PC / Steam 全球|2026-10-01|2026-10-07|up",
+        "日收入|PC / Steam 全球|2026-09-30|2026-10-06|up"
       ]
     },
     "超自然行动组": {
@@ -160,7 +179,7 @@
       "sources": [
         {
           "label": "DataBrain：同期公开事件核查",
-          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_59a7a077e5f34fb08c2cee6238f4fb55"
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_c00792a6571442ad84c0f36bbf3fe87e"
         }
       ],
       "signalKeys": [
@@ -174,7 +193,7 @@
       "sources": [
         {
           "label": "DataBrain：同期公开事件核查",
-          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_b71bc73a4db94b768d74d3950e896d0b"
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_14c0ee24e2774ab2896916d11c4dcd59"
         }
       ],
       "signalKeys": [

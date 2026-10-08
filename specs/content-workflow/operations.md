@@ -13,6 +13,8 @@
 
 已核验内容通过产品与节点 ID 关联。候选区不等于主池；新入池需核心循环、品类、产品身份、平台和可追溯官方证据。开发商、发行商分别填写，不凭同名或文章标题推断主体。既有人工核验字段不能被生成快照覆盖；明确修订直接编辑并记录理由。改变节点标题/URL/日期时保留原 milestone_id。未知事件日期保留 null，视频 date 是上传日，milestone_date 才是已确认事件日。
 
+公开候选必须在 `editorial-decisions.json` 有带理由和来源的 `include_candidate` 决定；其他新线索留在私有扫描输入待审，不自动加入公开区。已批准且主池跟踪的产品可显示“已晋级”并保留最新报道，不挤掉跟踪动态。`exclude` / `exclude_candidate` 及其理由跨扫描保留，不能因本轮未命中而清空。媒体报道数量不包含“官方更新”；曾上线后退回 Beta 的产品应同时保留上线历史和当前运营状态。
+
 ## 采集故障与检查点
 
 DataBrain 请求显式传递本次 `date_time`。HTTP 失败、日期拒绝、两次空表不能标记为完整扫描。原始事件响应保存在忽略目录 `.automation/databrain-events/`；公开指标的 `meta.refresh_coverage` 区分本轮返回、旧快照保留和未返回指标。
@@ -22,6 +24,8 @@ DataBrain 请求显式传递本次 `date_time`。HTTP 失败、日期拒绝、�
 若同日指标已成功、后续阶段失败，可以保留完整原始 outputs，再以 `--metrics-checkpoint=/absolute/path/outputs` 重跑周更。检查点必须是当天、相同104天请求区间、相同产品清单、全部批次完整且响应 session 与 manifest 一致。它恢复本次已完成采集；`--reuse-metrics` 沿用旧数据，仍不能通过周更指标完成门槛。
 
 事件解析修复后，可加 `--events-checkpoint=/absolute/path/.automation/databrain-events` 从当天原始响应重建。只复用查询文本完全一致且含可解析记录的成功响应；缺失、拒绝、空表或失败的批次仍须真实请求。流式正文必须原样拼接，逐片段 trim 会破坏表格换行。事件日期必须完整到日且为有效日历日期，不能把仅有月份的日期补成1日。
+
+周更在 GRP 归并后自动运行 `node scripts/validate-source-evidence.mjs`：搜索跳转须解析到原文，打不开的跳转、占位链接、同名冲突和仅用首页证明日期的事件均隔离到 `.automation/source-evidence/latest.json`。发布 content gate 独立复查这些规则。研究资料的主页链接只代表产品资料，不能据此新增测试/上线节点。来源校验成功表示发布集合通过过滤，不能解释成所有产品均返回了新资料。
 
 ## 影像核查
 

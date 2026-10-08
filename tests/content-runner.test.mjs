@@ -111,3 +111,23 @@ test("partial metric returns distinguish refreshed, retained and unavailable pro
     assert.equal(metrics.mobile_games["蛋仔派对"].date, "2026-09-30");
   } finally { s.remove(); }
 });
+
+test("publication preparation blocks fabricated event citations even outside pipeline details", () => {
+  const s = sandbox();
+  try {
+    fs.writeFileSync(path.join(s.root, "public/databrain_events.json"), JSON.stringify({ games: { "裂隙远征": [{ title: "Demo launch", url: "https://store.steampowered.com/app/XXXXXXXXX/Demo/", source: "Steam" }] } }));
+    const result = s.invoke("content-workflow.mjs", "prepare");
+    assert.notEqual(result.status, 0);
+    assert.match(result.stderr, /Invalid source evidence/);
+  } finally { s.remove(); }
+});
+
+test("publication gate rejects a discovery candidate without an editorial admission decision", () => {
+  const s = sandbox();
+  try {
+    fs.writeFileSync(path.join(s.root, "public/youyansuo_discovery.json"), JSON.stringify({ candidates: [{ name: "未经确认的新游戏" }] }));
+    const result = s.invoke("content-workflow.mjs", "prepare");
+    assert.notEqual(result.status, 0);
+    assert.match(result.stderr, /Unapproved discovery candidate/);
+  } finally { s.remove(); }
+});

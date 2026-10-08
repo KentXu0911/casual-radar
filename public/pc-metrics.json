@@ -880,12 +880,12 @@
       "reviews_count": null
     },
     "Dressmaker": {
-      "average_ccu": 24672.72,
+      "average_ccu": 24615.59,
       "peak_ccu": 43198,
       "historical_peak_ccu": 43198,
       "revenue_30d": null,
       "sales_units": null,
-      "reviews_count": 11574,
+      "reviews_count": 11685,
       "review_score": 98.32,
       "data_date": "2026-10-08",
       "source": "SteamCharts / Steam 官方评价",

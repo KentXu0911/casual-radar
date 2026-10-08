@@ -76,6 +76,20 @@ test("the CLI never replaces a snapshot with a partial scan", () => {
   } finally { fs.rmSync(temp, { recursive: true, force: true }); }
 });
 
+test("publication preserves editorial decisions and defers unapproved discoveries across scans", () => {
+  const tracked = row("Project63", { scope_status: "in_scope" });
+  const bundle = normalizeDiscovery(input({ candidates: [row("尚未核验的新游戏")], tracked_updates: [tracked] }), {
+    games: [{ name: "Project63" }],
+  }, { today: "2026-09-28", publishApprovedOnly: true });
+  assert.deepEqual(bundle.candidates.map(row => row.name), ["Project63"]);
+  assert.equal(bundle.candidates[0].disposition, "已晋级");
+  assert.deepEqual(bundle.tracked_updates.map(row => row.name), ["Project63"]);
+  assert.equal(bundle.meta.pending_candidates, 1);
+  assert.equal(bundle.meta.rejected_rows, 0);
+  assert.match(bundle.meta.excluded_rows.find(row => row.name === "Yumtopia").scope_reason, /典型二合/);
+  assert.equal(bundle.meta.excluded_rows.filter(row => row.decision_source === "用户候选筛选").length, 10);
+});
+
 test("refresh guards reject a dirty worktree before writing public files", () => {
   const temp = fs.mkdtempSync(path.join(os.tmpdir(), "youyansuo-guard-test-"));
   try {
@@ -114,7 +128,7 @@ test("excluded merge games cannot return through candidates, tracked updates or 
   assert.deepEqual(bundle.candidates, []);
   assert.deepEqual(bundle.tracked_updates, []);
   assert.equal(bundle.meta.rejected_rows, 2);
-  assert.ok(bundle.meta.excluded_rows.every((item) => /典型二合/.test(item.scope_reason)));
+  assert.ok(bundle.meta.excluded_rows.filter((item) => item.name.startsWith("Yumtopia")).every((item) => /典型二合/.test(item.scope_reason)));
   for (const file of ["games.json", "dashboard_data.json"]) {
     assert.equal(JSON.parse(fs.readFileSync(path.join(root, "public", file), "utf8")).games.some((game) => game.name === "Yumtopia"), false);
   }

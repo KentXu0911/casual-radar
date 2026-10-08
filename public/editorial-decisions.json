@@ -151,6 +151,22 @@
       "source": "既有看板候选去重规则",
       "reviewed_at": "2026-10-08",
       "recheck_trigger": "产品身份发生变化后重新核验"
+    },
+    {
+      "name": "Project63",
+      "action": "include_candidate",
+      "scope": "candidate_selection",
+      "reason": "用户明确选择加入看板；保留已晋级状态和最新已核验报道。",
+      "source": "用户编辑决定 · 2026-10-08",
+      "reviewed_at": "2026-10-08"
+    },
+    {
+      "name": "Dear Passengers",
+      "action": "include_candidate",
+      "scope": "candidate_selection",
+      "reason": "用户明确选择加入看板；保留已晋级状态和最新已核验报道。",
+      "source": "用户编辑决定 · 2026-10-08",
+      "reviewed_at": "2026-10-08"
     }
   ]
 }

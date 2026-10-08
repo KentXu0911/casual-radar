@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
 import { fileURLToPath } from "node:url";
-import { buildGameEntityIndex, canonicalGameName, isLowConfidenceEventSource, isUnrelatedProductEvidence, loadTrackedGames, matchesEntityEvidence } from "./weekly-refresh-lib.mjs";
+import { buildGameEntityIndex, canonicalGameName, evidenceUrlIssue, isLowConfidenceEventSource, isUnrelatedProductEvidence, loadTrackedGames, matchesEntityEvidence } from "./weekly-refresh-lib.mjs";
 
 const siteRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const publicRoot = path.join(siteRoot, "public");
@@ -238,6 +238,7 @@ function normalizeRow(row, entityIndex, aliasesByCanonical, requested, start, en
   const summary = cleanCell(row.summary || row.description || row.message || row.text || title);
   const source = cleanCell(row.source || row.source_name || row.platform || "公开信源");
   const url = cellUrl(row.url || row.source_url || row.link);
+  if (evidenceUrlIssue(url)) return null;
   if (!title || !summary) return null;
   if (isUnrelatedProductEvidence(gameName, title, summary)) return null;
   if (hasConflictingTitleEntity(gameName, title, entityIndex)) return null;
@@ -266,6 +267,7 @@ function normalizeResearchRow(row, entityIndex, aliasesByCanonical, requested, s
   const summary = cleanCell(row.summary || row.description || row.message || row.text || title);
   const source = cleanCell(row.source || row.source_name || row.platform || "DataBrain 资料库");
   const url = cellUrl(row.url || row.source_url || row.link);
+  if (evidenceUrlIssue(url)) return null;
   const contentType = cleanCell(row.record_type || row.recordType || row.content_type || row.contentType || row.kind || "研究资料");
   if (!title || !summary) return null;
   if (isUnrelatedProductEvidence(gameName, title, summary)) return null;
@@ -469,14 +471,14 @@ async function main() {
   for (const [gameName, events] of Object.entries(existing.games || {})) {
     const canonical = canonicalGameName(gameName, entityIndex);
     for (const event of Array.isArray(events) ? events : []) {
-      if (!isLowConfidenceEventSource(event.source, event.url) && !isUnrelatedProductEvidence(canonical, event.title, event.summary) && !hasConflictingTitleEntity(canonical, event.title, entityIndex)) existingRows.push({ game_name: canonical, ...event });
+      if (!evidenceUrlIssue(event.url) && !isLowConfidenceEventSource(event.source, event.url) && !isUnrelatedProductEvidence(canonical, event.title, event.summary) && !hasConflictingTitleEntity(canonical, event.title, entityIndex)) existingRows.push({ game_name: canonical, ...event });
     }
   }
   const existingResearchRows = [];
   for (const [gameName, records] of Object.entries(existingResearch.games || {})) {
     const canonical = canonicalGameName(gameName, entityIndex);
     for (const record of Array.isArray(records) ? records : []) {
-      if (!isLowConfidenceEventSource(record.source, record.url) && !isUnrelatedProductEvidence(canonical, record.title, record.summary) && !hasConflictingTitleEntity(canonical, record.title, entityIndex)) existingResearchRows.push({ game_name: canonical, ...record });
+      if (!evidenceUrlIssue(record.url) && !isLowConfidenceEventSource(record.source, record.url) && !isUnrelatedProductEvidence(canonical, record.title, record.summary) && !hasConflictingTitleEntity(canonical, record.title, entityIndex)) existingResearchRows.push({ game_name: canonical, ...record });
     }
   }
   const bundleGames = [...new Set([...Object.keys(existing.games || {}), ...Object.keys(existingResearch.games || {}), ...requested])];

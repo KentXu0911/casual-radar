@@ -1748,11 +1748,11 @@
         "recent_articles": [
           {
             "title": "莉莉丝做《塔塔冒险队》：不靠大世界，靠什么撑起长期养成？",
-            "source": "游研所收录 · 靡音",
             "date": "2026-09-29",
-            "summary": "莉莉丝《塔塔冒险队》通过宠物多阶段养成、与活动相连的资源需求及合作阵容构建长线留存，区别于大世界路线",
+            "source": "游研所收录 · 靡音",
+            "summary": "公测后0.48.1版本宠物养成与合作阵容分析，不能视为新品首曝。",
             "url": "http://mp.weixin.qq.com/s?__biz=MzIxNzQxNTM4MQ==&mid=2247485062&idx=1&sn=fa7422ea873e6d598fd22df7d7b6c81a&chksm=96d485aec14cb1d17fa49a93a3cbbe4f1ffd861a77348aa83cbfff824a943b713a5098b07e14&scene=126&sessionid=0#rd",
-            "type": "公众号报道"
+            "type": "研究资料"
           }
         ],
         "latest_date": "2026-09-29",
@@ -2222,11 +2222,11 @@
         "recent_articles": [
           {
             "title": "当米哈游仔细研究「过日子」",
-            "source": "游研所收录 · 游戏矩阵 GameMatrix",
             "date": "2026-10-07",
-            "summary": "米哈游首款生活模拟游戏《星布谷地》三测开启，展示从种星球到星海探索的完整循环与轻盈社交设计",
+            "source": "游研所收录 · 游戏矩阵 GameMatrix",
+            "summary": "连接测试体验与生活系统改进；商业化摘要存在矛盾，不覆盖人工结论。",
             "url": "http://mp.weixin.qq.com/s?__biz=MzkzOTYwMjE2NA==&mid=2247554547&idx=1&sn=638951f4623ece3a5449b7c098a95a7e&chksm=c305305ced39a2b828b81b7af316c7cada535956cfc0653502aac4ade975ee10669346cfb3cd&scene=126&sessionid=0#rd",
-            "type": "公众号报道"
+            "type": "研究资料"
           },
           {
             "title": "米哈游等不及了，年内还要炸一次？",
@@ -2370,11 +2370,11 @@
         "recent_articles": [
           {
             "title": "首曝一年两次测试，腾讯这款生活模拟新游立住了吗？",
-            "source": "游研所收录 · 游戏新知",
             "date": "2026-10-01",
-            "summary": "《粒粒的小人国》二测全面升级，腾讯以微观视角切入生活模拟赛道。",
+            "source": "游研所收录 · 游戏新知",
+            "summary": "二测体验报道；保留既有9月22日节点，不将10月报道日期生成新测试。",
             "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzMzNjM3OQ==&mid=2247573570&idx=1&sn=f82a9e92604d9900e2f0c68d5554a96b&chksm=cf3295364151c862fa3bec0b2ed165b5acfb4fd5c7b8a017856cea84f8863daea1d33c36afad&scene=126&sessionid=0#rd",
-            "type": "公众号报道"
+            "type": "研究资料"
           },
           {
             "title": "我第一次觉得组乐队开心，是在腾讯的小人国里",
@@ -2574,7 +2574,8 @@
             "type": "重大新闻"
           }
         ],
-        "latest_date": "2026-09-01"
+        "latest_date": "2026-09-01",
+        "media_coverage": 1
       },
       "product_id": "product-5195b26779783496"
     },
@@ -2636,7 +2637,8 @@
             "evidence_kind": "video",
             "type": "首曝 PV（非测试录屏）"
           }
-        ]
+        ],
+        "media_coverage": 1
       },
       "lifecycle": {
         "pipeline": true,
@@ -2714,7 +2716,8 @@
             "url": "https://grp.woa.com/report.html?id=174",
             "summary": "捕鱼后需要击败猎物，再出售换取武器和钓具，挑战岛屿首领。共享资金与可选友伤产生合作和互坑笑料；花式击杀影响收益，给熟练操作与短视频传播提供空间。报告样本包含5座岛屿、8种武器和49种动物，约10–15小时内容；单人难度、后期首领与内容消耗速度仍是风险。报告记录94%好评（26,955条样本）与373,971峰值同时在线，均为报告快照，不是日活或平均在线。"
           }
-        ]
+        ],
+        "media_coverage": 1
       },
       "lifecycle": {
         "pipeline": false,
@@ -2778,7 +2781,7 @@
         ]
       },
       "intelligence": {
-        "media_coverage": 2,
+        "media_coverage": 1,
         "latest_date": "2026-09-20",
         "recent_articles": [
           {
@@ -2875,7 +2878,7 @@
         ]
       },
       "intelligence": {
-        "media_coverage": 2,
+        "media_coverage": 1,
         "latest_date": "2026-09-20",
         "recent_articles": [
           {
@@ -2967,7 +2970,7 @@
         ]
       },
       "intelligence": {
-        "media_coverage": 2,
+        "media_coverage": 1,
         "latest_date": "2026-09-20",
         "recent_articles": [
           {
@@ -3063,7 +3066,7 @@
         ]
       },
       "intelligence": {
-        "media_coverage": 2,
+        "media_coverage": 1,
         "latest_date": "2026-09-20",
         "recent_articles": [
           {
@@ -3157,7 +3160,7 @@
         ]
       },
       "intelligence": {
-        "media_coverage": 2,
+        "media_coverage": 1,
         "latest_date": "2026-09-20",
         "recent_articles": [
           {
@@ -3253,7 +3256,7 @@
         ]
       },
       "intelligence": {
-        "media_coverage": 2,
+        "media_coverage": 1,
         "latest_date": "2026-09-20",
         "recent_articles": [
           {
@@ -3355,7 +3358,7 @@
         ]
       },
       "intelligence": {
-        "media_coverage": 2,
+        "media_coverage": 1,
         "latest_date": "2026-09-20",
         "recent_articles": [
           {
@@ -3447,7 +3450,7 @@
         ]
       },
       "intelligence": {
-        "media_coverage": 2,
+        "media_coverage": 1,
         "latest_date": "2026-09-20",
         "recent_articles": [
           {
@@ -3543,7 +3546,7 @@
         ]
       },
       "intelligence": {
-        "media_coverage": 2,
+        "media_coverage": 1,
         "latest_date": "2026-09-20",
         "recent_articles": [
           {
@@ -3639,7 +3642,7 @@
         ]
       },
       "intelligence": {
-        "media_coverage": 2,
+        "media_coverage": 1,
         "latest_date": "2026-09-20",
         "recent_articles": [
           {
@@ -3696,8 +3699,8 @@
         "Android"
       ],
       "year": 2025,
-      "status": "活跃",
-      "release_status": "已上线",
+      "status": "Beta重构中 · 现有版本低维护",
+      "release_status": "已上线后退回Beta · 现有版本低维护",
       "release_date": "2025-03-18",
       "developer": "Supercell",
       "publisher": "Supercell",
@@ -3716,10 +3719,15 @@
           "iOS",
           "Android"
         ],
-        "release_status": "已上线",
+        "release_status": "已上线后退回Beta · 现有版本低维护",
         "release_date": "2025-03-18",
         "data_source": "官方商店 / DataBrain 审查",
         "source_url": [
+          {
+            "title": "mo.co goes back to beta",
+            "url": "https://mo.co/en/news/news/moco-goes-back-to-beta-2/",
+            "type": "官方公告"
+          },
           {
             "title": "mo.co 官方资料",
             "url": "https://moco.supercell.com/",
@@ -3734,8 +3742,16 @@
       },
       "intelligence": {
         "media_coverage": 2,
-        "latest_date": "2026-09-20",
+        "latest_date": "2026-09-24",
         "recent_articles": [
+          {
+            "title": "mo.co goes back to beta",
+            "date": "2026-09-24",
+            "source": "mo.co 官方公告",
+            "summary": "官方9月24日公告确认退回Beta开发阶段，现有游戏低维护；暂停新武器及付费通行证路线，非外观进度是否重置尚未确定。下次更新没有确切日期，目标2026年底前。",
+            "url": "https://mo.co/en/news/news/moco-goes-back-to-beta-2/",
+            "type": "官方公告"
+          },
           {
             "title": "mo.co 生命周期与产品信息核验",
             "date": "2026-09-20",
@@ -3746,6 +3762,11 @@
           }
         ],
         "resources": [
+          {
+            "title": "mo.co goes back to beta",
+            "url": "https://mo.co/en/news/news/moco-goes-back-to-beta-2/",
+            "type": "官方公告"
+          },
           {
             "title": "mo.co 官方资料",
             "url": "https://moco.supercell.com/",
@@ -3768,13 +3789,18 @@
       "metrics": {},
       "lifecycle": {
         "pipeline": false,
-        "stage": "已上线",
-        "stage_date": "2025-03-18",
-        "reason": "Supercell 对移动端短局合作狩猎和赛季服务的验证，是中度化边界参照。"
+        "stage": "退回Beta开发阶段 · 现有版本低维护",
+        "stage_date": "2026-09-24",
+        "reason": "官方9月24日宣布退回Beta开发阶段，现有版本低维护，暂不推出新武器和付费赛季路线；不是新一轮测试开服公告，下一次更新的确切日期未定。",
+        "reviewed_at": "2026-10-08",
+        "operational_status": "low_maintenance",
+        "source_url": "https://mo.co/en/news/news/moco-goes-back-to-beta-2/"
       },
       "icon_path": "/game-icons/audit-moco.jpg",
       "icon_source": "google-play",
-      "product_id": "product-01bc07cf437554bd"
+      "product_id": "product-01bc07cf437554bd",
+      "release_source": "https://mo.co/en/news/news/moco-goes-back-to-beta-2/",
+      "platform_release_status": "移动端曾于2025年3月18日上线；2026年9月24日宣布退回Beta开发阶段，现有版本低维护"
     },
     {
       "name": "Aniimo",
@@ -3985,7 +4011,7 @@
         ]
       },
       "intelligence": {
-        "media_coverage": 2,
+        "media_coverage": 1,
         "latest_date": "2026-09-20",
         "recent_articles": [
           {
@@ -4346,11 +4372,11 @@
         "recent_articles": [
           {
             "title": "凉屋布局轻竞技，《火人冲冲冲》自动打架，怎么还这么多纠结？",
-            "source": "游研所收录公众号",
             "date": "2026-09-25",
-            "summary": "9 月 25 日玩法报道详述四人共享卡池、每牌四张、金币与升星选择，并提出局外祝福可能影响竞技公平。",
+            "source": "游研所收录 · 高玩看世界",
+            "summary": "竖屏自动战斗自走棋设计分析，四人共享卡池；祝福成长对公平性的影响属于作者观点。",
             "url": "http://mp.weixin.qq.com/s?__biz=MzU4NTcxMjE1Mg==&mid=2247497150&idx=1&sn=3ae87fc1463c73c646e80387a1a89134&chksm=fcafc3c0471ffac1b5827f98d679ba7700dcff6bdab9b871242ab768e3de770437af1a4e3dc1&scene=126&sessionid=0#rd",
-            "type": "公众号报道"
+            "type": "研究资料"
           },
           {
             "title": "腾讯Supercell前成员的创业公司解散，游戏疑似移交字节运营",
@@ -4469,11 +4495,11 @@
         "recent_articles": [
           {
             "title": "大量实机曝光：莉莉丝首款“生活模拟”亮牌了",
-            "source": "游研所收录公众号",
             "date": "2026-09-24",
-            "summary": "9 月 24 日首支 PV 与实机公开，展示现代动物都市、家园布置、职业扮演和多人访友，并开启移动端与 PC 预约。",
+            "source": "游研所收录 · 游戏那点事Gamez",
+            "summary": "莉莉丝猫爪拿铁生活模拟项目首曝PV及实机，移动与PC预约开启；没有已确认开测日期。",
             "url": "http://mp.weixin.qq.com/s?__biz=MjM5MDEwMTk2MA==&mid=2651304799&idx=1&sn=dbf25506b7046d7cfece7134b91dbf51&chksm=bcd1416eb7036e20682e9d7272f01cadd84148dfa5a44c52f907715091868aa7fcda24e2e662&scene=126&sessionid=0#rd",
-            "type": "公众号报道"
+            "type": "研究资料"
           },
           {
             "title": "颠覆常识？莉莉丝今天首曝的生活模拟新游，是人和动物同住的现代都市",
@@ -4620,11 +4646,11 @@
         "recent_articles": [
           {
             "title": "试玩《未眠野》：让开放世界的自由，落到玩家手里",
-            "source": "游研所收录公众号",
             "date": "2026-09-24",
-            "summary": "GameLook 试玩覆盖定影、浮金、立石三种能力及双人关卡；探索与战斗共用交互规则，长期内容供给仍待验证。",
+            "source": "游研所收录 · GameLook",
+            "summary": "线下试玩的环境交互与双人合作体验分析；具体试玩发生日未明确。",
             "url": "http://mp.weixin.qq.com/s?__biz=MjM5NzQwMjI4MA==&mid=2657337234&idx=2&sn=d50a20d7a02f0ceb23f8b9126a501a47&chksm=bcb483cc5890c3249747f0f82c87635c315c83041766eff28f70d100af6d0791b4ce30d5f42d&scene=126&sessionid=0#rd",
-            "type": "公众号报道"
+            "type": "研究资料"
           },
           {
             "title": "成都团队《未眠野》开启测试，这款开放世界游戏能破局吗？",
@@ -4811,11 +4837,11 @@
         "recent_articles": [
           {
             "title": "裁缝知道得还是太多了丨触乐怪话",
-            "source": "游研所收录 · 触乐",
             "date": "2026-09-30",
-            "summary": "触乐编辑体验独立游戏《针影裁梦》(Dressmaker)，拆解其将制衣过程还原为核心玩法的设计思路与优缺点。",
+            "source": "游研所收录 · 触乐",
+            "summary": "制衣模拟玩法设计分析；已上线产品，不新增测试节点。",
             "url": "http://mp.weixin.qq.com/s?__biz=MzA4MDIxNzkyNA==&mid=2658925221&idx=2&sn=695fb887304fd46899bad692d88ef2e7&chksm=8594556c7db2ea1e7ac448024e2497d66327a2ee49dec6fa51d620c5a671364d5dc62986d1b2&scene=126&sessionid=0#rd",
-            "type": "公众号报道"
+            "type": "研究资料"
           },
           {
             "title": "Build 410：优化制衣交互与教程",
@@ -4997,11 +5023,11 @@
           },
           {
             "title": "米哈游《源初之结》发文：首发PC，角色无需抽卡，没有难度门槛",
-            "source": "游研所收录公众号",
             "date": "2026-09-23",
-            "summary": "9 月 23 日官方 FAQ 确认 PC 首发、角色靠游玩解锁、不强制组队，并介绍神格技与低门槛战斗方向。",
+            "source": "游研所收录 · 游戏陀螺",
+            "summary": "官方Q&A的媒体转述：首发PC、角色通过游玩解锁；不凭该报道补造首曝日期。",
             "url": "http://mp.weixin.qq.com/s?__biz=MjM5Njc5MjgyMA==&mid=2989877251&idx=2&sn=61c6e896b47382c10928615ff20a3caa&chksm=9038c1ad1909782a4d2f584b294b6a7c1a13f9591fae2819a25253957c88ec234d7bc21a113e&scene=126&sessionid=0#rd",
-            "type": "公众号报道"
+            "type": "研究资料"
           },
           {
             "title": "两年内多次迭代，对话米哈游大作主创：想做符合时代品质的游戏",
@@ -5299,11 +5325,11 @@
           },
           {
             "title": "捉宠大世界到底该怎么做？《蓝色星原：旅谣》三测给出了答案",
-            "source": "游研所收录公众号",
             "date": "2026-09-17",
-            "summary": "9 月 17 日旅迹测试开启，媒体报道奇波超过 200 种、对决阵容调整及取消饱食度和工具耐久等减负改动。",
+            "source": "游研所收录 · GameLook",
+            "summary": "限量计费删档三测的奇波系统与减负设计报道，事件为9月17日。",
             "url": "http://mp.weixin.qq.com/s?__biz=MjM5NzQwMjI4MA==&mid=2657336233&idx=1&sn=8645b6b07ba50633bdc5d756e5a56f29&chksm=bc92a1b6e53fb1791884254e7364400f7cc5fd9755e5cd7c2b3233f60fa5e160f5fafe2912b8&scene=126&sessionid=0#rd",
-            "type": "公众号报道"
+            "type": "研究资料"
           }
         ],
         "resources": [
@@ -5465,11 +5491,11 @@
         "recent_articles": [
           {
             "title": "灵犀互娱在东南亚市场测试了一款微恐摸金新游？",
-            "source": "游研所收录 · 游戏新知",
             "date": "2026-10-05",
-            "summary": "灵犀互娱旗下QOOKKA GAMES在东南亚五国测试微恐摸金新游《Project63》",
+            "source": "游研所收录 · 游戏新知",
+            "summary": "四人微恐搜打撤已在东南亚测试；仅能确认9月下旬，准确开测日仍待官方公告。",
             "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzMzNjM3OQ==&mid=2247573606&idx=1&sn=0f5210a4267f6817401b91caa757aea5&chksm=cf1c28ae3e93943d3ac3d0c57989246b8df57971630f1cda409c8c761540c628d2d0b928686b&scene=126&sessionid=0#rd",
-            "type": "公众号报道"
+            "type": "研究资料"
           }
         ],
         "resources": [
@@ -5581,11 +5607,11 @@
         "recent_articles": [
           {
             "title": "必火无疑！Steam预约破250万人、全球第3，《亲爱的乘客》是什么奇葩游戏",
-            "source": "游研所收录 · GameLook",
             "date": "2026-09-28",
-            "summary": "《亲爱的乘客》作为FLEXUS Games首款PC游戏，Steam愿望清单突破250万、升至全球第三，凭借PV争议内容与友尽品类联动实现零广告爆火。",
+            "source": "游研所收录 · GameLook",
+            "summary": "PC多人合作游戏的PV与愿望单热度报道；截至报道仍未发布Demo。MCP同名移动应用包名与本项目不符，不关联。",
             "url": "http://mp.weixin.qq.com/s?__biz=MjM5NzQwMjI4MA==&mid=2657337406&idx=5&sn=4ce17613b086a748034c50e6b7ec99c3&chksm=bc40a9db701060a778d1aec43318d9e9009806263608d004f329e7ec5455aa9dbd229f39f1f9&scene=126&sessionid=0#rd",
-            "type": "公众号报道"
+            "type": "研究资料"
           }
         ],
         "resources": [
@@ -5972,20 +5998,34 @@
       ],
       "media_reports": [
         {
-          "date": "2025-09-24",
-          "source": "粒粒的小人国官方",
-          "kind": "首次公开",
-          "title": "首曝 PV 公开并开启全平台预约",
-          "summary": "官方首次公开《粒粒的小人国》名称、微缩世界设定与首曝 PV，并同步开放多平台预约。",
-          "url": "https://community-cn.honor.com/cngm/game/topicdetail/topicid-3688146097209345"
+          "title": "首曝一年两次测试，腾讯这款生活模拟新游立住了吗？",
+          "date": "2026-10-01",
+          "source": "游研所收录 · 游戏新知",
+          "summary": "二测体验报道；保留既有9月22日节点，不将10月报道日期生成新测试。",
+          "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzMzNjM3OQ==&mid=2247573570&idx=1&sn=f82a9e92604d9900e2f0c68d5554a96b&chksm=cf3295364151c862fa3bec0b2ed165b5acfb4fd5c7b8a017856cea84f8863daea1d33c36afad&scene=126&sessionid=0#rd",
+          "type": "研究资料"
         },
         {
-          "date": "2026-03-24",
-          "source": "国家新闻出版署",
-          "kind": "版号节点",
-          "title": "移动、客户端版号获批",
-          "summary": "《粒粒的小人国》获得国产网络游戏版号，批复文号国新出审〔2026〕667号，出版物号 ISBN 978-7-498-16596-1。",
-          "url": "https://www.nppa.gov.cn/bsfw/jggs/yxspjg/gcwlyxspxx/202603/t20260325_968903.html"
+          "title": "我第一次觉得组乐队开心，是在腾讯的小人国里",
+          "source": "游研所收录 · 游戏茶馆",
+          "date": "2026-09-30",
+          "summary": "作者分享在腾讯生活模拟新游《粒粒的小人国》二测中与陌生人即兴合奏组乐队的独特社交体验。",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5OTgzNzkyNA==&mid=2653433961&idx=1&sn=adf4e7b459c4af113bcbcb75ea2a1616&chksm=bdc187ce845e17804afd3a53518668eb36b843bd33a7488168374c7062a78474f386630624ab&scene=126&sessionid=0#rd",
+          "type": "公众号报道",
+          "kind": "公众号报道",
+          "timeline": false,
+          "date_meaning": "报道日期"
+        },
+        {
+          "title": "那些不起眼的美术细节，让这款游戏的体验更加舒适",
+          "source": "游研所收录 · GameRes游资网",
+          "date": "2026-09-29",
+          "summary": "《粒粒的小人国》最新测试用蜡笔笔触统一画风、大量植入UI动效与模糊虚化，让华丽但静态的画面升级为更具动感与生命力的呈现。",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5NTMxNTU0MQ==&mid=2650048786&idx=1&sn=3aed8a0b4a158bc4fd14e262ab739af7&chksm=bfaa0241e98aaa1909482f0243ae8d9ec9ca251a1c9cc9c6abe78bc6aef0be46fa720b617aef&scene=126&sessionid=0#rd",
+          "type": "公众号报道",
+          "kind": "公众号报道",
+          "timeline": false,
+          "date_meaning": "报道日期"
         },
         {
           "date": "2026-08-24",
@@ -6012,6 +6052,14 @@
           "url": "https://steamcommunity.com/app/3767320?l=schinese"
         },
         {
+          "date": "2026-03-24",
+          "source": "国家新闻出版署",
+          "kind": "版号节点",
+          "title": "移动、客户端版号获批",
+          "summary": "《粒粒的小人国》获得国产网络游戏版号，批复文号国新出审〔2026〕667号，出版物号 ISBN 978-7-498-16596-1。",
+          "url": "https://www.nppa.gov.cn/bsfw/jggs/yxspjg/gcwlyxspxx/202603/t20260325_968903.html"
+        },
+        {
           "date": "2026-02-05",
           "source": "17173",
           "kind": "权威媒体",
@@ -6020,37 +6068,12 @@
           "url": "https://news.17173.com/content/02052026/160731958.shtml"
         },
         {
-          "title": "首曝一年两次测试，腾讯这款生活模拟新游立住了吗？",
-          "source": "游研所收录 · 游戏新知",
-          "date": "2026-10-01",
-          "summary": "《粒粒的小人国》二测全面升级，腾讯以微观视角切入生活模拟赛道。",
-          "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzMzNjM3OQ==&mid=2247573570&idx=1&sn=f82a9e92604d9900e2f0c68d5554a96b&chksm=cf3295364151c862fa3bec0b2ed165b5acfb4fd5c7b8a017856cea84f8863daea1d33c36afad&scene=126&sessionid=0#rd",
-          "type": "公众号报道",
-          "kind": "公众号报道",
-          "timeline": false,
-          "date_meaning": "报道日期"
-        },
-        {
-          "title": "我第一次觉得组乐队开心，是在腾讯的小人国里",
-          "source": "游研所收录 · 游戏茶馆",
-          "date": "2026-09-30",
-          "summary": "作者分享在腾讯生活模拟新游《粒粒的小人国》二测中与陌生人即兴合奏组乐队的独特社交体验。",
-          "url": "http://mp.weixin.qq.com/s?__biz=MjM5OTgzNzkyNA==&mid=2653433961&idx=1&sn=adf4e7b459c4af113bcbcb75ea2a1616&chksm=bdc187ce845e17804afd3a53518668eb36b843bd33a7488168374c7062a78474f386630624ab&scene=126&sessionid=0#rd",
-          "type": "公众号报道",
-          "kind": "公众号报道",
-          "timeline": false,
-          "date_meaning": "报道日期"
-        },
-        {
-          "title": "那些不起眼的美术细节，让这款游戏的体验更加舒适",
-          "source": "游研所收录 · GameRes游资网",
-          "date": "2026-09-29",
-          "summary": "《粒粒的小人国》最新测试用蜡笔笔触统一画风、大量植入UI动效与模糊虚化，让华丽但静态的画面升级为更具动感与生命力的呈现。",
-          "url": "http://mp.weixin.qq.com/s?__biz=MjM5NTMxNTU0MQ==&mid=2650048786&idx=1&sn=3aed8a0b4a158bc4fd14e262ab739af7&chksm=bfaa0241e98aaa1909482f0243ae8d9ec9ca251a1c9cc9c6abe78bc6aef0be46fa720b617aef&scene=126&sessionid=0#rd",
-          "type": "公众号报道",
-          "kind": "公众号报道",
-          "timeline": false,
-          "date_meaning": "报道日期"
+          "date": "2025-09-24",
+          "source": "粒粒的小人国官方",
+          "kind": "首次公开",
+          "title": "首曝 PV 公开并开启全平台预约",
+          "summary": "官方首次公开《粒粒的小人国》名称、微缩世界设定与首曝 PV，并同步开放多平台预约。",
+          "url": "https://community-cn.honor.com/cngm/game/topicdetail/topicid-3688146097209345"
         }
       ],
       "testing": {
@@ -7875,6 +7898,36 @@
       ],
       "media_reports": [
         {
+          "title": "当米哈游仔细研究「过日子」",
+          "date": "2026-10-07",
+          "source": "游研所收录 · 游戏矩阵 GameMatrix",
+          "summary": "连接测试体验与生活系统改进；商业化摘要存在矛盾，不覆盖人工结论。",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzkzOTYwMjE2NA==&mid=2247554547&idx=1&sn=638951f4623ece3a5449b7c098a95a7e&chksm=c305305ced39a2b828b81b7af316c7cada535956cfc0653502aac4ade975ee10669346cfb3cd&scene=126&sessionid=0#rd",
+          "type": "研究资料"
+        },
+        {
+          "title": "米哈游等不及了，年内还要炸一次？",
+          "source": "游研所收录 · 游戏那点事Gamez",
+          "date": "2026-10-02",
+          "summary": "米哈游新作《星布谷地》三测开启，作为治愈系生活模拟，AI NPC与社交广场成核心亮点，三测首次开放付费验证非抽卡商业化路径。",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MDEwMTk2MA==&mid=2651305144&idx=1&sn=3084ace5bb0977072496dc6d563514e8&chksm=bc1a0a9534172c739833e02f2fb0c59b7d6068179a71269dab04a0932ed323d1304197f824e9&scene=126&sessionid=0#rd",
+          "type": "公众号报道",
+          "kind": "公众号报道",
+          "timeline": false,
+          "date_meaning": "报道日期"
+        },
+        {
+          "title": "米哈游李嫣然：《星布谷地》AI NPC如何靠“活人感”俘获玩家？",
+          "source": "游研所收录 · GameLook",
+          "date": "2026-09-28",
+          "summary": "米哈游《星布谷地》AI总负责人李嫣然在2026云栖大会分享该作AI NPC的类脑Agent架构、超智记忆系统与多教师在线蒸馏技术。",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5NzQwMjI4MA==&mid=2657337406&idx=3&sn=d9c6ea2614b2e3e086680fe501da2595&chksm=bc0fb2a99c20f381bea13c50feae5e78d6b65922e8ad3f1462ad5a16f0cb2687ba65331823c4&scene=126&sessionid=0#rd",
+          "type": "公众号报道",
+          "kind": "公众号报道",
+          "timeline": false,
+          "date_meaning": "报道日期"
+        },
+        {
           "date": "2026-09-04",
           "title": "米哈游启动器开放预约",
           "url": "https://m.ithome.com/html/998411.htm",
@@ -7882,22 +7935,6 @@
           "source": "IT之家",
           "type": "重大新闻",
           "kind": "预约动态"
-        },
-        {
-          "date": "2024-07-22",
-          "source": "国家新闻出版署",
-          "kind": "版号节点",
-          "title": "移动、客户端版号获批",
-          "summary": "《星布谷地》获得国产网络游戏版号，批复文号国新出审〔2024〕1524号，出版物号 ISBN 978-7-498-13783-8。",
-          "url": "https://www.nppa.gov.cn/bsfw/jggs/yxspjg/gcwlyxspxx/202407/t20240722_856026.html"
-        },
-        {
-          "date": "2025-09-25",
-          "source": "星布谷地官方微博",
-          "kind": "首次公开",
-          "title": "产品正式公开并启动宜居测试招募",
-          "summary": "官方发布宜居 PV，首次正式公开米哈游生活模拟产品《星布谷地》，并同步开放宜居测试招募。",
-          "url": "https://www.weibo.com/7905092110/Q6auUoySM"
         },
         {
           "date": "2026-05-22",
@@ -7924,37 +7961,20 @@
           "url": "https://www.gamelook.com.cn/2025/11/581745/"
         },
         {
-          "title": "当米哈游仔细研究「过日子」",
-          "source": "游研所收录 · 游戏矩阵 GameMatrix",
-          "date": "2026-10-07",
-          "summary": "米哈游首款生活模拟游戏《星布谷地》三测开启，展示从种星球到星海探索的完整循环与轻盈社交设计",
-          "url": "http://mp.weixin.qq.com/s?__biz=MzkzOTYwMjE2NA==&mid=2247554547&idx=1&sn=638951f4623ece3a5449b7c098a95a7e&chksm=c305305ced39a2b828b81b7af316c7cada535956cfc0653502aac4ade975ee10669346cfb3cd&scene=126&sessionid=0#rd",
-          "type": "公众号报道",
-          "kind": "公众号报道",
-          "timeline": false,
-          "date_meaning": "报道日期"
+          "date": "2025-09-25",
+          "source": "星布谷地官方微博",
+          "kind": "首次公开",
+          "title": "产品正式公开并启动宜居测试招募",
+          "summary": "官方发布宜居 PV，首次正式公开米哈游生活模拟产品《星布谷地》，并同步开放宜居测试招募。",
+          "url": "https://www.weibo.com/7905092110/Q6auUoySM"
         },
         {
-          "title": "米哈游等不及了，年内还要炸一次？",
-          "source": "游研所收录 · 游戏那点事Gamez",
-          "date": "2026-10-02",
-          "summary": "米哈游新作《星布谷地》三测开启，作为治愈系生活模拟，AI NPC与社交广场成核心亮点，三测首次开放付费验证非抽卡商业化路径。",
-          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MDEwMTk2MA==&mid=2651305144&idx=1&sn=3084ace5bb0977072496dc6d563514e8&chksm=bc1a0a9534172c739833e02f2fb0c59b7d6068179a71269dab04a0932ed323d1304197f824e9&scene=126&sessionid=0#rd",
-          "type": "公众号报道",
-          "kind": "公众号报道",
-          "timeline": false,
-          "date_meaning": "报道日期"
-        },
-        {
-          "title": "米哈游李嫣然：《星布谷地》AI NPC如何靠“活人感”俘获玩家？",
-          "source": "游研所收录 · GameLook",
-          "date": "2026-09-28",
-          "summary": "米哈游《星布谷地》AI总负责人李嫣然在2026云栖大会分享该作AI NPC的类脑Agent架构、超智记忆系统与多教师在线蒸馏技术。",
-          "url": "http://mp.weixin.qq.com/s?__biz=MjM5NzQwMjI4MA==&mid=2657337406&idx=3&sn=d9c6ea2614b2e3e086680fe501da2595&chksm=bc0fb2a99c20f381bea13c50feae5e78d6b65922e8ad3f1462ad5a16f0cb2687ba65331823c4&scene=126&sessionid=0#rd",
-          "type": "公众号报道",
-          "kind": "公众号报道",
-          "timeline": false,
-          "date_meaning": "报道日期"
+          "date": "2024-07-22",
+          "source": "国家新闻出版署",
+          "kind": "版号节点",
+          "title": "移动、客户端版号获批",
+          "summary": "《星布谷地》获得国产网络游戏版号，批复文号国新出审〔2024〕1524号，出版物号 ISBN 978-7-498-13783-8。",
+          "url": "https://www.nppa.gov.cn/bsfw/jggs/yxspjg/gcwlyxspxx/202407/t20240722_856026.html"
         }
       ],
       "editor_note": "二测后的核心观察点是：跨星球旅行和多人互动能否成为长期内容发动机，而不是高规格包装下的常规生活模拟。",
@@ -8872,12 +8892,12 @@
       },
       "media_reports": [
         {
-          "date": "2026-02-26",
-          "source": "国家新闻出版署",
-          "kind": "版号节点",
-          "title": "移动端版号获批",
-          "summary": "《塔塔冒险队》获得国产网络游戏版号，批复文号国新出审〔2026〕475号，出版物号 ISBN 978-7-498-16486-5。",
-          "url": "https://www.nppa.gov.cn/bsfw/jggs/cxjg/202602/t20260227_955314.html"
+          "title": "莉莉丝做《塔塔冒险队》：不靠大世界，靠什么撑起长期养成？",
+          "date": "2026-09-29",
+          "source": "游研所收录 · 靡音",
+          "summary": "公测后0.48.1版本宠物养成与合作阵容分析，不能视为新品首曝。",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzIxNzQxNTM4MQ==&mid=2247485062&idx=1&sn=fa7422ea873e6d598fd22df7d7b6c81a&chksm=96d485aec14cb1d17fa49a93a3cbbe4f1ffd861a77348aa83cbfff824a943b713a5098b07e14&scene=126&sessionid=0#rd",
+          "type": "研究资料"
         },
         {
           "date": "2026-08-25",
@@ -8896,15 +8916,12 @@
           "url": "https://mp.weixin.qq.com/s/5Uipb-KsB8kd0zRW9Y3GuA"
         },
         {
-          "title": "莉莉丝做《塔塔冒险队》：不靠大世界，靠什么撑起长期养成？",
-          "source": "游研所收录 · 靡音",
-          "date": "2026-09-29",
-          "summary": "莉莉丝《塔塔冒险队》通过宠物多阶段养成、与活动相连的资源需求及合作阵容构建长线留存，区别于大世界路线",
-          "url": "http://mp.weixin.qq.com/s?__biz=MzIxNzQxNTM4MQ==&mid=2247485062&idx=1&sn=fa7422ea873e6d598fd22df7d7b6c81a&chksm=96d485aec14cb1d17fa49a93a3cbbe4f1ffd861a77348aa83cbfff824a943b713a5098b07e14&scene=126&sessionid=0#rd",
-          "type": "公众号报道",
-          "kind": "公众号报道",
-          "timeline": false,
-          "date_meaning": "报道日期"
+          "date": "2026-02-26",
+          "source": "国家新闻出版署",
+          "kind": "版号节点",
+          "title": "移动端版号获批",
+          "summary": "《塔塔冒险队》获得国产网络游戏版号，批复文号国新出审〔2026〕475号，出版物号 ISBN 978-7-498-16486-5。",
+          "url": "https://www.nppa.gov.cn/bsfw/jggs/cxjg/202602/t20260227_955314.html"
         }
       ],
       "gameplay_videos": [
@@ -11090,6 +11107,17 @@
       ],
       "media_reports": [
         {
+          "title": "冲17万在线：《伊莫》悄悄打了一场后劲战？",
+          "source": "游研所收录 · 游戏那点事Gamez",
+          "date": "2026-09-29",
+          "summary": "《伊莫》PC与主机端全球上线后首周成绩逆势上行，Steam同时在线峰值逼近17万，21个地区进入畅销榜前10，口碑逐步回暖。",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MDEwMTk2MA==&mid=2651305095&idx=1&sn=801936dfd390426e7f4537d709b091e8&chksm=bc5d6003a8ebd74a2befa48f0e466eebc4a3347d3502bb674ed1981718ad153562aec4782262&scene=126&sessionid=0#rd",
+          "type": "公众号报道",
+          "kind": "公众号报道",
+          "timeline": false,
+          "date_meaning": "报道日期"
+        },
+        {
           "date": "2026-09-14",
           "source": "IT之家",
           "kind": "发行与产品资料",
@@ -11154,17 +11182,6 @@
           "lifecycle_phase": "first",
           "timeline_title": "首测产品分析",
           "timeline_date_basis": "report_date"
-        },
-        {
-          "title": "冲17万在线：《伊莫》悄悄打了一场后劲战？",
-          "source": "游研所收录 · 游戏那点事Gamez",
-          "date": "2026-09-29",
-          "summary": "《伊莫》PC与主机端全球上线后首周成绩逆势上行，Steam同时在线峰值逼近17万，21个地区进入畅销榜前10，口碑逐步回暖。",
-          "url": "http://mp.weixin.qq.com/s?__biz=MjM5MDEwMTk2MA==&mid=2651305095&idx=1&sn=801936dfd390426e7f4537d709b091e8&chksm=bc5d6003a8ebd74a2befa48f0e466eebc4a3347d3502bb674ed1981718ad153562aec4782262&scene=126&sessionid=0#rd",
-          "type": "公众号报道",
-          "kind": "公众号报道",
-          "timeline": false,
-          "date_meaning": "报道日期"
         }
       ],
       "testing": {
@@ -11657,14 +11674,12 @@
       },
       "media_reports": [
         {
-          "date": "2026-09-25",
-          "source": "游研所收录公众号",
-          "kind": "公众号报道",
           "title": "凉屋布局轻竞技，《火人冲冲冲》自动打架，怎么还这么多纠结？",
-          "summary": "9 月 25 日玩法报道详述四人共享卡池、每牌四张、金币与升星选择，并提出局外祝福可能影响竞技公平。",
+          "date": "2026-09-25",
+          "source": "游研所收录 · 高玩看世界",
+          "summary": "竖屏自动战斗自走棋设计分析，四人共享卡池；祝福成长对公平性的影响属于作者观点。",
           "url": "http://mp.weixin.qq.com/s?__biz=MzU4NTcxMjE1Mg==&mid=2247497150&idx=1&sn=3ae87fc1463c73c646e80387a1a89134&chksm=fcafc3c0471ffac1b5827f98d679ba7700dcff6bdab9b871242ab768e3de770437af1a4e3dc1&scene=126&sessionid=0#rd",
-          "timeline": false,
-          "date_meaning": "报道日期"
+          "type": "研究资料"
         },
         {
           "date": "2026-09-17",
@@ -11828,14 +11843,12 @@
       },
       "media_reports": [
         {
-          "date": "2026-09-24",
-          "source": "游研所收录公众号",
-          "kind": "公众号报道",
           "title": "大量实机曝光：莉莉丝首款“生活模拟”亮牌了",
-          "summary": "9 月 24 日首支 PV 与实机公开，展示现代动物都市、家园布置、职业扮演和多人访友，并开启移动端与 PC 预约。",
+          "date": "2026-09-24",
+          "source": "游研所收录 · 游戏那点事Gamez",
+          "summary": "莉莉丝猫爪拿铁生活模拟项目首曝PV及实机，移动与PC预约开启；没有已确认开测日期。",
           "url": "http://mp.weixin.qq.com/s?__biz=MjM5MDEwMTk2MA==&mid=2651304799&idx=1&sn=dbf25506b7046d7cfece7134b91dbf51&chksm=bcd1416eb7036e20682e9d7272f01cadd84148dfa5a44c52f907715091868aa7fcda24e2e662&scene=126&sessionid=0#rd",
-          "timeline": false,
-          "date_meaning": "报道日期"
+          "type": "研究资料"
         },
         {
           "date": "2026-09-24",
@@ -12045,14 +12058,12 @@
       },
       "media_reports": [
         {
-          "date": "2026-09-24",
-          "source": "游研所收录公众号",
-          "kind": "公众号报道",
           "title": "试玩《未眠野》：让开放世界的自由，落到玩家手里",
-          "summary": "GameLook 试玩覆盖定影、浮金、立石三种能力及双人关卡；探索与战斗共用交互规则，长期内容供给仍待验证。",
+          "date": "2026-09-24",
+          "source": "游研所收录 · GameLook",
+          "summary": "线下试玩的环境交互与双人合作体验分析；具体试玩发生日未明确。",
           "url": "http://mp.weixin.qq.com/s?__biz=MjM5NzQwMjI4MA==&mid=2657337234&idx=2&sn=d50a20d7a02f0ceb23f8b9126a501a47&chksm=bcb483cc5890c3249747f0f82c87635c315c83041766eff28f70d100af6d0791b4ce30d5f42d&scene=126&sessionid=0#rd",
-          "timeline": false,
-          "date_meaning": "报道日期"
+          "type": "研究资料"
         },
         {
           "date": "2026-09-24",
@@ -12343,23 +12354,23 @@
       },
       "media_reports": [
         {
-          "date": "2026-09-23",
-          "source": "游研所收录公众号",
+          "title": "新一批游戏版号下发，209款产品获批，米哈游《源初之结》、恺英网络《龙之谷：觉醒》、电魂网络《我叫MT：荣耀之战》  过审 | 游戏干线",
+          "source": "游研所收录 · 游戏干线",
+          "date": "2026-09-30",
+          "summary": "2026年9月国家新闻出版署下发新一批游戏版号,共209款产品获批(含206款国产+3款进口),头部厂商多款重点产品过审",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5NjE4MTQyMg==&mid=2653636117&idx=1&sn=ca0f00795f6174cdd81fbd699bd29117&chksm=bcb2c09e38d89d28650d3bd7fb136e8d0f3edc92722543bd79592e0e467082185fff2de57f31&scene=126&sessionid=0#rd",
+          "type": "公众号报道",
           "kind": "公众号报道",
-          "title": "米哈游《源初之结》发文：首发PC，角色无需抽卡，没有难度门槛",
-          "summary": "9 月 23 日官方 FAQ 确认 PC 首发、角色靠游玩解锁、不强制组队，并介绍神格技与低门槛战斗方向。",
-          "url": "http://mp.weixin.qq.com/s?__biz=MjM5Njc5MjgyMA==&mid=2989877251&idx=2&sn=61c6e896b47382c10928615ff20a3caa&chksm=9038c1ad1909782a4d2f584b294b6a7c1a13f9591fae2819a25253957c88ec234d7bc21a113e&scene=126&sessionid=0#rd",
           "timeline": false,
           "date_meaning": "报道日期"
         },
         {
-          "date": "2026-08-26",
-          "source": "游戏葡萄",
-          "title": "试玩米哈游最新大作后，对话主创：社交不焦虑，角色不抽卡",
-          "summary": "媒体在科隆展试玩四个关卡、三场 Boss 战和四个角色；这是受邀试玩反馈，不等于公开玩家测试。",
-          "url": "http://mp.weixin.qq.com/s?__biz=MjM5OTc2ODUxMw==&mid=2650018482&idx=1&sn=912930befb09ef6104f0ffb5c4070b15&chksm=be62197fb827f924f0c72509c90f03e761e78c0f4fd63f89d9bfe1d5b6ecb14bd13a9e4f7b37&scene=126&sessionid=0#rd",
-          "kind": "公众号报道",
-          "date_meaning": "报道日期"
+          "title": "米哈游《源初之结》发文：首发PC，角色无需抽卡，没有难度门槛",
+          "date": "2026-09-23",
+          "source": "游研所收录 · 游戏陀螺",
+          "summary": "官方Q&A的媒体转述：首发PC、角色通过游玩解锁；不凭该报道补造首曝日期。",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5Njc5MjgyMA==&mid=2989877251&idx=2&sn=61c6e896b47382c10928615ff20a3caa&chksm=9038c1ad1909782a4d2f584b294b6a7c1a13f9591fae2819a25253957c88ec234d7bc21a113e&scene=126&sessionid=0#rd",
+          "type": "研究资料"
         },
         {
           "date": "2026-08-27",
@@ -12371,14 +12382,12 @@
           "date_meaning": "报道日期"
         },
         {
-          "title": "新一批游戏版号下发，209款产品获批，米哈游《源初之结》、恺英网络《龙之谷：觉醒》、电魂网络《我叫MT：荣耀之战》  过审 | 游戏干线",
-          "source": "游研所收录 · 游戏干线",
-          "date": "2026-09-30",
-          "summary": "2026年9月国家新闻出版署下发新一批游戏版号,共209款产品获批(含206款国产+3款进口),头部厂商多款重点产品过审",
-          "url": "http://mp.weixin.qq.com/s?__biz=MjM5NjE4MTQyMg==&mid=2653636117&idx=1&sn=ca0f00795f6174cdd81fbd699bd29117&chksm=bcb2c09e38d89d28650d3bd7fb136e8d0f3edc92722543bd79592e0e467082185fff2de57f31&scene=126&sessionid=0#rd",
-          "type": "公众号报道",
+          "date": "2026-08-26",
+          "source": "游戏葡萄",
+          "title": "试玩米哈游最新大作后，对话主创：社交不焦虑，角色不抽卡",
+          "summary": "媒体在科隆展试玩四个关卡、三场 Boss 战和四个角色；这是受邀试玩反馈，不等于公开玩家测试。",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5OTc2ODUxMw==&mid=2650018482&idx=1&sn=912930befb09ef6104f0ffb5c4070b15&chksm=be62197fb827f924f0c72509c90f03e761e78c0f4fd63f89d9bfe1d5b6ecb14bd13a9e4f7b37&scene=126&sessionid=0#rd",
           "kind": "公众号报道",
-          "timeline": false,
           "date_meaning": "报道日期"
         }
       ],
@@ -12766,16 +12775,6 @@
       },
       "media_reports": [
         {
-          "date": "2026-09-17",
-          "source": "游研所收录公众号",
-          "kind": "公众号报道",
-          "title": "捉宠大世界到底该怎么做？《蓝色星原：旅谣》三测给出了答案",
-          "summary": "9 月 17 日旅迹测试开启，媒体报道奇波超过 200 种、对决阵容调整及取消饱食度和工具耐久等减负改动。",
-          "url": "http://mp.weixin.qq.com/s?__biz=MjM5NzQwMjI4MA==&mid=2657336233&idx=1&sn=8645b6b07ba50633bdc5d756e5a56f29&chksm=bc92a1b6e53fb1791884254e7364400f7cc5fd9755e5cd7c2b3233f60fa5e160f5fafe2912b8&scene=126&sessionid=0#rd",
-          "timeline": false,
-          "date_meaning": "报道日期"
-        },
-        {
           "date": "2026-09-29",
           "source": "en的游戏时光",
           "title": "2026的蛮啾网络，给钱真不含糊！",
@@ -12801,6 +12800,14 @@
           "url": "http://mp.weixin.qq.com/s?__biz=MjM5Njc5MjgyMA==&mid=2989877035&idx=1&sn=b551c688ae0ed22a548f0d0fa555eb35&chksm=9044d2af3534aa921bfc9cadbdea894ecf036bfee358159f3e37d8d4f32f16088b6e87e7b77e&scene=126&sessionid=0#rd",
           "kind": "公众号报道",
           "date_meaning": "报道日期"
+        },
+        {
+          "title": "捉宠大世界到底该怎么做？《蓝色星原：旅谣》三测给出了答案",
+          "date": "2026-09-17",
+          "source": "游研所收录 · GameLook",
+          "summary": "限量计费删档三测的奇波系统与减负设计报道，事件为9月17日。",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjM5NzQwMjI4MA==&mid=2657336233&idx=1&sn=8645b6b07ba50633bdc5d756e5a56f29&chksm=bc92a1b6e53fb1791884254e7364400f7cc5fd9755e5cd7c2b3233f60fa5e160f5fafe2912b8&scene=126&sessionid=0#rd",
+          "type": "研究资料"
         }
       ],
       "testing": {
@@ -13053,14 +13060,11 @@
       "media_reports": [
         {
           "title": "灵犀互娱在东南亚市场测试了一款微恐摸金新游？",
-          "source": "游研所收录 · 游戏新知",
           "date": "2026-10-05",
-          "summary": "灵犀互娱旗下QOOKKA GAMES在东南亚五国测试微恐摸金新游《Project63》",
+          "source": "游研所收录 · 游戏新知",
+          "summary": "四人微恐搜打撤已在东南亚测试；仅能确认9月下旬，准确开测日仍待官方公告。",
           "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzMzNjM3OQ==&mid=2247573606&idx=1&sn=0f5210a4267f6817401b91caa757aea5&chksm=cf1c28ae3e93943d3ac3d0c57989246b8df57971630f1cda409c8c761540c628d2d0b928686b&scene=126&sessionid=0#rd",
-          "type": "公众号报道",
-          "kind": "公众号报道",
-          "timeline": false,
-          "date_meaning": "报道日期"
+          "type": "研究资料"
         }
       ],
       "testing": {
@@ -13224,14 +13228,11 @@
       "media_reports": [
         {
           "title": "必火无疑！Steam预约破250万人、全球第3，《亲爱的乘客》是什么奇葩游戏",
-          "source": "游研所收录 · GameLook",
           "date": "2026-09-28",
-          "summary": "《亲爱的乘客》作为FLEXUS Games首款PC游戏，Steam愿望清单突破250万、升至全球第三，凭借PV争议内容与友尽品类联动实现零广告爆火。",
+          "source": "游研所收录 · GameLook",
+          "summary": "PC多人合作游戏的PV与愿望单热度报道；截至报道仍未发布Demo。MCP同名移动应用包名与本项目不符，不关联。",
           "url": "http://mp.weixin.qq.com/s?__biz=MjM5NzQwMjI4MA==&mid=2657337406&idx=5&sn=4ce17613b086a748034c50e6b7ec99c3&chksm=bc40a9db701060a778d1aec43318d9e9009806263608d004f329e7ec5455aa9dbd229f39f1f9&scene=126&sessionid=0#rd",
-          "type": "公众号报道",
-          "kind": "公众号报道",
-          "timeline": false,
-          "date_meaning": "报道日期"
+          "type": "研究资料"
         }
       ],
       "testing": {

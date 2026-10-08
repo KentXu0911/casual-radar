@@ -130,12 +130,25 @@ export function matchesEntityEvidence(queryNames, values) {
   return queryNames.map(normalize).filter((name) => name.length >= 2).some((name) => evidence.includes(name));
 }
 
+export function evidenceUrlIssue(value) {
+  if (!String(value || "").trim()) return "missing_source_url";
+  let url;
+  try { url = new URL(value); } catch { return "invalid_source_url"; }
+  if (!["https:", "http:"].includes(url.protocol)) return "invalid_source_protocol";
+  if (String(value).length > 2048 || /([0-9a-z])\1{9,}/i.test(url.pathname + url.search)) return "repeated_placeholder_url";
+  if (/x{4,}|y{4,}|\bplaceholder\b|\/example\d*\b|(?:\/|=)12345(?:6[0-9]*)?(?:\/|\.|$)/i.test(url.pathname + url.search)) return "placeholder_source_url";
+  if (/^(?:www\.)?example\.(?:com|org|net)$/.test(url.hostname)) return "example_source_url";
+  if (/(?:^|\.)google\.[a-z.]+$/.test(url.hostname) && url.pathname === "/search") return "search_page_not_original_source";
+  return "";
+}
+
 export function isLowConfidenceEventSource(source, url) {
   const normalizedSource = String(source || "").normalize("NFKC").trim();
   const evidence = `${normalizedSource} ${url || ""}`.toLocaleLowerCase();
+  if (url && evidenceUrlIssue(url)) return true;
   if (normalizedSource.length > 40 || /^[a-z]\.?$/i.test(normalizedSource)) return true;
   if (/^(Part\s*\d+|One - WithOne AI|Telnyx Developer Docs|Indo-Pacific Defense FORUM|中国领事服务网|中公网校)$/i.test(normalizedSource) || /度假酒店|黑苹果屋|多多软件/.test(normalizedSource)) return true;
-  return /91手游网|交易猫|3322软件站|多多软件站|软件下载|应用下载|下载站|手游网|游吧乐|千秋娱乐|好玩的手机游戏|9k9k|apkpure|apkfab|pp助手|豌豆荚|游戏鸟|游戏宝|当快软件园|多特游戏|3839游戏网|4399|跑跑车|攻略蜂巢|马捉老鼠网|新保罗娱乐|性感曝光|3xbz|cybrarium|baseball connected|realms rising|transfermarkt|holiday travel|gspatula|downdk\.com|dirt hub|amikin hub|\bhays\b|web[ _]?search|\/apk\/|破解版|内购版|youtube\.com\/watch\?v=(?:x+|g_9_g_9)/i.test(evidence);
+  return /91手游网|交易猫|3322软件站|多多软件站|软件下载|应用下载|下载站|手游网|游吧乐|千秋娱乐|好玩的手机游戏|9k9k|apkpure|apkfab|pp助手|豌豆荚|游戏鸟|游戏宝|当快软件园|多特游戏|3839游戏网|4399|跑跑车|攻略蜂巢|马捉老鼠网|新保罗娱乐|性感曝光|3xbz|cybrarium|baseball connected|realms rising|transfermarkt|holiday travel|gspatula|downdk\.com|downkuai\.com|youxibao\.com|wandoujia\.com|imacos\.top|shuilingmiao\.com|tvmao\.com|biubiu001\.com|pkvs\.net|dirt hub|amikin hub|\bhays\b|web[ _]?search|\/apk\/|破解版|内购版|youtube\.com\/watch\?v=(?:x+|g_9_g_9)/i.test(evidence);
 }
 
 export function isUnrelatedProductEvidence(gameName, title, summary) {
@@ -143,6 +156,8 @@ export function isUnrelatedProductEvidence(gameName, title, summary) {
   if (gameName === "PEAK" && /高峰期|peak periods|database latency|Muse Code/i.test(evidence)) return true;
   if (gameName === "珊瑚岛" && /马尔代夫|基里巴斯|度假酒店|珊瑚岛上的死光|激光技术/.test(evidence)) return true;
   if (gameName === "WePlay" && /WePlay\s*展会|WePlay\s*Expo/i.test(evidence)) return true;
+  if (gameName === "火人冲冲冲" && /拖动巨人|吃小人变大|巨人冲冲冲/.test(evidence)) return true;
+  if (gameName === "蓝色星原：旅谣" && /蛮啾.*Nexon.*联合开发/i.test(evidence)) return true;
   return false;
 }
 

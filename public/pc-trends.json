@@ -752,7 +752,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_185b659f347d4e83abf94b9fae34af90",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_b43ee868667b451989065d4713e626a8",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -1490,7 +1490,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_185b659f347d4e83abf94b9fae34af90",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_b43ee868667b451989065d4713e626a8",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -2228,7 +2228,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_3300b93032674bb2b9dc6535a5b07b11",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_a72fd8a1cd544d9aa78070d19ef04e8e",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -2609,7 +2609,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_185b659f347d4e83abf94b9fae34af90",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_b43ee868667b451989065d4713e626a8",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -3347,7 +3347,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c5b954ede60849f89ddb2c9f8e550a69",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_4443760fd4984e13a9a7d9c18d7d264d",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -4085,7 +4085,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_185b659f347d4e83abf94b9fae34af90",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_b43ee868667b451989065d4713e626a8",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -4823,7 +4823,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c5b954ede60849f89ddb2c9f8e550a69",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_4443760fd4984e13a9a7d9c18d7d264d",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -5942,7 +5942,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_ec3e71e74bb449b6ba6d436d794038fc",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c611a8317ab643bca985549e7edd0710",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -8438,87 +8438,15 @@
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "内容警告": {
-      "start_date": "2026-06-22",
-      "end_date": "2026-09-19",
+      "start_date": "2026-07-10",
+      "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_1711bbd2a6ce4f54b83909f6b36e1068",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_4443760fd4984e13a9a7d9c18d7d264d",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-06-22",
-            "value": 903
-          },
-          {
-            "date": "2026-06-23",
-            "value": 900
-          },
-          {
-            "date": "2026-06-24",
-            "value": 869
-          },
-          {
-            "date": "2026-06-25",
-            "value": 873
-          },
-          {
-            "date": "2026-06-26",
-            "value": 992
-          },
-          {
-            "date": "2026-06-27",
-            "value": 1191
-          },
-          {
-            "date": "2026-06-28",
-            "value": 1236
-          },
-          {
-            "date": "2026-06-29",
-            "value": 1142
-          },
-          {
-            "date": "2026-06-30",
-            "value": 1102
-          },
-          {
-            "date": "2026-07-01",
-            "value": 1091
-          },
-          {
-            "date": "2026-07-02",
-            "value": 1090
-          },
-          {
-            "date": "2026-07-03",
-            "value": 1128
-          },
-          {
-            "date": "2026-07-04",
-            "value": 1200
-          },
-          {
-            "date": "2026-07-05",
-            "value": 1231
-          },
-          {
-            "date": "2026-07-06",
-            "value": 1144
-          },
-          {
-            "date": "2026-07-07",
-            "value": 1156
-          },
-          {
-            "date": "2026-07-08",
-            "value": 1113
-          },
-          {
-            "date": "2026-07-09",
-            "value": 1155
-          },
           {
             "date": "2026-07-10",
             "value": 1061
@@ -8805,7 +8733,79 @@
           },
           {
             "date": "2026-09-19",
-            "value": 699
+            "value": 801
+          },
+          {
+            "date": "2026-09-20",
+            "value": 831
+          },
+          {
+            "date": "2026-09-21",
+            "value": 538
+          },
+          {
+            "date": "2026-09-22",
+            "value": 499
+          },
+          {
+            "date": "2026-09-23",
+            "value": 474
+          },
+          {
+            "date": "2026-09-24",
+            "value": 472
+          },
+          {
+            "date": "2026-09-25",
+            "value": 606
+          },
+          {
+            "date": "2026-09-26",
+            "value": 832
+          },
+          {
+            "date": "2026-09-27",
+            "value": 846
+          },
+          {
+            "date": "2026-09-28",
+            "value": 525
+          },
+          {
+            "date": "2026-09-29",
+            "value": 495
+          },
+          {
+            "date": "2026-09-30",
+            "value": 490
+          },
+          {
+            "date": "2026-10-01",
+            "value": 532
+          },
+          {
+            "date": "2026-10-02",
+            "value": 692
+          },
+          {
+            "date": "2026-10-03",
+            "value": 939
+          },
+          {
+            "date": "2026-10-04",
+            "value": 987
+          },
+          {
+            "date": "2026-10-05",
+            "value": 682
+          },
+          {
+            "date": "2026-10-06",
+            "value": 591
+          },
+          {
+            "date": "2026-10-07",
+            "value": 556
           }
         ]
       },
@@ -8815,78 +8815,6 @@
         "granularity": "daily",
         "currency": "USD",
         "points": [
-          {
-            "date": "2026-06-22",
-            "value": 14529
-          },
-          {
-            "date": "2026-06-23",
-            "value": 13052
-          },
-          {
-            "date": "2026-06-24",
-            "value": 11748
-          },
-          {
-            "date": "2026-06-25",
-            "value": 8201
-          },
-          {
-            "date": "2026-06-26",
-            "value": 11405
-          },
-          {
-            "date": "2026-06-27",
-            "value": 12506
-          },
-          {
-            "date": "2026-06-28",
-            "value": 15789
-          },
-          {
-            "date": "2026-06-29",
-            "value": 15432
-          },
-          {
-            "date": "2026-06-30",
-            "value": 11583
-          },
-          {
-            "date": "2026-07-01",
-            "value": 10613
-          },
-          {
-            "date": "2026-07-02",
-            "value": 12098
-          },
-          {
-            "date": "2026-07-03",
-            "value": 12656
-          },
-          {
-            "date": "2026-07-04",
-            "value": 14652
-          },
-          {
-            "date": "2026-07-05",
-            "value": 12490
-          },
-          {
-            "date": "2026-07-06",
-            "value": 13365
-          },
-          {
-            "date": "2026-07-07",
-            "value": 10775
-          },
-          {
-            "date": "2026-07-08",
-            "value": 11365
-          },
-          {
-            "date": "2026-07-09",
-            "value": 21701
-          },
           {
             "date": "2026-07-10",
             "value": 20633
@@ -9170,6 +9098,78 @@
           {
             "date": "2026-09-18",
             "value": 10854
+          },
+          {
+            "date": "2026-09-19",
+            "value": 12413
+          },
+          {
+            "date": "2026-09-20",
+            "value": 10834
+          },
+          {
+            "date": "2026-09-21",
+            "value": 7044
+          },
+          {
+            "date": "2026-09-22",
+            "value": 7568
+          },
+          {
+            "date": "2026-09-23",
+            "value": 6328
+          },
+          {
+            "date": "2026-09-24",
+            "value": 7261
+          },
+          {
+            "date": "2026-09-25",
+            "value": 7817
+          },
+          {
+            "date": "2026-09-26",
+            "value": 11320
+          },
+          {
+            "date": "2026-09-27",
+            "value": 11972
+          },
+          {
+            "date": "2026-09-28",
+            "value": 7370
+          },
+          {
+            "date": "2026-09-29",
+            "value": 7523
+          },
+          {
+            "date": "2026-09-30",
+            "value": 6021
+          },
+          {
+            "date": "2026-10-01",
+            "value": 6403
+          },
+          {
+            "date": "2026-10-02",
+            "value": 6035
+          },
+          {
+            "date": "2026-10-03",
+            "value": 10740
+          },
+          {
+            "date": "2026-10-04",
+            "value": 10775
+          },
+          {
+            "date": "2026-10-05",
+            "value": 8645
+          },
+          {
+            "date": "2026-10-06",
+            "value": 7409
           }
         ]
       },
@@ -9179,7 +9179,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_ec3e71e74bb449b6ba6d436d794038fc",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c611a8317ab643bca985549e7edd0710",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -9917,7 +9917,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_185b659f347d4e83abf94b9fae34af90",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_b43ee868667b451989065d4713e626a8",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -10655,7 +10655,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c5b954ede60849f89ddb2c9f8e550a69",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_4443760fd4984e13a9a7d9c18d7d264d",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -11393,7 +11393,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c5b954ede60849f89ddb2c9f8e550a69",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_4443760fd4984e13a9a7d9c18d7d264d",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -12131,7 +12131,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_2d0c7211e7fc4f80aa4d08fad71d8ebe",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_e5b0d6d6054f4b7fbb66fd9965b757a7",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -12507,335 +12507,359 @@
         "points": [
           {
             "date": "2026-07-10",
-            "value": 15157.02
+            "value": 8397
           },
           {
             "date": "2026-07-11",
-            "value": 11561.23
+            "value": 2423
           },
           {
             "date": "2026-07-12",
-            "value": 13462.47
+            "value": 12668
           },
           {
             "date": "2026-07-13",
-            "value": 17111.16
+            "value": 13651
           },
           {
             "date": "2026-07-14",
-            "value": 11149.84
+            "value": 12308
           },
           {
             "date": "2026-07-15",
-            "value": 11511.25
+            "value": 3983
           },
           {
             "date": "2026-07-16",
-            "value": 8787.23
+            "value": 1679
           },
           {
             "date": "2026-07-17",
-            "value": 11715.02
+            "value": 2399
           },
           {
             "date": "2026-07-18",
-            "value": 10584.66
+            "value": 8325
           },
           {
             "date": "2026-07-19",
-            "value": 12433.99
+            "value": 8925
           },
           {
             "date": "2026-07-20",
-            "value": 12384.01
+            "value": 14299
           },
           {
             "date": "2026-07-21",
-            "value": 9558.1
+            "value": 36948
           },
           {
             "date": "2026-07-22",
-            "value": 11715.02
+            "value": 9453
           },
           {
             "date": "2026-07-23",
-            "value": 11149.84
+            "value": 24
           },
           {
             "date": "2026-07-24",
-            "value": 22095.91
+            "value": 1991
           },
           {
             "date": "2026-07-25",
-            "value": 9146.71
+            "value": 30350
           },
           {
             "date": "2026-07-26",
-            "value": 11405.52
+            "value": 17442
           },
           {
             "date": "2026-07-27",
-            "value": 10996.05
+            "value": 672
           },
           {
             "date": "2026-07-28",
-            "value": 8375.84
+            "value": 0
           },
           {
             "date": "2026-07-29",
-            "value": 8323.93
+            "value": 0
           },
           {
             "date": "2026-07-30",
-            "value": 9969.2
+            "value": 14539
           },
           {
             "date": "2026-07-31",
-            "value": 9557.82
+            "value": 6790
           },
           {
             "date": "2026-08-01",
-            "value": 9962.58
+            "value": 19218
           },
           {
             "date": "2026-08-02",
-            "value": 10171.18
+            "value": 3791
           },
           {
             "date": "2026-08-03",
-            "value": 10375.91
+            "value": 27039
           },
           {
             "date": "2026-08-04",
-            "value": 8776.65
+            "value": 7965
           },
           {
             "date": "2026-08-05",
-            "value": 9500.95
+            "value": 5254
           },
           {
             "date": "2026-08-06",
-            "value": 9962.58
+            "value": 6550
           },
           {
             "date": "2026-08-07",
-            "value": 8674.28
+            "value": 33901
           },
           {
             "date": "2026-08-08",
-            "value": 9396.65
+            "value": 18858
           },
           {
             "date": "2026-08-09",
-            "value": 11098.29
+            "value": 21041
           },
           {
             "date": "2026-08-10",
-            "value": 10532.36
+            "value": 5062
           },
           {
             "date": "2026-08-11",
-            "value": 10273.54
+            "value": 22289
           },
           {
             "date": "2026-08-12",
-            "value": 9964.51
+            "value": 4031
           },
           {
             "date": "2026-08-13",
-            "value": 8672.12
+            "value": 21281
           },
           {
             "date": "2026-08-14",
-            "value": 9294.04
+            "value": 45369
           },
           {
             "date": "2026-08-15",
-            "value": 9344.26
+            "value": 15763
           },
           {
             "date": "2026-08-16",
-            "value": 11770.13
+            "value": 17850
           },
           {
             "date": "2026-08-17",
-            "value": 12235.61
+            "value": 1799
           },
           {
             "date": "2026-08-18",
-            "value": 9755.4
+            "value": 9213
           },
           {
             "date": "2026-08-19",
-            "value": 12185.07
+            "value": 2807
           },
           {
             "date": "2026-08-20",
-            "value": 9446.38
+            "value": 0
           },
           {
             "date": "2026-08-21",
-            "value": 10738.47
+            "value": 0
           },
           {
             "date": "2026-08-22",
-            "value": 11924.33
+            "value": 0
           },
           {
             "date": "2026-08-23",
-            "value": 12750.97
+            "value": 20105
           },
           {
             "date": "2026-08-24",
-            "value": 12028.63
+            "value": 0
           },
           {
             "date": "2026-08-25",
-            "value": 11926.27
+            "value": 1799
           },
           {
             "date": "2026-08-26",
-            "value": 9705.18
+            "value": 1799
           },
           {
             "date": "2026-08-27",
-            "value": 9187.57
+            "value": 0
           },
           {
             "date": "2026-08-28",
-            "value": 9500.45
+            "value": 0
           },
           {
             "date": "2026-08-29",
-            "value": 11149.85
+            "value": 0
           },
           {
             "date": "2026-08-30",
-            "value": 11512.95
+            "value": 1799
           },
           {
             "date": "2026-08-31",
-            "value": 12183.14
+            "value": 0
           },
           {
             "date": "2026-09-01",
-            "value": 11139.97
+            "value": 0
           },
           {
             "date": "2026-09-02",
-            "value": 4887.75
+            "value": 15907
           },
           {
             "date": "2026-09-03",
-            "value": 4887.75
+            "value": 1416
           },
           {
             "date": "2026-09-04",
-            "value": 8619.42
+            "value": 2015
           },
           {
             "date": "2026-09-05",
-            "value": 8774.74
+            "value": 15547
           },
           {
             "date": "2026-09-06",
-            "value": 9512.03
+            "value": 6646
           },
           {
             "date": "2026-09-07",
-            "value": 10984.65
+            "value": 13579
           },
           {
             "date": "2026-09-08",
-            "value": 9930.81
+            "value": 2183
           },
           {
             "date": "2026-09-09",
-            "value": 10670.07
+            "value": 20945
           },
           {
             "date": "2026-09-10",
-            "value": 7775.96
+            "value": 696
           },
           {
             "date": "2026-09-11",
-            "value": 8462.13
+            "value": 19098
           },
           {
             "date": "2026-09-12",
-            "value": 7777.83
+            "value": 12980
           },
           {
             "date": "2026-09-13",
-            "value": 8670.43
+            "value": 5638
           },
           {
             "date": "2026-09-14",
-            "value": 9722.28
+            "value": 1799
           },
           {
             "date": "2026-09-15",
-            "value": 6621.77
+            "value": 23584
           },
           {
             "date": "2026-09-16",
-            "value": 3835.83
+            "value": 10866
           },
           {
             "date": "2026-09-17",
-            "value": 61440.11
+            "value": 12219
           },
           {
             "date": "2026-09-18",
-            "value": 41486.33
+            "value": 1857
           },
           {
             "date": "2026-09-19",
-            "value": 22004.41
+            "value": 9096
           },
           {
             "date": "2026-09-20",
-            "value": 20173.98
+            "value": 16047
           },
           {
             "date": "2026-09-21",
-            "value": 21624.95
+            "value": 2763
           },
           {
             "date": "2026-09-22",
-            "value": 19230.26
+            "value": 5512
           },
           {
             "date": "2026-09-23",
-            "value": 24430.56
+            "value": 38096
           },
           {
             "date": "2026-09-24",
-            "value": 10670.23
+            "value": 12823
           },
           {
             "date": "2026-09-25",
-            "value": 3887.06
+            "value": 10508
           },
           {
             "date": "2026-09-26",
-            "value": 3837.9
+            "value": 31645
           },
           {
             "date": "2026-09-27",
-            "value": 6726.16
+            "value": 5878
           },
           {
             "date": "2026-09-28",
-            "value": 5149.32
+            "value": 1727
           },
           {
             "date": "2026-09-29",
-            "value": 6096.99
+            "value": 816
           },
           {
             "date": "2026-09-30",
-            "value": 7200
+            "value": 18498
+          },
+          {
+            "date": "2026-10-01",
+            "value": 24035
+          },
+          {
+            "date": "2026-10-02",
+            "value": 7729
+          },
+          {
+            "date": "2026-10-03",
+            "value": 20638
+          },
+          {
+            "date": "2026-10-04",
+            "value": 1079
+          },
+          {
+            "date": "2026-10-05",
+            "value": 4821
+          },
+          {
+            "date": "2026-10-06",
+            "value": 6923
           }
         ]
       },
@@ -12845,7 +12869,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-06",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c5b954ede60849f89ddb2c9f8e550a69",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_4443760fd4984e13a9a7d9c18d7d264d",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -13579,7 +13603,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_2d0c7211e7fc4f80aa4d08fad71d8ebe",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_e5b0d6d6054f4b7fbb66fd9965b757a7",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -13955,79 +13979,79 @@
         "points": [
           {
             "date": "2026-07-10",
-            "value": 166.2
+            "value": 1710
           },
           {
             "date": "2026-07-11",
-            "value": 252.03
+            "value": 200
           },
           {
             "date": "2026-07-12",
-            "value": 584.43
-          },
-          {
-            "date": "2026-07-13",
-            "value": 250.21
-          },
-          {
-            "date": "2026-07-14",
-            "value": 1327.75
-          },
-          {
-            "date": "2026-07-15",
-            "value": 1192.6
-          },
-          {
-            "date": "2026-07-16",
-            "value": 1271.46
-          },
-          {
-            "date": "2026-07-17",
-            "value": 887.28
-          },
-          {
-            "date": "2026-07-18",
-            "value": 150.01
-          },
-          {
-            "date": "2026-07-19",
-            "value": 402.48
-          },
-          {
-            "date": "2026-07-20",
-            "value": 267.1
-          },
-          {
-            "date": "2026-07-21",
-            "value": 150.01
-          },
-          {
-            "date": "2026-07-22",
-            "value": 234.17
-          },
-          {
-            "date": "2026-07-23",
-            "value": 217.7
-          },
-          {
-            "date": "2026-07-24",
             "value": 0
           },
           {
+            "date": "2026-07-13",
+            "value": 0
+          },
+          {
+            "date": "2026-07-14",
+            "value": 1066
+          },
+          {
+            "date": "2026-07-15",
+            "value": 623
+          },
+          {
+            "date": "2026-07-16",
+            "value": 168
+          },
+          {
+            "date": "2026-07-17",
+            "value": 200
+          },
+          {
+            "date": "2026-07-18",
+            "value": 128
+          },
+          {
+            "date": "2026-07-19",
+            "value": 216
+          },
+          {
+            "date": "2026-07-20",
+            "value": 176
+          },
+          {
+            "date": "2026-07-21",
+            "value": 0
+          },
+          {
+            "date": "2026-07-22",
+            "value": 0
+          },
+          {
+            "date": "2026-07-23",
+            "value": 0
+          },
+          {
+            "date": "2026-07-24",
+            "value": 144
+          },
+          {
             "date": "2026-07-25",
-            "value": 117.08
+            "value": 0
           },
           {
             "date": "2026-07-26",
-            "value": 135.38
+            "value": 0
           },
           {
             "date": "2026-07-27",
-            "value": 166.48
+            "value": 0
           },
           {
             "date": "2026-07-28",
-            "value": 133.55
+            "value": 0
           },
           {
             "date": "2026-07-29",
@@ -14035,27 +14059,27 @@
           },
           {
             "date": "2026-07-30",
-            "value": 201.24
+            "value": 0
           },
           {
             "date": "2026-07-31",
-            "value": 117.08
+            "value": 48
           },
           {
             "date": "2026-08-01",
-            "value": 420
+            "value": 144
           },
           {
             "date": "2026-08-02",
-            "value": 148
+            "value": 160
           },
           {
             "date": "2026-08-03",
-            "value": 146
+            "value": 0
           },
           {
             "date": "2026-08-04",
-            "value": 164
+            "value": 719
           },
           {
             "date": "2026-08-05",
@@ -14063,227 +14087,251 @@
           },
           {
             "date": "2026-08-06",
-            "value": 294
+            "value": 112
           },
           {
             "date": "2026-08-07",
-            "value": 256
+            "value": 152
           },
           {
             "date": "2026-08-08",
-            "value": 146
+            "value": 176
           },
           {
             "date": "2026-08-09",
-            "value": 146
+            "value": 599
           },
           {
             "date": "2026-08-10",
-            "value": 202
+            "value": 0
           },
           {
             "date": "2026-08-11",
-            "value": 146
+            "value": 0
           },
           {
             "date": "2026-08-12",
-            "value": 54
+            "value": 0
           },
           {
             "date": "2026-08-13",
-            "value": 56
+            "value": 0
           },
           {
             "date": "2026-08-14",
-            "value": 256
+            "value": 0
           },
           {
             "date": "2026-08-15",
-            "value": 128
+            "value": 0
           },
           {
             "date": "2026-08-16",
-            "value": 146
+            "value": 0
           },
           {
             "date": "2026-08-17",
-            "value": 164
+            "value": 0
           },
           {
             "date": "2026-08-18",
-            "value": 128
+            "value": 0
           },
           {
             "date": "2026-08-19",
-            "value": 184
+            "value": 0
           },
           {
             "date": "2026-08-20",
-            "value": 128
+            "value": 0
           },
           {
             "date": "2026-08-21",
-            "value": 1198
+            "value": 299
           },
           {
             "date": "2026-08-22",
-            "value": 978
+            "value": 0
           },
           {
             "date": "2026-08-23",
-            "value": 822
+            "value": 299
           },
           {
             "date": "2026-08-24",
-            "value": 712
+            "value": 76
           },
           {
             "date": "2026-08-25",
-            "value": 722
+            "value": 56
           },
           {
             "date": "2026-08-26",
-            "value": 338
+            "value": 0
           },
           {
             "date": "2026-08-27",
-            "value": 522
+            "value": 0
           },
           {
             "date": "2026-08-28",
-            "value": 274
+            "value": 0
           },
           {
             "date": "2026-08-29",
-            "value": 712
+            "value": 64
           },
           {
             "date": "2026-08-30",
-            "value": 832
+            "value": 112
           },
           {
             "date": "2026-08-31",
-            "value": 284
+            "value": 64
           },
           {
             "date": "2026-09-01",
-            "value": 682.92
+            "value": 60
           },
           {
             "date": "2026-09-02",
-            "value": 416.19
+            "value": 0
           },
           {
             "date": "2026-09-03",
-            "value": 414.29
+            "value": 299
           },
           {
             "date": "2026-09-04",
-            "value": 172.15
+            "value": 0
           },
           {
             "date": "2026-09-05",
-            "value": 138.1
+            "value": 144
           },
           {
             "date": "2026-09-06",
-            "value": 139.99
+            "value": 160
           },
           {
             "date": "2026-09-07",
-            "value": 138.1
+            "value": 144
           },
           {
             "date": "2026-09-08",
-            "value": 138.1
+            "value": 0
           },
           {
             "date": "2026-09-09",
-            "value": 191.07
+            "value": 0
           },
           {
             "date": "2026-09-10",
-            "value": 206.2
+            "value": 0
           },
           {
             "date": "2026-09-11",
-            "value": 17.03
+            "value": 40
           },
           {
             "date": "2026-09-12",
-            "value": 122.89
+            "value": 184
           },
           {
             "date": "2026-09-13",
-            "value": 242
+            "value": 176
           },
           {
             "date": "2026-09-14",
-            "value": 138.01
+            "value": 0
           },
           {
             "date": "2026-09-15",
-            "value": 138.01
+            "value": 0
           },
           {
             "date": "2026-09-16",
-            "value": 155.03
+            "value": 0
           },
           {
             "date": "2026-09-17",
-            "value": 156.92
+            "value": 0
           },
           {
             "date": "2026-09-18",
-            "value": 121
+            "value": 0
           },
           {
             "date": "2026-09-19",
-            "value": 103.98
+            "value": 0
           },
           {
             "date": "2026-09-20",
-            "value": 121
+            "value": 0
           },
           {
             "date": "2026-09-21",
-            "value": 310.06
+            "value": 0
           },
           {
             "date": "2026-09-22",
-            "value": 121
+            "value": 0
           },
           {
             "date": "2026-09-23",
-            "value": 156.92
+            "value": 0
           },
           {
             "date": "2026-09-24",
-            "value": 242
+            "value": 0
           },
           {
             "date": "2026-09-25",
-            "value": 138.01
+            "value": 0
           },
           {
             "date": "2026-09-26",
-            "value": 138.01
+            "value": 0
           },
           {
             "date": "2026-09-27",
-            "value": 121
+            "value": 0
           },
           {
             "date": "2026-09-28",
-            "value": 138.01
+            "value": 0
           },
           {
             "date": "2026-09-29",
-            "value": 103.98
+            "value": 0
           },
           {
             "date": "2026-09-30",
-            "value": 35.92
+            "value": 0
+          },
+          {
+            "date": "2026-10-01",
+            "value": 0
+          },
+          {
+            "date": "2026-10-02",
+            "value": 0
+          },
+          {
+            "date": "2026-10-03",
+            "value": 0
+          },
+          {
+            "date": "2026-10-04",
+            "value": 299
+          },
+          {
+            "date": "2026-10-05",
+            "value": 0
+          },
+          {
+            "date": "2026-10-06",
+            "value": 299
           }
         ]
       },
@@ -15031,7 +15079,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_3300b93032674bb2b9dc6535a5b07b11",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_a72fd8a1cd544d9aa78070d19ef04e8e",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -16150,7 +16198,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-06",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_185b659f347d4e83abf94b9fae34af90",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_b43ee868667b451989065d4713e626a8",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -16884,7 +16932,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c5b954ede60849f89ddb2c9f8e550a69",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_4443760fd4984e13a9a7d9c18d7d264d",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -18360,7 +18408,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_2d0c7211e7fc4f80aa4d08fad71d8ebe",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_e5b0d6d6054f4b7fbb66fd9965b757a7",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -18736,335 +18784,359 @@
         "points": [
           {
             "date": "2026-07-10",
-            "value": 12202.51
+            "value": 23121
           },
           {
             "date": "2026-07-11",
-            "value": 10711.63
+            "value": 18228
           },
           {
             "date": "2026-07-12",
-            "value": 11668.79
+            "value": 13659
           },
           {
             "date": "2026-07-13",
-            "value": 10332.04
+            "value": 1799
           },
           {
             "date": "2026-07-14",
-            "value": 8394.84
+            "value": 6296
           },
           {
             "date": "2026-07-15",
-            "value": 8038.27
+            "value": 31503
           },
           {
             "date": "2026-07-16",
-            "value": 8574.26
+            "value": 12292
           },
           {
             "date": "2026-07-17",
-            "value": 8305.48
+            "value": 0
           },
           {
             "date": "2026-07-18",
-            "value": 8217.68
+            "value": 1799
           },
           {
             "date": "2026-07-19",
-            "value": 8796.4
+            "value": 1799
           },
           {
             "date": "2026-07-20",
-            "value": 8305.42
+            "value": 1799
           },
           {
             "date": "2026-07-21",
-            "value": 7060.06
+            "value": 2386
           },
           {
             "date": "2026-07-22",
-            "value": 7948.84
+            "value": 9905
           },
           {
             "date": "2026-07-23",
-            "value": 7438.25
+            "value": 10337
           },
           {
             "date": "2026-07-24",
-            "value": 222.2
+            "value": 10685
           },
           {
             "date": "2026-07-25",
-            "value": 7927.45
+            "value": 8107
           },
           {
             "date": "2026-07-26",
-            "value": 8038.71
+            "value": 11141
           },
           {
             "date": "2026-07-27",
-            "value": 8017.21
+            "value": 8958
           },
           {
             "date": "2026-07-28",
-            "value": 6524.51
+            "value": 7939
           },
           {
             "date": "2026-07-29",
-            "value": 268.79
+            "value": 10973
           },
           {
             "date": "2026-07-30",
-            "value": 7080.02
+            "value": 7459
           },
           {
             "date": "2026-07-31",
-            "value": 6214.5
+            "value": 6728
           },
           {
             "date": "2026-08-01",
-            "value": 6672.49
+            "value": 8250
           },
           {
             "date": "2026-08-02",
-            "value": 7550.26
+            "value": 8430
           },
           {
             "date": "2026-08-03",
-            "value": 7790.45
+            "value": 7483
           },
           {
             "date": "2026-08-04",
-            "value": 6935.54
+            "value": 7987
           },
           {
             "date": "2026-08-05",
-            "value": 5992.43
+            "value": 8143
           },
           {
             "date": "2026-08-06",
-            "value": 6342.08
+            "value": 1258
           },
           {
             "date": "2026-08-07",
-            "value": 33667.22
+            "value": 4716
           },
           {
             "date": "2026-08-08",
-            "value": 38283.81
+            "value": 20013
           },
           {
             "date": "2026-08-09",
-            "value": 34585.59
+            "value": 14995
           },
           {
             "date": "2026-08-10",
-            "value": 35507.5
+            "value": 16827
           },
           {
             "date": "2026-08-11",
-            "value": 36919.27
+            "value": 10262
           },
           {
             "date": "2026-08-12",
-            "value": 33973.35
+            "value": 14890
           },
           {
             "date": "2026-08-13",
-            "value": 36934.34
+            "value": 10581
           },
           {
             "date": "2026-08-14",
-            "value": 15319.11
+            "value": 7323
           },
           {
             "date": "2026-08-15",
-            "value": 7396.35
+            "value": 14546
           },
           {
             "date": "2026-08-16",
-            "value": 6893.23
+            "value": 15674
           },
           {
             "date": "2026-08-17",
-            "value": 6540
+            "value": 11081
           },
           {
             "date": "2026-08-18",
-            "value": 6453.46
+            "value": 19271
           },
           {
             "date": "2026-08-19",
-            "value": 7592.62
+            "value": 11764
           },
           {
             "date": "2026-08-20",
-            "value": 6935.57
+            "value": 8574
           },
           {
             "date": "2026-08-21",
-            "value": 5750.5
+            "value": 9714
           },
           {
             "date": "2026-08-22",
-            "value": 6453.32
+            "value": 15062
           },
           {
             "date": "2026-08-23",
-            "value": 6539.86
+            "value": 9761
           },
           {
             "date": "2026-08-24",
-            "value": 6430.36
+            "value": 9821
           },
           {
             "date": "2026-08-25",
-            "value": 4215.71
+            "value": 7687
           },
           {
             "date": "2026-08-26",
-            "value": 5508.51
+            "value": 9198
           },
           {
             "date": "2026-08-27",
-            "value": 6211.33
+            "value": 9246
           },
           {
             "date": "2026-08-28",
-            "value": 5859.88
+            "value": 7147
           },
           {
             "date": "2026-08-29",
-            "value": 6409.03
+            "value": 9354
           },
           {
             "date": "2026-08-30",
-            "value": 6891.17
+            "value": 14115
           },
           {
             "date": "2026-08-31",
-            "value": 6232.43
+            "value": 7543
           },
           {
             "date": "2026-09-01",
-            "value": 4879.99
+            "value": 7651
           },
           {
             "date": "2026-09-02",
-            "value": 2149.56
+            "value": 6008
           },
           {
             "date": "2026-09-03",
-            "value": 2149.55
+            "value": 6200
           },
           {
             "date": "2026-09-04",
-            "value": 4768.81
+            "value": 6584
           },
           {
             "date": "2026-09-05",
-            "value": 4632.55
+            "value": 12172
           },
           {
             "date": "2026-09-06",
-            "value": 6550.83
+            "value": 10229
           },
           {
             "date": "2026-09-07",
-            "value": 5480.54
+            "value": 6775
           },
           {
             "date": "2026-09-08",
-            "value": 5369.5
+            "value": 5636
           },
           {
             "date": "2026-09-09",
-            "value": 4188.03
+            "value": 6356
           },
           {
             "date": "2026-09-10",
-            "value": 4591.41
+            "value": 7159
           },
           {
             "date": "2026-09-11",
-            "value": 423.11
+            "value": 6931
           },
           {
             "date": "2026-09-12",
-            "value": 6192.4
+            "value": 9833
           },
           {
             "date": "2026-09-13",
-            "value": 6328.66
+            "value": 8742
           },
           {
             "date": "2026-09-14",
-            "value": 4433.65
+            "value": 8107
           },
           {
             "date": "2026-09-15",
-            "value": 3653.87
+            "value": 5900
           },
           {
             "date": "2026-09-16",
-            "value": 3987.34
+            "value": 4869
           },
           {
             "date": "2026-09-17",
-            "value": 3521.17
+            "value": 4005
           },
           {
             "date": "2026-09-18",
-            "value": 5459.25
+            "value": 4869
           },
           {
             "date": "2026-09-19",
-            "value": 4076.93
+            "value": 8406
           },
           {
             "date": "2026-09-20",
-            "value": 5034.31
+            "value": 8694
           },
           {
             "date": "2026-09-21",
-            "value": 4301.04
+            "value": 7819
           },
           {
             "date": "2026-09-22",
-            "value": 2561.98
+            "value": 6692
           },
           {
             "date": "2026-09-23",
-            "value": 4679.33
+            "value": 3789
           },
           {
             "date": "2026-09-24",
-            "value": 4188.09
+            "value": 6787
           },
           {
             "date": "2026-09-25",
-            "value": 3920.95
+            "value": 899
           },
           {
             "date": "2026-09-26",
-            "value": 4856.89
+            "value": 13383
           },
           {
             "date": "2026-09-27",
-            "value": 5660.09
+            "value": 899
           },
           {
             "date": "2026-09-28",
-            "value": 4166.63
+            "value": 5396
           },
           {
             "date": "2026-09-29",
-            "value": 2963.6
+            "value": 1799
           },
           {
             "date": "2026-09-30",
-            "value": 2873.95
+            "value": 2698
+          },
+          {
+            "date": "2026-10-01",
+            "value": 404
+          },
+          {
+            "date": "2026-10-02",
+            "value": 5257
+          },
+          {
+            "date": "2026-10-03",
+            "value": 27240
+          },
+          {
+            "date": "2026-10-04",
+            "value": 12693
+          },
+          {
+            "date": "2026-10-05",
+            "value": 10568
+          },
+          {
+            "date": "2026-10-06",
+            "value": 8951
           }
         ]
       },
@@ -19074,7 +19146,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_ec3e71e74bb449b6ba6d436d794038fc",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c611a8317ab643bca985549e7edd0710",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -19812,7 +19884,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_3300b93032674bb2b9dc6535a5b07b11",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_a72fd8a1cd544d9aa78070d19ef04e8e",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -20550,7 +20622,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_185b659f347d4e83abf94b9fae34af90",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_b43ee868667b451989065d4713e626a8",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -21288,7 +21360,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c5b954ede60849f89ddb2c9f8e550a69",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_4443760fd4984e13a9a7d9c18d7d264d",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -22026,7 +22098,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c5b954ede60849f89ddb2c9f8e550a69",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_4443760fd4984e13a9a7d9c18d7d264d",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -22764,7 +22836,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_2d0c7211e7fc4f80aa4d08fad71d8ebe",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_e5b0d6d6054f4b7fbb66fd9965b757a7",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -23140,335 +23212,359 @@
         "points": [
           {
             "date": "2026-07-10",
-            "value": 7393.95
+            "value": 1199
           },
           {
             "date": "2026-07-11",
-            "value": 7858.79
+            "value": 6141
           },
           {
             "date": "2026-07-12",
-            "value": 9152.23
+            "value": 10715
           },
           {
             "date": "2026-07-13",
-            "value": 7303.58
+            "value": 9211
           },
           {
             "date": "2026-07-14",
-            "value": 7335.82
+            "value": 11450
           },
           {
             "date": "2026-07-15",
-            "value": 7087.43
+            "value": 2399
           },
           {
             "date": "2026-07-16",
-            "value": 6687.37
+            "value": 4158
           },
           {
             "date": "2026-07-17",
-            "value": 4006.35
+            "value": 7484
           },
           {
             "date": "2026-07-18",
-            "value": 4869.06
+            "value": 8972
           },
           {
             "date": "2026-07-19",
-            "value": 7242.91
+            "value": 9531
           },
           {
             "date": "2026-07-20",
-            "value": 7550.07
+            "value": 7532
           },
           {
             "date": "2026-07-21",
-            "value": 6564.12
+            "value": 7020
           },
           {
             "date": "2026-07-22",
-            "value": 5885.34
+            "value": 0
           },
           {
             "date": "2026-07-23",
-            "value": 5855
+            "value": 1199
           },
           {
             "date": "2026-07-24",
-            "value": 3976.02
+            "value": 6621
           },
           {
             "date": "2026-07-25",
-            "value": 5794.33
+            "value": 10731
           },
           {
             "date": "2026-07-26",
-            "value": 7117.77
+            "value": 1199
           },
           {
             "date": "2026-07-27",
-            "value": 6780.27
+            "value": 2303
           },
           {
             "date": "2026-07-28",
-            "value": 5824.66
+            "value": 0
           },
           {
             "date": "2026-07-29",
-            "value": 5978.25
+            "value": 18391
           },
           {
             "date": "2026-07-30",
-            "value": 6840.86
+            "value": 0
           },
           {
             "date": "2026-07-31",
-            "value": 4438.6
+            "value": 0
           },
           {
             "date": "2026-08-01",
-            "value": 6687.49
+            "value": 7212
           },
           {
             "date": "2026-08-02",
-            "value": 5855.11
+            "value": 0
           },
           {
             "date": "2026-08-03",
-            "value": 7426.97
+            "value": 2559
           },
           {
             "date": "2026-08-04",
-            "value": 4499.41
+            "value": 7804
           },
           {
             "date": "2026-08-05",
-            "value": 5362.13
+            "value": 6477
           },
           {
             "date": "2026-08-06",
-            "value": 5362.13
+            "value": 8780
           },
           {
             "date": "2026-08-07",
-            "value": 3913.52
+            "value": 7660
           },
           {
             "date": "2026-08-08",
-            "value": 2743.61
+            "value": 9019
           },
           {
             "date": "2026-08-09",
-            "value": 6131.84
+            "value": 9899
           },
           {
             "date": "2026-08-10",
-            "value": 5764.01
+            "value": 0
           },
           {
             "date": "2026-08-11",
-            "value": 5454.95
+            "value": 1199
           },
           {
             "date": "2026-08-12",
-            "value": 5792.45
+            "value": 5597
           },
           {
             "date": "2026-08-13",
-            "value": 4315.42
+            "value": 6285
           },
           {
             "date": "2026-08-14",
-            "value": 6471.23
+            "value": 8892
           },
           {
             "date": "2026-08-15",
-            "value": 5424.61
+            "value": 7708
           },
           {
             "date": "2026-08-16",
-            "value": 5855.02
+            "value": 1199
           },
           {
             "date": "2026-08-17",
-            "value": 6347.99
+            "value": 2159
           },
           {
             "date": "2026-08-18",
-            "value": 5362.04
+            "value": 7500
           },
           {
             "date": "2026-08-19",
-            "value": 7426.85
+            "value": 8364
           },
           {
             "date": "2026-08-20",
-            "value": 7242.93
+            "value": 5965
           },
           {
             "date": "2026-08-21",
-            "value": 6164.07
+            "value": 0
           },
           {
             "date": "2026-08-22",
-            "value": 5638.87
+            "value": 0
           },
           {
             "date": "2026-08-23",
-            "value": 5392.38
+            "value": 9275
           },
           {
             "date": "2026-08-24",
-            "value": 5178.13
+            "value": 7356
           },
           {
             "date": "2026-08-25",
-            "value": 14815.65
+            "value": 6063
           },
           {
             "date": "2026-08-26",
-            "value": 14838.4
+            "value": 9108
           },
           {
             "date": "2026-08-27",
-            "value": 11709.84
+            "value": 8110
           },
           {
             "date": "2026-08-28",
-            "value": 10278.35
+            "value": 6447
           },
           {
             "date": "2026-08-29",
-            "value": 10181.57
+            "value": 7905
           },
           {
             "date": "2026-08-30",
-            "value": 11905.04
+            "value": 11577
           },
           {
             "date": "2026-08-31",
-            "value": 10575.93
+            "value": 7675
           },
           {
             "date": "2026-09-01",
-            "value": 8021
+            "value": 5334
           },
           {
             "date": "2026-09-02",
-            "value": 2481.93
+            "value": 0
           },
           {
             "date": "2026-09-03",
-            "value": 2481.93
+            "value": 16168
           },
           {
             "date": "2026-09-04",
-            "value": 2682.54
+            "value": 0
           },
           {
             "date": "2026-09-05",
-            "value": 3722.89
+            "value": 608
           },
           {
             "date": "2026-09-06",
-            "value": 5627.84
+            "value": 9739
           },
           {
             "date": "2026-09-07",
-            "value": 4154.3
+            "value": 1199
           },
           {
             "date": "2026-09-08",
-            "value": 4097.49
+            "value": 0
           },
           {
             "date": "2026-09-09",
-            "value": 4761.47
+            "value": 4910
           },
           {
             "date": "2026-09-10",
-            "value": 5626.48
+            "value": 5485
           },
           {
             "date": "2026-09-11",
-            "value": 145.59
+            "value": 0
           },
           {
             "date": "2026-09-12",
-            "value": 5221.68
+            "value": 0
           },
           {
             "date": "2026-09-13",
-            "value": 5599.85
+            "value": 8028
           },
           {
             "date": "2026-09-14",
-            "value": 4962.46
+            "value": 6893
           },
           {
             "date": "2026-09-15",
-            "value": 2800.07
+            "value": 9323
           },
           {
             "date": "2026-09-16",
-            "value": 2682.89
+            "value": 6221
           },
           {
             "date": "2026-09-17",
-            "value": 2626.01
+            "value": 4878
           },
           {
             "date": "2026-09-18",
-            "value": 2425.38
+            "value": 6333
           },
           {
             "date": "2026-09-19",
-            "value": 2654.42
+            "value": 6477
           },
           {
             "date": "2026-09-20",
-            "value": 3059.24
+            "value": 0
           },
           {
             "date": "2026-09-21",
-            "value": 4039.34
+            "value": 2399
           },
           {
             "date": "2026-09-22",
-            "value": 3954.11
+            "value": 4110
           },
           {
             "date": "2026-09-23",
-            "value": 2597.6
+            "value": 4910
           },
           {
             "date": "2026-09-24",
-            "value": 2799.95
+            "value": 4798
           },
           {
             "date": "2026-09-25",
-            "value": 2856.77
+            "value": 6269
           },
           {
             "date": "2026-09-26",
-            "value": 2943.77
+            "value": 9787
           },
           {
             "date": "2026-09-27",
-            "value": 2826.59
+            "value": 7644
           },
           {
             "date": "2026-09-28",
-            "value": 2684.55
+            "value": 6029
           },
           {
             "date": "2026-09-29",
-            "value": 2654.36
+            "value": 4446
           },
           {
             "date": "2026-09-30",
-            "value": 2828.36
+            "value": 4510
+          },
+          {
+            "date": "2026-10-01",
+            "value": 3812
+          },
+          {
+            "date": "2026-10-02",
+            "value": 8916
+          },
+          {
+            "date": "2026-10-03",
+            "value": 6051
+          },
+          {
+            "date": "2026-10-04",
+            "value": 9517
+          },
+          {
+            "date": "2026-10-05",
+            "value": 2878
+          },
+          {
+            "date": "2026-10-06",
+            "value": 2878
           }
         ]
       },
@@ -23478,7 +23574,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_ec3e71e74bb449b6ba6d436d794038fc",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c611a8317ab643bca985549e7edd0710",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -23859,7 +23955,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c5b954ede60849f89ddb2c9f8e550a69",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_4443760fd4984e13a9a7d9c18d7d264d",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -25335,7 +25431,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_185b659f347d4e83abf94b9fae34af90",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_b43ee868667b451989065d4713e626a8",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -26073,7 +26169,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_3300b93032674bb2b9dc6535a5b07b11",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_a72fd8a1cd544d9aa78070d19ef04e8e",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -26811,7 +26907,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_185b659f347d4e83abf94b9fae34af90",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_b43ee868667b451989065d4713e626a8",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -27549,7 +27645,7 @@
       "start_date": "2026-08-20",
       "end_date": "2026-10-06",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_b99a45a9bc074fa2a1e46af45133f6ea",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_1d3ecc4842654de4b69be965b133fa32",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -27955,7 +28051,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_2d0c7211e7fc4f80aa4d08fad71d8ebe",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_e5b0d6d6054f4b7fbb66fd9965b757a7",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -27963,363 +28059,363 @@
         "points": [
           {
             "date": "2026-07-10",
-            "value": 22
-          },
-          {
-            "date": "2026-07-11",
-            "value": 44
-          },
-          {
-            "date": "2026-07-12",
-            "value": 45
-          },
-          {
-            "date": "2026-07-13",
-            "value": 28
-          },
-          {
-            "date": "2026-07-14",
-            "value": 23
-          },
-          {
-            "date": "2026-07-15",
-            "value": 20
-          },
-          {
-            "date": "2026-07-16",
-            "value": 26
-          },
-          {
-            "date": "2026-07-17",
-            "value": 28
-          },
-          {
-            "date": "2026-07-18",
-            "value": 39
-          },
-          {
-            "date": "2026-07-19",
-            "value": 45
-          },
-          {
-            "date": "2026-07-20",
-            "value": 27
-          },
-          {
-            "date": "2026-07-21",
-            "value": 22
-          },
-          {
-            "date": "2026-07-22",
-            "value": 23
-          },
-          {
-            "date": "2026-07-23",
-            "value": 23
-          },
-          {
-            "date": "2026-07-24",
-            "value": 25
-          },
-          {
-            "date": "2026-07-25",
-            "value": 41
-          },
-          {
-            "date": "2026-07-26",
-            "value": 43
-          },
-          {
-            "date": "2026-07-27",
-            "value": 29
-          },
-          {
-            "date": "2026-07-28",
-            "value": 20
-          },
-          {
-            "date": "2026-07-29",
-            "value": 21
-          },
-          {
-            "date": "2026-07-30",
-            "value": 22
-          },
-          {
-            "date": "2026-07-31",
-            "value": 23
-          },
-          {
-            "date": "2026-08-01",
-            "value": 38
-          },
-          {
-            "date": "2026-08-02",
-            "value": 47
-          },
-          {
-            "date": "2026-08-03",
-            "value": 30
-          },
-          {
-            "date": "2026-08-04",
-            "value": 19
-          },
-          {
-            "date": "2026-08-05",
-            "value": 21
-          },
-          {
-            "date": "2026-08-06",
-            "value": 22
-          },
-          {
-            "date": "2026-08-07",
-            "value": 25
-          },
-          {
-            "date": "2026-08-08",
-            "value": 37
-          },
-          {
-            "date": "2026-08-09",
-            "value": 43
-          },
-          {
-            "date": "2026-08-10",
-            "value": 26
-          },
-          {
-            "date": "2026-08-11",
-            "value": 19
-          },
-          {
-            "date": "2026-08-12",
-            "value": 18
-          },
-          {
-            "date": "2026-08-13",
-            "value": 20
-          },
-          {
-            "date": "2026-08-14",
-            "value": 24
-          },
-          {
-            "date": "2026-08-15",
-            "value": 40
-          },
-          {
-            "date": "2026-08-16",
-            "value": 43
-          },
-          {
-            "date": "2026-08-17",
-            "value": 26
-          },
-          {
-            "date": "2026-08-18",
-            "value": 19
-          },
-          {
-            "date": "2026-08-19",
-            "value": 19
-          },
-          {
-            "date": "2026-08-20",
-            "value": 21
-          },
-          {
-            "date": "2026-08-21",
-            "value": 26
-          },
-          {
-            "date": "2026-08-22",
-            "value": 44
-          },
-          {
-            "date": "2026-08-23",
-            "value": 49
-          },
-          {
-            "date": "2026-08-24",
-            "value": 27
-          },
-          {
-            "date": "2026-08-25",
-            "value": 22
-          },
-          {
-            "date": "2026-08-26",
-            "value": 19
-          },
-          {
-            "date": "2026-08-27",
-            "value": 24
-          },
-          {
-            "date": "2026-08-28",
-            "value": 42
-          },
-          {
-            "date": "2026-08-29",
-            "value": 69
-          },
-          {
-            "date": "2026-08-30",
-            "value": 85
-          },
-          {
-            "date": "2026-08-31",
-            "value": 48
-          },
-          {
-            "date": "2026-09-01",
-            "value": 33
-          },
-          {
-            "date": "2026-09-02",
-            "value": 30
-          },
-          {
-            "date": "2026-09-03",
-            "value": 28
-          },
-          {
-            "date": "2026-09-04",
-            "value": 34
-          },
-          {
-            "date": "2026-09-05",
-            "value": 61
-          },
-          {
-            "date": "2026-09-06",
-            "value": 55
-          },
-          {
-            "date": "2026-09-07",
-            "value": 63
-          },
-          {
-            "date": "2026-09-08",
-            "value": 32
-          },
-          {
-            "date": "2026-09-09",
-            "value": 23
-          },
-          {
-            "date": "2026-09-10",
-            "value": 19
-          },
-          {
-            "date": "2026-09-11",
-            "value": 26
-          },
-          {
-            "date": "2026-09-12",
-            "value": 48
-          },
-          {
-            "date": "2026-09-13",
-            "value": 50
-          },
-          {
-            "date": "2026-09-14",
-            "value": 25
-          },
-          {
-            "date": "2026-09-15",
-            "value": 18
-          },
-          {
-            "date": "2026-09-16",
-            "value": 18
-          },
-          {
-            "date": "2026-09-17",
-            "value": 20
-          },
-          {
-            "date": "2026-09-18",
-            "value": 23
-          },
-          {
-            "date": "2026-09-19",
-            "value": 45
-          },
-          {
-            "date": "2026-09-20",
-            "value": 53
-          },
-          {
-            "date": "2026-09-21",
-            "value": 27
-          },
-          {
-            "date": "2026-09-22",
-            "value": 21
-          },
-          {
-            "date": "2026-09-23",
-            "value": 17
-          },
-          {
-            "date": "2026-09-24",
-            "value": 18
-          },
-          {
-            "date": "2026-09-25",
-            "value": 23
-          },
-          {
-            "date": "2026-09-26",
-            "value": 46
-          },
-          {
-            "date": "2026-09-27",
-            "value": 52
-          },
-          {
-            "date": "2026-09-28",
-            "value": 26
-          },
-          {
-            "date": "2026-09-29",
-            "value": 16
-          },
-          {
-            "date": "2026-09-30",
             "value": 14
           },
           {
-            "date": "2026-10-01",
-            "value": 15
+            "date": "2026-07-11",
+            "value": 25
           },
           {
-            "date": "2026-10-02",
+            "date": "2026-07-12",
+            "value": 26
+          },
+          {
+            "date": "2026-07-13",
+            "value": 16
+          },
+          {
+            "date": "2026-07-14",
+            "value": 14
+          },
+          {
+            "date": "2026-07-15",
+            "value": 13
+          },
+          {
+            "date": "2026-07-16",
+            "value": 14
+          },
+          {
+            "date": "2026-07-17",
+            "value": 18
+          },
+          {
+            "date": "2026-07-18",
+            "value": 24
+          },
+          {
+            "date": "2026-07-19",
+            "value": 25
+          },
+          {
+            "date": "2026-07-20",
+            "value": 18
+          },
+          {
+            "date": "2026-07-21",
+            "value": 11
+          },
+          {
+            "date": "2026-07-22",
+            "value": 10
+          },
+          {
+            "date": "2026-07-23",
+            "value": 10
+          },
+          {
+            "date": "2026-07-24",
+            "value": 14
+          },
+          {
+            "date": "2026-07-25",
             "value": 22
           },
           {
-            "date": "2026-10-03",
-            "value": 42
+            "date": "2026-07-26",
+            "value": 27
           },
           {
-            "date": "2026-10-04",
-            "value": 48
+            "date": "2026-07-27",
+            "value": 16
           },
           {
-            "date": "2026-10-05",
+            "date": "2026-07-28",
+            "value": 12
+          },
+          {
+            "date": "2026-07-29",
+            "value": 12
+          },
+          {
+            "date": "2026-07-30",
+            "value": 12
+          },
+          {
+            "date": "2026-07-31",
+            "value": 16
+          },
+          {
+            "date": "2026-08-01",
             "value": 24
           },
           {
-            "date": "2026-10-06",
+            "date": "2026-08-02",
+            "value": 26
+          },
+          {
+            "date": "2026-08-03",
+            "value": 19
+          },
+          {
+            "date": "2026-08-04",
+            "value": 11
+          },
+          {
+            "date": "2026-08-05",
+            "value": 10
+          },
+          {
+            "date": "2026-08-06",
+            "value": 10
+          },
+          {
+            "date": "2026-08-07",
+            "value": 14
+          },
+          {
+            "date": "2026-08-08",
+            "value": 23
+          },
+          {
+            "date": "2026-08-09",
+            "value": 27
+          },
+          {
+            "date": "2026-08-10",
             "value": 15
           },
           {
-            "date": "2026-10-07",
+            "date": "2026-08-11",
+            "value": 11
+          },
+          {
+            "date": "2026-08-12",
+            "value": 8
+          },
+          {
+            "date": "2026-08-13",
+            "value": 9
+          },
+          {
+            "date": "2026-08-14",
+            "value": 12
+          },
+          {
+            "date": "2026-08-15",
+            "value": 20
+          },
+          {
+            "date": "2026-08-16",
+            "value": 21
+          },
+          {
+            "date": "2026-08-17",
+            "value": 13
+          },
+          {
+            "date": "2026-08-18",
+            "value": 11
+          },
+          {
+            "date": "2026-08-19",
+            "value": 9
+          },
+          {
+            "date": "2026-08-20",
+            "value": 11
+          },
+          {
+            "date": "2026-08-21",
+            "value": 14
+          },
+          {
+            "date": "2026-08-22",
+            "value": 23
+          },
+          {
+            "date": "2026-08-23",
+            "value": 25
+          },
+          {
+            "date": "2026-08-24",
+            "value": 11
+          },
+          {
+            "date": "2026-08-25",
+            "value": 9
+          },
+          {
+            "date": "2026-08-26",
+            "value": 8
+          },
+          {
+            "date": "2026-08-27",
+            "value": 7
+          },
+          {
+            "date": "2026-08-28",
+            "value": 12
+          },
+          {
+            "date": "2026-08-29",
+            "value": 22
+          },
+          {
+            "date": "2026-08-30",
+            "value": 30
+          },
+          {
+            "date": "2026-08-31",
+            "value": 15
+          },
+          {
+            "date": "2026-09-01",
+            "value": 11
+          },
+          {
+            "date": "2026-09-02",
+            "value": 9
+          },
+          {
+            "date": "2026-09-03",
+            "value": 11
+          },
+          {
+            "date": "2026-09-04",
+            "value": 15
+          },
+          {
+            "date": "2026-09-05",
+            "value": 26
+          },
+          {
+            "date": "2026-09-06",
+            "value": 30
+          },
+          {
+            "date": "2026-09-07",
+            "value": 30
+          },
+          {
+            "date": "2026-09-08",
+            "value": 16
+          },
+          {
+            "date": "2026-09-09",
+            "value": 11
+          },
+          {
+            "date": "2026-09-10",
+            "value": 9
+          },
+          {
+            "date": "2026-09-11",
+            "value": 10
+          },
+          {
+            "date": "2026-09-12",
+            "value": 20
+          },
+          {
+            "date": "2026-09-13",
+            "value": 20
+          },
+          {
+            "date": "2026-09-14",
+            "value": 12
+          },
+          {
+            "date": "2026-09-15",
+            "value": 11
+          },
+          {
+            "date": "2026-09-16",
+            "value": 8
+          },
+          {
+            "date": "2026-09-17",
+            "value": 10
+          },
+          {
+            "date": "2026-09-18",
+            "value": 12
+          },
+          {
+            "date": "2026-09-19",
+            "value": 19
+          },
+          {
+            "date": "2026-09-20",
             "value": 24
+          },
+          {
+            "date": "2026-09-21",
+            "value": 13
+          },
+          {
+            "date": "2026-09-22",
+            "value": 10
+          },
+          {
+            "date": "2026-09-23",
+            "value": 9
+          },
+          {
+            "date": "2026-09-24",
+            "value": 8
+          },
+          {
+            "date": "2026-09-25",
+            "value": 10
+          },
+          {
+            "date": "2026-09-26",
+            "value": 20
+          },
+          {
+            "date": "2026-09-27",
+            "value": 20
+          },
+          {
+            "date": "2026-09-28",
+            "value": 9
+          },
+          {
+            "date": "2026-09-29",
+            "value": 8
+          },
+          {
+            "date": "2026-09-30",
+            "value": 8
+          },
+          {
+            "date": "2026-10-01",
+            "value": 9
+          },
+          {
+            "date": "2026-10-02",
+            "value": 11
+          },
+          {
+            "date": "2026-10-03",
+            "value": 23
+          },
+          {
+            "date": "2026-10-04",
+            "value": 21
+          },
+          {
+            "date": "2026-10-05",
+            "value": 12
+          },
+          {
+            "date": "2026-10-06",
+            "value": 8
+          },
+          {
+            "date": "2026-10-07",
+            "value": 12
           }
         ]
       },
@@ -28331,59 +28427,59 @@
         "points": [
           {
             "date": "2026-07-10",
-            "value": 216.75
+            "value": 0
           },
           {
             "date": "2026-07-11",
-            "value": 433.49
+            "value": 800
           },
           {
             "date": "2026-07-12",
-            "value": 376.95
+            "value": 0
           },
           {
             "date": "2026-07-13",
-            "value": 378.84
+            "value": 0
           },
           {
             "date": "2026-07-14",
-            "value": 326.06
+            "value": 0
           },
           {
             "date": "2026-07-15",
-            "value": 269.52
+            "value": 0
           },
           {
             "date": "2026-07-16",
-            "value": 54.66
+            "value": 0
           },
           {
             "date": "2026-07-17",
-            "value": 324.18
+            "value": 0
           },
           {
             "date": "2026-07-18",
-            "value": 324.18
+            "value": 0
           },
           {
             "date": "2026-07-19",
-            "value": 433.49
+            "value": 0
           },
           {
             "date": "2026-07-20",
-            "value": 269.52
+            "value": 0
           },
           {
             "date": "2026-07-21",
-            "value": 109.32
+            "value": 0
           },
           {
             "date": "2026-07-22",
-            "value": 269.52
+            "value": 0
           },
           {
             "date": "2026-07-23",
-            "value": 324.18
+            "value": 0
           },
           {
             "date": "2026-07-24",
@@ -28391,19 +28487,19 @@
           },
           {
             "date": "2026-07-25",
-            "value": 326.06
+            "value": 0
           },
           {
             "date": "2026-07-26",
-            "value": 324.18
+            "value": 0
           },
           {
             "date": "2026-07-27",
-            "value": 269.52
+            "value": 0
           },
           {
             "date": "2026-07-28",
-            "value": 271.4
+            "value": 0
           },
           {
             "date": "2026-07-29",
@@ -28411,175 +28507,175 @@
           },
           {
             "date": "2026-07-30",
-            "value": 324.18
+            "value": 0
           },
           {
             "date": "2026-07-31",
-            "value": 216.75
+            "value": 0
           },
           {
             "date": "2026-08-01",
-            "value": 386.26
+            "value": 0
           },
           {
             "date": "2026-08-02",
-            "value": 384.34
+            "value": 1599
           },
           {
             "date": "2026-08-03",
-            "value": 276.72
+            "value": 0
           },
           {
             "date": "2026-08-04",
-            "value": 220.99
+            "value": 0
           },
           {
             "date": "2026-08-05",
-            "value": 165.27
+            "value": 0
           },
           {
             "date": "2026-08-06",
-            "value": 274.8
+            "value": 0
           },
           {
             "date": "2026-08-07",
-            "value": 165.27
+            "value": 0
           },
           {
             "date": "2026-08-08",
-            "value": 276.74
+            "value": 0
           },
           {
             "date": "2026-08-09",
-            "value": 274.81
+            "value": 0
           },
           {
             "date": "2026-08-10",
-            "value": 221
+            "value": 0
           },
           {
             "date": "2026-08-11",
-            "value": 165.27
+            "value": 0
           },
           {
             "date": "2026-08-12",
-            "value": 221
+            "value": 0
           },
           {
             "date": "2026-08-13",
-            "value": 165.27
+            "value": 0
           },
           {
             "date": "2026-08-14",
-            "value": 221
+            "value": 800
           },
           {
             "date": "2026-08-15",
-            "value": 386.28
+            "value": 0
           },
           {
             "date": "2026-08-16",
-            "value": 330.55
+            "value": 0
           },
           {
             "date": "2026-08-17",
-            "value": 276.74
+            "value": 0
           },
           {
             "date": "2026-08-18",
-            "value": 274.81
+            "value": 0
           },
           {
             "date": "2026-08-19",
-            "value": 55.73
+            "value": 0
           },
           {
             "date": "2026-08-20",
-            "value": 221.01
+            "value": 0
           },
           {
             "date": "2026-08-21",
-            "value": 165.28
+            "value": 0
           },
           {
             "date": "2026-08-22",
-            "value": 330.56
+            "value": 0
           },
           {
             "date": "2026-08-23",
-            "value": 330.56
+            "value": 0
           },
           {
             "date": "2026-08-24",
-            "value": 276.75
+            "value": 0
           },
           {
             "date": "2026-08-25",
-            "value": 109.55
+            "value": 0
           },
           {
             "date": "2026-08-26",
-            "value": 165.28
+            "value": 0
           },
           {
             "date": "2026-08-27",
-            "value": 165.28
+            "value": 0
           },
           {
             "date": "2026-08-28",
-            "value": 3294.07
+            "value": 0
           },
           {
             "date": "2026-08-29",
-            "value": 2544.55
+            "value": 0
           },
           {
             "date": "2026-08-30",
-            "value": 2171.61
+            "value": 0
           },
           {
             "date": "2026-08-31",
-            "value": 2158.16
+            "value": 0
           },
           {
             "date": "2026-09-01",
-            "value": 1353.59
+            "value": 0
           },
           {
             "date": "2026-09-02",
-            "value": 578.75
+            "value": 0
           },
           {
             "date": "2026-09-03",
-            "value": 578.75
+            "value": 0
           },
           {
             "date": "2026-09-04",
-            "value": 380.76
+            "value": 0
           },
           {
             "date": "2026-09-05",
-            "value": 110.42
+            "value": 0
           },
           {
             "date": "2026-09-06",
-            "value": 272.23
+            "value": 0
           },
           {
             "date": "2026-09-07",
-            "value": 329.34
+            "value": 0
           },
           {
             "date": "2026-09-08",
-            "value": 163.73
+            "value": 0
           },
           {
             "date": "2026-09-09",
-            "value": 108.52
+            "value": 0
           },
           {
             "date": "2026-09-10",
-            "value": 55.21
+            "value": 0
           },
           {
             "date": "2026-09-11",
@@ -28587,79 +28683,103 @@
           },
           {
             "date": "2026-09-12",
-            "value": 327.45
+            "value": 0
           },
           {
             "date": "2026-09-13",
-            "value": 163.71
+            "value": 800
           },
           {
             "date": "2026-09-14",
-            "value": 108.5
+            "value": 0
           },
           {
             "date": "2026-09-15",
-            "value": 110.41
+            "value": 800
           },
           {
             "date": "2026-09-16",
-            "value": 163.71
+            "value": 0
           },
           {
             "date": "2026-09-17",
-            "value": 108.5
+            "value": 0
           },
           {
             "date": "2026-09-18",
-            "value": 110.41
+            "value": 0
           },
           {
             "date": "2026-09-19",
-            "value": 163.71
+            "value": 0
           },
           {
             "date": "2026-09-20",
-            "value": 272.21
+            "value": 800
           },
           {
             "date": "2026-09-21",
-            "value": 110.41
+            "value": 0
           },
           {
             "date": "2026-09-22",
-            "value": 108.5
+            "value": 800
           },
           {
             "date": "2026-09-23",
-            "value": 163.71
+            "value": 0
           },
           {
             "date": "2026-09-24",
-            "value": 55.21
+            "value": 0
           },
           {
             "date": "2026-09-25",
-            "value": 163.72
+            "value": 0
           },
           {
             "date": "2026-09-26",
-            "value": 274.13
+            "value": 0
           },
           {
             "date": "2026-09-27",
-            "value": 327.43
+            "value": 0
           },
           {
             "date": "2026-09-28",
-            "value": 272.23
+            "value": 0
           },
           {
             "date": "2026-09-29",
-            "value": 218.92
+            "value": 0
           },
           {
             "date": "2026-09-30",
-            "value": 55.21
+            "value": 0
+          },
+          {
+            "date": "2026-10-01",
+            "value": 440
+          },
+          {
+            "date": "2026-10-02",
+            "value": 0
+          },
+          {
+            "date": "2026-10-03",
+            "value": 0
+          },
+          {
+            "date": "2026-10-04",
+            "value": 0
+          },
+          {
+            "date": "2026-10-05",
+            "value": 0
+          },
+          {
+            "date": "2026-10-06",
+            "value": 0
           }
         ]
       },
@@ -28669,7 +28789,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c5b954ede60849f89ddb2c9f8e550a69",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_4443760fd4984e13a9a7d9c18d7d264d",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -29407,7 +29527,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_ec3e71e74bb449b6ba6d436d794038fc",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c611a8317ab643bca985549e7edd0710",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -30145,7 +30265,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_2d0c7211e7fc4f80aa4d08fad71d8ebe",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_e5b0d6d6054f4b7fbb66fd9965b757a7",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -30521,335 +30641,359 @@
         "points": [
           {
             "date": "2026-07-10",
-            "value": 8670
+            "value": 16824
           },
           {
             "date": "2026-07-11",
-            "value": 10752
+            "value": 6605
           },
           {
             "date": "2026-07-12",
-            "value": 8610
+            "value": 6941
           },
           {
             "date": "2026-07-13",
-            "value": 10784
+            "value": 1199
           },
           {
             "date": "2026-07-14",
-            "value": 5942
+            "value": 800
           },
           {
             "date": "2026-07-15",
-            "value": 6986
+            "value": 7756
           },
           {
             "date": "2026-07-16",
-            "value": 7444
+            "value": 3918
           },
           {
             "date": "2026-07-17",
-            "value": 5054
+            "value": 5389
           },
           {
             "date": "2026-07-18",
-            "value": 4780
+            "value": 6125
           },
           {
             "date": "2026-07-19",
-            "value": 6862
+            "value": 19958
           },
           {
             "date": "2026-07-20",
-            "value": 5178
+            "value": 5117
           },
           {
             "date": "2026-07-21",
-            "value": 4410
+            "value": 3630
           },
           {
             "date": "2026-07-22",
-            "value": 3922
+            "value": 4686
           },
           {
             "date": "2026-07-23",
-            "value": 3646
+            "value": 3598
           },
           {
             "date": "2026-07-24",
-            "value": 2542
+            "value": 0
           },
           {
             "date": "2026-07-25",
-            "value": 2542
+            "value": 3790
           },
           {
             "date": "2026-07-26",
-            "value": 4290
+            "value": 4862
           },
           {
             "date": "2026-07-27",
-            "value": 4106
+            "value": 7132
           },
           {
             "date": "2026-07-28",
-            "value": 3920
+            "value": 5965
           },
           {
             "date": "2026-07-29",
-            "value": 154
+            "value": 3342
           },
           {
             "date": "2026-07-30",
-            "value": 4044
+            "value": 5613
           },
           {
             "date": "2026-07-31",
-            "value": 3890
+            "value": 5677
           },
           {
             "date": "2026-08-01",
-            "value": 3860
+            "value": 5213
           },
           {
             "date": "2026-08-02",
-            "value": 4290
+            "value": 6877
           },
           {
             "date": "2026-08-03",
-            "value": 4104
+            "value": 3262
           },
           {
             "date": "2026-08-04",
-            "value": 3830
+            "value": 3038
           },
           {
             "date": "2026-08-05",
-            "value": 3430
+            "value": 0
           },
           {
             "date": "2026-08-06",
-            "value": 3800
+            "value": 2399
           },
           {
             "date": "2026-08-07",
-            "value": 3554
+            "value": 3534
           },
           {
             "date": "2026-08-08",
-            "value": 3798
+            "value": 4974
           },
           {
             "date": "2026-08-09",
-            "value": 4106
+            "value": 5725
           },
           {
             "date": "2026-08-10",
-            "value": 4962
+            "value": 0
           },
           {
             "date": "2026-08-11",
-            "value": 3860
+            "value": 2039
           },
           {
             "date": "2026-08-12",
-            "value": 14816
+            "value": 2039
           },
           {
             "date": "2026-08-13",
-            "value": 16690
+            "value": 1019
           },
           {
             "date": "2026-08-14",
-            "value": 14606
+            "value": 9392
           },
           {
             "date": "2026-08-15",
-            "value": 15910
+            "value": 7027
           },
           {
             "date": "2026-08-16",
-            "value": 18564
+            "value": 10085
           },
           {
             "date": "2026-08-17",
-            "value": 18148
+            "value": 1019
           },
           {
             "date": "2026-08-18",
-            "value": 14322
+            "value": 1019
           },
           {
             "date": "2026-08-19",
-            "value": 6342
+            "value": 0
           },
           {
             "date": "2026-08-20",
-            "value": 6892
+            "value": 1199
           },
           {
             "date": "2026-08-21",
-            "value": 7444
+            "value": 2399
           },
           {
             "date": "2026-08-22",
-            "value": 7414
+            "value": 1199
           },
           {
             "date": "2026-08-23",
-            "value": 8424
+            "value": 1199
           },
           {
             "date": "2026-08-24",
-            "value": 5424
+            "value": 1199
           },
           {
             "date": "2026-08-25",
-            "value": 3828
+            "value": 1199
           },
           {
             "date": "2026-08-26",
-            "value": 5392
+            "value": 0
           },
           {
             "date": "2026-08-27",
-            "value": 7138
+            "value": 0
           },
           {
             "date": "2026-08-28",
-            "value": 5116
+            "value": 0
           },
           {
             "date": "2026-08-29",
-            "value": 4320
+            "value": 0
           },
           {
             "date": "2026-08-30",
-            "value": 8118
+            "value": 10091
           },
           {
             "date": "2026-08-31",
-            "value": 4412
+            "value": 4254
           },
           {
             "date": "2026-09-01",
-            "value": 4350
+            "value": 3966
           },
           {
             "date": "2026-09-02",
-            "value": 1946
+            "value": 0
           },
           {
             "date": "2026-09-03",
-            "value": 1946
+            "value": 0
           },
           {
             "date": "2026-09-04",
-            "value": 3584
+            "value": 2767
           },
           {
             "date": "2026-09-05",
-            "value": 4012
+            "value": 4894
           },
           {
             "date": "2026-09-06",
-            "value": 4626
+            "value": 5133
           },
           {
             "date": "2026-09-07",
-            "value": 4106
+            "value": 5341
           },
           {
             "date": "2026-09-08",
-            "value": 4104
+            "value": 3534
           },
           {
             "date": "2026-09-09",
-            "value": 3984
+            "value": 0
           },
           {
             "date": "2026-09-10",
-            "value": 3952
+            "value": 0
           },
           {
             "date": "2026-09-11",
-            "value": 92
+            "value": 1391
           },
           {
             "date": "2026-09-12",
-            "value": 4012
+            "value": 16280
           },
           {
             "date": "2026-09-13",
-            "value": 4290
+            "value": 4734
           },
           {
             "date": "2026-09-14",
-            "value": 4012
+            "value": 3326
           },
           {
             "date": "2026-09-15",
-            "value": 3922
+            "value": 3086
           },
           {
             "date": "2026-09-16",
-            "value": 3952
+            "value": 0
           },
           {
             "date": "2026-09-17",
-            "value": 3278
+            "value": 1199
           },
           {
             "date": "2026-09-18",
-            "value": 3492
+            "value": 2111
           },
           {
             "date": "2026-09-19",
-            "value": 3462
+            "value": 5101
           },
           {
             "date": "2026-09-20",
-            "value": 4136
+            "value": 5357
           },
           {
             "date": "2026-09-21",
-            "value": 3798
+            "value": 2599
           },
           {
             "date": "2026-09-22",
-            "value": 31752
+            "value": 4489
           },
           {
             "date": "2026-09-23",
-            "value": 21940
+            "value": 6849
           },
           {
             "date": "2026-09-24",
-            "value": 17806
+            "value": 2705
           },
           {
             "date": "2026-09-25",
-            "value": 18154
+            "value": 6110
           },
           {
             "date": "2026-09-26",
-            "value": 15712
+            "value": 11654
           },
           {
             "date": "2026-09-27",
-            "value": 18704
+            "value": 14589
           },
           {
             "date": "2026-09-28",
-            "value": 21298
+            "value": 7501
           },
           {
             "date": "2026-09-29",
-            "value": 10384
+            "value": 5698
           },
           {
             "date": "2026-09-30",
-            "value": 4566
+            "value": 7852
+          },
+          {
+            "date": "2026-10-01",
+            "value": 3837
+          },
+          {
+            "date": "2026-10-02",
+            "value": 1439
+          },
+          {
+            "date": "2026-10-03",
+            "value": 10187
+          },
+          {
+            "date": "2026-10-04",
+            "value": 7338
+          },
+          {
+            "date": "2026-10-05",
+            "value": 0
+          },
+          {
+            "date": "2026-10-06",
+            "value": 9103
           }
         ]
       },
@@ -30859,7 +31003,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c5b954ede60849f89ddb2c9f8e550a69",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_4443760fd4984e13a9a7d9c18d7d264d",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -31597,7 +31741,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_185b659f347d4e83abf94b9fae34af90",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_b43ee868667b451989065d4713e626a8",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -32335,7 +32479,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_b99a45a9bc074fa2a1e46af45133f6ea",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_1d3ecc4842654de4b69be965b133fa32",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -33073,7 +33217,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-06",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c5b954ede60849f89ddb2c9f8e550a69",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_4443760fd4984e13a9a7d9c18d7d264d",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -33807,7 +33951,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c5b954ede60849f89ddb2c9f8e550a69",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_4443760fd4984e13a9a7d9c18d7d264d",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -34545,7 +34689,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_3300b93032674bb2b9dc6535a5b07b11",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_a72fd8a1cd544d9aa78070d19ef04e8e",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -35283,7 +35427,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c5b954ede60849f89ddb2c9f8e550a69",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_4443760fd4984e13a9a7d9c18d7d264d",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -36021,7 +36165,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c5b954ede60849f89ddb2c9f8e550a69",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_4443760fd4984e13a9a7d9c18d7d264d",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -36759,7 +36903,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_185b659f347d4e83abf94b9fae34af90",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_b43ee868667b451989065d4713e626a8",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -37497,7 +37641,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_3300b93032674bb2b9dc6535a5b07b11",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_a72fd8a1cd544d9aa78070d19ef04e8e",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -37875,87 +38019,15 @@
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "Starsand Island": {
-      "start_date": "2026-06-22",
-      "end_date": "2026-09-19",
+      "start_date": "2026-07-10",
+      "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_fec9ce9baaac4b35ade2fcffeb463ef9",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_1d3ecc4842654de4b69be965b133fa32",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-06-22",
-            "value": 381
-          },
-          {
-            "date": "2026-06-23",
-            "value": 379
-          },
-          {
-            "date": "2026-06-24",
-            "value": 364
-          },
-          {
-            "date": "2026-06-25",
-            "value": 366
-          },
-          {
-            "date": "2026-06-26",
-            "value": 397
-          },
-          {
-            "date": "2026-06-27",
-            "value": 548
-          },
-          {
-            "date": "2026-06-28",
-            "value": 627
-          },
-          {
-            "date": "2026-06-29",
-            "value": 515
-          },
-          {
-            "date": "2026-06-30",
-            "value": 502
-          },
-          {
-            "date": "2026-07-01",
-            "value": 487
-          },
-          {
-            "date": "2026-07-02",
-            "value": 488
-          },
-          {
-            "date": "2026-07-03",
-            "value": 548
-          },
-          {
-            "date": "2026-07-04",
-            "value": 675
-          },
-          {
-            "date": "2026-07-05",
-            "value": 742
-          },
-          {
-            "date": "2026-07-06",
-            "value": 559
-          },
-          {
-            "date": "2026-07-07",
-            "value": 521
-          },
-          {
-            "date": "2026-07-08",
-            "value": 513
-          },
-          {
-            "date": "2026-07-09",
-            "value": 519
-          },
           {
             "date": "2026-07-10",
             "value": 501
@@ -38242,7 +38314,79 @@
           },
           {
             "date": "2026-09-19",
-            "value": 376
+            "value": 459
+          },
+          {
+            "date": "2026-09-20",
+            "value": 468
+          },
+          {
+            "date": "2026-09-21",
+            "value": 369
+          },
+          {
+            "date": "2026-09-22",
+            "value": 350
+          },
+          {
+            "date": "2026-09-23",
+            "value": 332
+          },
+          {
+            "date": "2026-09-24",
+            "value": 295
+          },
+          {
+            "date": "2026-09-25",
+            "value": 327
+          },
+          {
+            "date": "2026-09-26",
+            "value": 391
+          },
+          {
+            "date": "2026-09-27",
+            "value": 404
+          },
+          {
+            "date": "2026-09-28",
+            "value": 314
+          },
+          {
+            "date": "2026-09-29",
+            "value": 280
+          },
+          {
+            "date": "2026-09-30",
+            "value": 257
+          },
+          {
+            "date": "2026-10-01",
+            "value": 267
+          },
+          {
+            "date": "2026-10-02",
+            "value": 275
+          },
+          {
+            "date": "2026-10-03",
+            "value": 322
+          },
+          {
+            "date": "2026-10-04",
+            "value": 345
+          },
+          {
+            "date": "2026-10-05",
+            "value": 280
+          },
+          {
+            "date": "2026-10-06",
+            "value": 269
+          },
+          {
+            "date": "2026-10-07",
+            "value": 213
           }
         ]
       },
@@ -38252,78 +38396,6 @@
         "granularity": "daily",
         "currency": "USD",
         "points": [
-          {
-            "date": "2026-06-22",
-            "value": 5920
-          },
-          {
-            "date": "2026-06-23",
-            "value": 7740
-          },
-          {
-            "date": "2026-06-24",
-            "value": 7667
-          },
-          {
-            "date": "2026-06-25",
-            "value": 2116
-          },
-          {
-            "date": "2026-06-26",
-            "value": 7843
-          },
-          {
-            "date": "2026-06-27",
-            "value": 19976
-          },
-          {
-            "date": "2026-06-28",
-            "value": 11697
-          },
-          {
-            "date": "2026-06-29",
-            "value": 19288
-          },
-          {
-            "date": "2026-06-30",
-            "value": 25209
-          },
-          {
-            "date": "2026-07-01",
-            "value": 12688
-          },
-          {
-            "date": "2026-07-02",
-            "value": 15410
-          },
-          {
-            "date": "2026-07-03",
-            "value": 22456
-          },
-          {
-            "date": "2026-07-04",
-            "value": 15206
-          },
-          {
-            "date": "2026-07-05",
-            "value": 8296
-          },
-          {
-            "date": "2026-07-06",
-            "value": 15001
-          },
-          {
-            "date": "2026-07-07",
-            "value": 15652
-          },
-          {
-            "date": "2026-07-08",
-            "value": 6835
-          },
-          {
-            "date": "2026-07-09",
-            "value": 8258
-          },
           {
             "date": "2026-07-10",
             "value": 28009
@@ -38607,6 +38679,78 @@
           {
             "date": "2026-09-18",
             "value": 189
+          },
+          {
+            "date": "2026-09-19",
+            "value": 1088
+          },
+          {
+            "date": "2026-09-20",
+            "value": 0
+          },
+          {
+            "date": "2026-09-21",
+            "value": 1276
+          },
+          {
+            "date": "2026-09-22",
+            "value": 278
+          },
+          {
+            "date": "2026-09-23",
+            "value": 7614
+          },
+          {
+            "date": "2026-09-24",
+            "value": 672
+          },
+          {
+            "date": "2026-09-25",
+            "value": 17578
+          },
+          {
+            "date": "2026-09-26",
+            "value": 2367
+          },
+          {
+            "date": "2026-09-27",
+            "value": 0
+          },
+          {
+            "date": "2026-09-28",
+            "value": 0
+          },
+          {
+            "date": "2026-09-29",
+            "value": 8781
+          },
+          {
+            "date": "2026-09-30",
+            "value": 0
+          },
+          {
+            "date": "2026-10-01",
+            "value": 11709
+          },
+          {
+            "date": "2026-10-02",
+            "value": 2399
+          },
+          {
+            "date": "2026-10-03",
+            "value": 0
+          },
+          {
+            "date": "2026-10-04",
+            "value": 0
+          },
+          {
+            "date": "2026-10-05",
+            "value": 0
+          },
+          {
+            "date": "2026-10-06",
+            "value": 0
           }
         ]
       },
@@ -39354,7 +39498,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_185b659f347d4e83abf94b9fae34af90",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_b43ee868667b451989065d4713e626a8",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -40092,7 +40236,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_ec3e71e74bb449b6ba6d436d794038fc",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c611a8317ab643bca985549e7edd0710",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -41208,87 +41352,15 @@
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "人类一败涂地": {
-      "start_date": "2026-06-22",
-      "end_date": "2026-09-19",
+      "start_date": "2026-07-10",
+      "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_ea5cee5368004a8ab9efba68d27b0518",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_730aaa25d3334474bb6d18c5a1ee8b40",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-06-22",
-            "value": 2434
-          },
-          {
-            "date": "2026-06-23",
-            "value": 2504
-          },
-          {
-            "date": "2026-06-24",
-            "value": 2649
-          },
-          {
-            "date": "2026-06-25",
-            "value": 2507
-          },
-          {
-            "date": "2026-06-26",
-            "value": 2682
-          },
-          {
-            "date": "2026-06-27",
-            "value": 3083
-          },
-          {
-            "date": "2026-06-28",
-            "value": 2800
-          },
-          {
-            "date": "2026-06-29",
-            "value": 2313
-          },
-          {
-            "date": "2026-06-30",
-            "value": 2261
-          },
-          {
-            "date": "2026-07-01",
-            "value": 2279
-          },
-          {
-            "date": "2026-07-02",
-            "value": 2233
-          },
-          {
-            "date": "2026-07-03",
-            "value": 2403
-          },
-          {
-            "date": "2026-07-04",
-            "value": 2706
-          },
-          {
-            "date": "2026-07-05",
-            "value": 2500
-          },
-          {
-            "date": "2026-07-06",
-            "value": 2160
-          },
-          {
-            "date": "2026-07-07",
-            "value": 2201
-          },
-          {
-            "date": "2026-07-08",
-            "value": 2201
-          },
-          {
-            "date": "2026-07-09",
-            "value": 2309
-          },
           {
             "date": "2026-07-10",
             "value": 2334
@@ -41575,7 +41647,79 @@
           },
           {
             "date": "2026-09-19",
-            "value": 2064
+            "value": 3776
+          },
+          {
+            "date": "2026-09-20",
+            "value": 3119
+          },
+          {
+            "date": "2026-09-21",
+            "value": 2304
+          },
+          {
+            "date": "2026-09-22",
+            "value": 2263
+          },
+          {
+            "date": "2026-09-23",
+            "value": 2025
+          },
+          {
+            "date": "2026-09-24",
+            "value": 2320
+          },
+          {
+            "date": "2026-09-25",
+            "value": 3172
+          },
+          {
+            "date": "2026-09-26",
+            "value": 3622
+          },
+          {
+            "date": "2026-09-27",
+            "value": 3263
+          },
+          {
+            "date": "2026-09-28",
+            "value": 2233
+          },
+          {
+            "date": "2026-09-29",
+            "value": 1745
+          },
+          {
+            "date": "2026-09-30",
+            "value": 1701
+          },
+          {
+            "date": "2026-10-01",
+            "value": 1926
+          },
+          {
+            "date": "2026-10-02",
+            "value": 2692
+          },
+          {
+            "date": "2026-10-03",
+            "value": 3159
+          },
+          {
+            "date": "2026-10-04",
+            "value": 3091
+          },
+          {
+            "date": "2026-10-05",
+            "value": 2563
+          },
+          {
+            "date": "2026-10-06",
+            "value": 2282
+          },
+          {
+            "date": "2026-10-07",
+            "value": 1092
           }
         ]
       },
@@ -41585,78 +41729,6 @@
         "granularity": "daily",
         "currency": "USD",
         "points": [
-          {
-            "date": "2026-06-22",
-            "value": 15358
-          },
-          {
-            "date": "2026-06-23",
-            "value": 18090
-          },
-          {
-            "date": "2026-06-24",
-            "value": 17452
-          },
-          {
-            "date": "2026-06-25",
-            "value": 17021
-          },
-          {
-            "date": "2026-06-26",
-            "value": 16839
-          },
-          {
-            "date": "2026-06-27",
-            "value": 22014
-          },
-          {
-            "date": "2026-06-28",
-            "value": 41997
-          },
-          {
-            "date": "2026-06-29",
-            "value": 13557
-          },
-          {
-            "date": "2026-06-30",
-            "value": 13753
-          },
-          {
-            "date": "2026-07-01",
-            "value": 12378
-          },
-          {
-            "date": "2026-07-02",
-            "value": 13667
-          },
-          {
-            "date": "2026-07-03",
-            "value": 13116
-          },
-          {
-            "date": "2026-07-04",
-            "value": 15478
-          },
-          {
-            "date": "2026-07-05",
-            "value": 16288
-          },
-          {
-            "date": "2026-07-06",
-            "value": 11649
-          },
-          {
-            "date": "2026-07-07",
-            "value": 11415
-          },
-          {
-            "date": "2026-07-08",
-            "value": 14290
-          },
-          {
-            "date": "2026-07-09",
-            "value": 52406
-          },
           {
             "date": "2026-07-10",
             "value": 37053
@@ -41940,6 +42012,78 @@
           {
             "date": "2026-09-18",
             "value": 18837
+          },
+          {
+            "date": "2026-09-19",
+            "value": 20208
+          },
+          {
+            "date": "2026-09-20",
+            "value": 18550
+          },
+          {
+            "date": "2026-09-21",
+            "value": 13892
+          },
+          {
+            "date": "2026-09-22",
+            "value": 14846
+          },
+          {
+            "date": "2026-09-23",
+            "value": 10883
+          },
+          {
+            "date": "2026-09-24",
+            "value": 16101
+          },
+          {
+            "date": "2026-09-25",
+            "value": 20150
+          },
+          {
+            "date": "2026-09-26",
+            "value": 16858
+          },
+          {
+            "date": "2026-09-27",
+            "value": 18991
+          },
+          {
+            "date": "2026-09-28",
+            "value": 17989
+          },
+          {
+            "date": "2026-09-29",
+            "value": 8947
+          },
+          {
+            "date": "2026-09-30",
+            "value": 25811
+          },
+          {
+            "date": "2026-10-01",
+            "value": 7706
+          },
+          {
+            "date": "2026-10-02",
+            "value": 38312
+          },
+          {
+            "date": "2026-10-03",
+            "value": 16168
+          },
+          {
+            "date": "2026-10-04",
+            "value": 15598
+          },
+          {
+            "date": "2026-10-05",
+            "value": 11462
+          },
+          {
+            "date": "2026-10-06",
+            "value": 10959
           }
         ]
       },
@@ -41996,87 +42140,15 @@
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "Deceit 2": {
-      "start_date": "2026-06-22",
-      "end_date": "2026-09-19",
+      "start_date": "2026-07-10",
+      "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_ea5cee5368004a8ab9efba68d27b0518",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_730aaa25d3334474bb6d18c5a1ee8b40",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-06-22",
-            "value": 173
-          },
-          {
-            "date": "2026-06-23",
-            "value": 163
-          },
-          {
-            "date": "2026-06-24",
-            "value": 145
-          },
-          {
-            "date": "2026-06-25",
-            "value": 140
-          },
-          {
-            "date": "2026-06-26",
-            "value": 132
-          },
-          {
-            "date": "2026-06-27",
-            "value": 152
-          },
-          {
-            "date": "2026-06-28",
-            "value": 164
-          },
-          {
-            "date": "2026-06-29",
-            "value": 150
-          },
-          {
-            "date": "2026-06-30",
-            "value": 146
-          },
-          {
-            "date": "2026-07-01",
-            "value": 141
-          },
-          {
-            "date": "2026-07-02",
-            "value": 133
-          },
-          {
-            "date": "2026-07-03",
-            "value": 133
-          },
-          {
-            "date": "2026-07-04",
-            "value": 130
-          },
-          {
-            "date": "2026-07-05",
-            "value": 141
-          },
-          {
-            "date": "2026-07-06",
-            "value": 125
-          },
-          {
-            "date": "2026-07-07",
-            "value": 127
-          },
-          {
-            "date": "2026-07-08",
-            "value": 141
-          },
-          {
-            "date": "2026-07-09",
-            "value": 109
-          },
           {
             "date": "2026-07-10",
             "value": 134
@@ -42363,7 +42435,79 @@
           },
           {
             "date": "2026-09-19",
-            "value": 89
+            "value": 118
+          },
+          {
+            "date": "2026-09-20",
+            "value": 118
+          },
+          {
+            "date": "2026-09-21",
+            "value": 92
+          },
+          {
+            "date": "2026-09-22",
+            "value": 86
+          },
+          {
+            "date": "2026-09-23",
+            "value": 74
+          },
+          {
+            "date": "2026-09-24",
+            "value": 85
+          },
+          {
+            "date": "2026-09-25",
+            "value": 87
+          },
+          {
+            "date": "2026-09-26",
+            "value": 114
+          },
+          {
+            "date": "2026-09-27",
+            "value": 122
+          },
+          {
+            "date": "2026-09-28",
+            "value": 94
+          },
+          {
+            "date": "2026-09-29",
+            "value": 83
+          },
+          {
+            "date": "2026-09-30",
+            "value": 85
+          },
+          {
+            "date": "2026-10-01",
+            "value": 90
+          },
+          {
+            "date": "2026-10-02",
+            "value": 71
+          },
+          {
+            "date": "2026-10-03",
+            "value": 115
+          },
+          {
+            "date": "2026-10-04",
+            "value": 108
+          },
+          {
+            "date": "2026-10-05",
+            "value": 97
+          },
+          {
+            "date": "2026-10-06",
+            "value": 84
+          },
+          {
+            "date": "2026-10-07",
+            "value": 66
           }
         ]
       },
@@ -42373,78 +42517,6 @@
         "granularity": "daily",
         "currency": "USD",
         "points": [
-          {
-            "date": "2026-06-22",
-            "value": 2367
-          },
-          {
-            "date": "2026-06-23",
-            "value": 2352
-          },
-          {
-            "date": "2026-06-24",
-            "value": 2479
-          },
-          {
-            "date": "2026-06-25",
-            "value": 1549
-          },
-          {
-            "date": "2026-06-26",
-            "value": 336
-          },
-          {
-            "date": "2026-06-27",
-            "value": 816
-          },
-          {
-            "date": "2026-06-28",
-            "value": 2184
-          },
-          {
-            "date": "2026-06-29",
-            "value": 1946
-          },
-          {
-            "date": "2026-06-30",
-            "value": 2142
-          },
-          {
-            "date": "2026-07-01",
-            "value": 1945
-          },
-          {
-            "date": "2026-07-02",
-            "value": 1629
-          },
-          {
-            "date": "2026-07-03",
-            "value": 1951
-          },
-          {
-            "date": "2026-07-04",
-            "value": 1980
-          },
-          {
-            "date": "2026-07-05",
-            "value": 2140
-          },
-          {
-            "date": "2026-07-06",
-            "value": 1643
-          },
-          {
-            "date": "2026-07-07",
-            "value": 1790
-          },
-          {
-            "date": "2026-07-08",
-            "value": 1922
-          },
-          {
-            "date": "2026-07-09",
-            "value": 1845
-          },
           {
             "date": "2026-07-10",
             "value": 2553
@@ -42728,93 +42800,93 @@
           {
             "date": "2026-09-18",
             "value": 1419
+          },
+          {
+            "date": "2026-09-19",
+            "value": 1636
+          },
+          {
+            "date": "2026-09-20",
+            "value": 1787
+          },
+          {
+            "date": "2026-09-21",
+            "value": 1328
+          },
+          {
+            "date": "2026-09-22",
+            "value": 1135
+          },
+          {
+            "date": "2026-09-23",
+            "value": 1137
+          },
+          {
+            "date": "2026-09-24",
+            "value": 1834
+          },
+          {
+            "date": "2026-09-25",
+            "value": 1618
+          },
+          {
+            "date": "2026-09-26",
+            "value": 1460
+          },
+          {
+            "date": "2026-09-27",
+            "value": 2362
+          },
+          {
+            "date": "2026-09-28",
+            "value": 1428
+          },
+          {
+            "date": "2026-09-29",
+            "value": 1286
+          },
+          {
+            "date": "2026-09-30",
+            "value": 1235
+          },
+          {
+            "date": "2026-10-01",
+            "value": 1222
+          },
+          {
+            "date": "2026-10-02",
+            "value": 711
+          },
+          {
+            "date": "2026-10-03",
+            "value": 235
+          },
+          {
+            "date": "2026-10-04",
+            "value": 1596
+          },
+          {
+            "date": "2026-10-05",
+            "value": 762
+          },
+          {
+            "date": "2026-10-06",
+            "value": 1419
           }
         ]
       },
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "Mechabellum": {
-      "start_date": "2026-06-22",
-      "end_date": "2026-09-19",
+      "start_date": "2026-07-10",
+      "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_ea5cee5368004a8ab9efba68d27b0518",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_730aaa25d3334474bb6d18c5a1ee8b40",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-06-22",
-            "value": 1337
-          },
-          {
-            "date": "2026-06-23",
-            "value": 1287
-          },
-          {
-            "date": "2026-06-24",
-            "value": 1297
-          },
-          {
-            "date": "2026-06-25",
-            "value": 1247
-          },
-          {
-            "date": "2026-06-26",
-            "value": 1294
-          },
-          {
-            "date": "2026-06-27",
-            "value": 1455
-          },
-          {
-            "date": "2026-06-28",
-            "value": 1522
-          },
-          {
-            "date": "2026-06-29",
-            "value": 1261
-          },
-          {
-            "date": "2026-06-30",
-            "value": 1243
-          },
-          {
-            "date": "2026-07-01",
-            "value": 1246
-          },
-          {
-            "date": "2026-07-02",
-            "value": 1189
-          },
-          {
-            "date": "2026-07-03",
-            "value": 1353
-          },
-          {
-            "date": "2026-07-04",
-            "value": 1462
-          },
-          {
-            "date": "2026-07-05",
-            "value": 1538
-          },
-          {
-            "date": "2026-07-06",
-            "value": 1267
-          },
-          {
-            "date": "2026-07-07",
-            "value": 1255
-          },
-          {
-            "date": "2026-07-08",
-            "value": 1247
-          },
-          {
-            "date": "2026-07-09",
-            "value": 1221
-          },
           {
             "date": "2026-07-10",
             "value": 1520
@@ -43101,7 +43173,79 @@
           },
           {
             "date": "2026-09-19",
-            "value": 896
+            "value": 1184
+          },
+          {
+            "date": "2026-09-20",
+            "value": 1193
+          },
+          {
+            "date": "2026-09-21",
+            "value": 1045
+          },
+          {
+            "date": "2026-09-22",
+            "value": 2633
+          },
+          {
+            "date": "2026-09-23",
+            "value": 2398
+          },
+          {
+            "date": "2026-09-24",
+            "value": 2543
+          },
+          {
+            "date": "2026-09-25",
+            "value": 2671
+          },
+          {
+            "date": "2026-09-26",
+            "value": 2895
+          },
+          {
+            "date": "2026-09-27",
+            "value": 2923
+          },
+          {
+            "date": "2026-09-28",
+            "value": 2333
+          },
+          {
+            "date": "2026-09-29",
+            "value": 2401
+          },
+          {
+            "date": "2026-09-30",
+            "value": 2237
+          },
+          {
+            "date": "2026-10-01",
+            "value": 2329
+          },
+          {
+            "date": "2026-10-02",
+            "value": 2422
+          },
+          {
+            "date": "2026-10-03",
+            "value": 2644
+          },
+          {
+            "date": "2026-10-04",
+            "value": 2614
+          },
+          {
+            "date": "2026-10-05",
+            "value": 2189
+          },
+          {
+            "date": "2026-10-06",
+            "value": 2053
+          },
+          {
+            "date": "2026-10-07",
+            "value": 1537
           }
         ]
       },
@@ -43111,78 +43255,6 @@
         "granularity": "daily",
         "currency": "USD",
         "points": [
-          {
-            "date": "2026-06-22",
-            "value": 5715
-          },
-          {
-            "date": "2026-06-23",
-            "value": 5645
-          },
-          {
-            "date": "2026-06-24",
-            "value": 14472
-          },
-          {
-            "date": "2026-06-25",
-            "value": 4560
-          },
-          {
-            "date": "2026-06-26",
-            "value": 0
-          },
-          {
-            "date": "2026-06-27",
-            "value": 0
-          },
-          {
-            "date": "2026-06-28",
-            "value": 1079
-          },
-          {
-            "date": "2026-06-29",
-            "value": 1079
-          },
-          {
-            "date": "2026-06-30",
-            "value": 3409
-          },
-          {
-            "date": "2026-07-01",
-            "value": 10436
-          },
-          {
-            "date": "2026-07-02",
-            "value": 539
-          },
-          {
-            "date": "2026-07-03",
-            "value": 1733
-          },
-          {
-            "date": "2026-07-04",
-            "value": 4610
-          },
-          {
-            "date": "2026-07-05",
-            "value": 2683
-          },
-          {
-            "date": "2026-07-06",
-            "value": 4063
-          },
-          {
-            "date": "2026-07-07",
-            "value": 3495
-          },
-          {
-            "date": "2026-07-08",
-            "value": 791
-          },
-          {
-            "date": "2026-07-09",
-            "value": 7459
-          },
           {
             "date": "2026-07-10",
             "value": 15110
@@ -43466,93 +43538,93 @@
           {
             "date": "2026-09-18",
             "value": 5552
+          },
+          {
+            "date": "2026-09-19",
+            "value": 899
+          },
+          {
+            "date": "2026-09-20",
+            "value": 935
+          },
+          {
+            "date": "2026-09-21",
+            "value": 4374
+          },
+          {
+            "date": "2026-09-22",
+            "value": 17383
+          },
+          {
+            "date": "2026-09-23",
+            "value": 15437
+          },
+          {
+            "date": "2026-09-24",
+            "value": 16628
+          },
+          {
+            "date": "2026-09-25",
+            "value": 15051
+          },
+          {
+            "date": "2026-09-26",
+            "value": 6488
+          },
+          {
+            "date": "2026-09-27",
+            "value": 22876
+          },
+          {
+            "date": "2026-09-28",
+            "value": 7479
+          },
+          {
+            "date": "2026-09-29",
+            "value": 18587
+          },
+          {
+            "date": "2026-09-30",
+            "value": 33131
+          },
+          {
+            "date": "2026-10-01",
+            "value": 23192
+          },
+          {
+            "date": "2026-10-02",
+            "value": 19391
+          },
+          {
+            "date": "2026-10-03",
+            "value": 22678
+          },
+          {
+            "date": "2026-10-04",
+            "value": 18170
+          },
+          {
+            "date": "2026-10-05",
+            "value": 8138
+          },
+          {
+            "date": "2026-10-06",
+            "value": 12378
           }
         ]
       },
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "Once Upon a Galaxy": {
-      "start_date": "2026-06-22",
-      "end_date": "2026-09-19",
+      "start_date": "2026-07-10",
+      "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_ea5cee5368004a8ab9efba68d27b0518",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_730aaa25d3334474bb6d18c5a1ee8b40",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-06-22",
-            "value": 145
-          },
-          {
-            "date": "2026-06-23",
-            "value": 134
-          },
-          {
-            "date": "2026-06-24",
-            "value": 134
-          },
-          {
-            "date": "2026-06-25",
-            "value": 128
-          },
-          {
-            "date": "2026-06-26",
-            "value": 125
-          },
-          {
-            "date": "2026-06-27",
-            "value": 124
-          },
-          {
-            "date": "2026-06-28",
-            "value": 125
-          },
-          {
-            "date": "2026-06-29",
-            "value": 124
-          },
-          {
-            "date": "2026-06-30",
-            "value": 130
-          },
-          {
-            "date": "2026-07-01",
-            "value": 124
-          },
-          {
-            "date": "2026-07-02",
-            "value": 124
-          },
-          {
-            "date": "2026-07-03",
-            "value": 130
-          },
-          {
-            "date": "2026-07-04",
-            "value": 132
-          },
-          {
-            "date": "2026-07-05",
-            "value": 131
-          },
-          {
-            "date": "2026-07-06",
-            "value": 129
-          },
-          {
-            "date": "2026-07-07",
-            "value": 121
-          },
-          {
-            "date": "2026-07-08",
-            "value": 122
-          },
-          {
-            "date": "2026-07-09",
-            "value": 116
-          },
           {
             "date": "2026-07-10",
             "value": 132
@@ -43840,6 +43912,78 @@
           {
             "date": "2026-09-19",
             "value": 110
+          },
+          {
+            "date": "2026-09-20",
+            "value": 101
+          },
+          {
+            "date": "2026-09-21",
+            "value": 92
+          },
+          {
+            "date": "2026-09-22",
+            "value": 98
+          },
+          {
+            "date": "2026-09-23",
+            "value": 104
+          },
+          {
+            "date": "2026-09-24",
+            "value": 94
+          },
+          {
+            "date": "2026-09-25",
+            "value": 88
+          },
+          {
+            "date": "2026-09-26",
+            "value": 91
+          },
+          {
+            "date": "2026-09-27",
+            "value": 104
+          },
+          {
+            "date": "2026-09-28",
+            "value": 114
+          },
+          {
+            "date": "2026-09-29",
+            "value": 122
+          },
+          {
+            "date": "2026-09-30",
+            "value": 108
+          },
+          {
+            "date": "2026-10-01",
+            "value": 120
+          },
+          {
+            "date": "2026-10-02",
+            "value": 104
+          },
+          {
+            "date": "2026-10-03",
+            "value": 114
+          },
+          {
+            "date": "2026-10-04",
+            "value": 101
+          },
+          {
+            "date": "2026-10-05",
+            "value": 105
+          },
+          {
+            "date": "2026-10-06",
+            "value": 102
+          },
+          {
+            "date": "2026-10-07",
+            "value": 100
           }
         ]
       },
@@ -43849,78 +43993,6 @@
         "granularity": "daily",
         "currency": "USD",
         "points": [
-          {
-            "date": "2026-06-22",
-            "value": 926
-          },
-          {
-            "date": "2026-06-23",
-            "value": 1412
-          },
-          {
-            "date": "2026-06-24",
-            "value": 253
-          },
-          {
-            "date": "2026-06-25",
-            "value": 273
-          },
-          {
-            "date": "2026-06-26",
-            "value": 0
-          },
-          {
-            "date": "2026-06-27",
-            "value": 0
-          },
-          {
-            "date": "2026-06-28",
-            "value": 0
-          },
-          {
-            "date": "2026-06-29",
-            "value": 0
-          },
-          {
-            "date": "2026-06-30",
-            "value": 0
-          },
-          {
-            "date": "2026-07-01",
-            "value": 1714
-          },
-          {
-            "date": "2026-07-02",
-            "value": 1383
-          },
-          {
-            "date": "2026-07-03",
-            "value": 0
-          },
-          {
-            "date": "2026-07-04",
-            "value": 0
-          },
-          {
-            "date": "2026-07-05",
-            "value": 0
-          },
-          {
-            "date": "2026-07-06",
-            "value": 0
-          },
-          {
-            "date": "2026-07-07",
-            "value": 0
-          },
-          {
-            "date": "2026-07-08",
-            "value": 0
-          },
-          {
-            "date": "2026-07-09",
-            "value": 0
-          },
           {
             "date": "2026-07-10",
             "value": 0
@@ -44204,93 +44276,93 @@
           {
             "date": "2026-09-18",
             "value": 875
+          },
+          {
+            "date": "2026-09-19",
+            "value": 405
+          },
+          {
+            "date": "2026-09-20",
+            "value": 204
+          },
+          {
+            "date": "2026-09-21",
+            "value": 658
+          },
+          {
+            "date": "2026-09-22",
+            "value": 111
+          },
+          {
+            "date": "2026-09-23",
+            "value": 32
+          },
+          {
+            "date": "2026-09-24",
+            "value": 0
+          },
+          {
+            "date": "2026-09-25",
+            "value": 279
+          },
+          {
+            "date": "2026-09-26",
+            "value": 204
+          },
+          {
+            "date": "2026-09-27",
+            "value": 229
+          },
+          {
+            "date": "2026-09-28",
+            "value": 462
+          },
+          {
+            "date": "2026-09-29",
+            "value": 2033
+          },
+          {
+            "date": "2026-09-30",
+            "value": 1231
+          },
+          {
+            "date": "2026-10-01",
+            "value": 1730
+          },
+          {
+            "date": "2026-10-02",
+            "value": 1045
+          },
+          {
+            "date": "2026-10-03",
+            "value": 0
+          },
+          {
+            "date": "2026-10-04",
+            "value": 153
+          },
+          {
+            "date": "2026-10-05",
+            "value": 0
+          },
+          {
+            "date": "2026-10-06",
+            "value": 0
           }
         ]
       },
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "PICO PARK 2": {
-      "start_date": "2026-06-22",
-      "end_date": "2026-09-19",
+      "start_date": "2026-07-10",
+      "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_ea5cee5368004a8ab9efba68d27b0518",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_730aaa25d3334474bb6d18c5a1ee8b40",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-06-22",
-            "value": 138
-          },
-          {
-            "date": "2026-06-23",
-            "value": 133
-          },
-          {
-            "date": "2026-06-24",
-            "value": 123
-          },
-          {
-            "date": "2026-06-25",
-            "value": 125
-          },
-          {
-            "date": "2026-06-26",
-            "value": 209
-          },
-          {
-            "date": "2026-06-27",
-            "value": 332
-          },
-          {
-            "date": "2026-06-28",
-            "value": 309
-          },
-          {
-            "date": "2026-06-29",
-            "value": 224
-          },
-          {
-            "date": "2026-06-30",
-            "value": 219
-          },
-          {
-            "date": "2026-07-01",
-            "value": 219
-          },
-          {
-            "date": "2026-07-02",
-            "value": 208
-          },
-          {
-            "date": "2026-07-03",
-            "value": 261
-          },
-          {
-            "date": "2026-07-04",
-            "value": 367
-          },
-          {
-            "date": "2026-07-05",
-            "value": 324
-          },
-          {
-            "date": "2026-07-06",
-            "value": 220
-          },
-          {
-            "date": "2026-07-07",
-            "value": 203
-          },
-          {
-            "date": "2026-07-08",
-            "value": 235
-          },
-          {
-            "date": "2026-07-09",
-            "value": 256
-          },
           {
             "date": "2026-07-10",
             "value": 362
@@ -44577,7 +44649,79 @@
           },
           {
             "date": "2026-09-19",
-            "value": 102
+            "value": 164
+          },
+          {
+            "date": "2026-09-20",
+            "value": 133
+          },
+          {
+            "date": "2026-09-21",
+            "value": 94
+          },
+          {
+            "date": "2026-09-22",
+            "value": 114
+          },
+          {
+            "date": "2026-09-23",
+            "value": 90
+          },
+          {
+            "date": "2026-09-24",
+            "value": 104
+          },
+          {
+            "date": "2026-09-25",
+            "value": 134
+          },
+          {
+            "date": "2026-09-26",
+            "value": 174
+          },
+          {
+            "date": "2026-09-27",
+            "value": 157
+          },
+          {
+            "date": "2026-09-28",
+            "value": 98
+          },
+          {
+            "date": "2026-09-29",
+            "value": 87
+          },
+          {
+            "date": "2026-09-30",
+            "value": 98
+          },
+          {
+            "date": "2026-10-01",
+            "value": 127
+          },
+          {
+            "date": "2026-10-02",
+            "value": 178
+          },
+          {
+            "date": "2026-10-03",
+            "value": 255
+          },
+          {
+            "date": "2026-10-04",
+            "value": 259
+          },
+          {
+            "date": "2026-10-05",
+            "value": 193
+          },
+          {
+            "date": "2026-10-06",
+            "value": 177
+          },
+          {
+            "date": "2026-10-07",
+            "value": 68
           }
         ]
       },
@@ -44587,78 +44731,6 @@
         "granularity": "daily",
         "currency": "USD",
         "points": [
-          {
-            "date": "2026-06-22",
-            "value": 3013
-          },
-          {
-            "date": "2026-06-23",
-            "value": 4013
-          },
-          {
-            "date": "2026-06-24",
-            "value": 4366
-          },
-          {
-            "date": "2026-06-25",
-            "value": 1952
-          },
-          {
-            "date": "2026-06-26",
-            "value": 5641
-          },
-          {
-            "date": "2026-06-27",
-            "value": 8715
-          },
-          {
-            "date": "2026-06-28",
-            "value": 7281
-          },
-          {
-            "date": "2026-06-29",
-            "value": 7342
-          },
-          {
-            "date": "2026-06-30",
-            "value": 6154
-          },
-          {
-            "date": "2026-07-01",
-            "value": 4262
-          },
-          {
-            "date": "2026-07-02",
-            "value": 4504
-          },
-          {
-            "date": "2026-07-03",
-            "value": 5178
-          },
-          {
-            "date": "2026-07-04",
-            "value": 19902
-          },
-          {
-            "date": "2026-07-05",
-            "value": 7105
-          },
-          {
-            "date": "2026-07-06",
-            "value": 4660
-          },
-          {
-            "date": "2026-07-07",
-            "value": 5213
-          },
-          {
-            "date": "2026-07-08",
-            "value": 755
-          },
-          {
-            "date": "2026-07-09",
-            "value": 13715
-          },
           {
             "date": "2026-07-10",
             "value": 2158
@@ -44942,6 +45014,78 @@
           {
             "date": "2026-09-18",
             "value": 4107
+          },
+          {
+            "date": "2026-09-19",
+            "value": 4574
+          },
+          {
+            "date": "2026-09-20",
+            "value": 2934
+          },
+          {
+            "date": "2026-09-21",
+            "value": 2230
+          },
+          {
+            "date": "2026-09-22",
+            "value": 2050
+          },
+          {
+            "date": "2026-09-23",
+            "value": 2165
+          },
+          {
+            "date": "2026-09-24",
+            "value": 1870
+          },
+          {
+            "date": "2026-09-25",
+            "value": 3503
+          },
+          {
+            "date": "2026-09-26",
+            "value": 4768
+          },
+          {
+            "date": "2026-09-27",
+            "value": 3366
+          },
+          {
+            "date": "2026-09-28",
+            "value": 1769
+          },
+          {
+            "date": "2026-09-29",
+            "value": 2639
+          },
+          {
+            "date": "2026-09-30",
+            "value": 1776
+          },
+          {
+            "date": "2026-10-01",
+            "value": 1988
+          },
+          {
+            "date": "2026-10-02",
+            "value": 2617
+          },
+          {
+            "date": "2026-10-03",
+            "value": 5107
+          },
+          {
+            "date": "2026-10-04",
+            "value": 5535
+          },
+          {
+            "date": "2026-10-05",
+            "value": 3563
+          },
+          {
+            "date": "2026-10-06",
+            "value": 3744
           }
         ]
       },
@@ -45686,87 +45830,15 @@
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "The Outlast Trials": {
-      "start_date": "2026-06-22",
-      "end_date": "2026-09-19",
+      "start_date": "2026-07-10",
+      "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_ea5cee5368004a8ab9efba68d27b0518",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_730aaa25d3334474bb6d18c5a1ee8b40",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-06-22",
-            "value": 3453
-          },
-          {
-            "date": "2026-06-23",
-            "value": 3371
-          },
-          {
-            "date": "2026-06-24",
-            "value": 3309
-          },
-          {
-            "date": "2026-06-25",
-            "value": 3028
-          },
-          {
-            "date": "2026-06-26",
-            "value": 4693
-          },
-          {
-            "date": "2026-06-27",
-            "value": 6327
-          },
-          {
-            "date": "2026-06-28",
-            "value": 6894
-          },
-          {
-            "date": "2026-06-29",
-            "value": 6225
-          },
-          {
-            "date": "2026-06-30",
-            "value": 6198
-          },
-          {
-            "date": "2026-07-01",
-            "value": 6294
-          },
-          {
-            "date": "2026-07-02",
-            "value": 6203
-          },
-          {
-            "date": "2026-07-03",
-            "value": 6806
-          },
-          {
-            "date": "2026-07-04",
-            "value": 7282
-          },
-          {
-            "date": "2026-07-05",
-            "value": 7175
-          },
-          {
-            "date": "2026-07-06",
-            "value": 6325
-          },
-          {
-            "date": "2026-07-07",
-            "value": 6263
-          },
-          {
-            "date": "2026-07-08",
-            "value": 6260
-          },
-          {
-            "date": "2026-07-09",
-            "value": 6490
-          },
           {
             "date": "2026-07-10",
             "value": 7033
@@ -46053,7 +46125,79 @@
           },
           {
             "date": "2026-09-19",
-            "value": 3690
+            "value": 4013
+          },
+          {
+            "date": "2026-09-20",
+            "value": 4049
+          },
+          {
+            "date": "2026-09-21",
+            "value": 3273
+          },
+          {
+            "date": "2026-09-22",
+            "value": 3131
+          },
+          {
+            "date": "2026-09-23",
+            "value": 2947
+          },
+          {
+            "date": "2026-09-24",
+            "value": 2947
+          },
+          {
+            "date": "2026-09-25",
+            "value": 3198
+          },
+          {
+            "date": "2026-09-26",
+            "value": 3698
+          },
+          {
+            "date": "2026-09-27",
+            "value": 3774
+          },
+          {
+            "date": "2026-09-28",
+            "value": 2990
+          },
+          {
+            "date": "2026-09-29",
+            "value": 2890
+          },
+          {
+            "date": "2026-09-30",
+            "value": 2889
+          },
+          {
+            "date": "2026-10-01",
+            "value": 3367
+          },
+          {
+            "date": "2026-10-02",
+            "value": 17915
+          },
+          {
+            "date": "2026-10-03",
+            "value": 35215
+          },
+          {
+            "date": "2026-10-04",
+            "value": 45386
+          },
+          {
+            "date": "2026-10-05",
+            "value": 41998
+          },
+          {
+            "date": "2026-10-06",
+            "value": 43033
+          },
+          {
+            "date": "2026-10-07",
+            "value": 23641
           }
         ]
       },
@@ -46063,78 +46207,6 @@
         "granularity": "daily",
         "currency": "USD",
         "points": [
-          {
-            "date": "2026-06-22",
-            "value": 45583
-          },
-          {
-            "date": "2026-06-23",
-            "value": 97000
-          },
-          {
-            "date": "2026-06-24",
-            "value": 87462
-          },
-          {
-            "date": "2026-06-25",
-            "value": 27453
-          },
-          {
-            "date": "2026-06-26",
-            "value": 135569
-          },
-          {
-            "date": "2026-06-27",
-            "value": 164578
-          },
-          {
-            "date": "2026-06-28",
-            "value": 185363
-          },
-          {
-            "date": "2026-06-29",
-            "value": 156491
-          },
-          {
-            "date": "2026-06-30",
-            "value": 152389
-          },
-          {
-            "date": "2026-07-01",
-            "value": 140594
-          },
-          {
-            "date": "2026-07-02",
-            "value": 109771
-          },
-          {
-            "date": "2026-07-03",
-            "value": 137564
-          },
-          {
-            "date": "2026-07-04",
-            "value": 117497
-          },
-          {
-            "date": "2026-07-05",
-            "value": 146515
-          },
-          {
-            "date": "2026-07-06",
-            "value": 110778
-          },
-          {
-            "date": "2026-07-07",
-            "value": 94347
-          },
-          {
-            "date": "2026-07-08",
-            "value": 113191
-          },
-          {
-            "date": "2026-07-09",
-            "value": 518083
-          },
           {
             "date": "2026-07-10",
             "value": 279795
@@ -46418,6 +46490,78 @@
           {
             "date": "2026-09-18",
             "value": 74699
+          },
+          {
+            "date": "2026-09-19",
+            "value": 17530
+          },
+          {
+            "date": "2026-09-20",
+            "value": 94048
+          },
+          {
+            "date": "2026-09-21",
+            "value": 76700
+          },
+          {
+            "date": "2026-09-22",
+            "value": 12527
+          },
+          {
+            "date": "2026-09-23",
+            "value": 62171
+          },
+          {
+            "date": "2026-09-24",
+            "value": 69860
+          },
+          {
+            "date": "2026-09-25",
+            "value": 72726
+          },
+          {
+            "date": "2026-09-26",
+            "value": 30174
+          },
+          {
+            "date": "2026-09-27",
+            "value": 102990
+          },
+          {
+            "date": "2026-09-28",
+            "value": 75647
+          },
+          {
+            "date": "2026-09-29",
+            "value": 73006
+          },
+          {
+            "date": "2026-09-30",
+            "value": 20211
+          },
+          {
+            "date": "2026-10-01",
+            "value": 11425
+          },
+          {
+            "date": "2026-10-02",
+            "value": 718870
+          },
+          {
+            "date": "2026-10-03",
+            "value": 1020995
+          },
+          {
+            "date": "2026-10-04",
+            "value": 1014644
+          },
+          {
+            "date": "2026-10-05",
+            "value": 793722
+          },
+          {
+            "date": "2026-10-06",
+            "value": 698097
           }
         ]
       },
@@ -46856,7 +47000,7 @@
       "start_date": "2026-07-10",
       "end_date": "2026-10-07",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c5b954ede60849f89ddb2c9f8e550a69",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_4443760fd4984e13a9a7d9c18d7d264d",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",

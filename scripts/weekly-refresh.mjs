@@ -35,7 +35,7 @@ function arg(name, fallback = "") {
 let activeSource = "preflight";
 const sourceModules = {};
 function run(label, command, args) {
-  const names = /DataBrain|指标|快照/.test(label) ? ["metrics"] : /Steam/.test(label) ? ["steam"] : /事件与研究/.test(label) ? ["events", "research"] : /GRP/.test(label) ? ["grp"] : /异动/.test(label) ? ["attributions"] : /游研所/.test(label) ? ["intelligence"] : [];
+  const names = /DataBrain|指标|快照/.test(label) ? ["metrics"] : /Steam/.test(label) ? ["steam"] : /事件与研究/.test(label) ? ["events", "research"] : /公开出处/.test(label) ? ["evidence"] : /GRP/.test(label) ? ["grp"] : /异动/.test(label) ? ["attributions"] : /游研所/.test(label) ? ["intelligence"] : [];
   if (names.length) activeSource = names[0];
   else if (/构建与测试/.test(label)) activeSource = "build";
   else if (/影像核查队列/.test(label)) activeSource = "media";
@@ -153,6 +153,7 @@ function main() {
       ...(eventCheckpoint ? [`--responses-input=${path.resolve(eventCheckpoint)}`] : []),
     ]);
     run("按产品别名归并 GRP 测试报告", process.execPath, ["scripts/sync-grp-reports.mjs"]);
+    run("验证公开出处与日期依据", process.execPath, ["scripts/validate-source-evidence.mjs"]);
     run("生成本期异动归因", process.execPath, ["--experimental-strip-types", "scripts/build-anomaly-attributions.mjs"]);
     if (youyansuoInput) {
       run("规范化游研所产品情报", process.execPath, ["scripts/normalize-youyansuo-discovery.mjs", `--input=${path.resolve(youyansuoInput)}`]);

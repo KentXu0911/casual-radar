@@ -6,6 +6,8 @@ import { synchronizeIdentities, milestoneFingerprint, applyMediaReviews, buildMe
 import { publicFiles, contentVersion } from "./release-manifest-lib.mjs";
 import { synchronizeDiscoveredStudioProducts } from "./studio-association-lib.mjs";
 import { writeRefreshReport, publicationReport } from "./refresh-runner-lib.mjs";
+import { recordEvidenceIssue } from "./source-evidence-lib.mjs";
+import { normalizeEntityName } from "./weekly-refresh-lib.mjs";
 
 const root = path.resolve(import.meta.dirname, "..");
 const publicRoot = path.join(root, "public");
@@ -85,6 +87,23 @@ write("product-catalog.json", catalogue); write("media-reviews.json", archive);
 const tasks = buildMediaQueue(dashboard, previous, archive, { all: command === "audit" || cadence === "monthly" });
 const backlog = buildMediaQueue(dashboard, dashboard, archive, { all: true });
 const errors = validateContent(dashboard, games, previous, archive, read("editorial-decisions.json", { decisions: [] }));
+const discovery = read("youyansuo_discovery.json", {});
+const editorialDecisions = read("editorial-decisions.json", { decisions: [] }).decisions;
+for (const candidate of discovery.candidates || []) {
+  const decisions = editorialDecisions.filter(decision => normalizeEntityName(decision.name) === normalizeEntityName(candidate.name));
+  if (!decisions.some(decision => decision.action === "include_candidate" && decision.reason && decision.source)
+    || decisions.some(decision => ["exclude", "exclude_candidate"].includes(decision.action))) {
+    errors.push(`Unapproved discovery candidate: ${candidate.name}`);
+  }
+}
+for (const filename of ["databrain_events.json", "databrain_research.json"]) {
+  for (const [name, records] of Object.entries(read(filename, { games: {} }).games || {})) {
+    for (const record of records) {
+      const issue = recordEvidenceIssue(name, record, filename === "databrain_events.json" ? "event" : "research");
+      if (issue) errors.push(`Invalid source evidence: ${name} ${record.title} (${issue})`);
+    }
+  }
+}
 const queuePath = path.join(root, "reports", "media-search-queue.json");
 fs.mkdirSync(path.dirname(queuePath), { recursive: true });
 fs.writeFileSync(queuePath, JSON.stringify({ run_id: state?.run_id || null, checked_at: today, tasks, historical_backlog: backlog }, null, 2));
@@ -107,6 +126,8 @@ if (command === "finalize") {
   // Build verification is performed by the publisher after this finalizer.
   const contentStatus = runStatus(Object.fromEntries(Object.entries(modules).filter(([name]) => name !== "build")));
   const report = { ...oldReport, run_id: state.run_id, cadence, started_at: state.started_at, modules, status: contentStatus === "complete" ? "ready_for_build" : contentStatus, finalized_at: new Date().toISOString(), publication: publicationReport(null) };
+  if (report.youyansuo && discovery.meta) Object.assign(report.youyansuo, { candidates: discovery.meta.candidates, tracked_updates: discovery.meta.tracked_updates, pending_candidates: discovery.meta.pending_candidates || 0 });
+  if (contentStatus === "complete") { delete report.failed_phase; delete report.error; }
   write("content-health.json", { checked_at: today, scope: cadence, status: contentStatus, modules: Object.fromEntries(Object.entries(modules).filter(([name]) => name !== "build")), historical_media_backlog: backlog.length, historical_media_status: backlog.length ? "pending" : "passed",
     dates: { intelligence: read("youyansuo_discovery.json", {}).meta?.scan_date || null, metrics: read("databrain_latest_metrics.json", {}).meta?.query_range?.at(-1) || null, lifecycle: dashboard.pipelineMeta?.lifecycle_reviewed_at || null } });
   report.content_version = contentVersion(publicFiles(publicRoot));

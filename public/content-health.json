@@ -1,8 +1,50 @@
 {
   "checked_at": "2026-10-08",
-  "scope": "manual",
+  "scope": "weekly",
   "status": "complete",
   "modules": {
+    "metrics": {
+      "required": true,
+      "status": "passed",
+      "checked_at": "2026-10-07"
+    },
+    "steam": {
+      "required": true,
+      "status": "passed"
+    },
+    "events": {
+      "required": true,
+      "status": "passed"
+    },
+    "research": {
+      "required": true,
+      "status": "passed"
+    },
+    "grp": {
+      "required": true,
+      "status": "passed"
+    },
+    "attributions": {
+      "required": true,
+      "status": "passed"
+    },
+    "intelligence": {
+      "required": true,
+      "status": "passed"
+    },
+    "editorial": {
+      "required": true,
+      "status": "passed",
+      "checked_at": "2026-10-08",
+      "curated_product_updates": 12,
+      "quarantined_source_records": 170
+    },
+    "evidence": {
+      "required": true,
+      "status": "passed",
+      "checked_at": "2026-10-08T09:21:34.466Z",
+      "notes": "Resolved original citations, rejected unavailable/placeholder URLs, homonyms and homepage-only event dates."
+    },
     "identity": {
       "required": true,
       "status": "passed"
