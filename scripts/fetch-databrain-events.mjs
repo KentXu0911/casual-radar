@@ -23,8 +23,11 @@ function text(value) {
 }
 
 function dateKey(value) {
-  const match = text(value).match(/(\d{4})[./-](\d{1,2})(?:[./-](\d{1,2}))?/);
-  return match ? `${match[1]}-${match[2].padStart(2, "0")}-${(match[3] || "01").padStart(2, "0")}` : "";
+  const match = text(value).match(/(\d{4})[./-](\d{1,2})[./-](\d{1,2})(?!\d)/);
+  if (!match) return "";
+  const day = `${match[1]}-${match[2].padStart(2, "0")}-${match[3].padStart(2, "0")}`;
+  const parsed = new Date(`${day}T00:00:00Z`);
+  return Number.isFinite(parsed.getTime()) && parsed.toISOString().slice(0, 10) === day ? day : "";
 }
 
 function cleanCell(value) {
@@ -134,7 +137,7 @@ function parseResponseRows(markdown, structured) {
 }
 
 function parseArgs(argv) {
-  const options = { games: [], start: "", end: "", batchSize: 10, maxPerGame: 8, concurrency: 3, cleanOnly: false };
+  const options = { games: [], start: "", end: "", batchSize: 10, maxPerGame: 8, concurrency: 3, responsesInput: "", cleanOnly: false };
   for (let index = 0; index < argv.length; index += 1) {
     const argument = argv[index];
     const [key, inlineValue] = argument.split("=", 2);
@@ -159,9 +162,36 @@ function parseArgs(argv) {
     } else if (key === "--concurrency") {
       options.concurrency = Math.min(3, Math.max(1, Number(value) || 3));
       if (inlineValue === undefined) index += 1;
+    } else if (key === "--responses-input") {
+      options.responsesInput = text(value);
+      if (inlineValue === undefined) index += 1;
     }
   }
   return options;
+}
+
+export function responseFromEvents(document) {
+  const parts = (document.events || []).flatMap(event => event.result?.artifact?.parts || []);
+  return {
+    sessionId: document.sessionId,
+    markdown: parts.filter(part => part.type === "text").map(part => String(part.text ?? "")).join(""),
+    structured: parts.filter(part => part.type === "data").map(part => part.data?.value ?? part.data),
+  };
+}
+
+function readResponseCheckpoint(directory, query) {
+  const day = value => new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Shanghai" }).format(new Date(value));
+  const candidates = fs.readdirSync(directory).filter(name => /^dashboard_events_[a-z0-9]+\.json$/.test(name))
+    .map(name => path.join(directory, name)).sort((left, right) => fs.statSync(right).mtimeMs - fs.statSync(left).mtimeMs);
+  for (const file of candidates) {
+    const document = JSON.parse(fs.readFileSync(file, "utf8"));
+    const created = document.created_at || fs.statSync(file).mtime;
+    if (day(created) !== day(new Date()) || document.query !== query || !document.sessionId || document.events?.some(event => event.error)) continue;
+    const result = responseFromEvents(document);
+    if (!parseResponseRows(result.markdown, result.structured).length) continue;
+    return { ...result, fromCheckpoint: true };
+  }
+  return null;
 }
 
 export async function collectBatchResults(batches, query, concurrency = 3) {
@@ -315,7 +345,7 @@ async function queryDataBrainOnce(query) {
       rawEvents.push(message);
       if (message.error) throw new Error(message.error.message || "DataBrain 返回错误");
       for (const part of message.result?.artifact?.parts || []) {
-        if (part.type === "text") textParts.push(text(part.text));
+        if (part.type === "text") textParts.push(String(part.text ?? ""));
         if (part.type === "data") structuredParts.push(part.data?.value ?? part.data);
       }
     } catch (error) {
@@ -338,7 +368,7 @@ async function queryDataBrainOnce(query) {
   const markdown = textParts.join("");
   const auditRoot = path.join(siteRoot, ".automation", "databrain-events");
   fs.mkdirSync(auditRoot, { recursive: true });
-  fs.writeFileSync(path.join(auditRoot, `${sessionId}.json`), `${JSON.stringify({ sessionId, query, events: rawEvents }, null, 2)}\n`);
+  fs.writeFileSync(path.join(auditRoot, `${sessionId}.json`), `${JSON.stringify({ sessionId, query, created_at: new Date().toISOString(), events: rawEvents }, null, 2)}\n`);
   if (/无法处理.*未来|cannot[^\n]*future/i.test(markdown)) throw new Error(`DataBrain refused date range: ${markdown.trim()}`);
   return { sessionId, markdown, structured: structuredParts };
 }
@@ -467,7 +497,10 @@ async function main() {
   const failedBatches = [];
   const responses = await collectBatchResults(batches, async (batch, index) => {
     process.stdout.write(`DataBrain query ${index + 1}/${batches.length}: ${batch.join("、")}\n`);
-    const response = await queryDataBrain(queryText(batch, aliasesByCanonical, start, end, options.maxPerGame));
+    const query = queryText(batch, aliasesByCanonical, start, end, options.maxPerGame);
+    const checkpoint = options.responsesInput ? readResponseCheckpoint(path.resolve(options.responsesInput), query) : null;
+    const response = checkpoint || await queryDataBrain(query);
+    if (checkpoint) process.stdout.write(`  query ${index + 1}/${batches.length} resumed same-day raw response\n`);
     process.stdout.write(`  query ${index + 1}/${batches.length} returned\n`);
     return response;
   }, options.concurrency);
@@ -533,7 +566,7 @@ async function main() {
   if (failedBatches.length) throw new Error(`DataBrain events/research coverage failed for ${failedBatches.length}/${batches.length} batches; see failed_batches`);
 }
 
-if (process.argv[1] && fs.realpathSync(process.argv[1]) === fileURLToPath(import.meta.url)) {
+if (process.argv[1] && fs.existsSync(process.argv[1]) && fs.realpathSync(process.argv[1]) === fileURLToPath(import.meta.url)) {
   main().catch((error) => {
     console.error(error instanceof Error ? error.message : error);
     process.exitCode = 1;

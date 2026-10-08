@@ -8,8 +8,23 @@ import { fileURLToPath } from "node:url";
 import { buildGameEntityIndex, canonicalGameName, chunk, defaultEndDate, isLowConfidenceEventSource, loadTrackedGames, matchesEntityEvidence, queryNamesForGame, resolveRange, validateDailyRefresh, validateRefresh } from "../scripts/weekly-refresh-lib.mjs";
 import { acquireRefreshLock, writeRefreshReport } from "../scripts/refresh-runner-lib.mjs";
 import { buildAnomalyAttributionBundle } from "../scripts/anomaly-attribution-lib.mjs";
-import { normalizeResearchRow, normalizeRow, parseResponseRows, queryText, collectBatchResults } from "../scripts/fetch-databrain-events.mjs";
+import { normalizeResearchRow, normalizeRow, parseResponseRows, queryText, collectBatchResults, responseFromEvents } from "../scripts/fetch-databrain-events.mjs";
 import { validateMetricCheckpoint } from "../scripts/weekly-refresh-lib.mjs";
+
+test("stream assembly preserves split newlines so real event tables remain parseable", () => {
+  const chunks = ["| game_name | record_type | published_date | title |", "\n", "|---|---|---|---|", "\n", "| Demo | research | 2026-10-01 | Demo report |", "\n"];
+  const result = responseFromEvents({ sessionId: "test", events: chunks.map(text => ({ result: { artifact: { parts: [{ type: "text", text }] } } })) });
+  assert.equal(parseResponseRows(result.markdown, []).length, 1);
+  assert.equal(parseResponseRows(chunks.map(chunk => chunk.trim()).join(""), []).length, 0);
+  assert.equal(result.markdown, chunks.join(""));
+});
+
+test("partial or invalid source dates never become invented first-of-month event days", () => {
+  const index = buildGameEntityIndex([{ name: "Demo" }]), aliases = new Map([["Demo", ["Demo"]]]);
+  const record = { game_name: "Demo", title: "Demo test", summary: "Demo testing", source: "Official", url: "https://example.com/test" };
+  for (const event_date of ["2026-09", "2026-09-31", "2026-13-01"]) assert.equal(normalizeRow({ ...record, event_date }, index, aliases, new Set(["Demo"]), "2026-07-01", "2026-10-07"), null);
+  assert.equal(normalizeRow({ ...record, event_date: "2026-09-22" }, index, aliases, new Set(["Demo"]), "2026-07-01", "2026-10-07").event_date, "2026-09-22");
+});
 
 test("checkpoint resume rejects stale, partial or differently scoped collection", () => {
   const now = new Date("2026-10-08T08:00:00Z"), range = { start: "2026-06-26", end: "2026-10-07" };

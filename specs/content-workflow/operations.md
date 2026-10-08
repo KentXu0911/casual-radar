@@ -21,6 +21,8 @@ DataBrain 请求显式传递本次 `date_time`。HTTP 失败、日期拒绝、�
 
 若同日指标已成功、后续阶段失败，可以保留完整原始 outputs，再以 `--metrics-checkpoint=/absolute/path/outputs` 重跑周更。检查点必须是当天、相同104天请求区间、相同产品清单、全部批次完整且响应 session 与 manifest 一致。它恢复本次已完成采集；`--reuse-metrics` 沿用旧数据，仍不能通过周更指标完成门槛。
 
+事件解析修复后，可加 `--events-checkpoint=/absolute/path/.automation/databrain-events` 从当天原始响应重建。只复用查询文本完全一致且含可解析记录的成功响应；缺失、拒绝、空表或失败的批次仍须真实请求。流式正文必须原样拼接，逐片段 trim 会破坏表格换行。事件日期必须完整到日且为有效日历日期，不能把仅有月份的日期补成1日。
+
 ## 影像核查
 
 编辑后执行 `npm run content:queue -- --cadence=weekly`（或对应 cadence）。读取 `reports/media-search-queue.json`。新/变化首曝、测试节点是必做任务；历史缺口单列，不会被迁移过程虚报完成。按名称、别名、旧代号检索官方、Bilibili、YouTube；打开结果核验产品与轮次。使用节点 milestone_id 和当前 fingerprint 导入：

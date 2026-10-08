@@ -64,6 +64,7 @@ function main() {
   const dryRun = process.argv.includes("--dry-run");
   const reuseMetrics = process.argv.includes("--reuse-metrics");
   const metricCheckpoint = arg("--metrics-checkpoint");
+  const eventCheckpoint = arg("--events-checkpoint");
   const skipTests = process.argv.includes("--skip-tests");
   const youyansuoInput = arg("--youyansuo-input", "");
   const before = snapshotSummary(publicRoot);
@@ -149,6 +150,7 @@ function main() {
       `--start=${eventStart || fetchRange.start}`,
       `--end=${fetchRange.end}`,
       "--batch-size=6",
+      ...(eventCheckpoint ? [`--responses-input=${path.resolve(eventCheckpoint)}`] : []),
     ]);
     run("按产品别名归并 GRP 测试报告", process.execPath, ["scripts/sync-grp-reports.mjs"]);
     run("生成本期异动归因", process.execPath, ["--experimental-strip-types", "scripts/build-anomaly-attributions.mjs"]);
