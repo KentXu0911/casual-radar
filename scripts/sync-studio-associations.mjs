@@ -7,8 +7,9 @@ const publicRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), ".
 const read = (file) => JSON.parse(fs.readFileSync(path.join(publicRoot, file), "utf8"));
 const dashboard = read("dashboard_data.json");
 const games = read("games.json");
+const before = JSON.stringify([dashboard, games]);
 const updates = synchronizeDiscoveredStudioProducts(dashboard, games);
-if (updates.length) {
+if (before !== JSON.stringify([dashboard, games])) {
   for (const [file, value] of [["dashboard_data.json", dashboard], ["games.json", games]]) {
     fs.writeFileSync(path.join(publicRoot, file), `${JSON.stringify(value, null, 2)}\n`);
   }

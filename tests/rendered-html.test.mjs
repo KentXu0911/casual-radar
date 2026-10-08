@@ -686,14 +686,14 @@ test("separates released products, active research, and demo validation across t
   const trackedNames = new Set(dashboard.pipelineGroups.flatMap((group) => group.projects));
   const releasedNames = ["Fields of Mistria", "Paralives", "Starsand Island", "BigWalk", "Aniimo", "王者万象棋", "塔塔冒险队", "小冰冰斗蛐蛐"];
 
-  assert.equal(researchGroups.length, 8);
+  assert.equal(researchGroups.length, 7);
   assert.equal(new Set(researchNames).size, researchNames.length);
   assert.equal(dashboard.pipelineMeta.project_count, researchNames.length);
   assert.equal(dashboard.pipelineMeta.group_count, researchGroups.length);
   assert.ok(researchNames.every((name) => games.games.find((game) => game.name === name)?.lifecycle?.pipeline !== false));
   assert.ok(["Project63", "Dear Passengers"].every((name) => researchNames.includes(name)));
   assert.deepEqual(validationGroup?.projects, ["裂隙远征"]);
-  assert.deepEqual(dashboard.pipelineGroups.find((group) => group.name === "其他厂商在研新品")?.projects, ["Witchbrook", "Spirit Crossing"]);
+  assert.deepEqual(dashboard.pipelineGroups.find((group) => group.name === "其他厂商在研新品")?.projects, ["Witchbrook", "Spirit Crossing", "火人冲冲冲", "未眠野", "时之铃", "蓝色星原：旅谣", "Project63", "Dear Passengers"]);
   assert.deepEqual(dashboard.pipelineGroups.find((group) => group.name === "Pathea Games")?.projects, ["My Time at Evershine"]);
   assert.deepEqual(dashboard.pipelineGroups.find((group) => group.name === "字节（朝夕光年）")?.projects, ["集合！浆果镇", "代号：Team2"]);
   assert.ok(releasedNames.every((name) => !trackedNames.has(name)));

@@ -1,9 +1,19 @@
 const DISCOVERY_GROUP = "游研所新增在研新品";
+const OTHER_GROUP = "其他厂商在研新品";
 const productName = (value) => value.replace(/（[^）]*）\s*$/, "").trim();
 
 /** Move already admitted, sourced projects from the discovery bucket to their known company. */
 export function synchronizeDiscoveredStudioProducts(dashboard, gamesDocument) {
-  const discovery = dashboard.pipelineGroups.find((group) => group.name === DISCOVERY_GROUP);
+  const legacy = dashboard.pipelineGroups.find((group) => group.name === DISCOVERY_GROUP);
+  let discovery = dashboard.pipelineGroups.find((group) => group.name === OTHER_GROUP);
+  if (legacy) {
+    if (!discovery) {
+      discovery = { ...legacy, name: OTHER_GROUP, projects: [] };
+      dashboard.pipelineGroups.push(discovery);
+    }
+    discovery.projects = [...new Set([...discovery.projects, ...legacy.projects])];
+    dashboard.pipelineGroups = dashboard.pipelineGroups.filter((group) => group.name !== DISCOVERY_GROUP);
+  }
   if (!discovery) return [];
   const products = new Map(gamesDocument.games.map((game) => [game.name, game]));
   const updates = [];
@@ -31,6 +41,11 @@ export function synchronizeDiscoveredStudioProducts(dashboard, gamesDocument) {
       if (!cachedStudio.known_pipeline.some((entry) => productName(entry) === name)) cachedStudio.known_pipeline.push(name);
     }
     updates.push({ product: name, studio: studio.name });
+  }
+  if (dashboard.pipelineMeta) {
+    const researchGroups = dashboard.pipelineGroups.filter((group) => group.name !== "试玩验证样本");
+    dashboard.pipelineMeta.group_count = researchGroups.length;
+    dashboard.pipelineMeta.project_count = researchGroups.flatMap((group) => group.projects).length;
   }
   return updates;
 }

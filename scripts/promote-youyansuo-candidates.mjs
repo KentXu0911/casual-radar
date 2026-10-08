@@ -13,10 +13,10 @@ const discovery = read("youyansuo_discovery.json");
 const candidateRows = discovery.candidates.filter((row) => row.scope_status !== "out_of_scope" && !discoveryExclusionReason(row.name));
 
 const categoryMap = {
-  "模拟经营": { label: "模拟经营类", track: "休闲互动", group: "游研所新增在研新品" },
-  "自走棋": { label: "自走棋", track: "策略互动", group: "游研所新增在研新品" },
-  "捉宠": { label: "捉宠类", track: "休闲互动", group: "游研所新增在研新品" },
-  "多人合作": { label: "社交-多人合作类", track: "休闲互动", group: "游研所新增在研新品" },
+  "模拟经营": { label: "模拟经营类", track: "休闲互动", group: "其他厂商在研新品" },
+  "自走棋": { label: "自走棋", track: "策略互动", group: "其他厂商在研新品" },
+  "捉宠": { label: "捉宠类", track: "休闲互动", group: "其他厂商在研新品" },
+  "多人合作": { label: "社交-多人合作类", track: "休闲互动", group: "其他厂商在研新品" },
 };
 const overrides = {
   "奇遇动物城": { publisher: "莉莉丝游戏", developer: "猫爪拿铁工作室", platforms: ["移动端", "PC"], stage: "首支PV与实机公开 · 预约中", pipeline: true, summary: "生活模拟新游，公开动物都市、家园建造、多职业和多人联机设计。" },
@@ -39,7 +39,7 @@ const icons = {
 
 function categoryFor(row) {
   const category = Array.isArray(row.category) ? row.category.find((value) => categoryMap[value]) : row.category;
-  return categoryMap[category] || { label: "其他类", track: "新品发现", group: "游研所新增在研新品" };
+  return categoryMap[category] || { label: "其他类", track: "新品发现", group: "其他厂商在研新品" };
 }
 
 function sourceList(row, research) {

@@ -19,7 +19,7 @@ test("admitted, sourced company affiliations update both studio lists and remove
   assert.deepEqual(synchronizeDiscoveredStudioProducts(dashboard, games), [{ product: "新项目", studio: "莉莉丝" }]);
   assert.deepEqual(dashboard.domesticStudios[0].known_pipeline, ["新项目"]);
   assert.deepEqual(dashboard.pipelineGroups.find((group) => group.name === "莉莉丝").projects, ["新项目"]);
-  assert.deepEqual(dashboard.pipelineGroups[0].projects, []);
+  assert.deepEqual(dashboard.pipelineGroups.find((group) => group.name === "其他厂商在研新品").projects, []);
   assert.deepEqual(games.meta.studio_tracking.domestic_majors.studios[0].known_pipeline, ["新项目"]);
   assert.deepEqual(synchronizeDiscoveredStudioProducts(dashboard, games), []);
   assert.deepEqual(dashboard.domesticStudios[0].known_pipeline, ["新项目"]);
@@ -38,9 +38,26 @@ test("unknown, unsourced, ambiguous and unadmitted projects never acquire a gues
     const data = fixture();
     mutate(data);
     assert.deepEqual(synchronizeDiscoveredStudioProducts(data.dashboard, data.games), []);
-    assert.deepEqual(data.dashboard.pipelineGroups[0].projects, ["新项目"]);
+    assert.deepEqual(data.dashboard.pipelineGroups.find((group) => group.name === "其他厂商在研新品").projects, ["新项目"]);
     assert.deepEqual(data.dashboard.domesticStudios[0].known_pipeline, []);
   }
+});
+
+test("legacy discovery groups merge without duplicate projects or altered product details", () => {
+  const { dashboard, games } = fixture();
+  dashboard.domesticStudios = [];
+  dashboard.pipelineGroups.unshift({ name: "其他厂商在研新品", projects: ["原项目", "新项目"] });
+  dashboard.pipelineGroups.push({ name: "试玩验证样本", projects: ["试玩"] });
+  dashboard.pipelineMeta = {};
+  const details = structuredClone(dashboard.pipelineDetails);
+  synchronizeDiscoveredStudioProducts(dashboard, games);
+  assert.deepEqual(dashboard.pipelineGroups.map((group) => group.name), ["其他厂商在研新品", "试玩验证样本"]);
+  assert.deepEqual(dashboard.pipelineGroups[0].projects, ["原项目", "新项目"]);
+  assert.deepEqual(dashboard.pipelineDetails, details);
+  assert.deepEqual(dashboard.pipelineMeta, { group_count: 1, project_count: 2 });
+  const first = structuredClone(dashboard);
+  synchronizeDiscoveredStudioProducts(dashboard, games);
+  assert.deepEqual(dashboard, first);
 });
 
 test("Lilith's animal city is linked to its real company with its sourced team intact", () => {
@@ -48,7 +65,8 @@ test("Lilith's animal city is linked to its real company with its sourced team i
   const studio = dashboard.domesticStudios.find((entry) => entry.name === "莉莉丝");
   assert.equal(studio.known_pipeline.filter((entry) => entry === "奇遇动物城").length, 1);
   assert.ok(dashboard.pipelineGroups.find((group) => group.name === "莉莉丝").projects.includes("奇遇动物城"));
-  assert.ok(!dashboard.pipelineGroups.find((group) => group.name === "游研所新增在研新品").projects.includes("奇遇动物城"));
+  assert.ok(!dashboard.pipelineGroups.some((group) => group.name === "游研所新增在研新品"));
+  assert.ok(!dashboard.pipelineGroups.find((group) => group.name === "其他厂商在研新品").projects.includes("奇遇动物城"));
   const detail = dashboard.pipelineDetails.奇遇动物城;
   assert.equal(detail.team.studio, "猫爪拿铁工作室");
   assert.equal(detail.team.company, "莉莉丝游戏");

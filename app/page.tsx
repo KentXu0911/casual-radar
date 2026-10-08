@@ -283,7 +283,7 @@ type RecentLaunchEntry = {
 };
 // Keep the preview from reusing a stale JSON response after an icon refresh.
 // Bump this value whenever the static data bundle is regenerated.
-const DATA_VERSION = "20261008-studio-associations-1";
+const DATA_VERSION = "20261008-pipeline-groups-1";
 
 const PIPELINE_STATUS_PATTERN = /在研|研发|测试|首测|二测|内测|删档|不删档|冒泡|预约|未上线|Early Access|\bEA\b|试玩|上线前|上线验证|公测预约/u;
 const PIPELINE_VALIDATION_GROUP = "试玩验证样本";

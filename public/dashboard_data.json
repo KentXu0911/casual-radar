@@ -12353,7 +12353,13 @@
       "track_focus": "尚未正式上线的研发、测试与发售准备项目",
       "projects": [
         "Witchbrook",
-        "Spirit Crossing"
+        "Spirit Crossing",
+        "火人冲冲冲",
+        "未眠野",
+        "时之铃",
+        "蓝色星原：旅谣",
+        "Project63",
+        "Dear Passengers"
       ]
     },
     {
@@ -12377,23 +12383,11 @@
       "projects": [
         "My Time at Evershine"
       ]
-    },
-    {
-      "name": "游研所新增在研新品",
-      "track_focus": "游研所确认的重点品类新品，待官方测试和上线证据补齐",
-      "projects": [
-        "火人冲冲冲",
-        "未眠野",
-        "时之铃",
-        "蓝色星原：旅谣",
-        "Project63",
-        "Dear Passengers"
-      ]
     }
   ],
   "pipelineMeta": {
     "project_count": 23,
-    "group_count": 8,
+    "group_count": 7,
     "restored_from": "休闲互动类游戏_看板_v6",
     "research_updated_at": "2026-08-25",
     "structured_assessment_count": 32,
