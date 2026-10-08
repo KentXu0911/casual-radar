@@ -37,7 +37,7 @@ type DevelopmentProfile = {
   coverage_level?: "深度档案" | "基础归属" | "待核验";
   sources?: DevelopmentProfileSource[];
 };
-type Game = Record<string, any> & { name: string; category?: string; pool?: string; development_profile?: DevelopmentProfile };
+type Game = Record<string, any> & { name: string; category?: string; pool?: string; development_profile?: DevelopmentProfile; pipeline_team?: PipelineTeamProfile };
 type PipelineGroup = { name: string; track_focus?: string; projects: string[] };
 type StudioRecord = {
   name: string;
@@ -283,7 +283,7 @@ type RecentLaunchEntry = {
 };
 // Keep the preview from reusing a stale JSON response after an icon refresh.
 // Bump this value whenever the static data bundle is regenerated.
-const DATA_VERSION = "20261008-youyansuo-editorial-3";
+const DATA_VERSION = "20261008-studio-associations-1";
 
 const PIPELINE_STATUS_PATTERN = /在研|研发|测试|首测|二测|内测|删档|不删档|冒泡|预约|未上线|Early Access|\bEA\b|试玩|上线前|上线验证|公测预约/u;
 const PIPELINE_VALIDATION_GROUP = "试玩验证样本";
@@ -1328,8 +1328,8 @@ function StudioFocusTeamMap({ studio, pipelineGameMap, onOpenPipeline, onOpenGam
 }) {
   const pipelineRows = (studio.known_pipeline || []).map((entry) => {
     const project = studioPipelineName(entry);
-    const profile = PIPELINE_TEAM_PROFILES[project];
     const game = pipelineGameMap.get(project);
+    const profile = PIPELINE_TEAM_PROFILES[project] || game?.pipeline_team;
     const previous = (profile?.previous || []).filter((name) => !isUndisclosedTeamValue(name));
     const leaders = (profile?.keyMembers || []).filter((leader) => !isUndisclosedTeamValue(leader.name));
     const sources = profile?.sources?.length ? profile.sources : profile?.sourceUrl ? [{ label: profile.sourceLabel || "公开信源", scope: "团队信息", url: profile.sourceUrl }] : [];
@@ -2675,6 +2675,7 @@ export default function Home() {
       name,
       category: knownGame?.category || detail.category || pipelineCategoryFor(name),
       developer: knownGame?.developer || detail.developer,
+      pipeline_team: detail.team,
       icon_path: knownGame?.icon_path || data.pipelineIcons[name]?.path,
     });
   });

@@ -3,6 +3,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { productResearch } from "./youyansuo-product-research.mjs";
 import { discoveryExclusionReason } from "./normalize-youyansuo-discovery.mjs";
+import { synchronizeDiscoveredStudioProducts } from "./studio-association-lib.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const publicRoot = path.join(root, "public");
@@ -206,6 +207,7 @@ for (const product of products) {
   }
 }
 
+synchronizeDiscoveredStudioProducts(dashboard, gamesDocument);
 gamesDocument.meta = { ...gamesDocument.meta, total_games: gamesDocument.games.length, youyansuo_promoted: products.map((product) => product.name) };
 dashboard.pipelineMeta = { ...(dashboard.pipelineMeta || {}), project_count: dashboard.pipelineGroups.filter((group) => group.name !== "试玩验证样本").flatMap((group) => group.projects).length, structured_assessment_count: Object.keys(dashboard.pipelineDetails).length };
 write("games.json", gamesDocument);

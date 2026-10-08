@@ -165,3 +165,5 @@ npm run build
 
 - [vinext Documentation](https://github.com/cloudflare/vinext)
 - [Drizzle D1 Guide](https://orm.drizzle.team/docs/get-started/d1-new)
+
+厂商关联：已入池新品导入和周更会将有明确公司归属及信源的项目同步到厂商名单和在研分组。公司别名使用 `domesticStudios[].company_aliases` 精确匹配；未知、歧义或仅有发行关系的条目保留待核验。厂商研发团队地图复用产品详情的 `team` 数据。

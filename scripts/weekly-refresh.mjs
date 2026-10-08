@@ -128,6 +128,7 @@ function main() {
       run("规范化游研所产品情报", process.execPath, ["scripts/normalize-youyansuo-discovery.mjs", `--input=${path.resolve(youyansuoInput)}`]);
     }
 
+    run("同步已核验新品的厂商归属", process.execPath, ["scripts/sync-studio-associations.mjs"]);
     const after = snapshotSummary(publicRoot);
     const errors = validateRefresh(before, after, { ...fetchRange, windowDays });
     if (errors.length) throw new Error(`安全校验未通过：${errors.join("；")}`);
