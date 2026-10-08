@@ -1033,7 +1033,7 @@ test("keeps one chronological evidence timeline and skips unverified gaps", asyn
     const records = [...(item.testing?.records || []), ...(item.media_reports || [])];
     assert.ok(dates.every((date) => records.some((record) => record.date === date)), `${name} should retain every verified major milestone`);
   }
-  assert.match(page, /const DATA_VERSION = "\d{8}-[^"]+"/);
+  assert.match(page, /const DATA_VERSION = releaseManifest\.version/);
   assert.match(dashboard.pipelineDetails["王者万象棋"].testing.status, /已上线.*全平台正式公测/);
   assert.equal(dashboard.pipelineDetails["王者万象棋"].testing.records.find((record) => record.date === "2024-04-01")?.display_date, "2024.04–2025.07");
   assert.equal(dashboard.pipelineDetails["王者万象棋"].testing.records.find((record) => record.date === "2026-07-28")?.lifecycle_phase, "experience");

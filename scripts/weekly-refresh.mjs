@@ -32,11 +32,19 @@ function arg(name, fallback = "") {
   return index >= 0 ? process.argv[index + 1] || fallback : fallback;
 }
 
+let activeSource = "preflight";
+const sourceModules = {};
 function run(label, command, args) {
+  const names = /DataBrain|指标|快照/.test(label) ? ["metrics"] : /Steam/.test(label) ? ["steam"] : /事件与研究/.test(label) ? ["events", "research"] : /GRP/.test(label) ? ["grp"] : /异动/.test(label) ? ["attributions"] : /游研所/.test(label) ? ["intelligence"] : [];
+  if (names.length) activeSource = names[0];
+  for (const name of names) sourceModules[name] = { required: true, status: "running" };
   process.stdout.write(`\n[weekly-refresh] ${label}\n`);
   const result = spawnSync(command, args, { cwd: siteRoot, env: process.env, stdio: "inherit" });
-  if (result.error) throw result.error;
-  if (result.status !== 0) throw new Error(`${label}失败（退出码 ${result.status ?? "unknown"}）`);
+  if (result.error || result.status !== 0) {
+    for (const name of names) sourceModules[name] = { required: true, status: "failed", error: `${label}失败` };
+    throw result.error || new Error(`${label}失败（退出码 ${result.status ?? "unknown"}）`);
+  }
+  for (const name of names) sourceModules[name] = { required: true, status: "passed" };
 }
 
 function writeReport(report) {
@@ -77,6 +85,7 @@ function main() {
     return;
   }
 
+  writeReport({ ...baseReport, status: "running", modules: { source: { required: true, status: "running" } } });
   assertCleanWorktree(siteRoot);
 
   if (!String(process.env.DATABRAIN_TOKEN || "").trim()) {
@@ -89,7 +98,9 @@ function main() {
   const backupDirectory = path.join(stageRoot, "backup");
   const present = backupFiles(publicRoot, protectedFiles, backupDirectory);
   let steamProducts = { status: "not_run" };
+  let began = false;
   try {
+    run("保存整批内容基线", process.execPath, ["scripts/content-workflow.mjs", "begin", "--cadence=weekly"]); began = true;
     if (!reuseMetrics) {
       run("刷新 DataBrain 指标", process.execPath, [
         "scripts/fetch-databrain-trends.mjs",
@@ -133,12 +144,23 @@ function main() {
     const after = snapshotSummary(publicRoot);
     const errors = validateRefresh(before, after, { ...fetchRange, windowDays });
     if (errors.length) throw new Error(`安全校验未通过：${errors.join("；")}`);
+    run("生成首曝与测试影像核查队列", process.execPath, ["scripts/content-workflow.mjs", "queue", "--cadence=weekly"]);
     if (!skipTests) run("运行构建与测试", "npm", ["test"]);
     commitStagedArtifacts(stageRoot, path.join(workspaceRoot, "outputs"), path.join(workspaceRoot, "bi_data"));
 
     writeReport({
       ...baseReport,
-      status: "complete",
+      status: "ready_for_review",
+      modules: {
+        ...sourceModules,
+        metrics: { required: true, status: reuseMetrics ? "retained" : "passed", checked_at: fetchRange.end },
+        steam: { required: true, status: steamProducts.status === "complete" ? "passed" : "blocked", error: steamProducts.error },
+        intelligence: { required: true, status: youyansuoInput ? "passed" : "blocked", reason: youyansuoInput ? undefined : "Authenticated discovery input missing" },
+        events: { required: true, status: "passed" },
+        research: { required: true, status: "passed" },
+        editorial: { required: true, status: "not_run" },
+        build: { required: true, status: skipTests ? "not_run" : "passed" },
+      },
       completed_at: new Date().toISOString(),
       after,
       changes: {
@@ -162,9 +184,10 @@ function main() {
     });
     process.stdout.write(`\n[weekly-refresh] 完成。内部审阅报告：${reportPath}\n`);
   } catch (error) {
+    if (began) run("回滚整批公开内容", process.execPath, ["scripts/content-workflow.mjs", "abort", "--cadence=weekly"]);
     restoreFiles(publicRoot, protectedFiles, backupDirectory, present);
     const message = error instanceof Error ? error.message : String(error);
-    writeReport({ ...baseReport, status: "failed", completed_at: new Date().toISOString(), error: message, rollback: "completed", youyansuo: { ...baseReport.youyansuo, status: "failed", error: message } });
+    writeReport({ ...baseReport, status: "failed", modules: { ...sourceModules, [activeSource]: { required: true, status: "failed", error: message } }, failed_module: activeSource, completed_at: new Date().toISOString(), error: message, rollback: "completed", youyansuo: { ...baseReport.youyansuo, status: activeSource === "intelligence" ? "failed" : baseReport.youyansuo.status, ...(activeSource === "intelligence" ? { error: message } : {}) } });
     throw error;
   } finally {
     releaseLock();
@@ -175,6 +198,8 @@ function main() {
 try {
   main();
 } catch (error) {
+  const report = fs.existsSync(reportPath) ? JSON.parse(fs.readFileSync(reportPath)) : {};
+  writeReport({ ...report, cadence: "weekly", status: "failed", completed_at: new Date().toISOString(), error: String(error.message || error), modules: { ...report.modules, [activeSource]: { required: true, status: "failed", error: String(error.message || error) } }, failed_module: activeSource });
   console.error(error instanceof Error ? error.message : error);
   process.exitCode = 1;
 }

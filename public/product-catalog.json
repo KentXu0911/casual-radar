@@ -1,0 +1,1920 @@
+{
+  "schema_version": 1,
+  "products": [
+    {
+      "product_id": "product-01bc07cf437554bd",
+      "name": "mo.co",
+      "aliases": [],
+      "category": "社交-多人合作类",
+      "developer": "Supercell",
+      "publisher": "Supercell",
+      "platforms": [
+        "iOS",
+        "Android"
+      ],
+      "source_urls": [
+        "https://moco.supercell.com/",
+        "https://databrain.woa.com/v2/agent/chat?sessionId=skill_09f511f526504d2e"
+      ]
+    },
+    {
+      "product_id": "product-01c5121cec79728e",
+      "name": "王者万象棋",
+      "aliases": [],
+      "category": "自走棋",
+      "developer": "腾讯天美工作室群",
+      "publisher": "腾讯游戏",
+      "platforms": [
+        "iOS",
+        "Android",
+        "PC",
+        "鸿蒙"
+      ],
+      "source_urls": [
+        "https://news.17173.com/content/08082026/114432065.shtml",
+        "https://www.sohu.com/a/1060258854_121814834",
+        "https://camp.qq.com/h5/webdist/info-detail.html?iInfoId=18930020",
+        "https://so.html5.qq.com/page/real/search_news?docid=70000021_2306a77180896065",
+        "https://www.taptap.cn/app/243110"
+      ]
+    },
+    {
+      "product_id": "product-0c254cfda80719d4",
+      "name": "迪士尼梦幻星谷",
+      "aliases": [],
+      "category": "模拟经营类",
+      "developer": "Gameloft",
+      "publisher": "Gameloft",
+      "platforms": [
+        "PC",
+        "Nintendo Switch",
+        "PS5",
+        "PS4",
+        "Xbox Series",
+        "Xbox One",
+        "iOS"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-0ce6c8e475085c4b",
+      "name": "代号：Team2",
+      "aliases": [
+        "Team2",
+        "Squad Clash",
+        "Smash Realm"
+      ],
+      "category": "轻度MOBA",
+      "developer": "字节跳动·朝夕光年",
+      "publisher": "字节跳动",
+      "platforms": [
+        "移动端"
+      ],
+      "source_urls": [
+        "https://grp.woa.com/report.html?id=145"
+      ]
+    },
+    {
+      "product_id": "product-0dfdd424166a6c2f",
+      "name": "PlateUp!",
+      "aliases": [],
+      "category": "社交-多人合作类",
+      "developer": "It's Happening",
+      "publisher": "Yogscast Games",
+      "platforms": [
+        "PC/主机"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-11541b99e0cc6732",
+      "name": "BanG Dream! Our Notes",
+      "aliases": [
+        "Our Notes"
+      ],
+      "category": "社交-多人合作类",
+      "developer": "未公开",
+      "publisher": "BILIBILI HK LIMITED（App Store 所列发行主体）",
+      "platforms": [
+        "iOS"
+      ],
+      "source_urls": [
+        "https://apps.apple.com/us/app/bang-dream-our-notes/id6757695187",
+        "http://mp.weixin.qq.com/s?__biz=MjM5NTIzNjA2MA==&mid=2651811171&idx=1&sn=ee2162343fda0fb87cd0317ce5b04cb2&chksm=bc3a1c8c0cbf7f322b2c96b0101194c6ce41c55edf48a1cccd7ee865eec44e690aad3716513e&scene=126&sessionid=0#rd",
+        "https://ai.xianjianwendao.com/kb/mcp/mcp"
+      ]
+    },
+    {
+      "product_id": "product-142f1aa8722ba823",
+      "name": "潜水员戴夫",
+      "aliases": [],
+      "category": "模拟经营类",
+      "developer": "MINTROCKET",
+      "publisher": "Nexon",
+      "platforms": [
+        "PC/主机"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-17dab7439f9906ef",
+      "name": "时之铃",
+      "aliases": [],
+      "category": "自走棋",
+      "developer": "北京水泠喵网络科技有限公司",
+      "publisher": "北京水泠喵网络科技有限公司",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "source_urls": [
+        "https://www.taptap.cn/app/481530",
+        "http://mp.weixin.qq.com/s?__biz=MjM5NTIzNjA2MA==&mid=2651810989&idx=1&sn=003466cfc0a073a972ebc7a0216e99f1&chksm=bc22b90eae782688fec25efaf020c6c0beb017b843b90b2e224e5ab0c40b30db2c11fce0e077&scene=126&sessionid=0#rd",
+        "https://ai.xianjianwendao.com/kb/mcp/mcp"
+      ]
+    },
+    {
+      "product_id": "product-187608ffa5b370a8",
+      "name": "Jackbox派对包",
+      "aliases": [],
+      "category": "派对闯关",
+      "developer": "Jackbox Games",
+      "publisher": "Jackbox Games",
+      "platforms": [
+        "PC/主机/移动"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-1c24e66a4b410a5d",
+      "name": "Faaast Penguin",
+      "aliases": [],
+      "category": "派对闯关",
+      "developer": "historia Inc.",
+      "publisher": "historia Inc.",
+      "platforms": [
+        "PC/主机"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-1f89af228e22a3b0",
+      "name": "云顶之弈",
+      "aliases": [],
+      "category": "自走棋",
+      "developer": "Riot Games",
+      "publisher": "Riot Games",
+      "platforms": [
+        "移动/PC"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-237ee9077d667be7",
+      "name": "致命公司",
+      "aliases": [],
+      "category": "社交-多人合作类",
+      "developer": "Zeekerss",
+      "publisher": "Zeekerss",
+      "platforms": [
+        "PC"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-262e6d44b507fee9",
+      "name": "Rush Royale",
+      "aliases": [],
+      "category": "策略塔防/卡牌对战",
+      "developer": "IT Territory",
+      "publisher": "MY.GAMES",
+      "platforms": [
+        "移动"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-26e9ed20a73683b9",
+      "name": "Dale & Dawson Stationery Supplies",
+      "aliases": [],
+      "category": "社交-狼人杀类",
+      "developer": "Striped Panda Studios",
+      "publisher": "Ninja Theory",
+      "platforms": [
+        "PC"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-27f4d32b71738db4",
+      "name": "史莱姆牧场",
+      "aliases": [],
+      "category": "模拟经营类",
+      "developer": "Monomi Park",
+      "publisher": "Monomi Park",
+      "platforms": [
+        "PC/主机/移动"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-2913ea073fb22586",
+      "name": "The Bazaar",
+      "aliases": [],
+      "category": "自走棋",
+      "developer": "Tempo",
+      "publisher": "Tempo",
+      "platforms": [
+        "PC"
+      ],
+      "source_urls": [
+        "https://store.steampowered.com/app/1617400/",
+        "https://databrain.woa.com/v2/agent/chat?sessionId=skill_09f511f526504d2e"
+      ]
+    },
+    {
+      "product_id": "product-2b615cb5aa09428a",
+      "name": "Go-Go Town!",
+      "aliases": [],
+      "category": "模拟经营类",
+      "developer": "Prideful Sloth",
+      "publisher": "Prideful Sloth",
+      "platforms": [
+        "PC",
+        "Nintendo Switch"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-2d53794acd59a5a1",
+      "name": "King of the Castle",
+      "aliases": [],
+      "category": "其他类",
+      "developer": "Tributary Games",
+      "publisher": "Team17",
+      "platforms": [
+        "PC"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-304cb69abfd8d464",
+      "name": "BigWalk",
+      "aliases": [],
+      "category": "社交-多人合作类",
+      "developer": "House House",
+      "publisher": "Panic",
+      "platforms": [
+        "PC/Steam"
+      ],
+      "source_urls": [
+        "https://ai.xianjianwendao.com/kb/item/27319"
+      ]
+    },
+    {
+      "product_id": "product-31a76ef5f8f421ea",
+      "name": "I Am Sword",
+      "aliases": [],
+      "category": "社交-多人合作类",
+      "developer": "Happy Lamb Pat",
+      "publisher": "Happy Lamb Pat",
+      "platforms": [
+        "移动"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-31af5aa9e2107a1f",
+      "name": "Deceit 2",
+      "aliases": [],
+      "category": "社交-狼人杀类",
+      "developer": "World Makers",
+      "publisher": "World Makers",
+      "platforms": [
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
+      "source_urls": [
+        "https://store.steampowered.com/app/2064870/",
+        "https://databrain.woa.com/v2/agent/chat?sessionId=skill_09f511f526504d2e"
+      ]
+    },
+    {
+      "product_id": "product-327bdec86b360409",
+      "name": "沙石镇时光",
+      "aliases": [],
+      "category": "模拟经营类",
+      "developer": "Pathea Games",
+      "publisher": "Pathea Games",
+      "platforms": [
+        "PC/主机"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-32f577505c8cc949",
+      "name": "Lucky Defense",
+      "aliases": [],
+      "category": "策略塔防/卡牌对战",
+      "developer": "111%",
+      "publisher": "111%",
+      "platforms": [
+        "移动"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-37c68c10c5631c8d",
+      "name": "糖豆人",
+      "aliases": [],
+      "category": "派对闯关",
+      "developer": "Mediatonic",
+      "publisher": "Epic Games",
+      "platforms": [
+        "PC/主机/移动"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-3c74e3caf77f3a5c",
+      "name": "皇室战争",
+      "aliases": [],
+      "category": "策略塔防/卡牌对战",
+      "developer": "Supercell",
+      "publisher": "Supercell",
+      "platforms": [
+        "移动"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-3e454ed8cf733cb6",
+      "name": "Among Us",
+      "aliases": [
+        "Among Us!"
+      ],
+      "category": "社交-狼人杀类",
+      "developer": "InnerSloth",
+      "publisher": "InnerSloth",
+      "platforms": [
+        "移动/PC/主机"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-42c79fb3194f1dea",
+      "name": "逃跑吧！少年",
+      "aliases": [],
+      "category": "非对称竞技",
+      "developer": "深圳市抱一网络科技有限公司",
+      "publisher": "深圳市抱一网络科技有限公司",
+      "platforms": [
+        "移动/PC"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-430468b3d1844ff7",
+      "name": "Aniimo",
+      "aliases": [
+        "伊莫"
+      ],
+      "category": "捉宠类",
+      "developer": "Pawprint Studio",
+      "publisher": "Kingsglory Games",
+      "platforms": [
+        "PC",
+        "PlayStation 5",
+        "Xbox Series",
+        "iOS",
+        "Android"
+      ],
+      "source_urls": [
+        "https://www.aniimo.com/main",
+        "https://databrain.woa.com/v2/agent/chat?sessionId=skill_06ded6fb7a144f11",
+        "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_e0ed5123450647168bafe053a295f891",
+        "https://grp.woa.com/report.html?id=153",
+        "https://www.aniimo.com/newslist/detail/100147"
+      ]
+    },
+    {
+      "product_id": "product-43126cdce61aab41",
+      "name": "How to Fish",
+      "aliases": [],
+      "category": "社交-多人合作类",
+      "developer": "Dazed Games",
+      "publisher": "Dazed Games",
+      "platforms": [
+        "PC"
+      ],
+      "source_urls": [
+        "https://store.steampowered.com/app/4001890/How_to_Fish/",
+        "https://grp.woa.com/report.html?id=174",
+        "https://swedengamearena.com/en/news/dazed-games-secures-project-investment-and-sets-sights-2026-launch/"
+      ]
+    },
+    {
+      "product_id": "product-43cb96af11d50309",
+      "name": "Escape the Backrooms",
+      "aliases": [],
+      "category": "社交-多人合作类",
+      "developer": "Fancy Games",
+      "publisher": "Fancy Games",
+      "platforms": [
+        "PC"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-4894b9cd872ff5ae",
+      "name": "黎明杀机",
+      "aliases": [],
+      "category": "非对称竞技",
+      "developer": "Behaviour Interactive",
+      "publisher": "Behaviour Interactive",
+      "platforms": [
+        "PC/主机"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-48fcf51a51d159d8",
+      "name": "Mechabellum",
+      "aliases": [],
+      "category": "自走棋",
+      "developer": "Game River",
+      "publisher": "Dreamhaven",
+      "platforms": [
+        "PC"
+      ],
+      "source_urls": [
+        "https://store.steampowered.com/app/669330/",
+        "https://databrain.woa.com/v2/agent/chat?sessionId=skill_09f511f526504d2e"
+      ]
+    },
+    {
+      "product_id": "product-4afbf920c4493fa2",
+      "name": "集合！浆果镇",
+      "aliases": [],
+      "category": "模拟经营类",
+      "developer": "朝夕光年",
+      "publisher": "朝夕光年",
+      "platforms": [
+        "Android"
+      ],
+      "source_urls": [
+        "https://www.taptap.cn/moment/829083364769136788?group_id=1200532"
+      ]
+    },
+    {
+      "product_id": "product-4b68d0f1a8f41616",
+      "name": "炉石传说：酒馆战棋",
+      "aliases": [
+        "Hearthstone: Heroes of Warcraft",
+        "Hearthstone: Scholomance Academy"
+      ],
+      "category": "自走棋",
+      "developer": "Blizzard Entertainment",
+      "publisher": "Blizzard Entertainment",
+      "platforms": [
+        "移动/PC"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-4d9d65d3c27cd007",
+      "name": "漫威终极逆转",
+      "aliases": [
+        "MARVEL SNAP - Hero Card Game"
+      ],
+      "category": "策略塔防/卡牌对战",
+      "developer": "Second Dinner",
+      "publisher": "Nuverse/字节跳动",
+      "platforms": [
+        "移动/PC"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-50e0e4fef36a4d95",
+      "name": "PICO PARK 2",
+      "aliases": [],
+      "category": "派对闯关",
+      "developer": "TECOPARK / Gemdrops",
+      "publisher": "TECOPARK",
+      "platforms": [
+        "PC",
+        "Nintendo Switch",
+        "Xbox"
+      ],
+      "source_urls": [
+        "https://store.steampowered.com/app/2644470/",
+        "https://databrain.woa.com/v2/agent/chat?sessionId=skill_09f511f526504d2e"
+      ]
+    },
+    {
+      "product_id": "product-5195b26779783496",
+      "name": "Spirit Crossing",
+      "aliases": [],
+      "category": "模拟经营类",
+      "developer": "Spry Fox",
+      "publisher": "移动端发行调整中",
+      "platforms": [
+        "PC",
+        "iOS",
+        "Android"
+      ],
+      "source_urls": [
+        "https://monstervine.com/2025/12/spirit-crossing-cozy-mmo-pc-release-2026",
+        "https://www.whats-on-netflix.com/news/netflix-games/netflix-reveals-its-most-ambitious-game-project-to-date-spirit-crossing/"
+      ]
+    },
+    {
+      "product_id": "product-54ffb8e0ff438049",
+      "name": "塔塔冒险队",
+      "aliases": [],
+      "category": "捉宠类",
+      "developer": "莉莉丝",
+      "publisher": "莉莉丝",
+      "platforms": [
+        "移动/小游戏"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-5a04b291f0807280",
+      "name": "蓝色星原：旅谣",
+      "aliases": [],
+      "category": "捉宠类",
+      "developer": "积咪网络（蛮啾网络旗下）",
+      "publisher": "蛮奈网络",
+      "platforms": [
+        "Android",
+        "iOS",
+        "PC"
+      ],
+      "source_urls": [
+        "https://www.taptap.cn/app/593829",
+        "http://mp.weixin.qq.com/s?__biz=MjM5NzQwMjI4MA==&mid=2657336233&idx=1&sn=8645b6b07ba50633bdc5d756e5a56f29&chksm=bc92a1b6e53fb1791884254e7364400f7cc5fd9755e5cd7c2b3233f60fa5e160f5fafe2912b8&scene=126&sessionid=0#rd",
+        "http://mp.weixin.qq.com/s?__biz=Mzk0OTg3ODM3Ng==&mid=2247495113&idx=1&sn=566a60508c2139ed3a14b96b1fb3d399&chksm=c2d07ea961165b4b16a80877b664743ecedff1bfd9c9ee3295a375f7733912ef31ac6007ae9b&scene=126&sessionid=0#rd",
+        "http://mp.weixin.qq.com/s?__biz=MjM5OTc2ODUxMw==&mid=2650025416&idx=1&sn=94c165067bcb497256ed414d30c40f68&chksm=bea051290e07df2c326722efb8ec68487380d72b8ed145bb217360a716cd12731e6191110398&scene=126&sessionid=0#rd",
+        "http://mp.weixin.qq.com/s?__biz=MjM5Njc5MjgyMA==&mid=2989877035&idx=1&sn=b551c688ae0ed22a548f0d0fa555eb35&chksm=9044d2af3534aa921bfc9cadbdea894ecf036bfee358159f3e37d8d4f32f16088b6e87e7b77e&scene=126&sessionid=0#rd",
+        "https://ai.xianjianwendao.com/kb/mcp/mcp"
+      ]
+    },
+    {
+      "product_id": "product-5aa2e745bd1afe52",
+      "name": "诡影藏锋",
+      "aliases": [],
+      "category": "社交-多人合作类",
+      "developer": "",
+      "publisher": "",
+      "platforms": [
+        "PC/待核验"
+      ],
+      "source_urls": [
+        "https://ai.xianjianwendao.com/kb/item/27276"
+      ]
+    },
+    {
+      "product_id": "product-5e3495d849ee609e",
+      "name": "T3 Arena",
+      "aliases": [],
+      "category": "轻度MOBA",
+      "developer": "XD Entertainment",
+      "publisher": "XD Entertainment",
+      "platforms": [
+        "移动/PC"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-5e989a8c60aa4142",
+      "name": "Sun Haven",
+      "aliases": [],
+      "category": "模拟经营类",
+      "developer": "Pixel Sprout Studios",
+      "publisher": "Pixel Sprout Studios",
+      "platforms": [
+        "PC",
+        "Nintendo Switch"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-5ea88ad8a43a7a02",
+      "name": "宝可梦大集结",
+      "aliases": [],
+      "category": "轻度MOBA",
+      "developer": "TiMi Studio",
+      "publisher": "The Pokémon Company",
+      "platforms": [
+        "移动/主机"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-62a94f26fd25e1e8",
+      "name": "恐鬼症",
+      "aliases": [],
+      "category": "社交-多人合作类",
+      "developer": "Kinetic Games",
+      "publisher": "Kinetic Games",
+      "platforms": [
+        "PC/主机"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-662b4a87aacab6bc",
+      "name": "Luma Island",
+      "aliases": [],
+      "category": "模拟经营类",
+      "developer": "Feel Free Games",
+      "publisher": "Feel Free Games",
+      "platforms": [
+        "PC/主机"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-66ee43685a7f633b",
+      "name": "奇遇动物城",
+      "aliases": [],
+      "category": "模拟经营类",
+      "developer": "猫爪拿铁工作室",
+      "publisher": "莉莉丝游戏",
+      "platforms": [
+        "Android",
+        "iOS",
+        "PC"
+      ],
+      "source_urls": [
+        "https://www.taptap.cn/app/904033",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MDEwMTk2MA==&mid=2651304799&idx=1&sn=dbf25506b7046d7cfece7134b91dbf51&chksm=bcd1416eb7036e20682e9d7272f01cadd84148dfa5a44c52f907715091868aa7fcda24e2e662&scene=126&sessionid=0#rd",
+        "http://mp.weixin.qq.com/s?__biz=MjM5OTc2ODUxMw==&mid=2650025609&idx=1&sn=eba3ae2adb4d52ed92a21ce8fd967a38&chksm=be8a804bc1fada086ef19c45d3243a42c99931f8376469c8e2cc23c02fab0a4501e531d7faf7&scene=126&sessionid=0#rd",
+        "https://ai.xianjianwendao.com/kb/mcp/mcp"
+      ]
+    },
+    {
+      "product_id": "product-6985d553b710bc71",
+      "name": "SMASH LEGENDS",
+      "aliases": [],
+      "category": "轻度MOBA",
+      "developer": "5minlab",
+      "publisher": "5minlab",
+      "platforms": [
+        "移动/PC"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-6ba50ade90d4ffc1",
+      "name": "星绘友晴天",
+      "aliases": [],
+      "category": "模拟经营类",
+      "developer": "",
+      "publisher": "",
+      "platforms": [],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-6bef13d7cf18ec75",
+      "name": "珊瑚岛",
+      "aliases": [],
+      "category": "模拟经营类",
+      "developer": "Stairway Games",
+      "publisher": "Stairway Games",
+      "platforms": [
+        "PC/主机"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-6c34d424f11685fd",
+      "name": "死亡笔记：杀手同盟",
+      "aliases": [],
+      "category": "社交-狼人杀类",
+      "developer": "Grounding Inc. (Bandai Namco)",
+      "publisher": "Supercell",
+      "platforms": [
+        "PC/PS5"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-6d5baa1704e9896b",
+      "name": "超自然行动组",
+      "aliases": [],
+      "category": "社交-多人合作类",
+      "developer": "巨人网络",
+      "publisher": "巨人网络",
+      "platforms": [
+        "移动/PC"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-6f4e477e1799500b",
+      "name": "Witchbrook",
+      "aliases": [],
+      "category": "模拟经营类",
+      "developer": "Chucklefish",
+      "publisher": "Chucklefish",
+      "platforms": [
+        "PC",
+        "Nintendo Switch",
+        "Nintendo Switch 2",
+        "Xbox Series"
+      ],
+      "source_urls": [
+        "https://store.steampowered.com/app/1846700/Witchbrook/",
+        "https://www.pcgamer.com/witchbrook-release-date-gameplay-trailer-what-we-know/",
+        "http://www.witchbrook.com/"
+      ]
+    },
+    {
+      "product_id": "product-6f578b6a30cf2071",
+      "name": "七日世界",
+      "aliases": [],
+      "category": "社交-多人合作类",
+      "developer": "网易",
+      "publisher": "网易",
+      "platforms": [
+        "PC/移动"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-6f70b509e812bf10",
+      "name": "星布谷地",
+      "aliases": [],
+      "category": "模拟经营类",
+      "developer": "米哈游",
+      "publisher": "米哈游 (Cognosphere)",
+      "platforms": [
+        "PC",
+        "Nintendo Switch 2",
+        "iOS",
+        "Android"
+      ],
+      "source_urls": [
+        "https://www.taptap.cn/moment/850015424484475954"
+      ]
+    },
+    {
+      "product_id": "product-781faedee7fab010",
+      "name": "R.E.P.O.",
+      "aliases": [],
+      "category": "社交-多人合作类",
+      "developer": "semiwork",
+      "publisher": "semiwork",
+      "platforms": [
+        "PC"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-794f295e901e9be5",
+      "name": "蛋仔派对",
+      "aliases": [],
+      "category": "派对闯关",
+      "developer": "网易",
+      "publisher": "网易",
+      "platforms": [
+        "移动/主机"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-7ae92d2553fa64c6",
+      "name": "Cozy Grove",
+      "aliases": [],
+      "category": "模拟经营类",
+      "developer": "Spry Fox",
+      "publisher": "Spry Fox (Netflix)",
+      "platforms": [
+        "PC",
+        "Nintendo Switch",
+        "PS5",
+        "Xbox",
+        "iOS"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-7b3db224f53a222a",
+      "name": "七龙珠：破界斗士",
+      "aliases": [],
+      "category": "非对称竞技",
+      "developer": "Dimps Corporation",
+      "publisher": "Bandai Namco Entertainment",
+      "platforms": [
+        "PC/主机"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-7b685c2dd26c98b6",
+      "name": "闪耀吧！噜咪",
+      "aliases": [
+        "噜咪"
+      ],
+      "category": "捉宠类",
+      "developer": "未公开",
+      "publisher": "Shanghai Hode Information Technology Co.,Ltd.（App Store 所列发行主体）",
+      "platforms": [
+        "iOS",
+        "微信小游戏"
+      ],
+      "source_urls": [
+        "https://apps.apple.com/cn/app/%E9%97%AA%E8%80%80%E5%90%A7-%E5%99%9C%E5%92%AA/id6754912970",
+        "http://mp.weixin.qq.com/s?__biz=MjM5NTIzNjA2MA==&mid=2651810973&idx=1&sn=4f9660c4dacbf71f68be409b5d05007a&chksm=bcbf34f3086685e1685d21a939fd183b40443041508008eb0af8e4de66b1e4ad5776d9d459a3&scene=126&sessionid=0#rd",
+        "https://ai.xianjianwendao.com/kb/mcp/mcp"
+      ]
+    },
+    {
+      "product_id": "product-7c724666f25e9b6e",
+      "name": "捉鬼敢死队：灵魂释放",
+      "aliases": [
+        "Ghostbusters: Spirits Unleashed Ecto Edition"
+      ],
+      "category": "非对称竞技",
+      "developer": "IllFonic",
+      "publisher": "IllFonic",
+      "platforms": [
+        "PC/主机"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-80eaad0af108ed93",
+      "name": "Totally Mall",
+      "aliases": [],
+      "category": "",
+      "developer": "",
+      "publisher": "",
+      "platforms": [],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-84b9ec884ec9949b",
+      "name": "太空行动",
+      "aliases": [],
+      "category": "社交-狼人杀类",
+      "developer": "巨人网络",
+      "publisher": "巨人网络",
+      "platforms": [
+        "移动"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-8836a2d93b0f57d5",
+      "name": "Plinko Defense",
+      "aliases": [],
+      "category": "策略塔防/卡牌对战",
+      "developer": "Cypher Games",
+      "publisher": "Cypher Games",
+      "platforms": [
+        "移动"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-8b2d922cad162cda",
+      "name": "Murky Divers",
+      "aliases": [],
+      "category": "社交-多人合作类",
+      "developer": "Murky Divers Team",
+      "publisher": "Murky Divers Team",
+      "platforms": [
+        "PC"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-8d032dd5fb757f68",
+      "name": "多多自走棋",
+      "aliases": [
+        "Auto Chess",
+        "Auto Chess:Origin"
+      ],
+      "category": "自走棋",
+      "developer": "Drodo Studio / 成都龙渊网络",
+      "publisher": "成都龙渊网络",
+      "platforms": [
+        "iOS",
+        "Android",
+        "PC",
+        "PlayStation"
+      ],
+      "source_urls": [
+        "https://store.steampowered.com/app/1530300/",
+        "https://databrain.woa.com/v2/agent/chat?sessionId=skill_09f511f526504d2e"
+      ]
+    },
+    {
+      "product_id": "product-90674d7a4f44c97e",
+      "name": "Castle Clashers",
+      "aliases": [],
+      "category": "策略塔防/卡牌对战",
+      "developer": "Pinnacle",
+      "publisher": "Pinnacle",
+      "platforms": [
+        "移动"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-90c79789e0d9c3bc",
+      "name": "Dread Hunger",
+      "aliases": [],
+      "category": "社交-狼人杀类",
+      "developer": "Digital Confectioners",
+      "publisher": "Digital Confectioners",
+      "platforms": [
+        "PC"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-9444c58978478dae",
+      "name": "Dressmaker",
+      "aliases": [
+        "针影裁梦"
+      ],
+      "category": "模拟经营类",
+      "developer": "Cozy Lives",
+      "publisher": "Free Lives",
+      "platforms": [
+        "PC/Steam"
+      ],
+      "source_urls": [
+        "https://store.steampowered.com/app/4019220/",
+        "http://mp.weixin.qq.com/s?__biz=MjM5NzQwMjI4MA==&mid=2657337073&idx=4&sn=f854af03628a1d1426f3424f5f235665&chksm=bcf4eef26c909665b0210b08ac4157752dd1418b04c0338dc9c0a5f4ec37b8ec018f51f60208&scene=126&sessionid=0#rd",
+        "https://store.steampowered.com/news/app/4019220/view/703280393464317271",
+        "https://store.steampowered.com/news/app/4019220/view/669502759770260443",
+        "https://ai.xianjianwendao.com/kb/mcp/mcp"
+      ]
+    },
+    {
+      "product_id": "product-94d49d7936c902aa",
+      "name": "Dark and Darker",
+      "aliases": [],
+      "category": "其他类",
+      "developer": "IRONMACE",
+      "publisher": "IRONMACE",
+      "platforms": [
+        "PC"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-95de104d76bb4158",
+      "name": "Pocket Champs",
+      "aliases": [],
+      "category": "派对闯关",
+      "developer": "Madbox",
+      "publisher": "Madbox",
+      "platforms": [
+        "移动"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-97a04a345f981cd4",
+      "name": "雾海之下",
+      "aliases": [],
+      "category": "社交-多人合作类",
+      "developer": "",
+      "publisher": "",
+      "platforms": [],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-9959024d447819fc",
+      "name": "Town of Salem 2",
+      "aliases": [],
+      "category": "社交-狼人杀类",
+      "developer": "BlankMediaGames",
+      "publisher": "BlankMediaGames",
+      "platforms": [
+        "PC/移动"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-99ba5047d8b1931d",
+      "name": "Smalland",
+      "aliases": [],
+      "category": "捉宠类",
+      "developer": "Merge Games",
+      "publisher": "Merge Games",
+      "platforms": [
+        "PC/主机"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-9d513297af420c5d",
+      "name": "火人冲冲冲",
+      "aliases": [],
+      "category": "自走棋",
+      "developer": "待核验",
+      "publisher": "凉屋游戏（早期发行，当前主体待核验）",
+      "platforms": [
+        "移动端",
+        "抖音端（媒体报道）"
+      ],
+      "source_urls": [
+        "http://mp.weixin.qq.com/s?__biz=MzU4NTcxMjE1Mg==&mid=2247497150&idx=1&sn=3ae87fc1463c73c646e80387a1a89134&chksm=fcafc3c0471ffac1b5827f98d679ba7700dcff6bdab9b871242ab768e3de770437af1a4e3dc1&scene=126&sessionid=0#rd",
+        "http://mp.weixin.qq.com/s?__biz=Mzg3MzMzNjM3OQ==&mid=2247572967&idx=1&sn=4dbd93dc56fc2e09aaa3f9c2ddd19f19&chksm=cf50db33249c5e1e5e1e927acc72356e3faa1a7e3c000b7d439ec048694b91b9692ce4cc1209&scene=126&sessionid=0#rd",
+        "https://ai.xianjianwendao.com/kb/mcp/mcp"
+      ]
+    },
+    {
+      "product_id": "product-a32bb5fc9ae7015f",
+      "name": "猛兽派对",
+      "aliases": [],
+      "category": "派对闯关",
+      "developer": "Recreate Games",
+      "publisher": "Source Technology",
+      "platforms": [
+        "PC/主机"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-a62520d36519eb48",
+      "name": "Pummel Party",
+      "aliases": [],
+      "category": "派对闯关",
+      "developer": "Indie Heads",
+      "publisher": "Indie Heads",
+      "platforms": [
+        "PC/主机"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-a74d9f1096775d55",
+      "name": "Cup Heroes",
+      "aliases": [],
+      "category": "其他类",
+      "developer": "Voodoo",
+      "publisher": "Voodoo",
+      "platforms": [
+        "移动"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-ab417fceb5f1c359",
+      "name": "Lockdown Protocol",
+      "aliases": [],
+      "category": "社交-狼人杀类",
+      "developer": "Mirage Creative Lab",
+      "publisher": "Opendoor Interactive",
+      "platforms": [
+        "PC"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-ace6ffabed000971",
+      "name": "Dear Passengers",
+      "aliases": [
+        "亲爱的乘客"
+      ],
+      "category": "社交-多人合作类",
+      "developer": "FLEXUS",
+      "publisher": "FLEXUS",
+      "platforms": [
+        "PC/Steam"
+      ],
+      "source_urls": [
+        "https://store.steampowered.com/app/4534960/Dear_Passengers/",
+        "http://mp.weixin.qq.com/s?__biz=MjM5NzQwMjI4MA==&mid=2657337406&idx=5&sn=4ce17613b086a748034c50e6b7ec99c3&chksm=bc40a9db701060a778d1aec43318d9e9009806263608d004f329e7ec5455aa9dbd229f39f1f9&scene=126&sessionid=0#rd"
+      ]
+    },
+    {
+      "product_id": "product-ae1e5d8616a26806",
+      "name": "终极鸡马",
+      "aliases": [],
+      "category": "派对闯关",
+      "developer": "Clever Endeavour Games",
+      "publisher": "Clever Endeavour Games",
+      "platforms": [
+        "PC/主机"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-b058deefe7abf3a5",
+      "name": "Project63",
+      "aliases": [],
+      "category": "社交-多人合作类",
+      "developer": "Qookka Entertainment Limited（Google Play开发主体）",
+      "publisher": "QOOKKA GAMES",
+      "platforms": [
+        "Android"
+      ],
+      "source_urls": [
+        "https://play.google.com/store/apps/details?id=com.qookkagames.ghostclub.gp.sea.test&hl=en&gl=th",
+        "http://mp.weixin.qq.com/s?__biz=Mzg3MzMzNjM3OQ==&mid=2247573606&idx=1&sn=0f5210a4267f6817401b91caa757aea5&chksm=cf1c28ae3e93943d3ac3d0c57989246b8df57971630f1cda409c8c761540c628d2d0b928686b&scene=126&sessionid=0#rd"
+      ]
+    },
+    {
+      "product_id": "product-b212f3ce9e2e9219",
+      "name": "崩坏：因缘精灵",
+      "aliases": [],
+      "category": "捉宠类",
+      "developer": "米哈游",
+      "publisher": "米哈游 (Cognosphere)",
+      "platforms": [
+        "iOS",
+        "Android"
+      ],
+      "source_urls": [
+        "https://www.miyoushe.com/hna/",
+        "https://www.163.com/dy/article/L1DFVALO0511CVBI.html",
+        "https://www.233leyuan.com/post-detail/2073401628609511424",
+        "https://m.ali213.net/aznew/753559.html"
+      ]
+    },
+    {
+      "product_id": "product-b25530c4196b86e1",
+      "name": "Once Upon a Galaxy",
+      "aliases": [],
+      "category": "自走棋",
+      "developer": "Million Dreams Games",
+      "publisher": "Million Dreams Games",
+      "platforms": [
+        "iOS",
+        "Android",
+        "PC"
+      ],
+      "source_urls": [
+        "https://store.steampowered.com/app/3062740/",
+        "https://databrain.woa.com/v2/agent/chat?sessionId=skill_09f511f526504d2e"
+      ]
+    },
+    {
+      "product_id": "product-b50ea3a5b48c125c",
+      "name": "裂隙远征",
+      "aliases": [],
+      "category": "自走棋",
+      "developer": "",
+      "publisher": "",
+      "platforms": [
+        "PC/Steam"
+      ],
+      "source_urls": [
+        "https://ai.xianjianwendao.com/kb/item/27216"
+      ]
+    },
+    {
+      "product_id": "product-b84aaeb59aa0e60e",
+      "name": "灵动小镇",
+      "aliases": [
+        "Go Go Town"
+      ],
+      "category": "捉宠类",
+      "developer": "Kitka",
+      "publisher": "Kitka",
+      "platforms": [
+        "移动/PC"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-b926c2e78cfc059c",
+      "name": "背包乱斗",
+      "aliases": [],
+      "category": "自走棋",
+      "developer": "PlayWithFurcifer",
+      "publisher": "IndieArk / Shochiku",
+      "platforms": [
+        "PC"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-bacd31ba2c0e278a",
+      "name": "乐高派对",
+      "aliases": [],
+      "category": "派对闯关",
+      "developer": "SMG Studio",
+      "publisher": "LEGO/Gamefam",
+      "platforms": [
+        "PC/主机"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-badb7a716fe05536",
+      "name": "小冰冰斗蛐蛐",
+      "aliases": [
+        "小冰冰传奇新作"
+      ],
+      "category": "自走棋",
+      "developer": "",
+      "publisher": "",
+      "platforms": [
+        "移动/客户端"
+      ],
+      "source_urls": [
+        "https://www.nppa.gov.cn/bsfw/jggs/cxjg/202605/t20260526_991336.html",
+        "https://news.17173.com/content/07162026/115649851.shtml",
+        "https://www.taptap.cn/moment/826898988660688261",
+        "https://apps.apple.com/cn/app/%E5%B0%8F%E5%86%B0%E5%86%B0%E6%96%97%E8%9B%90%E8%9B%90/id6785356130"
+      ]
+    },
+    {
+      "product_id": "product-baffad2f8e9f5988",
+      "name": "TopTop",
+      "aliases": [],
+      "category": "派对闯关",
+      "developer": "TopTop",
+      "publisher": "TopTop",
+      "platforms": [
+        "移动"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-bb5040c29b588727",
+      "name": "Super Auto Pets",
+      "aliases": [],
+      "category": "自走棋",
+      "developer": "Team Wood Games",
+      "publisher": "Team Wood Games",
+      "platforms": [
+        "移动/PC"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-bce4f36c4bf46bb1",
+      "name": "妖妖棋",
+      "aliases": [
+        "代号：妖鬼"
+      ],
+      "category": "自走棋",
+      "developer": "杭州网易雷火科技有限公司",
+      "publisher": "网易游戏",
+      "platforms": [
+        "iOS",
+        "Android"
+      ],
+      "source_urls": [
+        "https://www.taptap.cn/app/756756",
+        "https://www.taptap.cn/app/756756/topic?type=official",
+        "https://databrain.woa.com/v2/agent/chat?sessionId=skill_52c4e55bbdba411b",
+        "https://grp.woa.com/report.html?id=74"
+      ]
+    },
+    {
+      "product_id": "product-bf81b58529a22869",
+      "name": "Chained Together",
+      "aliases": [],
+      "category": "派对闯关",
+      "developer": "Anegar Games",
+      "publisher": "Secret Mode",
+      "platforms": [
+        "PC"
+      ],
+      "source_urls": [
+        "https://store.steampowered.com/app/2567870/",
+        "https://databrain.woa.com/v2/agent/chat?sessionId=skill_09f511f526504d2e"
+      ]
+    },
+    {
+      "product_id": "product-c0809c2dcc89e3e8",
+      "name": "Zooba",
+      "aliases": [
+        "Zooba: Zoo Battle Arena"
+      ],
+      "category": "轻度MOBA",
+      "developer": "Wildlife Studios",
+      "publisher": "Wildlife Studios",
+      "platforms": [
+        "移动"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-c16c6bbe69d24374",
+      "name": "第五人格",
+      "aliases": [],
+      "category": "非对称竞技",
+      "developer": "网易",
+      "publisher": "网易",
+      "platforms": [
+        "移动/PC"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-c425305aa857252a",
+      "name": "FRAG Pro Shooter",
+      "aliases": [],
+      "category": "轻度MOBA",
+      "developer": "Oh BiBi",
+      "publisher": "Oh BiBi",
+      "platforms": [
+        "移动"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-c44a816ca4adf0ce",
+      "name": "Project Winter",
+      "aliases": [],
+      "category": "社交-狼人杀类",
+      "developer": "Other Ocean",
+      "publisher": "Other Ocean",
+      "platforms": [
+        "PC/主机"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-c4f4703e775e97f1",
+      "name": "Stumble Guys",
+      "aliases": [],
+      "category": "派对闯关",
+      "developer": "Scopely",
+      "publisher": "Scopely",
+      "platforms": [
+        "移动/PC/主机"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-c797f4a5fc3c93da",
+      "name": "PEAK",
+      "aliases": [],
+      "category": "社交-多人合作类",
+      "developer": "Landfall",
+      "publisher": "Aggro Crab",
+      "platforms": [
+        "PC"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-c7aef4d88ea2d655",
+      "name": "元梦之星",
+      "aliases": [],
+      "category": "派对闯关",
+      "developer": "腾讯",
+      "publisher": "腾讯",
+      "platforms": [
+        "移动"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-c7e3b7ed361ac38a",
+      "name": "Paralives",
+      "aliases": [],
+      "category": "模拟经营类",
+      "developer": "Alex Massé (独立团队)",
+      "publisher": "Alex Massé",
+      "platforms": [
+        "PC"
+      ],
+      "source_urls": [
+        "https://store.steampowered.com/app/1118520/Paralives/",
+        "https://www.pcgamer.com/games/life-sim/paralives-guide/"
+      ]
+    },
+    {
+      "product_id": "product-ca1afba4314f71b2",
+      "name": "金铲铲之战",
+      "aliases": [],
+      "category": "自走棋",
+      "developer": "腾讯",
+      "publisher": "腾讯",
+      "platforms": [
+        "移动"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-ca3874ca040b5fe8",
+      "name": "幻兽帕鲁",
+      "aliases": [],
+      "category": "捉宠类",
+      "developer": "Pocketpair",
+      "publisher": "Pocketpair",
+      "platforms": [
+        "PC/Xbox"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-caef5fd380c771f8",
+      "name": "心动小镇",
+      "aliases": [],
+      "category": "模拟经营类",
+      "developer": "心动网络",
+      "publisher": "心动网络",
+      "platforms": [
+        "iOS",
+        "Android",
+        "PC"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-ce33cfb84c2a11c5",
+      "name": "内容警告",
+      "aliases": [],
+      "category": "社交-多人合作类",
+      "developer": "Landfall",
+      "publisher": "Landfall",
+      "platforms": [
+        "PC"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-cf49b104531d4b54",
+      "name": "WePlay",
+      "aliases": [],
+      "category": "派对闯关",
+      "developer": "微派网络",
+      "publisher": "微派网络",
+      "platforms": [
+        "移动"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-cf4b204228b4422c",
+      "name": "Starsand Island",
+      "aliases": [
+        "星砂岛"
+      ],
+      "category": "模拟经营类",
+      "developer": "Seed Sparkle Lab",
+      "publisher": "Seed Sparkle Lab",
+      "platforms": [
+        "PC",
+        "PS5",
+        "Xbox Series",
+        "Nintendo Switch 2"
+      ],
+      "source_urls": [
+        "https://au.ign.com/videos/starsand-island-official-advanced-gameplay-trailer",
+        "https://www.gamegrin.com/news/starsand-island-releases-to-steam-early-access-with-new-launch-trailer"
+      ]
+    },
+    {
+      "product_id": "product-d09326405655066e",
+      "name": "生活派对",
+      "aliases": [],
+      "category": "",
+      "developer": "",
+      "publisher": "",
+      "platforms": [],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-d10428814e43dcf8",
+      "name": "人类一败涂地",
+      "aliases": [],
+      "category": "派对闯关",
+      "developer": "No Brakes Games",
+      "publisher": "Curve Games",
+      "platforms": [
+        "iOS",
+        "Android",
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Nintendo Switch"
+      ],
+      "source_urls": [
+        "https://store.steampowered.com/app/477160/",
+        "https://databrain.woa.com/v2/agent/chat?sessionId=skill_09f511f526504d2e"
+      ]
+    },
+    {
+      "product_id": "product-d186fe023bf6c656",
+      "name": "粒粒的小人国",
+      "aliases": [],
+      "category": "模拟经营类",
+      "developer": "腾讯 (银之心工作室)",
+      "publisher": "腾讯",
+      "platforms": [
+        "PC",
+        "iOS",
+        "Android"
+      ],
+      "source_urls": [
+        "https://www.taptap.cn/moment/850820967750962656?group_id=1018071"
+      ]
+    },
+    {
+      "product_id": "product-d34f5b69a7d96945",
+      "name": "蛋仔滑滑",
+      "aliases": [],
+      "category": "模拟经营类",
+      "developer": "网易游戏",
+      "publisher": "网易游戏",
+      "platforms": [
+        "iOS",
+        "Android"
+      ],
+      "source_urls": [
+        "https://www.66game.cn/article/22277.html",
+        "https://www.yxdown.com/pcgl/xin690006/",
+        "https://cg.163.com/static/content/670fb42e19d2cc2caf00438b",
+        "https://www.9game.cn/xiazai/3113979/"
+      ]
+    },
+    {
+      "product_id": "product-d4f3fe7b5f0c0e20",
+      "name": "创世理想乡",
+      "aliases": [],
+      "category": "捉宠类",
+      "developer": "Pocketpair",
+      "publisher": "Pocketpair",
+      "platforms": [
+        "PC/Xbox"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-d57eee8efb88d26b",
+      "name": "星露谷物语",
+      "aliases": [],
+      "category": "模拟经营类",
+      "developer": "ConcernedApe",
+      "publisher": "ConcernedApe",
+      "platforms": [
+        "PC/移动/主机"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-d59107ed89890317",
+      "name": "舞力全开：派对",
+      "aliases": [
+        "舞力全开：派对 Just Dance Party"
+      ],
+      "category": "派对闯关",
+      "developer": "育碧（IP授权）",
+      "publisher": "腾讯游戏",
+      "platforms": [
+        "iOS",
+        "Android",
+        "鸿蒙"
+      ],
+      "source_urls": [
+        "https://news.17173.com/content/07022026/125413911.shtml",
+        "https://game.xiaomi.com/viewpoint/1674478871_1783403597807_100",
+        "https://m.xiayx.com/article/971105",
+        "https://c.m.163.com/news/a/L0RNTV3S052688E2.html"
+      ]
+    },
+    {
+      "product_id": "product-d89bb5caedda928c",
+      "name": "朋友收集 梦想生活",
+      "aliases": [],
+      "category": "模拟经营类",
+      "developer": "Nintendo",
+      "publisher": "Nintendo",
+      "platforms": [
+        "Nintendo Switch"
+      ],
+      "source_urls": [
+        "https://www.nintendo.com/hk/topics/article/5vvKZNvWrdOlq1IrdylC54",
+        "https://www.nintendo.com/tw/topics/article/0f5Ovs4ZotMF1YpxDBRIrzz"
+      ]
+    },
+    {
+      "product_id": "product-db13118ddc360544",
+      "name": "爆裂小队",
+      "aliases": [],
+      "category": "轻度MOBA",
+      "developer": "Supercell",
+      "publisher": "Supercell",
+      "platforms": [
+        "移动"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-dbf8896894bd09c5",
+      "name": "Epic Shaman Battle: 4P Defense",
+      "aliases": [],
+      "category": "策略塔防/卡牌对战",
+      "developer": "111%",
+      "publisher": "111%",
+      "platforms": [
+        "移动"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-dc6c69a3fb5f7dc1",
+      "name": "鹅鸭杀",
+      "aliases": [],
+      "category": "社交-狼人杀类",
+      "developer": "Gaggle Studios",
+      "publisher": "Gaggle Studios/金山世游",
+      "platforms": [
+        "移动/PC"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-dc884359b31468dd",
+      "name": "山海奇旅",
+      "aliases": [
+        "代号：奇旅"
+      ],
+      "category": "模拟经营类",
+      "developer": "网易",
+      "publisher": "网易",
+      "platforms": [
+        "PC",
+        "PS5",
+        "Nintendo Switch",
+        "Xbox",
+        "iOS",
+        "Android"
+      ],
+      "source_urls": [
+        "https://esportstw.com/news/687340/",
+        "https://m.18183.com/gonglue/202607/he5lfbsp.html",
+        "https://www.163.com/dy/article/L35NJQOH0526D7OK.html",
+        "https://dy.163.com/article/L2JND4G70511CVBI.html",
+        "https://app.3dmgame.com/news/76473.html"
+      ]
+    },
+    {
+      "product_id": "product-dedef7b21ae71b45",
+      "name": "Palia",
+      "aliases": [],
+      "category": "模拟经营类",
+      "developer": "Singularity 6 (Daybreak)",
+      "publisher": "Daybreak Game Company",
+      "platforms": [
+        "PC",
+        "Nintendo Switch",
+        "PS5",
+        "Xbox Series"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-e2cf8ccd82aec3fa",
+      "name": "动物森友会",
+      "aliases": [],
+      "category": "模拟经营类",
+      "developer": "Nintendo",
+      "publisher": "Nintendo",
+      "platforms": [
+        "Nintendo Switch"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-e33c1cde3b1a4308",
+      "name": "随机骰子",
+      "aliases": [
+        "랜덤 다이스 디펜스 : PVP 타워 디펜스"
+      ],
+      "category": "策略塔防/卡牌对战",
+      "developer": "111%",
+      "publisher": "111%",
+      "platforms": [
+        "移动"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-e73219cb44d8b9cb",
+      "name": "Dinkum",
+      "aliases": [],
+      "category": "模拟经营类",
+      "developer": "James Bendon",
+      "publisher": "Five Leaves Studio",
+      "platforms": [
+        "PC/主机"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-eb3f2adf71eedd81",
+      "name": "方舟：生存进化",
+      "aliases": [],
+      "category": "捉宠类",
+      "developer": "Studio Wildcard",
+      "publisher": "Studio Wildcard",
+      "platforms": [
+        "PC/主机/移动"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-ec2f9ea3a87a3ff0",
+      "name": "Fields of Mistria",
+      "aliases": [],
+      "category": "模拟经营类",
+      "developer": "NPC Studio",
+      "publisher": "NPC Studio",
+      "platforms": [
+        "PC"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-edac97a27f37be5d",
+      "name": "源初之结",
+      "aliases": [],
+      "category": "社交-多人合作类",
+      "developer": "米哈游",
+      "publisher": "米哈游",
+      "platforms": [
+        "PC 首发"
+      ],
+      "source_urls": [
+        "https://www.taptap.cn/app/917670",
+        "http://mp.weixin.qq.com/s?__biz=MjM5Njc5MjgyMA==&mid=2989877251&idx=2&sn=61c6e896b47382c10928615ff20a3caa&chksm=9038c1ad1909782a4d2f584b294b6a7c1a13f9591fae2819a25253957c88ec234d7bc21a113e&scene=126&sessionid=0#rd",
+        "http://mp.weixin.qq.com/s?__biz=MjM5OTc2ODUxMw==&mid=2650018482&idx=1&sn=912930befb09ef6104f0ffb5c4070b15&chksm=be62197fb827f924f0c72509c90f03e761e78c0f4fd63f89d9bfe1d5b6ecb14bd13a9e4f7b37&scene=126&sessionid=0#rd",
+        "http://mp.weixin.qq.com/s?__biz=MzkwMjY0ODI1Mg==&mid=2247576381&idx=1&sn=d4e09372cae9ad0db57887a993e722c1&chksm=c1ce6c149c7baa27bbeda3282bb544ca41a2654077147e1a7319a4af0d6318fae0675d1ddd02&scene=126&sessionid=0#rd",
+        "https://ai.xianjianwendao.com/kb/mcp/mcp",
+        "https://www.nppa.gov.cn/bsfw/jggs/yxspjg/gcwlyxspxx/202609/t20260930_1011281.html"
+      ]
+    },
+    {
+      "product_id": "product-ee5229b13f6c5926",
+      "name": "My Time at Evershine",
+      "aliases": [
+        "时光3：永耀之境"
+      ],
+      "category": "模拟经营类",
+      "developer": "Pathea Games",
+      "publisher": "Pathea Games",
+      "platforms": [
+        "PC",
+        "PlayStation 5",
+        "Xbox Series",
+        "Nintendo Switch 2"
+      ],
+      "source_urls": [
+        "https://store.steampowered.com/app/3199500/",
+        "https://databrain.woa.com/v2/agent/chat?sessionId=skill_09f511f526504d2e"
+      ]
+    },
+    {
+      "product_id": "product-f3e1cf2fcac491a6",
+      "name": "Random Dice 2",
+      "aliases": [],
+      "category": "策略塔防/卡牌对战",
+      "developer": "111%",
+      "publisher": "111%",
+      "platforms": [
+        "iOS",
+        "Android"
+      ],
+      "source_urls": [
+        "https://databrain.woa.com/v2/agent/chat?sessionId=skill_09f511f526504d2e",
+        "https://databrain.woa.com/v2/agent/chat?sessionId=skill_09f511f526504d2e"
+      ]
+    },
+    {
+      "product_id": "product-f400e529df696393",
+      "name": "药剂工艺",
+      "aliases": [
+        "Potion Craft: Alchemist Simulator"
+      ],
+      "category": "模拟经营类",
+      "developer": "niceplay games",
+      "publisher": "tinyBuild",
+      "platforms": [
+        "PC/主机"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-f469c974c7d38cb3",
+      "name": "The Outlast Trials",
+      "aliases": [],
+      "category": "社交-多人合作类",
+      "developer": "Red Barrels",
+      "publisher": "Red Barrels",
+      "platforms": [
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
+      "source_urls": [
+        "https://store.steampowered.com/app/1304930/",
+        "https://databrain.woa.com/v2/agent/chat?sessionId=skill_09f511f526504d2e"
+      ]
+    },
+    {
+      "product_id": "product-f5791a03b59e29c0",
+      "name": "First Class Trouble",
+      "aliases": [],
+      "category": "社交-狼人杀类",
+      "developer": "Invisible Walls",
+      "publisher": "Invisible Walls",
+      "platforms": [
+        "PC/主机"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-fba226cd41095b8d",
+      "name": "未眠野",
+      "aliases": [],
+      "category": "社交-多人合作类",
+      "developer": "ZEALORY GAMES（成都小智游戏）",
+      "publisher": "悦然互动",
+      "platforms": [
+        "Android",
+        "iOS",
+        "PC"
+      ],
+      "source_urls": [
+        "https://www.taptap.cn/app/894924",
+        "http://mp.weixin.qq.com/s?__biz=MjM5NzQwMjI4MA==&mid=2657337234&idx=2&sn=d50a20d7a02f0ceb23f8b9126a501a47&chksm=bcb483cc5890c3249747f0f82c87635c315c83041766eff28f70d100af6d0791b4ce30d5f42d&scene=126&sessionid=0#rd",
+        "http://mp.weixin.qq.com/s?__biz=Mzg3MzMzNjM3OQ==&mid=2247573404&idx=1&sn=0dc5ab0e500d29ee12841b581c4b8e2f&chksm=cff45834abc5c55a16e2179261199fb45268e05d9ce3646b0de3e24df25f46c4fb4e6ad97e4b&scene=126&sessionid=0#rd",
+        "http://mp.weixin.qq.com/s?__biz=MjM5NTIzNjA2MA==&mid=2651810618&idx=1&sn=b946c765703aeb1e88bc63a1d85680e5&chksm=bc529012f1728ce4fb9cd85b60f867aed2e9f28f38fa38d358cad60628ca0dfb165b69e9dac7&scene=126&sessionid=0#rd",
+        "https://ai.xianjianwendao.com/kb/mcp/mcp"
+      ]
+    },
+    {
+      "product_id": "product-fc696968e72855b5",
+      "name": "猫和老鼠",
+      "aliases": [],
+      "category": "非对称竞技",
+      "developer": "网易",
+      "publisher": "网易",
+      "platforms": [
+        "移动"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-fc8c67902b93b83c",
+      "name": "Bag Fight",
+      "aliases": [],
+      "category": "自走棋",
+      "developer": "Voodoo",
+      "publisher": "Voodoo",
+      "platforms": [
+        "移动"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-fd74e45cc7a3068a",
+      "name": "胡闹厨房2",
+      "aliases": [],
+      "category": "社交-多人合作类",
+      "developer": "Ghost Town Games",
+      "publisher": "Team17",
+      "platforms": [
+        "PC/主机"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-fe66f6db5ed1f860",
+      "name": "荒野乱斗",
+      "aliases": [],
+      "category": "轻度MOBA",
+      "developer": "Supercell",
+      "publisher": "Supercell",
+      "platforms": [
+        "移动"
+      ],
+      "source_urls": []
+    },
+    {
+      "product_id": "product-ff79e68592b6521f",
+      "name": "索尼克大乱斗",
+      "aliases": [
+        "Sonic Rumble Party"
+      ],
+      "category": "派对闯关",
+      "developer": "SEGA",
+      "publisher": "SEGA",
+      "platforms": [
+        "移动/PC"
+      ],
+      "source_urls": []
+    }
+  ]
+}

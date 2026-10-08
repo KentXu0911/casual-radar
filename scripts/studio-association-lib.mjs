@@ -14,33 +14,37 @@ export function synchronizeDiscoveredStudioProducts(dashboard, gamesDocument) {
     discovery.projects = [...new Set([...discovery.projects, ...legacy.projects])];
     dashboard.pipelineGroups = dashboard.pipelineGroups.filter((group) => group.name !== DISCOVERY_GROUP);
   }
-  if (!discovery) return [];
   const products = new Map(gamesDocument.games.map((game) => [game.name, game]));
   const updates = [];
-  for (const name of [...new Set(discovery.projects)]) {
+  const studios = [...(dashboard.domesticStudios || []), ...Object.values(dashboard.overseasStudios || {})];
+  const admitted = [...new Set(dashboard.pipelineGroups.filter(group => group.name !== "试玩验证样本").flatMap(group => group.projects))];
+  for (const name of admitted) {
     const game = products.get(name);
     const team = dashboard.pipelineDetails[name]?.team;
     if (game?.lifecycle?.pipeline !== true || game.pool === "边界观察池" || !team?.company || !team.sources?.some((source) => /^https?:\/\//.test(source.url || ""))) continue;
-    const matches = dashboard.domesticStudios.filter((studio) => [studio.name, ...(studio.company_aliases || [])].includes(team.company));
+    const matches = studios.filter((studio) => [studio.name, ...(studio.company_aliases || [])].includes(team.company));
     // Unknown and conflicting affiliations stay in the discovery bucket for review.
     if (matches.length !== 1) continue;
     const studio = matches[0];
     studio.known_pipeline ||= [];
-    if (!studio.known_pipeline.some((entry) => productName(entry) === name)) studio.known_pipeline.push(name);
+    const added = !studio.known_pipeline.some((entry) => productName(entry) === name);
+    if (added) studio.known_pipeline.push(name);
     let group = dashboard.pipelineGroups.find((entry) => entry.name === studio.name);
     if (!group) {
       group = { name: studio.name, track_focus: studio.track_focus, projects: [] };
       dashboard.pipelineGroups.push(group);
     }
     if (!group.projects.includes(name)) group.projects.push(name);
-    discovery.projects = discovery.projects.filter((entry) => entry !== name);
+    for (const other of dashboard.pipelineGroups) {
+      if (other !== group && other.name !== "试玩验证样本") other.projects = other.projects.filter(entry => entry !== name);
+    }
 
     const cachedStudio = gamesDocument.meta?.studio_tracking?.domestic_majors?.studios?.find((entry) => entry.name === studio.name);
     if (cachedStudio) {
       cachedStudio.known_pipeline ||= [];
       if (!cachedStudio.known_pipeline.some((entry) => productName(entry) === name)) cachedStudio.known_pipeline.push(name);
     }
-    updates.push({ product: name, studio: studio.name });
+    if (added) updates.push({ product: name, studio: studio.name });
   }
   if (dashboard.pipelineMeta) {
     const researchGroups = dashboard.pipelineGroups.filter((group) => group.name !== "试玩验证样本");

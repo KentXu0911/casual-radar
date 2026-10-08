@@ -5,6 +5,7 @@ import { productResearch } from "./youyansuo-product-research.mjs";
 import { discoveryExclusionReason } from "./normalize-youyansuo-discovery.mjs";
 import { synchronizeDiscoveredStudioProducts } from "./studio-association-lib.mjs";
 import { synchronizeRevealMedia } from "./pipeline-reveal-media-lib.mjs";
+import { mergeVerifiedDetail } from "./content-workflow-lib.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const publicRoot = path.join(root, "public");
@@ -201,8 +202,7 @@ for (const product of products) {
       source_url: product.profile.source_url,
       updated_at: product.intelligence.latest_date,
     };
-    detail.gameplay_videos = dashboard.pipelineDetails[product.name]?.gameplay_videos || [];
-    dashboard.pipelineDetails[product.name] = detail;
+    dashboard.pipelineDetails[product.name] = mergeVerifiedDetail(dashboard.pipelineDetails[product.name], detail);
     let group = dashboard.pipelineGroups.find((entry) => entry.name === taxonomy.group);
     if (!group) { group = { name: taxonomy.group, track_focus: "游研所确认的重点品类新品，待官方测试和上线证据补齐", projects: [] }; dashboard.pipelineGroups.push(group); }
     if (!group.projects.includes(product.name)) group.projects.push(product.name);

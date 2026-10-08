@@ -20,6 +20,8 @@ jobs:
       pages: read
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -30,6 +32,8 @@ jobs:
       - run: npm ci
       - name: Check public source
         run: node scripts/publish-github-pages.mjs --check-only
+      - name: Verify changed content against previous commit
+        run: npm run content:prepare -- --baseline-ref=HEAD^
       - name: Verify data and build static dashboard
         run: npm run test:pages
         env:

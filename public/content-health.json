@@ -1,0 +1,37 @@
+{
+  "checked_at": "2026-10-08",
+  "scope": "manual",
+  "status": "complete",
+  "modules": {
+    "identity": {
+      "required": true,
+      "status": "passed"
+    },
+    "lifecycle": {
+      "required": true,
+      "status": "passed"
+    },
+    "media": {
+      "required": true,
+      "status": "passed",
+      "pending_changes": 0,
+      "historical_backlog": 49
+    },
+    "views": {
+      "required": true,
+      "status": "passed"
+    },
+    "content": {
+      "required": true,
+      "status": "passed",
+      "errors": []
+    }
+  },
+  "historical_media_backlog": 49,
+  "historical_media_status": "pending",
+  "dates": {
+    "intelligence": "2026-10-08",
+    "metrics": "2026-10-07",
+    "lifecycle": "2026-10-08"
+  }
+}

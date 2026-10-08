@@ -2,6 +2,8 @@
 
 import { isMobileMetricScope } from "./mobile-metric-scope";
 import { publicAssetUrl } from "./public-asset-url";
+import releaseManifest from "../public/release-manifest.json";
+import contentHealth from "../public/content-health.json";
 
 import { useEffect, useMemo, useRef, useState, type CSSProperties } from "react";
 import { evaluateMetricSeries, type MetricSignal } from "./metric-anomalies";
@@ -283,7 +285,7 @@ type RecentLaunchEntry = {
 };
 // Keep the preview from reusing a stale JSON response after an icon refresh.
 // Bump this value whenever the static data bundle is regenerated.
-const DATA_VERSION = "20261008-reveal-media-1";
+const DATA_VERSION = releaseManifest.version;
 
 const PIPELINE_STATUS_PATTERN = /在研|研发|测试|首测|二测|内测|删档|不删档|冒泡|预约|未上线|Early Access|\bEA\b|试玩|上线前|上线验证|公测预约/u;
 const PIPELINE_VALIDATION_GROUP = "试玩验证样本";
@@ -609,7 +611,7 @@ function VideoGallery({ items = [], empty = "暂无可核验的 Demo / 实机视
   if (!items.length) return <p className="empty">{empty}</p>;
   return (
     <div className="video-gallery">
-      {items.slice(0, 3).map((item, index) => {
+      {items.map((item, index) => {
         const thumbnail = videoThumbnail(item.url, thumbnailMap);
         const unavailable = statusMap[mediaCoverKey(item.url)] === "unavailable";
         const replacementNote = item.replacement_note || "";
@@ -733,6 +735,7 @@ function condensedProgressNodes(milestones: Array<Record<string, unknown>>) {
     family: string;
     items: Array<Record<string, unknown>>;
     dateKeys: string[];
+    milestoneIds: string[];
     sortDate: string;
     displayDate: string;
     label: string;
@@ -756,7 +759,7 @@ function condensedProgressNodes(milestones: Array<Record<string, unknown>>) {
     }) : undefined;
 
     if (!node) {
-      node = { phase, family, items: [], dateKeys: [], sortDate: "", displayDate: "", label: "", title: "", summary: "", source: "", url: "", planned: false, evidence: [] };
+      node = { phase, family, items: [], dateKeys: [], milestoneIds: [], sortDate: "", displayDate: "", label: "", title: "", summary: "", source: "", url: "", planned: false, evidence: [] };
       nodes.push(node);
     }
     node.items.push(item);
@@ -769,6 +772,7 @@ function condensedProgressNodes(milestones: Array<Record<string, unknown>>) {
     const opening = node.items.find((item) => !isSupportingMilestone(item) && !/招募|资格|预约/.test(recordText(item, "title")) && /开启|开测|开始|首日|计划开启|计划开测|定档|重新开服|开服验证|上线准备|上线筹备|官宣/.test(`${recordText(item, "type")} ${recordText(item, "title")}`));
     const primary = ending?.source === "看板研判" ? opening || node.items.find(item => item.source !== "看板研判" && !isSupportingMilestone(item)) || ending : ending || opening || node.items[0];
     node.dateKeys = node.items.map((item) => dateKey(item.date)).filter(Boolean);
+    node.milestoneIds = node.items.map(item => recordText(item, "milestone_id")).filter(Boolean);
     node.sortDate = node.items
       .filter((item) => !isSupportingMilestone(item))
       .map((item) => dateKey(item.date))
@@ -794,17 +798,12 @@ function buildProgressMediaNodes(milestones: Array<Record<string, unknown>>, med
   const nodes = condensedProgressNodes(milestones);
   const unlinkedMedia: Array<Record<string, string>> = [];
   media.forEach((item) => {
-    const reveal = /首曝|首次公开|首支.*(?:PV|预告)|announcement trailer|reveal trailer/i.test(`${item.type || ""} ${item.title || ""}`);
     const linkedDate = dateKey(item.milestone_date || item.date);
-    let target = nodes.find((node) => linkedDate && node.dateKeys.includes(linkedDate));
-    if (reveal && !item.milestone_date && target?.phase !== "project") target = undefined;
-    if (!target && linkedDate && !item.milestone_date && item.node_link_status !== "unconfirmed") {
-      const linkedDay = timelineDay(linkedDate);
-      target = [...nodes]
-        .map((node) => ({ node, distance: Math.min(...node.dateKeys.map((value) => Math.abs(timelineDay(value) - linkedDay))) }))
-        .filter((entry) => Number.isFinite(entry.distance) && entry.distance <= 45 && (!reveal || entry.node.phase === "project"))
-        .sort((a, b) => a.distance - b.distance)[0]?.node;
-    }
+    const reveal = /首曝|首次公开|首支.*(?:PV|预告)|announcement trailer|reveal trailer/i.test(`${item.type || ""} ${item.title || ""}`);
+    let target = item.milestone_id
+      ? nodes.find(node => node.milestoneIds.includes(item.milestone_id))
+      : nodes.find(node => linkedDate && node.dateKeys.includes(linkedDate));
+    if (reveal && !item.milestone_id && !item.milestone_date && target?.phase !== "project") target = undefined;
     if (item.node_link_status === "unconfirmed") target = undefined;
     if (target && !target.evidence.some((entry) => entry.url === item.url)) target.evidence.push({ ...item, evidence_kind: evidenceKind(item) });
     if (!target) unlinkedMedia.push(item);
@@ -2943,6 +2942,7 @@ export default function Home() {
             <p className="eyebrow">{currentTab.kicker}</p>
             <h1>{currentTitle}</h1>
             <p>{currentDescription}</p>
+            <p aria-label="数据核验状态">指标截至 {contentHealth.dates.metrics || "待核验"} · 新品扫描 {contentHealth.dates.intelligence || "待核验"} · 生命周期核验 {contentHealth.dates.lifecycle || "待核验"}{tab === "pipeline" && contentHealth.historical_media_backlog > 0 ? ` · 历史影像 ${contentHealth.historical_media_backlog} 个节点待核查` : ""}</p>
             {showProductRanking && <nav className="ranking-category-shortcuts" aria-label="产品榜品类快捷入口">
               <button aria-pressed={category === "全部"} onClick={() => openCategory("全部")}>全部品类</button>
               {categories.map(([name]) => <button key={name} aria-pressed={category === name} onClick={() => openCategory(name)}>{name.replace("社交-", "")}</button>)}

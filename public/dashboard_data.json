@@ -567,7 +567,8 @@
       "status": "活跃",
       "why": "现代派对闯关范式的代表产品",
       "source": "DataBrain",
-      "pool": "对标参照池"
+      "pool": "对标参照池",
+      "product_id": "product-37c68c10c5631c8d"
     },
     {
       "name": "蛋仔派对",
@@ -588,7 +589,8 @@
         "monthly_revenue": 10271770,
         "data_date": "2026-08-04",
         "source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)"
-      }
+      },
+      "product_id": "product-794f295e901e9be5"
     },
     {
       "name": "元梦之星",
@@ -609,7 +611,8 @@
         "monthly_revenue": 1095265,
         "data_date": "2026-08-04",
         "source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)"
-      }
+      },
+      "product_id": "product-c7aef4d88ea2d655"
     },
     {
       "name": "Stumble Guys",
@@ -630,7 +633,8 @@
         "monthly_revenue": 619734,
         "data_date": "2026-08-04",
         "source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)"
-      }
+      },
+      "product_id": "product-c4f4703e775e97f1"
     },
     {
       "name": "猛兽派对",
@@ -644,7 +648,8 @@
       "status": "活跃",
       "why": "物理互动与直播传播代表；Recreate Games起步约15人，但获多轮融资后团队扩张，供给端归参照",
       "source": "DataBrain",
-      "pool": "对标参照池"
+      "pool": "对标参照池",
+      "product_id": "product-a32bb5fc9ae7015f"
     },
     {
       "name": "Faaast Penguin",
@@ -658,7 +663,8 @@
       "status": "活跃",
       "why": "轻量竞速与派对淘汰融合",
       "source": "公开补充",
-      "pool": "主追踪池"
+      "pool": "主追踪池",
+      "product_id": "product-1c24e66a4b410a5d"
     },
     {
       "name": "索尼克大乱斗",
@@ -675,7 +681,8 @@
       "pool": "对标参照池",
       "aliases": [
         "Sonic Rumble Party"
-      ]
+      ],
+      "product_id": "product-ff79e68592b6521f"
     },
     {
       "name": "荒野乱斗",
@@ -696,7 +703,8 @@
         "monthly_revenue": 33655028,
         "data_date": "2026-08-04",
         "source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)"
-      }
+      },
+      "product_id": "product-fe66f6db5ed1f860"
     },
     {
       "name": "宝可梦大集结",
@@ -710,7 +718,8 @@
       "status": "活跃",
       "why": "弱化击杀、强化得分的轻MOBA",
       "source": "DataBrain",
-      "pool": "对标参照池"
+      "pool": "对标参照池",
+      "product_id": "product-5ea88ad8a43a7a02"
     },
     {
       "name": "T3 Arena",
@@ -724,7 +733,8 @@
       "status": "活跃",
       "why": "移动端短局英雄射击样本",
       "source": "公开补充",
-      "pool": "对标参照池"
+      "pool": "对标参照池",
+      "product_id": "product-5e3495d849ee609e"
     },
     {
       "name": "SMASH LEGENDS",
@@ -738,7 +748,8 @@
       "status": "活跃",
       "why": "短局平台动作与目标制对抗",
       "source": "公开补充",
-      "pool": "对标参照池"
+      "pool": "对标参照池",
+      "product_id": "product-6985d553b710bc71"
     },
     {
       "name": "Zooba",
@@ -755,7 +766,8 @@
       "pool": "对标参照池",
       "aliases": [
         "Zooba: Zoo Battle Arena"
-      ]
+      ],
+      "product_id": "product-c0809c2dcc89e3e8"
     },
     {
       "name": "FRAG Pro Shooter",
@@ -769,7 +781,8 @@
       "status": "活跃",
       "why": "低门槛移动英雄射击代表",
       "source": "公开补充",
-      "pool": "对标参照池"
+      "pool": "对标参照池",
+      "product_id": "product-c425305aa857252a"
     },
     {
       "name": "Among Us",
@@ -793,7 +806,8 @@
       },
       "aliases": [
         "Among Us!"
-      ]
+      ],
+      "product_id": "product-3e454ed8cf733cb6"
     },
     {
       "name": "鹅鸭杀",
@@ -814,7 +828,8 @@
         "monthly_revenue": 2443553,
         "data_date": "2026-08-04",
         "source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)"
-      }
+      },
+      "product_id": "product-dc6c69a3fb5f7dc1"
     },
     {
       "name": "太空行动",
@@ -828,7 +843,8 @@
       "status": "活跃",
       "why": "移动端全球化社交推理样本",
       "source": "DataBrain",
-      "pool": "对标参照池"
+      "pool": "对标参照池",
+      "product_id": "product-84b9ec884ec9949b"
     },
     {
       "name": "Project Winter",
@@ -842,7 +858,8 @@
       "status": "活跃",
       "why": "合作生存与身份背叛融合",
       "source": "公开补充",
-      "pool": "主追踪池"
+      "pool": "主追踪池",
+      "product_id": "product-c44a816ca4adf0ce"
     },
     {
       "name": "First Class Trouble",
@@ -856,7 +873,8 @@
       "status": "活跃",
       "why": "高表现力社交推理空间",
       "source": "公开补充",
-      "pool": "主追踪池"
+      "pool": "主追踪池",
+      "product_id": "product-f5791a03b59e29c0"
     },
     {
       "name": "Lockdown Protocol",
@@ -870,7 +888,8 @@
       "status": "活跃",
       "why": "实时动作强化身份博弈",
       "source": "公开补充",
-      "pool": "主追踪池"
+      "pool": "主追踪池",
+      "product_id": "product-ab417fceb5f1c359"
     },
     {
       "name": "Dread Hunger",
@@ -884,7 +903,8 @@
       "status": "历史样本",
       "why": "生存压力与身份推理融合样本",
       "source": "DataBrain",
-      "pool": "主追踪池"
+      "pool": "主追踪池",
+      "product_id": "product-90c79789e0d9c3bc"
     },
     {
       "name": "第五人格",
@@ -905,7 +925,8 @@
         "monthly_revenue": 8476800,
         "data_date": "2026-08-04",
         "source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)"
-      }
+      },
+      "product_id": "product-c16c6bbe69d24374"
     },
     {
       "name": "黎明杀机",
@@ -919,7 +940,8 @@
       "status": "活跃",
       "why": "非对称恐怖竞技定义级产品",
       "source": "DataBrain",
-      "pool": "对标参照池"
+      "pool": "对标参照池",
+      "product_id": "product-4894b9cd872ff5ae"
     },
     {
       "name": "猫和老鼠",
@@ -933,7 +955,8 @@
       "status": "活跃",
       "why": "经典IP与轻量非对称玩法融合",
       "source": "DataBrain",
-      "pool": "对标参照池"
+      "pool": "对标参照池",
+      "product_id": "product-fc696968e72855b5"
     },
     {
       "name": "逃跑吧！少年",
@@ -947,7 +970,8 @@
       "status": "活跃",
       "why": "轻量追逃与道具卡组合",
       "source": "DataBrain",
-      "pool": "对标参照池"
+      "pool": "对标参照池",
+      "product_id": "product-42c79fb3194f1dea"
     },
     {
       "name": "七龙珠：破界斗士",
@@ -961,7 +985,8 @@
       "status": "活跃",
       "why": "IP驱动的多人生存非对称样本",
       "source": "DataBrain",
-      "pool": "对标参照池"
+      "pool": "对标参照池",
+      "product_id": "product-7b3db224f53a222a"
     },
     {
       "name": "捉鬼敢死队：灵魂释放",
@@ -978,7 +1003,8 @@
       "pool": "对标参照池",
       "aliases": [
         "Ghostbusters: Spirits Unleashed Ecto Edition"
-      ]
+      ],
+      "product_id": "product-7c724666f25e9b6e"
     },
     {
       "name": "皇室战争",
@@ -999,7 +1025,8 @@
         "monthly_revenue": 17187763,
         "data_date": "2026-08-04",
         "source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)"
-      }
+      },
+      "product_id": "product-3c74e3caf77f3a5c"
     },
     {
       "name": "漫威终极逆转",
@@ -1023,7 +1050,8 @@
       },
       "aliases": [
         "MARVEL SNAP - Hero Card Game"
-      ]
+      ],
+      "product_id": "product-4d9d65d3c27cd007"
     },
     {
       "name": "Rush Royale",
@@ -1037,7 +1065,8 @@
       "status": "活跃",
       "why": "合成塔防与实时PvP代表",
       "source": "公开补充",
-      "pool": "主追踪池"
+      "pool": "主追踪池",
+      "product_id": "product-262e6d44b507fee9"
     },
     {
       "name": "随机骰子",
@@ -1054,7 +1083,8 @@
       "pool": "主追踪池",
       "aliases": [
         "랜덤 다이스 디펜스 : PVP 타워 디펜스"
-      ]
+      ],
+      "product_id": "product-e33c1cde3b1a4308"
     },
     {
       "name": "云顶之弈",
@@ -1075,7 +1105,8 @@
         "monthly_revenue": null,
         "data_date": "2026-08-04",
         "source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)"
-      }
+      },
+      "product_id": "product-1f89af228e22a3b0"
     },
     {
       "name": "金铲铲之战",
@@ -1096,7 +1127,8 @@
         "monthly_revenue": 19807089,
         "data_date": "2026-08-04",
         "source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)"
-      }
+      },
+      "product_id": "product-ca1afba4314f71b2"
     },
     {
       "name": "炉石传说：酒馆战棋",
@@ -1114,7 +1146,8 @@
       "aliases": [
         "Hearthstone: Heroes of Warcraft",
         "Hearthstone: Scholomance Academy"
-      ]
+      ],
+      "product_id": "product-4b68d0f1a8f41616"
     },
     {
       "name": "Super Auto Pets",
@@ -1135,7 +1168,8 @@
         "monthly_revenue": null,
         "data_date": "",
         "source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)"
-      }
+      },
+      "product_id": "product-bb5040c29b588727"
     },
     {
       "name": "背包乱斗",
@@ -1156,7 +1190,8 @@
         "monthly_revenue": null,
         "data_date": "",
         "source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)"
-      }
+      },
+      "product_id": "product-b926c2e78cfc059c"
     },
     {
       "name": "致命公司",
@@ -1177,7 +1212,8 @@
         "monthly_revenue": null,
         "data_date": "",
         "source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)"
-      }
+      },
+      "product_id": "product-237ee9077d667be7"
     },
     {
       "name": "R.E.P.O.",
@@ -1198,7 +1234,8 @@
         "monthly_revenue": null,
         "data_date": "",
         "source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)"
-      }
+      },
+      "product_id": "product-781faedee7fab010"
     },
     {
       "name": "内容警告",
@@ -1212,7 +1249,8 @@
       "status": "活跃",
       "why": "把内容生产与游戏内收益直接连接",
       "source": "DataBrain",
-      "pool": "主追踪池"
+      "pool": "主追踪池",
+      "product_id": "product-ce33cfb84c2a11c5"
     },
     {
       "name": "恐鬼症",
@@ -1233,7 +1271,8 @@
         "monthly_revenue": null,
         "data_date": "",
         "source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)"
-      }
+      },
+      "product_id": "product-62a94f26fd25e1e8"
     },
     {
       "name": "超自然行动组",
@@ -1247,7 +1286,8 @@
       "status": "活跃",
       "why": "移动端合作搜打撤与本土化微恐代表",
       "source": "DataBrain+公开校验",
-      "pool": "对标参照池"
+      "pool": "对标参照池",
+      "product_id": "product-6d5baa1704e9896b"
     },
     {
       "name": "PEAK",
@@ -1261,7 +1301,8 @@
       "status": "活跃",
       "why": "轻操作合作攀登与失败喜剧",
       "source": "公开补充",
-      "pool": "主追踪池"
+      "pool": "主追踪池",
+      "product_id": "product-c797f4a5fc3c93da"
     },
     {
       "name": "Escape the Backrooms",
@@ -1275,7 +1316,8 @@
       "status": "活跃",
       "why": "后室题材多人合作逃生代表",
       "source": "公开补充",
-      "pool": "主追踪池"
+      "pool": "主追踪池",
+      "product_id": "product-43cb96af11d50309"
     },
     {
       "name": "Murky Divers",
@@ -1289,7 +1331,8 @@
       "status": "活跃",
       "why": "水下环境与物资回收合作",
       "source": "公开补充",
-      "pool": "主追踪池"
+      "pool": "主追踪池",
+      "product_id": "product-8b2d922cad162cda"
     },
     {
       "name": "胡闹厨房2",
@@ -1310,7 +1353,8 @@
         "monthly_revenue": null,
         "data_date": "",
         "source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)"
-      }
+      },
+      "product_id": "product-fd74e45cc7a3068a"
     },
     {
       "name": "PlateUp!",
@@ -1324,7 +1368,8 @@
       "status": "活跃",
       "why": "经营构筑与多人协作融合",
       "source": "公开补充",
-      "pool": "主追踪池"
+      "pool": "主追踪池",
+      "product_id": "product-0dfdd424166a6c2f"
     },
     {
       "name": "Dark and Darker",
@@ -1338,7 +1383,8 @@
       "status": "边界样本",
       "why": "合作探索与玩家竞争并存的混合互动",
       "source": "公开补充",
-      "pool": "边界观察池"
+      "pool": "边界观察池",
+      "product_id": "product-94d49d7936c902aa"
     },
     {
       "name": "Pummel Party",
@@ -1352,7 +1398,8 @@
       "status": "活跃",
       "why": "棋盘推进与小游戏竞争结合",
       "source": "公开补充",
-      "pool": "主追踪池"
+      "pool": "主追踪池",
+      "product_id": "product-a62520d36519eb48"
     },
     {
       "name": "King of the Castle",
@@ -1366,7 +1413,8 @@
       "status": "观察",
       "why": "主播与观众共同参与的群体博弈",
       "source": "公开补充",
-      "pool": "边界观察池"
+      "pool": "边界观察池",
+      "product_id": "product-2d53794acd59a5a1"
     },
     {
       "name": "Dale & Dawson Stationery Supplies",
@@ -1380,7 +1428,8 @@
       "status": "活跃",
       "why": "办公室任务与隐藏身份结合",
       "source": "公开补充",
-      "pool": "主追踪池"
+      "pool": "主追踪池",
+      "product_id": "product-26e9ed20a73683b9"
     },
     {
       "name": "星露谷物语",
@@ -1402,7 +1451,8 @@
         "monthly_revenue": 265913,
         "data_date": "2026-08-04",
         "source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)"
-      }
+      },
+      "product_id": "product-d57eee8efb88d26b"
     },
     {
       "name": "潜水员戴夫",
@@ -1417,7 +1467,8 @@
       "pool": "对标参照池",
       "source": "DataBrain",
       "track": "模拟经营",
-      "social_attr": false
+      "social_attr": false,
+      "product_id": "product-142f1aa8722ba823"
     },
     {
       "name": "史莱姆牧场",
@@ -1432,7 +1483,8 @@
       "pool": "对标参照池",
       "source": "DataBrain",
       "track": "模拟经营",
-      "social_attr": false
+      "social_attr": false,
+      "product_id": "product-27f4d32b71738db4"
     },
     {
       "name": "药剂工艺",
@@ -1450,7 +1502,8 @@
       "social_attr": false,
       "aliases": [
         "Potion Craft: Alchemist Simulator"
-      ]
+      ],
+      "product_id": "product-f400e529df696393"
     },
     {
       "name": "沙石镇时光",
@@ -1465,7 +1518,8 @@
       "pool": "主追踪池",
       "source": "DataBrain",
       "track": "模拟经营",
-      "social_attr": true
+      "social_attr": true,
+      "product_id": "product-327bdec86b360409"
     },
     {
       "name": "珊瑚岛",
@@ -1480,7 +1534,8 @@
       "pool": "主追踪池",
       "source": "DataBrain",
       "track": "模拟经营",
-      "social_attr": true
+      "social_attr": true,
+      "product_id": "product-6bef13d7cf18ec75"
     },
     {
       "name": "WePlay",
@@ -1494,7 +1549,8 @@
       "why": "2025年品类收入第2（约9620万美元），小游戏合集+强社交语音的派对平台",
       "pool": "对标参照池",
       "source": "DataBrain品类Top榜锚定",
-      "track": "竞技互动"
+      "track": "竞技互动",
+      "product_id": "product-cf49b104531d4b54"
     },
     {
       "name": "TopTop",
@@ -1508,7 +1564,8 @@
       "why": "2025年品类收入第4（约2602万美元，环比+50%），增长强劲的派对合集",
       "pool": "对标参照池",
       "source": "DataBrain品类Top榜锚定",
-      "track": "竞技互动"
+      "track": "竞技互动",
+      "product_id": "product-baffad2f8e9f5988"
     },
     {
       "name": "Pocket Champs",
@@ -1522,7 +1579,8 @@
       "why": "2025年品类收入第5（约2600万美元），异步竞速+轻养成的派对化竞速",
       "pool": "主追踪池",
       "source": "DataBrain品类Top榜锚定",
-      "track": "竞技互动"
+      "track": "竞技互动",
+      "product_id": "product-95de104d76bb4158"
     },
     {
       "name": "乐高派对",
@@ -1536,7 +1594,8 @@
       "why": "2025年PC/主机端品类收入第1（约2849万美元），IP切入派对赛道的标杆",
       "pool": "对标参照池",
       "source": "DataBrain品类Top榜锚定",
-      "track": "竞技互动"
+      "track": "竞技互动",
+      "product_id": "product-bacd31ba2c0e278a"
     },
     {
       "name": "终极鸡马",
@@ -1550,7 +1609,8 @@
       "why": "小团队长线样本：2025年PC/主机端品类收入第2（约2552万美元），上线近10年仍稳定",
       "pool": "主追踪池",
       "source": "DataBrain品类Top榜锚定",
-      "track": "竞技互动"
+      "track": "竞技互动",
+      "product_id": "product-ae1e5d8616a26806"
     },
     {
       "name": "Jackbox派对包",
@@ -1564,7 +1624,8 @@
       "why": "手机即控制器的聚会游戏模式，系列自2014起持续更新，多款同时进入2025年PC/主机端收入Top5",
       "pool": "主追踪池",
       "source": "DataBrain品类Top榜锚定",
-      "track": "竞技互动"
+      "track": "竞技互动",
+      "product_id": "product-187608ffa5b370a8"
     },
     {
       "name": "爆裂小队",
@@ -1578,7 +1639,8 @@
       "status": "活跃",
       "why": "Supercell 2024核心新品，融合采集、乱斗和角色养成，短局轻竞技代表",
       "source": "公开补充",
-      "pool": "对标参照池"
+      "pool": "对标参照池",
+      "product_id": "product-db13118ddc360544"
     },
     {
       "name": "死亡笔记：杀手同盟",
@@ -1592,7 +1654,8 @@
       "status": "活跃",
       "why": "2025年Steam收入约213万美元、销量28万份，经典动漫IP与社交推理玩法的融合样本",
       "source": "DataBrain品类Top榜锚定",
-      "pool": "主追踪池"
+      "pool": "主追踪池",
+      "product_id": "product-6c34d424f11685fd"
     },
     {
       "name": "Town of Salem 2",
@@ -1606,7 +1669,8 @@
       "status": "活跃",
       "why": "2025年移动端收入约540万美元+PC端89万美元，经典社交推理IP的长线续作",
       "source": "DataBrain品类Top榜锚定",
-      "pool": "主追踪池"
+      "pool": "主追踪池",
+      "product_id": "product-9959024d447819fc"
     },
     {
       "name": "Lucky Defense",
@@ -1620,7 +1684,8 @@
       "status": "活跃",
       "why": "2025年移动端收入约5150万美元，111%（Random Dice同厂）出品的合作塔防，随机性与塔防竞技融合",
       "source": "DataBrain品类Top榜锚定",
-      "pool": "主追踪池"
+      "pool": "主追踪池",
+      "product_id": "product-32f577505c8cc949"
     },
     {
       "name": "Dinkum",
@@ -1635,7 +1700,8 @@
       "why": "2025年Steam收入约739万美元、销量近20万份，1人开发的澳洲主题农场模拟，供给端极友好",
       "source": "DataBrain品类Top榜锚定",
       "pool": "主追踪池",
-      "social_attr": true
+      "social_attr": true,
+      "product_id": "product-e73219cb44d8b9cb"
     },
     {
       "name": "Luma Island",
@@ -1650,7 +1716,8 @@
       "why": "2025年Steam收入约547万美元、销量11万份，中小团队对星露谷范式的最新迭代",
       "source": "DataBrain品类Top榜锚定",
       "pool": "主追踪池",
-      "social_attr": true
+      "social_attr": true,
+      "product_id": "product-662b4a87aacab6bc"
     },
     {
       "name": "塔塔冒险队",
@@ -1690,7 +1757,8 @@
         ],
         "latest_date": "2026-09-29",
         "media_coverage": 1
-      }
+      },
+      "product_id": "product-54ffb8e0ff438049"
     },
     {
       "name": "Epic Shaman Battle: 4P Defense",
@@ -1704,7 +1772,8 @@
       "status": "活跃",
       "why": "111%出品，4人合作随机塔防，Lucky Defense同厂新品；厂商追踪发现",
       "source": "DataBrain厂商追踪",
-      "pool": "主追踪池"
+      "pool": "主追踪池",
+      "product_id": "product-dbf8896894bd09c5"
     },
     {
       "name": "Plinko Defense",
@@ -1718,7 +1787,8 @@
       "status": "活跃",
       "why": "111%出品，弹球+合成塔防融合，与塔塔冒险队属同一融合方向；厂商追踪发现",
       "source": "DataBrain厂商追踪",
-      "pool": "主追踪池"
+      "pool": "主追踪池",
+      "product_id": "product-8836a2d93b0f57d5"
     },
     {
       "name": "I Am Sword",
@@ -1732,7 +1802,8 @@
       "status": "活跃",
       "why": "111%出品，水墨风双人合作肉鸽RPG，跨品类合作互动新样本；厂商追踪发现",
       "source": "DataBrain厂商追踪",
-      "pool": "主追踪池"
+      "pool": "主追踪池",
+      "product_id": "product-31a76ef5f8f421ea"
     },
     {
       "name": "Castle Clashers",
@@ -1746,7 +1817,8 @@
       "status": "活跃",
       "why": "Voodoo从超休闲转向PvP融合的代表作，1v1城堡对轰，高增长；厂商追踪发现",
       "source": "DataBrain厂商追踪",
-      "pool": "主追踪池"
+      "pool": "主追踪池",
+      "product_id": "product-90674d7a4f44c97e"
     },
     {
       "name": "Cup Heroes",
@@ -1760,7 +1832,8 @@
       "status": "活跃",
       "why": "Voodoo混合休闲爆款，物理溢出反馈+Roguelike成长，超休闲向中重度转化样本；厂商追踪发现",
       "source": "DataBrain厂商追踪",
-      "pool": "主追踪池"
+      "pool": "主追踪池",
+      "product_id": "product-a74d9f1096775d55"
     },
     {
       "name": "Bag Fight",
@@ -1776,7 +1849,8 @@
       "source": "DataBrain厂商追踪",
       "pool": "主追踪池",
       "developer": "Voodoo",
-      "publisher": "Voodoo"
+      "publisher": "Voodoo",
+      "product_id": "product-fc8c67902b93b83c"
     },
     {
       "name": "幻兽帕鲁",
@@ -1797,7 +1871,8 @@
         "monthly_revenue": null,
         "data_date": "",
         "source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)"
-      }
+      },
+      "product_id": "product-ca3874ca040b5fe8"
     },
     {
       "name": "创世理想乡",
@@ -1811,7 +1886,8 @@
       "status": "活跃",
       "why": "Pocketpair前作，与幻兽帕鲁同源，缝合多种玩法",
       "source": "公开补充",
-      "pool": "主追踪池"
+      "pool": "主追踪池",
+      "product_id": "product-d4f3fe7b5f0c0e20"
     },
     {
       "name": "方舟：生存进化",
@@ -1832,7 +1908,8 @@
         "monthly_revenue": null,
         "data_date": "",
         "source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)"
-      }
+      },
+      "product_id": "product-eb3f2adf71eedd81"
     },
     {
       "name": "七日世界",
@@ -1853,7 +1930,8 @@
         "monthly_revenue": null,
         "data_date": "2026-08-04",
         "source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)"
-      }
+      },
+      "product_id": "product-6f578b6a30cf2071"
     },
     {
       "name": "灵动小镇",
@@ -1870,7 +1948,8 @@
       "pool": "主追踪池",
       "aliases": [
         "Go Go Town"
-      ]
+      ],
+      "product_id": "product-b84aaeb59aa0e60e"
     },
     {
       "name": "Smalland",
@@ -1884,7 +1963,8 @@
       "status": "活跃",
       "why": "微观视角生存，驯服昆虫/蜘蛛/鸟类作为坐骑或战宠",
       "source": "DataBrain",
-      "pool": "主追踪池"
+      "pool": "主追踪池",
+      "product_id": "product-99ba5047d8b1931d"
     },
     {
       "name": "动物森友会",
@@ -1907,7 +1987,8 @@
         "复玩性强",
         "玩法简单"
       ],
-      "metrics": {}
+      "metrics": {},
+      "product_id": "product-e2cf8ccd82aec3fa"
     },
     {
       "name": "心动小镇",
@@ -1932,7 +2013,8 @@
         "复玩性强",
         "玩法简单"
       ],
-      "metrics": {}
+      "metrics": {},
+      "product_id": "product-caef5fd380c771f8"
     },
     {
       "name": "Palia",
@@ -1957,7 +2039,8 @@
         "复玩性强",
         "玩法简单"
       ],
-      "metrics": {}
+      "metrics": {},
+      "product_id": "product-dedef7b21ae71b45"
     },
     {
       "name": "迪士尼梦幻星谷",
@@ -1984,7 +2067,8 @@
         "社交传播属性强",
         "复玩性强"
       ],
-      "metrics": {}
+      "metrics": {},
+      "product_id": "product-0c254cfda80719d4"
     },
     {
       "name": "Fields of Mistria",
@@ -2006,7 +2090,8 @@
         "复玩性强",
         "玩法简单"
       ],
-      "metrics": {}
+      "metrics": {},
+      "product_id": "product-ec2f9ea3a87a3ff0"
     },
     {
       "name": "Go-Go Town!",
@@ -2028,7 +2113,8 @@
         "社交传播属性强",
         "复玩性强"
       ],
-      "metrics": {}
+      "metrics": {},
+      "product_id": "product-2b615cb5aa09428a"
     },
     {
       "name": "Cozy Grove",
@@ -2053,7 +2139,8 @@
         "复玩性强",
         "进入成本低"
       ],
-      "metrics": {}
+      "metrics": {},
+      "product_id": "product-7ae92d2553fa64c6"
     },
     {
       "name": "Sun Haven",
@@ -2075,7 +2162,8 @@
         "社交传播属性强",
         "复玩性强"
       ],
-      "metrics": {}
+      "metrics": {},
+      "product_id": "product-5e989a8c60aa4142"
     },
     {
       "name": "代号：奇旅",
@@ -2102,7 +2190,9 @@
         "进入成本低",
         "玩法简单"
       ],
-      "metrics": {}
+      "metrics": {},
+      "product_id": "product-dc884359b31468dd",
+      "alias_of": "山海奇旅"
     },
     {
       "name": "星布谷地",
@@ -2231,7 +2321,8 @@
             "type": "官方"
           }
         ]
-      }
+      },
+      "product_id": "product-6f70b509e812bf10"
     },
     {
       "name": "粒粒的小人国",
@@ -2352,7 +2443,8 @@
             "summary": "已核验原始发布者、标题与发布时间；此为首曝公开影像，不代表玩家测试版本。"
           }
         ]
-      }
+      },
+      "product_id": "product-d186fe023bf6c656"
     },
     {
       "name": "Paralives",
@@ -2373,7 +2465,8 @@
         "社交传播属性强",
         "复玩性强"
       ],
-      "metrics": {}
+      "metrics": {},
+      "product_id": "product-c7e3b7ed361ac38a"
     },
     {
       "name": "Witchbrook",
@@ -2397,7 +2490,8 @@
         "社交传播属性强",
         "复玩性强"
       ],
-      "metrics": {}
+      "metrics": {},
+      "product_id": "product-6f4e477e1799500b"
     },
     {
       "name": "朋友收集 梦想生活",
@@ -2419,7 +2513,8 @@
         "进入成本低",
         "玩法简单"
       ],
-      "metrics": {}
+      "metrics": {},
+      "product_id": "product-d89bb5caedda928c"
     },
     {
       "name": "Starsand Island",
@@ -2443,7 +2538,8 @@
         "社交传播属性强",
         "复玩性强"
       ],
-      "metrics": {}
+      "metrics": {},
+      "product_id": "product-cf4b204228b4422c"
     },
     {
       "name": "Spirit Crossing",
@@ -2479,7 +2575,8 @@
           }
         ],
         "latest_date": "2026-09-01"
-      }
+      },
+      "product_id": "product-5195b26779783496"
     },
     {
       "name": "集合！浆果镇",
@@ -2546,7 +2643,8 @@
         "stage": "尝鲜首测已结束",
         "stage_date": "2026-08-01",
         "reason": "国内限量删档不计费首测结束，后续安排待确认。"
-      }
+      },
+      "product_id": "product-4afbf920c4493fa2"
     },
     {
       "name": "How to Fish",
@@ -2622,7 +2720,8 @@
         "pipeline": false,
         "stage": "正式上线",
         "stage_date": "2026-08-20"
-      }
+      },
+      "product_id": "product-43126cdce61aab41"
     },
     {
       "name": "多多自走棋",
@@ -2724,7 +2823,8 @@
         "Auto Chess",
         "Auto Chess:Origin"
       ],
-      "databrain_query": "Auto Chess:Origin"
+      "databrain_query": "Auto Chess:Origin",
+      "product_id": "product-8d032dd5fb757f68"
     },
     {
       "name": "Mechabellum",
@@ -2815,7 +2915,8 @@
         "reason": "以大规模机甲编队和回合部署拓展自走棋的硬核策略边界。"
       },
       "icon_path": "/game-icons/audit-mechabellum.jpg",
-      "icon_source": "steam"
+      "icon_source": "steam",
+      "product_id": "product-48fcf51a51d159d8"
     },
     {
       "name": "The Bazaar",
@@ -2906,7 +3007,8 @@
         "reason": "以商店选购和英雄构筑驱动自动战斗，是背包构筑与自走棋融合的重要样本。"
       },
       "icon_path": "/game-icons/audit-the-bazaar.jpg",
-      "icon_source": "steam"
+      "icon_source": "steam",
+      "product_id": "product-2913ea073fb22586"
     },
     {
       "name": "Once Upon a Galaxy",
@@ -3001,7 +3103,8 @@
         "reason": "跨移动与 PC 的轻量卡牌自走棋，是新一代小团队产品样本。"
       },
       "icon_path": "/game-icons/audit-once-upon-a-galaxy.jpg",
-      "icon_source": "steam"
+      "icon_source": "steam",
+      "product_id": "product-b25530c4196b86e1"
     },
     {
       "name": "Random Dice 2",
@@ -3094,7 +3197,8 @@
         "reason": "随机塔防头部系列续作，已从概率抽取转向更强调对局策略的产品验证。"
       },
       "icon_path": "/game-icons/audit-random-dice-2.jpg",
-      "icon_source": "google-play"
+      "icon_source": "google-play",
+      "product_id": "product-f3e1cf2fcac491a6"
     },
     {
       "name": "PICO PARK 2",
@@ -3189,7 +3293,8 @@
         "reason": "低门槛多人协作解谜代表，关卡要求实时沟通与共同完成。"
       },
       "icon_path": "/game-icons/audit-pico-park-2.jpg",
-      "icon_source": "steam"
+      "icon_source": "steam",
+      "product_id": "product-50e0e4fef36a4d95"
     },
     {
       "name": "人类一败涂地",
@@ -3290,7 +3395,8 @@
         "reason": "物理互动与多人协作的长线常青样本，补齐派对合作品类基础标杆。"
       },
       "icon_path": "/game-icons/audit-human-fall-flat.jpg",
-      "icon_source": "steam"
+      "icon_source": "steam",
+      "product_id": "product-d10428814e43dcf8"
     },
     {
       "name": "Chained Together",
@@ -3381,7 +3487,8 @@
         "reason": "物理绳链把失误和进度绑定给全队，是强传播的协作闯关机制样本。"
       },
       "icon_path": "/game-icons/audit-chained-together.jpg",
-      "icon_source": "steam"
+      "icon_source": "steam",
+      "product_id": "product-bf81b58529a22869"
     },
     {
       "name": "Deceit 2",
@@ -3476,7 +3583,8 @@
         "reason": "隐藏身份、语音博弈与实时逃生结合，是社交推理向动作化演进的核心样本。"
       },
       "icon_path": "/game-icons/audit-deceit-2.jpg",
-      "icon_source": "steam"
+      "icon_source": "steam",
+      "product_id": "product-31af5aa9e2107a1f"
     },
     {
       "name": "The Outlast Trials",
@@ -3571,7 +3679,8 @@
         "reason": "中重度合作恐怖标杆，用于对照轻量合作产品的协作压力与内容周期。"
       },
       "icon_path": "/game-icons/audit-outlast-trials.jpg",
-      "icon_source": "steam"
+      "icon_source": "steam",
+      "product_id": "product-f469c974c7d38cb3"
     },
     {
       "name": "mo.co",
@@ -3664,7 +3773,8 @@
         "reason": "Supercell 对移动端短局合作狩猎和赛季服务的验证，是中度化边界参照。"
       },
       "icon_path": "/game-icons/audit-moco.jpg",
-      "icon_source": "google-play"
+      "icon_source": "google-play",
+      "product_id": "product-01bc07cf437554bd"
     },
     {
       "name": "Aniimo",
@@ -3816,7 +3926,8 @@
         "reviewed_at": "2026-10-08"
       },
       "icon_path": "/game-icons/audit-aniimo.jpg",
-      "icon_source": "app-store-us"
+      "icon_source": "app-store-us",
+      "product_id": "product-430468b3d1844ff7"
     },
     {
       "name": "My Time at Evershine",
@@ -3935,7 +4046,8 @@
       "aliases": [
         "时光3：永耀之境",
         "My Time at Evershine"
-      ]
+      ],
+      "product_id": "product-ee5229b13f6c5926"
     },
     {
       "name": "闪耀吧！噜咪",
@@ -4054,7 +4166,8 @@
         "reason": "新品发现候选，已进入捉宠类竞品观察，不计入在研项目。"
       },
       "icon_path": "/game-icons/youyansuo-lumi.jpg",
-      "icon_source": "App Store 中国区 · id6754912970"
+      "icon_source": "App Store 中国区 · id6754912970",
+      "product_id": "product-7b685c2dd26c98b6"
     },
     {
       "name": "BanG Dream! Our Notes",
@@ -4165,7 +4278,8 @@
       },
       "identity_status": "matched_by_store_id",
       "icon_path": "/game-icons/youyansuo-our-notes.jpg",
-      "icon_source": "App Store 美国区 · id6757695187"
+      "icon_source": "App Store 美国区 · id6757695187",
+      "product_id": "product-11541b99e0cc6732"
     },
     {
       "name": "火人冲冲冲",
@@ -4280,7 +4394,8 @@
         "reason": "仅明确写出发生日期的官方披露、测试或发售进入事件时间线；其余文章按报道日期归档。"
       },
       "icon_path": "/game-icons/youyansuo-fire-pending.svg",
-      "icon_source": "文字占位；尚无可核验的官方图标"
+      "icon_source": "文字占位；尚无可核验的官方图标",
+      "product_id": "product-9d513297af420c5d"
     },
     {
       "name": "奇遇动物城",
@@ -4425,7 +4540,8 @@
         "reason": "仅明确写出发生日期的官方披露、测试或发售进入事件时间线；其余文章按报道日期归档。"
       },
       "icon_path": "/game-icons/youyansuo-animal-city.png",
-      "icon_source": "TapTap 官方预约页 · app/904033"
+      "icon_source": "TapTap 官方预约页 · app/904033",
+      "product_id": "product-66ee43685a7f633b"
     },
     {
       "name": "未眠野",
@@ -4618,7 +4734,8 @@
         "reason": "仅明确写出发生日期的官方披露、测试或发售进入事件时间线；其余文章按报道日期归档。"
       },
       "icon_path": "/game-icons/youyansuo-unawake.png",
-      "icon_source": "TapTap 官方预约页 · app/894924"
+      "icon_source": "TapTap 官方预约页 · app/894924",
+      "product_id": "product-fba226cd41095b8d"
     },
     {
       "name": "Dressmaker",
@@ -4791,7 +4908,8 @@
             "note": "团队规模与原型经历为媒体报道口径，非官方人数"
           }
         ]
-      }
+      },
+      "product_id": "product-9444c58978478dae"
     },
     {
       "name": "源初之结",
@@ -4964,7 +5082,8 @@
         "reviewed_at": "2026-10-08"
       },
       "icon_path": "/game-icons/youyansuo-nodusfall.png",
-      "icon_source": "TapTap 官方预约页 · app/917670"
+      "icon_source": "TapTap 官方预约页 · app/917670",
+      "product_id": "product-edac97a27f37be5d"
     },
     {
       "name": "时之铃",
@@ -5071,7 +5190,8 @@
         "reason": "仅明确写出发生日期的官方披露、测试或发售进入事件时间线；其余文章按报道日期归档。"
       },
       "icon_path": "/game-icons/youyansuo-bell-of-time.png",
-      "icon_source": "TapTap 官方预约页 · app/481530"
+      "icon_source": "TapTap 官方预约页 · app/481530",
+      "product_id": "product-17dab7439f9906ef"
     },
     {
       "name": "蓝色星原：旅谣",
@@ -5267,7 +5387,8 @@
         "reason": "仅明确写出发生日期的官方披露、测试或发售进入事件时间线；其余文章按报道日期归档。"
       },
       "icon_path": "/game-icons/youyansuo-azur-promilia.png",
-      "icon_source": "TapTap 官方预约页 · app/593829"
+      "icon_source": "TapTap 官方预约页 · app/593829",
+      "product_id": "product-5a04b291f0807280"
     },
     {
       "name": "Project63",
@@ -5381,7 +5502,8 @@
             "node_link_status": "unconfirmed"
           }
         ]
-      }
+      },
+      "product_id": "product-b058deefe7abf3a5"
     },
     {
       "name": "Dear Passengers",
@@ -5496,7 +5618,8 @@
             "node_link_status": "unconfirmed"
           }
         ]
-      }
+      },
+      "product_id": "product-ace6ffabed000971"
     },
     {
       "name": "王者万象棋",
@@ -5757,7 +5880,8 @@
         "reviewed_at": "2026-10-08"
       },
       "icon_path": "/game-icons/taptap-243110.png",
-      "icon_source": "taptap"
+      "icon_source": "taptap",
+      "product_id": "product-01c5121cec79728e"
     }
   ],
   "pipelineDetails": {
@@ -5779,7 +5903,9 @@
           "source": "官方社区",
           "type": "测试回顾",
           "title": "安家测试玩家共创回顾片",
-          "url": "https://www.bilibili.com/video/BV11FXoBPE9F/"
+          "url": "https://www.bilibili.com/video/BV11FXoBPE9F/",
+          "product_id": "product-d186fe023bf6c656",
+          "milestone_id": "milestone-b33394535f0d6b7c1662"
         },
         {
           "date": "2026-03-20",
@@ -5787,7 +5913,9 @@
           "source": "Bilibili",
           "type": "完整实机",
           "title": "安家测试完整实机流程",
-          "url": "https://www.bilibili.com/video/BV1ufAGzGEz1/"
+          "url": "https://www.bilibili.com/video/BV1ufAGzGEz1/",
+          "product_id": "product-d186fe023bf6c656",
+          "milestone_id": "milestone-6e0860fe1a295d6490f1"
         },
         {
           "date": "2026-09-22",
@@ -5802,7 +5930,9 @@
           "verified_at": "2026-10-08",
           "duration_seconds": "14820",
           "version_verified": "true",
-          "milestone_date": "2026-09-22"
+          "milestone_date": "2026-09-22",
+          "product_id": "product-d186fe023bf6c656",
+          "milestone_id": "milestone-ced01e520802c63b64cd"
         },
         {
           "date": "2026-09-22",
@@ -5817,7 +5947,9 @@
           "verified_at": "2026-10-08",
           "duration_seconds": "60",
           "version_verified": "true",
-          "milestone_date": "2026-09-22"
+          "milestone_date": "2026-09-22",
+          "product_id": "product-d186fe023bf6c656",
+          "milestone_id": "milestone-ced01e520802c63b64cd"
         },
         {
           "title": "《粒粒的小人国》首曝PV&实机演示丨世界无限放大，烦恼统统变小",
@@ -5833,7 +5965,9 @@
           "duration_seconds": "750",
           "publisher_id": "3546939362642175",
           "node_link_status": "matched",
-          "summary": "已核验原始发布者、标题与发布时间；此为首曝公开影像，不代表玩家测试版本。"
+          "summary": "已核验原始发布者、标题与发布时间；此为首曝公开影像，不代表玩家测试版本。",
+          "product_id": "product-d186fe023bf6c656",
+          "milestone_id": "milestone-57d22f3c0ebf5fb60ed7"
         }
       ],
       "media_reports": [
@@ -5941,8 +6075,13 @@
               "scope": "官方首曝 PV、同期开发版本实机及原始发布信息",
               "urls": [
                 "https://www.bilibili.com/video/BV12Ap2zjE5C/"
-              ]
-            }
+              ],
+              "milestone_id": "milestone-57d22f3c0ebf5fb60ed7",
+              "fingerprint": "a2d765687a3566885ca930ca51f2854bae70798b40bac116053ff414216b8587"
+            },
+            "product_id": "product-d186fe023bf6c656",
+            "milestone_id": "milestone-57d22f3c0ebf5fb60ed7",
+            "event_date": "2025-09-24"
           },
           {
             "date": "2026-03-19",
@@ -5950,7 +6089,10 @@
             "title": "首次“安家测试”开启",
             "summary": "PC、iOS、Android 三端首次公开验证，核心建造、探索与社交系统进入玩家测试。",
             "source": "TapTap 官方社区",
-            "url": "https://www.taptap.cn/moment/780507511374482798"
+            "url": "https://www.taptap.cn/moment/780507511374482798",
+            "product_id": "product-d186fe023bf6c656",
+            "milestone_id": "milestone-6e0860fe1a295d6490f1",
+            "event_date": "2026-03-19"
           },
           {
             "date": "2026-03-30",
@@ -5959,7 +6101,10 @@
             "summary": "官方确认删档收官并进入移动、碰撞、性能、建造、UI 与内容体量的集中优化阶段。",
             "source": "Steam 官方社区",
             "url": "https://steamcommunity.com/app/3767320?l=schinese",
-            "lifecycle_phase": "first"
+            "lifecycle_phase": "first",
+            "product_id": "product-d186fe023bf6c656",
+            "milestone_id": "milestone-b33394535f0d6b7c1662",
+            "event_date": "2026-03-30"
           },
           {
             "date": "2026-09-22",
@@ -5977,7 +6122,10 @@
                 "https://www.bilibili.com/video/BV1qkhJ6PESD/",
                 "https://www.bilibili.com/video/BV11Hew6vEhS/"
               ]
-            }
+            },
+            "product_id": "product-d186fe023bf6c656",
+            "milestone_id": "milestone-ced01e520802c63b64cd",
+            "event_date": "2026-09-22"
           }
         ],
         "status": "在研 · 定格二测已开启，正式上线未定",
@@ -6116,7 +6264,8 @@
         ],
         "status": "matched",
         "note": "官方账号发布定格测试开测影像；作为官方版本背景，与完整玩家实机分别标注。"
-      }
+      },
+      "product_id": "product-d186fe023bf6c656"
     },
     "王者万象棋": {
       "stage": "2026-09-10 已上线 · 全平台正式公测",
@@ -6136,7 +6285,9 @@
           "type": "旧版测试实机",
           "title": "旧版弈星阵容对局实机",
           "url": "https://www.bilibili.com/video/BV1cV4y127Us/",
-          "milestone_date": "2023-05-27"
+          "milestone_date": "2023-05-27",
+          "product_id": "product-01c5121cec79728e",
+          "milestone_id": "milestone-46103dae1f33bbc0f551"
         },
         {
           "date": "2024-06-16",
@@ -6144,7 +6295,9 @@
           "type": "新玩法测试实机",
           "title": "重构后新玩法测试与改动解析",
           "url": "https://www.bilibili.com/video/BV1ES421d7h7/",
-          "milestone_date": "2024-04-01"
+          "milestone_date": "2024-04-01",
+          "product_id": "product-01c5121cec79728e",
+          "milestone_id": "milestone-18d1b3197f0aa932dfc9"
         },
         {
           "date": "2025-10-26",
@@ -6152,7 +6305,9 @@
           "type": "秋季测试实机",
           "title": "新玩法首次实机演示直播全场回顾",
           "url": "https://www.bilibili.com/video/BV135xFzPErv/",
-          "milestone_date": "2025-10-30"
+          "milestone_date": "2025-10-30",
+          "product_id": "product-01c5121cec79728e",
+          "milestone_id": "milestone-8c7c999bc5f449d7b121"
         },
         {
           "date": "2025-12-27",
@@ -6160,7 +6315,9 @@
           "type": "冬季测试实机",
           "title": "冬季测试召唤流对局实机",
           "url": "https://www.bilibili.com/video/BV17LBCB1EiX/",
-          "milestone_date": "2025-12-25"
+          "milestone_date": "2025-12-25",
+          "product_id": "product-01c5121cec79728e",
+          "milestone_id": "milestone-54f0370febb0eb44936f"
         },
         {
           "date": "2026-03-24",
@@ -6168,7 +6325,9 @@
           "type": "终极测试实机",
           "title": "终极测试官方实机展示",
           "url": "https://www.bilibili.com/video/BV1DTQfBVErR/",
-          "milestone_date": "2026-03-24"
+          "milestone_date": "2026-03-24",
+          "product_id": "product-01c5121cec79728e",
+          "milestone_id": "milestone-c2ed70a06403efc54560"
         },
         {
           "date": "2026-04-07",
@@ -6176,7 +6335,9 @@
           "type": "对局实机",
           "title": "巨像召唤流内战完整对局",
           "url": "https://www.bilibili.com/video/BV1c7DqBPEHU/",
-          "milestone_date": "2026-04-07"
+          "milestone_date": "2026-04-07",
+          "product_id": "product-01c5121cec79728e",
+          "milestone_id": "milestone-c5baa345f7650d0e1aaf"
         },
         {
           "date": "2026-04-02",
@@ -6184,7 +6345,9 @@
           "type": "媒体试玩",
           "title": "终测版本试玩与完成度观察",
           "url": "https://news.17173.com/content/04022026/154658695.shtml",
-          "milestone_date": "2026-04-02"
+          "milestone_date": "2026-04-02",
+          "product_id": "product-01c5121cec79728e",
+          "milestone_id": "milestone-8d7fbe14112dc0499b88"
         }
       ],
       "media_reports": [
@@ -6405,7 +6568,10 @@
             "summary": "获得移动端版号后，旧版《王者万象棋》已向部分玩家发放内测资格；该版本仍接近传统自走棋框架。",
             "source": "公开测试报道",
             "url": "https://k.sina.com.cn/article_5515866240_148c57080001015tv5.html",
-            "lifecycle_phase": "internal"
+            "lifecycle_phase": "internal",
+            "product_id": "product-01c5121cec79728e",
+            "milestone_id": "milestone-46103dae1f33bbc0f551",
+            "event_date": "2023-05-27"
           },
           {
             "date": "2024-04-01",
@@ -6415,7 +6581,10 @@
             "summary": "制作人确认 2024 年 4 月完成首个新玩法外测版本，此后约每三个月推出一个版本测试，持续调整商店、英雄等级与经济规则。",
             "source": "制作人 Donny / TapTap 访谈",
             "url": "https://www.taptap.cn/moment/838709863520404903",
-            "lifecycle_phase": "first"
+            "lifecycle_phase": "first",
+            "product_id": "product-01c5121cec79728e",
+            "milestone_id": "milestone-18d1b3197f0aa932dfc9",
+            "event_date": "2024-04-01"
           },
           {
             "date": "2025-07-15",
@@ -6424,7 +6593,10 @@
             "summary": "官方合作渠道再次开启小规模保密测试招募，属于新玩法核心规则稳定前的外部验证轮次。",
             "source": "4399 官方合作社区",
             "url": "https://bbs.4399.cn/thread-view-tid-49729209",
-            "lifecycle_phase": "internal"
+            "lifecycle_phase": "internal",
+            "product_id": "product-01c5121cec79728e",
+            "milestone_id": "milestone-72ceeb52aaa9cd775ac1",
+            "event_date": "2025-07-15"
           },
           {
             "date": "2025-10-30",
@@ -6434,7 +6606,10 @@
             "summary": "限时删档保密的秋季测试持续更新至 11 月下旬；制作人确认这一阶段前后核心玩法已基本稳定。",
             "source": "官方更新公告 / 制作人访谈",
             "url": "https://www.iyingdi.com/tz/post/5636833",
-            "lifecycle_phase": "retest"
+            "lifecycle_phase": "retest",
+            "product_id": "product-01c5121cec79728e",
+            "milestone_id": "milestone-8c7c999bc5f449d7b121",
+            "event_date": "2025-10-30"
           },
           {
             "date": "2025-12-25",
@@ -6443,7 +6618,10 @@
             "summary": "首次大规模非保密开放，不计费删档，支持安卓与桌面模拟器数据互通。",
             "source": "官方测试安排",
             "url": "https://huodong.4399.cn/game/maintain/game/recruitTemplate/index?ext=2100",
-            "lifecycle_phase": "retest"
+            "lifecycle_phase": "retest",
+            "product_id": "product-01c5121cec79728e",
+            "milestone_id": "milestone-54f0370febb0eb44936f",
+            "event_date": "2025-12-25"
           },
           {
             "date": "2026-02-12",
@@ -6452,7 +6630,10 @@
             "summary": "冬季测试于 2 月 12 日 23:59 结束并清除测试数据。",
             "source": "TapTap 官方",
             "url": "https://www.taptap.cn/moment/770764594305043835",
-            "lifecycle_phase": "retest"
+            "lifecycle_phase": "retest",
+            "product_id": "product-01c5121cec79728e",
+            "milestone_id": "milestone-11ad30a85c2336e500bf",
+            "event_date": "2026-02-12"
           },
           {
             "date": "2026-03-24",
@@ -6461,7 +6642,10 @@
             "summary": "安卓与 PC 开启上线前付费删档测试，验证完整对局、付费与继承规则。",
             "source": "TapTap 官方",
             "url": "https://www.taptap.cn/app/243110",
-            "lifecycle_phase": "prelaunch"
+            "lifecycle_phase": "prelaunch",
+            "product_id": "product-01c5121cec79728e",
+            "milestone_id": "milestone-c2ed70a06403efc54560",
+            "event_date": "2026-03-24"
           },
           {
             "date": "2026-04-02",
@@ -6469,7 +6653,10 @@
             "title": "终测版本试玩公开",
             "summary": "公开终测版本试玩与完成度观察，验证核心规则、构筑和局外成长。",
             "source": "17173",
-            "url": "https://news.17173.com/content/04022026/154658695.shtml"
+            "url": "https://news.17173.com/content/04022026/154658695.shtml",
+            "product_id": "product-01c5121cec79728e",
+            "milestone_id": "milestone-8d7fbe14112dc0499b88",
+            "event_date": "2026-04-02"
           },
           {
             "date": "2026-04-07",
@@ -6478,7 +6665,10 @@
             "summary": "公开终测版本核心对局，补充观察召唤流构筑、资源争夺和战斗节奏。",
             "source": "Bilibili",
             "url": "https://www.bilibili.com/video/BV1c7DqBPEHU/",
-            "lifecycle_phase": "prelaunch"
+            "lifecycle_phase": "prelaunch",
+            "product_id": "product-01c5121cec79728e",
+            "milestone_id": "milestone-c5baa345f7650d0e1aaf",
+            "event_date": "2026-04-07"
           },
           {
             "date": "2026-05-25",
@@ -6487,7 +6677,10 @@
             "summary": "终极测试于 5 月 25 日 23:59 结束；次日重新开服进入独立的上线版本验证阶段。",
             "source": "TapTap 官方",
             "url": "https://www.taptap.cn/moment/807943215318565363",
-            "lifecycle_phase": "prelaunch"
+            "lifecycle_phase": "prelaunch",
+            "product_id": "product-01c5121cec79728e",
+            "milestone_id": "milestone-1986e1299804c52fcf9d",
+            "event_date": "2026-05-25"
           },
           {
             "date": "2026-05-26",
@@ -6496,7 +6689,10 @@
             "summary": "短期测试用于验证新开发内容，并在正式上线前排除关键问题。",
             "source": "TapTap 官方",
             "url": "https://www.taptap.cn/moment/807943215318565363",
-            "lifecycle_phase": "release"
+            "lifecycle_phase": "release",
+            "product_id": "product-01c5121cec79728e",
+            "milestone_id": "milestone-751ce9c2f5854175f11f",
+            "event_date": "2026-05-26"
           },
           {
             "date": "2026-06-08",
@@ -6505,7 +6701,10 @@
             "summary": "为期两周的版本验证结束，项目组转入正式上线筹备。",
             "source": "TapTap 官方",
             "url": "https://www.taptap.cn/moment/807943215318565363",
-            "lifecycle_phase": "release"
+            "lifecycle_phase": "release",
+            "product_id": "product-01c5121cec79728e",
+            "milestone_id": "milestone-0b1b943f4b6403abda4e",
+            "event_date": "2026-06-08"
           },
           {
             "date": "2026-07-28",
@@ -6514,7 +6713,10 @@
             "summary": "PC 与安卓体验服开始长期开放，用于正式服未来内容的前瞻验证；它不是另一轮编号测试。",
             "source": "TapTap 官方",
             "url": "https://www.taptap.cn/moment/828686118122686868",
-            "lifecycle_phase": "experience"
+            "lifecycle_phase": "experience",
+            "product_id": "product-01c5121cec79728e",
+            "milestone_id": "milestone-f9249ec6b2993437de56",
+            "event_date": "2026-07-28"
           },
           {
             "date": "2026-08-27",
@@ -6522,7 +6724,10 @@
             "title": "官宣 9 月 10 日正式上线",
             "summary": "官方预约页公布确切上线日期，终测后进入资源预载与发行准备。",
             "source": "TapTap 官方",
-            "url": "https://www.taptap.cn/app/243110"
+            "url": "https://www.taptap.cn/app/243110",
+            "product_id": "product-01c5121cec79728e",
+            "milestone_id": "milestone-0581c5c3252e8b658f75",
+            "event_date": "2026-08-27"
           },
           {
             "date": "2026-09-10",
@@ -6533,13 +6738,17 @@
             "source": "官方公告 / 官方产品页",
             "url": "https://www.taptap.cn/app/243110",
             "status": "confirmed",
-            "verified_at": "2026-10-08"
+            "verified_at": "2026-10-08",
+            "product_id": "product-01c5121cec79728e",
+            "milestone_id": "milestone-7185a0a7c9adcfda9c41",
+            "event_date": "2026-09-10"
           }
         ]
       },
       "release_status": "已上线 · 全平台正式公测",
       "lifecycle_reviewed_at": "2026-10-08",
-      "updated_at": "2026-10-02"
+      "updated_at": "2026-10-02",
+      "product_id": "product-01c5121cec79728e"
     },
     "山海奇旅": {
       "stage": "首次冒泡测试已结束 · 加测轮待公布",
@@ -6679,7 +6888,9 @@
           "title": "「冒泡测试」定档7月24日！",
           "url": "https://www.bilibili.com/video/BV15KTv6rEe3/",
           "replacement_note": "官方替代",
-          "milestone_date": "2026-07-02"
+          "milestone_date": "2026-07-02",
+          "product_id": "product-dc884359b31468dd",
+          "milestone_id": "milestone-32a21e2191f97a07c9c3"
         },
         {
           "date": "2026-07-24",
@@ -6687,7 +6898,9 @@
           "type": "媒体试玩",
           "title": "冒泡测试深度试玩",
           "url": "https://www.163.com/dy/article/L35NJQOH0526D7OK.html",
-          "milestone_date": "2026-07-24"
+          "milestone_date": "2026-07-24",
+          "product_id": "product-dc884359b31468dd",
+          "milestone_id": "milestone-b4caf43d04629aa2f405"
         },
         {
           "title": "《代号：奇旅》首曝PV | 烦恼暂停，上岛数云！",
@@ -6703,7 +6916,9 @@
           "duration_seconds": "176",
           "publisher_id": "3546735506885365",
           "node_link_status": "matched",
-          "summary": "已核验原始发布者、标题与发布时间；此为首曝公开影像，不代表玩家测试版本。"
+          "summary": "已核验原始发布者、标题与发布时间；此为首曝公开影像，不代表玩家测试版本。",
+          "product_id": "product-dc884359b31468dd",
+          "milestone_id": "milestone-2c22b50fc62ae64c9487"
         }
       ],
       "media_reports": [
@@ -6756,8 +6971,13 @@
               "scope": "官方首曝 PV、同期开发版本实机及原始发布信息",
               "urls": [
                 "https://www.bilibili.com/video/BV1f6eueKEUR/"
-              ]
-            }
+              ],
+              "milestone_id": "milestone-2c22b50fc62ae64c9487",
+              "fingerprint": "0b29a7109b1c9b53f5116893379c73aa8c2ecd65d6e707f2b59e2f3427097745"
+            },
+            "product_id": "product-dc884359b31468dd",
+            "milestone_id": "milestone-2c22b50fc62ae64c9487",
+            "event_date": "2024-08-21"
           },
           {
             "date": "2025-03-20",
@@ -6765,14 +6985,20 @@
             "title": "获得版号并完成项目定名沿革",
             "summary": "《山海奇旅》获得移动端国产网络游戏版号，批复文号国新出审〔2025〕516号，出版物号 ISBN 978-7-498-14751-6。",
             "source": "国家新闻出版署",
-            "url": "https://www.nppa.gov.cn/bsfw/jggs/yxspjg/gcwlyxspxx/202503/t20250321_888340.html"
+            "url": "https://www.nppa.gov.cn/bsfw/jggs/yxspjg/gcwlyxspxx/202503/t20250321_888340.html",
+            "product_id": "product-dc884359b31468dd",
+            "milestone_id": "milestone-290f60bda13460aae2e4",
+            "event_date": "2025-03-20"
           },
           {
             "date": "2026-05-20",
             "type": "测试招募",
             "title": "网易 520 发布会定名并开启测试招募",
             "summary": "正式定名《山海奇旅》，同步释放测试安排与核心玩法信息。",
-            "source": "网易 520 发布会"
+            "source": "网易 520 发布会",
+            "product_id": "product-dc884359b31468dd",
+            "milestone_id": "milestone-ad104e74625f591138db",
+            "event_date": "2026-05-20"
           },
           {
             "date": "2026-07-02",
@@ -6780,7 +7006,10 @@
             "title": "冒泡测试定档并公开实机",
             "summary": "公开实机并确认 7 月 24 日开启冒泡测试，提前展示角色材质、飞行探索与岛建方向。",
             "source": "叶子猪",
-            "url": "https://news.yzz.cn/domestic/202607-1766843.shtml"
+            "url": "https://news.yzz.cn/domestic/202607-1766843.shtml",
+            "product_id": "product-dc884359b31468dd",
+            "milestone_id": "milestone-32a21e2191f97a07c9c3",
+            "event_date": "2026-07-02"
           },
           {
             "date": "2026-07-24",
@@ -6788,7 +7017,10 @@
             "title": "冒泡测试开启",
             "summary": "PC / iOS / Android 三端限号删档测试，开放云海飞行探索、家园经营建造与社区轻社交，主要验证前期玩法吸引力与系统稳定性。",
             "source": "GRP 报告 #163",
-            "url": "https://grp.woa.com/report.html?id=163"
+            "url": "https://grp.woa.com/report.html?id=163",
+            "product_id": "product-dc884359b31468dd",
+            "milestone_id": "milestone-b4caf43d04629aa2f405",
+            "event_date": "2026-07-24"
           },
           {
             "date": "2026-07-31",
@@ -6796,12 +7028,16 @@
             "title": "预约突破 200 万，筹备加测轮",
             "summary": "首测规模有限，官方宣布近期筹备加测轮容纳更多玩家。",
             "source": "17173",
-            "url": "https://news.17173.com/content/07312026/004827679.shtml"
+            "url": "https://news.17173.com/content/07312026/004827679.shtml",
+            "product_id": "product-dc884359b31468dd",
+            "milestone_id": "milestone-40bd1dea5613c1132738",
+            "event_date": "2026-07-31"
           }
         ],
         "sourceUrl": "https://grp.woa.com/report.html?id=163",
         "sourceLabel": "GRP 报告 #163"
-      }
+      },
+      "product_id": "product-dc884359b31468dd"
     },
     "诡影藏锋": {
       "category": "社交-多人合作类",
@@ -6871,7 +7107,10 @@
             "title": "藏锋测试开启",
             "summary": "首轮 PC 限号删档测试开放 PvP 争锋、PvE 共御及基础局外养成系统。",
             "source": "官方测试信息",
-            "url": "https://www.gamersky.com/news/202608/2181498.shtml"
+            "url": "https://www.gamersky.com/news/202608/2181498.shtml",
+            "product_id": "product-5aa2e745bd1afe52",
+            "milestone_id": "milestone-78f9fc212e68013f1933",
+            "event_date": "2026-08-07"
           },
           {
             "date": "2026-08-10",
@@ -6880,7 +7119,10 @@
             "summary": "首轮四日测试结束，项目进入反馈整理与后续版本打磨阶段。",
             "source": "官方测试信息",
             "url": "https://www.gamersky.com/news/202608/2181498.shtml",
-            "lifecycle_phase": "first"
+            "lifecycle_phase": "first",
+            "product_id": "product-5aa2e745bd1afe52",
+            "milestone_id": "milestone-e827d1596f3e2773d0ff",
+            "event_date": "2026-08-10"
           }
         ],
         "sourceUrl": "https://ying.163.com/",
@@ -6893,7 +7135,9 @@
           "source": "Bilibili 官方",
           "type": "角色实机",
           "title": "《诡影藏锋》沈重为角色实机演示",
-          "url": "https://www.bilibili.com/video/BV1SAGN6fE5x/"
+          "url": "https://www.bilibili.com/video/BV1SAGN6fE5x/",
+          "product_id": "product-5aa2e745bd1afe52",
+          "milestone_id": "milestone-78f9fc212e68013f1933"
         },
         {
           "date": "2026-08-07",
@@ -6901,7 +7145,9 @@
           "source": "Bilibili · 11的游戏世界",
           "type": "首测全流程",
           "title": "《诡影藏锋》4K 全角色全流程首测演示",
-          "url": "https://www.bilibili.com/video/BV1bju46UEFU/"
+          "url": "https://www.bilibili.com/video/BV1bju46UEFU/",
+          "product_id": "product-5aa2e745bd1afe52",
+          "milestone_id": "milestone-e827d1596f3e2773d0ff"
         }
       ],
       "editor_note": "中式志怪与冷兵器提供了清晰差异化，但仍属于中重度边界样本；后续重点观察撤离循环复玩性、PvE/PvP人群兼容与长线商业化。",
@@ -7021,7 +7267,8 @@
             "trigger": "下一轮计费测试、版更节奏与正式定档"
           }
         ]
-      }
+      },
+      "product_id": "product-5aa2e745bd1afe52"
     },
     "星绘友晴天": {
       "category": "模拟经营类",
@@ -7092,7 +7339,10 @@
             "title": "PC端首次公开测试",
             "summary": "开放部分生活模拟、角色创建与星球内容，首次验证核心体验。",
             "source": "TapTap 官方",
-            "url": "https://www.taptap.cn/app/756412/topic?os=ios"
+            "url": "https://www.taptap.cn/app/756412/topic?os=ios",
+            "product_id": "product-6ba50ade90d4ffc1",
+            "milestone_id": "milestone-9b715014b824996d6db9",
+            "event_date": "2025-11-28"
           },
           {
             "date": "2026-02-28",
@@ -7100,7 +7350,10 @@
             "title": "超大规模三端计费测试开启",
             "summary": "PC、iOS、Android三端互通，扩大验证生活模拟、派对玩法、性能与付费结构。",
             "source": "TapTap 官方",
-            "url": "https://www.taptap.cn/app/756412/topic?os=ios"
+            "url": "https://www.taptap.cn/app/756412/topic?os=ios",
+            "product_id": "product-6ba50ade90d4ffc1",
+            "milestone_id": "milestone-2360100ab88657438c09",
+            "event_date": "2026-02-28"
           },
           {
             "date": "2026-04-28",
@@ -7108,7 +7361,10 @@
             "title": "PC先行版正式上线",
             "summary": "进入Soft launch阶段，开始验证真实运营、内容消耗和商业化表现。",
             "source": "TapTap 官方",
-            "url": "https://www.taptap.cn/app/756412/topic?type=official"
+            "url": "https://www.taptap.cn/app/756412/topic?type=official",
+            "product_id": "product-6ba50ade90d4ffc1",
+            "milestone_id": "milestone-ea4777e54676336c231f",
+            "event_date": "2026-04-28"
           }
         ],
         "sourceUrl": "https://xt.163.com/",
@@ -7121,7 +7377,9 @@
           "source": "Bilibili 官方",
           "type": "首测实机",
           "title": "《星绘友晴天》4K 首测实机：下一站，立方星",
-          "url": "https://www.bilibili.com/video/BV1oySTBuEzC/"
+          "url": "https://www.bilibili.com/video/BV1oySTBuEzC/",
+          "product_id": "product-6ba50ade90d4ffc1",
+          "milestone_id": "milestone-9b715014b824996d6db9"
         },
         {
           "date": "2026-02-28",
@@ -7129,7 +7387,9 @@
           "source": "小米游戏中心",
           "type": "二测实机",
           "title": "不肝不氪！星绘友晴天大规模测试，休闲娱乐体验拉满",
-          "url": "https://game.xiaomi.com/gameVideo/62413491"
+          "url": "https://game.xiaomi.com/gameVideo/62413491",
+          "product_id": "product-6ba50ade90d4ffc1",
+          "milestone_id": "milestone-2360100ab88657438c09"
         }
       ],
       "editor_note": "建议作为网易方向的核心观察项目：它同时覆盖生活模拟、社交派对与UGC三条赛道；先行版阶段不宜用预约规模代替真实表现，应优先补充活跃、派对参与和收入数据。",
@@ -7247,7 +7507,8 @@
             "trigger": "PC DAU、付费结构、移动端定档与跨端进度"
           }
         ]
-      }
+      },
+      "product_id": "product-6ba50ade90d4ffc1"
     },
     "雾海之下": {
       "category": "社交-多人合作类",
@@ -7320,8 +7581,13 @@
               "urls": [
                 "https://www.bilibili.com/video/BV17vuw68E58/",
                 "https://www.bilibili.com/video/BV1JJMy62E5C/"
-              ]
-            }
+              ],
+              "milestone_id": "milestone-3b71dd19d6dbc6e74a96",
+              "fingerprint": "2efbe0265efb3b5e6a833324f0fbd0d40713349ab04e5de45886f2139f88a4b5"
+            },
+            "product_id": "product-97a04a345f981cd4",
+            "milestone_id": "milestone-3b71dd19d6dbc6e74a96",
+            "event_date": "2026-08-05"
           },
           {
             "date": "2026-08-17",
@@ -7329,7 +7595,10 @@
             "title": "大狩猎测试开启",
             "summary": "iOS、Android限号删档不计费测试，首次公开验证核心对局。",
             "source": "IT之家",
-            "url": "https://www.ithome.com/0/985/879.htm"
+            "url": "https://www.ithome.com/0/985/879.htm",
+            "product_id": "product-97a04a345f981cd4",
+            "milestone_id": "milestone-6b5108ca4ed465bab4bc",
+            "event_date": "2026-08-17"
           },
           {
             "date": "2026-08-23",
@@ -7338,7 +7607,10 @@
             "summary": "首轮公开测试结束，后续重点等待版本复盘、计费测试和下一轮改动。",
             "source": "TapTap 官方",
             "url": "https://www.taptap.cn/app/894881",
-            "lifecycle_phase": "first"
+            "lifecycle_phase": "first",
+            "product_id": "product-97a04a345f981cd4",
+            "milestone_id": "milestone-51b36ced9d1135c43747",
+            "event_date": "2026-08-23"
           }
         ],
         "sourceUrl": "https://www.taptap.cn/app/894881",
@@ -7352,7 +7624,9 @@
           "date": "2026-08-27",
           "type": "首测报告",
           "evidence_kind": "report",
-          "milestone_date": "2026-08-17"
+          "milestone_date": "2026-08-17",
+          "product_id": "product-97a04a345f981cd4",
+          "milestone_id": "milestone-6b5108ca4ed465bab4bc"
         },
         {
           "title": "《雾海之下》首曝PV｜贪吃无罪，撤离万岁！",
@@ -7368,7 +7642,9 @@
           "duration_seconds": "960",
           "publisher_id": "3706997593606545",
           "node_link_status": "matched",
-          "summary": "已核验原始发布者、标题与发布时间；此为首曝公开影像，不代表玩家测试版本。"
+          "summary": "已核验原始发布者、标题与发布时间；此为首曝公开影像，不代表玩家测试版本。",
+          "product_id": "product-97a04a345f981cd4",
+          "milestone_id": "milestone-3b71dd19d6dbc6e74a96"
         },
         {
           "title": "《雾海之下》实机演示(开发版本策划直录)",
@@ -7384,7 +7660,9 @@
           "duration_seconds": "130",
           "publisher_id": "3706997593606545",
           "node_link_status": "matched",
-          "summary": "已核验原始发布者、标题与发布时间；此为首曝公开影像，不代表玩家测试版本。"
+          "summary": "已核验原始发布者、标题与发布时间；此为首曝公开影像，不代表玩家测试版本。",
+          "product_id": "product-97a04a345f981cd4",
+          "milestone_id": "milestone-3b71dd19d6dbc6e74a96"
         }
       ],
       "editor_note": "建议作为本期重点新品：它代表搜打撤向低门槛移动端、组队协作与卡通题材扩张的尝试；下一步重点补测试反馈、局均时长、组队率与撤离成功率。",
@@ -7497,7 +7775,8 @@
             "trigger": "组队率、固定队比例、语音/社交工具与流失原因"
           }
         ]
-      }
+      },
+      "product_id": "product-97a04a345f981cd4"
     },
     "星布谷地": {
       "stage": "2026-09-20 连接终测已开启 · 公测计划2026冬季",
@@ -7517,7 +7796,9 @@
           "type": "首测实机",
           "title": "宜居测试多日完整流程实录",
           "url": "https://www.bilibili.com/video/BV1jbkkBXEYt/",
-          "milestone_date": "2025-11-10"
+          "milestone_date": "2025-11-10",
+          "product_id": "product-6f70b509e812bf10",
+          "milestone_id": "milestone-0fe45ea399bc538ac38e"
         },
         {
           "date": "2026-05-26",
@@ -7525,7 +7806,9 @@
           "type": "二测实机",
           "title": "二测关服前居民互动实录",
           "url": "https://www.bilibili.com/video/BV1ynVP6pERc/",
-          "milestone_date": "2026-05-25"
+          "milestone_date": "2026-05-25",
+          "product_id": "product-6f70b509e812bf10",
+          "milestone_id": "milestone-b86e2a4c3625266fb43d"
         },
         {
           "date": "2026-05-25",
@@ -7533,7 +7816,9 @@
           "type": "系统展示",
           "title": "二测 152 件穿搭与角色表现",
           "url": "https://www.bilibili.com/video/BV1c8GR6sEMx/",
-          "milestone_date": "2026-05-25"
+          "milestone_date": "2026-05-25",
+          "product_id": "product-6f70b509e812bf10",
+          "milestone_id": "milestone-b86e2a4c3625266fb43d"
         },
         {
           "date": "2026-10-07",
@@ -7548,7 +7833,9 @@
           "verified_at": "2026-10-08",
           "duration_seconds": "32574",
           "version_verified": "true",
-          "milestone_date": "2026-09-20"
+          "milestone_date": "2026-09-20",
+          "product_id": "product-6f70b509e812bf10",
+          "milestone_id": "milestone-609ffba93ea94396d239"
         },
         {
           "date": "2026-10-04",
@@ -7563,7 +7850,9 @@
           "verified_at": "2026-10-08",
           "duration_seconds": "303",
           "version_verified": "true",
-          "milestone_date": "2026-09-20"
+          "milestone_date": "2026-09-20",
+          "product_id": "product-6f70b509e812bf10",
+          "milestone_id": "milestone-609ffba93ea94396d239"
         },
         {
           "title": "《星布谷地》 宜居PV：星球很小，生活恰好",
@@ -7579,7 +7868,9 @@
           "duration_seconds": "175",
           "publisher_id": "3546622923377024",
           "node_link_status": "matched",
-          "summary": "已核验原始发布者、标题与发布时间；此为首曝公开影像，不代表玩家测试版本。"
+          "summary": "已核验原始发布者、标题与发布时间；此为首曝公开影像，不代表玩家测试版本。",
+          "product_id": "product-6f70b509e812bf10",
+          "milestone_id": "milestone-a9d3de9db56968f39589"
         }
       ],
       "media_reports": [
@@ -7812,8 +8103,13 @@
               "scope": "官方首曝 PV、同期开发版本实机及原始发布信息",
               "urls": [
                 "https://www.bilibili.com/video/BV1hjJQzwEq8/"
-              ]
-            }
+              ],
+              "milestone_id": "milestone-a9d3de9db56968f39589",
+              "fingerprint": "879459df784cf57b0f143e35f401f2694923681e4d7f3a0bdca68b84ab5f76ad"
+            },
+            "product_id": "product-6f70b509e812bf10",
+            "milestone_id": "milestone-a9d3de9db56968f39589",
+            "event_date": "2025-09-25"
           },
           {
             "date": "2025-11-10",
@@ -7821,7 +8117,10 @@
             "title": "宜居测试阶段公开体验",
             "summary": "媒体复盘首轮可玩版本，验证生活循环、角色演出与星球经营基础。",
             "source": "GameLook",
-            "url": "https://www.gamelook.com.cn/2025/11/581745/"
+            "url": "https://www.gamelook.com.cn/2025/11/581745/",
+            "product_id": "product-6f70b509e812bf10",
+            "milestone_id": "milestone-0fe45ea399bc538ac38e",
+            "event_date": "2025-11-10"
           },
           {
             "date": "2026-04-21",
@@ -7829,7 +8128,10 @@
             "title": "星旅二测开启",
             "summary": "PC、iOS、Android 三端进入星旅二测，扩大验证星球生活、创作和 AI 相关方向。",
             "source": "17173",
-            "url": "https://news.17173.com/content/04152026/152953864.shtml"
+            "url": "https://news.17173.com/content/04152026/152953864.shtml",
+            "product_id": "product-6f70b509e812bf10",
+            "milestone_id": "milestone-4bc20b273c6cc578d443",
+            "event_date": "2026-04-21"
           },
           {
             "date": "2026-05-25",
@@ -7838,7 +8140,10 @@
             "summary": "二测结束后制作组确认继续根据反馈打磨内容、社交和长期体验。",
             "source": "米游社官方",
             "url": "https://www.miyoushe.com/planet/article/75591127",
-            "lifecycle_phase": "retest"
+            "lifecycle_phase": "retest",
+            "product_id": "product-6f70b509e812bf10",
+            "milestone_id": "milestone-b86e2a4c3625266fb43d",
+            "event_date": "2026-05-25"
           },
           {
             "date": "2026-09-20",
@@ -7858,7 +8163,10 @@
                 "https://www.bilibili.com/video/BV1rTH16DESw/",
                 "https://www.bilibili.com/video/BV1D5Hj6WEfp/"
               ]
-            }
+            },
+            "product_id": "product-6f70b509e812bf10",
+            "milestone_id": "milestone-609ffba93ea94396d239",
+            "event_date": "2026-09-20"
           }
         ]
       },
@@ -7872,7 +8180,8 @@
         ],
         "status": "matched",
         "note": "作者说明双端最高画质及安卓锁30帧；属本轮三测的同场景画面对比。"
-      }
+      },
+      "product_id": "product-6f70b509e812bf10"
     },
     "崩坏：因缘精灵": {
       "category": "捉宠类",
@@ -7893,7 +8202,9 @@
           "type": "一测实机",
           "title": "结缘测试全流程实况",
           "url": "https://www.bilibili.com/video/BV15up4zrEr3/",
-          "milestone_date": "2025-09-17"
+          "milestone_date": "2025-09-17",
+          "product_id": "product-b212f3ce9e2e9219",
+          "milestone_id": "milestone-e51d8e62db75bc741751"
         },
         {
           "date": "2026-08-03",
@@ -7901,7 +8212,9 @@
           "type": "二测评测",
           "title": "进化测试版本表现总评",
           "url": "https://www.bilibili.com/video/BV1gRMX6RE3z/",
-          "milestone_date": "2026-07-09"
+          "milestone_date": "2026-07-09",
+          "product_id": "product-b212f3ce9e2e9219",
+          "milestone_id": "milestone-ece892b7226d816ce659"
         },
         {
           "date": "2026-07-31",
@@ -7909,7 +8222,9 @@
           "type": "系统实录",
           "title": "二测全 82 只精灵图鉴",
           "url": "https://www.bilibili.com/video/BV1pUGc6kEdg/",
-          "milestone_date": "2026-07-09"
+          "milestone_date": "2026-07-09",
+          "product_id": "product-b212f3ce9e2e9219",
+          "milestone_id": "milestone-ece892b7226d816ce659"
         },
         {
           "title": "《崩坏：因缘精灵》结缘PV：相伴同行",
@@ -7925,7 +8240,9 @@
           "duration_seconds": "362",
           "publisher_id": "3546886017387331",
           "node_link_status": "matched",
-          "summary": "已核验原始发布者、标题与发布时间；此为首曝公开影像，不代表玩家测试版本。"
+          "summary": "已核验原始发布者、标题与发布时间；此为首曝公开影像，不代表玩家测试版本。",
+          "product_id": "product-b212f3ce9e2e9219",
+          "milestone_id": "milestone-78e6685ff63e3bc1b380"
         }
       ],
       "media_reports": [
@@ -8121,8 +8438,13 @@
               "scope": "官方首曝 PV、同期开发版本实机及原始发布信息",
               "urls": [
                 "https://www.bilibili.com/video/BV1azeozQEzx/"
-              ]
-            }
+              ],
+              "milestone_id": "milestone-78e6685ff63e3bc1b380",
+              "fingerprint": "9d50b100572a60785a8cfe98f8e914dd229b6991c218a2973bd32a9fe45c167c"
+            },
+            "product_id": "product-b212f3ce9e2e9219",
+            "milestone_id": "milestone-78e6685ff63e3bc1b380",
+            "event_date": "2025-08-29"
           },
           {
             "date": "2025-09-17",
@@ -8131,7 +8453,10 @@
             "title": "结缘测试（一测）开启",
             "summary": "结缘测试于 9 月 17 日至 23 日进行，首次公开验证精灵收集养成、探索与自动战棋核心玩法。",
             "source": "崩坏：因缘精灵官方",
-            "url": "https://www.bilibili.com/opus/1112667973787582470"
+            "url": "https://www.bilibili.com/opus/1112667973787582470",
+            "product_id": "product-b212f3ce9e2e9219",
+            "milestone_id": "milestone-e51d8e62db75bc741751",
+            "event_date": "2025-09-17"
           },
           {
             "date": "2025-09-20",
@@ -8140,7 +8465,10 @@
             "summary": "制作组总结一测反馈，确认继续打磨精灵生态与 CRPG 叙事。",
             "source": "米游社官方",
             "url": "https://www.miyoushe.com/hna/article/68778419",
-            "lifecycle_phase": "first"
+            "lifecycle_phase": "first",
+            "product_id": "product-b212f3ce9e2e9219",
+            "milestone_id": "milestone-f9b1d6470526f26d023a",
+            "event_date": "2025-09-20"
           },
           {
             "date": "2026-06-22",
@@ -8152,7 +8480,10 @@
             "lifecycle_phase": "retest",
             "source_urls": [
               "https://m.ithome.com/html/966889.htm"
-            ]
+            ],
+            "product_id": "product-b212f3ce9e2e9219",
+            "milestone_id": "milestone-edeaccd6090520b385b5",
+            "event_date": "2026-06-22"
           },
           {
             "date": "2026-07-09",
@@ -8160,7 +8491,10 @@
             "title": "进化测试（二测）开启",
             "summary": "进化测试开启，主线、CRPG 系统、都市场景与精灵生态进入大规模版本验证。",
             "source": "GRP #158 / 米游社官方",
-            "url": "https://grp.woa.com/report.html?id=158"
+            "url": "https://grp.woa.com/report.html?id=158",
+            "product_id": "product-b212f3ce9e2e9219",
+            "milestone_id": "milestone-ece892b7226d816ce659",
+            "event_date": "2026-07-09"
           },
           {
             "date": "2026-07-27",
@@ -8169,10 +8503,14 @@
             "summary": "GRP 报告覆盖 7 月 9–27 日进化测试，后续转入版本评估与商业化测试准备。",
             "source": "GRP 报告 #158",
             "url": "https://grp.woa.com/report.html?id=158",
-            "lifecycle_phase": "retest"
+            "lifecycle_phase": "retest",
+            "product_id": "product-b212f3ce9e2e9219",
+            "milestone_id": "milestone-ffb1de616ecc495c2fb4",
+            "event_date": "2026-07-27"
           }
         ]
-      }
+      },
+      "product_id": "product-b212f3ce9e2e9219"
     },
     "生活派对": {
       "stage": "不删档测试已停服 · 暂无新增研发信号",
@@ -8192,7 +8530,9 @@
           "source": "Bilibili · 生活派对官方",
           "type": "不删档测试实机",
           "title": "《生活派对》不删档测试开启丨公主王子请开 Party！",
-          "url": "https://www.bilibili.com/video/BV1rm421N7Cm/"
+          "url": "https://www.bilibili.com/video/BV1rm421N7Cm/",
+          "product_id": "product-d09326405655066e",
+          "milestone_id": "milestone-b5ca8c56ac60025b8ce3"
         }
       ],
       "media_reports": [
@@ -8261,7 +8601,10 @@
             "summary": "公开版本已包含“万万没想刀”和“最佳损友”等多人社交小游戏，首次验证房间组局与玩家表达玩法。",
             "source": "游戏葡萄",
             "url": "https://www.taptap.cn/moment/468736669202254993",
-            "lifecycle_phase": "first"
+            "lifecycle_phase": "first",
+            "product_id": "product-d09326405655066e",
+            "milestone_id": "milestone-133d0c88ca83d633997f",
+            "event_date": "2023-11-01"
           },
           {
             "date": "2024-06-06",
@@ -8271,7 +8614,10 @@
             "summary": "iOS、Android 与 TapTap 渠道开放，测试进度保留；11 月停止新增用户，12 月 14 日停止服务。",
             "source": "生活派对官方",
             "url": "https://www.taptap.cn/moment/547752840651606644",
-            "lifecycle_phase": "prelaunch"
+            "lifecycle_phase": "prelaunch",
+            "product_id": "product-d09326405655066e",
+            "milestone_id": "milestone-b5ca8c56ac60025b8ce3",
+            "event_date": "2024-06-06"
           }
         ]
       },
@@ -8363,7 +8709,8 @@
             "trigger": "招聘、版号主体、制作人或厂商公告"
           }
         ]
-      }
+      },
+      "product_id": "product-d09326405655066e"
     },
     "Totally Mall": {
       "stage": "海外 Android 软启动 · 5K+ 下载",
@@ -8384,7 +8731,8 @@
           "title": "官方商店截图与预告入口",
           "url": "https://play.google.com/store/apps/details?id=com.farlightgames.spark.gp",
           "milestone_date": "2026-06-23",
-          "evidence_kind": "report"
+          "evidence_kind": "report",
+          "product_id": "product-80eaad0af108ed93"
         }
       ],
       "media_reports": [
@@ -8505,7 +8853,8 @@
             "trigger": "区域收入、付费率与买量扩张"
           }
         ]
-      }
+      },
+      "product_id": "product-80eaad0af108ed93"
     },
     "塔塔冒险队": {
       "category": "捉宠类",
@@ -8565,7 +8914,9 @@
           "platform": "B站",
           "date": "2026-06-23",
           "type": "gameplay",
-          "milestone_date": "2026-06-23"
+          "milestone_date": "2026-06-23",
+          "product_id": "product-54ffb8e0ff438049",
+          "milestone_id": "milestone-216d0ec931705fd27923"
         },
         {
           "title": "《塔塔冒险队》平民推图指南",
@@ -8575,7 +8926,9 @@
           "date": "2026-07-21",
           "type": "计费测试玩法实录",
           "milestone_date": "2026-07-16",
-          "evidence_kind": "video"
+          "evidence_kind": "video",
+          "product_id": "product-54ffb8e0ff438049",
+          "milestone_id": "milestone-7ea67388f8a0f80acc41"
         }
       ],
       "editor_note": "测试中，尚未进入稳定运营。",
@@ -8706,7 +9059,10 @@
             "summary": "公开弹珠资源、萌宠收集与竖版塔防的基础循环，进入国服测试预热阶段。",
             "source": "Bilibili",
             "url": "https://www.bilibili.com/video/BV1Sd7c6vE4v/",
-            "lifecycle_phase": "prelaunch"
+            "lifecycle_phase": "prelaunch",
+            "product_id": "product-54ffb8e0ff438049",
+            "milestone_id": "milestone-216d0ec931705fd27923",
+            "event_date": "2026-06-23"
           },
           {
             "date": "2026-07-16",
@@ -8714,7 +9070,10 @@
             "title": "删档计费测试开启",
             "summary": "国服进入删档计费测试，开始验证宠物养成、塔防循环与付费结构。",
             "source": "官方测试安排",
-            "url": "https://www.taptap.cn/app/866257/topic?type=official"
+            "url": "https://www.taptap.cn/app/866257/topic?type=official",
+            "product_id": "product-54ffb8e0ff438049",
+            "milestone_id": "milestone-7ea67388f8a0f80acc41",
+            "event_date": "2026-07-16"
           },
           {
             "date": "2026-08-25",
@@ -8722,7 +9081,10 @@
             "title": "删档计费测试收官并定档公测",
             "summary": "7 月 16 日至 8 月 25 日计费测试结束，官方确认 9 月 4 日正式公测及充值返还规则。",
             "source": "TapTap 官方",
-            "url": "https://www.taptap.cn/app/866257/topic?type=official"
+            "url": "https://www.taptap.cn/app/866257/topic?type=official",
+            "product_id": "product-54ffb8e0ff438049",
+            "milestone_id": "milestone-cf9b0c0c7e76a3c31929",
+            "event_date": "2026-08-25"
           },
           {
             "date": "2026-09-04",
@@ -8731,11 +9093,15 @@
             "summary": "截至 2026 年 9 月 3 日尚未发生；公测结果需在开服后再核验。",
             "source": "TapTap 官方",
             "url": "https://www.taptap.cn/app/866257/topic?type=official",
-            "status": "planned"
+            "status": "planned",
+            "product_id": "product-54ffb8e0ff438049",
+            "milestone_id": "milestone-ccc2fcb3863cae9d815d",
+            "event_date": "2026-09-04"
           }
         ]
       },
-      "updated_at": "2026-09-29"
+      "updated_at": "2026-09-29",
+      "product_id": "product-54ffb8e0ff438049"
     },
     "小冰冰斗蛐蛐": {
       "gameplay": "8人同场，每人选择1名角斗士；通过金币获取技能和符文，构筑流派；自动战斗并在回合中淘汰对手，同时搜索战利品、击败对手抢夺资源并主动撤离带出部分战利品。",
@@ -8783,7 +9149,9 @@
           "source": "Bilibili · tips口口",
           "type": "测试服实机",
           "title": "《小冰冰斗蛐蛐》测试服 25 分钟实机演示",
-          "url": "https://www.bilibili.com/video/BV1i9u96ME4n/"
+          "url": "https://www.bilibili.com/video/BV1i9u96ME4n/",
+          "product_id": "product-badb7a716fe05536",
+          "milestone_id": "milestone-d21616c7388b0db94abf"
         }
       ],
       "editor_note": "不删档测试刚开始，尚无稳定运营数据。",
@@ -8903,7 +9271,10 @@
             "title": "公开不删档测试安排",
             "summary": "莉莉丝公开《小冰冰传奇》团队新作，定位为 8 人轻策略对战并宣布 8 月 10 日开启不删档测试。",
             "source": "17173",
-            "url": "https://news.17173.com/content/07162026/115649851.shtml"
+            "url": "https://news.17173.com/content/07162026/115649851.shtml",
+            "product_id": "product-badb7a716fe05536",
+            "milestone_id": "milestone-a375f7a42d1f2cf09887",
+            "event_date": "2026-07-16"
           },
           {
             "date": "2026-08-10",
@@ -8911,7 +9282,10 @@
             "title": "不删档测试开启",
             "summary": "测试服开放 8 人选角、技能与流派构筑、自动战斗以及搜索战利品—战斗争夺—撤离带出循环。",
             "source": "TapTap 官方",
-            "url": "https://www.taptap.cn/moment/826898988660688261"
+            "url": "https://www.taptap.cn/moment/826898988660688261",
+            "product_id": "product-badb7a716fe05536",
+            "milestone_id": "milestone-d21616c7388b0db94abf",
+            "event_date": "2026-08-10"
           },
           {
             "date": "2026-09-10",
@@ -8921,10 +9295,14 @@
             "summary": "Apple App Store 当前标注预计于 2026 年 9 月 10 日推出；8 月 10 日为不删档测试节点，不与正式上线混记。",
             "source": "Apple App Store",
             "url": "https://apps.apple.com/cn/app/%E5%B0%8F%E5%86%B0%E5%86%B0%E6%96%97%E8%9B%90%E8%9B%90/id6785356130",
-            "status": "planned"
+            "status": "planned",
+            "product_id": "product-badb7a716fe05536",
+            "milestone_id": "milestone-22556978fff9b35608d0",
+            "event_date": "2026-09-10"
           }
         ]
-      }
+      },
+      "product_id": "product-badb7a716fe05536"
     },
     "Fields of Mistria": {
       "gameplay": "",
@@ -9044,7 +9422,8 @@
             "trigger": "主机计划、销量里程碑与地区表现"
           }
         ]
-      }
+      },
+      "product_id": "product-ec2f9ea3a87a3ff0"
     },
     "Paralives": {
       "gameplay": "Sims-like开放世界生活模拟。创建Para角色（含性格/天赋系统）、自由建造（曲面墙/可调家具/色轮）、管理需求与关系、职业发展、探索开放小镇、支持Steam Workshop模组。独立团队开发，$39.99，无付费DLC承诺。",
@@ -9101,7 +9480,8 @@
           "date": "",
           "type": "官方资料页",
           "milestone_date": "2026-05-25",
-          "evidence_kind": "report"
+          "evidence_kind": "report",
+          "product_id": "product-c7e3b7ed361ac38a"
         }
       ],
       "editor_note": "Early Access阶段，尚未进入正式稳定运营。",
@@ -9214,7 +9594,8 @@
             "trigger": "销量里程碑、团队规模与更新频率"
           }
         ]
-      }
+      },
+      "product_id": "product-c7e3b7ed361ac38a"
     },
     "Witchbrook": {
       "gameplay": "魔法学院生活模拟RPG。扮演实习女巫进入海滨城市Mossport的魔法学院，学习魔法课程、酿造魔药、交友恋爱、经营生意、装饰小屋、参加季节活动。像素画风，支持4人在线合作。由《星露谷物语》发行商Chucklefish开发。",
@@ -9271,7 +9652,8 @@
           "date": "",
           "type": "官方资料页",
           "milestone_date": "2026-06-26",
-          "evidence_kind": "report"
+          "evidence_kind": "report",
+          "product_id": "product-6f4e477e1799500b"
         }
       ],
       "editor_note": "仍处于正式上线前研发阶段。",
@@ -9384,7 +9766,8 @@
             "trigger": "合作任务、共享住宅/进度与跨平台规则"
           }
         ]
-      }
+      },
+      "product_id": "product-6f4e477e1799500b"
     },
     "Starsand Island": {
       "gameplay": "海岛田园生活模拟RPG。逃离都市前往“深海之星”海岛经营农场、钓鱼、建造，与岛民建立羁绊，驾驶悬浮摩托和喷气背包探索月影森林等区域，融合轻度战斗、载具系统与《波西亚时光》联动角色。",
@@ -9457,7 +9840,8 @@
           "date": "",
           "type": "官方资料页",
           "milestone_date": "2026-08-18",
-          "evidence_kind": "report"
+          "evidence_kind": "report",
+          "product_id": "product-cf4b204228b4422c"
         }
       ],
       "editor_note": "已结束 Early Access 并进入 1.0 多平台运营验证。",
@@ -9571,7 +9955,8 @@
             "trigger": "平台销量、折扣、DLC 评价与季度活跃"
           }
         ]
-      }
+      },
+      "product_id": "product-cf4b204228b4422c"
     },
     "Spirit Crossing": {
       "gameplay": "休闲合作MMO。在温暖的奇幻世界中钓鱼、绘画壁画、种植花园、装饰家园，与好友共建Waystation社区。通过耐心与善意结识方块熊、神秘村民和游荡灵魂，友谊成长解锁语音聊天、双人表情、传送和礼物系统。",
@@ -9637,7 +10022,8 @@
           "date": "",
           "type": "官方资料页",
           "milestone_date": "2026-06-11",
-          "evidence_kind": "report"
+          "evidence_kind": "report",
+          "product_id": "product-5195b26779783496"
         }
       ],
       "editor_note": "Steam 公开测试持续跟踪；移动端发行转换和账号迁移新增不确定性，不能再按 Netflix 同步发行理解。",
@@ -9755,7 +10141,8 @@
             "trigger": "版本频率、回流与 30 日留存"
           }
         ]
-      }
+      },
+      "product_id": "product-5195b26779783496"
     },
     "裂隙远征": {
       "gameplay": "Roguelike探索与随机事件 → 收集并组合单位/能力 → 自走棋式自动战斗 → 逐局成长并挑战更高难度。",
@@ -9803,7 +10190,8 @@
           "source": "Bilibili · IGN中国",
           "type": "Demo 实机",
           "title": "《裂隙远征》试玩版开场 19 分钟实机演示",
-          "url": "https://www.bilibili.com/video/BV1DmKm6TEMe/"
+          "url": "https://www.bilibili.com/video/BV1DmKm6TEMe/",
+          "product_id": "product-b50ea3a5b48c125c"
         }
       ],
       "editor_note": "当前以试玩和品类验证为主，尚无稳定运营口径。",
@@ -9907,7 +10295,8 @@
             "trigger": "愿望单、首周销量与评价保持率"
           }
         ]
-      }
+      },
+      "product_id": "product-b50ea3a5b48c125c"
     },
     "BigWalk": {
       "gameplay": "多人组队远足 → 结伴探索与处理路上事件 → 通过语音、动作和偶发整活形成非对抗社交内容。",
@@ -9955,7 +10344,8 @@
           "source": "Bilibili · 雷岁",
           "type": "完整实况",
           "title": "《Big Walk》初见通关全流程",
-          "url": "https://www.bilibili.com/video/BV1GtuW6yEnt/"
+          "url": "https://www.bilibili.com/video/BV1GtuW6yEnt/",
+          "product_id": "product-304cb69abfd8d464"
         }
       ],
       "editor_note": "刚上线不久，现阶段更适合观察首发反馈与持续性。",
@@ -10068,7 +10458,8 @@
             "trigger": "官方路线图、更新频率与 DLC/免费内容"
           }
         ]
-      }
+      },
+      "product_id": "product-304cb69abfd8d464"
     },
     "代号：Team2": {
       "gameplay": "2v2v2v2短局对抗 → 领队与伙伴构筑 → 局内赐福和失落宝库选择 → 团队争夺资源并完成单局成长。",
@@ -10100,7 +10491,9 @@
           "source": "Bilibili · 烟雨丰",
           "type": "首测实机",
           "title": "《代号：Team2》20 分钟首测试玩",
-          "url": "https://www.bilibili.com/video/BV1KLjV6tEJV/"
+          "url": "https://www.bilibili.com/video/BV1KLjV6tEJV/",
+          "product_id": "product-0ce6c8e475085c4b",
+          "milestone_id": "milestone-29e0b25855eedd604e8c"
         }
       ],
       "editor_note": "首测阶段，尚未进入稳定运营；重点观察复玩性、策略深度和社交模块的持续表现。",
@@ -10236,7 +10629,10 @@
             "title": "国服首测开启",
             "summary": "安卓端千人级首测开启，围绕局内机制、构筑策略、双人组队和局外养成进行验证。",
             "source": "GRP 报告 #145",
-            "url": "https://grp.woa.com/report.html?id=145"
+            "url": "https://grp.woa.com/report.html?id=145",
+            "product_id": "product-0ce6c8e475085c4b",
+            "milestone_id": "milestone-0f23462e0a98a8969ec9",
+            "event_date": "2026-06-12"
           },
           {
             "date": "2026-06-15",
@@ -10244,10 +10640,14 @@
             "title": "国服首测分析发布",
             "summary": "首测报告补充记录数值曲线、复玩性、社交设计和商业化风险。",
             "source": "GRP 报告 #145",
-            "url": "https://grp.woa.com/report.html?id=145"
+            "url": "https://grp.woa.com/report.html?id=145",
+            "product_id": "product-0ce6c8e475085c4b",
+            "milestone_id": "milestone-29e0b25855eedd604e8c",
+            "event_date": "2026-06-15"
           }
         ]
-      }
+      },
+      "product_id": "product-0ce6c8e475085c4b"
     },
     "集合！浆果镇": {
       "assessment": {
@@ -10360,8 +10760,13 @@
               "scope": "官方首曝 PV、同期开发版本实机及原始发布信息",
               "urls": [
                 "https://game.xiaomi.com/viewpoint/1683503284_1776999173117_16"
-              ]
-            }
+              ],
+              "milestone_id": "milestone-f06cda42f4597bdb85ba",
+              "fingerprint": "fd3ae63c1e8f51b7e799a9a1c8cdbb665f47a26ed16873b09780d14bf92a6141"
+            },
+            "product_id": "product-4afbf920c4493fa2",
+            "milestone_id": "milestone-f06cda42f4597bdb85ba",
+            "event_date": "2026-04-24"
           },
           {
             "date": "2026-07-03",
@@ -10370,7 +10775,10 @@
             "title": "尝鲜测试招募开启",
             "summary": "7月3日至19日招募；仅安卓，限号、删档、不计费。招募不计为另一轮测试。",
             "source": "TapTap 官方",
-            "url": "https://www.taptap.cn/moment/821845925973461401"
+            "url": "https://www.taptap.cn/moment/821845925973461401",
+            "product_id": "product-4afbf920c4493fa2",
+            "milestone_id": "milestone-b6ff75a486b121c79b02",
+            "event_date": "2026-07-03"
           },
           {
             "date": "2026-07-23",
@@ -10381,7 +10789,10 @@
             "title": "尝鲜首测开启",
             "summary": "7月23日10:00至8月1日18:00；安卓限量、删档、不计费。",
             "source": "TapTap 官方",
-            "url": "https://www.taptap.cn/moment/829083364769136788?group_id=1200532"
+            "url": "https://www.taptap.cn/moment/829083364769136788?group_id=1200532",
+            "product_id": "product-4afbf920c4493fa2",
+            "milestone_id": "milestone-5989cd76cc2eb89c4b2f",
+            "event_date": "2026-07-23"
           }
         ]
       },
@@ -10394,7 +10805,9 @@
           "date": "2026-07-24",
           "milestone_date": "2026-07-23",
           "evidence_kind": "report",
-          "type": "首测体验"
+          "type": "首测体验",
+          "product_id": "product-4afbf920c4493fa2",
+          "milestone_id": "milestone-5989cd76cc2eb89c4b2f"
         },
         {
           "title": "GRP 首测分析",
@@ -10403,7 +10816,9 @@
           "date": "2026-08-03",
           "milestone_date": "2026-07-23",
           "evidence_kind": "report",
-          "type": "首测报告"
+          "type": "首测报告",
+          "product_id": "product-4afbf920c4493fa2",
+          "milestone_id": "milestone-5989cd76cc2eb89c4b2f"
         },
         {
           "title": "我在浆果镇的一天｜官方实机 Vlog",
@@ -10412,7 +10827,9 @@
           "date": "2026-07-20",
           "milestone_date": "2026-07-23",
           "evidence_kind": "video",
-          "type": "首测前官方实机（非玩家录屏）"
+          "type": "首测前官方实机（非玩家录屏）",
+          "product_id": "product-4afbf920c4493fa2",
+          "milestone_id": "milestone-5989cd76cc2eb89c4b2f"
         },
         {
           "title": "官方首曝 PV：预约开启",
@@ -10421,10 +10838,13 @@
           "date": "2026-04-24",
           "milestone_date": "2026-04-24",
           "evidence_kind": "video",
-          "type": "首曝 PV（非测试录屏）"
+          "type": "首曝 PV（非测试录屏）",
+          "product_id": "product-4afbf920c4493fa2",
+          "milestone_id": "milestone-f06cda42f4597bdb85ba"
         }
       ],
-      "source_url": "https://www.taptap.cn/moment/829083364769136788?group_id=1200532"
+      "source_url": "https://www.taptap.cn/moment/829083364769136788?group_id=1200532",
+      "product_id": "product-4afbf920c4493fa2"
     },
     "妖妖棋": {
       "stage": "已获版号 · 预约中",
@@ -10450,7 +10870,9 @@
           "source": "玩家实况 · 羊脂球_菌",
           "type": "二测实机 · 完整对局（34:22）",
           "evidence_kind": "video",
-          "verified_date": "2026-09-20"
+          "verified_date": "2026-09-20",
+          "product_id": "product-bce4f36c4bf46bb1",
+          "milestone_id": "milestone-67067f8e1445ba5cc446"
         }
       ],
       "media_reports": [
@@ -10606,7 +11028,10 @@
             "lifecycle_phase": "retest",
             "summary": "安卓限量、不计费、删档的第二次玩法技术测试开启，集中验证大战场自走棋规则。",
             "source": "TapTap 官方",
-            "url": "https://www.taptap.cn/app/756756/topic?type=official"
+            "url": "https://www.taptap.cn/app/756756/topic?type=official",
+            "product_id": "product-bce4f36c4bf46bb1",
+            "milestone_id": "milestone-67067f8e1445ba5cc446",
+            "event_date": "2025-12-19"
           },
           {
             "date": "2026-01-04",
@@ -10615,10 +11040,14 @@
             "lifecycle_phase": "retest",
             "summary": "为期 16 天的测试结束，测试数据清除，产品继续进行版本优化。",
             "source": "TapTap 官方",
-            "url": "https://www.taptap.cn/app/756756/topic?type=official"
+            "url": "https://www.taptap.cn/app/756756/topic?type=official",
+            "product_id": "product-bce4f36c4bf46bb1",
+            "milestone_id": "milestone-2f9adcfc7d90d59bcbb7",
+            "event_date": "2026-01-04"
           }
         ]
-      }
+      },
+      "product_id": "product-bce4f36c4bf46bb1"
     },
     "Aniimo": {
       "category": "捉宠类",
@@ -10643,7 +11072,8 @@
           "type": "官方玩法展示",
           "title": "Aniimo | Gameplay Showcase",
           "summary": "官方集中展示开放世界探索、生物捕捉、联结切换与即时战斗，是三测前最完整的玩法影像之一。",
-          "url": "https://www.youtube.com/watch?v=XHPS09hP7m4"
+          "url": "https://www.youtube.com/watch?v=XHPS09hP7m4",
+          "product_id": "product-430468b3d1844ff7"
         },
         {
           "date": "2026-09-20",
@@ -10653,7 +11083,9 @@
           "type": "正式版完整实机（5:44:50）",
           "title": "Aniimo - Full Game Gameplay Walkthrough",
           "summary": "PS5 Pro 性能模式无解说长流程，覆盖正式版主线、探索、捕捉与战斗，可用于核对首发版本的实际完成度。",
-          "url": "https://www.youtube.com/watch?v=6HRiu1seQzo"
+          "url": "https://www.youtube.com/watch?v=6HRiu1seQzo",
+          "product_id": "product-430468b3d1844ff7",
+          "milestone_id": "milestone-ff4008026199034413ad"
         }
       ],
       "media_reports": [
@@ -10751,7 +11183,10 @@
             "lifecycle_phase": "launch",
             "summary": "Windows PC、Steam、Epic、PS5 与 Xbox 版本进入正式运营。",
             "source": "《伊莫》官方",
-            "url": "https://www.aniimo.com/"
+            "url": "https://www.aniimo.com/",
+            "product_id": "product-430468b3d1844ff7",
+            "milestone_id": "milestone-ff4008026199034413ad",
+            "event_date": "2026-09-16"
           },
           {
             "date": "2026-09-23",
@@ -10762,7 +11197,10 @@
             "summary": "9月23日官方公告明确iOS与Android全球同步开服；不使用9月21日App Store上架日期代替开服日。",
             "source": "官方公告 / 官方产品页",
             "url": "https://www.aniimo.com/newslist/detail/100147",
-            "verified_at": "2026-10-08"
+            "verified_at": "2026-10-08",
+            "product_id": "product-430468b3d1844ff7",
+            "milestone_id": "milestone-dd2c60b827f1a24f6ac6",
+            "event_date": "2026-09-23"
           }
         ]
       },
@@ -10930,7 +11368,8 @@
       },
       "lifecycle_reviewed_at": "2026-10-08",
       "editor_note": "9月23日官方公告明确iOS与Android全球同步开服；不使用9月21日App Store上架日期代替开服日。；下一步观察运营反馈与长线表现。",
-      "updated_at": "2026-09-29"
+      "updated_at": "2026-09-29",
+      "product_id": "product-430468b3d1844ff7"
     },
     "My Time at Evershine": {
       "category": "模拟经营类",
@@ -10973,7 +11412,10 @@
             "lifecycle_phase": "project",
             "summary": "帕斯亚公布时光系列新作与城镇治理方向。",
             "source": "Pathea 官方",
-            "url": "https://pathea.net/evershine/"
+            "url": "https://pathea.net/evershine/",
+            "product_id": "product-ee5229b13f6c5926",
+            "milestone_id": "milestone-720eaac22e624ec5c1a1",
+            "event_date": "2024-09-17"
           },
           {
             "date": "2024-09-24",
@@ -10992,8 +11434,13 @@
               "scope": "官方首曝 PV、同期开发版本实机及原始发布信息",
               "urls": [
                 "https://www.youtube.com/watch?v=Y4nq2iN6ZmU"
-              ]
-            }
+              ],
+              "milestone_id": "milestone-e3535399a41c58a8e181",
+              "fingerprint": "a1eac4962ca5269924d8869fae2995435b876e9a4387c46ddc37e009bcd16966"
+            },
+            "product_id": "product-ee5229b13f6c5926",
+            "milestone_id": "milestone-e3535399a41c58a8e181",
+            "event_date": "2024-09-24"
           }
         ]
       },
@@ -11089,9 +11536,12 @@
           "duration_seconds": "131",
           "verified_at": "2026-10-08",
           "node_link_status": "matched",
-          "summary": "Pathea 官方产品页嵌入此预告；原始上传为 2024-09-24，区别于 9 月 17 日文字公布。"
+          "summary": "Pathea 官方产品页嵌入此预告；原始上传为 2024-09-24，区别于 9 月 17 日文字公布。",
+          "product_id": "product-ee5229b13f6c5926",
+          "milestone_id": "milestone-e3535399a41c58a8e181"
         }
-      ]
+      ],
+      "product_id": "product-ee5229b13f6c5926"
     },
     "火人冲冲冲": {
       "stage": "已有运营信号 · 当前主体待核验",
@@ -11249,7 +11699,8 @@
           "type": "MCP 数据源"
         }
       ],
-      "updated_at": "2026-09-25"
+      "updated_at": "2026-09-25",
+      "product_id": "product-9d513297af420c5d"
     },
     "奇遇动物城": {
       "stage": "2026-09-24 首曝PV与实机 · 多端预约",
@@ -11414,8 +11865,13 @@
               "scope": "官方首曝 PV、同期开发版本实机及原始发布信息",
               "urls": [
                 "https://www.bilibili.com/video/BV1yph76uEdF/"
-              ]
-            }
+              ],
+              "milestone_id": "milestone-351462cda178aaa16916",
+              "fingerprint": "faa759bc09f971387e438201603c50ef701dca39528abf317c6a02fe8ed5502a"
+            },
+            "product_id": "product-66ee43685a7f633b",
+            "milestone_id": "milestone-351462cda178aaa16916",
+            "event_date": "2026-09-24"
           }
         ]
       },
@@ -11457,9 +11913,12 @@
           "duration_seconds": "145",
           "publisher_id": "3707048153844209",
           "node_link_status": "matched",
-          "summary": "已核验原始发布者、标题与发布时间；此为首曝公开影像，不代表玩家测试版本。"
+          "summary": "已核验原始发布者、标题与发布时间；此为首曝公开影像，不代表玩家测试版本。",
+          "product_id": "product-66ee43685a7f633b",
+          "milestone_id": "milestone-351462cda178aaa16916"
         }
-      ]
+      ],
+      "product_id": "product-66ee43685a7f633b"
     },
     "未眠野": {
       "stage": "2026-09-24 首次技术保密测试",
@@ -11631,8 +12090,13 @@
               "scope": "官方首曝 PV、同期开发版本实机及原始发布信息",
               "urls": [
                 "https://www.bilibili.com/video/BV18gtJ6LECq/"
-              ]
-            }
+              ],
+              "milestone_id": "milestone-18e6418b07c7deb43f9f",
+              "fingerprint": "9ea849c0eb973239e054c92ed99b0f97cf597adfb30bcf64a127f1f1c9142b72"
+            },
+            "product_id": "product-fba226cd41095b8d",
+            "milestone_id": "milestone-18e6418b07c7deb43f9f",
+            "event_date": "2026-09-09"
           },
           {
             "date": "2026-09-24",
@@ -11652,7 +12116,10 @@
                 "https://www.bilibili.com/video/BV1Mohb61Em9/",
                 "https://www.bilibili.com/video/BV1VDhb6SEEs/"
               ]
-            }
+            },
+            "product_id": "product-fba226cd41095b8d",
+            "milestone_id": "milestone-11186cc91851b7b83f7b",
+            "event_date": "2026-09-24"
           }
         ]
       },
@@ -11698,7 +12165,9 @@
           "evidence_kind": "video",
           "verified_at": "2026-10-08",
           "duration_seconds": "1119",
-          "version_verified": "true"
+          "version_verified": "true",
+          "product_id": "product-fba226cd41095b8d",
+          "milestone_id": "milestone-11186cc91851b7b83f7b"
         },
         {
           "date": "2026-09-24",
@@ -11713,7 +12182,9 @@
           "evidence_kind": "video",
           "verified_at": "2026-10-08",
           "duration_seconds": "570",
-          "version_verified": "true"
+          "version_verified": "true",
+          "product_id": "product-fba226cd41095b8d",
+          "milestone_id": "milestone-11186cc91851b7b83f7b"
         },
         {
           "title": "《未眠野》首曝PV | 万物都在回应，世界没有答案",
@@ -11729,7 +12200,9 @@
           "duration_seconds": "296",
           "publisher_id": "3707030810396819",
           "node_link_status": "matched",
-          "summary": "已核验原始发布者、标题与发布时间；此为首曝公开影像，不代表玩家测试版本。"
+          "summary": "已核验原始发布者、标题与发布时间；此为首曝公开影像，不代表玩家测试版本。",
+          "product_id": "product-fba226cd41095b8d",
+          "milestone_id": "milestone-18e6418b07c7deb43f9f"
         }
       ],
       "media_review": {
@@ -11743,7 +12216,8 @@
           "https://www.bilibili.com/video/BV1Mohb61Em9/",
           "https://www.bilibili.com/video/BV1VDhb6SEEs/"
         ]
-      }
+      },
+      "product_id": "product-fba226cd41095b8d"
     },
     "源初之结": {
       "stage": "2026-09-29 已获移动/客户端版号 · 测试与上线未定",
@@ -11928,8 +12402,13 @@
               "scope": "官方首曝 PV、同期开发版本实机及原始发布信息",
               "urls": [
                 "https://www.bilibili.com/video/BV1erhL6EE6k/"
-              ]
-            }
+              ],
+              "milestone_id": "milestone-2583daae21b21056aa26",
+              "fingerprint": "2f08281e776871eed3e7ab7be99f9380b8610b2340fb1da2f8c3f8d96806d831"
+            },
+            "product_id": "product-edac97a27f37be5d",
+            "milestone_id": "milestone-2583daae21b21056aa26",
+            "event_date": "2026-08-26"
           },
           {
             "date": "2026-09-23",
@@ -11937,7 +12416,10 @@
             "title": "FAQ 确认 PC 首发、非抽卡角色获取与非强制组队",
             "summary": "角色通过游玩解锁；单人可体验大部分内容，多人规模和商业化细节尚待公布。",
             "source": "游研所收录 · 游戏陀螺",
-            "url": "http://mp.weixin.qq.com/s?__biz=MjM5Njc5MjgyMA==&mid=2989877251&idx=2&sn=61c6e896b47382c10928615ff20a3caa&chksm=9038c1ad1909782a4d2f584b294b6a7c1a13f9591fae2819a25253957c88ec234d7bc21a113e&scene=126&sessionid=0#rd"
+            "url": "http://mp.weixin.qq.com/s?__biz=MjM5Njc5MjgyMA==&mid=2989877251&idx=2&sn=61c6e896b47382c10928615ff20a3caa&chksm=9038c1ad1909782a4d2f584b294b6a7c1a13f9591fae2819a25253957c88ec234d7bc21a113e&scene=126&sessionid=0#rd",
+            "product_id": "product-edac97a27f37be5d",
+            "milestone_id": "milestone-5ec2285ae96b71335f76",
+            "event_date": "2026-09-23"
           },
           {
             "date": "2026-09-29",
@@ -11950,7 +12432,10 @@
             "verified_at": "2026-10-08",
             "published_date": "2026-09-30",
             "approval_number": "国新出审〔2026〕2401号",
-            "isbn": "978-7-498-17754-4"
+            "isbn": "978-7-498-17754-4",
+            "product_id": "product-edac97a27f37be5d",
+            "milestone_id": "milestone-442ae1795b22f94b3dff",
+            "event_date": "2026-09-29"
           }
         ],
         "latest": "2026-09-29 已获移动/客户端版号 · 测试与上线未定",
@@ -12001,9 +12486,12 @@
           "duration_seconds": "347",
           "publisher_id": "3706979079949044",
           "node_link_status": "matched",
-          "summary": "官方说明：包含实机演示与引擎内过场动画，均以 UE5 录制；开发中画面不代表最终形态。"
+          "summary": "官方说明：包含实机演示与引擎内过场动画，均以 UE5 录制；开发中画面不代表最终形态。",
+          "product_id": "product-edac97a27f37be5d",
+          "milestone_id": "milestone-2583daae21b21056aa26"
         }
-      ]
+      ],
+      "product_id": "product-edac97a27f37be5d"
     },
     "时之铃": {
       "stage": "内部测试中 · 计划 2026 年 11–12 月内测",
@@ -12161,7 +12649,8 @@
           "type": "MCP 数据源"
         }
       ],
-      "updated_at": "2026-09-18"
+      "updated_at": "2026-09-18",
+      "product_id": "product-17dab7439f9906ef"
     },
     "蓝色星原：旅谣": {
       "stage": "2026-09-17 旅迹测试（三测）开启",
@@ -12334,8 +12823,13 @@
               "scope": "官方首曝 PV、同期开发版本实机及原始发布信息",
               "urls": [
                 "https://www.bilibili.com/video/BV1Jr421n7n4/"
-              ]
-            }
+              ],
+              "milestone_id": "milestone-349e9b5fa62db037b10b",
+              "fingerprint": "639b6e0217e2ce7ccb9a601fa0082d4f923c3c6292760ae758d9c9ab61cfa977"
+            },
+            "product_id": "product-5a04b291f0807280",
+            "milestone_id": "milestone-349e9b5fa62db037b10b",
+            "event_date": "2024-03-20"
           },
           {
             "date": "2026-09-17",
@@ -12354,7 +12848,10 @@
               "video_urls": [
                 "https://www.bilibili.com/video/BV18Keu6fEGX/"
               ]
-            }
+            },
+            "product_id": "product-5a04b291f0807280",
+            "milestone_id": "milestone-65b00e2b2f68de9df4bf",
+            "event_date": "2026-09-17"
           }
         ]
       },
@@ -12405,7 +12902,9 @@
           "evidence_kind": "video",
           "verified_at": "2026-10-08",
           "duration_seconds": "582",
-          "version_verified": "true"
+          "version_verified": "true",
+          "product_id": "product-5a04b291f0807280",
+          "milestone_id": "milestone-65b00e2b2f68de9df4bf"
         },
         {
           "title": "《蓝色星原：旅谣》首曝PV＆实机演示",
@@ -12421,7 +12920,9 @@
           "duration_seconds": "1758",
           "publisher_id": "3546569016085336",
           "node_link_status": "matched",
-          "summary": "已核验原始发布者、标题与发布时间；此为首曝公开影像，不代表玩家测试版本。"
+          "summary": "已核验原始发布者、标题与发布时间；此为首曝公开影像，不代表玩家测试版本。",
+          "product_id": "product-5a04b291f0807280",
+          "milestone_id": "milestone-349e9b5fa62db037b10b"
         }
       ],
       "media_review": {
@@ -12434,7 +12935,8 @@
         "video_urls": [
           "https://www.bilibili.com/video/BV18Keu6fEGX/"
         ]
-      }
+      },
+      "product_id": "product-5a04b291f0807280"
     },
     "Project63": {
       "stage": "东南亚 Android 测试版本可用 · 开测日待核验",
@@ -12593,7 +13095,8 @@
           "verified_at": "2026-10-08",
           "duration_seconds": "1103",
           "version_verified": "true",
-          "node_link_status": "unconfirmed"
+          "node_link_status": "unconfirmed",
+          "product_id": "product-b058deefe7abf3a5"
         }
       ],
       "media_review": {
@@ -12603,7 +13106,8 @@
         ],
         "status": "test_date_unconfirmed",
         "note": "国际服公开试玩，产品名与校园搜打撤形态相符；视频发布于9月26日，不能据此认定开测日。"
-      }
+      },
+      "product_id": "product-b058deefe7abf3a5"
     },
     "Dear Passengers": {
       "stage": "Steam 预约中 · 计划 2026 年发售",
@@ -12762,7 +13266,8 @@
           "verified_at": "2026-10-08",
           "duration_seconds": "118",
           "version_verified": "true",
-          "node_link_status": "unconfirmed"
+          "node_link_status": "unconfirmed",
+          "product_id": "product-ace6ffabed000971"
         }
       ],
       "media_review": {
@@ -12772,7 +13277,8 @@
         ],
         "status": "trailer_only",
         "note": "A9VG转载官方预告，说明今年在Steam推出；身份为FLEXUS PC产品，不能与Android同名产品混同。"
-      }
+      },
+      "product_id": "product-ace6ffabed000971"
     }
   },
   "pipelineGroups": [

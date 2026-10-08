@@ -29,7 +29,17 @@
     "start": "WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext start",
     "test": "npm run build && node --experimental-strip-types --test tests/*.test.mjs",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
-    "db:generate": "drizzle-kit generate"
+    "db:generate": "drizzle-kit generate",
+    "content:begin": "node scripts/content-workflow.mjs begin",
+    "content:queue": "node scripts/content-workflow.mjs queue",
+    "content:finalize": "node scripts/content-workflow.mjs finalize",
+    "content:audit": "node scripts/content-workflow.mjs audit",
+    "content:abort": "node scripts/content-workflow.mjs abort",
+    "content:prepare": "node scripts/content-workflow.mjs prepare",
+    "release:manifest": "node scripts/prepare-release.mjs",
+    "prebuild": "npm run content:prepare && npm run release:manifest",
+    "prebuild:pages": "npm run content:prepare && npm run release:manifest",
+    "data:intelligence": "node scripts/intelligence-refresh.mjs"
   },
   "dependencies": {
     "cheerio": "^1.2.0",

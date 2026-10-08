@@ -21,11 +21,19 @@ function arg(name, fallback = "") {
   return index >= 0 ? process.argv[index + 1] || fallback : fallback;
 }
 
+let activeSource = "preflight";
+const sourceModules = {};
 function run(label, command, args) {
+  const names = /DataBrain|指标|快照/.test(label) ? ["metrics"] : /Steam/.test(label) ? ["steam"] : /事件与研究/.test(label) ? ["events", "research"] : /GRP/.test(label) ? ["grp"] : /异动/.test(label) ? ["attributions"] : /游研所/.test(label) ? ["intelligence"] : [];
+  if (names.length) activeSource = names[0];
+  for (const name of names) sourceModules[name] = { required: true, status: "running" };
   process.stdout.write(`\n[daily-refresh] ${label}\n`);
   const result = spawnSync(command, args, { cwd: siteRoot, env: process.env, stdio: "inherit" });
-  if (result.error) throw result.error;
-  if (result.status !== 0) throw new Error(`${label}失败（退出码 ${result.status ?? "unknown"}）`);
+  if (result.error || result.status !== 0) {
+    for (const name of names) sourceModules[name] = { required: true, status: "failed", error: `${label}失败` };
+    throw result.error || new Error(`${label}失败（退出码 ${result.status ?? "unknown"}）`);
+  }
+  for (const name of names) sourceModules[name] = { required: true, status: "passed" };
 }
 
 function writeReport(report) {
@@ -54,6 +62,7 @@ function main() {
     run("检查指标批次与日期计划", process.execPath, ["scripts/fetch-databrain-trends.mjs", "--dry-run", `--start=${fetchRange.start}`, `--end=${fetchRange.end}`, "--window-days=42"]);
     return;
   }
+  writeReport({ ...baseReport, status: "running", modules: { source: { required: true, status: "running" } } });
   assertCleanWorktree(siteRoot);
   if (!String(process.env.DATABRAIN_TOKEN || "").trim()) throw new Error("DATABRAIN_TOKEN 未设置，无法执行每日刷新。");
 
@@ -62,20 +71,23 @@ function main() {
   const stageRoot = fs.mkdtempSync(path.join(os.tmpdir(), "casual-radar-daily-"));
   const backupRoot = path.join(stageRoot, "backup");
   const present = backupFiles(publicRoot, protectedFiles, backupRoot);
+  let began = false;
   try {
+    run("保存整批内容基线", process.execPath, ["scripts/content-workflow.mjs", "begin", "--cadence=daily"]); began = true;
     run("刷新最近42天 DataBrain 指标", process.execPath, ["scripts/fetch-databrain-trends.mjs", `--start=${fetchRange.start}`, `--end=${fetchRange.end}`, "--window-days=42", `--output-root=${path.join(stageRoot, "outputs")}`]);
     run("生成当前指标快照", process.execPath, ["scripts/build-latest-databrain.mjs", "--metrics-only", `--output-root=${path.join(stageRoot, "outputs")}`, `--bi-root=${path.join(stageRoot, "bi_data")}`]);
     const after = snapshotSummary(publicRoot);
     const errors = validateDailyRefresh(before, after, fetchRange);
     if (errors.length) throw new Error(`安全校验未通过：${errors.join("；")}`);
-    if (!skipBuild) run("验证站点构建", "npm", ["run", "build"]);
+    if (!skipBuild) run("验证站点构建", "npm", ["run", "build:pages"]);
     commitStagedArtifacts(stageRoot, path.join(workspaceRoot, "outputs"), path.join(workspaceRoot, "bi_data"));
-    writeReport({ ...baseReport, status: "complete", completed_at: new Date().toISOString(), after, changes: { mobile_games: after.mobile_games - before.mobile_games, pc_games: after.pc_games - before.pc_games }, checks: { guardrails: "passed", build: skipBuild ? "skipped" : "passed" } });
+    writeReport({ ...baseReport, status: "ready_for_review", modules: { metrics: { required: true, status: "passed", checked_at: fetchRange.end }, build: { required: true, status: skipBuild ? "not_run" : "passed" } }, completed_at: new Date().toISOString(), after, changes: { mobile_games: after.mobile_games - before.mobile_games, pc_games: after.pc_games - before.pc_games }, checks: { guardrails: "passed", build: skipBuild ? "skipped" : "passed" } });
     process.stdout.write(`\n[daily-refresh] 完成。发布前报告：${reportPath}\n`);
   } catch (error) {
+    if (began) run("回滚整批公开内容", process.execPath, ["scripts/content-workflow.mjs", "abort", "--cadence=daily"]);
     restoreFiles(publicRoot, protectedFiles, backupRoot, present);
     const message = error instanceof Error ? error.message : String(error);
-    writeReport({ ...baseReport, status: "failed", completed_at: new Date().toISOString(), error: message, rollback: "completed" });
+    writeReport({ ...baseReport, status: "failed", modules: { ...sourceModules, [activeSource]: { required: true, status: "failed", error: message } }, failed_module: activeSource, completed_at: new Date().toISOString(), error: message, rollback: "completed" });
     throw error;
   } finally {
     releaseLock();
@@ -84,6 +96,8 @@ function main() {
 }
 
 try { main(); } catch (error) {
+  const report = fs.existsSync(reportPath) ? JSON.parse(fs.readFileSync(reportPath)) : {};
+  writeReport({ ...report, cadence: "daily", status: "failed", completed_at: new Date().toISOString(), error: String(error.message || error), modules: { ...report.modules, [activeSource]: { required: true, status: "failed", error: String(error.message || error) } }, failed_module: activeSource });
   console.error(error instanceof Error ? error.message : error);
   process.exitCode = 1;
 }

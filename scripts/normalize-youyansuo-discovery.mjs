@@ -5,13 +5,9 @@ import { buildGameEntityIndex, normalizeEntityName } from "./weekly-refresh-lib.
 
 const siteRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const publicRoot = path.join(siteRoot, "public");
-const OUT_OF_SCOPE_REASONS = new Map([
-  ["BanG Dream! Our Notes", "成熟IP音游不属本期重点品类。"],
-  ["Yumtopia", "典型二合游戏；餐厅题材与自动烹饪未改变合成订单核心循环，不纳入看板。"],
-  ["Yumtopia: Merge & Cook", "典型二合游戏；餐厅题材与自动烹饪未改变合成订单核心循环，不纳入看板。"],
-  ...["Block Craft 3D: Realm Builder", "Rap Star:Idle Clicker", "Sunday City: Life RolePlay", "Teacher Simulator: Exam Time", "House Cleaning: ASMR Makeover", "一针一线绣江南", "我要当老板", "深湾接单：旧车新生活", "星眠", "点点大冒险"]
-    .map((name) => [name, "本轮经编辑确认不纳入看板；保留筛选记录，不展示为新品候选。"]),
-].map(([name, reason]) => [normalizeEntityName(name), reason]));
+const decisions = JSON.parse(fs.readFileSync(path.join(publicRoot, "editorial-decisions.json"), "utf8"));
+const OUT_OF_SCOPE_REASONS = new Map(decisions.decisions.filter(decision => decision.action === "exclude")
+  .map(decision => [decision.normalized_name || normalizeEntityName(decision.name), decision.reason]));
 
 export function discoveryExclusionReason(name) {
   return OUT_OF_SCOPE_REASONS.get(normalizeEntityName(String(name || ""))) || "";
@@ -50,6 +46,10 @@ function validSourceUrl(value) {
 export function normalizeDiscovery(input, gamesDocument, options = {}) {
   if (input?.source !== "youyansuo" || input.mode !== "mcp_read_only") throw new Error("输入必须是游研所 MCP 只读扫描结果。");
   if (input.status !== "complete") throw new Error(`游研所扫描未完整成功：${input.status || "unknown"}`);
+  if (input.errors?.length || input.tool_calls?.failed > 0) throw new Error("游研所扫描包含失败调用，不能作为完整结果。");
+  for (const query of input.coverage_notes?.queries || []) {
+    if (query.status !== "success" || (query.expected_pages && query.fetched_pages !== query.expected_pages)) throw new Error("游研所查询或分页未完整成功。");
+  }
   const scanDate = dateKey(input.scan_date);
   if (!scanDate || (!options.allowHistorical && scanDate !== (options.today || todayShanghai()))) {
     throw new Error(`游研所扫描日期不是今天：${scanDate || "missing"}`);

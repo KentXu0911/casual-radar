@@ -22,7 +22,7 @@ npm run preview:pages
 npm run github:publish -- --message "Update dashboard data and verified footage"
 ```
 
-发布脚本先运行完整检查，再将明确列出的源码与公开数据同步到 `.automation/github-pages/repo` 并推送。原工作目录的未提交改动不会被提交或重置；公开仓库不包含原 Git 历史、`.env*`、`.openai` 绑定、授权凭证、采集原始产物或本地报告。脚本会拦截常见凭证格式。GitHub Pages 发布的是当前已核验数据，自动发布不会自行完成新品发现、测试实机搜索或数据采集。
+发布前必须 begin/finalize 内容批次。专用发布 checkout 使用 `npm run github:publish -- --in-place --cadence=manual`；从原始目录导出时沿用 `npm run github:publish`。发布器执行内容 gate、完整检查、受控提交、同一提交的 Actions 验证与线上 JSON/应用版本核对，并写入回执。原工作目录的未提交改动不会被提交或重置；公开仓库不包含原 Git 历史、`.env*`、`.openai` 绑定、授权凭证、采集原始产物或本地报告。脚本会拦截常见凭证格式。GitHub Pages 发布的是当前已核验数据，自动发布不会自行完成新品发现、测试实机搜索或数据采集。
 
 采集任务继续在具备 DataBrain/游研所授权的环境运行，完成后调用上述发布命令。凭证不写入浏览器或公开仓库；如以后迁移采集到 Actions，需另行配置 Secrets 和可续期授权。
 
@@ -138,7 +138,9 @@ npm run build
 
 ## 自动刷新与发布
 
-自动更新分为两种频率：
+自动更新分为每日指标、每日新品/影像核查、每周完整更新与每月历史审计。详细操作、状态和影像 review 格式见 [内容工作流操作手册](specs/content-workflow/operations.md)。
+
+已有数据采集命令：
 
 - `npm run data:daily` 每周二至周日回拉最近 42 天，只重算当前移动端与 PC 指标快照。90 天趋势、事件和异动归因保持到周更，避免日更后归因窗口发生漂移。
 - `npm run data:weekly` 每周回拉 104 天，发布最近有效的 90 天趋势，同时对统一实体表中的全部跟踪产品扫描事件与研究资料、刷新异动归因，并运行完整测试。事件和研究扫描都必须达到 `games_queried === tracked_games` 且失败批次为 0，否则回滚且不发布。
@@ -151,7 +153,7 @@ npm run build
 
 首次配置计划任务前可运行 `npm run data:daily:dry-run` 和 `npm run data:weekly:dry-run` 检查日期与名单。正式刷新需要环境变量 `DATABRAIN_TOKEN`。
 
-数据刷新成功后，调用 `npm run github:publish` 将已核验版本推送至 GitHub，由 Pages workflow 检查和部署。只有状态为 `complete` 的刷新报告才能进入发布流程；通过 `gh run view` 确认 Actions 部署成功并验证线上页面后，再记录发布回执。使用 `npm run data:publication -- --cadence=daily --provider=github_pages --url=https://kentxu0911.github.io/casual-radar/ --commit-sha=<完整SHA> --run-id=<成功的Actions运行ID>` 将回执写入最新及历史报告；周更改为 `--cadence=weekly`。历史 Sites 回执仍兼容。发布失败不会替换线上最后一个正常版本。
+采集后先处理内容/影像队列，执行 `content:finalize` 得到 ready_for_build，再用统一发布器验证构建和线上版本。内容 complete 与 publication.succeeded 分别表示内容/构建通过与线上核验成功；来源 skipped/blocked 不能冒充全量成功。发布器自动记录最新及历史报告，`data:publication` 补录时也会真实检查 Actions 与线上哈希。历史 Sites 回执仍兼容。
 
 公开新闻候选、新产品入池、分类和生命周期判断仍需人工核验；GRP 报告在索引核验后由周更自动按别名归并，游研所情报在品类总览的独立区域展示，不创建新的首页“周报”板块。
 

@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "decisions": [
+    {
+      "normalized_name": "bangdreamournotes",
+      "action": "exclude",
+      "reason": "成熟IP音游不属本期重点品类。",
+      "source": "用户编辑决定 · 2026-10-08",
+      "reviewed_at": "2026-10-08",
+      "scope": "core_gameplay",
+      "recheck_trigger": "核心玩法或产品身份发生明确变化后重新编辑核验",
+      "name": "BanG Dream! Our Notes"
+    },
+    {
+      "normalized_name": "yumtopia",
+      "action": "exclude",
+      "reason": "典型二合游戏；餐厅题材与自动烹饪未改变合成订单核心循环，不纳入看板。",
+      "source": "用户编辑决定 · 2026-10-08",
+      "reviewed_at": "2026-10-08",
+      "scope": "core_gameplay",
+      "recheck_trigger": "核心玩法或产品身份发生明确变化后重新编辑核验",
+      "name": "Yumtopia",
+      "evidence_url": "http://mp.weixin.qq.com/s?__biz=Mzk5MDg5OTAyNg==&mid=2247497160&idx=1&sn=fac62a0694a88bbd965ef2c1965c7fc8&chksm=c461bcced26fbe4d4d13771d3d46b914baccfb2254688de4cc86fcff62b15ab76f055a39f1a4&scene=126&sessionid=0#rd"
+    },
+    {
+      "normalized_name": "yumtopiamergecook",
+      "action": "exclude",
+      "reason": "典型二合游戏；餐厅题材与自动烹饪未改变合成订单核心循环，不纳入看板。",
+      "source": "用户编辑决定 · 2026-10-08",
+      "reviewed_at": "2026-10-08",
+      "scope": "core_gameplay",
+      "recheck_trigger": "核心玩法或产品身份发生明确变化后重新编辑核验",
+      "name": "Yumtopia: Merge & Cook"
+    },
+    {
+      "normalized_name": "blockcraft3drealmbuilder",
+      "action": "exclude",
+      "reason": "本轮经编辑确认不纳入看板；保留筛选记录，不展示为新品候选。",
+      "source": "用户编辑决定 · 2026-10-08",
+      "reviewed_at": "2026-10-08",
+      "scope": "candidate_selection",
+      "recheck_trigger": "核心玩法或产品身份发生明确变化后重新编辑核验",
+      "name": "Block Craft 3D: Realm Builder",
+      "evidence_url": "https://play.google.com/store/apps/details?id=com.wilds.craft.mysticland.explore"
+    },
+    {
+      "normalized_name": "rapstaridleclicker",
+      "action": "exclude",
+      "reason": "本轮经编辑确认不纳入看板；保留筛选记录，不展示为新品候选。",
+      "source": "用户编辑决定 · 2026-10-08",
+      "reviewed_at": "2026-10-08",
+      "scope": "candidate_selection",
+      "recheck_trigger": "核心玩法或产品身份发生明确变化后重新编辑核验",
+      "name": "Rap Star:Idle Clicker",
+      "evidence_url": "https://play.google.com/store/apps/details?id=com.withus.lifesimulation"
+    },
+    {
+      "normalized_name": "sundaycityliferoleplay",
+      "action": "exclude",
+      "reason": "本轮经编辑确认不纳入看板；保留筛选记录，不展示为新品候选。",
+      "source": "用户编辑决定 · 2026-10-08",
+      "reviewed_at": "2026-10-08",
+      "scope": "candidate_selection",
+      "recheck_trigger": "核心玩法或产品身份发生明确变化后重新编辑核验",
+      "name": "Sunday City: Life RolePlay",
+      "evidence_url": "https://play.google.com/store/apps/details?id=adventure.party.real.life"
+    },
+    {
+      "normalized_name": "teachersimulatorexamtime",
+      "action": "exclude",
+      "reason": "本轮经编辑确认不纳入看板；保留筛选记录，不展示为新品候选。",
+      "source": "用户编辑决定 · 2026-10-08",
+      "reviewed_at": "2026-10-08",
+      "scope": "candidate_selection",
+      "recheck_trigger": "核心玩法或产品身份发生明确变化后重新编辑核验",
+      "name": "Teacher Simulator: Exam Time",
+      "evidence_url": "https://play.google.com/store/apps/details?id=com.syubestgames.teachersimulator"
+    },
+    {
+      "normalized_name": "housecleaningasmrmakeover",
+      "action": "exclude",
+      "reason": "本轮经编辑确认不纳入看板；保留筛选记录，不展示为新品候选。",
+      "source": "用户编辑决定 · 2026-10-08",
+      "reviewed_at": "2026-10-08",
+      "scope": "candidate_selection",
+      "recheck_trigger": "核心玩法或产品身份发生明确变化后重新编辑核验",
+      "name": "House Cleaning: ASMR Makeover",
+      "evidence_url": "https://play.google.com/store/apps/details?id=com.housecleaning.asmr.makeover.home"
+    },
+    {
+      "normalized_name": "一针一线绣江南",
+      "action": "exclude",
+      "reason": "本轮经编辑确认不纳入看板；保留筛选记录，不展示为新品候选。",
+      "source": "用户编辑决定 · 2026-10-08",
+      "reviewed_at": "2026-10-08",
+      "scope": "candidate_selection",
+      "recheck_trigger": "核心玩法或产品身份发生明确变化后重新编辑核验",
+      "name": "一针一线绣江南",
+      "evidence_url": "http://mp.weixin.qq.com/s?__biz=MzU4NTcxMjE1Mg==&mid=2247497573&idx=1&sn=dc86d5d23630f0070e3b5ff7c334b06e&chksm=fcbc931041af9bd0dea2bc4dd490e9f3f055478aed4fc630c4f1bc0171361a81facaacbed310&scene=126&sessionid=0#rd"
+    },
+    {
+      "normalized_name": "我要当老板",
+      "action": "exclude",
+      "reason": "本轮经编辑确认不纳入看板；保留筛选记录，不展示为新品候选。",
+      "source": "用户编辑决定 · 2026-10-08",
+      "reviewed_at": "2026-10-08",
+      "scope": "candidate_selection",
+      "recheck_trigger": "核心玩法或产品身份发生明确变化后重新编辑核验",
+      "name": "我要当老板",
+      "evidence_url": "http://mp.weixin.qq.com/s?__biz=MzU4NTcxMjE1Mg==&mid=2247497562&idx=1&sn=617e15081c76baee739dc1fb62186ee8&chksm=fc3d52c899f93afbc2b199c2c1e528af60e049bb4d894fad2e678e00c77d638d0ab68b4b12ef&scene=126&sessionid=0#rd"
+    },
+    {
+      "normalized_name": "深湾接单旧车新生活",
+      "action": "exclude",
+      "reason": "本轮经编辑确认不纳入看板；保留筛选记录，不展示为新品候选。",
+      "source": "用户编辑决定 · 2026-10-08",
+      "reviewed_at": "2026-10-08",
+      "scope": "candidate_selection",
+      "recheck_trigger": "核心玩法或产品身份发生明确变化后重新编辑核验",
+      "name": "深湾接单：旧车新生活",
+      "evidence_url": "http://mp.weixin.qq.com/s?__biz=MzU4NTcxMjE1Mg==&mid=2247497417&idx=1&sn=c2d588d24979ff0b1679149d7879bac5&chksm=fc44d2f85eed8c3228ec45429953e77164196727948cf67517348999e34282d6067368d4fb7d&scene=126&sessionid=0#rd"
+    },
+    {
+      "normalized_name": "星眠",
+      "action": "exclude",
+      "reason": "本轮经编辑确认不纳入看板；保留筛选记录，不展示为新品候选。",
+      "source": "用户编辑决定 · 2026-10-08",
+      "reviewed_at": "2026-10-08",
+      "scope": "candidate_selection",
+      "recheck_trigger": "核心玩法或产品身份发生明确变化后重新编辑核验",
+      "name": "星眠",
+      "evidence_url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzMzNjM3OQ==&mid=2247573542&idx=1&sn=2c045d8784f85d427ce052c566c82890&chksm=cf7cd2358b6a5b2df56c72e1367ba0f3b0d2a3a370de11a1eded05d542214ba32ed3bd87e77f&scene=126&sessionid=0#rd"
+    },
+    {
+      "normalized_name": "点点大冒险",
+      "action": "exclude",
+      "reason": "本轮经编辑确认不纳入看板；保留筛选记录，不展示为新品候选。",
+      "source": "用户编辑决定 · 2026-10-08",
+      "reviewed_at": "2026-10-08",
+      "scope": "candidate_selection",
+      "recheck_trigger": "核心玩法或产品身份发生明确变化后重新编辑核验",
+      "name": "点点大冒险",
+      "evidence_url": "http://mp.weixin.qq.com/s?__biz=MzU2ODg0NzI5NQ==&mid=2247491720&idx=1&sn=4cca00f11f86bf82745a2e747855cbdf&chksm=fd626e2af44ab83e134f84075d3f203a889b8d9e65e6c5cc0ebbfb40c4030df07456ca4ad1f8&scene=126&sessionid=0#rd"
+    }
+  ]
+}

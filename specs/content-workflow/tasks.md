@@ -1,0 +1,7 @@
+- [ ] Stable product/event identities and safe field merging
+- [ ] Persistent editorial decisions and derived studio views
+- [ ] Changed-node search queue, review import and content gates
+- [ ] Module reports, baseline/rollback and freshness status
+- [ ] Content manifest and verified unified publication receipts
+- [ ] Behavioral failure tests, build and browser validation
+- [ ] Daily/weekly/monthly automation integration and deployment

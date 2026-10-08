@@ -520,7 +520,8 @@
       "developer": "Mediatonic",
       "publisher": "Epic Games",
       "icon_path": "/game-icons/override-糖豆人.png",
-      "icon_source": "steamgriddb"
+      "icon_source": "steamgriddb",
+      "product_id": "product-37c68c10c5631c8d"
     },
     {
       "name": "蛋仔派对",
@@ -893,7 +894,8 @@
       "developer": "网易",
       "publisher": "网易",
       "icon_path": "/game-icons/002-eggyparty.jpg",
-      "icon_source": "app-store-cn"
+      "icon_source": "app-store-cn",
+      "product_id": "product-794f295e901e9be5"
     },
     {
       "name": "元梦之星",
@@ -1028,7 +1030,8 @@
       "developer": "腾讯",
       "publisher": "腾讯",
       "icon_path": "/game-icons/003-dreamstar.jpg",
-      "icon_source": "databrain"
+      "icon_source": "databrain",
+      "product_id": "product-c7aef4d88ea2d655"
     },
     {
       "name": "Stumble Guys",
@@ -1136,7 +1139,8 @@
       "developer": "Scopely",
       "publisher": "Scopely",
       "icon_path": "/game-icons/004-stumbleguys.jpg",
-      "icon_source": "app-store-us"
+      "icon_source": "app-store-us",
+      "product_id": "product-c4f4703e775e97f1"
     },
     {
       "name": "猛兽派对",
@@ -1247,7 +1251,8 @@
         "source": "DataBrain Steam (sessionId=proj_acc87c43eeb14a5f)"
       },
       "icon_path": "/game-icons/005-partyanimals.webp",
-      "icon_source": "databrain"
+      "icon_source": "databrain",
+      "product_id": "product-a32bb5fc9ae7015f"
     },
     {
       "name": "Faaast Penguin",
@@ -1342,7 +1347,8 @@
         "source": "DataBrain Steam (sessionId=proj_3d961f38fa284382)"
       },
       "icon_path": "/game-icons/006-faaastpenguin.jpg",
-      "icon_source": "steam"
+      "icon_source": "steam",
+      "product_id": "product-1c24e66a4b410a5d"
     },
     {
       "name": "索尼克大乱斗",
@@ -1453,7 +1459,8 @@
       "icon_source": "app-store-us",
       "aliases": [
         "Sonic Rumble Party"
-      ]
+      ],
+      "product_id": "product-ff79e68592b6521f"
     },
     {
       "name": "荒野乱斗",
@@ -1615,7 +1622,8 @@
       "developer": "Supercell",
       "publisher": "Supercell",
       "icon_path": "/game-icons/008-brawlstars.jpg",
-      "icon_source": "app-store-cn"
+      "icon_source": "app-store-cn",
+      "product_id": "product-fe66f6db5ed1f860"
     },
     {
       "name": "宝可梦大集结",
@@ -1684,7 +1692,8 @@
         "updated": "2026-08-07"
       },
       "icon_path": "/game-icons/009-pokemonunite.jpg",
-      "icon_source": "app-store-cn"
+      "icon_source": "app-store-cn",
+      "product_id": "product-5ea88ad8a43a7a02"
     },
     {
       "name": "T3 Arena",
@@ -1753,7 +1762,8 @@
         "updated": "2026-08-07"
       },
       "icon_path": "/game-icons/010-t3arena.jpg",
-      "icon_source": "app-store-us"
+      "icon_source": "app-store-us",
+      "product_id": "product-5e3495d849ee609e"
     },
     {
       "name": "SMASH LEGENDS",
@@ -1822,7 +1832,8 @@
         "updated": "2026-08-07"
       },
       "icon_path": "/game-icons/011-smashlegends.jpg",
-      "icon_source": "app-store-us"
+      "icon_source": "app-store-us",
+      "product_id": "product-6985d553b710bc71"
     },
     {
       "name": "Zooba",
@@ -1894,7 +1905,8 @@
       "icon_source": "app-store",
       "aliases": [
         "Zooba: Zoo Battle Arena"
-      ]
+      ],
+      "product_id": "product-c0809c2dcc89e3e8"
     },
     {
       "name": "FRAG Pro Shooter",
@@ -1963,7 +1975,8 @@
         "updated": "2026-08-07"
       },
       "icon_path": "/game-icons/013-fragproshooter.jpg",
-      "icon_source": "app-store-us"
+      "icon_source": "app-store-us",
+      "product_id": "product-c425305aa857252a"
     },
     {
       "name": "Among Us",
@@ -2084,7 +2097,8 @@
       "icon_source": "app-store-us",
       "aliases": [
         "Among Us!"
-      ]
+      ],
+      "product_id": "product-3e454ed8cf733cb6"
     },
     {
       "name": "鹅鸭杀",
@@ -2303,7 +2317,8 @@
       "developer": "Gaggle Studios",
       "publisher": "Gaggle Studios/金山世游",
       "icon_path": "/game-icons/015-goosegooseduck.jpg",
-      "icon_source": "app-store-cn"
+      "icon_source": "app-store-cn",
+      "product_id": "product-dc6c69a3fb5f7dc1"
     },
     {
       "name": "太空行动",
@@ -2374,7 +2389,8 @@
         "platform": "mobile"
       },
       "icon_path": "/game-icons/016-supersus.jpg",
-      "icon_source": "app-store-us"
+      "icon_source": "app-store-us",
+      "product_id": "product-84b9ec884ec9949b"
     },
     {
       "name": "Project Winter",
@@ -2492,7 +2508,8 @@
         "source": "DataBrain Steam (sessionId=proj_ddb20ba8745043af)"
       },
       "icon_path": "/game-icons/017-projectwinter.jpg",
-      "icon_source": "steam"
+      "icon_source": "steam",
+      "product_id": "product-c44a816ca4adf0ce"
     },
     {
       "name": "First Class Trouble",
@@ -2577,7 +2594,8 @@
         "source": "DataBrain Steam (sessionId=proj_ddb20ba8745043af)"
       },
       "icon_path": "/game-icons/018-firstclasstrouble.jpg",
-      "icon_source": "steam"
+      "icon_source": "steam",
+      "product_id": "product-f5791a03b59e29c0"
     },
     {
       "name": "Lockdown Protocol",
@@ -2673,7 +2691,8 @@
         "steam_acu": 333
       },
       "icon_path": "/game-icons/019-lockdownprotocol.jpg",
-      "icon_source": "steam"
+      "icon_source": "steam",
+      "product_id": "product-ab417fceb5f1c359"
     },
     {
       "name": "Dread Hunger",
@@ -2766,7 +2785,8 @@
         "steam_acu": 881
       },
       "icon_path": "/game-icons/override-Dread-Hunger.jpg",
-      "icon_source": "steam"
+      "icon_source": "steam",
+      "product_id": "product-90c79789e0d9c3bc"
     },
     {
       "name": "第五人格",
@@ -2995,7 +3015,8 @@
       "developer": "网易",
       "publisher": "网易",
       "icon_path": "/game-icons/021-identityv.jpg",
-      "icon_source": "app-store-cn"
+      "icon_source": "app-store-cn",
+      "product_id": "product-c16c6bbe69d24374"
     },
     {
       "name": "黎明杀机",
@@ -3066,7 +3087,8 @@
         "steam_acu": 65241
       },
       "icon_path": "/game-icons/022-deadbydaylight.jpg",
-      "icon_source": "steam"
+      "icon_source": "steam",
+      "product_id": "product-4894b9cd872ff5ae"
     },
     {
       "name": "猫和老鼠",
@@ -3137,7 +3159,8 @@
         "platform": "mobile"
       },
       "icon_path": "/game-icons/023-tomandjerrychase.jpg",
-      "icon_source": "app-store-cn"
+      "icon_source": "app-store-cn",
+      "product_id": "product-fc696968e72855b5"
     },
     {
       "name": "逃跑吧！少年",
@@ -3200,7 +3223,8 @@
         "note": "DataBrain未收录该游戏指标"
       },
       "icon_path": "/game-icons/override-逃跑吧-少年.png",
-      "icon_source": "app-store-cn"
+      "icon_source": "app-store-cn",
+      "product_id": "product-42c79fb3194f1dea"
     },
     {
       "name": "七龙珠：破界斗士",
@@ -3271,7 +3295,8 @@
         "platform": "pc_console"
       },
       "icon_path": "/game-icons/025-dragonballbreakers.webp",
-      "icon_source": "databrain"
+      "icon_source": "databrain",
+      "product_id": "product-7b3db224f53a222a"
     },
     {
       "name": "捉鬼敢死队：灵魂释放",
@@ -3345,7 +3370,8 @@
       "icon_source": "steam",
       "aliases": [
         "Ghostbusters: Spirits Unleashed Ecto Edition"
-      ]
+      ],
+      "product_id": "product-7c724666f25e9b6e"
     },
     {
       "name": "皇室战争",
@@ -3463,7 +3489,8 @@
       "developer": "Supercell",
       "publisher": "Supercell",
       "icon_path": "/game-icons/027-clashroyale.jpg",
-      "icon_source": "app-store-us"
+      "icon_source": "app-store-us",
+      "product_id": "product-3c74e3caf77f3a5c"
     },
     {
       "name": "漫威终极逆转",
@@ -3656,7 +3683,8 @@
       "icon_source": "app-store-cn",
       "aliases": [
         "MARVEL SNAP - Hero Card Game"
-      ]
+      ],
+      "product_id": "product-4d9d65d3c27cd007"
     },
     {
       "name": "Rush Royale",
@@ -3765,7 +3793,8 @@
         "platform": "mobile"
       },
       "icon_path": "/game-icons/029-rushroyale.jpg",
-      "icon_source": "databrain"
+      "icon_source": "databrain",
+      "product_id": "product-262e6d44b507fee9"
     },
     {
       "name": "随机骰子",
@@ -3877,7 +3906,8 @@
       "icon_source": "app-store-us",
       "aliases": [
         "랜덤 다이스 디펜스 : PVP 타워 디펜스"
-      ]
+      ],
+      "product_id": "product-e33c1cde3b1a4308"
     },
     {
       "name": "云顶之弈",
@@ -3992,7 +4022,8 @@
       "developer": "Riot Games",
       "publisher": "Riot Games",
       "icon_path": "/game-icons/031-teamfighttactics.jpg",
-      "icon_source": "app-store-us"
+      "icon_source": "app-store-us",
+      "product_id": "product-1f89af228e22a3b0"
     },
     {
       "name": "金铲铲之战",
@@ -4215,7 +4246,8 @@
       "developer": "腾讯",
       "publisher": "腾讯",
       "icon_path": "/game-icons/032-battleofgoldenspatula.jpg",
-      "icon_source": "app-store-cn"
+      "icon_source": "app-store-cn",
+      "product_id": "product-ca1afba4314f71b2"
     },
     {
       "name": "炉石传说：酒馆战棋",
@@ -4288,7 +4320,8 @@
       "aliases": [
         "Hearthstone: Heroes of Warcraft",
         "Hearthstone: Scholomance Academy"
-      ]
+      ],
+      "product_id": "product-4b68d0f1a8f41616"
     },
     {
       "name": "Super Auto Pets",
@@ -4355,7 +4388,8 @@
       "developer": "Team Wood Games",
       "publisher": "Team Wood Games",
       "icon_path": "/game-icons/034-superautopets.jpg",
-      "icon_source": "app-store-us"
+      "icon_source": "app-store-us",
+      "product_id": "product-bb5040c29b588727"
     },
     {
       "name": "背包乱斗",
@@ -4423,7 +4457,8 @@
       "developer": "PlayWithFurcifer",
       "publisher": "IndieArk / Shochiku",
       "icon_path": "/game-icons/035-backpackbattles.webp",
-      "icon_source": "databrain"
+      "icon_source": "databrain",
+      "product_id": "product-b926c2e78cfc059c"
     },
     {
       "name": "致命公司",
@@ -4556,7 +4591,8 @@
         "source": "DataBrain Steam (sessionId=proj_acc87c43eeb14a5f)"
       },
       "icon_path": "/game-icons/036-lethalcompany.webp",
-      "icon_source": "databrain"
+      "icon_source": "databrain",
+      "product_id": "product-237ee9077d667be7"
     },
     {
       "name": "R.E.P.O.",
@@ -4685,7 +4721,8 @@
       "developer": "semiwork",
       "publisher": "semiwork",
       "icon_path": "/game-icons/037-repo.webp",
-      "icon_source": "databrain"
+      "icon_source": "databrain",
+      "product_id": "product-781faedee7fab010"
     },
     {
       "name": "内容警告",
@@ -4779,7 +4816,8 @@
         "source": "DataBrain Steam (sessionId=proj_3d961f38fa284382)"
       },
       "icon_path": "/game-icons/038-contentwarning.jpg",
-      "icon_source": "steam"
+      "icon_source": "steam",
+      "product_id": "product-ce33cfb84c2a11c5"
     },
     {
       "name": "恐鬼症",
@@ -4901,7 +4939,8 @@
         "source": "DataBrain Steam (sessionId=proj_acc87c43eeb14a5f)"
       },
       "icon_path": "/game-icons/039-phasmophobia.webp",
-      "icon_source": "databrain"
+      "icon_source": "databrain",
+      "product_id": "product-62a94f26fd25e1e8"
     },
     {
       "name": "超自然行动组",
@@ -5070,7 +5109,8 @@
         "platform": "mobile"
       },
       "icon_path": "/game-icons/040-paranormalteam.jpg",
-      "icon_source": "databrain"
+      "icon_source": "databrain",
+      "product_id": "product-6d5baa1704e9896b"
     },
     {
       "name": "PEAK",
@@ -5178,7 +5218,8 @@
         "source": "DataBrain Steam (sessionId=proj_211a3867c7124870)"
       },
       "icon_path": "/game-icons/041-peak.jpg",
-      "icon_source": "steam"
+      "icon_source": "steam",
+      "product_id": "product-c797f4a5fc3c93da"
     },
     {
       "name": "Escape the Backrooms",
@@ -5288,7 +5329,8 @@
         "source": "DataBrain Steam (sessionId=proj_ddb20ba8745043af)"
       },
       "icon_path": "/game-icons/042-escapebackrooms.jpg",
-      "icon_source": "steam"
+      "icon_source": "steam",
+      "product_id": "product-43cb96af11d50309"
     },
     {
       "name": "Murky Divers",
@@ -5395,7 +5437,8 @@
         "source": "DataBrain Steam (sessionId=proj_ddb20ba8745043af)"
       },
       "icon_path": "/game-icons/043-murkydivers.jpg",
-      "icon_source": "steam"
+      "icon_source": "steam",
+      "product_id": "product-8b2d922cad162cda"
     },
     {
       "name": "胡闹厨房2",
@@ -5495,7 +5538,8 @@
       "developer": "Ghost Town Games",
       "publisher": "Team17",
       "icon_path": "/game-icons/044-overcooked2.webp",
-      "icon_source": "databrain"
+      "icon_source": "databrain",
+      "product_id": "product-fd74e45cc7a3068a"
     },
     {
       "name": "PlateUp!",
@@ -5615,7 +5659,8 @@
         "source": "DataBrain Steam (sessionId=proj_211a3867c7124870)"
       },
       "icon_path": "/game-icons/045-plateup.webp",
-      "icon_source": "databrain"
+      "icon_source": "databrain",
+      "product_id": "product-0dfdd424166a6c2f"
     },
     {
       "name": "Dark and Darker",
@@ -5683,7 +5728,8 @@
         "source": "DataBrain Steam (sessionId=proj_acc87c43eeb14a5f)"
       },
       "icon_path": "/game-icons/046-darkanddarker.jpg",
-      "icon_source": "steam"
+      "icon_source": "steam",
+      "product_id": "product-94d49d7936c902aa"
     },
     {
       "name": "Pummel Party",
@@ -5797,7 +5843,8 @@
         "source": "DataBrain Steam (sessionId=proj_3d961f38fa284382)"
       },
       "icon_path": "/game-icons/047-pummelparty.webp",
-      "icon_source": "databrain"
+      "icon_source": "databrain",
+      "product_id": "product-a62520d36519eb48"
     },
     {
       "name": "King of the Castle",
@@ -5868,7 +5915,8 @@
         "steam_acu": 7
       },
       "icon_path": "/game-icons/048-kingofcastle.jpg",
-      "icon_source": "steam"
+      "icon_source": "steam",
+      "product_id": "product-2d53794acd59a5a1"
     },
     {
       "name": "Dale & Dawson Stationery Supplies",
@@ -5964,7 +6012,8 @@
         "steam_acu": 51
       },
       "icon_path": "/game-icons/049-daleanddawsonstationerysupplies.jpg",
-      "icon_source": "steam"
+      "icon_source": "steam",
+      "product_id": "product-26e9ed20a73683b9"
     },
     {
       "name": "星露谷物语",
@@ -6081,7 +6130,8 @@
       "developer": "ConcernedApe",
       "publisher": "ConcernedApe",
       "icon_path": "/game-icons/050-stardewvalley.jpg",
-      "icon_source": "app-store-us"
+      "icon_source": "app-store-us",
+      "product_id": "product-d57eee8efb88d26b"
     },
     {
       "name": "潜水员戴夫",
@@ -6186,7 +6236,8 @@
         "platform": "pc_console"
       },
       "icon_path": "/game-icons/051-davediver.webp",
-      "icon_source": "databrain"
+      "icon_source": "databrain",
+      "product_id": "product-142f1aa8722ba823"
     },
     {
       "name": "史莱姆牧场",
@@ -6287,7 +6338,8 @@
         "platform": "pc_console"
       },
       "icon_path": "/game-icons/052-slimerancher.jpg",
-      "icon_source": "app-store-us"
+      "icon_source": "app-store-us",
+      "product_id": "product-27f4d32b71738db4"
     },
     {
       "name": "药剂工艺",
@@ -6387,7 +6439,8 @@
       "icon_source": "steamgriddb",
       "aliases": [
         "Potion Craft: Alchemist Simulator"
-      ]
+      ],
+      "product_id": "product-f400e529df696393"
     },
     {
       "name": "沙石镇时光",
@@ -6495,7 +6548,8 @@
         "platform": "pc_console"
       },
       "icon_path": "/game-icons/054-mytimeatsandrock.jpg",
-      "icon_source": "databrain"
+      "icon_source": "databrain",
+      "product_id": "product-327bdec86b360409"
     },
     {
       "name": "珊瑚岛",
@@ -6592,7 +6646,8 @@
         "steam_acu": 2937
       },
       "icon_path": "/game-icons/055-coralisland.jpg",
-      "icon_source": "steam"
+      "icon_source": "steam",
+      "product_id": "product-6bef13d7cf18ec75"
     },
     {
       "name": "WePlay",
@@ -6731,7 +6786,8 @@
         "platform": "mobile"
       },
       "icon_path": "/game-icons/056-weplay.jpg",
-      "icon_source": "databrain"
+      "icon_source": "databrain",
+      "product_id": "product-cf49b104531d4b54"
     },
     {
       "name": "TopTop",
@@ -6832,7 +6888,8 @@
         "updated": "2026-08-07"
       },
       "icon_path": "/game-icons/override-TopTop.png",
-      "icon_source": "app-store"
+      "icon_source": "app-store",
+      "product_id": "product-baffad2f8e9f5988"
     },
     {
       "name": "Pocket Champs",
@@ -6937,7 +6994,8 @@
         "platform": "mobile"
       },
       "icon_path": "/game-icons/058-pocketchampsracing.jpg",
-      "icon_source": "app-store-us"
+      "icon_source": "app-store-us",
+      "product_id": "product-95de104d76bb4158"
     },
     {
       "name": "乐高派对",
@@ -7045,7 +7103,8 @@
         "platform": "pc_console"
       },
       "icon_path": "/game-icons/059-legoparty.jpg",
-      "icon_source": "steam"
+      "icon_source": "steam",
+      "product_id": "product-bacd31ba2c0e278a"
     },
     {
       "name": "终极鸡马",
@@ -7159,7 +7218,8 @@
         "source": "DataBrain Steam (sessionId=proj_3d961f38fa284382)"
       },
       "icon_path": "/game-icons/060-ultimatechickenhorse.webp",
-      "icon_source": "databrain"
+      "icon_source": "databrain",
+      "product_id": "product-ae1e5d8616a26806"
     },
     {
       "name": "Jackbox派对包",
@@ -7263,7 +7323,8 @@
         "platform": "multi"
       },
       "icon_path": "/game-icons/061-jackboxpartypack.jpg",
-      "icon_source": "app-store-us"
+      "icon_source": "app-store-us",
+      "product_id": "product-187608ffa5b370a8"
     },
     {
       "name": "爆裂小队",
@@ -7366,7 +7427,8 @@
         "note": "主要靠IAA变现，IAP收入极低"
       },
       "icon_path": "/game-icons/062-squadbusters.jpg",
-      "icon_source": "app-store-us"
+      "icon_source": "app-store-us",
+      "product_id": "product-db13118ddc360544"
     },
     {
       "name": "死亡笔记：杀手同盟",
@@ -7467,7 +7529,8 @@
         "steam_acu": 23
       },
       "icon_path": "/game-icons/063-deathnotekillerwithin.jpg",
-      "icon_source": "steam"
+      "icon_source": "steam",
+      "product_id": "product-6c34d424f11685fd"
     },
     {
       "name": "Town of Salem 2",
@@ -7573,7 +7636,8 @@
         "updated": "2026-08-07"
       },
       "icon_path": "/game-icons/064-townofsalem2.jpg",
-      "icon_source": "app-store-us"
+      "icon_source": "app-store-us",
+      "product_id": "product-9959024d447819fc"
     },
     {
       "name": "Lucky Defense",
@@ -7723,7 +7787,8 @@
         "platform": "mobile"
       },
       "icon_path": "/game-icons/065-luckydefense.jpg",
-      "icon_source": "databrain"
+      "icon_source": "databrain",
+      "product_id": "product-32f577505c8cc949"
     },
     {
       "name": "Dinkum",
@@ -7828,7 +7893,8 @@
         "platform": "pc"
       },
       "icon_path": "/game-icons/066-dinkum.webp",
-      "icon_source": "databrain"
+      "icon_source": "databrain",
+      "product_id": "product-e73219cb44d8b9cb"
     },
     {
       "name": "Luma Island",
@@ -7926,7 +7992,8 @@
         "steam_acu": 393
       },
       "icon_path": "/game-icons/067-lumaisland.jpg",
-      "icon_source": "steam"
+      "icon_source": "steam",
+      "product_id": "product-662b4a87aacab6bc"
     },
     {
       "name": "塔塔冒险队",
@@ -8084,7 +8151,8 @@
         "reason": "官方发布节点已核实，当前按运营产品跟踪。"
       },
       "icon_path": "/game-icons/taptap-866257.png",
-      "icon_source": "taptap"
+      "icon_source": "taptap",
+      "product_id": "product-54ffb8e0ff438049"
     },
     {
       "name": "Epic Shaman Battle: 4P Defense",
@@ -8178,7 +8246,8 @@
         "platform": "mobile"
       },
       "icon_path": "/game-icons/069-epicshamanbattle4pdefense.jpg",
-      "icon_source": "app-store-us"
+      "icon_source": "app-store-us",
+      "product_id": "product-dbf8896894bd09c5"
     },
     {
       "name": "Plinko Defense",
@@ -8270,7 +8339,8 @@
         "note": "主流移动数据库未收录，可能为极早期/小众平台"
       },
       "icon_path": "/game-icons/override-Plinko-Defense.png",
-      "icon_source": "google-play-mirror"
+      "icon_source": "google-play-mirror",
+      "product_id": "product-8836a2d93b0f57d5"
     },
     {
       "name": "I Am Sword",
@@ -8358,7 +8428,8 @@
         "note": "主流移动数据库未收录，可能为极早期/小众平台"
       },
       "icon_path": "/game-icons/override-I-Am-Sword.jpg",
-      "icon_source": "app-store"
+      "icon_source": "app-store",
+      "product_id": "product-31a76ef5f8f421ea"
     },
     {
       "name": "Castle Clashers",
@@ -8465,7 +8536,8 @@
         "platform": "mobile"
       },
       "icon_path": "/game-icons/072-castleclashers.jpg",
-      "icon_source": "databrain"
+      "icon_source": "databrain",
+      "product_id": "product-90674d7a4f44c97e"
     },
     {
       "name": "Cup Heroes",
@@ -8534,7 +8606,8 @@
         "platform": "mobile"
       },
       "icon_path": "/game-icons/073-cupheroes.jpg",
-      "icon_source": "app-store-us"
+      "icon_source": "app-store-us",
+      "product_id": "product-a74d9f1096775d55"
     },
     {
       "name": "Bag Fight",
@@ -8604,7 +8677,8 @@
         "note": "持续下滑，流水降超70%"
       },
       "icon_path": "/game-icons/074-bagfight.jpg",
-      "icon_source": "app-store-cn"
+      "icon_source": "app-store-cn",
+      "product_id": "product-fc8c67902b93b83c"
     },
     {
       "name": "幻兽帕鲁",
@@ -8849,7 +8923,8 @@
       "developer": "Pocketpair",
       "publisher": "Pocketpair",
       "icon_path": "/game-icons/075-palworld.webp",
-      "icon_source": "databrain"
+      "icon_source": "databrain",
+      "product_id": "product-ca3874ca040b5fe8"
     },
     {
       "name": "创世理想乡",
@@ -8920,7 +8995,8 @@
         "platform": "pc_console"
       },
       "icon_path": "/game-icons/076-craftopia.webp",
-      "icon_source": "databrain"
+      "icon_source": "databrain",
+      "product_id": "product-d4f3fe7b5f0c0e20"
     },
     {
       "name": "方舟：生存进化",
@@ -8988,7 +9064,8 @@
       "developer": "Studio Wildcard",
       "publisher": "Studio Wildcard",
       "icon_path": "/game-icons/077-arksurvivalevolved.jpg",
-      "icon_source": "databrain"
+      "icon_source": "databrain",
+      "product_id": "product-eb3f2adf71eedd81"
     },
     {
       "name": "七日世界",
@@ -9056,7 +9133,8 @@
       "developer": "网易",
       "publisher": "网易",
       "icon_path": "/game-icons/078-oncehuman.jpg",
-      "icon_source": "databrain"
+      "icon_source": "databrain",
+      "product_id": "product-6f578b6a30cf2071"
     },
     {
       "name": "灵动小镇",
@@ -9138,7 +9216,8 @@
       "icon_source": "app-store-us",
       "aliases": [
         "Go Go Town"
-      ]
+      ],
+      "product_id": "product-b84aaeb59aa0e60e"
     },
     {
       "name": "Smalland",
@@ -9209,7 +9288,8 @@
         "steam_acu": 282
       },
       "icon_path": "/game-icons/080-smallandsurvivewilds.jpg",
-      "icon_source": "steam"
+      "icon_source": "steam",
+      "product_id": "product-99ba5047d8b1931d"
     },
     {
       "name": "动物森友会",
@@ -9325,7 +9405,8 @@
       "why": "动森like品类定义者。无人岛生活模拟，钓鱼/捕虫/装修/社交拜访，全球销量超4000万份，定义了整个社交模拟经营品类。",
       "source": "公开资料汇总",
       "icon_path": "/game-icons/081-动物森友会.webp",
-      "icon_source": "databrain"
+      "icon_source": "databrain",
+      "product_id": "product-e2cf8ccd82aec3fa"
     },
     {
       "name": "心动小镇",
@@ -9520,7 +9601,8 @@
       "why": "国内最成功的动森like手游。国服累计下载超5000万，TapTap 8.8分，国际服2026年1月上线首月流水超1000万美元。慢节奏自由生活模拟，无体力限制。",
       "source": "公开资料汇总",
       "icon_path": "/game-icons/082-心动小镇.webp",
-      "icon_source": "databrain"
+      "icon_source": "databrain",
+      "product_id": "product-caef5fd380c771f8"
     },
     {
       "name": "Palia",
@@ -9631,7 +9713,8 @@
       "why": "免费MMO生活模拟。全球玩家超1000万，Steam 88%好评。种田/钓鱼/狩猎/装修，强社区合作玩法，无PVP。Daybreak于2024年收购。",
       "source": "公开资料汇总",
       "icon_path": "/game-icons/083-palia.webp",
-      "icon_source": "databrain"
+      "icon_source": "databrain",
+      "product_id": "product-dedef7b21ae71b45"
     },
     {
       "name": "迪士尼梦幻星谷",
@@ -9772,7 +9855,8 @@
       "why": "迪士尼IP加持的生活模拟。与迪士尼/皮克斯角色共居，种田/钓鱼/烹饪/装修，持续付费扩展更新。跨平台联机，强IP社交传播力。",
       "source": "公开资料汇总",
       "icon_path": "/game-icons/084-迪士尼梦幻星谷.jpg",
-      "icon_source": "databrain"
+      "icon_source": "databrain",
+      "product_id": "product-0c254cfda80719d4"
     },
     {
       "name": "Fields of Mistria",
@@ -9881,7 +9965,8 @@
         "reason": "已结束 Early Access 并进入 1.0 正式运营。"
       },
       "icon_path": "/game-icons/085-fieldsofmistria.webp",
-      "icon_source": "databrain"
+      "icon_source": "databrain",
+      "product_id": "product-ec2f9ea3a87a3ff0"
     },
     {
       "name": "Go-Go Town!",
@@ -9990,7 +10075,8 @@
         "source": "DataBrain (sessionId=proj_3a6e7fe59ea64830)"
       },
       "icon_path": "/game-icons/086-gogotown.webp",
-      "icon_source": "databrain"
+      "icon_source": "databrain",
+      "product_id": "product-2b615cb5aa09428a"
     },
     {
       "name": "Cozy Grove",
@@ -10105,7 +10191,8 @@
       "why": "手绘风幽灵岛生活模拟。与现实时间同步，每日1-2小时内容。钓鱼/采集/装修/安抚幽灵。续作Camp Spirit 2026年7月上线PC/主机。",
       "source": "公开资料汇总",
       "icon_path": "/game-icons/087-cozygrove.jpg",
-      "icon_source": "databrain"
+      "icon_source": "databrain",
+      "product_id": "product-7ae92d2553fa64c6"
     },
     {
       "name": "Sun Haven",
@@ -10214,7 +10301,8 @@
       "why": "奇幻题材农场RPG，可选人类/精灵/猫等多种族。8人在线联机，种田/魔法/战斗/恋爱。Steam评价很好，多人社交是核心卖点。",
       "source": "公开资料汇总",
       "icon_path": "/game-icons/088-sunhaven.webp",
-      "icon_source": "databrain"
+      "icon_source": "databrain",
+      "product_id": "product-5e989a8c60aa4142"
     },
     {
       "name": "代号：奇旅",
@@ -10373,7 +10461,8 @@
         "reason": "仍处于测试验证阶段，正式上线时间未确认。"
       },
       "icon_path": "/game-icons/taptap-719198.png",
-      "icon_source": "taptap"
+      "icon_source": "taptap",
+      "product_id": "product-dc884359b31468dd"
     },
     {
       "name": "星布谷地",
@@ -10640,7 +10729,8 @@
         "reviewed_at": "2026-10-08"
       },
       "icon_path": "/game-icons/taptap-776320.png",
-      "icon_source": "taptap"
+      "icon_source": "taptap",
+      "product_id": "product-6f70b509e812bf10"
     },
     {
       "name": "粒粒的小人国",
@@ -10858,7 +10948,8 @@
         "reviewed_at": "2026-10-08"
       },
       "icon_path": "/game-icons/taptap-772909.png",
-      "icon_source": "taptap"
+      "icon_source": "taptap",
+      "product_id": "product-d186fe023bf6c656"
     },
     {
       "name": "Paralives",
@@ -10989,7 +11080,8 @@
         "reason": "Early Access 版本已公开发售，作为已上线产品持续观察。"
       },
       "icon_path": "/game-icons/092-paralives.jpg",
-      "icon_source": "steam"
+      "icon_source": "steam",
+      "product_id": "product-c7e3b7ed361ac38a"
     },
     {
       "name": "Witchbrook",
@@ -11130,7 +11222,8 @@
         "reason": "仍处于正式上线前研发阶段。"
       },
       "icon_path": "/game-icons/093-witchbrook.jpg",
-      "icon_source": "steam"
+      "icon_source": "steam",
+      "product_id": "product-6f4e477e1799500b"
     },
     {
       "name": "朋友收集 梦想生活",
@@ -11258,7 +11351,8 @@
       "why": "Mii岛屿生活模拟。玩家创建Mii角色并观察他们在岛上的自主社交生态：交友、恋爱、组建家庭、同居（最多8人）。引入微个性系统、调色屋创作工坊，支持多元性别与性取向设定。任天堂第一方独占作品。",
       "source": "公开资料汇总",
       "icon_path": "/game-icons/override-朋友收集-梦想生活.png",
-      "icon_source": "nintendo"
+      "icon_source": "nintendo",
+      "product_id": "product-d89bb5caedda928c"
     },
     {
       "name": "Starsand Island",
@@ -11426,7 +11520,8 @@
         "reason": "已结束 Early Access 并进入 1.0 多平台运营验证。"
       },
       "icon_path": "/game-icons/095-starsandisland.jpg",
-      "icon_source": "steam"
+      "icon_source": "steam",
+      "product_id": "product-cf4b204228b4422c"
     },
     {
       "name": "Spirit Crossing",
@@ -11572,7 +11667,8 @@
         "reason": "仍处于正式上线前研发阶段。"
       },
       "icon_path": "/game-icons/096-spiritcrossing.jpg",
-      "icon_source": "app-store-us"
+      "icon_source": "app-store-us",
+      "product_id": "product-5195b26779783496"
     },
     {
       "name": "崩坏：因缘精灵",
@@ -11796,7 +11892,8 @@
         "reason": "仍处于测试验证阶段。"
       },
       "icon_path": "/game-icons/taptap-753921.png",
-      "icon_source": "taptap"
+      "icon_source": "taptap",
+      "product_id": "product-b212f3ce9e2e9219"
     },
     {
       "name": "王者万象棋",
@@ -12057,7 +12154,8 @@
         "reviewed_at": "2026-10-08"
       },
       "icon_path": "/game-icons/taptap-243110.png",
-      "icon_source": "taptap"
+      "icon_source": "taptap",
+      "product_id": "product-01c5121cec79728e"
     },
     {
       "name": "舞力全开：派对",
@@ -12234,7 +12332,8 @@
       "icon_source": "app-store-cn",
       "aliases": [
         "舞力全开：派对 Just Dance Party"
-      ]
+      ],
+      "product_id": "product-d59107ed89890317"
     },
     {
       "name": "山海奇旅",
@@ -12431,7 +12530,8 @@
         "reason": "仍处于测试验证阶段，正式上线时间未确认。"
       },
       "icon_path": "/game-icons/taptap-719198.png",
-      "icon_source": "taptap"
+      "icon_source": "taptap",
+      "product_id": "product-dc884359b31468dd"
     },
     {
       "name": "蛋仔滑滑",
@@ -12596,7 +12696,8 @@
         ]
       },
       "icon_path": "/game-icons/override-蛋仔滑滑.jpg",
-      "icon_source": "app-store-cn"
+      "icon_source": "app-store-cn",
+      "product_id": "product-d34f5b69a7d96945"
     },
     {
       "name": "裂隙远征",
@@ -12700,7 +12801,8 @@
         "reason": "当前以试玩和品类验证为主，尚无稳定运营口径。"
       },
       "icon_path": "/game-icons/override-裂隙远征.jpg",
-      "icon_source": "steam-official"
+      "icon_source": "steam-official",
+      "product_id": "product-b50ea3a5b48c125c"
     },
     {
       "name": "诡影藏锋",
@@ -12808,7 +12910,8 @@
         "reason": "首测阶段，尚未进入稳定运营。"
       },
       "icon_path": "/game-icons/taptap-874444.png",
-      "icon_source": "taptap"
+      "icon_source": "taptap",
+      "product_id": "product-5aa2e745bd1afe52"
     },
     {
       "name": "BigWalk",
@@ -12898,7 +13001,8 @@
       "icon_path": "/game-icons/104-bigwalk.jpg",
       "icon_source": "steam",
       "developer": "House House",
-      "publisher": "Panic"
+      "publisher": "Panic",
+      "product_id": "product-304cb69abfd8d464"
     },
     {
       "name": "小冰冰斗蛐蛐",
@@ -13044,7 +13148,8 @@
         "reason": "官方发布节点已核实，当前按运营产品跟踪。"
       },
       "icon_path": "/game-icons/taptap-882847.png",
-      "icon_source": "taptap"
+      "icon_source": "taptap",
+      "product_id": "product-badb7a716fe05536"
     },
     {
       "name": "代号：Team2",
@@ -13145,7 +13250,8 @@
         "reason": "首测阶段，尚未进入稳定运营；重点观察复玩性、策略深度和社交模块的持续表现。"
       },
       "icon_path": "/game-icons/taptap-831809.png",
-      "icon_source": "taptap"
+      "icon_source": "taptap",
+      "product_id": "product-0ce6c8e475085c4b"
     },
     {
       "name": "集合！浆果镇",
@@ -13212,7 +13318,8 @@
         "stage": "尝鲜首测已结束",
         "stage_date": "2026-08-01",
         "reason": "国内限量删档不计费首测结束，后续安排待确认。"
-      }
+      },
+      "product_id": "product-4afbf920c4493fa2"
     },
     {
       "name": "How to Fish",
@@ -13288,7 +13395,8 @@
         "pipeline": false,
         "stage": "正式上线",
         "stage_date": "2026-08-20"
-      }
+      },
+      "product_id": "product-43126cdce61aab41"
     },
     {
       "name": "妖妖棋",
@@ -13435,7 +13543,8 @@
         "reason": "已完成第二次玩法技术测试并取得版号，尚未公布公测或正式上线日期。"
       },
       "icon_path": "/game-icons/taptap-756756.png",
-      "icon_source": "taptap"
+      "icon_source": "taptap",
+      "product_id": "product-bce4f36c4bf46bb1"
     },
     {
       "name": "多多自走棋",
@@ -13537,7 +13646,8 @@
         "Auto Chess",
         "Auto Chess:Origin"
       ],
-      "databrain_query": "Auto Chess:Origin"
+      "databrain_query": "Auto Chess:Origin",
+      "product_id": "product-8d032dd5fb757f68"
     },
     {
       "name": "Mechabellum",
@@ -13628,7 +13738,8 @@
         "reason": "以大规模机甲编队和回合部署拓展自走棋的硬核策略边界。"
       },
       "icon_path": "/game-icons/audit-mechabellum.jpg",
-      "icon_source": "steam"
+      "icon_source": "steam",
+      "product_id": "product-48fcf51a51d159d8"
     },
     {
       "name": "The Bazaar",
@@ -13719,7 +13830,8 @@
         "reason": "以商店选购和英雄构筑驱动自动战斗，是背包构筑与自走棋融合的重要样本。"
       },
       "icon_path": "/game-icons/audit-the-bazaar.jpg",
-      "icon_source": "steam"
+      "icon_source": "steam",
+      "product_id": "product-2913ea073fb22586"
     },
     {
       "name": "Once Upon a Galaxy",
@@ -13814,7 +13926,8 @@
         "reason": "跨移动与 PC 的轻量卡牌自走棋，是新一代小团队产品样本。"
       },
       "icon_path": "/game-icons/audit-once-upon-a-galaxy.jpg",
-      "icon_source": "steam"
+      "icon_source": "steam",
+      "product_id": "product-b25530c4196b86e1"
     },
     {
       "name": "Random Dice 2",
@@ -13907,7 +14020,8 @@
         "reason": "随机塔防头部系列续作，已从概率抽取转向更强调对局策略的产品验证。"
       },
       "icon_path": "/game-icons/audit-random-dice-2.jpg",
-      "icon_source": "google-play"
+      "icon_source": "google-play",
+      "product_id": "product-f3e1cf2fcac491a6"
     },
     {
       "name": "PICO PARK 2",
@@ -14002,7 +14116,8 @@
         "reason": "低门槛多人协作解谜代表，关卡要求实时沟通与共同完成。"
       },
       "icon_path": "/game-icons/audit-pico-park-2.jpg",
-      "icon_source": "steam"
+      "icon_source": "steam",
+      "product_id": "product-50e0e4fef36a4d95"
     },
     {
       "name": "人类一败涂地",
@@ -14103,7 +14218,8 @@
         "reason": "物理互动与多人协作的长线常青样本，补齐派对合作品类基础标杆。"
       },
       "icon_path": "/game-icons/audit-human-fall-flat.jpg",
-      "icon_source": "steam"
+      "icon_source": "steam",
+      "product_id": "product-d10428814e43dcf8"
     },
     {
       "name": "Chained Together",
@@ -14194,7 +14310,8 @@
         "reason": "物理绳链把失误和进度绑定给全队，是强传播的协作闯关机制样本。"
       },
       "icon_path": "/game-icons/audit-chained-together.jpg",
-      "icon_source": "steam"
+      "icon_source": "steam",
+      "product_id": "product-bf81b58529a22869"
     },
     {
       "name": "Deceit 2",
@@ -14289,7 +14406,8 @@
         "reason": "隐藏身份、语音博弈与实时逃生结合，是社交推理向动作化演进的核心样本。"
       },
       "icon_path": "/game-icons/audit-deceit-2.jpg",
-      "icon_source": "steam"
+      "icon_source": "steam",
+      "product_id": "product-31af5aa9e2107a1f"
     },
     {
       "name": "The Outlast Trials",
@@ -14384,7 +14502,8 @@
         "reason": "中重度合作恐怖标杆，用于对照轻量合作产品的协作压力与内容周期。"
       },
       "icon_path": "/game-icons/audit-outlast-trials.jpg",
-      "icon_source": "steam"
+      "icon_source": "steam",
+      "product_id": "product-f469c974c7d38cb3"
     },
     {
       "name": "mo.co",
@@ -14477,7 +14596,8 @@
         "reason": "Supercell 对移动端短局合作狩猎和赛季服务的验证，是中度化边界参照。"
       },
       "icon_path": "/game-icons/audit-moco.jpg",
-      "icon_source": "google-play"
+      "icon_source": "google-play",
+      "product_id": "product-01bc07cf437554bd"
     },
     {
       "name": "Aniimo",
@@ -14629,7 +14749,8 @@
         "reviewed_at": "2026-10-08"
       },
       "icon_path": "/game-icons/audit-aniimo.jpg",
-      "icon_source": "app-store-us"
+      "icon_source": "app-store-us",
+      "product_id": "product-430468b3d1844ff7"
     },
     {
       "name": "My Time at Evershine",
@@ -14748,7 +14869,8 @@
       "aliases": [
         "时光3：永耀之境",
         "My Time at Evershine"
-      ]
+      ],
+      "product_id": "product-ee5229b13f6c5926"
     },
     {
       "name": "闪耀吧！噜咪",
@@ -14867,7 +14989,8 @@
         "reason": "新品发现候选，已进入捉宠类竞品观察，不计入在研项目。"
       },
       "icon_path": "/game-icons/youyansuo-lumi.jpg",
-      "icon_source": "App Store 中国区 · id6754912970"
+      "icon_source": "App Store 中国区 · id6754912970",
+      "product_id": "product-7b685c2dd26c98b6"
     },
     {
       "name": "BanG Dream! Our Notes",
@@ -14978,7 +15101,8 @@
       },
       "identity_status": "matched_by_store_id",
       "icon_path": "/game-icons/youyansuo-our-notes.jpg",
-      "icon_source": "App Store 美国区 · id6757695187"
+      "icon_source": "App Store 美国区 · id6757695187",
+      "product_id": "product-11541b99e0cc6732"
     },
     {
       "name": "火人冲冲冲",
@@ -15093,7 +15217,8 @@
         "reason": "仅明确写出发生日期的官方披露、测试或发售进入事件时间线；其余文章按报道日期归档。"
       },
       "icon_path": "/game-icons/youyansuo-fire-pending.svg",
-      "icon_source": "文字占位；尚无可核验的官方图标"
+      "icon_source": "文字占位；尚无可核验的官方图标",
+      "product_id": "product-9d513297af420c5d"
     },
     {
       "name": "奇遇动物城",
@@ -15238,7 +15363,8 @@
         "reason": "仅明确写出发生日期的官方披露、测试或发售进入事件时间线；其余文章按报道日期归档。"
       },
       "icon_path": "/game-icons/youyansuo-animal-city.png",
-      "icon_source": "TapTap 官方预约页 · app/904033"
+      "icon_source": "TapTap 官方预约页 · app/904033",
+      "product_id": "product-66ee43685a7f633b"
     },
     {
       "name": "未眠野",
@@ -15431,7 +15557,8 @@
         "reason": "仅明确写出发生日期的官方披露、测试或发售进入事件时间线；其余文章按报道日期归档。"
       },
       "icon_path": "/game-icons/youyansuo-unawake.png",
-      "icon_source": "TapTap 官方预约页 · app/894924"
+      "icon_source": "TapTap 官方预约页 · app/894924",
+      "product_id": "product-fba226cd41095b8d"
     },
     {
       "name": "Dressmaker",
@@ -15604,7 +15731,8 @@
             "note": "团队规模与原型经历为媒体报道口径，非官方人数"
           }
         ]
-      }
+      },
+      "product_id": "product-9444c58978478dae"
     },
     {
       "name": "源初之结",
@@ -15777,7 +15905,8 @@
         "reviewed_at": "2026-10-08"
       },
       "icon_path": "/game-icons/youyansuo-nodusfall.png",
-      "icon_source": "TapTap 官方预约页 · app/917670"
+      "icon_source": "TapTap 官方预约页 · app/917670",
+      "product_id": "product-edac97a27f37be5d"
     },
     {
       "name": "时之铃",
@@ -15884,7 +16013,8 @@
         "reason": "仅明确写出发生日期的官方披露、测试或发售进入事件时间线；其余文章按报道日期归档。"
       },
       "icon_path": "/game-icons/youyansuo-bell-of-time.png",
-      "icon_source": "TapTap 官方预约页 · app/481530"
+      "icon_source": "TapTap 官方预约页 · app/481530",
+      "product_id": "product-17dab7439f9906ef"
     },
     {
       "name": "蓝色星原：旅谣",
@@ -16080,7 +16210,8 @@
         "reason": "仅明确写出发生日期的官方披露、测试或发售进入事件时间线；其余文章按报道日期归档。"
       },
       "icon_path": "/game-icons/youyansuo-azur-promilia.png",
-      "icon_source": "TapTap 官方预约页 · app/593829"
+      "icon_source": "TapTap 官方预约页 · app/593829",
+      "product_id": "product-5a04b291f0807280"
     },
     {
       "name": "Project63",
@@ -16194,7 +16325,8 @@
             "node_link_status": "unconfirmed"
           }
         ]
-      }
+      },
+      "product_id": "product-b058deefe7abf3a5"
     },
     {
       "name": "Dear Passengers",
@@ -16309,7 +16441,8 @@
             "node_link_status": "unconfirmed"
           }
         ]
-      }
+      },
+      "product_id": "product-ace6ffabed000971"
     }
   ]
 }

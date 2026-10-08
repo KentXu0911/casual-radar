@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "reviews": {
+    "milestone-57d22f3c0ebf5fb60ed7": {
+      "status": "matched",
+      "checked_at": "2026-10-08",
+      "scope": "官方首曝 PV、同期开发版本实机及原始发布信息",
+      "urls": [
+        "https://www.bilibili.com/video/BV12Ap2zjE5C/"
+      ],
+      "milestone_id": "milestone-57d22f3c0ebf5fb60ed7",
+      "fingerprint": "a2d765687a3566885ca930ca51f2854bae70798b40bac116053ff414216b8587"
+    },
+    "milestone-2c22b50fc62ae64c9487": {
+      "status": "matched",
+      "checked_at": "2026-10-08",
+      "scope": "官方首曝 PV、同期开发版本实机及原始发布信息",
+      "urls": [
+        "https://www.bilibili.com/video/BV1f6eueKEUR/"
+      ],
+      "milestone_id": "milestone-2c22b50fc62ae64c9487",
+      "fingerprint": "0b29a7109b1c9b53f5116893379c73aa8c2ecd65d6e707f2b59e2f3427097745"
+    },
+    "milestone-3b71dd19d6dbc6e74a96": {
+      "status": "matched",
+      "checked_at": "2026-10-08",
+      "scope": "官方首曝 PV、同期开发版本实机及原始发布信息",
+      "urls": [
+        "https://www.bilibili.com/video/BV17vuw68E58/",
+        "https://www.bilibili.com/video/BV1JJMy62E5C/"
+      ],
+      "milestone_id": "milestone-3b71dd19d6dbc6e74a96",
+      "fingerprint": "2efbe0265efb3b5e6a833324f0fbd0d40713349ab04e5de45886f2139f88a4b5"
+    },
+    "milestone-a9d3de9db56968f39589": {
+      "status": "matched",
+      "checked_at": "2026-10-08",
+      "scope": "官方首曝 PV、同期开发版本实机及原始发布信息",
+      "urls": [
+        "https://www.bilibili.com/video/BV1hjJQzwEq8/"
+      ],
+      "milestone_id": "milestone-a9d3de9db56968f39589",
+      "fingerprint": "879459df784cf57b0f143e35f401f2694923681e4d7f3a0bdca68b84ab5f76ad"
+    },
+    "milestone-78e6685ff63e3bc1b380": {
+      "status": "matched",
+      "checked_at": "2026-10-08",
+      "scope": "官方首曝 PV、同期开发版本实机及原始发布信息",
+      "urls": [
+        "https://www.bilibili.com/video/BV1azeozQEzx/"
+      ],
+      "milestone_id": "milestone-78e6685ff63e3bc1b380",
+      "fingerprint": "9d50b100572a60785a8cfe98f8e914dd229b6991c218a2973bd32a9fe45c167c"
+    },
+    "milestone-f06cda42f4597bdb85ba": {
+      "status": "matched",
+      "checked_at": "2026-10-08",
+      "scope": "官方首曝 PV、同期开发版本实机及原始发布信息",
+      "urls": [
+        "https://game.xiaomi.com/viewpoint/1683503284_1776999173117_16"
+      ],
+      "milestone_id": "milestone-f06cda42f4597bdb85ba",
+      "fingerprint": "fd3ae63c1e8f51b7e799a9a1c8cdbb665f47a26ed16873b09780d14bf92a6141"
+    },
+    "milestone-e3535399a41c58a8e181": {
+      "status": "matched",
+      "checked_at": "2026-10-08",
+      "scope": "官方首曝 PV、同期开发版本实机及原始发布信息",
+      "urls": [
+        "https://www.youtube.com/watch?v=Y4nq2iN6ZmU"
+      ],
+      "milestone_id": "milestone-e3535399a41c58a8e181",
+      "fingerprint": "a1eac4962ca5269924d8869fae2995435b876e9a4387c46ddc37e009bcd16966"
+    },
+    "milestone-351462cda178aaa16916": {
+      "status": "matched",
+      "checked_at": "2026-10-08",
+      "scope": "官方首曝 PV、同期开发版本实机及原始发布信息",
+      "urls": [
+        "https://www.bilibili.com/video/BV1yph76uEdF/"
+      ],
+      "milestone_id": "milestone-351462cda178aaa16916",
+      "fingerprint": "faa759bc09f971387e438201603c50ef701dca39528abf317c6a02fe8ed5502a"
+    },
+    "milestone-18e6418b07c7deb43f9f": {
+      "status": "matched",
+      "checked_at": "2026-10-08",
+      "scope": "官方首曝 PV、同期开发版本实机及原始发布信息",
+      "urls": [
+        "https://www.bilibili.com/video/BV18gtJ6LECq/"
+      ],
+      "milestone_id": "milestone-18e6418b07c7deb43f9f",
+      "fingerprint": "9ea849c0eb973239e054c92ed99b0f97cf597adfb30bcf64a127f1f1c9142b72"
+    },
+    "milestone-2583daae21b21056aa26": {
+      "status": "matched",
+      "checked_at": "2026-10-08",
+      "scope": "官方首曝 PV、同期开发版本实机及原始发布信息",
+      "urls": [
+        "https://www.bilibili.com/video/BV1erhL6EE6k/"
+      ],
+      "milestone_id": "milestone-2583daae21b21056aa26",
+      "fingerprint": "2f08281e776871eed3e7ab7be99f9380b8610b2340fb1da2f8c3f8d96806d831"
+    },
+    "milestone-349e9b5fa62db037b10b": {
+      "status": "matched",
+      "checked_at": "2026-10-08",
+      "scope": "官方首曝 PV、同期开发版本实机及原始发布信息",
+      "urls": [
+        "https://www.bilibili.com/video/BV1Jr421n7n4/"
+      ],
+      "milestone_id": "milestone-349e9b5fa62db037b10b",
+      "fingerprint": "639b6e0217e2ce7ccb9a601fa0082d4f923c3c6292760ae758d9c9ab61cfa977"
+    }
+  }
+}

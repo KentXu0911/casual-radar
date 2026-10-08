@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { verifyPublication } from "./publication-verifier.mjs";
 import { writeRefreshReport } from "./refresh-runner-lib.mjs";
 
 const siteRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -13,7 +14,7 @@ function arg(name, fallback = "") {
 }
 
 const cadence = arg("--cadence", "weekly");
-if (!new Set(["daily", "weekly"]).has(cadence)) throw new Error(`不支持的发布报告类型：${cadence}`);
+if (!new Set(["manual", "daily", "weekly", "intelligence", "monthly"]).has(cadence)) throw new Error(`不支持的发布报告类型：${cadence}`);
 const reportPath = path.resolve(arg("--report", path.join(siteRoot, "reports", `${cadence}-refresh-latest.json`)));
 const status = arg("--status", "succeeded");
 const url = arg("--url");
@@ -50,5 +51,16 @@ report.publication = {
   health_check: status === "succeeded" ? (provider === "github_pages" ? "github_actions_succeeded" : "sites_deployment_succeeded") : "failed",
   ...(arg("--error") ? { error: arg("--error") } : {}),
 };
+if (provider === "github_pages" && status === "succeeded") {
+  try {
+    const manifest = JSON.parse(fs.readFileSync(path.join(siteRoot, "public", "release-manifest.json"), "utf8"));
+    if (report.content_version !== manifest.version) throw new Error("Refresh report does not match the released content");
+    report.publication = await verifyPublication({ sha: arg("--commit-sha"), runId: arg("--run-id"), url, version: manifest.version });
+  } catch (error) {
+    report.publication = { ...report.publication, status: "failed", health_check: "failed", error: String(error.message || error) };
+    writeRefreshReport(reportPath, report);
+    throw error;
+  }
+}
 const history = writeRefreshReport(reportPath, report);
 process.stdout.write(`${JSON.stringify({ report: reportPath, history, publication: report.publication })}\n`);
