@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "updated": "2026-09-20",
+    "source": "Game Research Portal",
+    "coverage": "已核验的产品测试报告；报告日期不等同于测试发生日期"
+  },
+  "reports": [
+    {
+      "id": 64,
+      "date": "2025-07-07",
+      "title": "《伊莫》首测产品分析",
+      "author": "辛昱毅 (yuliaxin)",
+      "category": "帕鲁like",
+      "summary": "首测验证不含 SOC 核心元素的携宠大世界路径，以宠物“联结”串联探索和战斗，并加入主城与双人合作内容；当时版本存在内容消耗快、动作体验和性能优化不足的问题。",
+      "url": "https://grp.woa.com/report.html?id=64"
+    },
+    {
+      "id": 74,
+      "date": "2025-12-25",
+      "title": "【GRP】网易《代号：妖鬼》二测分析",
+      "author": "黄梦龙 (varokhuang)",
+      "category": "自走棋",
+      "summary": "二测基于《星际酒馆》和《炉石传说：酒馆战棋》框架，融合中式美术、类全战自动战斗和战场布局，尝试提供大兵团作战体验；风险是与酒馆战棋相似度较高，后期战斗指引不足。",
+      "url": "https://grp.woa.com/report.html?id=74"
+    },
+    {
+      "id": 63,
+      "date": "2026-02-10",
+      "title": "《伊莫》二测产品分析",
+      "author": "yuliaxin, arsitguo",
+      "category": "帕鲁like",
+      "summary": "二测继续验证“联结”机制、携宠大世界和以宠物为核心的商业化链条，并扩大主城、双人解密与合作战斗等轻社交内容；内容消耗、动作体验和性能仍是主要风险。",
+      "url": "https://grp.woa.com/report.html?id=63"
+    },
+    {
+      "id": 153,
+      "date": "2026-07-10",
+      "title": "《伊莫》三测产品分析",
+      "author": "辛昱毅 (yuliaxin)",
+      "category": "帕鲁like",
+      "summary": "上线前删档付费测试新增外观付费体系，降低前期负担并调整终局出口，同时提高稀缺宠物捕捉成本、弱化强制社交；长草期过早和多人合作感受弱可能影响长线留存。",
+      "url": "https://grp.woa.com/report.html?id=153"
+    }
+  ]
+}

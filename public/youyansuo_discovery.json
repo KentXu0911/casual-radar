@@ -1,0 +1,485 @@
+{
+  "meta": {
+    "source": "youyansuo",
+    "mode": "mcp_read_only",
+    "scan_date": "2026-10-08",
+    "generated_at": "2026-10-08T03:38:57.361Z",
+    "status": "imported",
+    "candidates": 2,
+    "tracked_updates": 13,
+    "rejected_rows": 14,
+    "tool_calls": {
+      "total": 96,
+      "search_articles": {
+        "calls": 43
+      },
+      "get_rank": {
+        "calls": 5
+      },
+      "get_hotspot_tracking": {
+        "calls": 1
+      },
+      "get_article": {
+        "calls": 27
+      },
+      "search_games": {
+        "calls": 13
+      },
+      "get_game": {
+        "calls": 5
+      },
+      "get_game_rank_history": {
+        "calls": 1
+      },
+      "get_publisher_games": {
+        "calls": 1
+      }
+    },
+    "coverage_notes": {
+      "authorization": "oauth_connected",
+      "scan_window": "2026-09-28/2026-10-08（北京时间）",
+      "article_pages": {
+        "expected": 4,
+        "fetched": 4,
+        "records": 348
+      },
+      "rank_scan": {
+        "ios_cn_free": {
+          "date": "2026-10-08",
+          "rows": 200,
+          "pages": 2
+        },
+        "gp_us_free": {
+          "date": "2026-10-08",
+          "rows": 200,
+          "pages": 2
+        },
+        "dy_minigame_fresh": {
+          "requested_date": "2026-10-08",
+          "data_date": "2026-10-07",
+          "date_fallback": true,
+          "rows": 99
+        }
+      },
+      "tracked_product_queries": 30,
+      "query_completion": "96次MCP只读调用均成功返回；未命中记录按未命中保留。",
+      "legal_no_hits": [
+        "轻度MOBA关键词无命中；MOBA及轻竞技补查未发现符合范围的新App/PC产品。"
+      ],
+      "historical_promotions": [
+        "火人冲冲冲",
+        "奇遇动物城",
+        "未眠野",
+        "Dressmaker",
+        "源初之结",
+        "时之铃",
+        "蓝色星原：旅谣"
+      ],
+      "identity_notes": [
+        "Dear Passengers仅使用FLEXUS的Steam app/4534960核验；MCP Android同名目录未与PC产品合并。",
+        "我要当老板文章App标签与小游戏目录存在平台冲突，暂不晋级。"
+      ],
+      "rank_notes": "榜单新进只表示进入本期榜单，不等于产品首次发行。",
+      "limits": "这是上述文章窗口、30款跟踪项目及3个榜单的完整分页扫描，不代表覆盖所有平台和全球新品。"
+    },
+    "excluded_rows": [
+      {
+        "name": "BanG Dream! Our Notes",
+        "scope_status": "out_of_scope",
+        "scope_reason": "成熟IP音游不属本期重点品类；保留原观察档案，不列为新品线索。"
+      },
+      {
+        "name": "勇者乱斗",
+        "scope_status": "out_of_scope",
+        "scope_reason": "官方目录为微信/抖音小游戏形态，按本期App/PC重点追踪范围排除，仅记录玩法线索。"
+      },
+      {
+        "name": "开心大碰撞",
+        "scope_status": "out_of_scope",
+        "scope_reason": "报道仅确认抖音小游戏弹珠轻竞技，未确认App形态或轻度MOBA定位。"
+      },
+      {
+        "name": "Yumtopia",
+        "scope_status": "out_of_scope",
+        "scope_reason": "典型二合游戏；餐厅题材与自动烹饪未改变合成订单核心循环，不纳入看板。",
+        "reviewed_at": "2026-10-08",
+        "decision_source": "用户品类核验",
+        "source_url": "http://mp.weixin.qq.com/s?__biz=Mzk5MDg5OTAyNg==&mid=2247497160&idx=1&sn=fac62a0694a88bbd965ef2c1965c7fc8&chksm=c461bcced26fbe4d4d13771d3d46b914baccfb2254688de4cc86fcff62b15ab76f055a39f1a4&scene=126&sessionid=0#rd"
+      },
+      {
+        "name": "Block Craft 3D: Realm Builder",
+        "scope_status": "out_of_scope",
+        "scope_reason": "本轮经编辑确认不纳入看板；保留筛选记录，不展示为新品候选。",
+        "reviewed_at": "2026-10-08",
+        "decision_source": "用户候选筛选",
+        "source_url": "https://play.google.com/store/apps/details?id=com.wilds.craft.mysticland.explore"
+      },
+      {
+        "name": "Rap Star:Idle Clicker",
+        "scope_status": "out_of_scope",
+        "scope_reason": "本轮经编辑确认不纳入看板；保留筛选记录，不展示为新品候选。",
+        "reviewed_at": "2026-10-08",
+        "decision_source": "用户候选筛选",
+        "source_url": "https://play.google.com/store/apps/details?id=com.withus.lifesimulation"
+      },
+      {
+        "name": "Sunday City: Life RolePlay",
+        "scope_status": "out_of_scope",
+        "scope_reason": "本轮经编辑确认不纳入看板；保留筛选记录，不展示为新品候选。",
+        "reviewed_at": "2026-10-08",
+        "decision_source": "用户候选筛选",
+        "source_url": "https://play.google.com/store/apps/details?id=adventure.party.real.life"
+      },
+      {
+        "name": "Teacher Simulator: Exam Time",
+        "scope_status": "out_of_scope",
+        "scope_reason": "本轮经编辑确认不纳入看板；保留筛选记录，不展示为新品候选。",
+        "reviewed_at": "2026-10-08",
+        "decision_source": "用户候选筛选",
+        "source_url": "https://play.google.com/store/apps/details?id=com.syubestgames.teachersimulator"
+      },
+      {
+        "name": "House Cleaning: ASMR Makeover",
+        "scope_status": "out_of_scope",
+        "scope_reason": "本轮经编辑确认不纳入看板；保留筛选记录，不展示为新品候选。",
+        "reviewed_at": "2026-10-08",
+        "decision_source": "用户候选筛选",
+        "source_url": "https://play.google.com/store/apps/details?id=com.housecleaning.asmr.makeover.home"
+      },
+      {
+        "name": "一针一线绣江南",
+        "scope_status": "out_of_scope",
+        "scope_reason": "本轮经编辑确认不纳入看板；保留筛选记录，不展示为新品候选。",
+        "reviewed_at": "2026-10-08",
+        "decision_source": "用户候选筛选",
+        "source_url": "http://mp.weixin.qq.com/s?__biz=MzU4NTcxMjE1Mg==&mid=2247497573&idx=1&sn=dc86d5d23630f0070e3b5ff7c334b06e&chksm=fcbc931041af9bd0dea2bc4dd490e9f3f055478aed4fc630c4f1bc0171361a81facaacbed310&scene=126&sessionid=0#rd"
+      },
+      {
+        "name": "我要当老板",
+        "scope_status": "out_of_scope",
+        "scope_reason": "本轮经编辑确认不纳入看板；保留筛选记录，不展示为新品候选。",
+        "reviewed_at": "2026-10-08",
+        "decision_source": "用户候选筛选",
+        "source_url": "http://mp.weixin.qq.com/s?__biz=MzU4NTcxMjE1Mg==&mid=2247497562&idx=1&sn=617e15081c76baee739dc1fb62186ee8&chksm=fc3d52c899f93afbc2b199c2c1e528af60e049bb4d894fad2e678e00c77d638d0ab68b4b12ef&scene=126&sessionid=0#rd"
+      },
+      {
+        "name": "深湾接单：旧车新生活",
+        "scope_status": "out_of_scope",
+        "scope_reason": "本轮经编辑确认不纳入看板；保留筛选记录，不展示为新品候选。",
+        "reviewed_at": "2026-10-08",
+        "decision_source": "用户候选筛选",
+        "source_url": "http://mp.weixin.qq.com/s?__biz=MzU4NTcxMjE1Mg==&mid=2247497417&idx=1&sn=c2d588d24979ff0b1679149d7879bac5&chksm=fc44d2f85eed8c3228ec45429953e77164196727948cf67517348999e34282d6067368d4fb7d&scene=126&sessionid=0#rd"
+      },
+      {
+        "name": "星眠",
+        "scope_status": "out_of_scope",
+        "scope_reason": "本轮经编辑确认不纳入看板；保留筛选记录，不展示为新品候选。",
+        "reviewed_at": "2026-10-08",
+        "decision_source": "用户候选筛选",
+        "source_url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzMzNjM3OQ==&mid=2247573542&idx=1&sn=2c045d8784f85d427ce052c566c82890&chksm=cf7cd2358b6a5b2df56c72e1367ba0f3b0d2a3a370de11a1eded05d542214ba32ed3bd87e77f&scene=126&sessionid=0#rd"
+      },
+      {
+        "name": "点点大冒险",
+        "scope_status": "out_of_scope",
+        "scope_reason": "本轮经编辑确认不纳入看板；保留筛选记录，不展示为新品候选。",
+        "reviewed_at": "2026-10-08",
+        "decision_source": "用户候选筛选",
+        "source_url": "http://mp.weixin.qq.com/s?__biz=MzU2ODg0NzI5NQ==&mid=2247491720&idx=1&sn=4cca00f11f86bf82745a2e747855cbdf&chksm=fd626e2af44ab83e134f84075d3f203a889b8d9e65e6c5cc0ebbfb40c4030df07456ca4ad1f8&scene=126&sessionid=0#rd"
+      }
+    ],
+    "coverage_note": "游研所提供产品情报；报道日期不等于事件发生日期，缺失指标不由 MCP 填充。"
+  },
+  "candidates": [
+    {
+      "name": "Project63",
+      "published_date": "2026-10-05",
+      "event_date": null,
+      "evidence_title": "灵犀互娱在东南亚市场测试了一款微恐摸金新游？",
+      "source_url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzMzNjM3OQ==&mid=2247573606&idx=1&sn=0f5210a4267f6817401b91caa757aea5&chksm=cf1c28ae3e93943d3ac3d0c57989246b8df57971630f1cda409c8c761540c628d2d0b928686b&scene=126&sessionid=0#rd",
+      "summary": "灵犀互娱旗下QOOKKA GAMES在东南亚五国测试微恐摸金新游《Project63》",
+      "identity_status": "confirmed:official_package_com.qookkagames.ghostclub.gp.sea.test",
+      "scope_status": "in_scope",
+      "scope_reason": "Google Play官方产品页确认最多4人合作捉鬼、寻宝撤离及测试版本。",
+      "category": [
+        "多人合作"
+      ],
+      "platform": [
+        "Android"
+      ],
+      "developer": "Qookka Entertainment Limited（商店开发主体）",
+      "publisher": "QOOKKA GAMES",
+      "disposition": "已晋级",
+      "metrics_status": "已跟踪；量化指标覆盖见产品详情"
+    },
+    {
+      "name": "Dear Passengers",
+      "published_date": "2026-09-28",
+      "event_date": null,
+      "evidence_title": "必火无疑！Steam预约破250万人、全球第3，《亲爱的乘客》是什么奇葩游戏",
+      "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5NzQwMjI4MA==&mid=2657337406&idx=5&sn=4ce17613b086a748034c50e6b7ec99c3&chksm=bc40a9db701060a778d1aec43318d9e9009806263608d004f329e7ec5455aa9dbd229f39f1f9&scene=126&sessionid=0#rd",
+      "summary": "《亲爱的乘客》作为FLEXUS Games首款PC游戏，Steam愿望清单突破250万、升至全球第三，凭借PV争议内容与友尽品类联动实现零广告爆火。",
+      "identity_status": "confirmed:official_steam_4534960",
+      "scope_status": "in_scope",
+      "scope_reason": "Steam官方页确认在线合作和2026年计划发售；目录Android同名条目不可与此PC产品合并。",
+      "category": [
+        "多人合作"
+      ],
+      "platform": [
+        "PC/Steam"
+      ],
+      "developer": "FLEXUS",
+      "publisher": "FLEXUS",
+      "disposition": "已晋级",
+      "metrics_status": "已跟踪；量化指标覆盖见产品详情"
+    }
+  ],
+  "tracked_updates": [
+    {
+      "name": "星布谷地",
+      "published_date": "2026-10-07",
+      "event_date": null,
+      "evidence_title": "当米哈游仔细研究「过日子」",
+      "source_url": "http://mp.weixin.qq.com/s?__biz=MzkzOTYwMjE2NA==&mid=2247554547&idx=1&sn=638951f4623ece3a5449b7c098a95a7e&chksm=c305305ced39a2b828b81b7af316c7cada535956cfc0653502aac4ade975ee10669346cfb3cd&scene=126&sessionid=0#rd",
+      "summary": "米哈游首款生活模拟游戏《星布谷地》三测开启，展示从种星球到星海探索的完整循环与轻盈社交设计",
+      "identity_status": "matched_tracked",
+      "scope_status": "in_scope",
+      "scope_reason": "已跟踪产品的关联报道；报道内容不自动作为发生事件。",
+      "category": [
+        "模拟经营"
+      ],
+      "platform": [],
+      "developer": "",
+      "publisher": "",
+      "disposition": "已跟踪",
+      "metrics_status": "已跟踪；量化指标覆盖见产品详情"
+    },
+    {
+      "name": "星布谷地",
+      "published_date": "2026-10-02",
+      "event_date": null,
+      "evidence_title": "米哈游等不及了，年内还要炸一次？",
+      "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5MDEwMTk2MA==&mid=2651305144&idx=1&sn=3084ace5bb0977072496dc6d563514e8&chksm=bc1a0a9534172c739833e02f2fb0c59b7d6068179a71269dab04a0932ed323d1304197f824e9&scene=126&sessionid=0#rd",
+      "summary": "米哈游新作《星布谷地》三测开启，作为治愈系生活模拟，AI NPC与社交广场成核心亮点，三测首次开放付费验证非抽卡商业化路径。",
+      "identity_status": "matched_tracked",
+      "scope_status": "in_scope",
+      "scope_reason": "已跟踪产品的关联报道；报道内容不自动作为发生事件。",
+      "category": [
+        "模拟经营"
+      ],
+      "platform": [],
+      "developer": "",
+      "publisher": "",
+      "disposition": "已跟踪",
+      "metrics_status": "已跟踪；量化指标覆盖见产品详情"
+    },
+    {
+      "name": "王者万象棋",
+      "published_date": "2026-10-02",
+      "event_date": null,
+      "evidence_title": "手游新贵！王者万象棋突破百万“王者”！",
+      "source_url": "http://mp.weixin.qq.com/s?__biz=Mzg2MjgzODk2OQ==&mid=2247503421&idx=1&sn=7eb60234e04131214cc488ea9df884ff&chksm=cfa750393ba34f922dc7d40397766e69ffb03fe3e353a87d20fb4ff979ddaff6ae26301426e4&scene=126&sessionid=0#rd",
+      "summary": "王者万象棋突破百万「王者」，被附议定位为酒馆战棋的现代化Plus版本，付费仅限外观不影响局内体验。",
+      "identity_status": "matched_tracked",
+      "scope_status": "in_scope",
+      "scope_reason": "已跟踪产品的关联报道；报道内容不自动作为发生事件。",
+      "category": [
+        "自走棋"
+      ],
+      "platform": [],
+      "developer": "",
+      "publisher": "",
+      "disposition": "已跟踪",
+      "metrics_status": "已跟踪；量化指标覆盖见产品详情"
+    },
+    {
+      "name": "粒粒的小人国",
+      "published_date": "2026-10-01",
+      "event_date": null,
+      "evidence_title": "首曝一年两次测试，腾讯这款生活模拟新游立住了吗？",
+      "source_url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzMzNjM3OQ==&mid=2247573570&idx=1&sn=f82a9e92604d9900e2f0c68d5554a96b&chksm=cf3295364151c862fa3bec0b2ed165b5acfb4fd5c7b8a017856cea84f8863daea1d33c36afad&scene=126&sessionid=0#rd",
+      "summary": "《粒粒的小人国》二测全面升级，腾讯以微观视角切入生活模拟赛道。",
+      "identity_status": "matched_tracked",
+      "scope_status": "in_scope",
+      "scope_reason": "已跟踪产品的关联报道；报道内容不自动作为发生事件。",
+      "category": [
+        "模拟经营"
+      ],
+      "platform": [],
+      "developer": "",
+      "publisher": "",
+      "disposition": "已跟踪",
+      "metrics_status": "已跟踪；量化指标覆盖见产品详情"
+    },
+    {
+      "name": "粒粒的小人国",
+      "published_date": "2026-09-30",
+      "event_date": null,
+      "evidence_title": "我第一次觉得组乐队开心，是在腾讯的小人国里",
+      "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5OTgzNzkyNA==&mid=2653433961&idx=1&sn=adf4e7b459c4af113bcbcb75ea2a1616&chksm=bdc187ce845e17804afd3a53518668eb36b843bd33a7488168374c7062a78474f386630624ab&scene=126&sessionid=0#rd",
+      "summary": "作者分享在腾讯生活模拟新游《粒粒的小人国》二测中与陌生人即兴合奏组乐队的独特社交体验。",
+      "identity_status": "matched_tracked",
+      "scope_status": "in_scope",
+      "scope_reason": "已跟踪产品的关联报道；报道内容不自动作为发生事件。",
+      "category": [
+        "模拟经营"
+      ],
+      "platform": [],
+      "developer": "",
+      "publisher": "",
+      "disposition": "已跟踪",
+      "metrics_status": "已跟踪；量化指标覆盖见产品详情"
+    },
+    {
+      "name": "王者万象棋",
+      "published_date": "2026-09-30",
+      "event_date": null,
+      "evidence_title": "天美这回太自信了，但我无话可说",
+      "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5OTc2ODUxMw==&mid=2650025920&idx=1&sn=ee5b602db31d562b58bf2697906d7be9&chksm=bed5f923b34a6dbc9b78e7b7def9859a509965b34dc78c580785e33216705a9c8c0399e5ef55&scene=126&sessionid=0#rd",
+      "summary": "天美《王者万象棋》上线20天突破100万王者段位，分析其设计层面的学习节奏、平衡性与用户分层机制。",
+      "identity_status": "matched_tracked",
+      "scope_status": "in_scope",
+      "scope_reason": "已跟踪产品的关联报道；报道内容不自动作为发生事件。",
+      "category": [
+        "自走棋"
+      ],
+      "platform": [],
+      "developer": "",
+      "publisher": "",
+      "disposition": "已跟踪",
+      "metrics_status": "已跟踪；量化指标覆盖见产品详情"
+    },
+    {
+      "name": "源初之结",
+      "published_date": "2026-09-30",
+      "event_date": null,
+      "evidence_title": "新一批游戏版号下发，209款产品获批，米哈游《源初之结》、恺英网络《龙之谷：觉醒》、电魂网络《我叫MT：荣耀之战》  过审 | 游戏干线",
+      "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5NjE4MTQyMg==&mid=2653636117&idx=1&sn=ca0f00795f6174cdd81fbd699bd29117&chksm=bcb2c09e38d89d28650d3bd7fb136e8d0f3edc92722543bd79592e0e467082185fff2de57f31&scene=126&sessionid=0#rd",
+      "summary": "2026年9月国家新闻出版署下发新一批游戏版号,共209款产品获批(含206款国产+3款进口),头部厂商多款重点产品过审",
+      "identity_status": "matched_tracked",
+      "scope_status": "in_scope",
+      "scope_reason": "已跟踪产品的关联报道；报道内容不自动作为发生事件。",
+      "category": [
+        "多人合作"
+      ],
+      "platform": [],
+      "developer": "",
+      "publisher": "",
+      "disposition": "已跟踪",
+      "metrics_status": "已跟踪；量化指标覆盖见产品详情"
+    },
+    {
+      "name": "Dressmaker",
+      "published_date": "2026-09-30",
+      "event_date": null,
+      "evidence_title": "裁缝知道得还是太多了丨触乐怪话",
+      "source_url": "http://mp.weixin.qq.com/s?__biz=MzA4MDIxNzkyNA==&mid=2658925221&idx=2&sn=695fb887304fd46899bad692d88ef2e7&chksm=8594556c7db2ea1e7ac448024e2497d66327a2ee49dec6fa51d620c5a671364d5dc62986d1b2&scene=126&sessionid=0#rd",
+      "summary": "触乐编辑体验独立游戏《针影裁梦》(Dressmaker)，拆解其将制衣过程还原为核心玩法的设计思路与优缺点。",
+      "identity_status": "matched_tracked",
+      "scope_status": "in_scope",
+      "scope_reason": "已跟踪产品的关联报道；报道内容不自动作为发生事件。",
+      "category": [
+        "模拟经营"
+      ],
+      "platform": [],
+      "developer": "",
+      "publisher": "",
+      "disposition": "已跟踪",
+      "metrics_status": "已跟踪；量化指标覆盖见产品详情"
+    },
+    {
+      "name": "粒粒的小人国",
+      "published_date": "2026-09-29",
+      "event_date": null,
+      "evidence_title": "那些不起眼的美术细节，让这款游戏的体验更加舒适",
+      "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5NTMxNTU0MQ==&mid=2650048786&idx=1&sn=3aed8a0b4a158bc4fd14e262ab739af7&chksm=bfaa0241e98aaa1909482f0243ae8d9ec9ca251a1c9cc9c6abe78bc6aef0be46fa720b617aef&scene=126&sessionid=0#rd",
+      "summary": "《粒粒的小人国》最新测试用蜡笔笔触统一画风、大量植入UI动效与模糊虚化，让华丽但静态的画面升级为更具动感与生命力的呈现。",
+      "identity_status": "matched_tracked",
+      "scope_status": "in_scope",
+      "scope_reason": "已跟踪产品的关联报道；报道内容不自动作为发生事件。",
+      "category": [
+        "模拟经营"
+      ],
+      "platform": [],
+      "developer": "",
+      "publisher": "",
+      "disposition": "已跟踪",
+      "metrics_status": "已跟踪；量化指标覆盖见产品详情"
+    },
+    {
+      "name": "Aniimo",
+      "published_date": "2026-09-29",
+      "event_date": null,
+      "evidence_title": "冲17万在线：《伊莫》悄悄打了一场后劲战？",
+      "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5MDEwMTk2MA==&mid=2651305095&idx=1&sn=801936dfd390426e7f4537d709b091e8&chksm=bc5d6003a8ebd74a2befa48f0e466eebc4a3347d3502bb674ed1981718ad153562aec4782262&scene=126&sessionid=0#rd",
+      "summary": "《伊莫》PC与主机端全球上线后首周成绩逆势上行，Steam同时在线峰值逼近17万，21个地区进入畅销榜前10，口碑逐步回暖。",
+      "identity_status": "matched_tracked",
+      "scope_status": "in_scope",
+      "scope_reason": "已跟踪产品的关联报道；报道内容不自动作为发生事件。",
+      "category": [
+        "捉宠"
+      ],
+      "platform": [],
+      "developer": "",
+      "publisher": "",
+      "disposition": "已跟踪",
+      "metrics_status": "已跟踪；量化指标覆盖见产品详情"
+    },
+    {
+      "name": "塔塔冒险队",
+      "published_date": "2026-09-29",
+      "event_date": null,
+      "evidence_title": "莉莉丝做《塔塔冒险队》：不靠大世界，靠什么撑起长期养成？",
+      "source_url": "http://mp.weixin.qq.com/s?__biz=MzIxNzQxNTM4MQ==&mid=2247485062&idx=1&sn=fa7422ea873e6d598fd22df7d7b6c81a&chksm=96d485aec14cb1d17fa49a93a3cbbe4f1ffd861a77348aa83cbfff824a943b713a5098b07e14&scene=126&sessionid=0#rd",
+      "summary": "莉莉丝《塔塔冒险队》通过宠物多阶段养成、与活动相连的资源需求及合作阵容构建长线留存，区别于大世界路线",
+      "identity_status": "matched_tracked",
+      "scope_status": "in_scope",
+      "scope_reason": "已跟踪产品的关联报道；报道内容不自动作为发生事件。",
+      "category": [
+        "捉宠"
+      ],
+      "platform": [],
+      "developer": "",
+      "publisher": "",
+      "disposition": "已跟踪",
+      "metrics_status": "已跟踪；量化指标覆盖见产品详情"
+    },
+    {
+      "name": "闪耀吧！噜咪",
+      "published_date": "2026-09-29",
+      "event_date": null,
+      "evidence_title": "女性向+休闲捉宠双出彩:恋与深空回暖，闪耀吧噜咪跻身iOS畅销榜",
+      "source_url": "http://mp.weixin.qq.com/s?__biz=MzI3OTAxOTg0MA==&mid=2649969564&idx=1&sn=ccb60c3e27ede7cd518057aae04a2ad0&chksm=f2c3d58454605a3a54edfaad55d7de0e89a1d55bec10b23b9436fb47a702e924142281a7b9f1&scene=126&sessionid=0#rd",
+      "summary": "上周iOS中国大陆地区游戏畅销榜上，《恋与深空》推出新版本后预估周收入达384.4万美元，《闪耀吧！噜咪》预估周收入达154.3万美元进入榜单前列。",
+      "identity_status": "matched_tracked",
+      "scope_status": "in_scope",
+      "scope_reason": "已跟踪产品的关联报道；报道内容不自动作为发生事件。",
+      "category": [
+        "捉宠"
+      ],
+      "platform": [],
+      "developer": "",
+      "publisher": "",
+      "disposition": "已跟踪",
+      "metrics_status": "已跟踪；量化指标覆盖见产品详情"
+    },
+    {
+      "name": "星布谷地",
+      "published_date": "2026-09-28",
+      "event_date": null,
+      "evidence_title": "米哈游李嫣然：《星布谷地》AI NPC如何靠“活人感”俘获玩家？",
+      "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5NzQwMjI4MA==&mid=2657337406&idx=3&sn=d9c6ea2614b2e3e086680fe501da2595&chksm=bc0fb2a99c20f381bea13c50feae5e78d6b65922e8ad3f1462ad5a16f0cb2687ba65331823c4&scene=126&sessionid=0#rd",
+      "summary": "米哈游《星布谷地》AI总负责人李嫣然在2026云栖大会分享该作AI NPC的类脑Agent架构、超智记忆系统与多教师在线蒸馏技术。",
+      "identity_status": "matched_tracked",
+      "scope_status": "in_scope",
+      "scope_reason": "已跟踪产品的关联报道；报道内容不自动作为发生事件。",
+      "category": [
+        "模拟经营"
+      ],
+      "platform": [],
+      "developer": "",
+      "publisher": "",
+      "disposition": "已跟踪",
+      "metrics_status": "已跟踪；量化指标覆盖见产品详情"
+    }
+  ]
+}

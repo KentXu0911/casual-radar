@@ -1,0 +1,919 @@
+{
+  "_meta": {
+    "as_of": "2026-09-09",
+    "scope": "PC / Steam",
+    "method": "DataBrain / Alinea estimates cross-checked with official Steam store data where available",
+    "coverage": "37 products with operating metrics, 2 products with Steam review coverage only, 3 products unavailable; How to Fish refreshed from Steam Charts on 2026-09-07; other entries retain their own dates",
+    "source_updates": {
+      "Dressmaker": "2026-10-08"
+    }
+  },
+  "games": {
+    "沙石镇时光": {
+      "average_ccu": 835,
+      "peak_ccu": null,
+      "historical_peak_ccu": 21620,
+      "revenue_30d": null,
+      "lifetime_revenue_estimates": {
+        "min": 13300000,
+        "max": 20600000,
+        "currency": "USD"
+      },
+      "sales_units": null,
+      "owner_estimates": {
+        "min": 553000,
+        "max": 865000,
+        "checked_on": "2026-09-09",
+        "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_04d5621948af4441",
+        "providers": [
+          {
+            "name": "DataBrain 估算下限",
+            "value": 553000
+          },
+          {
+            "name": "DataBrain 估算上限",
+            "value": 865000
+          }
+        ]
+      },
+      "review_score": null,
+      "review_score_range": [
+        88,
+        89
+      ],
+      "reviews_count": 28960,
+      "reviews_count_approximate": true,
+      "data_date": "2026-09-09",
+      "source": "DataBrain / Alinea / Steam 公开数据",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_04d5621948af4441",
+      "confidence": "第三方估算",
+      "note": "Steam App ID 1084600。DataBrain 返回近30日平均 ACU 约835；21,620为历史最高同时在线，不是30日峰值。累计收入、持有量和好评率为范围估算。App ID 1084600 的日频 bi_data 映射异常，未生成趋势图。"
+    },
+    "How to Fish": {
+      "average_ccu": 113308.33,
+      "peak_ccu": 373887,
+      "revenue_30d": null,
+      "sales_units": null,
+      "reviews_count": null,
+      "review_score": null,
+      "data_date": "2026-09-07",
+      "source": "Steam Charts",
+      "source_url": "https://steamcharts.com/app/4001890",
+      "confidence": "第三方统计",
+      "note": "近30日平均同时在线（ACU），不是DAU；同窗口峰值373,887。8月自然月平均148,646.88不可与滚动窗口混用。GRP报告峰值373,971为另一来源快照，未混入本表。收入及销量缺少同口径核验，保留空值。"
+    },
+    "糖豆人": {
+      "average_ccu": 500,
+      "peak_ccu": 812,
+      "revenue_30d": 0,
+      "sales_units": null,
+      "reviews_count": null,
+      "review_score": null,
+      "data_date": "2026-08-25",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_af848e57ff9c4e30",
+      "confidence": "第三方估算",
+      "note": "免费游戏；本体销售额为 0，不含 Epic 与跨平台内购。"
+    },
+    "Faaast Penguin": {
+      "average_ccu": 78,
+      "peak_ccu": 236,
+      "revenue_30d": 32597,
+      "sales_units": null,
+      "reviews_count": null,
+      "review_score": null,
+      "data_date": "2026-08-25",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_af848e57ff9c4e30",
+      "confidence": "第三方估算",
+      "note": "免费游戏；收入为 Steam 端内购估算。"
+    },
+    "Project Winter": {
+      "average_ccu": 27,
+      "peak_ccu": 111,
+      "revenue_30d": 15752,
+      "sales_units": 1710618,
+      "reviews_count": null,
+      "review_score": null,
+      "data_date": "2026-08-25",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_af848e57ff9c4e30",
+      "confidence": "第三方估算"
+    },
+    "First Class Trouble": {
+      "average_ccu": 42,
+      "peak_ccu": 260,
+      "revenue_30d": 35977,
+      "sales_units": 527714,
+      "reviews_count": null,
+      "review_score": null,
+      "data_date": "2026-08-25",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_af848e57ff9c4e30",
+      "confidence": "第三方估算"
+    },
+    "Lockdown Protocol": {
+      "average_ccu": 296,
+      "peak_ccu": 629,
+      "revenue_30d": 167860,
+      "sales_units": 2172765,
+      "reviews_count": 20000,
+      "review_score": 86.5,
+      "data_date": "2026-08-25",
+      "source": "DataBrain / Alinea + Steam",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_af848e57ff9c4e30",
+      "confidence": "第三方估算",
+      "note": "Steam 口碑约 86–87% 好评。"
+    },
+    "黎明杀机": {
+      "average_ccu": 58347,
+      "peak_ccu": 99118,
+      "revenue_30d": 2859259,
+      "sales_units": 17303931,
+      "reviews_count": 928000,
+      "review_score": 78.5,
+      "data_date": "2026-08-25",
+      "source": "DataBrain / Alinea + Steam",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_af848e57ff9c4e30",
+      "confidence": "第三方估算",
+      "note": "Steam 口碑约 78–79% 好评。"
+    },
+    "捉鬼敢死队：灵魂释放": {
+      "average_ccu": null,
+      "peak_ccu": null,
+      "revenue_30d": null,
+      "sales_units": null,
+      "reviews_count": 1118,
+      "review_score": 89,
+      "data_date": "2026-08-26",
+      "source": "Steam 官方商店",
+      "source_url": "https://store.steampowered.com/app/2383990/Ghostbusters_Spirits_Unleashed_Ecto_Edition/",
+      "confidence": "官方商店",
+      "note": "当前仅补充 Steam 口碑；经营指标暂无可信覆盖。"
+    },
+    "内容警告": {
+      "average_ccu": 959,
+      "peak_ccu": 3217,
+      "revenue_30d": 462755,
+      "sales_units": 6886027,
+      "reviews_count": null,
+      "review_score": null,
+      "data_date": "2026-08-25",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_af848e57ff9c4e30",
+      "confidence": "第三方估算"
+    },
+    "PEAK": {
+      "average_ccu": 36493,
+      "peak_ccu": 119737,
+      "revenue_30d": 4534145,
+      "sales_units": 23966495,
+      "reviews_count": null,
+      "review_score": null,
+      "data_date": "2026-08-25",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_af848e57ff9c4e30",
+      "confidence": "第三方估算"
+    },
+    "Escape the Backrooms": {
+      "average_ccu": 6363.5,
+      "peak_ccu": 14658,
+      "revenue_30d": 2475945,
+      "sales_units": 10614632,
+      "reviews_count": null,
+      "review_score": null,
+      "data_date": "2026-08-24",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_f03584f717e942d5",
+      "confidence": "第三方估算"
+    },
+    "Murky Divers": {
+      "average_ccu": 25.3,
+      "peak_ccu": 81,
+      "revenue_30d": 23564,
+      "sales_units": 734542,
+      "reviews_count": null,
+      "review_score": null,
+      "data_date": "2026-08-24",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_f03584f717e942d5",
+      "confidence": "第三方估算"
+    },
+    "King of the Castle": {
+      "average_ccu": 9.1,
+      "peak_ccu": 32,
+      "revenue_30d": 11122,
+      "sales_units": 175449,
+      "reviews_count": null,
+      "review_score": null,
+      "data_date": "2026-08-24",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_f03584f717e942d5",
+      "confidence": "第三方估算"
+    },
+    "Dale & Dawson Stationery Supplies": {
+      "average_ccu": 36.5,
+      "peak_ccu": 186,
+      "revenue_30d": 34525,
+      "sales_units": 1092819,
+      "reviews_count": null,
+      "review_score": null,
+      "data_date": "2026-08-24",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_f03584f717e942d5",
+      "confidence": "第三方估算"
+    },
+    "药剂工艺": {
+      "average_ccu": 63,
+      "peak_ccu": 137,
+      "revenue_30d": 21335,
+      "sales_units": 227194,
+      "reviews_count": null,
+      "review_score": null,
+      "data_date": "2026-08-24",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_f03584f717e942d5",
+      "confidence": "第三方估算"
+    },
+    "死亡笔记：杀手同盟": {
+      "average_ccu": 19.9,
+      "peak_ccu": 82,
+      "revenue_30d": 2912,
+      "sales_units": 106205,
+      "reviews_count": null,
+      "review_score": null,
+      "data_date": "2026-08-24",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_f03584f717e942d5",
+      "confidence": "第三方估算"
+    },
+    "Town of Salem 2": {
+      "average_ccu": null,
+      "peak_ccu": 473,
+      "revenue_30d": null,
+      "sales_units": null,
+      "reviews_count": 8994,
+      "review_score": 69,
+      "data_date": "2026-08-26",
+      "source": "Steam 官方商店",
+      "source_url": "https://store.steampowered.com/app/2140510/Town_of_Salem_2/",
+      "confidence": "官方商店",
+      "note": "当前仅补充 Steam 口碑；经营指标暂无可信覆盖。",
+      "field_sources": {
+        "peak_ccu": {
+          "date": "2026-09-02",
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_f11dbfb518ee4a93"
+        }
+      }
+    },
+    "Luma Island": {
+      "average_ccu": 431,
+      "peak_ccu": 1219,
+      "revenue_30d": 96453,
+      "sales_units": 937296,
+      "reviews_count": null,
+      "review_score": null,
+      "data_date": "2026-08-24",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_f03584f717e942d5",
+      "confidence": "第三方估算"
+    },
+    "Smalland": {
+      "average_ccu": 180.1,
+      "peak_ccu": 417,
+      "revenue_30d": 75574,
+      "sales_units": 692251,
+      "reviews_count": null,
+      "review_score": null,
+      "data_date": "2026-08-24",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_f03584f717e942d5",
+      "confidence": "第三方估算"
+    },
+    "珊瑚岛": {
+      "average_ccu": 2193,
+      "peak_ccu": 4094,
+      "revenue_30d": 330515,
+      "sales_units": 1060165,
+      "reviews_count": 27432,
+      "review_score": 89,
+      "data_date": "2026-08-25",
+      "source": "DataBrain / Alinea + Steam",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_f44f86c098ce4198",
+      "confidence": "第三方估算"
+    },
+    "心动小镇": {
+      "average_ccu": 10620,
+      "peak_ccu": 17289,
+      "revenue_30d": 2212402,
+      "sales_units": null,
+      "reviews_count": 13604,
+      "review_score": 66,
+      "data_date": "2026-08-25",
+      "source": "DataBrain / Alinea + Steam",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_f44f86c098ce4198",
+      "confidence": "第三方估算",
+      "note": "免费游戏；收入为 Steam 端内购估算。"
+    },
+    "Palia": {
+      "average_ccu": 5096,
+      "peak_ccu": 9376,
+      "revenue_30d": 876113,
+      "sales_units": null,
+      "reviews_count": 26898,
+      "review_score": 88,
+      "data_date": "2026-08-25",
+      "source": "DataBrain / Alinea + Steam",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_f44f86c098ce4198",
+      "confidence": "第三方估算",
+      "note": "免费游戏；收入为 Steam 端内购估算。"
+    },
+    "迪士尼梦幻星谷": {
+      "average_ccu": 3798,
+      "peak_ccu": 8808,
+      "revenue_30d": 815357,
+      "sales_units": 692941,
+      "reviews_count": 22770,
+      "review_score": 91,
+      "data_date": "2026-08-25",
+      "source": "DataBrain / Alinea + Steam",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_f44f86c098ce4198",
+      "confidence": "第三方估算"
+    },
+    "Go-Go Town!": {
+      "average_ccu": 414,
+      "peak_ccu": 1406,
+      "revenue_30d": 315191,
+      "sales_units": 156865,
+      "reviews_count": null,
+      "review_score": null,
+      "data_date": "2026-08-25",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_f44f86c098ce4198",
+      "confidence": "第三方估算"
+    },
+    "Cozy Grove": {
+      "average_ccu": 104,
+      "peak_ccu": 191,
+      "revenue_30d": 29214,
+      "sales_units": 292036,
+      "reviews_count": null,
+      "review_score": null,
+      "data_date": "2026-08-25",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_f44f86c098ce4198",
+      "confidence": "第三方估算"
+    },
+    "Sun Haven": {
+      "average_ccu": 850,
+      "peak_ccu": 1493,
+      "revenue_30d": 158750,
+      "sales_units": 1359296,
+      "reviews_count": null,
+      "review_score": null,
+      "data_date": "2026-08-25",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_f44f86c098ce4198",
+      "confidence": "第三方估算"
+    },
+    "Super Auto Pets": {
+      "average_ccu": 391,
+      "peak_ccu": 551,
+      "revenue_30d": 0,
+      "sales_units": null,
+      "reviews_count": null,
+      "review_score": null,
+      "data_date": "2026-08-25",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_f44f86c098ce4198",
+      "confidence": "第三方估算",
+      "note": "免费游戏；本体销售额为 0。"
+    },
+    "逃跑吧！少年": {
+      "average_ccu": null,
+      "peak_ccu": null,
+      "revenue_30d": null,
+      "sales_units": null,
+      "reviews_count": null,
+      "review_score": null,
+      "data_date": "2026-08-25",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_f44f86c098ce4198",
+      "confidence": "暂无可用数据",
+      "note": "第三方 PC 数据源暂未覆盖；不以移动端指标替代。"
+    },
+    "Among Us": {
+      "average_ccu": 8395,
+      "peak_ccu": 17425,
+      "revenue_30d": 464722,
+      "sales_units": 34627612,
+      "reviews_count": null,
+      "review_score": null,
+      "data_date": "2026-08-25",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_aa3eb28c42aa4473",
+      "confidence": "第三方估算"
+    },
+    "漫威终极逆转": {
+      "average_ccu": 2219,
+      "peak_ccu": 6722,
+      "revenue_30d": 308146,
+      "sales_units": null,
+      "reviews_count": null,
+      "review_score": null,
+      "data_date": "2026-08-25",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_aa3eb28c42aa4473",
+      "confidence": "第三方估算",
+      "note": "免费游戏；无本体销量口径。"
+    },
+    "云顶之弈": {
+      "average_ccu": null,
+      "peak_ccu": null,
+      "revenue_30d": null,
+      "sales_units": null,
+      "reviews_count": null,
+      "review_score": null,
+      "data_date": "2026-08-26",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_aa3eb28c42aa4473",
+      "confidence": "暂无可用数据",
+      "note": "第三方 PC 数据源暂未覆盖；不以移动端指标替代。"
+    },
+    "背包乱斗": {
+      "average_ccu": null,
+      "peak_ccu": 2392,
+      "revenue_30d": null,
+      "sales_units": null,
+      "reviews_count": null,
+      "review_score": null,
+      "data_date": "2026-08-26",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_aa3eb28c42aa4473",
+      "confidence": "暂无可用数据",
+      "note": "第三方 PC 数据源暂未覆盖；不以移动端指标替代。",
+      "field_sources": {
+        "peak_ccu": {
+          "date": "2026-08-09",
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_e3e56fea2dfa4afe"
+        }
+      }
+    },
+    "致命公司": {
+      "average_ccu": 2951,
+      "peak_ccu": 5311,
+      "revenue_30d": 442072,
+      "sales_units": 21585272,
+      "reviews_count": null,
+      "review_score": null,
+      "data_date": "2026-08-25",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_aa3eb28c42aa4473",
+      "confidence": "第三方估算"
+    },
+    "R.E.P.O.": {
+      "average_ccu": 21979,
+      "peak_ccu": 40027,
+      "revenue_30d": 2897120,
+      "sales_units": 27938957,
+      "reviews_count": null,
+      "review_score": null,
+      "data_date": "2026-08-25",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_aa3eb28c42aa4473",
+      "confidence": "第三方估算"
+    },
+    "恐鬼症": {
+      "average_ccu": 9919,
+      "peak_ccu": 18815,
+      "revenue_30d": 2405293,
+      "sales_units": 22316008,
+      "reviews_count": null,
+      "review_score": null,
+      "data_date": "2026-08-25",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_aa3eb28c42aa4473",
+      "confidence": "第三方估算"
+    },
+    "胡闹厨房2": {
+      "average_ccu": 4064,
+      "peak_ccu": 12381,
+      "revenue_30d": 1239981,
+      "sales_units": 12511884,
+      "reviews_count": null,
+      "review_score": null,
+      "data_date": "2026-08-25",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_aa3eb28c42aa4473",
+      "confidence": "第三方估算"
+    },
+    "潜水员戴夫": {
+      "average_ccu": 7099,
+      "peak_ccu": 15737,
+      "revenue_30d": 1752116,
+      "sales_units": 6721671,
+      "reviews_count": null,
+      "review_score": null,
+      "data_date": "2026-08-25",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_aa3eb28c42aa4473",
+      "confidence": "第三方估算"
+    },
+    "史莱姆牧场": {
+      "average_ccu": 1184,
+      "peak_ccu": 1986,
+      "revenue_30d": 325237,
+      "sales_units": 6589855,
+      "reviews_count": null,
+      "review_score": null,
+      "data_date": "2026-08-25",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_aa3eb28c42aa4473",
+      "confidence": "第三方估算"
+    },
+    "幻兽帕鲁": {
+      "average_ccu": 290934,
+      "peak_ccu": 625296,
+      "revenue_30d": 20584586,
+      "sales_units": 27394084,
+      "reviews_count": null,
+      "review_score": null,
+      "data_date": "2026-08-25",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_aa3eb28c42aa4473",
+      "confidence": "第三方估算"
+    },
+    "创世理想乡": {
+      "average_ccu": 76,
+      "peak_ccu": 142,
+      "revenue_30d": 33472,
+      "sales_units": 1220359,
+      "reviews_count": null,
+      "review_score": null,
+      "data_date": "2026-08-25",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_aa3eb28c42aa4473",
+      "confidence": "第三方估算"
+    },
+    "方舟：生存进化": {
+      "average_ccu": 17523,
+      "peak_ccu": 27970,
+      "revenue_30d": 795525,
+      "sales_units": 17271357,
+      "reviews_count": null,
+      "review_score": null,
+      "data_date": "2026-08-25",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_aa3eb28c42aa4473",
+      "confidence": "第三方估算"
+    },
+    "七日世界": {
+      "average_ccu": 12297,
+      "peak_ccu": 19514,
+      "revenue_30d": 3063983,
+      "sales_units": null,
+      "reviews_count": null,
+      "review_score": null,
+      "data_date": "2026-08-25",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_aa3eb28c42aa4473",
+      "confidence": "第三方估算",
+      "note": "免费游戏；无本体销量口径。"
+    },
+    "Stumble Guys": {
+      "peak_ccu": 4435,
+      "data_date": "2026-09-02",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_1118857b76744ca5",
+      "confidence": "第三方估算",
+      "field_sources": {
+        "peak_ccu": {
+          "date": "2026-09-02",
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_1118857b76744ca5"
+        }
+      },
+      "average_ccu": null,
+      "revenue_30d": null,
+      "sales_units": null,
+      "review_score": null,
+      "reviews_count": null
+    },
+    "猛兽派对": {
+      "peak_ccu": 8238,
+      "data_date": "2026-09-02",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_1118857b76744ca5",
+      "confidence": "第三方估算",
+      "field_sources": {
+        "peak_ccu": {
+          "date": "2026-09-02",
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_1118857b76744ca5"
+        }
+      },
+      "average_ccu": null,
+      "revenue_30d": null,
+      "sales_units": null,
+      "review_score": null,
+      "reviews_count": null
+    },
+    "鹅鸭杀": {
+      "peak_ccu": 12553,
+      "data_date": "2026-09-02",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_1118857b76744ca5",
+      "confidence": "第三方估算",
+      "field_sources": {
+        "peak_ccu": {
+          "date": "2026-09-02",
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_1118857b76744ca5"
+        }
+      },
+      "average_ccu": null,
+      "revenue_30d": null,
+      "sales_units": null,
+      "review_score": null,
+      "reviews_count": null
+    },
+    "太空行动": {
+      "peak_ccu": 423,
+      "data_date": "2026-09-02",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_1118857b76744ca5",
+      "confidence": "第三方估算",
+      "field_sources": {
+        "peak_ccu": {
+          "date": "2026-09-02",
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_1118857b76744ca5"
+        }
+      },
+      "average_ccu": null,
+      "revenue_30d": null,
+      "sales_units": null,
+      "review_score": null,
+      "reviews_count": null
+    },
+    "Dread Hunger": {
+      "peak_ccu": 1842,
+      "data_date": "2026-09-02",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_5bdaba3a19fe47ab",
+      "confidence": "第三方估算",
+      "field_sources": {
+        "peak_ccu": {
+          "date": "2026-09-02",
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_5bdaba3a19fe47ab"
+        }
+      },
+      "average_ccu": null,
+      "revenue_30d": null,
+      "sales_units": null,
+      "review_score": null,
+      "reviews_count": null
+    },
+    "乐高派对": {
+      "peak_ccu": 196,
+      "data_date": "2026-09-02",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_5bdaba3a19fe47ab",
+      "confidence": "第三方估算",
+      "field_sources": {
+        "peak_ccu": {
+          "date": "2026-09-02",
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_5bdaba3a19fe47ab"
+        }
+      },
+      "average_ccu": null,
+      "revenue_30d": null,
+      "sales_units": null,
+      "review_score": null,
+      "reviews_count": null
+    },
+    "Dark and Darker": {
+      "peak_ccu": 11916,
+      "data_date": "2026-09-02",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_5bdaba3a19fe47ab",
+      "confidence": "第三方估算",
+      "field_sources": {
+        "peak_ccu": {
+          "date": "2026-09-02",
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_5bdaba3a19fe47ab"
+        }
+      },
+      "average_ccu": null,
+      "revenue_30d": null,
+      "sales_units": null,
+      "review_score": null,
+      "reviews_count": null
+    },
+    "Fields of Mistria": {
+      "peak_ccu": 33871,
+      "data_date": "2026-08-09",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_40294f715806460b",
+      "confidence": "第三方估算",
+      "field_sources": {
+        "peak_ccu": {
+          "date": "2026-08-09",
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_40294f715806460b"
+        }
+      },
+      "average_ccu": null,
+      "revenue_30d": null,
+      "sales_units": null,
+      "review_score": null,
+      "reviews_count": null
+    },
+    "SMASH LEGENDS": {
+      "peak_ccu": 209,
+      "data_date": "2026-09-02",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_1118857b76744ca5",
+      "confidence": "第三方估算",
+      "field_sources": {
+        "peak_ccu": {
+          "date": "2026-09-02",
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_1118857b76744ca5"
+        }
+      },
+      "average_ccu": null,
+      "revenue_30d": null,
+      "sales_units": null,
+      "review_score": null,
+      "reviews_count": null
+    },
+    "Jackbox派对包": {
+      "peak_ccu": 70,
+      "data_date": "2026-09-02",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_f11dbfb518ee4a93",
+      "confidence": "第三方估算",
+      "field_sources": {
+        "peak_ccu": {
+          "date": "2026-09-02",
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_f11dbfb518ee4a93"
+        }
+      },
+      "average_ccu": null,
+      "revenue_30d": null,
+      "sales_units": null,
+      "review_score": null,
+      "reviews_count": null
+    },
+    "终极鸡马": {
+      "peak_ccu": 2197,
+      "data_date": "2026-09-02",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_f11dbfb518ee4a93",
+      "confidence": "第三方估算",
+      "field_sources": {
+        "peak_ccu": {
+          "date": "2026-09-02",
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_f11dbfb518ee4a93"
+        }
+      },
+      "average_ccu": null,
+      "revenue_30d": null,
+      "sales_units": null,
+      "review_score": null,
+      "reviews_count": null
+    },
+    "Dinkum": {
+      "peak_ccu": 1786,
+      "data_date": "2026-09-02",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_f11dbfb518ee4a93",
+      "confidence": "第三方估算",
+      "field_sources": {
+        "peak_ccu": {
+          "date": "2026-09-02",
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_f11dbfb518ee4a93"
+        }
+      },
+      "average_ccu": null,
+      "revenue_30d": null,
+      "sales_units": null,
+      "review_score": null,
+      "reviews_count": null
+    },
+    "星露谷物语": {
+      "peak_ccu": 125001,
+      "data_date": "2026-08-09",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_65dacc9ad6e74a69",
+      "confidence": "第三方估算",
+      "field_sources": {
+        "peak_ccu": {
+          "date": "2026-08-09",
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_65dacc9ad6e74a69"
+        },
+        "review_score": {
+          "date": "2026-09-09",
+          "url": "https://store.steampowered.com/appreviews/413150?json=1&language=all&purchase_type=all&num_per_page=0"
+        },
+        "reviews_count": {
+          "date": "2026-09-09",
+          "url": "https://store.steampowered.com/appreviews/413150?json=1&language=all&purchase_type=all&num_per_page=0"
+        }
+      },
+      "review_score": 98.5,
+      "reviews_count": 1037311,
+      "review_scope": "全部语言评价",
+      "average_ccu": null,
+      "revenue_30d": null,
+      "sales_units": null,
+      "owner_estimates": {
+        "min": 19730000,
+        "max": 36840000,
+        "checked_on": "2026-09-09",
+        "source_url": "https://steamdb.info/app/413150/charts/",
+        "providers": [
+          {
+            "name": "VG Insights",
+            "value": 19730000
+          },
+          {
+            "name": "Gamalytic",
+            "value": 31380000
+          },
+          {
+            "name": "PlayTracker",
+            "value": 36840000
+          }
+        ]
+      }
+    },
+    "Pummel Party": {
+      "peak_ccu": 6661,
+      "data_date": "2026-08-09",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_65dacc9ad6e74a69",
+      "confidence": "第三方估算",
+      "field_sources": {
+        "peak_ccu": {
+          "date": "2026-08-09",
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_65dacc9ad6e74a69"
+        }
+      },
+      "average_ccu": null,
+      "revenue_30d": null,
+      "sales_units": null,
+      "review_score": null,
+      "reviews_count": null
+    },
+    "PlateUp!": {
+      "peak_ccu": 3134,
+      "data_date": "2026-08-09",
+      "source": "DataBrain / Alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_65dacc9ad6e74a69",
+      "confidence": "第三方估算",
+      "field_sources": {
+        "peak_ccu": {
+          "date": "2026-08-09",
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_65dacc9ad6e74a69"
+        }
+      },
+      "average_ccu": null,
+      "revenue_30d": null,
+      "sales_units": null,
+      "review_score": null,
+      "reviews_count": null
+    },
+    "Dressmaker": {
+      "average_ccu": 24672.72,
+      "peak_ccu": 43198,
+      "historical_peak_ccu": 43198,
+      "revenue_30d": null,
+      "sales_units": null,
+      "reviews_count": 11574,
+      "review_score": 98.32,
+      "data_date": "2026-10-08",
+      "source": "SteamCharts / Steam 官方评价",
+      "source_url": "https://steamcharts.com/app/4019220",
+      "confidence": "第三方统计",
+      "field_sources": {
+        "average_ccu": {
+          "date": "2026-10-08",
+          "url": "https://steamcharts.com/app/4019220"
+        },
+        "peak_ccu": {
+          "date": "2026-10-08",
+          "url": "https://steamcharts.com/app/4019220"
+        },
+        "historical_peak_ccu": {
+          "date": "2026-10-08",
+          "url": "https://steamcharts.com/app/4019220"
+        },
+        "reviews_count": {
+          "date": "2026-10-08",
+          "url": "https://store.steampowered.com/appreviews/4019220?json=1&filter=summary&language=all&purchase_type=all&num_per_page=0"
+        },
+        "review_score": {
+          "date": "2026-10-08",
+          "url": "https://store.steampowered.com/appreviews/4019220?json=1&filter=summary&language=all&purchase_type=all&num_per_page=0"
+        }
+      },
+      "note": "近 30 日平均/峰值同时在线来自 SteamCharts；上线不足 30 天时统计窗口仅覆盖上线后。评价数与好评率来自 Steam 官方接口。收入、销量与 DAU 未获可核验数据。"
+    }
+  }
+}

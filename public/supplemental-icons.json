@@ -1,0 +1,68 @@
+{
+  "球球大作战": {
+    "path": "/game-icons/supplement-996509117.jpg",
+    "source": "App Store",
+    "pageUrl": "https://apps.apple.com/cn/app/%E7%90%83%E7%90%83%E5%A4%A7%E4%BD%9C%E6%88%98/id996509117?uo=4",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/d0/74/33d07432-68f2-c13c-5f46-9449c60859e0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+  },
+  "贪吃蛇大作战": {
+    "path": "/game-icons/supplement-1120536875.jpg",
+    "source": "App Store",
+    "pageUrl": "https://apps.apple.com/cn/app/%E8%B4%AA%E5%90%83%E8%9B%87%E5%A4%A7%E4%BD%9C%E6%88%98/id1120536875?uo=4",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/f6/cc/b8f6cc8c-8c17-a597-2253-593fb9355349/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  },
+  "卡通农场": {
+    "path": "/game-icons/supplement-506627515.jpg",
+    "source": "App Store",
+    "pageUrl": "https://apps.apple.com/us/app/hay-day/id506627515?uo=4",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/68/e4/de/68e4de8b-0e48-d1bc-004b-1346c3cf511b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+  },
+  "部落冲突": {
+    "path": "/game-icons/supplement-529479190.jpg",
+    "source": "App Store",
+    "pageUrl": "https://apps.apple.com/us/app/clash-of-clans/id529479190?uo=4",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/26/fe/31/26fe318a-1255-6606-ca0d-701c8e8c68aa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+  },
+  "海岛奇兵": {
+    "path": "/game-icons/supplement-672150402.jpg",
+    "source": "App Store",
+    "pageUrl": "https://apps.apple.com/us/app/boom-beach-war-strategy-game/id672150402?uo=4",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d9/25/6b/d9256b4d-ff7e-4982-8e06-f0be6fdbae2e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg"
+  },
+  "Hole.io": {
+    "path": "/game-icons/supplement-1389111413.jpg",
+    "source": "App Store",
+    "pageUrl": "https://apps.apple.com/us/app/hole-io/id1389111413?uo=4",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/d6/87/56d6878f-b34f-d416-0a3f-92bed2367740/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+  },
+  "Paper.io 2": {
+    "path": "/game-icons/supplement-1423046460.jpg",
+    "source": "App Store",
+    "pageUrl": "https://apps.apple.com/us/app/paper-io-2/id1423046460?uo=4",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/35/20/34/352034d2-4b77-9681-73d4-3e57a4e126da/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+  },
+  "小丑牌": {
+    "path": "/game-icons/supplement-6502453075.jpg",
+    "source": "App Store",
+    "pageUrl": "https://apps.apple.com/us/app/balatro/id6502453075?uo=4",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/d3/0c/6dd30caf-f830-22d5-ba44-448cdff0df30/iOS_AppIcon_Premium-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg"
+  },
+  "名将杀": {
+    "path": "/game-icons/supplement-tap-737825.jpg",
+    "source": "TapTap",
+    "pageUrl": "https://www.taptap.cn/app/737825",
+    "imageUrl": "https://img-tc.tapimg.com/market/images/35f90f561b0fa7bd98f5b0a8b43abfcd.png/_tap_appicon.jpg"
+  },
+  "集合！浆果镇": {
+    "path": "/game-icons/supplement-tap-839552.jpg",
+    "source": "TapTap",
+    "pageUrl": "https://www.taptap.cn/app/839552",
+    "imageUrl": "https://img-tc.tapimg.com/market/images/75fb7935a673cdf5ad8819d559db4073.png/_tap_appicon.jpg"
+  },
+  "How to Fish": {
+    "path": "/game-icons/supplement-steam-4001890.jpg",
+    "source": "Steam",
+    "pageUrl": "https://store.steampowered.com/app/4001890/How_to_Fish/",
+    "imageUrl": "https://shared.fastly.steamstatic.com/community_assets/images/apps/4001890/5c598fcb05447d87a6c67b5b9224103d7d93c16d.jpg"
+  }
+}

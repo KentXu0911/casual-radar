@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "scan_date": "2026-09-15",
+    "window": [
+      "2026-09-09",
+      "2026-09-15"
+    ],
+    "generated_at": "2026-09-15T06:29:53Z",
+    "scope": "休闲、派对、多人联机、模拟经营、自走棋及相邻品类",
+    "current_pool_size": 122,
+    "newly_added_to_pool": 1,
+    "new_game_candidates": 3,
+    "major_updates": 9,
+    "methodology": "本周窗口按事件实际发生日期筛选；公开来源与 DataBrain 结果分开记录。候选新游不会自动进入主追踪池，直到完成品类、平台和产品身份核验。",
+    "audit_date": "2026-09-20",
+    "audit_added": 13
+  },
+  "new_games": [
+    {
+      "name": "妖妖棋",
+      "disposition": "已加入主追踪池",
+      "event_date": "2026-09-14",
+      "platform": "iOS / Android",
+      "summary": "原《代号：妖鬼》，已获版号并继续预约；本周补入主追踪池并补齐二测实机证据，公测日期仍未公布。",
+      "source": "TapTap 官方",
+      "url": "https://www.taptap.cn/app/756756",
+      "confidence": "高"
+    },
+    {
+      "name": "WARDOGS",
+      "disposition": "待入库候选",
+      "event_date": "2026-09-10",
+      "platform": "PC / Steam",
+      "summary": "100 人三队战术多人射击，于 9 月 10 日进入 Steam 抢先体验；多人联机属性明确，但题材与规模超出当前休闲主池，先作为相邻品类候选。",
+      "source": "Steam 官方商店",
+      "url": "https://store.steampowered.com/app/1867240/WARDOGS/",
+      "confidence": "高"
+    },
+    {
+      "name": "Aniimo",
+      "disposition": "待入库候选",
+      "event_date": "2026-09-14",
+      "platform": "PC / PS5 / Xbox；移动端 9 月 23 日",
+      "summary": "开放世界捉宠多人产品，9 月 14 日开启 PC/主机预下载，9 月 16 日正式上线；移动端另于 9 月 23 日上线，适合进入捉宠与多人观察池。",
+      "source": "Aniimo 官方",
+      "url": "https://aniimo.com/newslist/detail/100089",
+      "confidence": "高"
+    },
+    {
+      "name": "Shroom and Gloom",
+      "disposition": "待入库候选",
+      "event_date": "2026-09-10",
+      "platform": "PC / Steam",
+      "summary": "第一人称双牌组构筑 roguelike，于 9 月 10 日进入 Steam 抢先体验；偏独立卡牌品类，先保留候选状态。",
+      "source": "Steam 官方商店",
+      "url": "https://store.steampowered.com/app/3271280/Shroom_and_Gloom/",
+      "confidence": "高"
+    }
+  ],
+  "major_updates": [
+    {
+      "game_name": "王者万象棋",
+      "event_date": "2026-09-10",
+      "published_date": "2026-09-10",
+      "kind": "正式上线",
+      "title": "全平台正式公测",
+      "summary": "移动端与 PC 端同步开服，支持多端数据互通；产品已从在研池转入已上线产品观察。",
+      "source": "TapTap 官方",
+      "url": "https://www.taptap.cn/app/243110",
+      "date_meaning": "上线/发售节点",
+      "confidence": "高"
+    },
+    {
+      "game_name": "王者万象棋",
+      "event_date": "2026-09-09",
+      "published_date": "2026-09-09",
+      "kind": "预下载",
+      "title": "安卓、iOS 与 PC 预下载开启",
+      "summary": "正式开服前一天开放多端预下载，形成上线前后连续观测窗口。",
+      "source": "17173 官方资讯转引公告",
+      "url": "https://news.17173.com/content/09092026/143647061.shtml",
+      "date_meaning": "预下载节点",
+      "confidence": "高"
+    },
+    {
+      "game_name": "蛋仔派对",
+      "event_date": "2026-09-11",
+      "published_date": "2026-09-06",
+      "kind": "联动",
+      "title": "×《线条小狗》联动返场",
+      "summary": "官方公告确认联动内容于 9 月 11 日重启，限时外观和活动回归；可作为 DAU 事件标注。",
+      "source": "TapTap 官方公告",
+      "url": "https://www.taptap.cn/app/206776/topic?page=2&type=official",
+      "date_meaning": "活动开始日期",
+      "confidence": "高"
+    },
+    {
+      "game_name": "云顶之弈",
+      "event_date": "2026-09-09",
+      "published_date": "2026-09-09",
+      "kind": "版本更新",
+      "title": "Patch 18.2",
+      "summary": "Enchanted Wilds 的首个主版本，重点是增强弱势阵容、下调 Wisps 成本并继续修复问题。",
+      "source": "Riot Games 官方",
+      "url": "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-2/",
+      "date_meaning": "版本更新上线日期",
+      "confidence": "高"
+    },
+    {
+      "game_name": "逃跑吧！少年",
+      "event_date": "2026-09-10",
+      "published_date": "2026-09-10",
+      "kind": "版本更新",
+      "title": "8.41.0 版本上线小梦灵·小觉",
+      "summary": "官方维护公告确认新逃生角色小梦灵·小觉登场，同时更新自建房素材和编辑功能。",
+      "source": "TapTap 官方论坛",
+      "url": "https://www.taptap.cn/app/99224/topic?group_label_id=2637847&type=group_label",
+      "date_meaning": "版本更新上线日期",
+      "confidence": "高"
+    },
+    {
+      "game_name": "索尼克大乱斗",
+      "event_date": "2026-09-09",
+      "published_date": "2026-09-10",
+      "kind": "限时活动",
+      "title": "针鼹族活动开启",
+      "summary": "围绕 Knuckles、Tikal 等角色推出限时活动、通行证与 Twitch Drops，活动周期延续至 9 月底。",
+      "source": "Steam Community / SEGA",
+      "url": "https://store.steampowered.com/news/posts/?enddate=1788940865&feed=steam_community_announcements",
+      "date_meaning": "活动开始日期",
+      "confidence": "中高"
+    },
+    {
+      "game_name": "WARDOGS",
+      "event_date": "2026-09-10",
+      "published_date": "2026-09-10",
+      "kind": "上线与热修",
+      "title": "抢先体验上线后发布首日稳定性热修",
+      "summary": "Steam 抢先体验首日出现排队与服务器压力，官方随后发布首日客户端热修并按批次恢复进入。",
+      "source": "Steam Community 官方公告",
+      "url": "https://steamcommunity.com/app/1867240",
+      "date_meaning": "上线/热修日期",
+      "confidence": "高"
+    },
+    {
+      "game_name": "Valheim",
+      "event_date": "2026-09-09",
+      "published_date": "2026-09-09",
+      "kind": "正式版本",
+      "title": "1.0 与 Deep North 正式发布",
+      "summary": "官方发布 1.0，新增 Deep North 生物群系、40 多种武器、建筑、敌人和机制；作为生存建造相邻赛道行业信号保留。",
+      "source": "Valheim 官方",
+      "url": "https://www.valheim.com/news/valheim-1-0-has-arrived-/",
+      "date_meaning": "版本发布日",
+      "confidence": "高"
+    },
+    {
+      "game_name": "Aniimo",
+      "event_date": "2026-09-14",
+      "published_date": "2026-09-14",
+      "kind": "预下载",
+      "title": "PC/主机预下载开启",
+      "summary": "官方确认 9 月 14 日开启预下载，PC/主机服务器将于 9 月 16 日 10:00（UTC+8）开放。",
+      "source": "Aniimo 官方",
+      "url": "https://aniimo.com/newslist/detail/100089",
+      "date_meaning": "预下载节点",
+      "confidence": "高"
+    }
+  ],
+  "databrain": {
+    "metrics_updated_at": "2026-09-15T06:26:16.375Z",
+    "metrics_query_range": [
+      "2026-05-25",
+      "2026-09-14"
+    ],
+    "trend_games": 82,
+    "trend_games_with_90d_activity": 80,
+    "mobile_snapshots": 35,
+    "pc_snapshots": 55,
+    "latest_mobile_date": "2026-09-13",
+    "latest_pc_date": "2026-09-14",
+    "metrics_delta_vs_previous_snapshot": "+1 款趋势产品、+2 款具备 90 天活跃序列、+2 款 PC 快照",
+    "events_updated_at": "2026-09-15T06:42:17.628Z",
+    "events_query_range": [
+      "2026-05-25",
+      "2026-09-14"
+    ],
+    "event_games_with_rows": 31,
+    "event_rows": 78,
+    "weekly_explicit_event_rows": 2,
+    "event_delta_vs_previous_snapshot": "+4 款有事件、+22 条事件（查询窗口扩展到 9 月 14 日）",
+    "source": "DataBrain Agent · Web Search / bi_data",
+    "note": "DataBrain 本周查询没有返回可确认的统一产品更新公告；指标数字表示本地成功拉取的覆盖状态，事件为可追溯公开信源，不等于 DAU 原始序列。"
+  }
+}

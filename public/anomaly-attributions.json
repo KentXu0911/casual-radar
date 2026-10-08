@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "reviewed_at": "2026-10-08",
+    "as_of": "2026-10-07",
+    "event_query_range": [
+      "2026-07-10",
+      "2026-10-07"
+    ],
+    "alerts": 12,
+    "covered_alerts": 12,
+    "uncovered_alerts": 0,
+    "policy": "每条异动必须绑定当前指标窗口，并记录同期事件或已检索无证据结论。"
+  },
+  "games": {
+    "蛋仔派对": {
+      "status": "hypothesis",
+      "reviewedAt": "2026-10-08",
+      "summary": "可能原因：10/1 《蛋仔派对》小猪佩奇联动上线",
+      "sources": [
+        {
+          "label": "TapTap：《蛋仔派对》小猪佩奇联动上线",
+          "url": "https://www.taptap.cn/app/222000"
+        }
+      ],
+      "signalKeys": [
+        "日收入|移动端全球|2026-09-30|2026-10-06|up"
+      ]
+    },
+    "第五人格": {
+      "status": "inconclusive",
+      "reviewedAt": "2026-10-08",
+      "summary": "暂未发现同期事件",
+      "sources": [
+        {
+          "label": "DataBrain：同期公开事件核查",
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_045bdf1dd7e54ffdbb391696db12eae3"
+        }
+      ],
+      "signalKeys": [
+        "日收入|移动端全球|2026-09-30|2026-10-06|up"
+      ]
+    },
+    "金铲铲之战": {
+      "status": "inconclusive",
+      "reviewedAt": "2026-10-08",
+      "summary": "暂未发现同期事件",
+      "sources": [
+        {
+          "label": "DataBrain：同期公开事件核查",
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_b9e80ead9f9a44c28bec78480f076417"
+        }
+      ],
+      "signalKeys": [
+        "日收入|移动端全球|2026-09-30|2026-10-06|up"
+      ]
+    },
+    "终极鸡马": {
+      "status": "inconclusive",
+      "reviewedAt": "2026-10-08",
+      "summary": "暂未发现同期事件",
+      "sources": [
+        {
+          "label": "DataBrain：同期公开事件核查",
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_8e49ed6e53d54fac866049472eddae24"
+        }
+      ],
+      "signalKeys": [
+        "ACU|PC / Steam 全球|2026-10-01|2026-10-07|up"
+      ]
+    },
+    "Among Us": {
+      "status": "inconclusive",
+      "reviewedAt": "2026-10-08",
+      "summary": "暂未发现同期事件",
+      "sources": [
+        {
+          "label": "DataBrain：同期公开事件核查",
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_d2194ce63f3a4471a577d5a58f31bfdd"
+        }
+      ],
+      "signalKeys": [
+        "日收入|移动端全球|2026-09-30|2026-10-06|up"
+      ]
+    },
+    "Luma Island": {
+      "status": "inconclusive",
+      "reviewedAt": "2026-10-08",
+      "summary": "暂未发现同期事件",
+      "sources": [
+        {
+          "label": "DataBrain：同期公开事件核查",
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_4ad45ee391e04d8e921beba1f895a674"
+        }
+      ],
+      "signalKeys": [
+        "日收入|PC / Steam 全球|2026-09-24|2026-09-30|up"
+      ]
+    },
+    "Paralives": {
+      "status": "inconclusive",
+      "reviewedAt": "2026-10-08",
+      "summary": "暂未发现同期事件",
+      "sources": [
+        {
+          "label": "DataBrain：同期公开事件核查",
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_d5bcd5f39fbe4879865fd1494be88a9b"
+        }
+      ],
+      "signalKeys": [
+        "日收入|PC / Steam 全球|2026-09-30|2026-10-06|up"
+      ]
+    },
+    "PlateUp!": {
+      "status": "inconclusive",
+      "reviewedAt": "2026-10-08",
+      "summary": "暂未发现同期事件",
+      "sources": [
+        {
+          "label": "DataBrain：同期公开事件核查",
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_833ced632d474f9c9ff97bf487d9e32d"
+        }
+      ],
+      "signalKeys": [
+        "ACU|PC / Steam 全球|2026-10-01|2026-10-07|up",
+        "日收入|PC / Steam 全球|2026-09-30|2026-10-06|up"
+      ]
+    },
+    "Pummel Party": {
+      "status": "inconclusive",
+      "reviewedAt": "2026-10-08",
+      "summary": "暂未发现同期事件",
+      "sources": [
+        {
+          "label": "DataBrain：同期公开事件核查",
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_833ced632d474f9c9ff97bf487d9e32d"
+        }
+      ],
+      "signalKeys": [
+        "ACU|PC / Steam 全球|2026-10-01|2026-10-07|up"
+      ]
+    },
+    "Rush Royale": {
+      "status": "inconclusive",
+      "reviewedAt": "2026-10-08",
+      "summary": "暂未发现同期事件",
+      "sources": [
+        {
+          "label": "DataBrain：同期公开事件核查",
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_1f1ccce5f46a454f991ca3ed33677591"
+        }
+      ],
+      "signalKeys": [
+        "日收入|移动端全球|2026-09-30|2026-10-06|up"
+      ]
+    },
+    "超自然行动组": {
+      "status": "inconclusive",
+      "reviewedAt": "2026-10-08",
+      "summary": "暂未发现同期事件",
+      "sources": [
+        {
+          "label": "DataBrain：同期公开事件核查",
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_59a7a077e5f34fb08c2cee6238f4fb55"
+        }
+      ],
+      "signalKeys": [
+        "日收入|移动端全球|2026-09-30|2026-10-06|up"
+      ]
+    },
+    "蛋仔滑滑": {
+      "status": "inconclusive",
+      "reviewedAt": "2026-10-08",
+      "summary": "暂未发现同期事件",
+      "sources": [
+        {
+          "label": "DataBrain：同期公开事件核查",
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_b71bc73a4db94b768d74d3950e896d0b"
+        }
+      ],
+      "signalKeys": [
+        "日收入|移动端全球|2026-09-30|2026-10-06|up"
+      ]
+    }
+  }
+}

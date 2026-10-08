@@ -1,0 +1,970 @@
+[
+  {
+    "game": "糖豆人",
+    "path": "/game-icons/override-糖豆人.png",
+    "url": "https://cdn2.steamgriddb.com/icon_thumb/7effe368dace6405ddee825c0707c434.png",
+    "source": "steamgriddb",
+    "match": "糖豆人",
+    "score": 1
+  },
+  {
+    "game": "蛋仔派对",
+    "path": "/game-icons/002-eggyparty.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f2/b1/3e/f2b13e1a-998e-e79d-fb61-a2ad54ac4c04/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "source": "app-store-cn",
+    "match": "蛋仔派对",
+    "score": 1
+  },
+  {
+    "game": "元梦之星",
+    "path": "/game-icons/003-dreamstar.jpg",
+    "url": "https://ogdb-cdn.intlgame.cn/image/5fbc874d0cbfb67645a5fc9d643a6728.jpg",
+    "source": "databrain",
+    "match": "元梦之星",
+    "score": 1
+  },
+  {
+    "game": "Stumble Guys",
+    "path": "/game-icons/004-stumbleguys.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/94/c5/b4/94c5b4c4-0e3a-9743-cfd9-684c372c722c/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/512x512bb.jpg",
+    "source": "app-store-us",
+    "match": "Stumble Guys",
+    "score": 1
+  },
+  {
+    "game": "猛兽派对",
+    "path": "/game-icons/005-partyanimals.webp",
+    "url": "https://ogdb-cdn.intlgame.cn/image/fd108f3037005a0f39ab58a49907d2ab.jpg",
+    "source": "databrain",
+    "match": "Party Animals",
+    "score": 1
+  },
+  {
+    "game": "Faaast Penguin",
+    "path": "/game-icons/006-faaastpenguin.jpg",
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2590150/0ab070c7f8b3c624c8507967fd8ef3a06ac74e53/capsule_231x87.jpg?t=1782199168",
+    "source": "steam",
+    "match": "Faaast Penguin",
+    "score": 1
+  },
+  {
+    "game": "索尼克大乱斗",
+    "path": "/game-icons/007-sonicrumble.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/84/8b/15/848b1550-14ad-a137-d3a8-23c8002e9301/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "source": "app-store-us",
+    "match": "Sonic Rumble Party",
+    "score": 0.8674999999999999
+  },
+  {
+    "game": "荒野乱斗",
+    "path": "/game-icons/008-brawlstars.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6b/b0/3d/6bb03d9b-283b-b165-6846-43a5be68e444/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+    "source": "app-store-cn",
+    "match": "荒野乱斗",
+    "score": 1
+  },
+  {
+    "game": "宝可梦大集结",
+    "path": "/game-icons/009-pokemonunite.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c0/3a/03/c03a0307-1bc6-9542-c837-4440c16318ab/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+    "source": "app-store-cn",
+    "match": "宝可梦大集结",
+    "score": 1
+  },
+  {
+    "game": "T3 Arena",
+    "path": "/game-icons/010-t3arena.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/24/73/43/24734309-d57c-398c-3f58-487533204fe1/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+    "source": "app-store-us",
+    "match": "T3 Arena",
+    "score": 1
+  },
+  {
+    "game": "SMASH LEGENDS",
+    "path": "/game-icons/011-smashlegends.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/44/d7/79/44d77991-4c41-2266-a14b-b04063f8a2c5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "source": "app-store-us",
+    "match": "SMASH LEGENDS : Action Fight",
+    "score": 0.7017391304347826
+  },
+  {
+    "game": "Zooba",
+    "path": "/game-icons/override-Zooba.png",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/04/ca/0f/04ca0f94-a830-63c9-4ec4-5fa502aeebc2/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.png",
+    "source": "app-store",
+    "match": "Zooba",
+    "score": 1
+  },
+  {
+    "game": "FRAG Pro Shooter",
+    "path": "/game-icons/013-fragproshooter.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/82/88/f9/8288f9ef-6e18-0bdf-667d-8bf1832f8915/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "source": "app-store-us",
+    "match": "FRAG Pro Shooter",
+    "score": 1
+  },
+  {
+    "game": "Among Us",
+    "path": "/game-icons/014-amongus.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a6/7e/5c/a67e5c64-65f4-bd11-edcc-087936599310/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "source": "app-store-us",
+    "match": "Among Us!",
+    "score": 1
+  },
+  {
+    "game": "鹅鸭杀",
+    "path": "/game-icons/015-goosegooseduck.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/25/0e/06/250e0692-2bbe-bdc1-d145-b0f3c5b9a57d/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+    "source": "app-store-cn",
+    "match": "鹅鸭杀",
+    "score": 1
+  },
+  {
+    "game": "太空行动",
+    "path": "/game-icons/016-supersus.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/43/f2/8a43f230-0756-a178-1b8a-7355d4a38351/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "source": "app-store-us",
+    "match": "Super Sus",
+    "score": 1
+  },
+  {
+    "game": "Project Winter",
+    "path": "/game-icons/017-projectwinter.jpg",
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774861/c635cf54c2a54561d61fca578115b2295f0478bc/capsule_231x87.jpg?t=1759330361",
+    "source": "steam",
+    "match": "Project Winter",
+    "score": 1
+  },
+  {
+    "game": "First Class Trouble",
+    "path": "/game-icons/018-firstclasstrouble.jpg",
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/953880/5fcea6994db88204806f8c2dd0fe82bd441a35ef/capsule_231x87_alt_assets_4.jpg?t=1785852552",
+    "source": "steam",
+    "match": "First Class Trouble",
+    "score": 1
+  },
+  {
+    "game": "Lockdown Protocol",
+    "path": "/game-icons/019-lockdownprotocol.jpg",
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2780980/capsule_231x87.jpg?t=1780159963",
+    "source": "steam",
+    "match": "LOCKDOWN Protocol",
+    "score": 1
+  },
+  {
+    "game": "Dread Hunger",
+    "path": "/game-icons/override-Dread-Hunger.jpg",
+    "url": "https://cdn.akamai.steamstatic.com/steam/apps/1418630/header.jpg",
+    "source": "steam",
+    "match": "Dread Hunger",
+    "score": 1
+  },
+  {
+    "game": "第五人格",
+    "path": "/game-icons/021-identityv.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/3e/00/0c3e0054-276b-4af9-4336-fdbe410ce40d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "source": "app-store-cn",
+    "match": "第五人格",
+    "score": 1
+  },
+  {
+    "game": "黎明杀机",
+    "path": "/game-icons/022-deadbydaylight.jpg",
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/capsule_231x87.jpg?t=1784216454",
+    "source": "steam",
+    "match": "Dead by Daylight",
+    "score": 1
+  },
+  {
+    "game": "猫和老鼠",
+    "path": "/game-icons/023-tomandjerrychase.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ab/c5/21/abc52132-5a00-f7a2-7f47-833b4be5eb17/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+    "source": "app-store-cn",
+    "match": "猫和老鼠",
+    "score": 1
+  },
+  {
+    "game": "逃跑吧！少年",
+    "path": "/game-icons/override-逃跑吧-少年.png",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/29/ab/ad/29abad51-4843-4425-0053-97a47021ce19/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.png",
+    "source": "app-store-cn",
+    "match": "逃跑吧！少年",
+    "score": 1
+  },
+  {
+    "game": "七龙珠：破界斗士",
+    "path": "/game-icons/025-dragonballbreakers.webp",
+    "url": "https://ogdb-cdn.intlgame.cn/image/5cb5dbf9586ec14bb56da71fd72efcf2.jpg",
+    "source": "databrain",
+    "match": "Dragon Ball: The Breakers",
+    "score": 1
+  },
+  {
+    "game": "捉鬼敢死队：灵魂释放",
+    "path": "/game-icons/026-ghostbustersspiritsunleashed.jpg",
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2383990/capsule_231x87.jpg?t=1784674513",
+    "source": "steam",
+    "match": "Ghostbusters: Spirits Unleashed Ecto Edition",
+    "score": 0.897948717948718
+  },
+  {
+    "game": "皇室战争",
+    "path": "/game-icons/027-clashroyale.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/03/be/0003befa-32c7-172d-ce3b-2197bf10ca0f/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+    "source": "app-store-us",
+    "match": "Clash Royale",
+    "score": 1
+  },
+  {
+    "game": "漫威终极逆转",
+    "path": "/game-icons/028-marvelsnap.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2c/2a/09/2c2a0909-5f8d-9f47-d8a6-6672a778f978/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+    "source": "app-store-cn",
+    "match": "漫威终极逆转",
+    "score": 1
+  },
+  {
+    "game": "Rush Royale",
+    "path": "/game-icons/029-rushroyale.jpg",
+    "url": "https://ogdb-cdn.intlgame.cn/image/f5bc60ab19404ad3198178bbb3ea4e12.jpg",
+    "source": "databrain",
+    "match": "Rush Royale",
+    "score": 1
+  },
+  {
+    "game": "随机骰子",
+    "path": "/game-icons/030-randomdice.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f9/70/ad/f970ad07-ebb3-0839-eaf6-ece9fa843e01/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+    "source": "app-store-us",
+    "match": "Random Dice: Defense",
+    "score": 0.7682352941176471
+  },
+  {
+    "game": "云顶之弈",
+    "path": "/game-icons/031-teamfighttactics.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c7/a3/de/c7a3de00-9d34-f371-fcc9-de183707c74c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+    "source": "app-store-us",
+    "match": "TFT: Teamfight Tactics",
+    "score": 1.0221052631578946
+  },
+  {
+    "game": "金铲铲之战",
+    "path": "/game-icons/032-battleofgoldenspatula.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/11/21/c4/1121c48f-c261-da92-7c73-e0ac22fe3396/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+    "source": "app-store-cn",
+    "match": "金铲铲之战",
+    "score": 1
+  },
+  {
+    "game": "炉石传说：酒馆战棋",
+    "path": "/game-icons/override-炉石传说-酒馆战棋.jpg",
+    "url": "https://cdn.mobygames.com/covers/7007385-hearthstone-heroes-of-warcraft-iphone-front-cover.jpg",
+    "source": "hearthstone-official-art",
+    "match": "炉石传说：酒馆战棋",
+    "score": 1
+  },
+  {
+    "game": "Super Auto Pets",
+    "path": "/game-icons/034-superautopets.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d6/f6/c9/d6f6c91b-ed15-566a-a30f-bd95a4a518cb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "source": "app-store-us",
+    "match": "Super Auto Pets",
+    "score": 1
+  },
+  {
+    "game": "背包乱斗",
+    "path": "/game-icons/035-backpackbattles.webp",
+    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaaw3.webp",
+    "source": "databrain",
+    "match": "Backpack Battles",
+    "score": 1
+  },
+  {
+    "game": "致命公司",
+    "path": "/game-icons/036-lethalcompany.webp",
+    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5ive.webp",
+    "source": "databrain",
+    "match": "Lethal Company",
+    "score": 1
+  },
+  {
+    "game": "R.E.P.O.",
+    "path": "/game-icons/037-repo.webp",
+    "url": "https://ogdb-cdn.intlgame.cn/image/9c861961fd1f73d9fd9f02742ac5c26b.jpg",
+    "source": "databrain",
+    "match": "R.E.P.O.",
+    "score": 1
+  },
+  {
+    "game": "内容警告",
+    "path": "/game-icons/038-contentwarning.jpg",
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2881650/capsule_231x87.jpg?t=1785137321",
+    "source": "steam",
+    "match": "Content Warning",
+    "score": 1
+  },
+  {
+    "game": "恐鬼症",
+    "path": "/game-icons/039-phasmophobia.webp",
+    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coamcz.webp",
+    "source": "databrain",
+    "match": "Phasmophobia",
+    "score": 1
+  },
+  {
+    "game": "超自然行动组",
+    "path": "/game-icons/040-paranormalteam.jpg",
+    "url": "https://ogdb-cdn.intlgame.cn/image/0f3ff1ff6e00fe6a43407b8edbaf7f78.jpg",
+    "source": "databrain",
+    "match": "超自然行动组",
+    "score": 1
+  },
+  {
+    "game": "PEAK",
+    "path": "/game-icons/041-peak.jpg",
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/e8f91974f9a7469500fe1aed44a62c9467d328c9/capsule_231x87_alt_assets_3.jpg?t=1786470571",
+    "source": "steam",
+    "match": "PEAK",
+    "score": 1
+  },
+  {
+    "game": "Escape the Backrooms",
+    "path": "/game-icons/042-escapebackrooms.jpg",
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943950/28626087167f428b92a79d4c319e19707fe22dae/capsule_231x87.jpg?t=1787051435",
+    "source": "steam",
+    "match": "Escape the Backrooms",
+    "score": 1
+  },
+  {
+    "game": "Murky Divers",
+    "path": "/game-icons/043-murkydivers.jpg",
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2963880/159ca9e4be4376d61b50f916b8ae8534919c79f3/capsule_231x87.jpg?t=1784115677",
+    "source": "steam",
+    "match": "Murky Divers",
+    "score": 1
+  },
+  {
+    "game": "胡闹厨房2",
+    "path": "/game-icons/044-overcooked2.webp",
+    "url": "https://ogdb-cdn.intlgame.cn/image/b77be197ce6b95d0fc884955dec7aa88.jpg",
+    "source": "databrain",
+    "match": "Overcooked! 2",
+    "score": 1
+  },
+  {
+    "game": "PlateUp!",
+    "path": "/game-icons/045-plateup.webp",
+    "url": "https://ogdb-cdn.intlgame.cn/image/9b20960c4010f0a2df72f4b18bae3271.jpg",
+    "source": "databrain",
+    "match": "PlateUp!",
+    "score": 1
+  },
+  {
+    "game": "Dark and Darker",
+    "path": "/game-icons/046-darkanddarker.jpg",
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2016590/capsule_231x87.jpg?t=1783659214",
+    "source": "steam",
+    "match": "Dark and Darker",
+    "score": 1
+  },
+  {
+    "game": "Pummel Party",
+    "path": "/game-icons/047-pummelparty.webp",
+    "url": "https://ogdb-cdn.intlgame.cn/image/50c89f3efcfb569f28bc20b5b7cae021.jpg",
+    "source": "databrain",
+    "match": "Pummel Party",
+    "score": 1
+  },
+  {
+    "game": "King of the Castle",
+    "path": "/game-icons/048-kingofcastle.jpg",
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1839880/capsule_231x87.jpg?t=1767723865",
+    "source": "steam",
+    "match": "King Of The Castle",
+    "score": 1
+  },
+  {
+    "game": "Dale & Dawson Stationery Supplies",
+    "path": "/game-icons/049-daleanddawsonstationerysupplies.jpg",
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2920570/capsule_231x87.jpg?t=1738015624",
+    "source": "steam",
+    "match": "Dale & Dawson Stationery Supplies",
+    "score": 1
+  },
+  {
+    "game": "星露谷物语",
+    "path": "/game-icons/050-stardewvalley.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0e/df/12/0edf1230-3f6e-fbb3-7f72-f2aa844d100a/AppIcons-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "source": "app-store-us",
+    "match": "Stardew Valley",
+    "score": 1
+  },
+  {
+    "game": "潜水员戴夫",
+    "path": "/game-icons/051-davediver.webp",
+    "url": "https://ogdb-cdn.intlgame.cn/image/6c86381b3364f0b42ceb1b61275b67b2.jpg",
+    "source": "databrain",
+    "match": "Dave the Diver",
+    "score": 1
+  },
+  {
+    "game": "史莱姆牧场",
+    "path": "/game-icons/052-slimerancher.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/81/97/1b/81971ba5-2155-2874-407b-5f85e1fb9a29/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "source": "app-store-us",
+    "match": "Slime Rancher",
+    "score": 1
+  },
+  {
+    "game": "药剂工艺",
+    "path": "/game-icons/override-药剂工艺.png",
+    "url": "https://cdn2.steamgriddb.com/icon/e584bd1926df576b6c47ef4a319e432f/32/1024x1024.png",
+    "source": "steamgriddb",
+    "match": "药剂工艺",
+    "score": 1
+  },
+  {
+    "game": "沙石镇时光",
+    "path": "/game-icons/054-mytimeatsandrock.jpg",
+    "url": "https://ogdb-cdn.intlgame.cn/image/fae636b6970e866bdd759bdeac047e40.jpg",
+    "source": "databrain",
+    "match": "沙石镇时光",
+    "score": 1
+  },
+  {
+    "game": "珊瑚岛",
+    "path": "/game-icons/055-coralisland.jpg",
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158160/153ddc8eb755eaa1b94b592b5316a972acb715e5/capsule_231x87.jpg?t=1781768008",
+    "source": "steam",
+    "match": "Coral Island",
+    "score": 1
+  },
+  {
+    "game": "WePlay",
+    "path": "/game-icons/056-weplay.jpg",
+    "url": "https://ogdb-cdn.intlgame.cn/image/c56c89f45d96b7658a011c98f364ea8f.jpg",
+    "source": "databrain",
+    "match": "WePlay",
+    "score": 1
+  },
+  {
+    "game": "TopTop",
+    "path": "/game-icons/override-TopTop.png",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/80/a6/f6/80a6f656-0704-9908-3f05-a6674295d676/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.png",
+    "source": "app-store",
+    "match": "TopTop",
+    "score": 1
+  },
+  {
+    "game": "Pocket Champs",
+    "path": "/game-icons/058-pocketchampsracing.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/41/5c/67/415c67db-8fef-e632-7a8d-e0ec864447c6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "source": "app-store-us",
+    "match": "Pocket Champs PVP Racing Games",
+    "score": 0.8571428571428572
+  },
+  {
+    "game": "乐高派对",
+    "path": "/game-icons/059-legoparty.jpg",
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1969370/3111f3ef942ec1c342f019d26a2f9bae7a00940b/capsule_231x87.jpg?t=1783611891",
+    "source": "steam",
+    "match": "LEGO® Party!",
+    "score": 1
+  },
+  {
+    "game": "终极鸡马",
+    "path": "/game-icons/060-ultimatechickenhorse.webp",
+    "url": "https://ogdb-cdn.intlgame.cn/image/80de931c45d25c5d8e2be67317d3b9ac.jpg",
+    "source": "databrain",
+    "match": "Ultimate Chicken Horse",
+    "score": 1
+  },
+  {
+    "game": "Jackbox派对包",
+    "path": "/game-icons/061-jackboxpartypack.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/f1/90/93/f19093b2-5c5e-d6fd-18b6-10cf756ef48d/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+    "source": "app-store-us",
+    "match": "The Jackbox",
+    "score": 0.8799999999999999
+  },
+  {
+    "game": "爆裂小队",
+    "path": "/game-icons/062-squadbusters.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/24/23/ce/2423ceae-25c8-5e9a-6523-9fd303247db1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "source": "app-store-us",
+    "match": "Squad Busters",
+    "score": 1
+  },
+  {
+    "game": "死亡笔记：杀手同盟",
+    "path": "/game-icons/063-deathnotekillerwithin.jpg",
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2213190/901bf3da0db62321a5235834363d15dd00fc7b30/capsule_231x87.jpg?t=1756245780",
+    "source": "steam",
+    "match": "DEATH NOTE Killer Within",
+    "score": 1
+  },
+  {
+    "game": "Town of Salem 2",
+    "path": "/game-icons/064-townofsalem2.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/1c/67/bf1c6745-94bc-6cd3-bc63-4412a73e0ed4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "source": "app-store-us",
+    "match": "Town of Salem 2 | Online Game",
+    "score": 1
+  },
+  {
+    "game": "Lucky Defense",
+    "path": "/game-icons/065-luckydefense.jpg",
+    "url": "https://ogdb-cdn.intlgame.cn/image/48fc59886df485babfc8153969ce518a.jpg",
+    "source": "databrain",
+    "match": "Lucky Defense",
+    "score": 1
+  },
+  {
+    "game": "Dinkum",
+    "path": "/game-icons/066-dinkum.webp",
+    "url": "https://ogdb-cdn.intlgame.cn/image/55a2d70fb5d611fc38ebbfe85e8df914.jpg",
+    "source": "databrain",
+    "match": "Dinkum",
+    "score": 1
+  },
+  {
+    "game": "Luma Island",
+    "path": "/game-icons/067-lumaisland.jpg",
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2408820/f5b651d9a31486e818e2d1abf4f2649bce93f40a/capsule_231x87.jpg?t=1786439749",
+    "source": "steam",
+    "match": "Luma Island",
+    "score": 1
+  },
+  {
+    "game": "塔塔冒险队",
+    "path": "/game-icons/taptap-866257.png",
+    "url": "https://img-tc.tapimg.com/market/images/cdf69ae43f7a790a909e8a15bd577948.png/_tap_appicon.jpg",
+    "source": "taptap",
+    "match": "塔塔冒险队 - 官方下载 - TapTap",
+    "score": 1,
+    "app_url": "https://www.taptap.cn/app/866257"
+  },
+  {
+    "game": "Epic Shaman Battle: 4P Defense",
+    "path": "/game-icons/069-epicshamanbattle4pdefense.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/05/36/e605364c-03fe-27b3-cdfb-bf1bb7c7c980/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "source": "app-store-us",
+    "match": "Epic Shaman Battle: 4P Defense",
+    "score": 1
+  },
+  {
+    "game": "Plinko Defense",
+    "path": "/game-icons/override-Plinko-Defense.png",
+    "url": "https://image.winudf.com/v2/image1/Y29tLnN1cGVybWFnaWMuYW9zLnplYWxvdF9pY29uXzE3NjYwNzQzMTFfMDA3/icon.png?w=360&fakeurl=1",
+    "source": "google-play-mirror",
+    "match": "Plinko Defense",
+    "score": 1
+  },
+  {
+    "game": "I Am Sword",
+    "path": "/game-icons/override-I-Am-Sword.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5d/c6/97/5dc697dd-e307-95a7-4ed9-83aad098547a/Placeholder.mill/512x512bb.jpg",
+    "source": "app-store",
+    "match": "I Am Sword",
+    "score": 1
+  },
+  {
+    "game": "Castle Clashers",
+    "path": "/game-icons/072-castleclashers.jpg",
+    "url": "https://ogdb-cdn.intlgame.cn/image/d967e3eb034d80466996dc8456e4c33f.jpg",
+    "source": "databrain",
+    "match": "Castle Clashers",
+    "score": 1
+  },
+  {
+    "game": "Cup Heroes",
+    "path": "/game-icons/073-cupheroes.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8b/08/ec/8b08ec2c-6879-e7ce-8e66-08463c1f5c75/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "source": "app-store-us",
+    "match": "Cup Heroes",
+    "score": 1
+  },
+  {
+    "game": "Bag Fight",
+    "path": "/game-icons/074-bagfight.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/7c/c3/f17cc348-f14c-9fea-4e39-036fadfa3db0/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+    "source": "app-store-cn",
+    "match": "Bag Fight Run",
+    "score": 0.9072727272727272
+  },
+  {
+    "game": "幻兽帕鲁",
+    "path": "/game-icons/075-palworld.webp",
+    "url": "https://ogdb-cdn.intlgame.cn/image/cef86094209c87df71c158b152d3be6d.jpg",
+    "source": "databrain",
+    "match": "Palworld",
+    "score": 1
+  },
+  {
+    "game": "创世理想乡",
+    "path": "/game-icons/076-craftopia.webp",
+    "url": "https://ogdb-cdn.intlgame.cn/image/8aca83c6c2f2e041daab665b8260cbd0.jpg",
+    "source": "databrain",
+    "match": "Craftopia",
+    "score": 1
+  },
+  {
+    "game": "方舟：生存进化",
+    "path": "/game-icons/077-arksurvivalevolved.jpg",
+    "url": "https://ogdb-cdn.intlgame.cn/image/51916060bc4df6b1c067897d2e3f4916.jpg",
+    "source": "databrain",
+    "match": "ARK: Survival Evolved",
+    "score": 1
+  },
+  {
+    "game": "七日世界",
+    "path": "/game-icons/078-oncehuman.jpg",
+    "url": "https://ogdb-cdn.intlgame.cn/image/6f541afe8d3d229a7a55a8efab99ca47.jpg",
+    "source": "databrain",
+    "match": "Once Human",
+    "score": 1
+  },
+  {
+    "game": "灵动小镇",
+    "path": "/game-icons/079-amikinvillage.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cf/45/d7/cf45d7f3-0005-e5da-47b8-8021ae9aa1a8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "source": "app-store-us",
+    "match": "Amikin Village: Magic Sim RPG",
+    "score": 0.7216666666666667
+  },
+  {
+    "game": "Smalland",
+    "path": "/game-icons/080-smallandsurvivewilds.jpg",
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/768200/capsule_231x87.jpg?t=1787165670",
+    "source": "steam",
+    "match": "Smalland: Survive the Wilds",
+    "score": 1
+  },
+  {
+    "game": "动物森友会",
+    "path": "/game-icons/081-动物森友会.webp",
+    "url": "https://ogdb-cdn.intlgame.cn/image/4d0a496a446cac0ddbcab9bd23921111.jpg",
+    "source": "databrain",
+    "match": "Animal Crossing: New Horizons",
+    "score": 1
+  },
+  {
+    "game": "心动小镇",
+    "path": "/game-icons/082-心动小镇.webp",
+    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc1dk.webp",
+    "source": "databrain",
+    "match": "Heartopia",
+    "score": 1
+  },
+  {
+    "game": "Palia",
+    "path": "/game-icons/083-palia.webp",
+    "url": "https://ogdb-cdn.intlgame.cn/image/6535ebf5aad5bf6f2c6cc5a64fa55edb.jpg",
+    "source": "databrain",
+    "match": "Palia",
+    "score": 1
+  },
+  {
+    "game": "迪士尼梦幻星谷",
+    "path": "/game-icons/084-迪士尼梦幻星谷.jpg",
+    "url": "https://ogdb-cdn.intlgame.cn/image/2c76fc52c6d0b35374413eb33ce05f9f.jpg",
+    "source": "databrain",
+    "match": "Disney Dreamlight Valley",
+    "score": 1
+  },
+  {
+    "game": "Fields of Mistria",
+    "path": "/game-icons/085-fieldsofmistria.webp",
+    "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7gwn.webp",
+    "source": "databrain",
+    "match": "Fields of Mistria",
+    "score": 1
+  },
+  {
+    "game": "Go-Go Town!",
+    "path": "/game-icons/086-gogotown.webp",
+    "url": "https://ogdb-cdn.intlgame.cn/image/834bbed7da0c79e117875fdc069747b5.jpg",
+    "source": "databrain",
+    "match": "Go-Go Town!",
+    "score": 1
+  },
+  {
+    "game": "Cozy Grove",
+    "path": "/game-icons/087-cozygrove.jpg",
+    "url": "https://ogdb-cdn.intlgame.cn/image/39fd287e2ae1d12cca4f1ffb72db5a9a.jpg",
+    "source": "databrain",
+    "match": "Cozy Grove",
+    "score": 1
+  },
+  {
+    "game": "Sun Haven",
+    "path": "/game-icons/088-sunhaven.webp",
+    "url": "https://ogdb-cdn.intlgame.cn/image/8372565275c03e9fc4bf8555922d1154.jpg",
+    "source": "databrain",
+    "match": "Sun Haven",
+    "score": 1
+  },
+  {
+    "game": "代号：奇旅",
+    "path": "/game-icons/taptap-719198.png",
+    "url": "https://img-tc.tapimg.com/market/images/c3fa4d4f98164879ad29a7bd8c9f0209.png/_tap_appicon.jpg",
+    "source": "taptap",
+    "match": "山海奇旅",
+    "score": 1,
+    "app_url": "https://www.taptap.cn/app/719198"
+  },
+  {
+    "game": "星布谷地",
+    "path": "/game-icons/taptap-776320.png",
+    "url": "https://img-tc.tapimg.com/market/images/0a267e0344aa85a8bfd557253b0bfc2b.png/_tap_appicon.jpg",
+    "source": "taptap",
+    "match": "星布谷地",
+    "score": 1,
+    "app_url": "https://www.taptap.cn/app/776320"
+  },
+  {
+    "game": "粒粒的小人国",
+    "path": "/game-icons/taptap-772909.png",
+    "url": "https://img-tc.tapimg.com/market/images/feb102b80a5257277daee99bb245deb5.png/_tap_appicon.jpg",
+    "source": "taptap",
+    "match": "粒粒的小人国",
+    "score": 1,
+    "app_url": "https://www.taptap.cn/app/772909"
+  },
+  {
+    "game": "Paralives",
+    "path": "/game-icons/092-paralives.jpg",
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/13d15d732cf142a4546bf749ef587e5e6e6acd64/capsule_231x87.jpg?t=1786381921",
+    "source": "steam",
+    "match": "Paralives",
+    "score": 1
+  },
+  {
+    "game": "Witchbrook",
+    "path": "/game-icons/093-witchbrook.jpg",
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1846700/86ceee35583b2f963db9246e87d9d93bef897811/capsule_231x87.jpg?t=1786550629",
+    "source": "steam",
+    "match": "Witchbrook",
+    "score": 1
+  },
+  {
+    "game": "朋友收集 梦想生活",
+    "path": "/game-icons/override-朋友收集-梦想生活.png",
+    "url": "https://image-assets.m.nintendo.com/d66d6453-519f-47bc-86a9-349683fc59f6",
+    "source": "nintendo",
+    "match": "朋友收集 梦想生活",
+    "score": 1
+  },
+  {
+    "game": "Starsand Island",
+    "path": "/game-icons/095-starsandisland.jpg",
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2966320/c23bdd20a8f7faad0973adce1adf97672ada0259/capsule_231x87.jpg?t=1787059688",
+    "source": "steam",
+    "match": "Starsand Island",
+    "score": 1
+  },
+  {
+    "game": "Spirit Crossing",
+    "path": "/game-icons/096-spiritcrossing.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3c/ad/82/3cad8207-d7d5-b1f3-8d2e-15703a9b63f9/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+    "source": "app-store-us",
+    "match": "Spirit Crossing NETFLIX",
+    "score": 0.8466666666666667
+  },
+  {
+    "game": "崩坏：因缘精灵",
+    "path": "/game-icons/taptap-753921.png",
+    "url": "https://img-tc.tapimg.com/market/images/2b1b7439386c604482bd60353508f081.jpg/_tap_appicon.jpg",
+    "source": "taptap",
+    "match": "崩坏：因缘精灵",
+    "score": 1,
+    "app_url": "https://www.taptap.cn/app/753921"
+  },
+  {
+    "game": "王者万象棋",
+    "path": "/game-icons/taptap-243110.png",
+    "url": "https://img-tc.tapimg.com/market/images/0de7c12303076122c2414040fbd96f7e.png/_tap_appicon.jpg",
+    "source": "taptap",
+    "match": "王者万象棋 - TapTap",
+    "score": 1,
+    "app_url": "https://www.taptap.cn/app/243110"
+  },
+  {
+    "game": "舞力全开：派对",
+    "path": "/game-icons/099-justdanceparty.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/83/65/89/83658965-f9f4-e7ab-2ab0-21f6312fd077/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "source": "app-store-cn",
+    "match": "舞力全开：派对 Just Dance Party",
+    "score": 0.8799999999999999
+  },
+  {
+    "game": "山海奇旅",
+    "path": "/game-icons/taptap-719198.png",
+    "url": "https://img-tc.tapimg.com/market/images/c3fa4d4f98164879ad29a7bd8c9f0209.png/_tap_appicon.jpg",
+    "source": "taptap",
+    "match": "山海奇旅",
+    "score": 1,
+    "app_url": "https://www.taptap.cn/app/719198"
+  },
+  {
+    "game": "蛋仔滑滑",
+    "path": "/game-icons/override-蛋仔滑滑.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c8/1e/ed/c81eed17-5b9d-9ba8-03f2-f072594ecf6f/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+    "source": "app-store-cn",
+    "match": "蛋仔滑滑",
+    "score": 1
+  },
+  {
+    "game": "裂隙远征",
+    "path": "/game-icons/override-裂隙远征.jpg",
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4425970/19f2fde865dafdd6f7e1b0e73f991e918f6a97a0/header_schinese.jpg?t=1786377076",
+    "source": "steam-official",
+    "match": "裂隙远征",
+    "score": 1
+  },
+  {
+    "game": "诡影藏锋",
+    "path": "/game-icons/taptap-874444.png",
+    "url": "https://img-tc.tapimg.com/market/images/8b1d27a160542c81b34156b26599d523.png/_tap_appicon.jpg",
+    "source": "taptap",
+    "match": "诡影藏锋",
+    "score": 1,
+    "app_url": "https://www.taptap.cn/app/874444"
+  },
+  {
+    "game": "BigWalk",
+    "path": "/game-icons/104-bigwalk.jpg",
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/44da9fb07ebe477387355d7fce29560b55125cce/capsule_231x87.jpg?t=1785911674",
+    "source": "steam",
+    "match": "Big Walk",
+    "score": 1
+  },
+  {
+    "game": "小冰冰斗蛐蛐",
+    "path": "/game-icons/taptap-882847.png",
+    "url": "https://img-tc.tapimg.com/market/images/831772cb5b950dabce64027088486c27.png/_tap_appicon.jpg",
+    "source": "taptap",
+    "match": "小冰冰斗蛐蛐",
+    "score": 1,
+    "app_url": "https://www.taptap.cn/app/882847"
+  },
+  {
+    "game": "代号：Team2",
+    "path": "/game-icons/taptap-831809.png",
+    "url": "https://img-tc.tapimg.com/market/images/9a2ebff2335b8c2c96570e949f841064.jpg/_tap_appicon.jpg",
+    "source": "taptap",
+    "match": "代号：Team2（TapTap测试版）",
+    "score": 1,
+    "app_url": "https://www.taptap.cn/app/831809"
+  },
+  {
+    "game": "集合！浆果镇",
+    "path": null,
+    "source": null
+  },
+  {
+    "game": "How to Fish",
+    "path": null,
+    "source": null
+  },
+  {
+    "game": "妖妖棋",
+    "path": "/game-icons/taptap-756756.png",
+    "url": "https://img-tc.tapimg.com/market/images/554eb92269491b4b7bc3236b4369342f.png/_tap_appicon.jpg",
+    "source": "taptap",
+    "match": "妖妖棋",
+    "score": 1,
+    "app_url": "https://www.taptap.cn/app/756756"
+  },
+  {
+    "game": "多多自走棋",
+    "path": "/game-icons/audit-autochess.jpg",
+    "source": "steam",
+    "match": "多多自走棋",
+    "score": 1
+  },
+  {
+    "game": "Mechabellum",
+    "path": "/game-icons/audit-mechabellum.jpg",
+    "source": "steam",
+    "match": "Mechabellum",
+    "score": 1
+  },
+  {
+    "game": "The Bazaar",
+    "path": "/game-icons/audit-the-bazaar.jpg",
+    "source": "steam",
+    "match": "The Bazaar",
+    "score": 1
+  },
+  {
+    "game": "Once Upon a Galaxy",
+    "path": "/game-icons/audit-once-upon-a-galaxy.jpg",
+    "source": "steam",
+    "match": "Once Upon a Galaxy",
+    "score": 1
+  },
+  {
+    "game": "Random Dice 2",
+    "path": "/game-icons/audit-random-dice-2.jpg",
+    "source": "google-play",
+    "match": "Random Dice 2",
+    "score": 1
+  },
+  {
+    "game": "PICO PARK 2",
+    "path": "/game-icons/audit-pico-park-2.jpg",
+    "source": "steam",
+    "match": "PICO PARK 2",
+    "score": 1
+  },
+  {
+    "game": "人类一败涂地",
+    "path": "/game-icons/audit-human-fall-flat.jpg",
+    "source": "steam",
+    "match": "人类一败涂地",
+    "score": 1
+  },
+  {
+    "game": "Chained Together",
+    "path": "/game-icons/audit-chained-together.jpg",
+    "source": "steam",
+    "match": "Chained Together",
+    "score": 1
+  },
+  {
+    "game": "Deceit 2",
+    "path": "/game-icons/audit-deceit-2.jpg",
+    "source": "steam",
+    "match": "Deceit 2",
+    "score": 1
+  },
+  {
+    "game": "The Outlast Trials",
+    "path": "/game-icons/audit-outlast-trials.jpg",
+    "source": "steam",
+    "match": "The Outlast Trials",
+    "score": 1
+  },
+  {
+    "game": "mo.co",
+    "path": "/game-icons/audit-moco.jpg",
+    "source": "google-play",
+    "match": "mo.co",
+    "score": 1
+  },
+  {
+    "game": "Aniimo",
+    "path": "/game-icons/audit-aniimo.jpg",
+    "source": "app-store-us",
+    "match": "Aniimo",
+    "score": 1
+  },
+  {
+    "game": "My Time at Evershine",
+    "path": "/game-icons/audit-my-time-at-evershine.jpg",
+    "source": "steam",
+    "match": "My Time at Evershine",
+    "score": 1
+  }
+]

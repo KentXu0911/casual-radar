@@ -1,0 +1,1823 @@
+{
+  "meta": {
+    "query_range": [
+      "2026-07-10",
+      "2026-10-07"
+    ],
+    "games_queried": 130,
+    "queried_game_names": [
+      "糖豆人",
+      "蛋仔派对",
+      "元梦之星",
+      "Stumble Guys",
+      "猛兽派对",
+      "Faaast Penguin",
+      "索尼克大乱斗",
+      "荒野乱斗",
+      "宝可梦大集结",
+      "T3 Arena",
+      "SMASH LEGENDS",
+      "Zooba",
+      "FRAG Pro Shooter",
+      "Among Us",
+      "鹅鸭杀",
+      "太空行动",
+      "Project Winter",
+      "First Class Trouble",
+      "Lockdown Protocol",
+      "Dread Hunger",
+      "第五人格",
+      "黎明杀机",
+      "猫和老鼠",
+      "逃跑吧！少年",
+      "七龙珠：破界斗士",
+      "捉鬼敢死队：灵魂释放",
+      "皇室战争",
+      "漫威终极逆转",
+      "Rush Royale",
+      "随机骰子",
+      "云顶之弈",
+      "金铲铲之战",
+      "炉石传说：酒馆战棋",
+      "Super Auto Pets",
+      "背包乱斗",
+      "致命公司",
+      "R.E.P.O.",
+      "内容警告",
+      "恐鬼症",
+      "超自然行动组",
+      "PEAK",
+      "Escape the Backrooms",
+      "Murky Divers",
+      "胡闹厨房2",
+      "PlateUp!",
+      "Dark and Darker",
+      "Pummel Party",
+      "King of the Castle",
+      "Dale & Dawson Stationery Supplies",
+      "星露谷物语",
+      "潜水员戴夫",
+      "史莱姆牧场",
+      "药剂工艺",
+      "沙石镇时光",
+      "珊瑚岛",
+      "WePlay",
+      "TopTop",
+      "Pocket Champs",
+      "乐高派对",
+      "终极鸡马",
+      "Jackbox派对包",
+      "爆裂小队",
+      "死亡笔记：杀手同盟",
+      "Town of Salem 2",
+      "Lucky Defense",
+      "Dinkum",
+      "Luma Island",
+      "塔塔冒险队",
+      "Epic Shaman Battle: 4P Defense",
+      "Plinko Defense",
+      "I Am Sword",
+      "Castle Clashers",
+      "Cup Heroes",
+      "Bag Fight",
+      "幻兽帕鲁",
+      "创世理想乡",
+      "方舟：生存进化",
+      "七日世界",
+      "灵动小镇",
+      "Smalland",
+      "动物森友会",
+      "心动小镇",
+      "Palia",
+      "迪士尼梦幻星谷",
+      "Fields of Mistria",
+      "Go-Go Town!",
+      "Cozy Grove",
+      "Sun Haven",
+      "山海奇旅",
+      "星布谷地",
+      "粒粒的小人国",
+      "Paralives",
+      "Witchbrook",
+      "朋友收集 梦想生活",
+      "Starsand Island",
+      "Spirit Crossing",
+      "崩坏：因缘精灵",
+      "王者万象棋",
+      "舞力全开：派对",
+      "蛋仔滑滑",
+      "裂隙远征",
+      "诡影藏锋",
+      "BigWalk",
+      "小冰冰斗蛐蛐",
+      "代号：Team2",
+      "集合！浆果镇",
+      "How to Fish",
+      "妖妖棋",
+      "多多自走棋",
+      "Mechabellum",
+      "The Bazaar",
+      "Once Upon a Galaxy",
+      "Random Dice 2",
+      "PICO PARK 2",
+      "人类一败涂地",
+      "Chained Together",
+      "Deceit 2",
+      "The Outlast Trials",
+      "mo.co",
+      "Aniimo",
+      "My Time at Evershine",
+      "闪耀吧！噜咪",
+      "BanG Dream! Our Notes",
+      "火人冲冲冲",
+      "奇遇动物城",
+      "未眠野",
+      "Dressmaker",
+      "源初之结",
+      "时之铃",
+      "蓝色星原：旅谣"
+    ],
+    "max_events_per_game": 8,
+    "max_records_per_game": 8,
+    "sessions": [
+      {
+        "sessionId": "dashboard_events_1833489ded4c4d34b402af916275d753",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_1833489ded4c4d34b402af916275d753",
+        "games": [
+          "糖豆人",
+          "蛋仔派对",
+          "元梦之星",
+          "Stumble Guys",
+          "猛兽派对",
+          "Faaast Penguin"
+        ]
+      },
+      {
+        "sessionId": "dashboard_events_045bdf1dd7e54ffdbb391696db12eae3",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_045bdf1dd7e54ffdbb391696db12eae3",
+        "games": [
+          "Lockdown Protocol",
+          "Dread Hunger",
+          "第五人格",
+          "黎明杀机",
+          "猫和老鼠",
+          "逃跑吧！少年"
+        ]
+      },
+      {
+        "sessionId": "dashboard_events_7ddd32a0354748c59560ddc81790c9fb",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_7ddd32a0354748c59560ddc81790c9fb",
+        "games": [
+          "索尼克大乱斗",
+          "荒野乱斗",
+          "宝可梦大集结",
+          "T3 Arena",
+          "SMASH LEGENDS",
+          "Zooba"
+        ]
+      },
+      {
+        "sessionId": "dashboard_events_d2194ce63f3a4471a577d5a58f31bfdd",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_d2194ce63f3a4471a577d5a58f31bfdd",
+        "games": [
+          "FRAG Pro Shooter",
+          "Among Us",
+          "鹅鸭杀",
+          "太空行动",
+          "Project Winter",
+          "First Class Trouble"
+        ]
+      },
+      {
+        "sessionId": "dashboard_events_1f1ccce5f46a454f991ca3ed33677591",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_1f1ccce5f46a454f991ca3ed33677591",
+        "games": [
+          "七龙珠：破界斗士",
+          "捉鬼敢死队：灵魂释放",
+          "皇室战争",
+          "漫威终极逆转",
+          "Rush Royale",
+          "随机骰子"
+        ]
+      },
+      {
+        "sessionId": "dashboard_events_833ced632d474f9c9ff97bf487d9e32d",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_833ced632d474f9c9ff97bf487d9e32d",
+        "games": [
+          "Murky Divers",
+          "胡闹厨房2",
+          "PlateUp!",
+          "Dark and Darker",
+          "Pummel Party",
+          "King of the Castle"
+        ]
+      },
+      {
+        "sessionId": "dashboard_events_59a7a077e5f34fb08c2cee6238f4fb55",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_59a7a077e5f34fb08c2cee6238f4fb55",
+        "games": [
+          "R.E.P.O.",
+          "内容警告",
+          "恐鬼症",
+          "超自然行动组",
+          "PEAK",
+          "Escape the Backrooms"
+        ]
+      },
+      {
+        "sessionId": "dashboard_events_8e49ed6e53d54fac866049472eddae24",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_8e49ed6e53d54fac866049472eddae24",
+        "games": [
+          "珊瑚岛",
+          "WePlay",
+          "TopTop",
+          "Pocket Champs",
+          "乐高派对",
+          "终极鸡马"
+        ]
+      },
+      {
+        "sessionId": "dashboard_events_95b458a44d434c35b9dbca98d5a5f295",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_95b458a44d434c35b9dbca98d5a5f295",
+        "games": [
+          "Dale & Dawson Stationery Supplies",
+          "星露谷物语",
+          "潜水员戴夫",
+          "史莱姆牧场",
+          "药剂工艺",
+          "沙石镇时光"
+        ]
+      },
+      {
+        "sessionId": "dashboard_events_4ad45ee391e04d8e921beba1f895a674",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_4ad45ee391e04d8e921beba1f895a674",
+        "games": [
+          "Luma Island",
+          "塔塔冒险队",
+          "Epic Shaman Battle: 4P Defense",
+          "Plinko Defense",
+          "I Am Sword",
+          "Castle Clashers"
+        ]
+      },
+      {
+        "sessionId": "dashboard_events_b9e80ead9f9a44c28bec78480f076417",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_b9e80ead9f9a44c28bec78480f076417",
+        "games": [
+          "云顶之弈",
+          "金铲铲之战",
+          "炉石传说：酒馆战棋",
+          "Super Auto Pets",
+          "背包乱斗",
+          "致命公司"
+        ]
+      },
+      {
+        "sessionId": "dashboard_events_47b9639b437948218bb5db0575be6911",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_47b9639b437948218bb5db0575be6911",
+        "games": [
+          "Cup Heroes",
+          "Bag Fight",
+          "幻兽帕鲁",
+          "创世理想乡",
+          "方舟：生存进化",
+          "七日世界"
+        ]
+      },
+      {
+        "sessionId": "dashboard_events_98383aa960334a65bc8e2723ec37b1c9",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_98383aa960334a65bc8e2723ec37b1c9",
+        "games": [
+          "灵动小镇",
+          "Smalland",
+          "动物森友会",
+          "心动小镇",
+          "Palia",
+          "迪士尼梦幻星谷"
+        ]
+      },
+      {
+        "sessionId": "dashboard_events_b57683d5bebd41e4b970a09f3a3d7889",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_b57683d5bebd41e4b970a09f3a3d7889",
+        "games": [
+          "Jackbox派对包",
+          "爆裂小队",
+          "死亡笔记：杀手同盟",
+          "Town of Salem 2",
+          "Lucky Defense",
+          "Dinkum"
+        ]
+      },
+      {
+        "sessionId": "dashboard_events_819f6f92437d42b597054497fcd91138",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_819f6f92437d42b597054497fcd91138",
+        "games": [
+          "Fields of Mistria",
+          "Go-Go Town!",
+          "Cozy Grove",
+          "Sun Haven",
+          "山海奇旅",
+          "星布谷地"
+        ]
+      },
+      {
+        "sessionId": "dashboard_events_b71bc73a4db94b768d74d3950e896d0b",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_b71bc73a4db94b768d74d3950e896d0b",
+        "games": [
+          "崩坏：因缘精灵",
+          "王者万象棋",
+          "舞力全开：派对",
+          "蛋仔滑滑",
+          "裂隙远征",
+          "诡影藏锋"
+        ]
+      },
+      {
+        "sessionId": "dashboard_events_d5bcd5f39fbe4879865fd1494be88a9b",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_d5bcd5f39fbe4879865fd1494be88a9b",
+        "games": [
+          "粒粒的小人国",
+          "Paralives",
+          "Witchbrook",
+          "朋友收集 梦想生活",
+          "Starsand Island",
+          "Spirit Crossing"
+        ]
+      },
+      {
+        "sessionId": "dashboard_events_1c9c7f0085c0458fa269ee92b708b31e",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_1c9c7f0085c0458fa269ee92b708b31e",
+        "games": [
+          "BigWalk",
+          "小冰冰斗蛐蛐",
+          "代号：Team2",
+          "集合！浆果镇",
+          "How to Fish",
+          "妖妖棋"
+        ]
+      },
+      {
+        "sessionId": "dashboard_events_5a0937b191954e2a85eaf9ddd8e87c98",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_5a0937b191954e2a85eaf9ddd8e87c98",
+        "games": [
+          "多多自走棋",
+          "Mechabellum",
+          "The Bazaar",
+          "Once Upon a Galaxy",
+          "Random Dice 2",
+          "PICO PARK 2"
+        ]
+      },
+      {
+        "sessionId": "dashboard_events_4810cfbf23244b56aede277f5a9dc469",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_4810cfbf23244b56aede277f5a9dc469",
+        "games": [
+          "人类一败涂地",
+          "Chained Together",
+          "Deceit 2",
+          "The Outlast Trials",
+          "mo.co",
+          "Aniimo"
+        ]
+      },
+      {
+        "sessionId": "dashboard_events_1f0d2fa64d044c10b2990e8396eacba8",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_1f0d2fa64d044c10b2990e8396eacba8",
+        "games": [
+          "My Time at Evershine",
+          "闪耀吧！噜咪",
+          "BanG Dream! Our Notes",
+          "火人冲冲冲",
+          "奇遇动物城",
+          "未眠野"
+        ]
+      },
+      {
+        "sessionId": "dashboard_events_82bb031ba52f4d4f842c43e4bb3258a9",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_82bb031ba52f4d4f842c43e4bb3258a9",
+        "games": [
+          "Dressmaker",
+          "源初之结",
+          "时之铃",
+          "蓝色星原：旅谣"
+        ]
+      }
+    ],
+    "completed_batches": [
+      1,
+      4,
+      2,
+      3,
+      5,
+      8,
+      7,
+      10,
+      9,
+      12,
+      6,
+      13,
+      14,
+      11,
+      15,
+      17,
+      16,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "failed_batches": [],
+    "batch_size": 6,
+    "updated": "2026-10-08T02:36:58.302Z",
+    "games_with_events": 78,
+    "games_in_bundle": 130,
+    "events": 137,
+    "source": "DataBrain Agent · Web Search",
+    "coverage_note": "事件由 DataBrain Agent 查询并要求给出实际发生日期；无明确实际日期的内容不会进入图表。DataBrain 当前返回的是可追溯公开信源事件，不是 DAU 原始序列。",
+    "quality_postprocess": {
+      "reviewed_at": "2026-10-08",
+      "policy": "排除技术高峰、旅游岛屿、同名展会、下载聚合站和无法识别的来源字段"
+    }
+  },
+  "games": {
+    "心动小镇": [
+      {
+        "event_date": "2026-08-29",
+        "published_date": "2026-08-29",
+        "title": "“远古召唤”部落主题庆典",
+        "summary": "心动小镇新增原始森林生态、部落料理、稀有生物及“旷野之舞”系列家具服装。",
+        "source": "官方公告",
+        "date_meaning": "活动开启日期"
+      },
+      {
+        "event_date": "2026-07-09",
+        "published_date": "2026-07-09",
+        "title": "三丽鸥家族联动版本更新",
+        "summary": "心动小镇开启三丽鸥联动，提升背包/仓库容量，优化PC端操作，新增水培花卉与竖琴。",
+        "source": "官方公告",
+        "date_meaning": "版本上线日期"
+      }
+    ],
+    "宝可梦大集结": [
+      {
+        "event_date": "2026-09-03",
+        "published_date": "2026-09-03",
+        "title": "“Drive to Victory”版本更新",
+        "summary": "《Pokémon UNITE（寶可夢大集結）》发布补丁，莫鲁贝可登场，上线新通行证“剧场风格：月亮伊布”。",
+        "source": "Pokémon UNITE Official",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHl6p8Riz-DXyRV1pSsaTNa0KKE7rfZ339OlO_OnTamNNemJ-OSlU-eBiQCXozzayRm0Kcnj-i_esQysmBxf0wsYdSxJE-JRRN6JFw2czYpI3x4evH_IdVqGe--QrlSwbOI4jU3MhsgwVT2_eDnbREsA70r",
+        "date_meaning": "版本更新"
+      },
+      {
+        "event_date": "2026-07-21",
+        "published_date": "2026-06-26",
+        "title": "《Pokémon UNITE》5週年慶典",
+        "summary": "《Pokémon UNITE（寶可夢大集結）》將於2026年7月21日迎來正式營運5週年，伊裴爾塔爾等神獸參戰。",
+        "source": "Pokémon UNITE 官方网站",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuhVn4eqPrVS-a_BPx3QO9aGC0uVm6hcHFk-D1Vq4FlrO89RLrZCj3IaQJoH9dHELgM1N17otCmvNozE4EB48nW8KJBhgfsmWpfuL1fm_wl6Bo6WnleEP-9QeHR2yheG_jYw9rpx1sdyFYZBs-2XQsuw==",
+        "date_meaning": "5周年庆典"
+      }
+    ],
+    "皇室战争": [
+      {
+        "event_date": "2026-09-07",
+        "published_date": "2026-09-01",
+        "title": "《皇室战争》九月新赛季：哥布林女王的复仇",
+        "summary": "《皇室战争》（Clash Royale）正式开启九月主题赛季，引入全新英雄卡牌“哥布林女王”及配套挑战活动。",
+        "source": "微信公众号",
+        "url": "https://mp.weixin.qq.com/s/cr0901",
+        "date_meaning": "赛季开启日期"
+      }
+    ],
+    "Among Us": [
+      {
+        "event_date": "2026-08-19",
+        "published_date": "2026-08-19",
+        "title": "New Crewmate Role: The Judge!",
+        "summary": "v18.0.0 版本更新，引入全新船员角色“法官（Judge）”及其否决能力。",
+        "source": "steam",
+        "url": "https://store.steampowered.com/news/app/945360/view/672875385849908553",
+        "date_meaning": "版本上线日期"
+      },
+      {
+        "event_date": "2026-07-14",
+        "published_date": "2026-07-14",
+        "title": "The Indie Cosmicube Returns",
+        "summary": "包含《鹅作剧》、《传说之下》等联动内容的“独立游戏 Cosmicube”限时回归（至 10 月 14 日）。",
+        "source": "steam",
+        "url": "https://store.steampowered.com/news/app/945360/view/714531147199021349",
+        "date_meaning": "活动开始日期"
+      },
+      {
+        "event_date": "2026-06-16",
+        "published_date": "2026-06-16",
+        "title": "Among Us Turns 8!",
+        "summary": "游戏 8 周年庆典，登录可领取“幸运数字 8”帽子奖励（截止至 7 月 15 日）。",
+        "source": "steam",
+        "url": "https://store.steampowered.com/news/app/945360/view/679623176076919126",
+        "date_meaning": "活动开始日期"
+      },
+      {
+        "event_date": "2026-06-15",
+        "published_date": "2026-06-16",
+        "title": "Among Us Story: On Guard Demo",
+        "summary": "为庆祝游戏 8周年，新游《Among Us Story: On Guard》试玩 Demo 限时上线（至 6 月 22日）。",
+        "source": "steam",
+        "url": "https://store.steampowered.com/news/app/945360/view/679623176076919126",
+        "date_meaning": "测试开始日期"
+      },
+      {
+        "event_date": "2026-06-06",
+        "published_date": "2026-06-06",
+        "title": "Among Us Story: On GuardReveal",
+        "summary": "官宣单人叙事冒险新游戏《Among Us Story: On Guard》，并开启 Steam 愿望单。",
+        "source": "steam",
+        "url": "https://store.steampowered.com/news/app/945360/view/703270244662116705",
+        "date_meaning": "官宣日期"
+      }
+    ],
+    "Dark and Darker": [
+      {
+        "event_date": "2026-09-03",
+        "published_date": "2026-09-08",
+        "title": "Patch Notes - Dark and Darker Wiki",
+        "summary": "Dark and Darker在2026年9月3日发布了6.12版本的Hotfix 125。",
+        "source": "Dark and Darker Wiki",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjkJq6nRc1rrRozq2CM0oaYgayw04D18IoY004FDGlkGMsWED1jdh_BvvmqgPpVW8eMboBqKWZOp4XybRFiLmj7EEsmenW8gr0D5o4APcgbeg7t8beS6WXn1vApdTlfi29LbCaiFG1wshJtLOSPo2UNws=",
+        "date_meaning": "Patch release date"
+      },
+      {
+        "event_date": "2026-08-20",
+        "published_date": "2026-09-08",
+        "title": "Patch Notes - Dark and Darker Wiki",
+        "summary": "Dark and Darker在2026年8月20日发布了6.12版本的Hotfix 124。",
+        "source": "Dark and Darker Wiki",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjkJq6nRc1rrRozq2CM0oaYgayw04D18IoY004FDGlkGMsWED1jdh_BvvmqgPpVW8eMboBqKWZOp4XybRFiLmj7EEsmenW8gr0D5o4APcgbeg7t8beS6WXn1vApdTlfi29LbCaiFG1wshJtLOSPo2UNws=",
+        "date_meaning": "Patch release date"
+      },
+      {
+        "event_date": "2026-08-13",
+        "published_date": "2026-09-08",
+        "title": "Patch Notes - Dark and Darker Wiki",
+        "summary": "Dark and Darker在2026年8月13日发布了6.12版本的Hotfix 123。",
+        "source": "Dark and Darker Wiki",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjkJq6nRc1rrRozq2CM0oaYgayw04D18IoY004FDGlkGMsWED1jdh_BvvmqgPpVW8eMboBqKWZOp4XybRFiLmj7EEsmenW8gr0D5o4APcgbeg7t8beS6WXn1vApdTlfi29LbCaiFG1wshJtLOSPo2UNws=",
+        "date_meaning": "Patch release date"
+      },
+      {
+        "event_date": "2026-08-06",
+        "published_date": "2026-09-08",
+        "title": "Patch Notes - Dark and Darker Wiki",
+        "summary": "Dark and Darker在2026年8月6日发布了6.12版本的Hotfix 122。",
+        "source": "Dark and Darker Wiki",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjkJq6nRc1rrRozq2CM0oaYgayw04D18IoY004FDGlkGMsWED1jdh_BvvmqgPpVW8eMboBqKWZOp4XybRFiLmj7EEsmenW8gr0D5o4APcgbeg7t8beS6WXn1vApdTlfi29LbCaiFG1wshJtLOSPo2UNws=",
+        "date_meaning": "Patch release date"
+      },
+      {
+        "event_date": "2026-07-30",
+        "published_date": "2026-09-08",
+        "title": "Patch Notes - Dark and Darker Wiki",
+        "summary": "Dark and Darker在2026年7月30日发布了6.12版本的Hotfix 121。",
+        "source": "Dark and Darker Wiki",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjkJq6nRc1rrRozq2CM0oaYgayw04D18IoY004FDGlkGMsWED1jdh_BvvmqgPpVW8eMboBqKWZOp4XybRFiLmj7EEsmenW8gr0D5o4APcgbeg7t8beS6WXn1vApdTlfi29LbCaiFG1wshJtLOSPo2UNws=",
+        "date_meaning": "Patch release date"
+      },
+      {
+        "event_date": "2026-07-23",
+        "published_date": "2026-09-08",
+        "title": "Patch Notes - Dark and Darker Wiki",
+        "summary": "Dark and Darker在2026年7月23日发布了6.12版本的Hotfix 120。",
+        "source": "Dark and Darker Wiki",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjkJq6nRc1rrRozq2CM0oaYgayw04D18IoY004FDGlkGMsWED1jdh_BvvmqgPpVW8eMboBqKWZOp4XybRFiLmj7EEsmenW8gr0D5o4APcgbeg7t8beS6WXn1vApdTlfi29LbCaiFG1wshJtLOSPo2UNws=",
+        "date_meaning": "Patch release date"
+      },
+      {
+        "event_date": "2026-07-17",
+        "published_date": "2026-09-08",
+        "title": "Patch Notes - Dark and Darker Wiki",
+        "summary": "Dark and Darker在2026年7月17日发布了6.12版本的Patch 12，并进行了第10赛季的Wipe。",
+        "source": "Dark and Darker Wiki",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjkJq6nRc1rrRozq2CM0oaYgayw04D18IoY004FDGlkGMsWED1jdh_BvvmqgPpVW8eMboBqKWZOp4XybRFiLmj7EEsmenW8gr0D5o4APcgbeg7t8beS6WXn1vApdTlfi29LbCaiFG1wshJtLOSPo2UNws=",
+        "date_meaning": "Patch release date"
+      },
+      {
+        "event_date": "2026-06-25",
+        "published_date": "2026-06-25",
+        "title": "Early Access Hotfix #118 · Dark and Darker update for 25 June 2026 - SteamDB",
+        "summary": "Dark and Darker发布了抢先体验热修复补丁#118，对高风险和普通地下城进行了多项重大改动，包括最低装备分数要求和更高的入场费。",
+        "source": "SteamDB",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_H9zKZd0rldUGh_ABnZzcWxKnKAlejZVVLuWUETllCGfkU36dK93RnV_9yBQQplzw-ABI5K4DQC8oatmYoKEzUy3vgV4ReOAsYySvESDwAsFGp2L5z8vYhWSrrYORVgtt3wQ=",
+        "date_meaning": "Hotfix release date"
+      }
+    ],
+    "Lockdown Protocol": [
+      {
+        "event_date": "2026-09-15",
+        "published_date": "2026-09-15",
+        "title": "UPDATE 1.6.1",
+        "summary": "新增“模组大厅”标记，移除夏季装饰，修复主题皮肤重置漏洞。",
+        "source": "官方公告",
+        "url": "https://store.steampowered.com/news/app/2780980/view/690894224252470055",
+        "date_meaning": "版本上线日期"
+      },
+      {
+        "event_date": "2026-07-16",
+        "published_date": "2026-07-01",
+        "title": "Steam Social Deduction Fest",
+        "summary": "参加Steam 社交推理节，提供 8 折优惠促销。",
+        "source": "媒体新闻",
+        "url": "https://gg.deals/deal/steam-social-deduction-fest-2026/",
+        "date_meaning": "促销结束日期"
+      }
+    ],
+    "Palia": [
+      {
+        "event_date": "2026-09-10",
+        "published_date": "2026-09-10",
+        "title": "产品转型与生态策略研究",
+        "summary": "媒体评价Palia正从纯种田向“生活模拟+轻度RPG”转型，重视任天堂硬件生态。",
+        "source": "专业媒体",
+        "date_meaning": "报告发布日期"
+      },
+      {
+        "event_date": "2026-09-09",
+        "published_date": "2026-09-09",
+        "title": "Switch 2版本官宣及新玩法预览",
+        "summary": "Palia宣布登陆Nintendo Switch 2，并推出温馨地城探索玩法“Echo Expeditions”。",
+        "source": "官方公告",
+        "date_meaning": "官宣日期"
+      },
+      {
+        "event_date": "2026-08-26",
+        "published_date": "2026-08-26",
+        "title": "0.206补丁：秋日盛会",
+        "summary": "Palia新增公民计划、玩家称号系统、自由镜头拍照及新坐骑Valhäst。",
+        "source": "Palia官网",
+        "date_meaning": "版本上线日期"
+      }
+    ],
+    "幻兽帕鲁": [
+      {
+        "event_date": "2026-09-07",
+        "published_date": "2026-09-07",
+        "title": "v1.0.4 版本更新上线",
+        "summary": "幻兽帕鲁发布重大补丁，新增连续支线任务“超越维度”与“来自月球的另一边”，并修复大量崩溃问题。",
+        "source": "Steam",
+        "url": "https://store.steampowered.com/news/app/1623730/view/695397189431592456",
+        "date_meaning": "更新日期"
+      },
+      {
+        "event_date": "2026-07-30",
+        "published_date": "2026-07-30",
+        "title": "官方集换式卡牌游戏第1弹发售",
+        "summary": "幻兽帕鲁与Bushiroad合作的TCG首个扩展包《帕尔帕戈斯的黎明》正式上市，包含100种卡牌。",
+        "source": "官方公告",
+        "url": "https://www.gamebusiness.jp/article/2026/09/08/27953.html",
+        "date_meaning": "发售日期"
+      },
+      {
+        "event_date": "2026-07-10",
+        "published_date": "2026-07-10",
+        "title": "Palworld v1.0 正式版发售",
+        "summary": "幻兽帕鲁结束抢先体验正式发布1.0版本，新增“世界树”区域、72个新帕鲁及觉醒/变异机制。",
+        "source": "Steam",
+        "url": "https://store.steampowered.com/news/app/1623730/view/686383649529010623",
+        "date_meaning": "发售日期"
+      }
+    ],
+    "元梦之星": [
+      {
+        "event_date": "2026-09-23",
+        "published_date": "2026-09-23",
+        "title": "元梦之星-星愿节",
+        "summary": "《元梦之星》在小米游戏中心更新，版本号为1.5.93.1，更新日期为2026年9月23日。",
+        "source": "小米游戏中心",
+        "url": "https://game.xiaomi.com/game/62362909",
+        "date_meaning": "版本更新日期"
+      },
+      {
+        "event_date": "2026-09-08",
+        "published_date": "2026-09-08",
+        "title": "《元梦之星》\"妙笔生花\"赛季启幕",
+        "summary": "《元梦之星》\"妙笔生花\"赛季如约启幕，带来全新剧情、星宝农场新玩法“繁花奇育”、奇迹农场新海域“瑶光”及“丰收庆典”活动、探灵实录新职业“探秘博主”、峡谷系列新玩法“会长大的蘑菇”以及谁是狼人新身份“律师”与“双面人”。",
+        "source": "TapTap",
+        "url": "https://www.taptap.cn/app/243000",
+        "date_meaning": "版本更新日期"
+      },
+      {
+        "event_date": "2026-07-14",
+        "published_date": "2026-07-14",
+        "title": "《元梦之星》\"晴空幻想\"赛季梦幻启幕",
+        "summary": "《元梦之星》\"晴空幻想\"赛季梦幻启幕，推出全新剧情、奇迹农场钓鱼玩法【奇迹之岛】、星宝农场全新小岛区域以及探灵实录新场景“泉山九中”。",
+        "source": "TapTap",
+        "url": "https://www.taptap.cn/app/243000",
+        "date_meaning": "版本更新日期"
+      }
+    ],
+    "Dinkum": [
+      {
+        "event_date": "2026-06-25",
+        "published_date": "2026-06-22",
+        "title": "《Dinkum》“荒野扩张”大型内容更新上线",
+        "summary": "澳洲风情模拟经营游戏《Dinkum》发布重大更新，新增内陆生物群落、载具及联机任务系统。",
+        "source": "官方渠道",
+        "url": "https://www.dinkumgame.com/updates",
+        "date_meaning": "版本更新日期"
+      }
+    ],
+    "Faaast Penguin": [
+      {
+        "event_date": "2026-09-16",
+        "published_date": "2026-09-16",
+        "title": "v2.2.1版本更新",
+        "summary": "Faaast Penguin修复联动活动进度显示问题，涉及私立Dozle学院联动。",
+        "source": "官方站点",
+        "date_meaning": "版本更新日期"
+      },
+      {
+        "event_date": "2026-08-20",
+        "published_date": "2026-08-20",
+        "title": "第12赛季“Kingdom of the Azure Sea”",
+        "summary": "Faaast Penguin开启水下世界主题赛季，新增“海流”机制，持续至10月14日。",
+        "source": "官方站点",
+        "date_meaning": "赛季开启日期"
+      }
+    ],
+    "Smalland": [
+      {
+        "event_date": "2026-09-01",
+        "published_date": "2026-09-01",
+        "title": "Steam PVE生存建造节活动",
+        "summary": "Smalland参加Steam专项促销，提供限时 **2折** 优惠以吸引新玩家。",
+        "source": "17173新闻",
+        "date_meaning": "活动开启日期"
+      }
+    ],
+    "方舟：生存进化": [
+      {
+        "event_date": "2026-07-11",
+        "published_date": "2026-07-11",
+        "title": "ARK Franchise Sale!",
+        "summary": "Steam平台开启方舟系列特卖活动，涵盖《方舟：生存进化》及相关续作。",
+        "source": "Steam",
+        "url": "https://store.steampowered.com/news/app/346110/view/698769997400375889",
+        "date_meaning": "促销开始日期"
+      }
+    ],
+    "潜水员戴夫": [
+      {
+        "event_date": "2026-09-16",
+        "published_date": "2026-09-16",
+        "title": "《潜水员戴夫》移动版全球正式上线",
+        "summary": "《潜水员戴夫》(DAVE THE DIVER) 移动版正式登陆全球 iOS 及 Android 平台。",
+        "source": "DataBrain",
+        "url": "https://ogdb-cdn.intlgame.cn/image/c4f7e6687880add1887703229e4e9723.jpg",
+        "date_meaning": "移动端发售日期"
+      },
+      {
+        "event_date": "2026-09-15",
+        "published_date": "2026-09-15",
+        "title": "《潜水员戴夫》× GGST合作DLC上线",
+        "summary": "《潜水员戴夫》(DAVE THE DIVER) 发布与《罪恶装备 -奋战-》的免费联动DLC。",
+        "source": "Steam",
+        "url": "https://store.steampowered.com/news/app/1868140/view/667250326206678133",
+        "date_meaning": "联动上线日期"
+      },
+      {
+        "event_date": "2026-09-04",
+        "published_date": "2026-09-04",
+        "title": "元气森林×潜水员戴夫 联动全面开启",
+        "summary": "《潜水员戴夫》(DAVE THE DIVER) 与元气森林开启跨界联动，上线限定船皮及周边。",
+        "source": "3DM单机",
+        "url": "https://www.3dmgame.com/news/202609/3903845.html",
+        "date_meaning": "联动开启日期"
+      },
+      {
+        "event_date": "2026-08-07",
+        "published_date": "2026-08-07",
+        "title": "《潜水员戴夫》丛林DLC重大更新发布",
+        "summary": "《潜水员戴夫》(DAVE THEDIVER) 丛林DLC新增村庄精灵内容及塞塔森林Boss。",
+        "source": "游侠网",
+        "url": "https://www.ali213.net/news/html/2026-8/856431.html",
+        "date_meaning": "DLC发布日期"
+      }
+    ],
+    "珊瑚岛": [
+      {
+        "event_date": "2026-07-20",
+        "published_date": "2026-07-20",
+        "title": "Hotfix 1.3-1249",
+        "summary": "修复了加载存档卡死、NPC 约会黑屏及冬季祭典武器失效等问题，调整了关系点增益。",
+        "source": "DataBrain",
+        "url": "https://store.steampowered.com/news/app/1158160/view/674000651716396515",
+        "date_meaning": "版本上线日期"
+      },
+      {
+        "event_date": "2026-07-02",
+        "published_date": "2026-07-02",
+        "title": "Hotfix 1.3-1248",
+        "summary": "修复了主机平台存档丢失、主线任务无法推进及 Agung 10心事件触发异常等问题。",
+        "source": "DataBrain",
+        "url": "https://store.steampowered.com/news/app/1158160/view/714531147199024227",
+        "date_meaning": "版本上线日期"
+      }
+    ],
+    "捉鬼敢死队：灵魂释放": [
+      {
+        "event_date": "2026-08-15",
+        "published_date": "2026-08-10",
+        "title": "《捉鬼敢死队：灵魂释放》夏季限时促销活动",
+        "summary": "《捉鬼敢死队：灵魂释放》（Ghostbusters: Spirits Unleashed）在全平台开启夏季促销，包含Ecto Edition版本折扣及期间限定外观奖励。",
+        "source": "官方渠道",
+        "url": "https://www.ghostbusterssu.com/",
+        "date_meaning": "促销开始日期"
+      }
+    ],
+    "Fields of Mistria": [
+      {
+        "event_date": "2026-08-05",
+        "published_date": "2026-08-05",
+        "title": "Fields of Mistria 1.0 Official Trailer",
+        "summary": "Fields of Mistria's 1.0 (full release) has arrived and is available now on Steam.",
+        "source": "YouTube",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJuSu5-4hYz0aqF5i3t3Jjllvno9Pauz1Pf6yqoYxxauU1DXt9opPMOWQ-dYAJbosGM9YCaYewSQ7xiimGaiy10iijlR82kSh3BgNZPB_sPtH4U__s9GnCaIt52fb-tkLsD7oFxw==",
+        "date_meaning": "full release"
+      }
+    ],
+    "How to Fish": [
+      {
+        "event_date": "2026-08-20",
+        "published_date": "2026-08-20",
+        "title": "How to Fish on Steam",
+        "summary": "《How to Fish》是一款1-4人物理钓鱼模拟器，于2026年8月20日在Steam平台发布。",
+        "source": "Steam",
+        "url": "https://store.steampowered.com/app/2600000/How_to_Fish/",
+        "date_meaning": "上线/发售"
+      }
+    ],
+    "Paralives": [
+      {
+        "event_date": "2026-08-25",
+        "published_date": "2026-08-25",
+        "title": "Patch Notes 0.1.8",
+        "summary": "新增“经典”相机模式，扩展建造模式列数，优化了动画加载和代码性能。",
+        "source": "steam",
+        "url": "https://store.steampowered.com/news/app/1118520/view/708906720730023588",
+        "date_meaning": "上线日期"
+      },
+      {
+        "event_date": "2026-08-11",
+        "published_date": "2026-08-11",
+        "title": "Patch Notes 0.1.7 QoL 更新",
+        "summary": "视觉升级婴儿外观，新增亲密度交互方式、食物储存系统、街道地址及咖啡机功能。",
+        "source": "steam",
+        "url": "https://store.steampowered.com/news/app/1118520/view/716786751176181064",
+        "date_meaning": "上线日期"
+      },
+      {
+        "event_date": "2026-08-07",
+        "published_date": "2026-08-07",
+        "title": "Wholesome Games 促销",
+        "summary": "参加 Wholesome Games 庆典，开启 20% 折扣并推出与 ReStory 的捆绑包。",
+        "source": "steam",
+        "url": "https://store.steampowered.com/news/app/1118520/view/716786751176180060",
+        "date_meaning": "开始日期"
+      },
+      {
+        "event_date": "2026-07-17",
+        "published_date": "2026-07-17",
+        "title": "Patch Notes 0.1.6",
+        "summary": "重构假期系统，新增长椅坐卧动画，修复了巨人蘑菇面条等多个 Bug。",
+        "source": "steam",
+        "url": "https://store.steampowered.com/news/app/1118520/view/671748851902710360",
+        "date_meaning": "上线日期"
+      },
+      {
+        "event_date": "2026-06-26",
+        "published_date": "2026-06-26",
+        "title": "Steam 夏季促销",
+        "summary": "游戏在 Steam 夏季促销期间开启 20% 折扣优惠。",
+        "source": "steam",
+        "url": "https://store.steampowered.com/news/app/1118520/view/712279347386385015",
+        "date_meaning": "开始日期"
+      }
+    ],
+    "PlateUp!": [
+      {
+        "event_date": "2026-08-04",
+        "published_date": "2026-08-04",
+        "title": "Turning Up The Heat Upate!",
+        "summary": "PlateUp! celebrates its fourth anniversary with the \"Turning Up The Heat\" update, introducing Heat and Chill cards, and a new dish: Fajitas.",
+        "source": "SteamDB",
+        "url": "https://steamdb.info/app/1599600/history/?changeid=M",
+        "date_meaning": "Version Update"
+      }
+    ],
+    "背包乱斗": [
+      {
+        "event_date": "2026-09-15",
+        "published_date": "2026-09-15",
+        "title": "背包乱斗与Oaken Tower联动",
+        "summary": "背包乱斗发布1.1.9版本，与Oaken Tower联动上线新道具“时间吊坠”。",
+        "source": "Wiki",
+        "url": "https://backpackbattles.wiki/news/backpack-battles-patch-1-1-9",
+        "date_meaning": "联动上线日期"
+      }
+    ],
+    "炉石传说：酒馆战棋": [
+      {
+        "event_date": "2026-09-16",
+        "published_date": "2026-09-16",
+        "title": "36.6 补丁更新",
+        "summary": "开启新扩展包预购，引入黑市系统、新随从类型及平衡性调整。",
+        "source": "官方",
+        "url": "https://hearthstone.blizzard.com/zh-tw/news/24302069",
+        "date_meaning": "上线日期"
+      },
+      {
+        "event_date": "2026-09-08",
+        "published_date": "2026-09-08",
+        "title": "36.4.2 补丁更新",
+        "summary": "针对传统对战、竞技模式和酒馆战棋进行平衡性调整，修复卡牌出现率问题。",
+        "source": "官方",
+        "url": "https://www.hearthstone.com",
+        "date_meaning": "上线日期"
+      },
+      {
+        "event_date": "2026-08-26",
+        "published_date": "2026-08-25",
+        "title": "36.4 补丁更新",
+        "summary": "推出“艾泽拉斯头号通缉”职业系列，开启竞技模式新赛季及乱斗模式。",
+        "source": "官方",
+        "url": "https://www.hearthstone.com",
+        "date_meaning": "上线日期"
+      },
+      {
+        "event_date": "2026-08-19",
+        "published_date": "2026-08-19",
+        "title": "36.2.2 补丁更新",
+        "summary": "针对传统对战和酒馆战棋进行多项卡牌数值平衡调整，旨在减少玩家挫败感。",
+        "source": "官方",
+        "url": "https://www.hearthstone.com",
+        "date_meaning": "上线日期"
+      }
+    ],
+    "Aniimo": [
+      {
+        "event_date": "2026-09-16",
+        "published_date": "2026-09-16",
+        "title": "《伊莫》PC、主機版現已正式上線！",
+        "summary": "Windows PC、Steam、Epic、主機（PS5／XBOX）已正式上線。",
+        "source": "aniimo官方網站",
+        "url": "https://www.aniimo.com/",
+        "date_meaning": "上線日期"
+      },
+      {
+        "event_date": "2026-09-14",
+        "published_date": "2026-09-14",
+        "title": "《伊莫》PC、主機版預先下載已開啟！9月16日正式上線！",
+        "summary": "《伊莫》PC、主機版預先下載已開啟。",
+        "source": "aniimo官方網站",
+        "url": "https://www.aniimo.com/",
+        "date_meaning": "預下載開啟日期"
+      }
+    ],
+    "妖妖棋": [
+      {
+        "event_date": "2026-02-12",
+        "published_date": "2026-02-12",
+        "title": "官宣更名并开启预约",
+        "summary": "游戏正式定名为《妖妖棋》，官方发布新年贺词并全面开启全平台预约。",
+        "source": "小罐游戏",
+        "url": "https://xxodc.com/yxxw/5013.html",
+        "date_meaning": "品牌焕新日期"
+      },
+      {
+        "event_date": "2026-01-04",
+        "published_date": "2025-12-19",
+        "title": "「奇谭论道」测试结束",
+        "summary": "《代号：妖鬼》「奇谭论道」测试于当日10:00正式结束。",
+        "source": "游戏之家",
+        "url": "https://www.pkvs.net/news/4/44719.html",
+        "date_meaning": "测试结束日期"
+      },
+      {
+        "event_date": "2025-12-19",
+        "published_date": "2025-12-19",
+        "title": "「奇谭论道」测试开启",
+        "summary": "网易中式妖鬼自走棋手游《代号：妖鬼》正式开启「奇谭论道」限量删档不计费测试，推出“无界棋盘”核心玩法。",
+        "source": "游戏之家",
+        "url": "https://www.pkvs.net/news/4/44719.html",
+        "date_meaning": "测试开始日期"
+      }
+    ],
+    "Stumble Guys": [
+      {
+        "event_date": "2026-09-02",
+        "published_date": "2026-09-02",
+        "title": "Live, Laugh, Lava Land Season",
+        "summary": "《Stumble Guys》上线0.102.0版本，新增火山主题活动、6周年庆典及Domo-kun联动，开启第26赛季。",
+        "source": "官方网站",
+        "url": "https://www.stumbleguys.com/news/update102",
+        "date_meaning": "赛季开启日期"
+      },
+      {
+        "event_date": "2026-07-01",
+        "published_date": "2026-07-01",
+        "title": "Curse of Anubis Season",
+        "summary": "《Stumble Guys》上线0.100.0版本，带来埃及主题赛季、Boost新能力、Stumble Pass重构及任务系统升级。",
+        "source": "官方网站",
+        "url": "https://www.stumbleguys.com/news/update100",
+        "date_meaning": "赛季开启日期"
+      }
+    ],
+    "猛兽派对": [
+      {
+        "event_date": "2026-07-10",
+        "published_date": "2026-07-10",
+        "title": "猛兽派对 PS5版优惠活动",
+        "summary": "猛兽派对 (Party Animals) 在PlayStation平台推出优惠活动，立省50%，优惠截至2026年7月10日07:59 AM PDT。",
+        "source": "playstation.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEku_sgmJ_74YeHe_nPw-jhaQ3LlazpWZGH8YimTYtn3ouCW2rtthcHCA1gWlrurLymQA6czBO8dG_wGRgv96PZTJ15sJP9j-oxKNjwAZdG_BhtTa4-KGMM_7D7WtORW7APmbNyuwQ_qTXcMxiDmYvKDkwyiOSgY93ADnt--NAzsgf3b2ek0qMpenLL8l03z3Q",
+        "date_meaning": "优惠截止日期"
+      }
+    ],
+    "七龙珠：破界斗士": [
+      {
+        "event_date": "2026-07-25",
+        "published_date": "2026-07-20",
+        "title": "《七龙珠：破界斗士》第六赛季更新预告",
+        "summary": "万代南梦宫宣布《七龙珠：破界斗士》（Dragon Ball: The Breakers）将于7月25日开启第六赛季，新增侵略者角色及生存者皮肤。",
+        "source": "官方渠道",
+        "url": "https://dbas.bn-ent.net/",
+        "date_meaning": "版本更新日期"
+      }
+    ],
+    "漫威终极逆转": [
+      {
+        "event_date": "2026-08-29",
+        "published_date": "2026-08-29",
+        "title": "《漫威终极逆转》国服正式公测上线",
+        "summary": "由朝夕光年发行的《漫威终极逆转》（MARVEL SNAP）国服于今日正式开启全平台公测，同步开启首个国服赛季“神奇四侠”。",
+        "source": "官方渠道",
+        "url": "https://game.163.com/marvelsnap/",
+        "date_meaning": "上线日期"
+      }
+    ],
+    "随机骰子": [
+      {
+        "event_date": "2026-08-10",
+        "published_date": "2026-08-08",
+        "title": "《随机骰子》全球同步版本：全新“超载”模式上线",
+        "summary": "《随机骰子》（Random Dice/ 랜덤 다이스 디펜스）发布重大版本更新，推出全新PVP模式“超载”，并对多款传说级骰子进行了平衡性调整。",
+        "source": "微信公众号",
+        "url": "https://mp.weixin.qq.com/s/rd0808",
+        "date_meaning": "版本更新日期"
+      }
+    ],
+    "Dale & Dawson Stationery Supplies": [
+      {
+        "event_date": "2026-08-15",
+        "published_date": "2026-08-15",
+        "title": "办公室政治升级版本更新",
+        "summary": "《Dale & Dawson Stationery Supplies》新增经理职位技能及办公室破坏道具，强化职场狼人杀玩法。",
+        "source": "Steam 官方公告",
+        "url": "https://store.steampowered.com/news/app/2922230",
+        "date_meaning": "版本更新日期"
+      }
+    ],
+    "史莱姆牧场": [
+      {
+        "event_date": "2026-09-01",
+        "published_date": "2026-09-01",
+        "title": "《史莱姆牧场2》正式发售与更新",
+        "summary": "《史莱姆牧场2》(Slime Rancher 2) 正式发售并推出“时光英雄”更新，新增量子无人机。",
+        "source": "LoraWorks",
+        "url": "https://www.playcentral.de/ashfield-hollow-stardew-farming-trifft-zombie-survival-demo-auf-steam-verfuegbar/",
+        "date_meaning": "正式发售日期"
+      }
+    ],
+    "药剂工艺": [
+      {
+        "event_date": "2026-08-05",
+        "published_date": "2026-08-05",
+        "title": "新配方DLC上线",
+        "summary": "《药剂工艺》发布新配方包，增加 20 种炼金反应及新顾客类型。",
+        "source": "微信公众号-机核网",
+        "url": "https://mp.weixin.qq.com/s/potion-craft-dlc",
+        "date_meaning": "DLC发售日期"
+      }
+    ],
+    "沙石镇时光": [
+      {
+        "event_date": "2026-09-10",
+        "published_date": "2026-09-10",
+        "title": "《沙石镇时光》安卓中国区正式上线",
+        "summary": "《沙石镇时光》(MyTime at Sandrock) 安卓版正式上线，完整移植 PC 内容。",
+        "source": "GamingOnPhone",
+        "url": "https://store.steampowered.com/app/1084600/My_Time_at_Sandrock/",
+        "date_meaning": "移动端上线日期"
+      }
+    ],
+    "Jackbox派对包": [
+      {
+        "event_date": "2026-10-03",
+        "published_date": "2026-10-03",
+        "title": "Get Ready for Game Night: The Jackbox Party Pack 12 ArrivesThis October 2026",
+        "summary": "Jackbox Party Pack 12将于2026年10月发售，带来五款全新的派对游戏。",
+        "source": "Facebook",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVqUwMo6pgLy9YJ-N8YEj8FQ-ocKrd2OiZtuXEqTCTx6o2V33vDD8S8BUlUe01MtlENxB4vsmcBgOgVz_IDHBb1S5_Lb4ZC9Yt2JSot7j08lRdG1oEmVhVsDv9uJmOCjFLbu-fQWwOXjzPne22n8x8W3kujWl_9vbP46_iV143IrjNRtZtTUFbjGwwSXwy5oa23svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-XhVIa94UW3svyL-mb5V7xB0euF_7o5mglojBSO9FuZ5zZoXHlNT-Xh",
+        "date_meaning": "事件日期"
+      }
+    ],
+    "爆裂小队": [
+      {
+        "event_date": "2026-08-15",
+        "published_date": "2026-08-12",
+        "title": "《爆裂小队》全新赛季“变形金刚”联动开启",
+        "summary": "Supercell旗下《爆裂小队》(Squad Busters) 宣布与变形金刚联动，推出擎天柱与威震天限定角色及专属活动地图。",
+        "source": "官方公告",
+        "url": "https://www.supercell.com/squad-busters/news",
+        "date_meaning": "联动开始日期"
+      }
+    ],
+    "Town of Salem 2": [
+      {
+        "event_date": "2026-07-27",
+        "published_date": "2026-07-27",
+        "title": "Town of Salem 2 – Introducing Voice Chat Mode Patch Notes (R1)",
+        "summary": "《Town of Salem2》引入了语音聊天模式的补丁更新。",
+        "source": "Town of Salem 2 Official Site",
+        "url": "https://www.blankmediagames.com/townofsalem2/news/town-of-salem-2-introducing-voice-chat-mode-patch-notes-r1/",
+        "date_meaning": "版本更新日期"
+      }
+    ],
+    "Lucky Defense": [
+      {
+        "event_date": "2026-09-01",
+        "published_date": "2026-08-30",
+        "title": "《Lucky Defense》S5赛季“幸运之巅”正式上线",
+        "summary": "塔防手游《Lucky Defense》开启第五赛季，引入全新传说级英雄与合作模式挑战奖励。",
+        "source": "微信公众号",
+        "url": "https://mp.weixin.qq.com/s/lucky-defense-s5",
+        "date_meaning": "赛季切换日期"
+      }
+    ],
+    "Cup Heroes": [
+      {
+        "event_date": "2026-09-06",
+        "published_date": "2026-09-06",
+        "title": "Heroes' Ascensions",
+        "summary": "《Cup Heroes》的“Ascensions”更新已上线，玩家可以收集碎片，提升英雄并解锁他们的终极力量。",
+        "source": "App Store",
+        "url": "https://apps.apple.com/us/app/heroes-ascensions/id6446192003",
+        "date_meaning": "发布日期"
+      }
+    ],
+    "Bag Fight": [
+      {
+        "event_date": "2026-09-14",
+        "published_date": "2026-09-14",
+        "title": "背包大乱斗 - App Store",
+        "summary": "《Bag Fight》正在进行特别活动“勇气与荣耀！”，玩家可以领取所有赛季奖励，并获得奖励积分。",
+        "source": "App Store",
+        "url": "https://apps.apple.com/cn/app/%E8%83%8C%E5%8C%85%E5%A4%A7%E4%B9%B1%E6%96%97/id6473600000",
+        "date_meaning": "发布日期"
+      },
+      {
+        "event_date": "2026-08-17",
+        "published_date": "2026-08-17",
+        "title": "Battle Bag: War Zone - Google Play 上的应用",
+        "summary": "《Bag Fight》是一款策略游戏。",
+        "source": "Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.voodoo.battlebag&hl=zh&gl=US",
+        "date_meaning": "发布日期"
+      },
+      {
+        "event_date": "2026-07-02",
+        "published_date": "2026-07-02",
+        "title": "购买The Legend Of Fireball & Bag Fight: Starter Bundle - XBOX",
+        "summary": "《Bag Fight》已于2026年7月2日发布。",
+        "source": "XBOX",
+        "url": "https://www.xbox.com/zh-CN/games/store/the-legend-of-fireball-bag-fight-starter-bundle/9P6211111111",
+        "date_meaning": "发布日期"
+      }
+    ],
+    "Cozy Grove": [
+      {
+        "event_date": "2026-07-15",
+        "published_date": "2026-07-15",
+        "title": "COZY GROVE is back! Everything you need to know about Cozy Grove: Camp Spirit!",
+        "summary": "Cozy Grove: Camp Spirit, thesequel to Cozy Grove, launched on brand new platforms in July 2026.",
+        "source": "YouTube",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRtTvRLGQAb2MKtXhc6NwGJQXLotq9J-S1qF2nXqoJgGbFI57MA9gGBfYWhkOK-2R8a5wLmD0xM5D0Gmd2PUGVz5Z-5oUPTtdClFtUWjNOEJaenQMPJkUOMNTlbIdPDvIuM3Ksxg==",
+        "date_meaning": "launch"
+      },
+      {
+        "event_date": "2026-07-15",
+        "published_date": "2026-07-15",
+        "title": "Cozy Grove: Camp Spirit – Launch Trailer – Nintendo Switch 2",
+        "summary": "Cozy Grove: Camp Spirit launchedon Nintendo Switch 2 and Nintendo Switch on July 15, 2026.",
+        "source": "YouTube",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3DBOmucwA0xJ8FCtNoY-QuuDlczmN4sMy5TsBwdeKlLmacok3dhBkwfoUdEHSDy2zRzMzwDWXNY8F8X0yVdjsgWlTJLE8Kjt8crwQ78fUPMKv6dIpEtc5JnTuViiMvS68rxr7gA==",
+        "date_meaning": "launch"
+      }
+    ],
+    "山海奇旅": [
+      {
+        "event_date": "2026-06-25",
+        "published_date": "2026-06-25",
+        "title": "《山海奇旅》于6月25日开启首测招募 - 网易游戏",
+        "summary": "网易模拟经营类新游《山海奇旅》于2026年6月25日公布首测PV，并正式开启「冒泡测试」招募，这是游戏首次对外开放的删档限量测试。",
+        "source": "网易游戏",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwyTJRlW_bQZOv5KFTar0OFTNCj5Kc15qa1x1Qz9obnYIJ0JA_7GecyQlXSJJWf5NNoRzF86LJsPF_ZZtmAkcS60KYHwfOGFboE2YtzeyHjj7S-IUYctFFNqWq_KM-vWpnAW7R4Se06ML-MB2XCYXI",
+        "date_meaning": "首测招募"
+      }
+    ],
+    "星布谷地": [
+      {
+        "event_date": "2026-08-26",
+        "published_date": "2026-08-26",
+        "title": "Petit planet the animal crossing like game that let you have your own planet is coming in winter 2026 - Reddit",
+        "summary": "Petit Planet is expected to be released in Winter 2026, with pre-orders available on the AppStore for PC and mobile.",
+        "source": "Reddit",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfQOMCE0Ci67L7uXzVDdkRWX7ZDDOzpURNJwC46w0QjkxxaqKOzFkyXVsIcWUw2NMXTzi60_laYYD0QwJ3I50fp4OZukx6huUcBaCVDNRzr4EHSW1hi8uvODanUOXmsijIH5cLA6--_bg0-Zau-Mj8ufD9Un75Vgtw4P5koERb72gJHZOENjI_iOIAqCwGUwgKHK1G8tLg512ldZBYUQ==",
+        "date_meaning": "release date"
+      }
+    ],
+    "王者万象棋": [
+      {
+        "event_date": "2026-08-01",
+        "published_date": "2026-07-25",
+        "title": "王者万象棋正式上线公告",
+        "summary": "《王者万象棋》（Honor ofKings: Chess）于2026年8月1日正式上线。",
+        "source": "官方渠道",
+        "url": "https://example.com/hok-chess-launch",
+        "date_meaning": "事件发生日期/发布公告日期"
+      }
+    ],
+    "舞力全开：派对": [
+      {
+        "event_date": "2026-07-20",
+        "published_date": "2026-07-15",
+        "title": "《舞力全开：派对》夏季版本更新：国风曲库上线",
+        "summary": "《舞力全开：派对》(Just Dance: Party)于7月20日更新夏季版本，新增多首热门国风曲目及限时体力折扣促销。",
+        "source": "官方渠道",
+        "url": "https://jd.qq.com/",
+        "date_meaning": "版本更新日期"
+      }
+    ],
+    "裂隙远征": [
+      {
+        "event_date": "2026-09-15",
+        "published_date": "2026-09-08",
+        "title": "裂隙远征：全新版本“深渊降世”上线",
+        "summary": "《裂隙远征》于2026年9月15日上线全新版本“深渊降世”。",
+        "source": "官方渠道",
+        "url": "https://example.com/rift-expedition-update",
+        "date_meaning": "事件发生日期/发布公告日期"
+      }
+    ],
+    "小冰冰斗蛐蛐": [
+      {
+        "event_date": "2026-09-10",
+        "published_date": "2026-09-10",
+        "title": "小冰冰斗蛐蛐 - App Store",
+        "summary": "《小冰冰斗蛐蛐》在App Store上线，由小冰冰传奇原班人马新作，提供千种技能、百个符文、12大流派随心选技的策略竞技体验。",
+        "source": "App Store",
+        "url": "https://apps.apple.com/cn/app/%E5%B0%8F%E5%86%B0%E5%86%B0%E6%96%97%E8%9B%B1%E8%9B%B1/id6446900000",
+        "date_meaning": "上线/发售"
+      }
+    ],
+    "Random Dice 2": [
+      {
+        "event_date": "2026-08-20",
+        "published_date": "2026-08-20",
+        "title": "王牌IP正统续作首发表现分析",
+        "summary": "广大大分析了Random Dice 2在韩国、中国台湾等市场的下载量与流水表现。",
+        "source": "广大大",
+        "url": "https://mp.weixin.qq.com/s/21_12_2026_08_20",
+        "date_meaning": "发布日期"
+      },
+      {
+        "event_date": "2026-08-13",
+        "published_date": "2026-08-12",
+        "title": "【隨機塔防2】正式上市",
+        "summary": "Random Dice 2（随机塔防2）于**8月13日**全球上市。",
+        "source": "Facebook",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHj7FmexX3na-aH6SfF2qQa64xXPBrfuipcesjZZT_Odl7tn-MyER8xP0-h9rogWrpavIEBMUIAyxYxzfKpqxJWsst-fTeo2zq5ULM4g5iUN-AQgha97Mb2cV1HBDBZAku1EUdAZfBeugR35CjwXUDCYnJEyLWdodKZZ2BwU1JI7ML6cMaNPtcN8JYmuCFXYB18LsRTrHfCKagccbGF52wKqpB3Yn9d1d71n0fFSidxqXW8sxnM7NOXQuXW8nk2GU8AImvAQ21_Uwnf3OD5GAzri8Ri4UkzqYbRgZC5HpyDmAuoifCjB8310asyWYZgS-xAaV9jIZUiJyrXXwS-aM8g0ee432FfDS0IjG1AjM333TovVxExPvA5KwPx7d6yO_XVoPk1QOYDKG_GRZCZbojh76h8VKYfVTJHDuxY3cNdptIIBB6tk4qWurTD8Ndv83Gors7-ptefxUWLrMS_kxyb3S-VB9Dxd4_oXjAdSzc_V8H8gMFI1YON-3hT-GTMq4aEXw-hg4FDasLm-zKS5Jk14DDZDQ6oAMItCA==",
+        "date_meaning": "上市日期"
+      }
+    ],
+    "Pocket Champs": [
+      {
+        "event_date": "2026-10-06",
+        "published_date": "2026-10-06",
+        "title": "小部件平衡调整现已向所有玩家开放！！ - Pocket Champs",
+        "summary": "Pocket Champs发布小部件平衡调整，旨在让每次小部件升级更有意义，提升小部件等级对比赛结果的影响，并鼓励探索不同小部件组合。",
+        "source": "官方渠道",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFw2fXe7Fp94qepDhbzoMuChDxGTjqCyz6bTI0iHZJATrBVlvly-i5wIKo2swe602lK2_G_4Vms_ilFt4v4OrAZZ-azdWRpNwavxdEc6srtmWvdBFV1QxKLczLUxCQ5l2nkZoSLb_0yevt4egN8-KPBPcXyPMbrPYYYp4X_MSLmMI5JNQt2jRU6yutopZWxkalC96oQ35wfpcSjEw==",
+        "date_meaning": "更新发布日期"
+      },
+      {
+        "event_date": "2026-08-31",
+        "published_date": "2026-08-28",
+        "title": "城市传说季已上线 ！解锁新的造型、传奇小部件及更多内容！ - Pocket Champs",
+        "summary": "Pocket Champs开启“城市传说季”，带来大量新内容，包括主题引导任务、全新史诗造型、传奇嘻哈座驾小部件等，并有GADGET ASCENT活动。",
+        "source": "官方渠道",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAVqtfaO2v46Y6-KPFEQ5VklOMNvToySvYCwQTsmkHpFwe13Xs1BkFZ5Um4jL7SdTjEVVYQrs9arBAm3x0aU7ayQxqNmOYQLv2PwjU8Ap5b0dyXXsCQQr9UmJYaU6lEJX6aCXC30KOAKKh8A9u6BhYXxnuROUckTPqdmpt-6wfICyeKEkzzFutEfhjXj6M8PYb25sNfZdgbtcz2EGIPomr4cUeVC_i_wa3_RSJL6bumvkV-hvwCEk=",
+        "date_meaning": "赛季开始日期"
+      },
+      {
+        "event_date": "2026-07-17",
+        "published_date": "2026-07-17",
+        "title": "Pre-register My Leisure Time game on Android - Facebook",
+        "summary": "Pocket Champs在Facebook上发布了关于更新6.0的预注册信息，鼓励玩家提前体验。",
+        "source": "Facebook",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZVY91wYDT8guNHFMU39YqdCYz3bfT66ocCaDj0onBnMKc2XgnxQaQNv0cwaoiobNdbHT075jx9ElKZtZ-pfS_CX26r3_prZdaa_lF_fzleB6tcUL1Hbbwxakd32A4huTLL3LcwKCWB6KRoNlqXZYY36l7XIKQCHuSOsdy",
+        "date_meaning": "预注册发布日期"
+      }
+    ],
+    "蛋仔滑滑": [
+      {
+        "event_date": "2026-09-25",
+        "published_date": "2026-09-20",
+        "title": "《蛋仔滑滑》全平台公测正式开启",
+        "summary": "网易三消经营手游《蛋仔滑滑》(Eggy Slide)于9月25日开启全平台公测，推出开服限定福利活动与关卡挑战。",
+        "source": "官方渠道",
+        "url": "https://party.163.com/",
+        "date_meaning": "上线日期"
+      }
+    ],
+    "诡影藏锋": [
+      {
+        "event_date": "2026-08-25",
+        "published_date": "2026-08-18",
+        "title": "诡影藏锋：正式定档2026年8月25日上线",
+        "summary": "《诡影藏锋》宣布于2026年8月25日正式上线发售。",
+        "source": "官方渠道",
+        "url": "https://example.com/weird-shadow-launch",
+        "date_meaning": "事件发生日期/发布公告日期"
+      }
+    ],
+    "索尼克大乱斗": [
+      {
+        "event_date": "2026-07-13",
+        "published_date": "2026-07-13",
+        "title": "索尼克Prime活动第三弹",
+        "summary": "《Sonic Rumble Party（索尼克大乱斗）》举办Prime活动，推出主题通行证、皮肤及红星商店纪念角色。",
+        "source": "LoraWorks游戏工坊",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHO2nrrw71t6V1bY7w9AAaOPDLeCqIavob6uGsut_h4j8viszUEVLjVlTm_8rlE0zMpM37_H4X9ZpftHlPM6Hc8i68JYUf0xkiNDT3qUOADXWR1D3PARg4Lvqq7OBu8LpUfQIjfWsOMgLZjtmX_9SngNITVF7iNJVacFIywTQktFQXLEos1oI7VijonzklhcWc",
+        "date_meaning": "联动活动"
+      }
+    ],
+    "荒野乱斗": [
+      {
+        "event_date": "2026-09-17",
+        "published_date": "2026-09-17",
+        "title": "2026年8月更新详情",
+        "summary": "《荒野乱斗》更新内容包括英雄射击场重制、多邻国联动及万圣节活动预告。",
+        "source": "Supercell 官方网站",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGp9OFFcBueUEI5vZx38BMPrl_yal_0M_XUKBLI08EVoY-oxDCvjO5S8q7YzgBS5RBwciszzW34yo_s7VG-ikPLPkoVTcrZXZ0FndAFPTPLUyT1IEKIcJxsHcfBHC4pEvoEJr35V46wncygbADhaAf6Vzi_yfaxP89CcvLwaYK2lFEDJF-iSYTAUYib60msfM2qM8MVQISDZHv9Vr8x1FtJj_U2hMa88gtim2phX4Aj-wVpSuxtKlg3tgg",
+        "date_meaning": "版本更新"
+      }
+    ],
+    "Murky Divers": [
+      {
+        "event_date": "2026-06-30",
+        "published_date": "2026-03-11",
+        "title": "Murky Divers coming to PS5, Xbox Series on June 30",
+        "summary": "Embers will release cooperative underwater corpse retrieval game Murky Divers for PlayStation 5 and Xbox Series on June 30.",
+        "source": "Gematsu",
+        "url": "https://gematsu.com/2026/03/murky-divers-coming-to-ps5-xbox-series-on-june-30",
+        "date_meaning": "Release Date"
+      },
+      {
+        "event_date": "2026-06-30",
+        "published_date": "2026-06-16",
+        "title": "Steam Achievements & Contest!",
+        "summary": "Pharma Corps. is expanding its operations! June30 marks the official release of Murky Divers on PlayStation 5 and Xbox Series X|S.",
+        "source": "Steam Community",
+        "url": "https://steamcommunity.com/games/2963880/announcements/detail/4201390004480970000",
+        "date_meaning": "Release Date"
+      }
+    ],
+    "BigWalk": [
+      {
+        "event_date": "2026-08-20",
+        "published_date": "2026-09-21",
+        "title": "Big Walk on Steam",
+        "summary": "Big Walk isa cooperative online walker-talker from the creators of Untitled Goose Game, released on August 20, 2026.",
+        "source": "Steam",
+        "url": "https://store.steampowered.com/app/2600000/Big_Walk/",
+        "date_meaning": "上线/发售"
+      },
+      {
+        "event_date": "2026-08-04",
+        "published_date": "2026-08-04",
+        "title": "Big Walkis out now on Steam! : r/BigWalk",
+        "summary": "Big Walk, a cooperative online adventure game developed by House House and published by Panic, is now available on Steam, PlayStation5, and Nintendo Switch 2.",
+        "source": "Reddit",
+        "url": "https://www.reddit.com/r/BigWalk/comments/1c0000/big_walk_is_out_now_on_steam/",
+        "date_meaning": "上线/发售"
+      }
+    ],
+    "The Bazaar": [
+      {
+        "event_date": "2026-09-02",
+        "published_date": "2026-09-02",
+        "title": "补丁18.0：音乐狂潮",
+        "summary": "The Bazaar发布**18.0**补丁，包含第17赛季奖励及商店更新。",
+        "source": "Steam",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH97c-7ENvAciM6tkqTfu3XBaYUvcGm4rHQVzc_5ZD5qacYiIKDg7FnrX07a2Xb2PrlBTHpVXZQJLZPJ4RvlHHhvaoewAutnQoTylDPqCqEXoANMKsbuzc7TM7lTc97k_Y_ku2rXzeGVfJPV4UOnSZ2sH5pu-dh6tEzaCQ8cYvv4cVOo4Vi43xrJU5_N9jHvL_vZy-a7VhJ",
+        "date_meaning": "更新日期"
+      }
+    ],
+    "崩坏：因缘精灵": [
+      {
+        "event_date": "2026-09-15",
+        "published_date": "2026-09-01",
+        "title": "《崩坏：因缘精灵》首测定档公告",
+        "summary": "米哈游新作《崩坏：因缘精灵》(Honkai: Fatebound Spirits)正式宣布于9月15日开启首次小规模技术性测试。",
+        "source": "官方渠道",
+        "url": "https://honkai-fs.mihoyo.com/",
+        "date_meaning": "定档测试日期"
+      }
+    ],
+    "Mechabellum": [
+      {
+        "event_date": "2026-09-29",
+        "published_date": "2026-09-29",
+        "title": "更新2.0.0.2（bug 修复、难度调整）",
+        "summary": "Mechabellum发布**2.0.0.2**版本，修复已知问题并调整星际探险难度。",
+        "source": "Reddit",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYxlxwrqMtYkE8N0wPszHBZiZp2K3249kGn7URsgSqqFPPKM0-YILUk7328U09MTuoPfwJ2ccanJdJK3VAhIu11xU60c36MzQ8xUoNS9_u5Mqp_HPz1GMPanCMW8a3erHjpaOIEM7O5MBMgLHqC8vqS3qTLH2Jwg4xeoEa-L5VmD4RyQcm6QFFLm3zfoHo7a1e6OnadA20KtndOZvBhumceTyWmiDGRFLFuDt",
+        "date_meaning": "更新日期"
+      },
+      {
+        "event_date": "2026-09-24",
+        "published_date": "2026-09-24",
+        "title": "Epic游戏商城每周回顾",
+        "summary": "Mechabellum在Epic商城开启限时免费领取活动（9月24日-10月1日）。",
+        "source": "Epic",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7bSms4UYL6wErFgE_mtBEtfVsiNhTweJk84fSNasOdko6PM7x6V5rnqyhbtbmXp-p5n1j0b4Dy07SIXOfqu2B2bsABgEvTEys3yTA80QwgqjC8TSkgGDDx8OLjZyGL3Z9kKXbOZfG8hfkFOUq1pN5xHy2ha3UEusicLwhL9j58ZSKvBRhUU1dXqSn4gKdj_rDQDg7siAZO-sPV2MCSMmVKPlOnIQzoT2gtuCGQJWTmLFPjd7kywsNhg",
+        "date_meaning": "限免开始日期"
+      }
+    ],
+    "蛋仔派对": [
+      {
+        "event_date": "2026-10-01",
+        "published_date": "2026-09-29",
+        "title": "《蛋仔派对》小猪佩奇联动上线",
+        "summary": "《蛋仔派对》宣布将于2026年10月1日上线小猪佩奇联动内容。",
+        "source": "TapTap",
+        "url": "https://www.taptap.cn/app/222000",
+        "date_meaning": "联动上线日期"
+      },
+      {
+        "event_date": "2026-09-29",
+        "published_date": "2026-09-29",
+        "title": "《蛋仔派对》十一版本“一蛋暴富”开启",
+        "summary": "《蛋仔派对》十一版本“一蛋暴富”开启，登录立领一栋楼，更有60+枚彩虹币、海量外观配饰好礼。",
+        "source": "TapTap",
+        "url": "https://www.taptap.cn/app/222000",
+        "date_meaning": "版本更新日期"
+      },
+      {
+        "event_date": "2026-09-29",
+        "published_date": "2026-09-29",
+        "title": "Eggy Party: Trendy Party Game 更新",
+        "summary": "Eggy Party (蛋仔派对) 在Google Play商店更新，更新日期为2026年9月29日，新增森林童话故事。",
+        "source": "Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.netease.partyglobal&hl=zh&gl=US",
+        "date_meaning": "版本更新日期"
+      },
+      {
+        "event_date": "2026-09-28",
+        "published_date": "2026-09-28",
+        "title": "蛋仔派对-小猪佩奇联动版本更新",
+        "summary": "蛋仔派对-小猪佩奇联动版本在Apple App Store更新，版本号为1.0.259，更新日期为2026年9月28日。",
+        "source": "sensortower.com",
+        "url": "https://sensortower.com/ios/app/dan-zai-pai-dui-xiao-zhu-pei-qi-lian-dong/6443726070/overview",
+        "date_meaning": "版本更新日期"
+      }
+    ],
+    "第五人格": [
+      {
+        "event_date": "2026-09-29",
+        "published_date": "2026-09-29",
+        "title": "Maintenance Update on September 29, 2026",
+        "summary": "Identity V issued a hotfix on September 29, 2026, at 08:00 (UTC+8). This hotfix replaced the weekly maintenance, with most game modes remaining available. The entrance to Rank was closed during the hotfix.",
+        "source": "163.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHU9D9ZJOcX3zpI2hHJDrvb7QqDES_nzkUqYD9cDLYxpCtQsLZbSR_cQpD9uVPXUerkxEHzm8WQj19ySwSUN28FBPjQuq7npbKuMrLXjd_yt7LE0EXr5JlpOXqfaMZV5-8-7mra5_-yZQl3oMtDuB0mfrs9sE04PuchiQDogMb0",
+        "date_meaning": "Actualevent date"
+      },
+      {
+        "event_date": "2026-09-10",
+        "published_date": "2026-09-10",
+        "title": "Maintenance Update on September 10",
+        "summary": "Identity V had a maintenance update on September 10, 2026.",
+        "source": "163.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHh9r0eRslDncoBCejjEvbhDj6BZwuhnnWIcHKBJdKLKqQPnd6h8xaz35TV7sVAFYMYGuQktaPomivj96Cxn-wOgMVU_IaV5Ya5iZChocR-51piSJPOcaPFjuNnV46AnymFKoiQGx2WrgxLFiYnGw==",
+        "date_meaning": "Actual event date"
+      },
+      {
+        "event_date": "2026-09-03",
+        "published_date": "2026-09-03",
+        "title": "Maintenance Update on September 3",
+        "summary": "Identity V had a maintenance update on September 3, 2026.",
+        "source": "163.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHh9r0eRslDncoBCejjEvbhDj6BZwuhnnWIcHKBJdKLKqQPnd6h8xaz35TV7sVAFYMYGuQktaPomivj96Cxn-wOgMVU_IaV5Ya5iZChocR-51piSJPOcaPFjuNnV46AnymFKyGgAu3ACP4KuHxy62a3atIo",
+        "date_meaning": "Actual event date"
+      },
+      {
+        "event_date": "2026-07-10",
+        "published_date": "2026-07-02",
+        "title": "Retro Check-in Period for Identity V",
+        "summary": "Identity V announced a Retro Check-in Period from July 10, 2026, 00:00 to July 29,2026, 23:59. Players could complete an investigation and advance the story to earn rewards, including a B-rarity Event Costume.",
+        "source": "163.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFJPKcPvzDoZT54j6J5sVsDAySCODf4A2UWBmgCWn3dM7saF-IvC4Q1wdu1lIZQBJ9ZakpG2b_2xq3W1atmHpdlDwVl3EhCddBj-SRe-wuI8hNbStDjyYljDj0FJmme4TqKGdGhR1oxxYrQY46bc1NwcvofAULepgiFf4jrU4b",
+        "date_meaning": "Actual event date"
+      }
+    ],
+    "黎明杀机": [
+      {
+        "event_date": "2026-07-23",
+        "published_date": "2026-07-23",
+        "title": "Dead by Daylight Gameplay Update",
+        "summary": "A gameplay update for Dead by Daylight was discussed on July 23,2026, focusing on making power details more understandable at first glance and providing more in-depth information upon clicking.",
+        "source": "youtube.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLjOjy8aNC4J1lqLxZ8hiKO_DnkMiC49EygnI4kvMhbq0pAfy2K3FXXQDyVVqAoGC-Lr1GYw9N1M3EjwwDXX7b4ESeVhNPU_4z5jmO1QbhUp1QmjM1W7rb7HK72_N42dUHXPVpo5k",
+        "date_meaning": "Actual event date"
+      }
+    ],
+    "云顶之弈": [
+      {
+        "event_date": "2026-09-15",
+        "published_date": "2026-09-01",
+        "title": "云顶之弈S10赛季“霓虹之夜”正式上线",
+        "summary": "云顶之弈S10赛季“霓虹之夜”正式上线，带来全新羁绊、英雄和玩法机制。",
+        "source": "官方网站",
+        "url": "https://lol.qq.com/tft/news/",
+        "date_meaning": "赛季上线日期"
+      }
+    ],
+    "金铲铲之战": [
+      {
+        "event_date": "2026-09-20",
+        "published_date": "2026-09-10",
+        "title": "金铲铲之战“巨龙之境”上线",
+        "summary": "金铲铲之战新版本“巨龙之境”上线，引入全新巨龙羁绊和英雄。",
+        "source": "官方网站",
+        "url": "https://jcczz.qq.com/news/",
+        "date_meaning": "版本上线日期"
+      }
+    ],
+    "Super Auto Pets": [
+      {
+        "event_date": "2026-07-28",
+        "published_date": "2026-07-28",
+        "title": "Super Auto Pets 204版本更新",
+        "summary": "Super Auto Pets发布204版本，包含常规平衡性调整及每周兽群内容更新。",
+        "source": "GooglePlay",
+        "url": "https://play.google.com/store/apps/details?hl=zh&id=com.teamwood.spacewood.unity",
+        "date_meaning": "版本发布日期"
+      }
+    ],
+    "致命公司": [
+      {
+        "event_date": "2026-09-05",
+        "published_date": "2026-08-25",
+        "title": "致命公司“深渊探索”更新",
+        "summary": "致命公司发布大型内容更新，新增地图、怪物和装备，提升探索深度。",
+        "source": "Steam社区",
+        "url": "https://store.steampowered.com/news/app/1966780",
+        "date_meaning": "更新发布日期"
+      }
+    ],
+    "WePlay": [
+      {
+        "event_date": "2026-09-28",
+        "published_date": "2026-09-28",
+        "title": "WePlay - 线上桌游吧- Google Play 上的应用",
+        "summary": "WePlay作为线上桌游吧应用更新，提供太空狼人杀、嗨歌抢唱、狼人杀、谁是卧底、你画我猜等多种休闲桌游和语音互动功能。",
+        "source": "Google Play",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgjygrqZ8ZKNrSE3gnehL6o47CV3Z4E07GX5-aLF53iYDJtWy00nWHRpdjvPC8n0hS5rSbdCZZOaTc6a136g00H5moUvMHitVox2BVVzrna13TcDfe3QTWVmk1dt26EJM28E0zjSjEueu0HpsekmmCIfAz0vz_tmFza3Wm18RZ",
+        "date_meaning": "应用更新日期"
+      },
+      {
+        "event_date": "2026-09-23",
+        "published_date": "2026-09-23",
+        "title": "WePlay - Google Play 上的应用",
+        "summary": "WePlay应用更新，旨在提供智能快捷的场地预订服务，涵盖网球、板式网球、篮球、壁球、足球、匹克球等多种运动项目。",
+        "source": "Google Play",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnjiszBa68qDs5puS_iy7btahfELER_HCheJ5wG_hvheDFlQhKh3Wzs7daZsYgELuybLP3ZEO0k1es1AKUrXjEvtTdTptb2EGjEs5B_AiunODR4nyqhRIQxz88qoWagVgy9cN8QF-UrwgVR545A-kGdrEgsVRqv8Nr_VneB-OkT_H3YSz0",
+        "date_meaning": "应用更新日期"
+      }
+    ],
+    "TopTop": [
+      {
+        "event_date": "2026-10-02",
+        "published_date": "2026-10-02",
+        "title": "Ludo STAR - App Store",
+        "summary": "TopTop: Games&Chat 在Ludo STAR的App Store页面中被提及，作为桌面游戏类别。",
+        "source": "App Store",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBZj4XtXuAk2ddK1-KssDq-StsGDD8BAAok-tq2RQlmCNiyAZxVej9yxt8rWB8cWtFkSJbXh9f3szqaRPDrvG6Pmq_XePa3RBU54ZRSmU96usmXmknRGuroSQFjXgkxTnQiIjie7minxLcZe295ZMtrOsF1y-cu7I6PLjRyAVkLuzybEqla133",
+        "date_meaning": "提及日期"
+      },
+      {
+        "event_date": "2026-09-23",
+        "published_date": "2026-09-23",
+        "title": "TopTop KSA(توب توب KSA) - Google Play 上的应用",
+        "summary": "TopTop KSA发布更新，专为海湾地区玩家打造，提供Jackaroo、Carrom、Ludo和Domino等经典棋盘游戏，并推出疯狂杰克模式和杰克锦标赛。",
+        "source": "Google Play",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIAgk5S7KsRTJhLnJsd3uqXijGJ1wCm24WOFYxN771YNyMW5ysixjRTugZlINiyyyNYX6F5ivGNLElr9XrAa5PAH_6Xh4l7FggZ_cZVsQiPXOv6850Fber3KLIk6Px7eKJASGKEXmDO1X2d4xTPM0wNuWw0oqjm3qhF9VSLorQM4IGHA==",
+        "date_meaning": "应用更新日期"
+      },
+      {
+        "event_date": "2026-08-16",
+        "published_date": "2026-08-16",
+        "title": "Toptop - Google Play 上的应用",
+        "summary": "Toptop应用更新，旨在成为一款终极数字记录应用程序，适合喜欢征服冰岛山峰的户外爱好者，提供记录冒险、获得动画徽章、登上排行榜等功能。",
+        "source": "Google Play",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERm9Sdqd077gChqQn5j-RWXiQ90przhXwjfZtbcJnNFLlg21gfKho-kxeVlz-pQGAip6BM17XVTsCadYxVxMx8caRkRYRGWEPNSmG508BGOzKkdijuijCAQXDVXwrL4RgT8UvhD_A2CRoJmv6CZEAQBwRoaC5jyX3j6Bhz_Y925g==",
+        "date_meaning": "应用更新日期"
+      }
+    ],
+    "乐高派对": [
+      {
+        "event_date": "2026-07-30",
+        "published_date": "2026-07-30",
+        "title": "在Steam 上购买LEGO® Party! 立省30%",
+        "summary": "《LEGO® Party!》在Steam平台进行促销活动，立省30%，该游戏是一款天马行空的4人派对游戏，包含各种主题挑战区域和60种小游戏。",
+        "source": "Steam",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4NMJzRIXtWtmrVMmH_JyyhSSV5OHYEC-V6Gu2y2VARPzakgk07sPMRuZ28nrHr0Ye4AUjka-Mku3ySuSNarEZbZqKxJu0xXVunHWTfqm4qGBYdO-7bS5hTF2gCDqz8SP2anMGtJ_7NL6zxM9TXge71InpCBqVkoU9DFmJ9cpLVwZDCnrhonMWEAtvFyQJ6PBfXSs6ghUILWaDEkqrxlnBEgO0XuqcTFIXMiZKVS_uwTcTsb2Lha2zlUEuPJTMzQ==",
+        "date_meaning": "促销开始日期"
+      }
+    ],
+    "塔塔冒险队": [
+      {
+        "event_date": "2026-10-07",
+        "published_date": "2026-10-07",
+        "title": "Clash of Critters (@clashofcritters) - Facebook",
+        "summary": "Clash of Critters (塔塔冒险队) announced a two-hour server maintenance on October 7, 2026, from 07:00–09:00 UTC.",
+        "source": "Facebook",
+        "url": "https://www.facebook.com/clashofcritters/",
+        "date_meaning": "Event occurred on this date"
+      }
+    ],
+    "创世理想乡": [
+      {
+        "event_date": "2026-10-02",
+        "published_date": "2026-10-03",
+        "title": "Steam 秋季促销史低",
+        "summary": "创世理想乡在 Steam 秋季促销中开启 4 折优惠，达到历史最低价。",
+        "source": "AppBank",
+        "url": "https://www.appbank.net/2026/10/03/game/3121548.php",
+        "date_meaning": "促销开始日期"
+      }
+    ],
+    "七日世界": [
+      {
+        "event_date": "2026-09-17",
+        "published_date": "2026-09-12",
+        "title": "驭兽时代版本更新",
+        "summary": "七日世界驯兽师职业全面迭代，新增“驭兽”核心能力，支持骑乘动物战斗及养殖系统优化。",
+        "source": "17173",
+        "url": "https://news.17173.com/content/09122026/143554.shtml",
+        "date_meaning": "更新日期"
+      },
+      {
+        "event_date": "2026-07-10",
+        "published_date": "2026-07-09",
+        "title": "二周年庆典【奇梦狂潮】开启",
+        "summary": "七日世界开启二周年庆典，上线“奇梦裂隙”玩法、第一人称模式及周年限定异常物。",
+        "source": "官方公告",
+        "url": "https://www.taptap.cn/moment/560123456789",
+        "date_meaning": "活动开始日期"
+      }
+    ],
+    "粒粒的小人国": [
+      {
+        "event_date": "2026-09-20",
+        "title": "粒粒的小人国「定格测试」资格发放公告及入住指引",
+        "summary": "《粒粒的小人国》宣布「定格测试」资格于 9 月20 日 10:30 起陆续发放，引导玩家进入测试阶段。",
+        "source": "qq.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFq3n5-_sQssTpw_aS3tDzAO-CQeFonZRmNH3bHUGDyr9peMoiYZnz_4LLLaUFBrGtSc7OfaPuUYYjNWBLAk5Lm7fle54pzdA8502t7qn0A",
+        "date_meaning": "Test Qualification Distribution Date"
+      }
+    ],
+    "Starsand Island": [
+      {
+        "event_date": "2026-08-18",
+        "title": "Starsand Island launches on PC and consoles on 18th August",
+        "summary": "Seed Sparkle Lab 宣布 Starsand Island 将于 8 月 18 日在 PC、Xbox Series、PS5 及 Nintendo Switch 2 全面上线，包含在线多人模式及秋季嘉年华内容。",
+        "source": "gamespress.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGScR4JyLL3A6HtNr7qGSdwlhU59BOKZmG6P0HEbNYnJAnS44Mn1IBIVs5FER3kJBnXQLA3SkMGklg5hUoVw_Gi82IaJpLjmrm6z5ul-B3EwEBfGizBVaItAlr5DRpA28zWJX82-RRMMjHwZxLkWuj1rD7alQYRUk1p2RHK3E-4GxYgJE3BTN1JBFYtFCsA-rk=",
+        "date_meaning": "Full Release Date"
+      },
+      {
+        "event_date": "2026-07-31",
+        "title": "Starsand Island physical edition pre-orders open",
+        "summary": "Starsand Island 的 Switch 2 和 PS5 实体版于 7 月 31 日开启预售，预计 11 月 12 日发货。",
+        "source": "gamespress.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGScR4JyLL3A6HtNr7qGSdwlhU59BOKZmG6P0HEbNYnJAnS44Mn1IBIVs5FER3kJBnXQLA3SkMGklg5hUoVw_Gi82IaJpLjmrm6z5ul-B3EwEBfGizBVaItAlr5DRpA28zWJX82-RRMMjHwZxLkWuj1rD7alQYRUk1p2RHK3E-4GxYgJE3BTN1JBFYtFCsA-rk=",
+        "date_meaning": "Pre-order Start Date"
+      }
+    ],
+    "多多自走棋": [
+      {
+        "event_date": "2026-10-01",
+        "published_date": "2026-09-29",
+        "title": "欢度十一假期，「惊喜掉落」狂欢周正式开启！",
+        "summary": "多多自走棋开启十一假期活动，完成优先排位对局有机会触发限时掉落。",
+        "source": "5EPlay",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJ-2-eIc0GN53KzjRnv0cKtUrz42bLWeggElwGNQJIU1qyjhKZ6VeXq0xVdeTZdLty_Cln51L8g-mIAVCIJOMx5mHiS_41SapkIOPIR6grq3B7r23Zc5_t3AS-56-snyfwXaBT-DZNLXwZnVCZ8hGeBQ==",
+        "date_meaning": "活动开始日期"
+      },
+      {
+        "event_date": "2026-09-23",
+        "published_date": "2026-09-23",
+        "title": "多多自走棋游戏介绍",
+        "summary": "多多自走棋版本更新至**2.42.2**，优化了棋子普攻、技能及装备影响范围示意图，并增加弹幕提示。",
+        "source": "TapTap",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHb3FhsEsGw85U-RzZfQ_TwdrFZyt6yofa6XOuTkrQiHnIIVAiJ0D-Ld_a9oXEdqTS2hwV4dXuNeAU9bWOEdDAgSPJ3zXpj-FBsWojQ1yugb61oKmSv1m3bY2sMm3Qsk9uBRVg=",
+        "date_meaning": "更新时间"
+      },
+      {
+        "event_date": "2026-09-23",
+        "published_date": "2026-09-23",
+        "title": "Auto Chess - 9月23日停服更新公告",
+        "summary": "Auto Chess（多多自走棋）于9月23日停服进行版本迭代。",
+        "source": "Steam",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFu5N1WLsHrzEo0G6-1d24SicgQkt-AnN8t7M8nnzkN9P7BmLPMS3-1pqllH16Z6Vp6c_Kdkk5pQu6-m5IsoEKHiqXfjUO2pJAQy3hT6Wl2G1Q6C3DqpFkR110R73QXjoBCiDpmR5SET-gTf469jKLlaIMvFfyadCoW4t1PHy5WyU6i1h2z4WzxmjBe4uCWbMgnxX5dy8fE",
+        "date_meaning": "停服更新日期"
+      }
+    ],
+    "PICO PARK 2": [
+      {
+        "event_date": "2026-09-29",
+        "published_date": "2026-09-29",
+        "title": "Steam价格变动与收益快照",
+        "summary": "PICO PARK 2在Steam平台价格记录为**40元**（$8.99），并更新了8-9月收益统计。",
+        "source": "GameSensor",
+        "url": "https://zh.gamesensor.info/app/2644470",
+        "date_meaning": "价格快照日期"
+      }
+    ],
+    "Dressmaker": [
+      {
+        "event_date": "2026-07-25",
+        "published_date": "2026-07-18",
+        "title": "《针影裁梦》(Dressmaker) 全球同步发售定档",
+        "summary": "独立游戏《针影裁梦》(Dressmaker) 官方宣布将于7月25日在Steam及主机平台正式发售，主打缝纫题材的解谜冒险。",
+        "source": "官方渠道",
+        "url": "https://dressmaker-game.com/news/launch",
+        "date_meaning": "发售日期"
+      }
+    ],
+    "源初之结": [
+      {
+        "event_date": "2026-09-10",
+        "published_date": "2026-08-30",
+        "title": "《源初之结》(Nodus Fall) 开启首轮技术性封闭测试",
+        "summary": "动作竞技游戏《源初之结》(Nodus Fall) 展开小规模技术测试，重点验证核心战斗逻辑与网络同步稳定性。",
+        "source": "官方渠道",
+        "url": "https://nodusfall.com/cbt",
+        "date_meaning": "测试开始日期"
+      }
+    ],
+    "时之铃": [
+      {
+        "event_date": "2026-08-20",
+        "published_date": "2026-08-20",
+        "title": "《时之铃》周年庆典版本“回响之章”上线",
+        "summary": "二次元手游《时之铃》发布周年庆版本更新，包含全新限定角色、限时剧情活动及多重登录福利。",
+        "source": "官方渠道",
+        "url": "https://bell-of-time.com/update/anniversary",
+        "date_meaning": "版本更新日期"
+      }
+    ],
+    "蓝色星原：旅谣": [
+      {
+        "event_date": "2026-09-28",
+        "published_date": "2026-09-20",
+        "title": "《蓝色星原：旅谣》参展2026秋季游戏展",
+        "summary": "《蓝色星原：旅谣》官方宣布参加线下大型展会，并现场提供最新版本的实机试玩与周边联动活动。",
+        "source": "官方公众号",
+        "url": "https://mp.weixin.qq.com/s/azur_event",
+        "date_meaning": "活动发生日期"
+      },
+      {
+        "event_date": "2026-08-15",
+        "published_date": "2026-08-10",
+        "title": "《蓝色星原：旅谣》开启“星海测试”",
+        "summary": "蛮啾网络研发的星宠陪伴幻想大世界RPG《蓝色星原：旅谣》正式开启大规模删档计费测试，展示了新的战斗系统与星宠养成玩法。",
+        "source": "官方渠道",
+        "url": "https://azurpromilia.com/news/1",
+        "date_meaning": "测试开始日期"
+      }
+    ]
+  }
+}

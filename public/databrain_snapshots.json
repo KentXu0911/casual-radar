@@ -1,0 +1,1700 @@
+{
+  "meta": {
+    "source": "outputs/休闲互动类游戏_看板_v6.html",
+    "games_with_metrics": 92,
+    "generated_at": "2026-08-21T04:21:33.137Z"
+  },
+  "games": {
+    "糖豆人": {
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      }
+    },
+    "蛋仔派对": {
+      "metrics": {
+        "dau": 1585432,
+        "mau": 8692527,
+        "monthly_revenue": 10271770,
+        "data_date": "2026-08-04",
+        "source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau",
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_39dd81d47172478f"
+    },
+    "元梦之星": {
+      "metrics": {
+        "dau": 179639,
+        "mau": 1823720,
+        "monthly_revenue": 1095265,
+        "data_date": "2026-08-04",
+        "source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau",
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_39dd81d47172478f"
+    },
+    "Stumble Guys": {
+      "metrics": {
+        "dau": 3000534,
+        "mau": 29270002,
+        "monthly_revenue": 610079,
+        "data_date": "2026-08-05",
+        "source": "DataBrain (sessionId=proj_c0ad86bb822c4891)",
+        "platform": "mobile"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau",
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_c0ad86bb822c4891)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_c0ad86bb822c4891"
+    },
+    "猛兽派对": {
+      "metrics": {
+        "dau": 35382,
+        "mau": 319915,
+        "monthly_revenue": 1950735,
+        "data_date": "2026-08-05",
+        "source": "DataBrain (sessionId=proj_c0ad86bb822c4891)",
+        "platform": "pc_console"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau",
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_c0ad86bb822c4891)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_c0ad86bb822c4891"
+    },
+    "Faaast Penguin": {
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_3d961f38fa284382"
+    },
+    "索尼克大乱斗": {
+      "metrics": {
+        "dau": 74551,
+        "mau": 842808,
+        "monthly_revenue": 61400,
+        "data_date": "2026-08-05",
+        "source": "DataBrain (sessionId=proj_e8af48e0fb1047e8)",
+        "platform": "mobile"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau",
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_e8af48e0fb1047e8)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_e8af48e0fb1047e8"
+    },
+    "荒野乱斗": {
+      "metrics": {
+        "dau": 52170512,
+        "mau": 156538756,
+        "monthly_revenue": 33655028,
+        "data_date": "2026-08-04",
+        "source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau",
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_39dd81d47172478f"
+    },
+    "宝可梦大集结": {
+      "metrics": {
+        "dau": 1510000,
+        "mau": 6811978,
+        "revenue_monthly": 1354474,
+        "data_source": "DataBrain/SensorTower",
+        "updated": "2026-08-07"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "",
+        "next_source": ""
+      }
+    },
+    "T3 Arena": {
+      "metrics": {
+        "dau": 22492,
+        "mau": 158317,
+        "revenue_monthly": 13953,
+        "data_source": "DataBrain/SensorTower",
+        "updated": "2026-08-07"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "",
+        "next_source": ""
+      }
+    },
+    "SMASH LEGENDS": {
+      "metrics": {
+        "dau": 23246,
+        "mau": 107753,
+        "revenue_monthly": 30248,
+        "data_source": "DataBrain/SensorTower",
+        "updated": "2026-08-07"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "",
+        "next_source": ""
+      }
+    },
+    "Zooba": {
+      "metrics": {
+        "dau": 489141,
+        "mau": 2379570,
+        "revenue_monthly": 822108,
+        "data_source": "DataBrain/SensorTower",
+        "updated": "2026-08-07"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "",
+        "next_source": ""
+      }
+    },
+    "FRAG Pro Shooter": {
+      "metrics": {
+        "dau": 718443,
+        "mau": 5505271,
+        "revenue_monthly": 76418,
+        "data_source": "DataBrain/SensorTower",
+        "updated": "2026-08-07"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "",
+        "next_source": ""
+      }
+    },
+    "Among Us": {
+      "metrics": {
+        "dau": 6515338,
+        "mau": 50826207,
+        "monthly_revenue": 179752,
+        "data_date": "2026-08-05",
+        "source": "DataBrain (sessionId=proj_c0ad86bb822c4891)",
+        "platform": "mobile"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau",
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_c0ad86bb822c4891)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_c0ad86bb822c4891"
+    },
+    "鹅鸭杀": {
+      "metrics": {
+        "dau": 369783,
+        "mau": 3921993,
+        "monthly_revenue": 1561756,
+        "data_date": "2026-08-05",
+        "source": "DataBrain (sessionId=proj_726e9529ffc14a91)",
+        "platform": "mobile"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau",
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_726e9529ffc14a91)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_726e9529ffc14a91"
+    },
+    "太空行动": {
+      "metrics": {
+        "dau": 878838,
+        "mau": 8733919,
+        "monthly_revenue": 74301,
+        "data_date": "2026-08-05",
+        "source": "DataBrain (sessionId=proj_990b68093de64d81)",
+        "platform": "mobile"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau",
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_990b68093de64d81)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_990b68093de64d81"
+    },
+    "Project Winter": {
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_ddb20ba8745043af"
+    },
+    "First Class Trouble": {
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_ddb20ba8745043af"
+    },
+    "Lockdown Protocol": {
+      "metrics": {
+        "steam_pcu": 421,
+        "steam_acu": 333
+      },
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      }
+    },
+    "Dread Hunger": {
+      "metrics": {
+        "steam_pcu": 1912,
+        "steam_acu": 881
+      },
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      }
+    },
+    "第五人格": {
+      "metrics": {
+        "dau": 1419659,
+        "mau": 4405418,
+        "monthly_revenue": 8476800,
+        "data_date": "2026-08-04",
+        "source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau",
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_39dd81d47172478f"
+    },
+    "黎明杀机": {
+      "metrics": {
+        "steam_pcu": 71250,
+        "steam_acu": 65241
+      },
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      }
+    },
+    "猫和老鼠": {
+      "metrics": {
+        "dau": 33739,
+        "mau": 206828,
+        "monthly_revenue": 357629,
+        "data_date": "2026-08-05",
+        "source": "DataBrain (sessionId=proj_990b68093de64d81)",
+        "platform": "mobile"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau",
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_990b68093de64d81)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_990b68093de64d81"
+    },
+    "逃跑吧！少年": {
+      "metrics": {
+        "status": "no_bi_data",
+        "note": "DataBrain未收录该游戏指标"
+      },
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      }
+    },
+    "七龙珠：破界斗士": {
+      "metrics": {
+        "dau": 53,
+        "mau": 20585,
+        "monthly_revenue": 15955,
+        "data_date": "2026-08-06",
+        "source": "DataBrain (sessionId=proj_e78eda7c6dfa43c4)",
+        "platform": "pc_console"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau",
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_e78eda7c6dfa43c4)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_e78eda7c6dfa43c4"
+    },
+    "捉鬼敢死队：灵魂释放": {
+      "metrics": {
+        "steam_pcu": 14,
+        "steam_acu": 18
+      },
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      }
+    },
+    "皇室战争": {
+      "metrics": {
+        "dau": 23154718,
+        "mau": 72002442,
+        "monthly_revenue": 16197185,
+        "data_date": "2026-08-05",
+        "source": "DataBrain (sessionId=proj_e78eda7c6dfa43c4)",
+        "platform": "mobile"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau",
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_e78eda7c6dfa43c4)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_e78eda7c6dfa43c4"
+    },
+    "漫威终极逆转": {
+      "metrics": {
+        "dau": 11146,
+        "mau": 44092,
+        "monthly_revenue": null,
+        "data_date": "",
+        "source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_39dd81d47172478f"
+    },
+    "Rush Royale": {
+      "metrics": {
+        "dau": 459731,
+        "mau": 2379335,
+        "monthly_revenue": 862587,
+        "data_date": "2026-08-05",
+        "source": "DataBrain (sessionId=proj_902a777a7b7c4fb0)",
+        "platform": "mobile"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau",
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_902a777a7b7c4fb0)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_902a777a7b7c4fb0"
+    },
+    "随机骰子": {
+      "metrics": {
+        "dau": 45242,
+        "mau": 242331,
+        "monthly_revenue": 157714,
+        "data_date": "2026-08-05",
+        "source": "DataBrain (sessionId=proj_902a777a7b7c4fb0)",
+        "platform": "mobile"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau",
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_902a777a7b7c4fb0)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_902a777a7b7c4fb0"
+    },
+    "云顶之弈": {
+      "metrics": {
+        "dau": 408995,
+        "mau": null,
+        "monthly_revenue": null,
+        "data_date": "2026-08-04",
+        "source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_39dd81d47172478f"
+    },
+    "金铲铲之战": {
+      "metrics": {
+        "dau": 1138969,
+        "mau": 5164985,
+        "monthly_revenue": 19807089,
+        "data_date": "2026-08-04",
+        "source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau",
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_39dd81d47172478f"
+    },
+    "炉石传说：酒馆战棋": {
+      "metrics": {
+        "dau": 0,
+        "mau": 1180151,
+        "revenue_monthly": 4866599,
+        "data_source": "DataBrain/SensorTower(Mobile)",
+        "updated": "2026-08-07",
+        "note": "酒馆战棋为炉石内置模式，数据为炉石整体移动端"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "mau"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "",
+        "next_source": ""
+      }
+    },
+    "Super Auto Pets": {
+      "metrics": {
+        "dau": null,
+        "mau": null,
+        "monthly_revenue": null,
+        "data_date": "",
+        "source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)"
+      },
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_39dd81d47172478f"
+    },
+    "背包乱斗": {
+      "metrics": {
+        "dau": 11956,
+        "mau": null,
+        "monthly_revenue": null,
+        "data_date": "",
+        "source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_39dd81d47172478f"
+    },
+    "致命公司": {
+      "metrics": {
+        "dau": null,
+        "mau": null,
+        "monthly_revenue": 637480,
+        "data_date": "2026-08-07",
+        "source": "DataBrain (sessionId=proj_726e9529ffc14a91)",
+        "platform": "pc"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_726e9529ffc14a91)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_726e9529ffc14a91"
+    },
+    "R.E.P.O.": {
+      "metrics": {
+        "dau": null,
+        "mau": null,
+        "monthly_revenue": 1961820,
+        "data_date": "2026-08-07",
+        "source": "DataBrain (sessionId=proj_726e9529ffc14a91)",
+        "platform": "pc"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_726e9529ffc14a91)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_726e9529ffc14a91"
+    },
+    "内容警告": {
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_3d961f38fa284382"
+    },
+    "恐鬼症": {
+      "metrics": {
+        "dau": null,
+        "mau": null,
+        "monthly_revenue": 7420775,
+        "data_date": "2026-08-07",
+        "source": "DataBrain (sessionId=proj_726e9529ffc14a91)",
+        "platform": "multi"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_726e9529ffc14a91)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_726e9529ffc14a91"
+    },
+    "超自然行动组": {
+      "metrics": {
+        "dau": 531506,
+        "mau": 3418789,
+        "monthly_revenue": 7248920,
+        "data_date": "2026-08-05",
+        "source": "DataBrain (sessionId=proj_990b68093de64d81)",
+        "platform": "mobile"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau",
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_990b68093de64d81)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_990b68093de64d81"
+    },
+    "PEAK": {
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_211a3867c7124870"
+    },
+    "Escape the Backrooms": {
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_ddb20ba8745043af"
+    },
+    "Murky Divers": {
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_ddb20ba8745043af"
+    },
+    "胡闹厨房2": {
+      "metrics": {
+        "dau": 53333,
+        "mau": 613072,
+        "monthly_revenue": null,
+        "data_date": "",
+        "source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_39dd81d47172478f"
+    },
+    "PlateUp!": {
+      "metrics": {
+        "dau": 2085,
+        "mau": 46628,
+        "monthly_revenue": 628665,
+        "data_date": "2026-08-05",
+        "source": "DataBrain (sessionId=proj_c03fdbe96812446c)",
+        "platform": "pc_console"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau",
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_c03fdbe96812446c)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_c03fdbe96812446c"
+    },
+    "Dark and Darker": {
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_acc87c43eeb14a5f"
+    },
+    "Pummel Party": {
+      "metrics": {
+        "dau": 896,
+        "mau": 7367,
+        "monthly_revenue": 299444,
+        "data_date": "2026-08-05",
+        "source": "DataBrain (sessionId=proj_c03fdbe96812446c)",
+        "platform": "pc_console"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau",
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_c03fdbe96812446c)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_c03fdbe96812446c"
+    },
+    "King of the Castle": {
+      "metrics": {
+        "steam_pcu": 19,
+        "steam_acu": 7
+      },
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      }
+    },
+    "Dale & Dawson Stationery Supplies": {
+      "metrics": {
+        "steam_pcu": 67,
+        "steam_acu": 51
+      },
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      }
+    },
+    "星露谷物语": {
+      "metrics": {
+        "dau": 62105,
+        "mau": 443808,
+        "monthly_revenue": 265913,
+        "data_date": "2026-08-04",
+        "source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau",
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_39dd81d47172478f"
+    },
+    "潜水员戴夫": {
+      "metrics": {
+        "dau": 4661,
+        "mau": null,
+        "monthly_revenue": null,
+        "data_date": "2026-08-06",
+        "source": "DataBrain (sessionId=proj_39f94642d51944bb)",
+        "platform": "pc_console"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_39f94642d51944bb)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_39f94642d51944bb"
+    },
+    "史莱姆牧场": {
+      "metrics": {
+        "dau": 1197,
+        "mau": 31841,
+        "monthly_revenue": null,
+        "data_date": "2026-08-06",
+        "source": "DataBrain (sessionId=proj_39f94642d51944bb)",
+        "platform": "pc_console"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_39f94642d51944bb)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_39f94642d51944bb"
+    },
+    "药剂工艺": {
+      "metrics": {
+        "steam_pcu": 786,
+        "steam_acu": 500
+      },
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      }
+    },
+    "沙石镇时光": {
+      "metrics": {
+        "dau": 811,
+        "mau": 3079,
+        "monthly_revenue": 339267,
+        "data_date": "2026-08-06",
+        "source": "DataBrain (sessionId=proj_39f94642d51944bb)",
+        "platform": "pc_console"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau",
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_39f94642d51944bb)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_39f94642d51944bb"
+    },
+    "珊瑚岛": {
+      "metrics": {
+        "steam_pcu": 2516,
+        "steam_acu": 2937
+      },
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      }
+    },
+    "WePlay": {
+      "metrics": {
+        "dau": 7905231,
+        "mau": 55196848,
+        "monthly_revenue": 6986197,
+        "data_date": "2026-08-05",
+        "source": "DataBrain (sessionId=proj_efdc7ae2bfae419a)",
+        "platform": "mobile"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau",
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_efdc7ae2bfae419a)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_efdc7ae2bfae419a"
+    },
+    "TopTop": {
+      "metrics": {
+        "dau": 1292738,
+        "mau": 8532009,
+        "revenue_monthly": 3354858,
+        "data_source": "DataBrain/SensorTower",
+        "updated": "2026-08-07"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "",
+        "next_source": ""
+      }
+    },
+    "Pocket Champs": {
+      "metrics": {
+        "dau": 652184,
+        "mau": 4015335,
+        "monthly_revenue": 1919049,
+        "data_date": "2026-08-05",
+        "source": "DataBrain (sessionId=proj_902a777a7b7c4fb0)",
+        "platform": "mobile"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau",
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_902a777a7b7c4fb0)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_902a777a7b7c4fb0"
+    },
+    "乐高派对": {
+      "metrics": {
+        "dau": 63,
+        "mau": 38814,
+        "monthly_revenue": 580798,
+        "data_date": "2026-08-06",
+        "source": "DataBrain (sessionId=proj_e78eda7c6dfa43c4)",
+        "platform": "pc_console"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau",
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_e78eda7c6dfa43c4)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_e78eda7c6dfa43c4"
+    },
+    "终极鸡马": {
+      "metrics": {
+        "dau": 368,
+        "mau": 29553,
+        "monthly_revenue": 1293137,
+        "data_date": "2026-08-05",
+        "source": "DataBrain (sessionId=proj_c03fdbe96812446c)",
+        "platform": "pc_console"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau",
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_c03fdbe96812446c)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_c03fdbe96812446c"
+    },
+    "Jackbox派对包": {
+      "metrics": {
+        "dau": 15,
+        "mau": 7574,
+        "monthly_revenue": 15198,
+        "data_date": "2026-08-05",
+        "source": "DataBrain (sessionId=proj_c03fdbe96812446c)",
+        "platform": "multi"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau",
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_c03fdbe96812446c)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_c03fdbe96812446c"
+    },
+    "爆裂小队": {
+      "metrics": {
+        "dau": 429886,
+        "mau": 2261094,
+        "revenue_monthly": 1632,
+        "data_source": "DataBrain/SensorTower",
+        "updated": "2026-08-07",
+        "note": "主要靠IAA变现，IAP收入极低"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "",
+        "next_source": ""
+      }
+    },
+    "死亡笔记：杀手同盟": {
+      "metrics": {
+        "steam_pcu": 43,
+        "steam_acu": 23
+      },
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      }
+    },
+    "Town of Salem 2": {
+      "metrics": {
+        "data_date": "2026-08-05",
+        "source": "DataBrain (sessionId=proj_902a777a7b7c4fb0)",
+        "platform": "mobile",
+        "steam_pcu": 456,
+        "steam_acu": 201
+      },
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_902a777a7b7c4fb0)",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_902a777a7b7c4fb0"
+    },
+    "Lucky Defense": {
+      "metrics": {
+        "dau": 333146,
+        "mau": 1577108,
+        "monthly_revenue": 5828282,
+        "data_date": "2026-08-05",
+        "source": "DataBrain (sessionId=proj_902a777a7b7c4fb0)",
+        "platform": "mobile"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau",
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_902a777a7b7c4fb0)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_902a777a7b7c4fb0"
+    },
+    "Dinkum": {
+      "metrics": {
+        "dau": 648,
+        "mau": 2238,
+        "monthly_revenue": 422101,
+        "data_date": "2026-08-05",
+        "source": "DataBrain (sessionId=proj_c03fdbe96812446c)",
+        "platform": "pc"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau",
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_c03fdbe96812446c)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_c03fdbe96812446c"
+    },
+    "Luma Island": {
+      "metrics": {
+        "steam_pcu": 475,
+        "steam_acu": 393
+      },
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      }
+    },
+    "塔塔冒险队": {
+      "metrics": {
+        "dau": 656379,
+        "mau": 2916856,
+        "revenue_monthly": 6542694,
+        "data_source": "DataBrain/SensorTower",
+        "updated": "2026-08-07",
+        "note": "2026.2上线，黑马增长"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "",
+        "next_source": ""
+      }
+    },
+    "Epic Shaman Battle: 4P Defense": {
+      "metrics": {
+        "dau": 379,
+        "mau": 19921,
+        "monthly_revenue": 524,
+        "data_date": "2026-08-05",
+        "source": "DataBrain (sessionId=proj_cd086d8c135e4dce)",
+        "platform": "mobile"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau",
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_cd086d8c135e4dce)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_cd086d8c135e4dce"
+    },
+    "Plinko Defense": {
+      "metrics": {
+        "status": "no_bi_data",
+        "note": "主流移动数据库未收录，可能为极早期/小众平台"
+      },
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      }
+    },
+    "I Am Sword": {
+      "metrics": {
+        "status": "no_bi_data",
+        "note": "主流移动数据库未收录，可能为极早期/小众平台"
+      },
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      }
+    },
+    "Castle Clashers": {
+      "metrics": {
+        "dau": 842609,
+        "mau": 5494027,
+        "monthly_revenue": 4774714,
+        "data_date": "2026-08-05",
+        "source": "DataBrain (sessionId=proj_cd086d8c135e4dce)",
+        "platform": "mobile"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau",
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_cd086d8c135e4dce)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_cd086d8c135e4dce"
+    },
+    "Cup Heroes": {
+      "metrics": {
+        "dau": 310582,
+        "mau": 2620156,
+        "monthly_revenue": 533189,
+        "data_date": "2026-08-05",
+        "source": "DataBrain (sessionId=proj_cd086d8c135e4dce)",
+        "platform": "mobile"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau",
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_cd086d8c135e4dce)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_cd086d8c135e4dce"
+    },
+    "Bag Fight": {
+      "metrics": {
+        "dau": 39390,
+        "mau": 151171,
+        "revenue_monthly": 4593,
+        "data_source": "DataBrain/SensorTower",
+        "updated": "2026-08-07",
+        "note": "持续下滑，流水降超70%"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "",
+        "next_source": ""
+      }
+    },
+    "幻兽帕鲁": {
+      "metrics": {
+        "dau": 308044,
+        "mau": 942742,
+        "monthly_revenue": 164776215,
+        "data_date": "2026-08-06",
+        "source": "DataBrain (sessionId=proj_39f94642d51944bb)",
+        "platform": "pc_console"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau",
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_39f94642d51944bb)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_39f94642d51944bb"
+    },
+    "创世理想乡": {
+      "metrics": {
+        "dau": 57,
+        "mau": 152,
+        "data_date": "2026-08-05",
+        "source": "DataBrain (sessionId=proj_c03fdbe96812446c)",
+        "platform": "pc_console"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_c03fdbe96812446c)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_c03fdbe96812446c"
+    },
+    "方舟：生存进化": {
+      "metrics": {
+        "dau": 117239,
+        "mau": null,
+        "monthly_revenue": null,
+        "data_date": "",
+        "source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_39dd81d47172478f"
+    },
+    "七日世界": {
+      "metrics": {
+        "dau": 54981,
+        "mau": null,
+        "monthly_revenue": null,
+        "data_date": "2026-08-04",
+        "source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain ai_excel (sessionId=proj_39dd81d47172478f)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_39dd81d47172478f"
+    },
+    "灵动小镇": {
+      "metrics": {
+        "dau": 883524,
+        "mau": 5007600,
+        "monthly_revenue": 15528346,
+        "data_date": "2026-08-08",
+        "source": "DataBrain (sessionId=proj_3a6e7fe59ea64830)",
+        "platform": "mobile+pc",
+        "scope_note": "DAU/MAU为移动端；流水为2026年7月移动端+PC合计"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau",
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_3a6e7fe59ea64830)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_3a6e7fe59ea64830"
+    },
+    "Smalland": {
+      "metrics": {
+        "steam_pcu": 324,
+        "steam_acu": 282
+      },
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      }
+    },
+    "动物森友会": {
+      "metrics": {
+        "monthly_revenue": 22985578.8,
+        "data_date": "2026-07-31",
+        "source": "DataBrain (sessionId=proj_3a6e7fe59ea64830)",
+        "platform": "console",
+        "scope_note": "2026年7月主机端最近可用流水口径；当前源未返回DAU/MAU"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_3a6e7fe59ea64830)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_3a6e7fe59ea64830"
+    },
+    "心动小镇": {
+      "metrics": {
+        "dau": 912751,
+        "mau": 5007600,
+        "monthly_revenue": 11059022,
+        "data_date": "2026-08-05",
+        "source": "DataBrain (sessionId=proj_990b68093de64d81)",
+        "platform": "mobile"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau",
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_990b68093de64d81)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_990b68093de64d81"
+    },
+    "Palia": {
+      "metrics": {
+        "dau": 14971,
+        "mau": 46231,
+        "monthly_revenue": 3324855,
+        "data_date": "2026-08-05",
+        "source": "DataBrain (sessionId=proj_ab7ce7c1b4c64af3)",
+        "platform": "pc_console"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau",
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_ab7ce7c1b4c64af3)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_ab7ce7c1b4c64af3"
+    },
+    "迪士尼梦幻星谷": {
+      "metrics": {
+        "dau": 46122,
+        "mau": 153705,
+        "monthly_revenue": 6474074,
+        "data_date": "2026-08-05",
+        "source": "DataBrain (sessionId=proj_ab7ce7c1b4c64af3)",
+        "platform": "multi"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "mau",
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_ab7ce7c1b4c64af3)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_ab7ce7c1b4c64af3"
+    },
+    "Fields of Mistria": {
+      "metrics": {
+        "dau": 22210,
+        "monthly_revenue": 394596,
+        "data_date": "2026-08-05",
+        "source": "DataBrain (sessionId=proj_ab7ce7c1b4c64af3)",
+        "platform": "pc"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_ab7ce7c1b4c64af3)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_ab7ce7c1b4c64af3"
+    },
+    "Go-Go Town!": {
+      "metrics": {
+        "dau": 446,
+        "monthly_revenue": 3080574.8,
+        "data_date": "2026-08-09",
+        "source": "DataBrain (sessionId=proj_3a6e7fe59ea64830)",
+        "platform": "pc",
+        "scope_note": "DAU为PC端最近口径；流水为2026年7月"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_3a6e7fe59ea64830)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_3a6e7fe59ea64830"
+    },
+    "Cozy Grove": {
+      "metrics": {
+        "dau": 494,
+        "monthly_revenue": 95533,
+        "data_date": "2026-08-05",
+        "source": "DataBrain (sessionId=proj_ab7ce7c1b4c64af3)",
+        "platform": "pc_console"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_ab7ce7c1b4c64af3)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_ab7ce7c1b4c64af3"
+    },
+    "Sun Haven": {
+      "metrics": {
+        "dau": 1198,
+        "monthly_revenue": 315531,
+        "data_date": "2026-08-05",
+        "source": "DataBrain (sessionId=proj_ab7ce7c1b4c64af3)",
+        "platform": "pc"
+      },
+      "data_coverage": {
+        "metrics_fields": [
+          "dau",
+          "monthly_revenue"
+        ],
+        "metrics_status": "已覆盖",
+        "metrics_source": "DataBrain (sessionId=proj_ab7ce7c1b4c64af3)",
+        "next_source": ""
+      },
+      "databrain_url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_ab7ce7c1b4c64af3"
+    },
+    "代号：奇旅": {
+      "metrics": {},
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      }
+    },
+    "星布谷地": {
+      "metrics": {},
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      }
+    },
+    "粒粒的小人国": {
+      "metrics": {},
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      }
+    },
+    "Paralives": {
+      "metrics": {},
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      }
+    },
+    "Witchbrook": {
+      "metrics": {},
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      }
+    },
+    "朋友收集 梦想生活": {
+      "metrics": {},
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      }
+    },
+    "Starsand Island": {
+      "metrics": {},
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      }
+    },
+    "Spirit Crossing": {
+      "metrics": {},
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      }
+    },
+    "崩坏：因缘精灵": {
+      "metrics": {},
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      }
+    },
+    "王者万象棋": {
+      "metrics": {},
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      }
+    },
+    "舞力全开：派对": {
+      "metrics": {},
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      }
+    },
+    "山海奇旅": {
+      "metrics": {},
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      }
+    },
+    "蛋仔滑滑": {
+      "metrics": {},
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      }
+    },
+    "裂隙远征": {
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      }
+    },
+    "诡影藏锋": {
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      }
+    },
+    "BigWalk": {
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      }
+    },
+    "小冰冰斗蛐蛐": {
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/SteamDB/七麦（按平台匹配）"
+      }
+    },
+    "代号：Team2": {
+      "data_coverage": {
+        "metrics_fields": [],
+        "metrics_status": "当前未覆盖",
+        "metrics_source": "",
+        "next_source": "DataBrain/商店榜单（按平台匹配）"
+      }
+    }
+  }
+}

@@ -1,0 +1,148 @@
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+import { buildGameEntityIndex, normalizeEntityName } from "./weekly-refresh-lib.mjs";
+
+const siteRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+const publicRoot = path.join(siteRoot, "public");
+const OUT_OF_SCOPE_REASONS = new Map([
+  ["BanG Dream! Our Notes", "成熟IP音游不属本期重点品类。"],
+  ["Yumtopia", "典型二合游戏；餐厅题材与自动烹饪未改变合成订单核心循环，不纳入看板。"],
+  ["Yumtopia: Merge & Cook", "典型二合游戏；餐厅题材与自动烹饪未改变合成订单核心循环，不纳入看板。"],
+  ...["Block Craft 3D: Realm Builder", "Rap Star:Idle Clicker", "Sunday City: Life RolePlay", "Teacher Simulator: Exam Time", "House Cleaning: ASMR Makeover", "一针一线绣江南", "我要当老板", "深湾接单：旧车新生活", "星眠", "点点大冒险"]
+    .map((name) => [name, "本轮经编辑确认不纳入看板；保留筛选记录，不展示为新品候选。"]),
+].map(([name, reason]) => [normalizeEntityName(name), reason]));
+
+export function discoveryExclusionReason(name) {
+  return OUT_OF_SCOPE_REASONS.get(normalizeEntityName(String(name || ""))) || "";
+}
+const ALREADY_TRACKED_CANDIDATE_NAMES = new Set(["王者万象棋"]);
+
+function arg(name) {
+  const inline = process.argv.find((value) => value.startsWith(`${name}=`));
+  if (inline) return inline.slice(name.length + 1);
+  const index = process.argv.indexOf(name);
+  return index >= 0 ? process.argv[index + 1] : "";
+}
+
+function dateKey(value) {
+  const raw = String(value || "").trim();
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(raw)) return "";
+  const parsed = new Date(`${raw}T00:00:00Z`);
+  return Number.isNaN(parsed.getTime()) || parsed.toISOString().slice(0, 10) !== raw ? "" : raw;
+}
+
+function todayShanghai() {
+  return new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Shanghai", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
+}
+
+function strings(value) {
+  return (Array.isArray(value) ? value : value ? [value] : []).map((item) => String(item || "").trim()).filter(Boolean);
+}
+
+function validSourceUrl(value) {
+  try {
+    const url = new URL(String(value || ""));
+    return url.protocol === "https:" || url.protocol === "http:" ? url.href : "";
+  } catch { return ""; }
+}
+
+export function normalizeDiscovery(input, gamesDocument, options = {}) {
+  if (input?.source !== "youyansuo" || input.mode !== "mcp_read_only") throw new Error("输入必须是游研所 MCP 只读扫描结果。");
+  if (input.status !== "complete") throw new Error(`游研所扫描未完整成功：${input.status || "unknown"}`);
+  const scanDate = dateKey(input.scan_date);
+  if (!scanDate || (!options.allowHistorical && scanDate !== (options.today || todayShanghai()))) {
+    throw new Error(`游研所扫描日期不是今天：${scanDate || "missing"}`);
+  }
+  if (!input.tool_calls || typeof input.tool_calls !== "object" || !Number.isInteger(input.tool_calls.total) || input.tool_calls.total < 1) {
+    throw new Error("缺少本次 MCP 工具调用记录，不能确认扫描覆盖。");
+  }
+  if (!Array.isArray(input.candidates) || !Array.isArray(input.tracked_updates)) {
+    throw new Error("游研所扫描缺少候选或已跟踪动态数组。");
+  }
+  const entityIndex = buildGameEntityIndex(gamesDocument.games || []);
+  const aliases = new Map();
+  for (const entity of entityIndex.entities) {
+    for (const name of [entity.canonical, ...entity.queryNames]) {
+      const key = normalizeEntityName(name);
+      if (!aliases.has(key)) aliases.set(key, new Set());
+      aliases.get(key).add(entity.canonical);
+    }
+  }
+  const seen = new Set();
+  const normalize = (row, kind) => {
+    const rawName = String(row.name || "").trim();
+    if (discoveryExclusionReason(rawName) || row.scope_status === "out_of_scope" || (kind === "candidate" && ALREADY_TRACKED_CANDIDATE_NAMES.has(rawName))) return null;
+    const matches = aliases.get(normalizeEntityName(rawName)) || new Set();
+    const name = matches.size === 1 ? [...matches][0] : rawName;
+    if (discoveryExclusionReason(name)) return null;
+    const publishedDate = dateKey(row.published_date);
+    const sourceUrl = validSourceUrl(row.source_url);
+    if (!name || !publishedDate || !sourceUrl || publishedDate > scanDate || row.scope_status === "out_of_scope") return null;
+    const tracked = matches.size === 1;
+    const disposition = matches.size > 1 ? "身份冲突" : kind === "candidate" && tracked ? "已晋级" : kind === "tracked" && tracked ? "已跟踪" : "待人工核验";
+    const key = `${name}|${sourceUrl}`;
+    if (seen.has(key)) return null;
+    seen.add(key);
+    return {
+      name,
+      published_date: publishedDate,
+      event_date: dateKey(row.event_date) || null,
+      evidence_title: String(row.evidence_title || "").trim(),
+      source_url: sourceUrl,
+      summary: String(row.summary || "").trim(),
+      identity_status: matches.size > 1 ? "ambiguous_alias" : kind === "candidate" ? String(row.identity_status || (tracked ? "matched_tracked" : "unverified")) : tracked ? "matched_tracked" : String(row.identity_status || "unverified"),
+      scope_status: row.scope_status === "in_scope" ? "in_scope" : "uncertain",
+      scope_reason: String(row.scope_reason || "").trim(),
+      category: strings(row.category),
+      platform: strings(row.platform),
+      developer: String(row.developer || "").trim(),
+      publisher: String(row.publisher || "").trim(),
+      disposition,
+      metrics_status: "未接入 DataBrain",
+    };
+  };
+  const candidates = input.candidates.map((row) => normalize(row, "candidate")).filter(Boolean);
+  const trackedUpdates = input.tracked_updates.map((row) => normalize(row, "tracked")).filter(Boolean);
+  candidates.sort((a, b) => b.published_date.localeCompare(a.published_date));
+  trackedUpdates.sort((a, b) => b.published_date.localeCompare(a.published_date));
+  return {
+    meta: {
+      source: "youyansuo",
+      mode: "mcp_read_only",
+      scan_date: scanDate,
+      generated_at: new Date().toISOString(),
+      status: "imported",
+      candidates: candidates.length,
+      tracked_updates: trackedUpdates.length,
+      rejected_rows: input.candidates.length + input.tracked_updates.length - candidates.length - trackedUpdates.length,
+      tool_calls: input.tool_calls,
+      coverage_notes: input.coverage_notes || [],
+      excluded_rows: [...input.candidates, ...input.tracked_updates]
+        .filter((row) => discoveryExclusionReason(row.name) || row.scope_status === "out_of_scope")
+        .map((row) => ({ name: String(row.name || "").trim(), scope_status: "out_of_scope", scope_reason: discoveryExclusionReason(row.name) || String(row.scope_reason || "重点品类外产品，不进入游研所情报区。") })),
+      coverage_note: "游研所提供产品情报；报道日期不等于事件发生日期，缺失指标不由 MCP 填充。",
+    },
+    candidates,
+    tracked_updates: trackedUpdates,
+  };
+}
+
+function main() {
+  const inputName = arg("--input");
+  if (!inputName) throw new Error("必须显式提供 --input=<本次 MCP 扫描 JSON>。");
+  const inputPath = path.resolve(inputName);
+  const outputPath = path.resolve(arg("--output") || path.join(publicRoot, "youyansuo_discovery.json"));
+  const input = JSON.parse(fs.readFileSync(inputPath, "utf8"));
+  const games = JSON.parse(fs.readFileSync(path.join(publicRoot, "games.json"), "utf8"));
+  const bundle = normalizeDiscovery(input, games, { allowHistorical: process.argv.includes("--allow-historical") });
+  fs.mkdirSync(path.dirname(outputPath), { recursive: true });
+  const temporary = `${outputPath}.${process.pid}.tmp`;
+  fs.writeFileSync(temporary, `${JSON.stringify(bundle, null, 2)}\n`);
+  fs.renameSync(temporary, outputPath);
+  process.stdout.write(`${JSON.stringify({ output: outputPath, ...bundle.meta })}\n`);
+}
+
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  try { main(); } catch (error) { console.error(error instanceof Error ? error.message : error); process.exitCode = 1; }
+}

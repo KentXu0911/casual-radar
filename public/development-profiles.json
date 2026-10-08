@@ -1,0 +1,2005 @@
+{
+  "糖豆人": {
+    "company": "Epic Games（Mediatonic）",
+    "team": "Mediatonic《Fall Guys》开发团队",
+    "team_note": "Mediatonic 为主要开发工作室；当前具体项目组规模未公开",
+    "early_team_size": "由小规模原型团队逐步扩张；未见权威信源披露准确人数",
+    "producer": "Joe Walsh（首席游戏设计师）",
+    "development_cycle": "2018 年启动原型，2020-08 正式上线",
+    "prior_experience": "Mediatonic 长期从事多人休闲与跨平台游戏开发",
+    "confidence": "高置信度",
+    "sources": [
+      {
+        "label": "Game Developer｜Joe Walsh 访谈",
+        "url": "https://www.gamedeveloper.com/design/q-a-designing-for-seasons-in-bumbling-platform-royale-i-fall-guys-i-",
+        "note": "首席设计师、开发思路与上线后团队扩张"
+      },
+      {
+        "label": "PlayStation Blog｜幕后开发",
+        "url": "https://blog.playstation.com/2020/06/29/new-fall-guys-bts-video-enters-the-stumble-grounds/",
+        "note": "Mediatonic 团队与玩法研发过程"
+      }
+    ],
+    "coverage_level": "深度档案"
+  },
+  "蛋仔派对": {
+    "company": "网易",
+    "team": "网易《蛋仔派对》项目组",
+    "team_note": "具体事业部 / 工作室未见权威公开信源明确披露",
+    "early_team_size": "未披露具体人数；公测时为网易内部中等偏小规模",
+    "producer": "Kwan",
+    "development_cycle": "约 1 年半（截至 2022-05-27 公测）",
+    "prior_experience": "核心成员曾参与《河狸计划》，具备地图编辑器与 UGC 生态经验",
+    "confidence": "高置信度",
+    "sources": [
+      {
+        "label": "游戏日报｜制作人 Kwan 专访",
+        "url": "https://news.yxrb.net/202205/28229826.html",
+        "note": "制作人职责、团队方向与 UGC / 编辑器经验"
+      },
+      {
+        "label": "游戏日报专访（搜狐转载）",
+        "url": "https://www.sohu.com/a/552304023_118576",
+        "note": "团队规模口径与约一年半研发周期"
+      },
+      {
+        "label": "游戏葡萄｜制作人公开演讲",
+        "url": "https://www.sohu.com/a/686921035_204824",
+        "note": "核心成员的《河狸计划》与编辑器经验"
+      }
+    ],
+    "coverage_level": "深度档案"
+  },
+  "元梦之星": {
+    "company": "腾讯",
+    "team": "腾讯天美工作室群《元梦之星》项目组",
+    "team_note": "公开报道确认天美工作室群多团队协同；具体主责工作室与核心人数未统一披露",
+    "early_team_size": "未披露；媒体报道显示天美工作室群曾进行跨工作室协同",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "依托天美工作室群的移动游戏、派对玩法与 UGC 研发资源",
+    "confidence": "中置信度",
+    "sources": [
+      {
+        "label": "36氪｜腾讯、网易派对游戏研发调查",
+        "url": "https://www.36kr.com/p/2694531429559682",
+        "note": "天美工作室群协同参与的媒体调查口径"
+      }
+    ],
+    "coverage_level": "深度档案"
+  },
+  "Stumble Guys": {
+    "company": "Scopely",
+    "team": "Kitka Games（原始开发）／Scopely（现运营研发）",
+    "team_note": "Scopely 于 2022 年从芬兰 Kitka Games 收购该产品",
+    "early_team_size": "Kitka Games 公开称自身为小型工作室；具体人数未披露",
+    "producer": "Olli Lahtinen（Kitka Games 创始人）",
+    "development_cycle": "未公开",
+    "prior_experience": "原始团队擅长移动端社区驱动型产品，收购后接入 Scopely 长线运营能力",
+    "confidence": "高置信度",
+    "sources": [
+      {
+        "label": "Scopely｜官方收购公告",
+        "url": "https://www.scopely.com/en/news/welcome-stumble-guys-to-the-scopely-portfolio",
+        "note": "原始开发团队、收购关系与小型工作室口径"
+      }
+    ],
+    "coverage_level": "深度档案"
+  },
+  "猛兽派对": {
+    "company": "Source Technology",
+    "team": "Recreate Games《Party Animals》团队",
+    "team_note": "Recreate Games 为 Source Technology 旗下开发工作室",
+    "early_team_size": "初期为小型团队；未披露准确人数",
+    "producer": "罗子雄（Pumel）",
+    "development_cycle": "2018 年启动，2023 年上线",
+    "prior_experience": "团队以小组协作推进物理交互、多人联机与角色表现",
+    "confidence": "高置信度",
+    "sources": [
+      {
+        "label": "GameRes｜制作人罗子雄专访",
+        "url": "https://www.gameres.com/876218.html",
+        "note": "制作人、团队背景与产品研发思路"
+      },
+      {
+        "label": "MUSE｜Recreate Games 团队访谈",
+        "url": "https://muse.international/index/interview-with-recreate-games-for-party-animals/",
+        "note": "2018 年启动项目与团队协作口径"
+      }
+    ],
+    "coverage_level": "深度档案"
+  },
+  "Faaast Penguin": {
+    "company": "historia Inc.",
+    "team": "historia Inc.（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "Steam｜Faaast Penguin",
+        "url": "https://store.steampowered.com/app/2590150/Faaast_Penguin/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "索尼克大乱斗": {
+    "company": "SEGA",
+    "team": "SEGA（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "数据｜DataBrain 指标会话",
+        "url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_e8af48e0fb1047e8",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "荒野乱斗": {
+    "company": "Supercell",
+    "team": "Supercell（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "数据｜DataBrain 指标会话",
+        "url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_39dd81d47172478f",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "宝可梦大集结": {
+    "company": "TiMi Studio",
+    "team": "TiMi Studio（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "TiMi Studio Group｜Pokémon UNITE",
+        "url": "https://www.timistudios.com/games/pokemon-unite",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "T3 Arena": {
+    "company": "XD Entertainment",
+    "team": "XD Entertainment（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "XD｜About Us",
+        "url": "https://www.xd.com/about-us/?lang=en",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "SMASH LEGENDS": {
+    "company": "5minlab",
+    "team": "5minlab（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "Steam｜SMASH LEGENDS",
+        "url": "https://store.steampowered.com/app/1352080/SMASH_LEGENDS/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "Zooba": {
+    "company": "Wildlife Studios",
+    "team": "Wildlife Studios（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "Wildlife Studios｜Zooba",
+        "url": "https://wildlifestudios.com/games/zooba/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "FRAG Pro Shooter": {
+    "company": "Oh BiBi",
+    "team": "Oh BiBi（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "App Store｜FRAG Pro Shooter",
+        "url": "https://apps.apple.com/us/app/frag-pro-shooter/id1314391359",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "Among Us": {
+    "company": "InnerSloth",
+    "team": "InnerSloth《Among Us》团队",
+    "team_note": "初始版本由 Forest、Marcus 与后期加入美术支持的 Amy 完成",
+    "early_team_size": "3 人",
+    "producer": "Forest Willard / Marcus Bromander",
+    "development_cycle": "2018 年上线；2020 年初一度视为完成版本",
+    "prior_experience": "InnerSloth 曾开发《The Henry Stickmin Collection》",
+    "confidence": "高置信度",
+    "sources": [
+      {
+        "label": "InnerSloth｜官方 Press Kit",
+        "url": "https://www.innersloth.com/press-kit-among-us/",
+        "note": "初始三人团队、成员分工与产品历程"
+      }
+    ],
+    "coverage_level": "深度档案"
+  },
+  "鹅鸭杀": {
+    "company": "Gaggle Studios",
+    "team": "Gaggle Studios（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "数据｜DataBrain 指标会话",
+        "url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_726e9529ffc14a91",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "太空行动": {
+    "company": "巨人网络",
+    "team": "巨人网络（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "数据｜DataBrain 指标会话",
+        "url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_990b68093de64d81",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "Project Winter": {
+    "company": "Other Ocean",
+    "team": "Other Ocean（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "Steam｜Store & UI 大更新上线：商店自动化+全新界面",
+        "url": "https://store.steampowered.com/news/app/774861/view/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "First Class Trouble": {
+    "company": "Invisible Walls",
+    "team": "Invisible Walls（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "Steam｜Dev Log: 新地图「PLANETARIUM」公布",
+        "url": "https://store.steampowered.com/news/app/953880/view/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "Lockdown Protocol": {
+    "company": "Mirage Creative Lab",
+    "team": "Mirage Creative Lab（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "Steam｜夏季更新 1.6.0：夏季装饰+更多内容",
+        "url": "https://store.steampowered.com/news/app/2780980/view/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "第五人格": {
+    "company": "网易互娱",
+    "team": "JOKER 工作室《第五人格》项目组",
+    "team_note": "《第五人格》与同工作室其他项目分属独立项目组",
+    "early_team_size": "未公开",
+    "producer": "潘思来",
+    "development_cycle": "未公开",
+    "prior_experience": "JOKER 工作室长期负责风格化创新品类与非对称竞技产品",
+    "confidence": "中高置信度",
+    "sources": [
+      {
+        "label": "Wanuxi｜JOKER 工作室团队专访",
+        "url": "https://www.wanuxi.com/%E3%80%8A%E9%81%97%E5%BF%98%E4%B9%8B%E6%B5%B7%E3%80%8B%E5%88%B6%E4%BD%9C%E5%9B%A2%E9%98%9F%E4%B8%93%E8%AE%BF%EF%BC%9A%E4%B8%8D%E8%BF%BD%E9%80%90%E6%BD%AE%E6%B5%81%EF%BC%8C%E4%B9%9F%E4%B8%8D%E5%8F%8D/",
+        "note": "JOKER 工作室及独立项目组关系"
+      }
+    ],
+    "coverage_level": "深度档案"
+  },
+  "黎明杀机": {
+    "company": "Behaviour Interactive",
+    "team": "Behaviour Interactive（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "DataBrain / Alinea + Steam｜黎明杀机 数据页",
+        "url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_af848e57ff9c4e30",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "猫和老鼠": {
+    "company": "网易",
+    "team": "网易（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "数据｜DataBrain 指标会话",
+        "url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_990b68093de64d81",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "逃跑吧！少年": {
+    "company": "深圳市抱一网络科技有限公司",
+    "team": "深圳市抱一网络科技有限公司（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "App Store｜逃跑吧！少年",
+        "url": "https://apps.apple.com/cn/app/id1409592512",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "七龙珠：破界斗士": {
+    "company": "Dimps Corporation",
+    "team": "Dimps Corporation（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "Steam｜DRAGON BALL: THE BREAKERS",
+        "url": "https://store.steampowered.com/app/1276760/DRAGON_BALL_THE_BREAKERS/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "捉鬼敢死队：灵魂释放": {
+    "company": "IllFonic",
+    "team": "IllFonic（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "Steam 官方商店｜捉鬼敢死队：灵魂释放 数据页",
+        "url": "https://store.steampowered.com/app/2383990/Ghostbusters_Spirits_Unleashed_Ecto_Edition/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "皇室战争": {
+    "company": "Supercell",
+    "team": "Supercell（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "数据｜DataBrain 指标会话",
+        "url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_e78eda7c6dfa43c4",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "漫威终极逆转": {
+    "company": "Second Dinner",
+    "team": "Second Dinner《MARVEL SNAP》团队",
+    "team_note": "工作室由前 Blizzard《炉石传说》核心成员创立",
+    "early_team_size": "工作室由 2 人起步，产品上线时扩展为约 50 人规模",
+    "producer": "Ben Brode（联合创始人 / 首席开发官）",
+    "development_cycle": "未公开",
+    "prior_experience": "核心成员曾负责《炉石传说》的设计与研发",
+    "confidence": "高置信度",
+    "sources": [
+      {
+        "label": "GDC Vault｜MARVEL SNAP 上线复盘",
+        "url": "https://gdcvault.com/play/1029205/Launching-MARVEL-SNAP-on-Mobile",
+        "note": "从 2 人工作室到约 50 人上线团队的官方演讲"
+      }
+    ],
+    "coverage_level": "深度档案"
+  },
+  "Rush Royale": {
+    "company": "IT Territory（MY.GAMES）",
+    "team": "IT Territory（MY.GAMES）（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "MY.GAMES｜2021 Q1 业务资料",
+        "url": "https://corp.imgsmail.ru/media/files/1q21-marketing-pack.pdf",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "随机骰子": {
+    "company": "111%",
+    "team": "111%（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "App Store｜Random Dice: Defense",
+        "url": "https://apps.apple.com/us/app/random-dice-defense/id1462877149",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "云顶之弈": {
+    "company": "Riot Games",
+    "team": "Riot Games（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "数据｜DataBrain 指标会话",
+        "url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_39dd81d47172478f",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "金铲铲之战": {
+    "company": "腾讯",
+    "team": "腾讯光子工作室群《金铲铲之战》项目组（与拳头游戏合作）",
+    "team_note": "腾讯公开资料将《金铲铲之战》列为光子工作室群与拳头游戏合作项目；更细的内部工作室归属与团队人数未稳定公开",
+    "early_team_size": "未公开",
+    "producer": "Vigil Yang",
+    "development_cycle": "至少自 2019 年前后启动跨团队合作，2021-08 正式上线",
+    "prior_experience": "未见可靠公开信源披露同一项目组的完整前作清单",
+    "confidence": "高置信度",
+    "sources": [
+      {
+        "label": "腾讯云开发者社区｜光子 GDC 2024",
+        "url": "https://developer.cloud.tencent.com/news/1335917",
+        "note": "光子工作室群归属、制作人署名与拳头合作关系"
+      },
+      {
+        "label": "腾讯财报｜2021 年第三季度",
+        "url": "https://static.www.tencent.com/uploads/2021/11/10/d89fcf7a69f0dea47aff543fbe030e4d.pdf",
+        "note": "产品上线后的官方业务与玩法口径"
+      }
+    ],
+    "coverage_level": "深度档案"
+  },
+  "炉石传说：酒馆战棋": {
+    "company": "Blizzard Entertainment",
+    "team": "Blizzard Entertainment（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "Blizzard｜Introducing Hearthstone Battlegrounds",
+        "url": "https://news.blizzard.com/en-gb/article/23156373/introducing-hearthstone-battlegrounds",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "Super Auto Pets": {
+    "company": "Team Wood Games",
+    "team": "Team Wood Games（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "数据｜DataBrain 指标会话",
+        "url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_39dd81d47172478f",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "背包乱斗": {
+    "company": "PlayWithFurcifer",
+    "team": "PlayWithFurcifer（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "Steam｜Backpack Battles",
+        "url": "https://store.steampowered.com/app/2427700/Backpack_Battles/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "致命公司": {
+    "company": "Zeekerss",
+    "team": "Zeekerss 独立开发",
+    "team_note": "产品开发与发行均由 Zeekerss 个人主导",
+    "early_team_size": "1 人",
+    "producer": "Zeekerss",
+    "development_cycle": "未公开",
+    "prior_experience": "在《Lethal Company》前已持续开发多款 Roblox、itch.io 与独立恐怖游戏",
+    "confidence": "高置信度",
+    "sources": [
+      {
+        "label": "GamesRadar+｜Zeekerss 邮件专访",
+        "url": "https://www.gamesradar.com/games/horror/life-after-lethal-company-solo-creator-zeekerss-says-weirdly-not-a-lot-has-changed-after-one-of-the-biggest-indie-hits-in-recent-memory-and-he-still-has-a-good-handful-of-ideas-for-games/",
+        "note": "独立开发者身份与过往创作经历"
+      }
+    ],
+    "coverage_level": "深度档案"
+  },
+  "R.E.P.O.": {
+    "company": "semiwork",
+    "team": "semiwork（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "Steam｜开发团队6月Devlog：有新关卡在做了！",
+        "url": "https://store.steampowered.com/news/app/3241660/view/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "内容警告": {
+    "company": "Landfall",
+    "team": "Landfall（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "Steam｜跨平台更新：正式登陆PS5/Xbox/Switch + 跨平台联机",
+        "url": "https://store.steampowered.com/news/app/2881650/view/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "恐鬼症": {
+    "company": "Kinetic Games",
+    "team": "Kinetic Games（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "数据｜DataBrain 指标会话",
+        "url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_726e9529ffc14a91",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "超自然行动组": {
+    "company": "巨人网络",
+    "team": "NIGHT STUDIO《超自然行动组》团队",
+    "team_note": "由巨人网络内部年轻团队从《太空杀》经验延伸而来",
+    "early_team_size": "早期不足 10 人；测试岗位当时仅 1 人",
+    "producer": "王鑫宇（小孤单）",
+    "development_cycle": "未公开",
+    "prior_experience": "制作人曾负责《球球大作战》《太空杀》，团队熟悉大 DAU 休闲与社交产品",
+    "confidence": "高置信度",
+    "sources": [
+      {
+        "label": "TapTap｜制作人的信",
+        "url": "https://www.taptap.cn/group/805089/group-label/1989275?show_group_card=0",
+        "note": "早期不足 10 人、制作人身份与测试配置"
+      },
+      {
+        "label": "国信证券｜巨人网络研报",
+        "url": "https://pdf.dfcfw.com/pdf/H3_AP202601251818402960_1.pdf?1769378142000.pdf=",
+        "note": "NIGHT STUDIO、制作人履历与团队经验"
+      }
+    ],
+    "coverage_level": "深度档案"
+  },
+  "PEAK": {
+    "company": "Aggro Crab / Landfall Games",
+    "team": "Aggro Crab × Landfall Games 联合开发组",
+    "team_note": "Aggro Crab 3 人与 Landfall 4 人组成联合小组",
+    "early_team_size": "7 人",
+    "producer": "Nick Kaman（Aggro Crab Studio Head）",
+    "development_cycle": "约 1 个月完成初始开发",
+    "prior_experience": "成员来自《Another Crab’s Treasure》与《Content Warning》团队",
+    "confidence": "高置信度",
+    "sources": [
+      {
+        "label": "4Gamer｜GDC 2026 开发复盘",
+        "url": "https://www.4gamer.net/games/920/G092076/20260311040/",
+        "note": "7 人构成、联合开发关系与一个月周期"
+      }
+    ],
+    "coverage_level": "深度档案"
+  },
+  "Escape the Backrooms": {
+    "company": "Fancy Games",
+    "team": "Fancy Games（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "Steam｜主机版正式上线：PS5/Xbox/Game Pass同步首发",
+        "url": "https://store.steampowered.com/news/app/1943950/view/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "Murky Divers": {
+    "company": "Murky Divers Team",
+    "team": "Murky Divers Team（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "Steam｜主机版上线PS5/Xbox：支持8-16人跨平台联机",
+        "url": "https://store.steampowered.com/news/app/2428080/view/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "胡闹厨房2": {
+    "company": "Ghost Town Games",
+    "team": "Ghost Town Games（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "Nintendo｜Nintendo Switch 2 Edition上线：4K/60FPS + CameraPlay + GameShare",
+        "url": "https://store.steampowered.com/news/app/728880/view/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "PlateUp!": {
+    "company": "It's Happening",
+    "team": "It's Happening（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "Steam｜4周年更新「Turning Up The Heat」：Heat/Chill卡牌 + Fajitas新菜品",
+        "url": "https://store.steampowered.com/news/app/1599600/view/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "Pummel Party": {
+    "company": "Indie Heads",
+    "team": "Indie Heads（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "Steam｜v1.6.1更新：玩家上限提升至8人+20+新迷你游戏",
+        "url": "https://store.steampowered.com/news/app/880940/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "King of the Castle": {
+    "company": "Tributary Games",
+    "team": "Tributary Games（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "Steam｜King of the Castle",
+        "url": "https://store.steampowered.com/app/1839880/King_Of_The_Castle/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "Dale & Dawson Stationery Supplies": {
+    "company": "Striped Panda Studios",
+    "team": "Striped Panda Studios（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "Steam｜新地图「巴黎」上线 (v1.7.0)",
+        "url": "https://store.steampowered.com/news/app/2920570/view/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "星露谷物语": {
+    "company": "ConcernedApe",
+    "team": "Eric Barone（ConcernedApe）独立开发",
+    "team_note": "1.0 版本的程序、美术、音乐、设计与文本均由 Eric Barone 独立完成",
+    "early_team_size": "1 人",
+    "producer": "Eric Barone",
+    "development_cycle": "4.5 年",
+    "prior_experience": "《星露谷物语》是 Eric Barone 的首款商业游戏",
+    "confidence": "高置信度",
+    "sources": [
+      {
+        "label": "Stardew Valley｜官方 FAQ",
+        "url": "https://www.stardewvalley.net/faq/",
+        "note": "1 人独立开发与 4.5 年研发周期"
+      },
+      {
+        "label": "ConcernedApe｜官方关系说明",
+        "url": "https://www.stardewvalley.net/clarification-on-the-relationship-between-chucklefish-and-stardew-valley/",
+        "note": "确认 1.0 开发阶段由本人独立完成"
+      }
+    ],
+    "coverage_level": "深度档案"
+  },
+  "潜水员戴夫": {
+    "company": "Nexon（MINTROCKET）",
+    "team": "MINTROCKET《DAVE THE DIVER》团队",
+    "team_note": "MINTROCKET 为 Nexon 内部的小规模创新品牌，后续转向更独立的运营方式",
+    "early_team_size": "MINTROCKET 采用约 20–30 人小团队口径；未披露本项目精确人数",
+    "producer": "Hwang Jaeho（项目总监）",
+    "development_cycle": "未公开",
+    "prior_experience": "团队具备 2D 游戏与多类型系统融合经验，并由 Nexon 中央组织提供支持",
+    "confidence": "中高置信度",
+    "sources": [
+      {
+        "label": "4Gamer｜MINTROCKET 联合访谈",
+        "url": "https://www.4gamer.net/games/635/G063598/20221118052/",
+        "note": "20–30 人小团队口径、组织定位与项目负责人"
+      }
+    ],
+    "coverage_level": "深度档案"
+  },
+  "史莱姆牧场": {
+    "company": "Monomi Park",
+    "team": "Monomi Park（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "Steam｜Slime Rancher 2 v1.2 Radiant更新：彩虹史莱姆+光影重做",
+        "url": "https://store.steampowered.com/news/app/1657630/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "药剂工艺": {
+    "company": "niceplay games",
+    "team": "niceplay games（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "Steam｜Potion Craft",
+        "url": "https://store.steampowered.com/app/1210320/Potion_Craft_Alchemist_Simulator/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "沙石镇时光": {
+    "company": "Pathea Games",
+    "team": "Pathea Games（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "Steam｜v2.0.0「样板房」更新：全新住房系统+家具DIY工坊",
+        "url": "https://store.steampowered.com/news/app/1084600/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "珊瑚岛": {
+    "company": "Stairway Games",
+    "team": "Stairway Games（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "Steam｜v1.3 Ocean & Kisses更新：海底农场+14个浪漫CG+跨平台联机",
+        "url": "https://store.steampowered.com/news/app/1158160/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "WePlay": {
+    "company": "微派网络",
+    "team": "微派网络（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "数据｜DataBrain 指标会话",
+        "url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_efdc7ae2bfae419a",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "TopTop": {
+    "company": "TopTop",
+    "team": "TopTop（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "PR Newswire｜赤子城科技H1 2026营收超5.9亿美元：TopTop成GCC国民级应用",
+        "url": "https://www.prnasia.com/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "Pocket Champs": {
+    "company": "Madbox",
+    "team": "Madbox（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "Madbox｜Pocket Champs",
+        "url": "https://madbox.io/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "乐高派对": {
+    "company": "SMG Studio",
+    "team": "SMG Studio（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "Steam｜v1.6.0重大更新：公共大厅+4种新挑战区模式+Nintendo Switch 2 Edition",
+        "url": "https://store.steampowered.com/news/app/1969370/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "终极鸡马": {
+    "company": "Clever Endeavour Games",
+    "team": "Clever Endeavour Games（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "Steam｜Annifursary 10周年更新：狐狸+鸭嘴兽新角色+太空站新关卡",
+        "url": "https://store.steampowered.com/news/app/386940/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "Jackbox派对包": {
+    "company": "Jackbox Games",
+    "team": "Jackbox Games（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "数据｜DataBrain 指标会话",
+        "url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_c03fdbe96812446c",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "爆裂小队": {
+    "company": "Supercell",
+    "team": "Supercell（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "游戏研究所Pro｜爆了，曾经的全球NO.1手游公司自救成功！",
+        "url": "https://ai.xianjianwendao.com/kb/item/25244",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "死亡笔记：杀手同盟": {
+    "company": "Grounding Inc. (Bandai Namco)",
+    "team": "Grounding Inc. (Bandai Namco)（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "DataBrain / Alinea｜死亡笔记：杀手同盟 数据页",
+        "url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_f03584f717e942d5",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "Town of Salem 2": {
+    "company": "BlankMediaGames",
+    "team": "BlankMediaGames（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "Steam｜语音聊天模式正式上线！(R1.5.14)",
+        "url": "https://store.steampowered.com/news/app/2140510/view/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "Lucky Defense": {
+    "company": "111%",
+    "team": "111%（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "数据｜DataBrain 指标会话",
+        "url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_902a777a7b7c4fb0",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "Dinkum": {
+    "company": "James Bendon",
+    "team": "James Bendon（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "Steam｜Nintendo Switch 2版首发护航：包含所有PC版更新内容",
+        "url": "https://store.steampowered.com/news/app/1062520/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "Luma Island": {
+    "company": "Feel Free Games",
+    "team": "Feel Free Games（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "Steam｜Luma Island",
+        "url": "https://store.steampowered.com/app/2408820/Luma_Island/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "塔塔冒险队": {
+    "company": "莉莉丝",
+    "team": "莉莉丝（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "App Store · 莉莉丝官方版本记录｜塔塔冒险队",
+        "url": "https://apps.apple.com/cn/app/%E5%A1%94%E5%A1%94%E5%86%92%E9%99%A9%E9%98%9F/id6759896881",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "Epic Shaman Battle: 4P Defense": {
+    "company": "111%",
+    "team": "111%（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "数据｜DataBrain 指标会话",
+        "url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_cd086d8c135e4dce",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "Plinko Defense": {
+    "company": "Cypher Games",
+    "team": "Cypher Games（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "KChuhai/Enjoy出海｜Plinko×塔防创新融合：弹珠触发战斗+随机合成成长双核驱动",
+        "url": "https://m.kchuhai.com/report/view-66917.html",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "I Am Sword": {
+    "company": "Happy Lamb Pat",
+    "team": "Happy Lamb Pat（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "Google Play｜111%工作室新作：水墨风Roguelite手游全球上线",
+        "url": "https://play.google.com/store/apps/details?id=com.percent.aos.iamsword",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "Castle Clashers": {
+    "company": "Pinnacle",
+    "team": "Pinnacle（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "数据｜DataBrain 指标会话",
+        "url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_cd086d8c135e4dce",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "Cup Heroes": {
+    "company": "Voodoo",
+    "team": "Voodoo（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "数据｜DataBrain 指标会话",
+        "url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_cd086d8c135e4dce",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "Bag Fight": {
+    "company": "Voodoo",
+    "team": "Voodoo（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "Steam｜Bag Fight",
+        "url": "https://store.steampowered.com/app/4461770/Bag_Fight/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "幻兽帕鲁": {
+    "company": "Pocketpair",
+    "team": "Pocketpair（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "数据｜DataBrain 指标会话",
+        "url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_39f94642d51944bb",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "创世理想乡": {
+    "company": "Pocketpair",
+    "team": "Pocketpair（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "Steam｜Craftopia",
+        "url": "https://store.steampowered.com/app/1307550/Craftopia/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "方舟：生存进化": {
+    "company": "Studio Wildcard",
+    "team": "Studio Wildcard（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "数据｜DataBrain 指标会话",
+        "url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_39dd81d47172478f",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "七日世界": {
+    "company": "网易",
+    "team": "网易（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "数据｜DataBrain 指标会话",
+        "url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_39dd81d47172478f",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "灵动小镇": {
+    "company": "Kitka",
+    "team": "Kitka（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "数据｜DataBrain 指标会话",
+        "url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_3a6e7fe59ea64830",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "Smalland": {
+    "company": "Merge Games",
+    "team": "Merge Games（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "DataBrain / Alinea｜Smalland 数据页",
+        "url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_f03584f717e942d5",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "动物森友会": {
+    "company": "Nintendo",
+    "team": "Nintendo（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "数据｜DataBrain 指标会话",
+        "url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_3a6e7fe59ea64830",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "心动小镇": {
+    "company": "心动网络",
+    "team": "心动网络《心动小镇》项目组",
+    "team_note": "项目组之外另有公司技术支持部门直接参与研发",
+    "early_team_size": "核心项目组接近 100 人；加技术支持接近 150 人（2021 年采访口径）",
+    "producer": "许慕典",
+    "development_cycle": "至少自 2020 年前后持续研发，具体立项时间未公开",
+    "prior_experience": "核心成员包含《悠长假期》《元气小镇》及女性向产品研发人员，并有海外大厂与 3A 项目经历",
+    "confidence": "高置信度",
+    "sources": [
+      {
+        "label": "TapTap｜制作人许慕典专访",
+        "url": "https://www.taptap.cn/moment/169054745107893423",
+        "note": "团队规模、制作人、成员履历与技术支持配置"
+      },
+      {
+        "label": "GameRes｜心动研发体系调查",
+        "url": "https://www.gameres.com/879964.html",
+        "note": "核心主创配置与项目研发背景"
+      }
+    ],
+    "coverage_level": "深度档案"
+  },
+  "Palia": {
+    "company": "Singularity 6 (Daybreak)",
+    "team": "Singularity 6 (Daybreak)（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "数据｜DataBrain 指标会话",
+        "url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_ab7ce7c1b4c64af3",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "迪士尼梦幻星谷": {
+    "company": "Gameloft",
+    "team": "Gameloft（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "数据｜DataBrain 指标会话",
+        "url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_ab7ce7c1b4c64af3",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "Fields of Mistria": {
+    "company": "NPC Studio",
+    "team": "NPC Studio（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "Steam｜1.0正式版8月5日上线：婚姻系统+孩子+新Saturday Market NPC",
+        "url": "https://store.steampowered.com/news/app/2142790/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "Go-Go Town!": {
+    "company": "Prideful Sloth",
+    "team": "Prideful Sloth（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "Steam｜1.0正式版7月16日上线：Switch 2同步首发",
+        "url": "https://store.steampowered.com/news/app/2195120/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "Cozy Grove": {
+    "company": "Spry Fox",
+    "team": "Spry Fox（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "数据｜DataBrain 指标会话",
+        "url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_ab7ce7c1b4c64af3",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "Sun Haven": {
+    "company": "Pixel Sprout Studios",
+    "team": "Pixel Sprout Studios（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "数据｜DataBrain 指标会话",
+        "url": "https://databrain.woa.com/v2/agent/chat?sessionId=proj_ab7ce7c1b4c64af3",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "Paralives": {
+    "company": "Alex Massé (独立团队)",
+    "team": "Alex Massé (独立团队)（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "平台｜Steam商店页面",
+        "url": "https://store.steampowered.com/app/1118520/Paralives/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "Starsand Island": {
+    "company": "Seed Sparkle Lab",
+    "team": "Seed Sparkle Lab（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "视频｜Steam商店页（含IGN Gameplay Trailer）",
+        "url": "https://store.steampowered.com/app/2357960/Starsand_Island/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "王者万象棋": {
+    "company": "腾讯天美工作室群",
+    "team": "腾讯天美工作室群（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "17173｜王者万象棋定档9月公测 全网预约突破5000万",
+        "url": "https://news.17173.com/content/08082026/114432065.shtml",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "舞力全开：派对": {
+    "company": "腾讯 × 育碧",
+    "team": "腾讯游戏 × 育碧《舞力全开：派对》联合研发团队",
+    "team_note": "双方共同决定产品方向与核心玩法；育碧负责 IP 品质、技术实现、曲库与玩法拓展，腾讯负责中国市场运营、本地化、技术优化和平台适配；腾讯内部具体工作室未公开",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "五年多联合研发（2026 年开发团队采访口径）",
+    "prior_experience": "育碧《舞力全开》系列",
+    "confidence": "中高置信度",
+    "sources": [
+      {
+        "label": "3DM｜开发团队访谈",
+        "url": "https://www.3dmgame.com/original/3746224.html",
+        "note": "联合研发周期、双方分工与长线协作口径"
+      },
+      {
+        "label": "育碧中国｜官方产品介绍",
+        "url": "https://zh-cn.ubisoft.com/assassins_creed/news_detail?id=4236",
+        "note": "育碧官方确认产品与《舞力全开》IP归属"
+      }
+    ],
+    "coverage_level": "深度档案"
+  },
+  "BigWalk": {
+    "company": "House House",
+    "team": "House House《Big Walk》核心团队",
+    "team_note": "官方 credits 列出 House House 4 名核心成员，并单列环境美术、声音、移植、QA 与发行支持；不把外部支持人员并入核心研发人数",
+    "early_team_size": "核心 4 人；另有 1 名环境美术协作及专项外部支持",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "House House 曾开发《Untitled Goose Game》",
+    "confidence": "高置信度",
+    "sources": [
+      {
+        "label": "Big Walk｜官方 Credits",
+        "url": "https://bigwalk.game/credits/",
+        "note": "核心团队名单与专项协作分工"
+      },
+      {
+        "label": "Big Walk｜官方产品页",
+        "url": "https://walk.game/",
+        "note": "开发商 House House、发行商 Panic 与产品归属"
+      }
+    ],
+    "coverage_level": "深度档案"
+  },
+  "小冰冰斗蛐蛐": {
+    "company": "上海莉莉丝计算机技术有限公司",
+    "team": "上海莉莉丝计算机技术有限公司（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "17173｜《小冰冰传奇》我们做了个新小冰冰，8月10日开测",
+        "url": "https://news.17173.com/content/07162026/115649851.shtml",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "How to Fish": {
+    "company": "Dazed Games",
+    "team": "Dazed Games（瑞典哥德堡独立团队）",
+    "team_note": "两位创始人均有编程背景。Landfall 提供本项目投资，不持有 Dazed Games 股权；投资额及研发成本未公开。",
+    "early_team_size": "2 人核心团队（2026-03-02 团队访谈；不含外部支持）",
+    "producer": "联合创始人 Carl-Vilhelm Johansson、Melvin Olsson；未单独披露制作人职位",
+    "development_cycle": "2025 年 8 月启动新项目，2026-08-20 上线，约一年",
+    "prior_experience": "前作 Out of Hand，付费版于2025年夏季推出；随后转向 How to Fish。",
+    "confidence": "团队访谈核验",
+    "coverage_level": "深度档案",
+    "sources": [
+      {
+        "label": "Sweden Game Arena｜团队访谈",
+        "url": "https://swedengamearena.com/en/news/dazed-games-secures-project-investment-and-sets-sights-2026-launch/",
+        "note": "2026-03-02：人数、创始人、前作、研发起点及项目投资"
+      },
+      {
+        "label": "Steam｜How to Fish",
+        "url": "https://store.steampowered.com/app/4001890/How_to_Fish/",
+        "note": "开发发行主体及正式上线"
+      }
+    ]
+  },
+  "多多自走棋": {
+    "company": "Drodo Studio / 成都龙渊网络",
+    "team": "Drodo Studio / 成都龙渊网络（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "官方商店 / DataBrain｜多多自走棋 生命周期与产品信息核验",
+        "url": "https://store.steampowered.com/app/1530300/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "Mechabellum": {
+    "company": "Game River",
+    "team": "Game River（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "官方商店 / DataBrain｜Mechabellum 生命周期与产品信息核验",
+        "url": "https://store.steampowered.com/app/669330/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "The Bazaar": {
+    "company": "Tempo",
+    "team": "Tempo（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "官方商店 / DataBrain｜The Bazaar 生命周期与产品信息核验",
+        "url": "https://store.steampowered.com/app/1617400/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "Once Upon a Galaxy": {
+    "company": "Million Dreams Games",
+    "team": "Million Dreams Games（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "官方商店 / DataBrain｜Once Upon a Galaxy 生命周期与产品信息核验",
+        "url": "https://store.steampowered.com/app/3062740/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "Random Dice 2": {
+    "company": "111%",
+    "team": "111%（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "官方商店 / DataBrain｜Random Dice 2 生命周期与产品信息核验",
+        "url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_09f511f526504d2e",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "PICO PARK 2": {
+    "company": "TECOPARK / Gemdrops",
+    "team": "TECOPARK / Gemdrops（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "官方商店 / DataBrain｜PICO PARK 2 生命周期与产品信息核验",
+        "url": "https://store.steampowered.com/app/2644470/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "人类一败涂地": {
+    "company": "No Brakes Games",
+    "team": "No Brakes Games（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "官方商店 / DataBrain｜人类一败涂地 生命周期与产品信息核验",
+        "url": "https://store.steampowered.com/app/477160/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "Chained Together": {
+    "company": "Anegar Games",
+    "team": "Anegar Games（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "官方商店 / DataBrain｜Chained Together 生命周期与产品信息核验",
+        "url": "https://store.steampowered.com/app/2567870/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "Deceit 2": {
+    "company": "World Makers",
+    "team": "World Makers（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "官方商店 / DataBrain｜Deceit 2 生命周期与产品信息核验",
+        "url": "https://store.steampowered.com/app/2064870/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "The Outlast Trials": {
+    "company": "Red Barrels",
+    "team": "Red Barrels（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "官方商店 / DataBrain｜The Outlast Trials 生命周期与产品信息核验",
+        "url": "https://store.steampowered.com/app/1304930/",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "mo.co": {
+    "company": "Supercell",
+    "team": "Supercell（公开开发主体）",
+    "team_note": "当前信源仅确认产品与公开开发主体；具体项目组、工作室归属、负责人和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "数据｜DataBrain 漏项审查",
+        "url": "https://databrain.woa.com/v2/agent/chat?sessionId=skill_09f511f526504d2e",
+        "note": "用于核验产品与公开开发主体；不用于推断具体项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "闪耀吧！噜咪": {
+    "company": "未公开",
+    "team": "研发团队未公开",
+    "team_note": "当前信源仅确认产品与商店上架主体；实际研发主体、项目组和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "官方商店｜App Store 中国区：闪耀吧！噜咪",
+        "url": "https://apps.apple.com/cn/app/%E9%97%AA%E8%80%80%E5%90%A7-%E5%99%9C%E5%92%AA/id6754912970",
+        "note": "仅用于核验产品与商店上架主体；不用于推断实际研发主体、项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "BanG Dream! Our Notes": {
+    "company": "未公开",
+    "team": "研发团队未公开",
+    "team_note": "当前信源仅确认产品与商店上架主体；实际研发主体、项目组和团队规模未见可靠公开披露",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "基础归属",
+    "coverage_level": "基础归属",
+    "sources": [
+      {
+        "label": "官方商店｜App Store 美国区：BanG Dream! Our Notes",
+        "url": "https://apps.apple.com/us/app/bang-dream-our-notes/id6757695187",
+        "note": "仅用于核验产品与商店上架主体；不用于推断实际研发主体、项目组、人数、负责人或研发周期"
+      }
+    ]
+  },
+  "Dressmaker": {
+    "company": "Cozy Lives",
+    "team": "Cozy Lives",
+    "team_note": "Steam 确认开发商与发行商；三人核心团队及原型经历来自 GameLook 报道。",
+    "early_team_size": "3 人核心团队（媒体报道）",
+    "producer": "未公开",
+    "development_cycle": "私人原型扩展为商业产品；2026-09-21 Steam 发售",
+    "prior_experience": "未公开；待补充可核验的同团队履历",
+    "confidence": "官方主体与媒体团队口径",
+    "coverage_level": "深度档案",
+    "sources": [
+      {
+        "label": "Steam 官方",
+        "url": "https://store.steampowered.com/app/4019220/",
+        "note": "开发/发行主体 · 发售日期"
+      },
+      {
+        "label": "游研所收录公众号",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzQwMjI4MA==&mid=2657337073&idx=4&sn=f854af03628a1d1426f3424f5f235665&chksm=bcf4eef26c909665b0210b08ac4157752dd1418b04c0338dc9c0a5f4ec37b8ec018f51f60208&scene=126&sessionid=0#rd",
+        "note": "团队规模与原型经历为媒体报道口径，非官方人数"
+      }
+    ]
+  },
+  "Aniimo": {
+    "company": "Pawprint Studio",
+    "team": "Pawprint Studio（公开开发主体）",
+    "early_team_size": "未公开",
+    "producer": "未公开",
+    "development_cycle": "未公开",
+    "prior_experience": "未公开",
+    "coverage_level": "基础归属",
+    "confidence": "基础归属",
+    "sources": [
+      {
+        "label": "伊莫官方",
+        "url": "https://www.aniimo.com/newslist/detail/100147",
+        "note": "官方产品及上线公告用于核验公开主体与平台；不用于推断具体团队人数、负责人或研发周期。"
+      }
+    ]
+  }
+}
