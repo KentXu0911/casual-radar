@@ -1,29 +1,34 @@
 {
   "checked_at": "2026-10-10",
-  "scope": "daily",
+  "scope": "intelligence",
   "status": "complete",
   "modules": {
-    "metrics": {
+    "intelligence": {
+      "required": true,
+      "status": "passed"
+    },
+    "editorial": {
       "required": true,
       "status": "passed",
-      "checked_at": "2026-10-09"
+      "checked_at": "2026-10-10",
+      "notes": "近3天游研所完整分页与重点品类/在研产品精确检索已复核；既有排除决定保留，未确认线索不公开，媒体必做队列为空。"
     },
     "identity": {
-      "required": false,
+      "required": true,
       "status": "passed"
     },
     "lifecycle": {
-      "required": false,
+      "required": true,
       "status": "passed"
     },
     "media": {
-      "required": false,
+      "required": true,
       "status": "passed",
       "pending_changes": 0,
       "historical_backlog": 49
     },
     "views": {
-      "required": false,
+      "required": true,
       "status": "passed"
     },
     "content": {
@@ -35,7 +40,7 @@
   "historical_media_backlog": 49,
   "historical_media_status": "pending",
   "dates": {
-    "intelligence": "2026-10-08",
+    "intelligence": "2026-10-10",
     "metrics": "2026-10-09",
     "lifecycle": "2026-10-08"
   }

@@ -2,41 +2,517 @@
   "meta": {
     "source": "youyansuo",
     "mode": "mcp_read_only",
-    "scan_date": "2026-10-08",
-    "generated_at": "2026-10-08T09:43:41.171Z",
+    "scan_date": "2026-10-10",
+    "generated_at": "2026-10-10T02:48:08.141Z",
     "status": "imported",
     "candidates": 2,
     "tracked_updates": 12,
-    "rejected_rows": 0,
-    "pending_candidates": 7,
+    "rejected_rows": 1,
+    "pending_candidates": 1,
     "candidate_publication_policy": "editorial_approval_required",
     "tool_calls": {
-      "total": 124,
+      "total": 74,
       "failed": 0,
-      "search_articles": 16,
-      "get_article": 97,
-      "search_games": 11
+      "search_articles": {
+        "calls": 53,
+        "notes": "含前置页数探测、复核重跑与完整分页；所有调用成功"
+      },
+      "get_article": {
+        "calls": 12
+      },
+      "search_games": {
+        "calls": 7
+      },
+      "get_game": {
+        "calls": 2
+      }
     },
     "coverage_notes": {
       "queries": [
         {
-          "since": "2026-09-24",
-          "until": "2026-10-09",
+          "type": "all_articles",
+          "q": "",
+          "since": "2026-10-07T00:00:00+08:00",
+          "until": "2026-10-11T00:00:00+08:00",
           "status": "success",
-          "expected_pages": 6,
-          "fetched_pages": 6,
-          "articles": 518
+          "expected_pages": 2,
+          "fetched_pages": 2,
+          "articles": 124,
+          "request_attempts": 5,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 100,
+              "total": 124,
+              "pages": 2
+            },
+            {
+              "page": 2,
+              "page_size": 100,
+              "count": 24,
+              "total": 124,
+              "pages": 2
+            }
+          ]
         },
         {
-          "since": "2026-09-08",
-          "until": "2026-09-24",
+          "type": "category_keyword",
+          "q": "模拟经营",
           "status": "success",
-          "expected_pages": 10,
-          "fetched_pages": 10,
-          "articles": 909
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 14,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 14,
+              "total": 14,
+              "pages": 1
+            }
+          ]
+        },
+        {
+          "type": "category_keyword",
+          "q": "自走棋",
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 2,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 2,
+              "total": 2,
+              "pages": 1
+            }
+          ]
+        },
+        {
+          "type": "category_keyword",
+          "q": "捉宠",
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 0,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 0,
+              "total": 0,
+              "pages": 1
+            }
+          ]
+        },
+        {
+          "type": "category_keyword",
+          "q": "多人合作",
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 0,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 0,
+              "total": 0,
+              "pages": 1
+            }
+          ]
+        },
+        {
+          "type": "category_keyword",
+          "q": "MOBA",
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 4,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 4,
+              "total": 4,
+              "pages": 1
+            }
+          ]
+        },
+        {
+          "type": "tracked_exact_name",
+          "q": "Project63",
+          "aliases": [],
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 0,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 0,
+              "total": 0,
+              "pages": 1
+            }
+          ]
+        },
+        {
+          "type": "tracked_exact_name",
+          "q": "Dear Passengers",
+          "aliases": [],
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 0,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 0,
+              "total": 0,
+              "pages": 1
+            }
+          ]
+        },
+        {
+          "type": "tracked_exact_name",
+          "q": "mo.co",
+          "aliases": [],
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 0,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 0,
+              "total": 0,
+              "pages": 1
+            }
+          ]
+        },
+        {
+          "type": "tracked_exact_name",
+          "q": "奇遇动物城",
+          "aliases": [],
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 0,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 0,
+              "total": 0,
+              "pages": 1
+            }
+          ]
+        },
+        {
+          "type": "tracked_exact_name",
+          "q": "粒粒的小人国",
+          "aliases": [],
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 1,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 1,
+              "total": 1,
+              "pages": 1
+            }
+          ]
+        },
+        {
+          "type": "tracked_exact_name",
+          "q": "星布谷地",
+          "aliases": [],
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 5,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 5,
+              "total": 5,
+              "pages": 1
+            }
+          ]
+        },
+        {
+          "type": "tracked_exact_name",
+          "q": "未眠野",
+          "aliases": [],
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 0,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 0,
+              "total": 0,
+              "pages": 1
+            }
+          ]
+        },
+        {
+          "type": "tracked_exact_name",
+          "q": "火人冲冲冲",
+          "aliases": [],
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 0,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 0,
+              "total": 0,
+              "pages": 1
+            }
+          ]
+        },
+        {
+          "type": "tracked_exact_name",
+          "q": "塔塔冒险队",
+          "aliases": [],
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 4,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 4,
+              "total": 4,
+              "pages": 1
+            }
+          ]
+        },
+        {
+          "type": "tracked_exact_name",
+          "q": "源初之结",
+          "aliases": [],
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 3,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 3,
+              "total": 3,
+              "pages": 1
+            }
+          ]
+        },
+        {
+          "type": "tracked_exact_name",
+          "q": "蓝色星原：旅谣",
+          "aliases": [],
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 1,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 1,
+              "total": 1,
+              "pages": 1
+            }
+          ]
+        },
+        {
+          "type": "tracked_exact_name",
+          "q": "Dressmaker",
+          "aliases": [],
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 0,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 0,
+              "total": 0,
+              "pages": 1
+            }
+          ]
+        },
+        {
+          "type": "tracked_exact_name",
+          "q": "崩坏：因缘精灵",
+          "aliases": [],
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 1,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 1,
+              "total": 1,
+              "pages": 1
+            }
+          ]
+        },
+        {
+          "type": "tracked_exact_name",
+          "q": "Aniimo",
+          "aliases": [],
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 0,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 0,
+              "total": 0,
+              "pages": 1
+            }
+          ]
+        },
+        {
+          "type": "tracked_exact_name",
+          "q": "王者万象棋",
+          "aliases": [],
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 2,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 2,
+              "total": 2,
+              "pages": 1
+            }
+          ]
+        },
+        {
+          "type": "tracked_exact_name",
+          "q": "时之铃",
+          "aliases": [],
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 0,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 0,
+              "total": 0,
+              "pages": 1
+            }
+          ]
+        },
+        {
+          "type": "tracked_exact_name",
+          "q": "灵动小镇",
+          "aliases": [],
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 0,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 0,
+              "total": 0,
+              "pages": 1
+            }
+          ]
+        },
+        {
+          "type": "tracked_exact_name",
+          "q": "闪耀吧！噜咪",
+          "aliases": [],
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 3,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 3,
+              "total": 3,
+              "pages": 1
+            }
+          ]
+        },
+        {
+          "type": "tracked_exact_name",
+          "q": "代号：Team2",
+          "aliases": [],
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 0,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 0,
+              "total": 0,
+              "pages": 1
+            }
+          ]
         }
       ],
-      "scope": "近30天文章全分页扫描，97篇重点文章详读，11次身份检索；未覆盖MCP全平台榜单。候选均待核验，不自动入主池。"
+      "scope": "北京时间最近3天全量文章完整分页，叠加5个重点品类关键词和19个重点在研产品精确检索；新增线索经search_games/get_game交叉核验。未核验线索仅留私有输入，不自动公开。",
+      "dedupe_baseline": {
+        "scan_date": "2026-10-08",
+        "candidates": [
+          "Project63",
+          "Dear Passengers"
+        ],
+        "tracked_updates": [
+          "星布谷地",
+          "Project63",
+          "粒粒的小人国",
+          "Dressmaker",
+          "塔塔冒险队",
+          "Dear Passengers",
+          "火人冲冲冲",
+          "mo.co",
+          "奇遇动物城",
+          "未眠野",
+          "源初之结",
+          "蓝色星原：旅谣"
+        ]
+      },
+      "editorial_notes": [
+        "一针一线绣江南与星眠命中既有exclude决定，未重新入池。",
+        "Project63与Dear Passengers仅作为上次已核验基线保留，不视为永久白名单；本轮精确文章检索均为0。",
+        "星布谷地报道仅回顾2026-09-20旧测试，未将报道日期改写为开测日。",
+        "Plants on Fire属塔防/策略/合成，隔离为重点品类外。",
+        "Lord of Isles身份与核心循环不足，且可能为传统SLG，仅私有待审。"
+      ]
     },
     "excluded_rows": [
       {
@@ -174,6 +650,11 @@
         "source": "既有看板候选去重规则",
         "reviewed_at": "2026-10-08",
         "evidence_url": null
+      },
+      {
+        "name": "Plants on Fire",
+        "scope_status": "out_of_scope",
+        "scope_reason": "核心循环为塔防、卡组与合成对冲，不属于本轮重点模拟经营、自走棋、捉宠、多人合作或轻度MOBA。"
       }
     ],
     "coverage_note": "游研所提供产品情报；报道日期不等于事件发生日期，缺失指标不由 MCP 填充。"
