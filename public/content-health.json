@@ -1,37 +1,29 @@
 {
-  "checked_at": "2026-10-08",
-  "scope": "manual",
+  "checked_at": "2026-10-10",
+  "scope": "daily",
   "status": "complete",
   "modules": {
-    "editorial": {
+    "metrics": {
       "required": true,
       "status": "passed",
-      "checked_at": "2026-10-08",
-      "curated_product_updates": 12,
-      "quarantined_source_records": 170
-    },
-    "evidence": {
-      "required": true,
-      "status": "passed",
-      "checked_at": "2026-10-08T09:21:34.466Z",
-      "notes": "Resolved original citations, rejected unavailable/placeholder URLs, homonyms and homepage-only event dates."
+      "checked_at": "2026-10-09"
     },
     "identity": {
-      "required": true,
+      "required": false,
       "status": "passed"
     },
     "lifecycle": {
-      "required": true,
+      "required": false,
       "status": "passed"
     },
     "media": {
-      "required": true,
+      "required": false,
       "status": "passed",
       "pending_changes": 0,
       "historical_backlog": 49
     },
     "views": {
-      "required": true,
+      "required": false,
       "status": "passed"
     },
     "content": {
@@ -44,7 +36,7 @@
   "historical_media_status": "pending",
   "dates": {
     "intelligence": "2026-10-08",
-    "metrics": "2026-10-07",
+    "metrics": "2026-10-09",
     "lifecycle": "2026-10-08"
   }
 }

@@ -112,6 +112,11 @@ test("partial metric returns distinguish refreshed, retained and unavailable pro
   } finally { s.remove(); }
 });
 
+test("daily refresh merges partial metric returns with the previous snapshot", () => {
+  const source = fs.readFileSync(new URL("../scripts/daily-refresh.mjs", import.meta.url), "utf8");
+  assert.match(source, /build-latest-databrain\.mjs"\s*,\s*"--metrics-only"\s*,\s*"--merge"/);
+});
+
 test("publication preparation blocks fabricated event citations even outside pipeline details", () => {
   const s = sandbox();
   try {

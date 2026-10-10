@@ -75,7 +75,7 @@ function main() {
   try {
     run("保存整批内容基线", process.execPath, ["scripts/content-workflow.mjs", "begin", "--cadence=daily"]); began = true;
     run("刷新最近42天 DataBrain 指标", process.execPath, ["scripts/fetch-databrain-trends.mjs", `--start=${fetchRange.start}`, `--end=${fetchRange.end}`, "--window-days=42", `--output-root=${path.join(stageRoot, "outputs")}`]);
-    run("生成当前指标快照", process.execPath, ["scripts/build-latest-databrain.mjs", "--metrics-only", `--output-root=${path.join(stageRoot, "outputs")}`, `--bi-root=${path.join(stageRoot, "bi_data")}`]);
+    run("生成当前指标快照", process.execPath, ["scripts/build-latest-databrain.mjs", "--metrics-only", "--merge", `--output-root=${path.join(stageRoot, "outputs")}`, `--bi-root=${path.join(stageRoot, "bi_data")}`]);
     const after = snapshotSummary(publicRoot);
     const errors = validateDailyRefresh(before, after, fetchRange);
     if (errors.length) throw new Error(`安全校验未通过：${errors.join("；")}`);
