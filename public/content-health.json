@@ -1,24 +1,29 @@
 {
   "checked_at": "2026-10-12",
-  "scope": "manual",
+  "scope": "daily",
   "status": "complete",
   "modules": {
-    "identity": {
+    "metrics": {
       "required": true,
+      "status": "passed",
+      "checked_at": "2026-10-11"
+    },
+    "identity": {
+      "required": false,
       "status": "passed"
     },
     "lifecycle": {
-      "required": true,
+      "required": false,
       "status": "passed"
     },
     "media": {
-      "required": true,
+      "required": false,
       "status": "passed",
       "pending_changes": 0,
       "historical_backlog": 49
     },
     "views": {
-      "required": true,
+      "required": false,
       "status": "passed"
     },
     "content": {
@@ -31,7 +36,7 @@
   "historical_media_status": "pending",
   "dates": {
     "intelligence": "2026-10-10",
-    "metrics": "2026-10-09",
+    "metrics": "2026-10-11",
     "lifecycle": "2026-10-08"
   }
 }
