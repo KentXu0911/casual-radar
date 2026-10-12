@@ -13,7 +13,7 @@ GitHub 同步、推送及发布期间的 Actions API 查询最多尝试四次，
 - 轻量情报：`npm run data:intelligence -- --youyansuo-input=/absolute/path/scan.json`。仅更新新品线索和已跟踪开发动态。
 - 月审：`npm run content:begin -- --cadence=monthly`，随后 `npm run content:audit -- --cadence=monthly`，处理全部历史待办。
 
-前三种采集器会先创建完整 public 基线；采集失败恢复整批内容。采集完成是 ready_for_review，仍需编辑验收。若授权来源在 CLI 运行前已经失败，执行 `content:begin`，用下面的模块文件记录来源 blocked，再 finalize 生成失败回执；不留用上次成功报告。来源临时输入和原始响应只放忽略目录或系统临时目录。
+前三种采集器在开始改写 public 时创建完整基线；采集失败恢复整批内容。采集完成是 ready_for_review，仍需编辑验收。授权来源和外部扫描必须在 `content:begin` 之前完成并保存到忽略目录；若来源在 CLI 运行前失败，不得建立内容批次或改写 public，改用 `npm run content:source-status -- --cadence=<cadence> --source=<module> --status=<blocked|failed> --reason='<真实错误>'` 写入本轮失败回执。来源恢复后的补跑重新执行 preflight，因没有活动内容 owner 会得到 `start`，继续真实采集；不得复用旧扫描冒充本轮成功。来源临时输入和原始响应只放忽略目录或系统临时目录。
 
 已核验内容通过产品与节点 ID 关联。候选区不等于主池；新入池需核心循环、品类、产品身份、平台和可追溯官方证据。开发商、发行商分别填写，不凭同名或文章标题推断主体。既有人工核验字段不能被生成快照覆盖；明确修订直接编辑并记录理由。改变节点标题/URL/日期时保留原 milestone_id。未知事件日期保留 null，视频 date 是上传日，milestone_date 才是已确认事件日。
 
@@ -23,7 +23,7 @@ GitHub 同步、推送及发布期间的 Actions API 查询最多尝试四次，
 
 DataBrain 请求显式传递本次 `date_time`。HTTP 失败、日期拒绝、两次空表不能标记为完整扫描。原始事件响应保存在忽略目录 `.automation/databrain-events/`；公开指标的 `meta.refresh_coverage` 区分本轮返回、旧快照保留和未返回指标。
 
-事件/研究查询最多并发 3 批，结果按原批次顺序归并。完整周更仍要求全部批次成功。来源失败时保留失败报告并回滚 public，不允许拿部分扫描声明完整成功。
+事件/研究查询最多并发 3 批，结果按原批次顺序归并。批次响应缺少产品覆盖状态时自动二分，直到单产品严格重试；每款产品记录 complete、no_results 或 failed，只有显式 no_results 才视为成功空结果。原始响应逐次落盘，补跑优先复用当天、查询文本完全一致且可解析的检查点。完整周更仍要求全部产品成功。来源失败时保留失败报告并回滚 public，不允许拿部分扫描声明完整成功。
 
 若同日指标已成功、后续阶段失败，可以保留完整原始 outputs，再以 `--metrics-checkpoint=/absolute/path/outputs` 重跑周更。检查点必须是当天、相同104天请求区间、相同产品清单、全部批次完整且响应 session 与 manifest 一致。它恢复本次已完成采集；`--reuse-metrics` 沿用旧数据，仍不能通过周更指标完成门槛。
 

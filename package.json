@@ -35,6 +35,7 @@
     "content:finalize": "node scripts/content-workflow.mjs finalize",
     "content:audit": "node scripts/content-workflow.mjs audit",
     "content:abort": "node scripts/content-workflow.mjs abort",
+    "content:source-status": "node scripts/record-source-status.mjs",
     "content:prepare": "node scripts/content-workflow.mjs prepare",
     "release:manifest": "node scripts/prepare-release.mjs",
     "prebuild": "npm run content:prepare && npm run release:manifest",

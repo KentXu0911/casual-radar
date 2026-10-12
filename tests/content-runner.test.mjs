@@ -42,6 +42,21 @@ test("required source missing writes fresh failed report without touching public
     }
   } finally { s.remove(); }
 });
+test("source preflight failure writes a retryable report without creating a content baseline", () => {
+  const s = sandbox();
+  try {
+    const file = path.join(s.root, "public/dashboard_data.json"), original = fs.readFileSync(file, "utf8");
+    const result = s.invoke("record-source-status.mjs", "--cadence=weekly", "--source=intelligence", "--status=blocked", "--reason=OAuth authorization required");
+    assert.equal(result.status, 0, result.stderr);
+    const report = JSON.parse(fs.readFileSync(path.join(s.root, "reports/weekly-refresh-latest.json")));
+    assert.equal(report.phase, "source_preflight");
+    assert.equal(report.status, "blocked");
+    assert.equal(report.modules.intelligence.status, "blocked");
+    assert.equal(report.publication.status, "not_started");
+    assert.equal(fs.existsSync(path.join(s.root, ".automation/content-runs/active/owner.json")), false);
+    assert.equal(fs.readFileSync(file, "utf8"), original);
+  } finally { s.remove(); }
+});
 test("a missing weekly discovery input can never pass finalize", () => {
   const s = sandbox();
   try {

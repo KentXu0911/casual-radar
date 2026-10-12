@@ -309,7 +309,67 @@ export function queryText(games, aliasesByCanonical, start, end, maxPerGame) {
     const aliases = (aliasesByCanonical.get(canonical) || []).filter((name) => name.toLocaleLowerCase() !== canonical.toLocaleLowerCase());
     return aliases.length ? `${canonical}（别名：${aliases.join("、")}）` : canonical;
   });
-  return `请只处理以下游戏实体，主名称和括号内别名都必须逐一检索，但同一内容不要重复：${entities.join("；")}。扫描 DataBrain 内部游戏库、GRP 报告库、游戏研究所Pro、微信公众号资料库与官方渠道，查询 ${start} 至 ${end} 发布的产品相关内容。覆盖两类记录：1）record_type=event：版本更新、赛季切换、活动、联动、测试、定档、上线、发售或促销，event_date 必须是实际发生日期；2）record_type=research：产品分析、测试报告、研发团队、市场表现、预约、口碑与玩法研究，可没有 event_date，但必须有 published_date。每个游戏最多 ${maxPerGame} 条，优先返回公众号库、游戏研究所Pro、GRP 与官方新内容。只输出一张 Markdown 表格，不要解释。表头固定为 game_name | record_type | event_date | published_date | title | summary | source | url | date_meaning。game_name 保留命中资料使用的原始名称；title、summary 或 url 中必须明确出现主名称或至少一个别名，summary 中应补全产品名称；published_date 必须是消息、文章或报告发布日期。无法确认产品身份或发布日期的内容不要输出。不要引用 APK 下载站、账号交易平台、攻略站或无法追溯原始内容的聚合页。不要输出纯 DAU 数字或泛行业新闻。`;
+  return `请只处理以下游戏实体，主名称和括号内别名都必须逐一检索，但同一内容不要重复：${entities.join("；")}。扫描 DataBrain 内部游戏库、GRP 报告库、游戏研究所Pro、微信公众号资料库与官方渠道，查询 ${start} 至 ${end} 发布的产品相关内容。覆盖两类记录：1）record_type=event：版本更新、赛季切换、活动、联动、测试、定档、上线、发售或促销，event_date 必须是实际发生日期；2）record_type=research：产品分析、测试报告、研发团队、市场表现、预约、口碑与玩法研究，可没有 event_date，但必须有 published_date。每个游戏最多 ${maxPerGame} 条，优先返回公众号库、游戏研究所Pro、GRP 与官方新内容。只输出一张 Markdown 表格，不要解释。表头固定为 game_name | record_type | event_date | published_date | title | summary | source | url | date_meaning | coverage_status。game_name 保留命中资料使用的原始名称；有有效记录时 coverage_status 填 complete，title、summary 或 url 中必须明确出现主名称或至少一个别名，summary 中应补全产品名称；published_date 必须是消息、文章或报告发布日期。每个请求的游戏都必须至少出现一行；真实检索后没有符合条件的记录时，输出该游戏一行 record_type=no_results、title=NO_RESULTS、date_meaning=无结果、coverage_status=no_results，日期和 url 留空。无法确认产品身份或发布日期的内容不要输出为有效记录。不要引用 APK 下载站、账号交易平台、攻略站或无法追溯原始内容的聚合页。不要输出纯 DAU 数字或泛行业新闻。`;
+}
+
+export function isNoResultsRow(row) {
+  return /^(?:no[_ -]?results?|no[_ -]?match|none|无结果)$/i.test(text(row.coverage_status || row.coverageStatus || row.record_type || row.recordType || row.title));
+}
+
+export function batchCoverage(rows, games, entityIndex) {
+  const requested = new Set(games);
+  const statuses = Object.fromEntries(games.map((game) => [game, "missing"]));
+  for (const row of rows) {
+    const game = canonicalGameName(row.game_name || row.gameName || row.game || row.product || row.name, entityIndex);
+    if (!requested.has(game)) continue;
+    if (!isNoResultsRow(row)) statuses[game] = "complete";
+    else if (statuses[game] === "missing") statuses[game] = "no_results";
+  }
+  return {
+    statuses,
+    missing: games.filter((game) => statuses[game] === "missing"),
+  };
+}
+
+export function splitBatchForRetry(games) {
+  if (games.length <= 1) return [games];
+  const middle = Math.ceil(games.length / 2);
+  return [games.slice(0, middle), games.slice(middle)].filter((batch) => batch.length);
+}
+
+export async function resolveBatchCoverage(games, initialResult, request, entityIndex) {
+  const attempts = [];
+  const failures = [];
+  const statuses = Object.fromEntries(games.map((game) => [game, "missing"]));
+
+  const visit = async (batch, suppliedResult = null, strict = false) => {
+    let result;
+    try {
+      result = suppliedResult || await request(batch, { strict });
+    } catch (error) {
+      const message = error instanceof Error ? error.message : String(error);
+      failures.push({ games: batch, error: message });
+      for (const game of batch) statuses[game] = "failed";
+      return;
+    }
+    const parsed = parseResponseRows(result.markdown, result.structured);
+    const coverage = batchCoverage(parsed, batch, entityIndex);
+    attempts.push({ games: batch, result, parsed, strict, missing_games: coverage.missing });
+    for (const [game, status] of Object.entries(coverage.statuses)) {
+      if (status === "complete" || (status === "no_results" && statuses[game] !== "complete")) statuses[game] = status;
+    }
+    if (!coverage.missing.length) return;
+    if (batch.length === 1) {
+      if (!strict) return visit(batch, null, true);
+      failures.push({ games: batch, error: "Two responses did not explicitly confirm complete or no_results coverage" });
+      statuses[batch[0]] = "failed";
+      return;
+    }
+    for (const child of splitBatchForRetry(coverage.missing)) await visit(child);
+  };
+
+  await visit(games, initialResult);
+  return { attempts, failures, statuses };
 }
 
 async function queryDataBrainOnce(query) {
@@ -497,6 +557,7 @@ async function main() {
   let researchRows = existingResearchRows;
   const completedBatches = [];
   const failedBatches = [];
+  const gameScanStatus = Object.fromEntries(requested.map((game) => [game, "pending"]));
   const responses = await collectBatchResults(batches, async (batch, index) => {
     process.stdout.write(`DataBrain query ${index + 1}/${batches.length}: ${batch.join("、")}\n`);
     const query = queryText(batch, aliasesByCanonical, start, end, options.maxPerGame);
@@ -508,7 +569,6 @@ async function main() {
   }, options.concurrency);
   for (const [index, batch] of batches.entries()) {
     process.stdout.write(`DataBrain events ${index + 1}/${batches.length}: ${batch.join("、")}\n`);
-    const query = queryText(batch, aliasesByCanonical, start, end, options.maxPerGame);
     let result;
     try {
       if (responses[index].error) throw responses[index].error;
@@ -516,52 +576,45 @@ async function main() {
     } catch (error) {
       const message = error instanceof Error ? error.message : String(error);
       failedBatches.push({ batch: index + 1, games: batch, error: message });
+      for (const game of batch) gameScanStatus[game] = "failed";
       process.stdout.write(`  request failed; keeping previous rows (${message})\n`);
-      const meta = { query_range: [start, end], games_queried: requested.length, queried_game_names: requested, max_events_per_game: options.maxPerGame, max_records_per_game: options.maxPerGame, sessions, completed_batches: completedBatches, failed_batches: failedBatches, batch_size: options.batchSize };
+      const meta = { query_range: [start, end], games_queried: requested.length, queried_game_names: requested, max_events_per_game: options.maxPerGame, max_records_per_game: options.maxPerGame, sessions, completed_batches: completedBatches, failed_batches: failedBatches, batch_size: options.batchSize, game_scan_status: gameScanStatus };
       writeBundle(bundleGames, rows, meta);
       writeResearchBundle(bundleGames, researchRows, meta);
       continue;
     }
-    if (process.env.DATABRAIN_DEBUG_EVENTS === "1") {
-      process.stdout.write(`  response text=${result.markdown.length} structured=${result.structured.length}\n${result.markdown.slice(-2000)}\n`);
+    const resolved = await resolveBatchCoverage(batch, result, async (retryBatch, { strict }) => {
+      const retryQuery = `${queryText(retryBatch, aliasesByCanonical, start, end, options.maxPerGame)}${strict ? "\n严格重试：必须返回该游戏的有效记录，或返回一行 coverage_status=no_results；不要返回解释文字。" : ""}`;
+      const checkpoint = options.responsesInput ? readResponseCheckpoint(path.resolve(options.responsesInput), retryQuery) : null;
+      if (checkpoint) process.stdout.write(`  resumed checkpoint for ${retryBatch.join("、")}\n`);
+      else process.stdout.write(`  retrying smaller batch: ${retryBatch.join("、")}${strict ? " (strict)" : ""}\n`);
+      return checkpoint || await queryDataBrain(retryQuery);
+    }, entityIndex);
+    for (const [game, status] of Object.entries(resolved.statuses)) gameScanStatus[game] = status;
+    for (const attempt of resolved.attempts) {
+      const attemptResult = attempt.result;
+      if (process.env.DATABRAIN_DEBUG_EVENTS === "1") process.stdout.write(`  response text=${attemptResult.markdown.length} structured=${attemptResult.structured.length}\n${attemptResult.markdown.slice(-2000)}\n`);
+      if (attemptResult.sessionId) sessions.push({ sessionId: attemptResult.sessionId, system_url: `https://databrain.woa.com/v2/agent/chat?sessionId=${attemptResult.sessionId}`, games: attempt.games });
+      const requestedAttempt = new Set(attempt.games);
+      const normalized = attempt.parsed.map((row) => normalizeRow(row, entityIndex, aliasesByCanonical, requestedAttempt, start, end)).filter(Boolean);
+      const normalizedResearch = attempt.parsed.map((row) => normalizeResearchRow(row, entityIndex, aliasesByCanonical, requestedAttempt, start, end)).filter(Boolean);
+      const normalizedEventGames = new Set(normalized.map((row) => row.game_name));
+      const normalizedResearchGames = new Set(normalizedResearch.map((row) => row.game_name));
+      rows = normalized.length ? [...rows.filter((row) => !normalizedEventGames.has(row.game_name)), ...normalized] : rows;
+      researchRows = normalizedResearch.length ? [...researchRows.filter((row) => !normalizedResearchGames.has(row.game_name)), ...normalizedResearch] : researchRows;
+      process.stdout.write(`  parsed ${normalized.length} events and ${normalizedResearch.length} research records for ${attempt.games.join("、")}\n`);
     }
-    let parsed = parseResponseRows(result.markdown, result.structured);
-    if (!parsed.length) {
-      process.stdout.write("  no parseable rows; retrying with a stricter table-only prompt\n");
-      try {
-        result = await queryDataBrain(`${query}\n请再次检索并直接输出表格；每行必须同时包含 game_name、record_type、published_date、title、summary、source、url；事件记录另填 event_date。`);
-        parsed = parseResponseRows(result.markdown, result.structured);
-      } catch (error) {
-        const message = error instanceof Error ? error.message : String(error);
-        failedBatches.push({ batch: index + 1, games: batch, error: message });
-        process.stdout.write(`  retry failed; keeping previous rows (${message})\n`);
-        const meta = { query_range: [start, end], games_queried: requested.length, queried_game_names: requested, max_events_per_game: options.maxPerGame, max_records_per_game: options.maxPerGame, sessions, completed_batches: completedBatches, failed_batches: failedBatches, batch_size: options.batchSize };
-        writeBundle(bundleGames, rows, meta);
-        writeResearchBundle(bundleGames, researchRows, meta);
-        continue;
-      }
+    if (resolved.failures.length) {
+      failedBatches.push({ batch: index + 1, games: batch, error: "Coverage incomplete after recursive split", failures: resolved.failures });
+      process.stdout.write(`  coverage failed for ${resolved.failures.flatMap((failure) => failure.games).join("、")}; previous rows retained\n`);
+    } else {
+      completedBatches.push(index + 1);
     }
-    if (!parsed.length) {
-      failedBatches.push({ batch: index + 1, games: batch, error: "Two responses contained no parseable records; coverage is unconfirmed" });
-      process.stdout.write("  no parseable records after retry; coverage failed, previous rows retained\n");
-      continue;
-    }
-    sessions.push({ sessionId: result.sessionId, system_url: `https://databrain.woa.com/v2/agent/chat?sessionId=${result.sessionId}`, games: batch });
-    const normalized = parsed.map((row) => normalizeRow(row, entityIndex, aliasesByCanonical, new Set(batch), start, end)).filter(Boolean);
-    const normalizedResearch = parsed.map((row) => normalizeResearchRow(row, entityIndex, aliasesByCanonical, new Set(batch), start, end)).filter(Boolean);
-    // A transient empty response must not erase the last successful snapshot for
-    // a game. Replace a game's rows only after at least one valid row is parsed.
-    const normalizedEventGames = new Set(normalized.map((row) => row.game_name));
-    const normalizedResearchGames = new Set(normalizedResearch.map((row) => row.game_name));
-    rows = normalized.length ? [...rows.filter((row) => !normalizedEventGames.has(row.game_name)), ...normalized] : rows;
-    researchRows = normalizedResearch.length ? [...researchRows.filter((row) => !normalizedResearchGames.has(row.game_name)), ...normalizedResearch] : researchRows;
-    completedBatches.push(index + 1);
-    const meta = { query_range: [start, end], games_queried: requested.length, queried_game_names: requested, max_events_per_game: options.maxPerGame, max_records_per_game: options.maxPerGame, sessions, completed_batches: completedBatches, failed_batches: failedBatches, batch_size: options.batchSize };
+    const meta = { query_range: [start, end], games_queried: requested.length, queried_game_names: requested, max_events_per_game: options.maxPerGame, max_records_per_game: options.maxPerGame, sessions, completed_batches: completedBatches, failed_batches: failedBatches, batch_size: options.batchSize, game_scan_status: gameScanStatus };
     writeBundle(bundleGames, rows, meta);
     writeResearchBundle(bundleGames, researchRows, meta);
-    process.stdout.write(`  parsed ${normalized.length} events and ${normalizedResearch.length} research records\n`);
   }
-  const meta = { query_range: [start, end], games_queried: requested.length, queried_game_names: requested, max_events_per_game: options.maxPerGame, max_records_per_game: options.maxPerGame, sessions, completed_batches: completedBatches, failed_batches: failedBatches, batch_size: options.batchSize };
+  const meta = { query_range: [start, end], games_queried: requested.length, queried_game_names: requested, max_events_per_game: options.maxPerGame, max_records_per_game: options.maxPerGame, sessions, completed_batches: completedBatches, failed_batches: failedBatches, batch_size: options.batchSize, game_scan_status: gameScanStatus };
   const final = writeBundle(bundleGames, rows, meta);
   const research = writeResearchBundle(bundleGames, researchRows, meta);
   process.stdout.write(`${JSON.stringify({ output: outputPath, research_output: researchOutputPath, games_queried: requested.length, games_with_events: final.meta.games_with_events, events: final.meta.events, games_with_research: research.meta.games_with_research, research_records: research.meta.records, sessions: sessions.length, failed_batches: failedBatches.length })}\n`);

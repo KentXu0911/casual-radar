@@ -8,7 +8,7 @@ import { fileURLToPath } from "node:url";
 import { buildGameEntityIndex, canonicalGameName, chunk, defaultEndDate, isLowConfidenceEventSource, loadTrackedGames, matchesEntityEvidence, queryNamesForGame, resolveRange, validateDailyRefresh, validateRefresh } from "../scripts/weekly-refresh-lib.mjs";
 import { acquireRefreshLock, writeRefreshReport } from "../scripts/refresh-runner-lib.mjs";
 import { buildAnomalyAttributionBundle } from "../scripts/anomaly-attribution-lib.mjs";
-import { normalizeResearchRow, normalizeRow, parseResponseRows, queryText, collectBatchResults, responseFromEvents } from "../scripts/fetch-databrain-events.mjs";
+import { batchCoverage, collectBatchResults, normalizeResearchRow, normalizeRow, parseResponseRows, queryText, resolveBatchCoverage, responseFromEvents, splitBatchForRetry } from "../scripts/fetch-databrain-events.mjs";
 import { validateMetricCheckpoint, evidenceUrlIssue } from "../scripts/weekly-refresh-lib.mjs";
 
 test("placeholder citations and the wrong homonymous game cannot enter public intelligence", () => {
@@ -53,6 +53,22 @@ test("bounded batch queries preserve order and report failures without losing ot
   }, 3);
   assert.equal(maximum, 3);
   assert.deepEqual(results.map(result => result.result ?? result.error.message), [0, 10, "denied", 30, 40]);
+});
+
+test("missing DataBrain coverage recursively splits to explicit per-game outcomes", async () => {
+  const games = ["A", "B", "C", "D"], index = buildGameEntityIndex(games.map(name => ({ name })));
+  const table = (rows) => `| game_name | record_type | title | coverage_status |\n|---|---|---|---|\n${rows.join("\n")}\n`;
+  const requests = [];
+  const result = await resolveBatchCoverage(games, { sessionId: "parent", markdown: "", structured: [] }, async (batch, { strict }) => {
+    requests.push({ batch, strict });
+    if (batch.length > 1) return { sessionId: batch.join(""), markdown: "", structured: [] };
+    return { sessionId: batch[0], markdown: table([`| ${batch[0]} | no_results | NO_RESULTS | no_results |`]), structured: [] };
+  }, index);
+  assert.deepEqual(splitBatchForRetry(games), [["A", "B"], ["C", "D"]]);
+  assert.deepEqual(requests.map(request => request.batch), [["A", "B"], ["A"], ["B"], ["C", "D"], ["C"], ["D"]]);
+  assert.equal(result.failures.length, 0);
+  assert.deepEqual(result.statuses, { A: "no_results", B: "no_results", C: "no_results", D: "no_results" });
+  assert.deepEqual(batchCoverage(result.attempts.at(-1).parsed, ["D"], index).missing, []);
 });
 
 test("rejects non-game homonyms while retaining actual product updates", () => {
