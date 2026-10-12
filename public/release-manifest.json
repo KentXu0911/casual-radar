@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
-  "version": "b988737a3cddb744ca6b",
+  "version": "4b865d9d8c5761df1112",
   "source_commit": null,
-  "generated_at": "2026-10-12T02:58:46.873Z",
+  "generated_at": "2026-10-12T09:15:22.469Z",
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "anomaly-attributions.json": "7fb5668a3b8358281bee3c2d8f1d1e775b9b7e36b1b99098b66aaed19ede63aa",
-    "content-health.json": "a26cc149d9bf9b0e0d61fc0bdb3f178cff0a2629127c6d61968aee4e2c613ab0",
+    "anomaly-attributions.json": "b8c52850b3bda3036412d6cfe92fd802763b4ac5688d0b0455b15bce453ee5eb",
+    "content-health.json": "33d05895dbf34c1046c4ba55dbca92afc4acff2c520094bdfe062627d7d6cff4",
     "dashboard_data.json": "595a46f3d7b87066531221fc475a846165da29f440a5690a83f8f06076a5c333",
-    "databrain_events.json": "9d541a7db691715a9868bea6e5c35110a621c590037625bcd21ca5a5e39ae0fe",
-    "databrain_latest_metrics.json": "6eb3cf81a2be7156c51c7b9b2d3681f35a50abefe9b6c394a8c45aa15810f354",
-    "databrain_research.json": "e4ed4e5946ca62e8486d4a8bbdc450f58c0285c1193d752b526acd3a8e07fc3b",
+    "databrain_events.json": "468690486e55c2b9a7903695a4d0d3ec2c76f3fa470a2693f657b0f9c52dbc48",
+    "databrain_latest_metrics.json": "2d3219aca616bd4d7add669d9c544cb722b317020e60fced538537e3c6692a27",
+    "databrain_research.json": "703115755ca27eea8278e335e4a6546bec05b695cb6aa14bd97457df2412ce8c",
     "databrain_snapshots.json": "ed8d10cbb341fb78b60b4bf67ba4b518c3e4a4c65583958f24970057066f62ef",
     "databrain_trends.json": "3dcd4394105a0d10134937ebd05bd1aa1ab1b1bbb31219782adf0e5c2f2d35a3",
-    "databrain_trends_90d.json": "b3181792b3a1e556a1176875f9b11d32b2b1270b770176a5a5c1b5a3a7f8b6f6",
+    "databrain_trends_90d.json": "2092aa520ff929cd649bc063db3741180d6c086b1a5574317526309467c882bf",
     "development-profiles.json": "7a44422d353ac978e61b2b190acf58aaeb5e7bebddc79da902f151e98638ff23",
     "editorial-decisions.json": "35cfcb00f32c449a7ced43b2e28c4476e6a42f191d8648927078905a35997f1e",
     "favicon.svg": "e6d2e59b7b5bbb0342e0fb496dfc262decbfe4426bbb7b047aec8d467d1dc6f7",
@@ -215,8 +215,8 @@
     "grp_reports.json": "9fe5c1ddc455656fc6a479152e5028c929dae57b535c9a80787a72baf4c6c999",
     "media-reviews.json": "4062c13bcf40a1f8cf4c32a10c7a55df83f468ebf5a4956aaee17c68a85d20ba",
     "og.png": "1b6a61f57b1ce4d2f864f53737edf36782a67d4a7e63ba25d9d7720d0a17fea9",
-    "pc-metrics.json": "f368a17063cff8266b0cd3d4e93a8663a2fcdc577a32eaab86e750a86fc281e8",
-    "pc-trends.json": "444d7b64b0ea05bbe7028236f0cd2bb5c094232d22f47c8d269a55a8253cfb31",
+    "pc-metrics.json": "b4d7ab9d46604bf03674ad70dfc3a9bce5b14b7f21a099c6359cc7eb4469096f",
+    "pc-trends.json": "24721ce5e6f350ccd53da40f9d565276c9dc9a96b0210b1094210cda70c0f7d2",
     "pipeline-icons.json": "cd39ed94ac44a3d74fdabda03c64109f829a226a25db14934808006c00062d36",
     "pipeline-reveal-media.json": "320068cc3792e9ab3a77b656938d3f6bae984d400bbee7ce3404f75e38dec777",
     "product-catalog.json": "2678f008cc6d9a71044d6ef1856e4423b455cd2487a1d75a9ef353e689f00f74",
@@ -345,6 +345,6 @@
     "video-thumbnails/xiaomi-star-draw-second-test.jpg": "704028393e814a887f96e7e4c9d7416ccfe37f528546f13d11314fa8e2cc7ea3",
     "weekly_scan.json": "5449e93caa70e9b8cb5e0d263553c30a50be61f9f674ada3498c69be601004fb",
     "window.svg": "decf1cf7bb22b5c99c4857cfcd5718ce5465c4454166317589c83fc73df74b66",
-    "youyansuo_discovery.json": "79f30feaf1fb225f7a752cd8c3447d9768d7a70407c071168325093062620542"
+    "youyansuo_discovery.json": "758396c800d2f8cfefd18d9bc52d61b6c4e1c417e593824be4a551f574ee1b08"
   }
 }

@@ -1,156 +1,82 @@
 {
   "meta": {
-    "reviewed_at": "2026-10-08",
-    "as_of": "2026-10-07",
+    "reviewed_at": "2026-10-12",
+    "as_of": "2026-10-11",
     "event_query_range": [
-      "2026-07-10",
-      "2026-10-07"
+      "2026-07-14",
+      "2026-10-11"
     ],
-    "alerts": 13,
-    "covered_alerts": 13,
+    "alerts": 8,
+    "covered_alerts": 8,
     "uncovered_alerts": 0,
     "policy": "每条异动必须绑定当前指标窗口，并记录同期事件或已检索无证据结论。"
   },
   "games": {
-    "蛋仔派对": {
+    "漫威终极逆转": {
       "status": "hypothesis",
-      "reviewedAt": "2026-10-08",
-      "summary": "可能原因：10/1 《蛋仔派对》×《小猪佩奇》惊喜联动",
+      "reviewedAt": "2026-10-12",
+      "summary": "可能原因：10/8 国服S27赛季【X战警：末日终章】来袭！",
       "sources": [
         {
-          "label": "App Store：《蛋仔派对》×《小猪佩奇》惊喜联动",
-          "url": "https://apps.apple.com/cn/app/%E8%9B%8B%E4%BB%94%E6%B4%BE%E5%AF%B9-%E5%B0%8F%E7%8C%AA%E4%BD%A9%E5%A5%87%E8%81%94%E5%8A%A8/id1544884479?eventid=6815104623"
-        },
-        {
-          "label": "网易：哼哼，一起来跳泥坑吧！《蛋仔派对》×《小猪佩奇》联动开启！",
-          "url": "https://faaast-penguin.com/zh-hans/news/13792/"
+          "label": "Steam官方公告：国服S27赛季【X战警：末日终章】来袭！",
+          "url": "https://steamcommunity.com/app/2955370/announcements/"
         }
       ],
       "signalKeys": [
-        "日收入|移动端全球|2026-09-30|2026-10-06|up"
-      ]
-    },
-    "第五人格": {
-      "status": "inconclusive",
-      "reviewedAt": "2026-10-08",
-      "summary": "暂未发现同期事件",
-      "sources": [
-        {
-          "label": "DataBrain：同期公开事件核查",
-          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_a89d825f54604cf18e60de966c698e61"
-        }
-      ],
-      "signalKeys": [
-        "日收入|移动端全球|2026-09-30|2026-10-06|up"
-      ]
-    },
-    "金铲铲之战": {
-      "status": "hypothesis",
-      "reviewedAt": "2026-10-08",
-      "summary": "可能原因：9/30 【画之灵】返场赛季全新商品",
-      "sources": [
-        {
-          "label": "Bilibili：【画之灵】返场赛季全新商品",
-          "url": "https://www.bilibili.com/read/cv26789012"
-        }
-      ],
-      "signalKeys": [
-        "日收入|移动端全球|2026-09-30|2026-10-06|up"
-      ]
-    },
-    "终极鸡马": {
-      "status": "inconclusive",
-      "reviewedAt": "2026-10-08",
-      "summary": "暂未发现同期事件",
-      "sources": [
-        {
-          "label": "DataBrain：同期公开事件核查",
-          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_ca52596f4c74459483de74b0665ec736"
-        }
-      ],
-      "signalKeys": [
-        "ACU|PC / Steam 全球|2026-10-01|2026-10-07|up"
-      ]
-    },
-    "Among Us": {
-      "status": "inconclusive",
-      "reviewedAt": "2026-10-08",
-      "summary": "暂未发现同期事件",
-      "sources": [
-        {
-          "label": "DataBrain：同期公开事件核查",
-          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_3ea3867618634c49b54692c43b6dcd91"
-        }
-      ],
-      "signalKeys": [
-        "日收入|移动端全球|2026-09-30|2026-10-06|up"
-      ]
-    },
-    "Paralives": {
-      "status": "inconclusive",
-      "reviewedAt": "2026-10-08",
-      "summary": "暂未发现同期事件",
-      "sources": [
-        {
-          "label": "DataBrain：同期公开事件核查",
-          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_54b5d37312644558bdf09a9c616ccc2e"
-        }
-      ],
-      "signalKeys": [
-        "日收入|PC / Steam 全球|2026-09-30|2026-10-06|up"
+        "日收入|移动端全球|2026-10-04|2026-10-10|up"
       ]
     },
     "PlateUp!": {
       "status": "inconclusive",
-      "reviewedAt": "2026-10-08",
+      "reviewedAt": "2026-10-12",
       "summary": "暂未发现同期事件",
       "sources": [
         {
           "label": "DataBrain：同期公开事件核查",
-          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_c3374ec993044310a3795763bb865764"
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_eeb315dc476349bbb4b2eea7a3ba8b71"
         }
       ],
       "signalKeys": [
-        "ACU|PC / Steam 全球|2026-10-01|2026-10-07|up",
-        "日收入|PC / Steam 全球|2026-09-30|2026-10-06|up"
-      ]
-    },
-    "Pummel Party": {
-      "status": "inconclusive",
-      "reviewedAt": "2026-10-08",
-      "summary": "暂未发现同期事件",
-      "sources": [
-        {
-          "label": "DataBrain：同期公开事件核查",
-          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_c3374ec993044310a3795763bb865764"
-        }
-      ],
-      "signalKeys": [
-        "ACU|PC / Steam 全球|2026-10-01|2026-10-07|up"
+        "ACU|PC / Steam 全球|2026-10-05|2026-10-11|up",
+        "日收入|PC / Steam 全球|2026-10-04|2026-10-10|up"
       ]
     },
     "Rush Royale": {
       "status": "inconclusive",
-      "reviewedAt": "2026-10-08",
+      "reviewedAt": "2026-10-12",
       "summary": "暂未发现同期事件",
       "sources": [
         {
           "label": "DataBrain：同期公开事件核查",
-          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_6555b43f4cf34c179a74e774d3fa4097"
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_5e262980efde4931b982f8dde33e95f7"
         }
       ],
       "signalKeys": [
-        "日收入|移动端全球|2026-09-30|2026-10-06|up"
+        "日收入|移动端全球|2026-10-04|2026-10-10|up"
+      ]
+    },
+    "T3 Arena": {
+      "status": "inconclusive",
+      "reviewedAt": "2026-10-12",
+      "summary": "暂未发现同期事件",
+      "sources": [
+        {
+          "label": "DataBrain：同期公开事件核查",
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_8e016013b06548dd96d56dd7685a0a30"
+        }
+      ],
+      "signalKeys": [
+        "日收入|移动端全球|2026-10-04|2026-10-10|down"
       ]
     },
     "PICO PARK 2": {
       "status": "inconclusive",
-      "reviewedAt": "2026-10-08",
+      "reviewedAt": "2026-10-12",
       "summary": "暂未发现同期事件",
       "sources": [
         {
           "label": "DataBrain：同期公开事件核查",
-          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_775b42ae6d9f46f1a76345dc1c4a6ab1"
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_bc61751acacb4b4785b960c90ee8fd44"
         }
       ],
       "signalKeys": [
@@ -159,45 +85,45 @@
     },
     "The Outlast Trials": {
       "status": "inconclusive",
-      "reviewedAt": "2026-10-08",
+      "reviewedAt": "2026-10-12",
       "summary": "暂未发现同期事件",
       "sources": [
         {
           "label": "DataBrain：同期公开事件核查",
-          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_db855ca9246341d2b33b855d77f6f9f6"
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_911ae5c5a076489b810d538c0e146a1d"
         }
       ],
       "signalKeys": [
-        "ACU|PC / Steam 全球|2026-10-01|2026-10-07|up",
-        "日收入|PC / Steam 全球|2026-09-30|2026-10-06|up"
+        "ACU|PC / Steam 全球|2026-10-05|2026-10-11|up",
+        "日收入|PC / Steam 全球|2026-10-04|2026-10-10|up"
       ]
     },
-    "超自然行动组": {
+    "BigWalk": {
       "status": "inconclusive",
-      "reviewedAt": "2026-10-08",
+      "reviewedAt": "2026-10-12",
       "summary": "暂未发现同期事件",
       "sources": [
         {
           "label": "DataBrain：同期公开事件核查",
-          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_c00792a6571442ad84c0f36bbf3fe87e"
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_9bea1b5de49846a3ac790481b21de652"
         }
       ],
       "signalKeys": [
-        "日收入|移动端全球|2026-09-30|2026-10-06|up"
+        "日收入|PC / Steam 全球|2026-10-04|2026-10-10|up"
       ]
     },
     "蛋仔滑滑": {
       "status": "inconclusive",
-      "reviewedAt": "2026-10-08",
+      "reviewedAt": "2026-10-12",
       "summary": "暂未发现同期事件",
       "sources": [
         {
           "label": "DataBrain：同期公开事件核查",
-          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_14c0ee24e2774ab2896916d11c4dcd59"
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_41321a4757ba4d208323297228307b55"
         }
       ],
       "signalKeys": [
-        "日收入|移动端全球|2026-09-30|2026-10-06|up"
+        "日收入|移动端全球|2026-10-04|2026-10-10|up"
       ]
     }
   }

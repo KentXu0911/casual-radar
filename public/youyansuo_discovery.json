@@ -2,29 +2,30 @@
   "meta": {
     "source": "youyansuo",
     "mode": "mcp_read_only",
-    "scan_date": "2026-10-10",
-    "generated_at": "2026-10-10T02:48:08.141Z",
+    "scan_date": "2026-10-12",
+    "generated_at": "2026-10-12T09:04:44.409Z",
     "status": "imported",
     "candidates": 2,
-    "tracked_updates": 12,
-    "rejected_rows": 1,
-    "pending_candidates": 1,
+    "tracked_updates": 14,
+    "rejected_rows": 0,
+    "pending_candidates": 2,
     "candidate_publication_policy": "editorial_approval_required",
     "tool_calls": {
-      "total": 74,
+      "total": 66,
       "failed": 0,
       "search_articles": {
-        "calls": 53,
-        "notes": "含前置页数探测、复核重跑与完整分页；所有调用成功"
+        "calls": 51,
+        "notes": "最近14天全量6页、5个重点品类、19个产品36个规范名/别名、4个候选关键词；全部调用成功且分页完整。"
       },
       "get_article": {
-        "calls": 12
+        "calls": 8
       },
       "search_games": {
-        "calls": 7
+        "calls": 6,
+        "notes": "含开始前最小授权检查；候选身份与同名冲突检查均为真实只读调用。"
       },
       "get_game": {
-        "calls": 2
+        "calls": 1
       }
     },
     "coverage_notes": {
@@ -32,119 +33,596 @@
         {
           "type": "all_articles",
           "q": "",
-          "since": "2026-10-07T00:00:00+08:00",
-          "until": "2026-10-11T00:00:00+08:00",
+          "since": "2026-09-28T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
           "status": "success",
-          "expected_pages": 2,
-          "fetched_pages": 2,
-          "articles": 124,
-          "request_attempts": 5,
+          "expected_pages": 6,
+          "fetched_pages": 6,
+          "articles": 550,
+          "aliases": [],
           "page_receipts": [
             {
               "page": 1,
               "page_size": 100,
               "count": 100,
-              "total": 124,
-              "pages": 2
+              "total": 550,
+              "pages": 6,
+              "first_item": {
+                "id": 31815,
+                "title": "你以为停服了，其实还活得好好 10 款手游",
+                "published": "2026-10-11T09:29:27+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MzYzMTA1NzIyMQ==&mid=2247495388&idx=2&sn=531ff634f42a42b6f5c3fe1aa2db9ee7&chksm=f1cc47a8dc905673f7c033f4bd702be33509f0b572a665e8ee9ca84fba2ec0f00e42baa02061&scene=126&sessionid=0#rd"
+              },
+              "last_item": {
+                "id": 31703,
+                "title": "9月，全球最赚钱的7款国产手游",
+                "published": "2026-10-09T02:15:44+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=Mzk4ODk3NDMwMA==&mid=2247487268&idx=1&sn=4a138365509683556b767534542a0f30&chksm=c4e54f96524c903fb84fd7a7f4ca6c90af8444178579246fa8493abd1650c92576706c6f7ead&scene=126&sessionid=0#rd"
+              }
             },
             {
               "page": 2,
               "page_size": 100,
-              "count": 24,
-              "total": 124,
-              "pages": 2
+              "count": 100,
+              "total": 550,
+              "pages": 6,
+              "first_item": {
+                "id": 31732,
+                "title": "Xbox成立XP部门，电影、周边与线下体验纳入统一布局",
+                "published": "2026-10-09T02:06:53+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MzIxNzQxNTM4MQ==&mid=2247485143&idx=1&sn=222d61c9f6743a8091d3d9db7ac7224c&chksm=96a34bf0afdf326aa7f311f134bdb11c949707d598d16ee8a3aeb778e957764d091cf03600e9&scene=126&sessionid=0#rd"
+              },
+              "last_item": {
+                "id": 31571,
+                "title": "今年哪款游戏，让你承认自己看走眼了？",
+                "published": "2026-10-07T03:22:50+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5OTc2ODUxMw==&mid=2650026195&idx=1&sn=5131966d07b8b23a2be082599f4db347&chksm=beb64f090b822f732ae5bc043ca7c6a8d9f0518eb9f7405b82bbcdc98b901a4edf0ac20dbc53&scene=126&sessionid=0#rd"
+              }
+            },
+            {
+              "page": 3,
+              "page_size": 100,
+              "count": 100,
+              "total": 550,
+              "pages": 6,
+              "first_item": {
+                "id": 31615,
+                "title": "米哈游9月动作密集！治愈新作《星布谷地》开启计费测试，原神/星穹铁道/绝区零全球版本接连上线",
+                "published": "2026-10-07T02:26:19+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MzY5NzQwMDgzOQ==&mid=2247484432&idx=1&sn=1dca278e84e14f1d8e8ee7873a19bd6d&chksm=f528a64df97944bb571c103be13aa04f85d7f986f109406ccd44aaf1b3554f01633341863741&scene=126&sessionid=0#rd"
+              },
+              "last_item": {
+                "id": 31451,
+                "title": "抖小新游榜第三，《末世小屋》让人惦记一张沙发",
+                "published": "2026-10-02T13:58:03+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MzU4NTcxMjE1Mg==&mid=2247497398&idx=1&sn=9dddcf991c2cfe8b45b729bd0f6c96a4&chksm=fc5b2780b19df370e0ef2e8e9f09a276cec4c3a66c4617da23236e07cb6b9d128644dded4d1b&scene=126&sessionid=0#rd"
+              }
+            },
+            {
+              "page": 4,
+              "page_size": 100,
+              "count": 100,
+              "total": 550,
+              "pages": 6,
+              "first_item": {
+                "id": 31442,
+                "title": "微信小游戏畅销榜TOP100｜10月2日：三国杀↑57夺黑马，头部换血",
+                "published": "2026-10-02T13:54:43+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MzA5MTM4NzE3MA==&mid=2648748326&idx=1&sn=1e348ad58aab18fcbcb370f2b07ce1e8&chksm=89a512a0471d7f93a41ebb409522612d494e4cd465d11fc684af55d7a5db8fce83d2dcf783d2&scene=126&sessionid=0#rd"
+              },
+              "last_item": {
+                "id": 31311,
+                "title": "微信小游戏人气榜TOP100｜9月30日：解压来捞菜↑44夺黑马，棋牌线国庆前加速入场",
+                "published": "2026-09-30T09:21:19+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MzA5MTM4NzE3MA==&mid=2648748301&idx=1&sn=f666877fbc5fe505bce4a6bf675ba9d4&chksm=89e113d75aeea138dc90f5abb8953bd97ff0cef7a54984fe6d23b209f5fc7182a085e13f19d6&scene=126&sessionid=0#rd"
+              }
+            },
+            {
+              "page": 5,
+              "page_size": 100,
+              "count": 100,
+              "total": 550,
+              "pages": 6,
+              "first_item": {
+                "id": 31312,
+                "title": "“月更新番”的《鸣潮》怎么又火力全开了？",
+                "published": "2026-09-30T09:01:56+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5NTIzNjA2MA==&mid=2651811309&idx=1&sn=bf7179478ac67e27457f4004e6238d7f&chksm=bcb796900596f156cacb04869a3dba1b4b77f4b8291f7853c24f8ecab61e474dd18465a52b1a&scene=126&sessionid=0#rd"
+              },
+              "last_item": {
+                "id": 31202,
+                "title": "捐赠1300万元、共建川大AI实验室，三七互娱在提前布局什么？",
+                "published": "2026-09-28T13:52:20+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MzU4NTcxMjE1Mg==&mid=2247497259&idx=1&sn=59c7820a974345d169d2ae9158add485&chksm=fcb23c260bdaacdd2af2f08997b5f02ef0866777e4cec56f3f523916b2e330459899a0229591&scene=126&sessionid=0#rd"
+              }
+            },
+            {
+              "page": 6,
+              "page_size": 100,
+              "count": 50,
+              "total": 550,
+              "pages": 6,
+              "first_item": {
+                "id": 31216,
+                "title": "这家已经进入破产清算的上海二游厂商，今天还在应诉",
+                "published": "2026-09-28T13:49:18+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=Mzk4ODk3NDMwMA==&mid=2247487174&idx=1&sn=ffbec4638533cacb346af9acb6d6aae9&chksm=c4f0bb838aac14fcbe71db89dc53ffaa7e5450916202cc6e94bb2e77ff09bcfc9a20461d9bba&scene=126&sessionid=0#rd"
+              },
+              "last_item": {
+                "id": 31143,
+                "title": "AI专题分享（一）：我踩过的几个坑和一些使用建议",
+                "published": "2026-09-27T16:09:23+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MzA3NTIyNDMxMQ==&mid=2247486424&idx=1&sn=377cb61b9b7e061722c293f1e86fb7f1&chksm=9e8acf7c8a437b4e78e0dce0a5d3276dcbffa5865fe3097747d5d47c95901f2d225ae0a45d6f&scene=126&sessionid=0#rd"
+              }
             }
           ]
         },
         {
           "type": "category_keyword",
           "q": "模拟经营",
+          "since": "2026-09-28T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
-          "articles": 14,
+          "articles": 56,
+          "aliases": [],
           "page_receipts": [
             {
               "page": 1,
               "page_size": 100,
-              "count": 14,
-              "total": 14,
-              "pages": 1
+              "count": 56,
+              "total": 56,
+              "pages": 1,
+              "first_item": {
+                "id": 31793,
+                "title": "在上海旧船厂，小红书和游戏厂商想做一个“开放世界冒险岛”",
+                "published": "2026-10-11T06:37:39+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5Njc5MjgyMA==&mid=2989877762&idx=1&sn=00ef58494cb174a421da85d60297cbad&chksm=909970a0aa30e13404fc5cfa6482b6e8b8ba14c8f492f4eb3264383945582dc9bf2d5e390c48&scene=126&sessionid=0#rd"
+              },
+              "last_item": {
+                "id": 31150,
+                "title": "【产品调优课程】游戏运营的产品力是什么？怎么培养自己的产品力？",
+                "published": "2026-09-28T02:50:34+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MzkxMDY1MjYxNQ==&mid=2247487072&idx=1&sn=480c34ec984226b2c8bea410bcbfa6d4&chksm=c08731ce30a07b545d14a439f5d6bb5200ff525a9f951b4883ffa811896e4e6045395aa5b8aa&scene=126&sessionid=0#rd"
+              }
+            }
+          ],
+          "sample_sources": [
+            {
+              "id": 31793,
+              "title": "在上海旧船厂，小红书和游戏厂商想做一个“开放世界冒险岛”",
+              "published": "2026-10-11T06:37:39+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5Njc5MjgyMA==&mid=2989877762&idx=1&sn=00ef58494cb174a421da85d60297cbad&chksm=909970a0aa30e13404fc5cfa6482b6e8b8ba14c8f492f4eb3264383945582dc9bf2d5e390c48&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31813,
+              "title": "TapTap 10 月手游预约榜前 10 ，网易新游首爆",
+              "published": "2026-10-10T11:04:52+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzYzMTA1NzIyMQ==&mid=2247495362&idx=2&sn=fe82bdaae991f59ea7fb5105f1f09508&chksm=f1c0c41913e96d26f121b66af7ce5d8031cc7d4fe9161007f1f7335df16305509424574a9bf6&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31769,
+              "title": "7年烧光600万家底，百大up主首作熬出头：亏了吗？",
+              "published": "2026-10-10T08:49:15+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5MDEwMTk2MA==&mid=2651305449&idx=1&sn=a50a104635b19e545baeb1393826e090&chksm=bc3b3b02b3776a2a74a8f28b38bdaf4b83f7dd5e975da5336154463750879f86d4a4c01f0af3&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31803,
+              "title": "最近，一个神秘链接爆火游戏圈",
+              "published": "2026-10-10T05:51:38+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzkwMjY0ODI1Mg==&mid=2247579920&idx=1&sn=a26a3a3efffeefb7a6cb0900b8bb74bd&chksm=c14781bfdd289d1b4b458c9266a6a756f6fc66d0dff6003f88fd0ea33ac76222c5820b110b27&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31730,
+              "title": "把主公、反贼、内奸搬上沙盘，这款三国杀 SLG 玩出了什么新花样？",
+              "published": "2026-10-09T15:24:51+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=Mzg2OTU0MTcyMg==&mid=2247511504&idx=1&sn=74abd57493af30a8839fa794ce849719&chksm=cf7894348cdfec5d180266bbcc3410d2eb029b15416040e5776f104b48fd9326012f8989faa2&scene=126&sessionid=0#rd"
             }
           ]
         },
         {
           "type": "category_keyword",
           "q": "自走棋",
+          "since": "2026-09-28T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
-          "articles": 2,
+          "articles": 17,
+          "aliases": [],
           "page_receipts": [
             {
               "page": 1,
               "page_size": 100,
-              "count": 2,
-              "total": 2,
-              "pages": 1
+              "count": 17,
+              "total": 17,
+              "pages": 1,
+              "first_item": {
+                "id": 31825,
+                "title": "手游流水榜单大变天！2026下半年回暖的3大游戏品类，冷门赛道正在逆袭",
+                "published": "2026-10-11T01:59:26+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MzY5NzQwMDgzOQ==&mid=2247484467&idx=1&sn=8cf04dd003d79cf424062817d64458db&chksm=f55344bdd2e47873756627d4e88bc78124fb705ef8255222f8eb55368487b65cd71587d03133&scene=126&sessionid=0#rd"
+              },
+              "last_item": {
+                "id": 31341,
+                "title": "《王者之弈》把自走棋做成短局：缩短一场战斗，会不会削弱策略？",
+                "published": "2026-09-29T09:44:06+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MzIxNzQxNTM4MQ==&mid=2247485060&idx=1&sn=01987fb8c06865f65d7bd24f28408816&chksm=96ab088aab936fe29021286ba3ab7645cf002403e08856295b447fbee5b78b89c755a923e560&scene=126&sessionid=0#rd"
+              }
+            }
+          ],
+          "sample_sources": [
+            {
+              "id": 31825,
+              "title": "手游流水榜单大变天！2026下半年回暖的3大游戏品类，冷门赛道正在逆袭",
+              "published": "2026-10-11T01:59:26+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzY5NzQwMDgzOQ==&mid=2247484467&idx=1&sn=8cf04dd003d79cf424062817d64458db&chksm=f55344bdd2e47873756627d4e88bc78124fb705ef8255222f8eb55368487b65cd71587d03133&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31802,
+              "title": "《诡秘之主》首月千万玩家，对话制作人：不跟风，做自己擅长的事",
+              "published": "2026-10-10T04:36:03+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzkwMjY0ODI1Mg==&mid=2247579894&idx=1&sn=32689d63172e75d31a81937ea7334503&chksm=c1143ca05bb3ecad79af595c4afedf5f3ad2ee9f355bc60dbceb3c01bd0e2c93936399b7bcb7&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31767,
+              "title": "满月的《王者万象棋》，成了吗？",
+              "published": "2026-10-10T02:22:06+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=Mzk4ODk3NDMwMA==&mid=2247487283&idx=1&sn=9d049847b494e7e86959f2b2de961c58&chksm=c46b88cc75a4b567ec963c92a1a35b94b1f4b94b1ce0f2a1560bf407453529d4af9e9d70acdd&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31774,
+              "title": "9月全球最赚钱的手游：11年老产品暴涨170%，一款新游杀入TOP20",
+              "published": "2026-10-09T10:58:47+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5NTIzNjA2MA==&mid=2651811501&idx=1&sn=9e974a936e63e6d547f27462adbf5b91&chksm=bc5964f2fb843acceaabe540c5539d7f028e233c825bf317da2461ee23b9d76126bb5e898428&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31763,
+              "title": "2026国庆档最赚钱游戏TOP30",
+              "published": "2026-10-09T10:45:45+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=Mzk0NTg0MTg2MQ==&mid=2247491933&idx=1&sn=977c0c18167fd92dbb3f2adbfd45491e&chksm=c2b70878fbbdda8805f3aa660e05263b2cebe285b72fe3f4b3cc5866680359dea88d23767d24&scene=126&sessionid=0#rd"
             }
           ]
         },
         {
           "type": "category_keyword",
           "q": "捉宠",
+          "since": "2026-09-28T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
-          "articles": 0,
+          "articles": 5,
+          "aliases": [],
           "page_receipts": [
             {
               "page": 1,
               "page_size": 100,
-              "count": 0,
-              "total": 0,
-              "pages": 1
+              "count": 5,
+              "total": 5,
+              "pages": 1,
+              "first_item": {
+                "id": 31773,
+                "title": "9月PC榜：腾讯《王者万象棋》、FunPlus《伊莫》空降榜单",
+                "published": "2026-10-10T06:40:07+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5OTc2ODUxMw==&mid=2650026391&idx=2&sn=f31f6b04205d6e9157fddafc7fdc13c3&chksm=bee17f20bbc6bf0551eca808b248624fe22ba0be8cbdfaccd73431d00fa96d7a2bcaa2b93923&scene=126&sessionid=0#rd"
+              },
+              "last_item": {
+                "id": 31213,
+                "title": "2026年最挤的赛道，都遇见同一个问题",
+                "published": "2026-09-28T10:48:10+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MzkzOTYwMjE2NA==&mid=2247554412&idx=1&sn=cb9a92c440efc15f783cf499eb39e84b&chksm=c33df12c0cfc61a9820f98d78700b409fb8fe733b963f5f16b405a937992f9e5bf4060132c16&scene=126&sessionid=0#rd"
+              }
+            }
+          ],
+          "sample_sources": [
+            {
+              "id": 31773,
+              "title": "9月PC榜：腾讯《王者万象棋》、FunPlus《伊莫》空降榜单",
+              "published": "2026-10-10T06:40:07+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5OTc2ODUxMw==&mid=2650026391&idx=2&sn=f31f6b04205d6e9157fddafc7fdc13c3&chksm=bee17f20bbc6bf0551eca808b248624fe22ba0be8cbdfaccd73431d00fa96d7a2bcaa2b93923&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31766,
+              "title": "国服首月流水超10亿的《洛克王国：世界》，进军宝可梦大本营引热议",
+              "published": "2026-10-09T13:51:00+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=Mzk4ODk3NDMwMA==&mid=2247487275&idx=1&sn=a620454a41f6b96814406c8288ef2b34&chksm=c4d35cf1eac2738b15634ccc4c5940ef80e93e60eede4ceab9299a88950930e16f9115a26480&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31550,
+              "title": "2026的游戏行业，遍地都是埋人的天坑陷阱？",
+              "published": "2026-10-05T12:20:53+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5OTc2ODUxMw==&mid=2650026193&idx=1&sn=fb5542bcab3bfcda1b797cb8fe3416c8&chksm=be9d90392be543267dd0001f95258ce7d86757036bfb7224e7efd36a6e6a06f50e37a7d3555f&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31222,
+              "title": "女性向+休闲捉宠双出彩:恋与深空回暖，闪耀吧噜咪跻身iOS畅销榜",
+              "published": "2026-09-29T06:01:56+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzI3OTAxOTg0MA==&mid=2649969564&idx=1&sn=ccb60c3e27ede7cd518057aae04a2ad0&chksm=f2c3d58454605a3a54edfaad55d7de0e89a1d55bec10b23b9436fb47a702e924142281a7b9f1&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31213,
+              "title": "2026年最挤的赛道，都遇见同一个问题",
+              "published": "2026-09-28T10:48:10+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzkzOTYwMjE2NA==&mid=2247554412&idx=1&sn=cb9a92c440efc15f783cf499eb39e84b&chksm=c33df12c0cfc61a9820f98d78700b409fb8fe733b963f5f16b405a937992f9e5bf4060132c16&scene=126&sessionid=0#rd"
             }
           ]
         },
         {
           "type": "category_keyword",
           "q": "多人合作",
+          "since": "2026-09-28T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
-          "articles": 0,
+          "articles": 6,
+          "aliases": [],
           "page_receipts": [
             {
               "page": 1,
               "page_size": 100,
-              "count": 0,
-              "total": 0,
-              "pages": 1
+              "count": 6,
+              "total": 6,
+              "pages": 1,
+              "first_item": {
+                "id": 31551,
+                "title": "这是入职米哈游最好的时机",
+                "published": "2026-10-05T15:43:55+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=Mzk4ODk3NDMwMA==&mid=2247487230&idx=1&sn=bc1c260bffda919058b36ab50673dfe0&chksm=c4e0f801ed664f0a1c55df51656c4640a985d86d8f2e26b99b052368b454b8739802fb853ea4&scene=126&sessionid=0#rd"
+              },
+              "last_item": {
+                "id": 31374,
+                "title": "育碧官宣10.2大动作!已经发布神秘预告 ！",
+                "published": "2026-09-30T13:17:56+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=Mzg2MjgzODk2OQ==&mid=2247503399&idx=1&sn=70a5f7d9f4c4d98dbb07d3cf1faa5a6e&chksm=cff06ac1afc4d640e40e14ac94aa58915a4c51753001d167821288d29bbf5afffd295dcb3c87&scene=126&sessionid=0#rd"
+              }
+            }
+          ],
+          "sample_sources": [
+            {
+              "id": 31551,
+              "title": "这是入职米哈游最好的时机",
+              "published": "2026-10-05T15:43:55+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=Mzk4ODk3NDMwMA==&mid=2247487230&idx=1&sn=bc1c260bffda919058b36ab50673dfe0&chksm=c4e0f801ed664f0a1c55df51656c4640a985d86d8f2e26b99b052368b454b8739802fb853ea4&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31441,
+              "title": "米哈游等不及了，年内还要炸一次？",
+              "published": "2026-10-02T13:15:09+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5MDEwMTk2MA==&mid=2651305144&idx=1&sn=3084ace5bb0977072496dc6d563514e8&chksm=bc1a0a9534172c739833e02f2fb0c59b7d6068179a71269dab04a0932ed323d1304197f824e9&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31437,
+              "title": "10月预计15款新游戏上线:《剑侠世界4：无限》领衔，Steam游戏反攻手游",
+              "published": "2026-10-02T11:38:12+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5NzQwMjI4MA==&mid=2657337704&idx=2&sn=6f142b7f7bffdf411b7210bd2fa1914c&chksm=bce4b5e579c2874efa940f575f8aa551bd9c1c39da332f967533b7d45689da8fe57b8b191c94&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31419,
+              "title": "米哈游这是要革自己的命啊",
+              "published": "2026-10-01T13:50:01+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=Mzk0OTg3ODM3Ng==&mid=2247495130&idx=1&sn=2eb164ad8225c4f70aa52a543a4a508b&chksm=c20c00751304ab57138d069c27e802589829e92d57c11d5147a964a1b70f745d9c29d08d6a9d&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31358,
+              "title": "新一批游戏版号下发，209款产品获批，米哈游《源初之结》、恺英网络《龙之谷：觉醒》、电魂网络《我叫MT：荣耀之战》  过审 | 游戏干线",
+              "published": "2026-09-30T15:00:13+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5NjE4MTQyMg==&mid=2653636117&idx=1&sn=ca0f00795f6174cdd81fbd699bd29117&chksm=bcb2c09e38d89d28650d3bd7fb136e8d0f3edc92722543bd79592e0e467082185fff2de57f31&scene=126&sessionid=0#rd"
             }
           ]
         },
         {
           "type": "category_keyword",
           "q": "MOBA",
+          "since": "2026-09-28T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
-          "articles": 4,
+          "articles": 18,
+          "aliases": [],
           "page_receipts": [
             {
               "page": 1,
               "page_size": 100,
-              "count": 4,
-              "total": 4,
-              "pages": 1
+              "count": 18,
+              "total": 18,
+              "pages": 1,
+              "first_item": {
+                "id": 31780,
+                "title": "LOL凉了？三角洲vs无畏契约，谁是网游新一哥？",
+                "published": "2026-10-11T04:47:30+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=Mzg4MzE5NTY2Ng==&mid=2247516834&idx=1&sn=7f5995e48e55e17c1b8763976fbc076b&chksm=ce6d5ac9e06238bddfbacb25aae3a405369f30d7df08afa6f0e5cbc8b05374fd2b6a044db3e6&scene=126&sessionid=0#rd"
+              },
+              "last_item": {
+                "id": 31166,
+                "title": "MMO电竞如何走得更远？跳出冠军叙事",
+                "published": "2026-09-28T09:17:49+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MzI3OTAxOTg0MA==&mid=2649969563&idx=1&sn=d5b9cf6e2bd68b096aaf37d9e40cc309&chksm=f28324570d860572d0a594dbf49d7317962fca332a6126840a41d9aedbbba2d2c4779a33a180&scene=126&sessionid=0#rd"
+              }
+            }
+          ],
+          "sample_sources": [
+            {
+              "id": 31780,
+              "title": "LOL凉了？三角洲vs无畏契约，谁是网游新一哥？",
+              "published": "2026-10-11T04:47:30+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=Mzg4MzE5NTY2Ng==&mid=2247516834&idx=1&sn=7f5995e48e55e17c1b8763976fbc076b&chksm=ce6d5ac9e06238bddfbacb25aae3a405369f30d7df08afa6f0e5cbc8b05374fd2b6a044db3e6&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31781,
+              "title": "网易新作首曝；王者荣耀11周年庆活动开启预热",
+              "published": "2026-10-11T04:47:30+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=Mzg4MzE5NTY2Ng==&mid=2247516834&idx=2&sn=987c0ab2be74b0b89f1e1b34c32a4df0&chksm=ce01c3208c7f28682b53fd9b180848fbe2656fe01ae95d684b7e2aee563c6c2b52244e84c317&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31730,
+              "title": "把主公、反贼、内奸搬上沙盘，这款三国杀 SLG 玩出了什么新花样？",
+              "published": "2026-10-09T15:24:51+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=Mzg2OTU0MTcyMg==&mid=2247511504&idx=1&sn=74abd57493af30a8839fa794ce849719&chksm=cf7894348cdfec5d180266bbcc3410d2eb029b15416040e5776f104b48fd9326012f8989faa2&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31751,
+              "title": "网易重磅新游《极限战场》首测招募开启：MOBA式吃鸡 复古感枪战",
+              "published": "2026-10-09T13:08:36+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzEwMzkyNQ==&mid=2247494576&idx=1&sn=40e32e69166b62a82ddfeff988f476e5&chksm=cf1f7865835c9a9d151411d230cc7256c9130c62bbe7951ea512fa1328688f878a44e7c06eed&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31763,
+              "title": "2026国庆档最赚钱游戏TOP30",
+              "published": "2026-10-09T10:45:45+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=Mzk0NTg0MTg2MQ==&mid=2247491933&idx=1&sn=977c0c18167fd92dbb3f2adbfd45491e&chksm=c2b70878fbbdda8805f3aa660e05263b2cebe285b72fe3f4b3cc5866680359dea88d23767d24&scene=126&sessionid=0#rd"
             }
           ]
         },
         {
-          "type": "tracked_exact_name",
-          "q": "Project63",
-          "aliases": [],
+          "type": "tracked_alias",
+          "canonical_name": "塔塔冒险队",
+          "q": "Clash of Critters",
+          "aliases": [
+            "塔塔冒险队",
+            "Tata Adventure"
+          ],
+          "since": "2026-09-12T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 9,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 9,
+              "total": 9,
+              "pages": 1,
+              "first_item": {
+                "id": 31673,
+                "title": "单月下载增量近千万，“物理破坏”游戏或将成下一个新爆款品类？丨榜单解读",
+                "published": "2026-10-08T11:42:45+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5NzI2NzA3Mg==&mid=2648482840&idx=1&sn=f0c7c3d367e7c30c5ed61ca8bd0e8caf&chksm=bff44c62b156e89355850deb913f092e43ab8509fca837630589db9da499b89f8d323b837655&scene=126&sessionid=0#rd"
+              },
+              "last_item": {
+                "id": 30146,
+                "title": "两个月2.7亿, 莉莉丝这次赌对了",
+                "published": "2026-09-13T07:10:37+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=Mzk0OTg3ODM3Ng==&mid=2247494711&idx=1&sn=68dfda4468f9d3a4ed190ce444f334d5&chksm=c2750a10b7fef611b78060150ba57406646d1e950f7c09305f5fca314d194dd4023545762f46&scene=126&sessionid=0#rd"
+              }
+            }
+          ],
+          "sample_sources": [
+            {
+              "id": 31673,
+              "title": "单月下载增量近千万，“物理破坏”游戏或将成下一个新爆款品类？丨榜单解读",
+              "published": "2026-10-08T11:42:45+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5NzI2NzA3Mg==&mid=2648482840&idx=1&sn=f0c7c3d367e7c30c5ed61ca8bd0e8caf&chksm=bff44c62b156e89355850deb913f092e43ab8509fca837630589db9da499b89f8d323b837655&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31080,
+              "title": "三七SLG黑马破1.7亿，莉莉丝新作大涨42%，腾讯新游冲上Top2——8月大战",
+              "published": "2026-09-26T14:22:03+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5MDEwMTk2MA==&mid=2651304876&idx=1&sn=1b50ea9f1ad313734f19d56b29c26532&chksm=bc3ed43d1ae4ef0e9370d9ae5510ea64ef1d04109ce63da8583ae66ef1153dcbcc271ffadbb2&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31041,
+              "title": "让人陌生的莉莉丝",
+              "published": "2026-09-25T12:13:54+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=Mzk4ODk3NDMwMA==&mid=2247487145&idx=1&sn=7408c4e9e30da9ecfd364518d891ae0e&chksm=c4fd187987e99c285366356a5605f6abc5f986d45e3b296129a81e2a1afe5e880621e4983780&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31113,
+              "title": "40人小团队做了款挂机小游戏，四个月吸金3.1亿",
+              "published": "2026-09-23T01:44:30+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=Mzk0NTg0MTg2MQ==&mid=2247491659&idx=1&sn=af10e2efe86f2c2055e002d98b2736c4&chksm=c2ec60699e15a57e83efd81db9557fae54f9334cafb215e071b8628f91d0e4175fb4ee7b5205&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 30406,
+              "title": "Sensor Tower公布8月出海手游畅销榜，三七互娱旗下3款产品跻身Top30",
+              "published": "2026-09-16T12:59:45+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzYzNTkyMTI2Ng==&mid=2247576817&idx=3&sn=b84d875d41bb6c4594c8b746cf4a1bc6&chksm=f14ee9d8b5dfe91f517c37e4decf86bf23b97c652183b7e7cebdbef0d20ccc9cf70c31bdcb9f&scene=126&sessionid=0#rd"
+            }
+          ]
+        },
+        {
+          "type": "tracked_alias",
+          "canonical_name": "塔塔冒险队",
+          "q": "塔塔冒险队",
+          "aliases": [
+            "Clash of Critters",
+            "Tata Adventure"
+          ],
+          "since": "2026-09-12T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 70,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 70,
+              "total": 70,
+              "pages": 1,
+              "first_item": {
+                "id": 31787,
+                "title": "9月主机游戏大乱斗 几家欢喜几家愁？",
+                "published": "2026-10-10T10:09:14+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5NTMxNTU0MQ==&mid=2650048920&idx=1&sn=7dd31c0daef77baa724a3653d52ee280&chksm=bf641e7763ee8239fb2231d8091a12200401ab81cf01adcdce01e6b1cc520cd1229973edebeb&scene=126&sessionid=0#rd"
+              },
+              "last_item": {
+                "id": 30095,
+                "title": "9月12日微信小游戏畅销榜来了，向僵尸开炮重回王座，超能下蛋鸭暴涨41位成黑马",
+                "published": "2026-09-12T07:52:44+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MzA5MTM4NzE3MA==&mid=2648747948&idx=1&sn=9b3716c33dfb33d846d8198130b40f4b&chksm=8923ba428ed7907dcd55e6403a4c34b35034de997e1426f8b6ec65cc8c9d9c2a57b43d580b2b&scene=126&sessionid=0#rd"
+              }
+            }
+          ],
+          "sample_sources": [
+            {
+              "id": 31787,
+              "title": "9月主机游戏大乱斗 几家欢喜几家愁？",
+              "published": "2026-10-10T10:09:14+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5NTMxNTU0MQ==&mid=2650048920&idx=1&sn=7dd31c0daef77baa724a3653d52ee280&chksm=bf641e7763ee8239fb2231d8091a12200401ab81cf01adcdce01e6b1cc520cd1229973edebeb&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31777,
+              "title": "微信小游戏畅销榜TOP100｜10月10日：天龙八部荣耀版↑21夺黑马，IP改编线集体上冲，头部进入平台期",
+              "published": "2026-10-10T06:35:35+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzA5MTM4NzE3MA==&mid=2648748437&idx=1&sn=d0d841284cae0933852eef21fa0b476d&chksm=89101a722864c909bdf02b13982e691b4cbcc5d7c7e074d3b18ab995f4b90001a7cbcf723251&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31774,
+              "title": "9月全球最赚钱的手游：11年老产品暴涨170%，一款新游杀入TOP20",
+              "published": "2026-10-09T10:58:47+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5NTIzNjA2MA==&mid=2651811501&idx=1&sn=9e974a936e63e6d547f27462adbf5b91&chksm=bc5964f2fb843acceaabe540c5539d7f028e233c825bf317da2461ee23b9d76126bb5e898428&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31716,
+              "title": "微信小游戏畅销榜TOP100｜10月9日：英雄杀↑50夺黑马，卡牌线集体爆发，向僵尸开炮夺回榜首",
+              "published": "2026-10-09T08:37:44+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzA5MTM4NzE3MA==&mid=2648748431&idx=1&sn=f6fa1ecf09b5ac726dc2887fce30c9e4&chksm=89b2f3f5d5b055d2775d74a468c74e01fc4a33c8962d926e91db43e7ed504f42a54077e426aa&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31673,
+              "title": "单月下载增量近千万，“物理破坏”游戏或将成下一个新爆款品类？丨榜单解读",
+              "published": "2026-10-08T11:42:45+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5NzI2NzA3Mg==&mid=2648482840&idx=1&sn=f0c7c3d367e7c30c5ed61ca8bd0e8caf&chksm=bff44c62b156e89355850deb913f092e43ab8509fca837630589db9da499b89f8d323b837655&scene=126&sessionid=0#rd"
+            }
+          ]
+        },
+        {
+          "type": "tracked_alias",
+          "canonical_name": "塔塔冒险队",
+          "q": "Tata Adventure",
+          "aliases": [
+            "Clash of Critters",
+            "塔塔冒险队"
+          ],
+          "since": "2026-09-12T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
@@ -155,14 +633,23 @@
               "page_size": 100,
               "count": 0,
               "total": 0,
-              "pages": 1
+              "pages": 1,
+              "first_item": null,
+              "last_item": null
             }
-          ]
+          ],
+          "sample_sources": []
         },
         {
-          "type": "tracked_exact_name",
-          "q": "Dear Passengers",
-          "aliases": [],
+          "type": "tracked_alias",
+          "canonical_name": "灵动小镇",
+          "q": "Amikin Village",
+          "aliases": [
+            "灵动小镇",
+            "Go Go Town"
+          ],
+          "since": "2026-09-12T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
@@ -173,14 +660,23 @@
               "page_size": 100,
               "count": 0,
               "total": 0,
-              "pages": 1
+              "pages": 1,
+              "first_item": null,
+              "last_item": null
             }
-          ]
+          ],
+          "sample_sources": []
         },
         {
-          "type": "tracked_exact_name",
-          "q": "mo.co",
-          "aliases": [],
+          "type": "tracked_alias",
+          "canonical_name": "灵动小镇",
+          "q": "灵动小镇",
+          "aliases": [
+            "Amikin Village",
+            "Go Go Town"
+          ],
+          "since": "2026-09-12T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
@@ -191,32 +687,90 @@
               "page_size": 100,
               "count": 0,
               "total": 0,
-              "pages": 1
+              "pages": 1,
+              "first_item": null,
+              "last_item": null
             }
-          ]
+          ],
+          "sample_sources": []
         },
         {
-          "type": "tracked_exact_name",
-          "q": "奇遇动物城",
-          "aliases": [],
+          "type": "tracked_alias",
+          "canonical_name": "灵动小镇",
+          "q": "Go Go Town",
+          "aliases": [
+            "Amikin Village",
+            "灵动小镇"
+          ],
+          "since": "2026-09-12T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
-          "articles": 0,
+          "articles": 13,
           "page_receipts": [
             {
               "page": 1,
               "page_size": 100,
-              "count": 0,
-              "total": 0,
-              "pages": 1
+              "count": 13,
+              "total": 13,
+              "pages": 1,
+              "first_item": {
+                "id": 31365,
+                "title": "Merge游戏越来越赚钱，但下一轮利润增长，可能不在双端平台里",
+                "published": "2026-10-01T03:08:01+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=Mzg2NDgyODMzOQ==&mid=2247569648&idx=3&sn=6a4f776140ce8f267ce51184056654a3&chksm=cf072680083f6df220eb4ddd31ce51980d178d9b972e6cfc1033f3a4df61ba2f5a54832c1988&scene=126&sessionid=0#rd"
+              },
+              "last_item": {
+                "id": 30214,
+                "title": "2026年8月成功出海的中国手游 -三七互娱《Last Asylum: Plague》升至Top 7， 点点互动新游增长亮眼",
+                "published": "2026-09-14T10:37:55+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=Mzk4ODE0MzI3NQ==&mid=2247496368&idx=1&sn=6a76a4af58bce0853f926ffadff9a38f&chksm=c439c10fcd672467d2b5ff5d16951c74e61d865fd5b0cd50055766f4cf2c8401babd22da4f35&scene=126&sessionid=0#rd"
+              }
+            }
+          ],
+          "sample_sources": [
+            {
+              "id": 31365,
+              "title": "Merge游戏越来越赚钱，但下一轮利润增长，可能不在双端平台里",
+              "published": "2026-10-01T03:08:01+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=Mzg2NDgyODMzOQ==&mid=2247569648&idx=3&sn=6a4f776140ce8f267ce51184056654a3&chksm=cf072680083f6df220eb4ddd31ce51980d178d9b972e6cfc1033f3a4df61ba2f5a54832c1988&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31080,
+              "title": "三七SLG黑马破1.7亿，莉莉丝新作大涨42%，腾讯新游冲上Top2——8月大战",
+              "published": "2026-09-26T14:22:03+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5MDEwMTk2MA==&mid=2651304876&idx=1&sn=1b50ea9f1ad313734f19d56b29c26532&chksm=bc3ed43d1ae4ef0e9370d9ae5510ea64ef1d04109ce63da8583ae66ef1153dcbcc271ffadbb2&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31029,
+              "title": "Merge游戏越来越赚钱，但下一轮利润增长，可能不在双端平台里",
+              "published": "2026-09-25T07:51:55+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=Mzg2NDgyODMzOQ==&mid=2247569517&idx=1&sn=5ff558eacc3c37d461b7b9d4da25e849&chksm=cfa218c5f12c171768ca813c5c7fe8c1482b92d4c70f571a3a2de9400b6176930deae30effab&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 30997,
+              "title": "同样是合成两个物品，大厂却在抢三种不同的人",
+              "published": "2026-09-24T13:28:33+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzU4NTcxMjE1Mg==&mid=2247497072&idx=1&sn=3142c199c0f9eb886d3d3c0f7eaf4361&chksm=fc48f08df5408f3062abcff986bd8eca7b6bbded662619707df76e6ad0ca7006fb99e78b0606&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 30956,
+              "title": "同样是二合手游，大厂却用三种素材抢三种用户",
+              "published": "2026-09-24T09:34:12+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzU2NTgyOTI4Ng==&mid=2247544955&idx=2&sn=3052f5492fd891b708b8d303dc2d0109&chksm=fdb801a76e0f505a65a1caf0f0bfd001ee9739ad03a932f95f2dedcb265b1c104489c0e40ec1&scene=126&sessionid=0#rd"
             }
           ]
         },
         {
-          "type": "tracked_exact_name",
-          "q": "粒粒的小人国",
-          "aliases": [],
+          "type": "tracked_alias",
+          "canonical_name": "星布谷地",
+          "q": "Petit Planet",
+          "aliases": [
+            "星布谷地"
+          ],
+          "since": "2026-09-12T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
@@ -227,32 +781,108 @@
               "page_size": 100,
               "count": 1,
               "total": 1,
-              "pages": 1
+              "pages": 1,
+              "first_item": {
+                "id": 30518,
+                "title": "生活模拟赛道十年无人突破770万美金月收入，《心动小镇》海外版《Heartopia》却为很能做到？",
+                "published": "2026-09-18T03:25:51+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MzU2NTgyOTI4Ng==&mid=2247544822&idx=1&sn=aca19e0143062986ba536716f98ee975&chksm=fd2783d616ee85982188bf963aec7477cbe0addffcc1f1021fc1f06e3aa79ac51aad05766311&scene=126&sessionid=0#rd"
+              },
+              "last_item": {
+                "id": 30518,
+                "title": "生活模拟赛道十年无人突破770万美金月收入，《心动小镇》海外版《Heartopia》却为很能做到？",
+                "published": "2026-09-18T03:25:51+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MzU2NTgyOTI4Ng==&mid=2247544822&idx=1&sn=aca19e0143062986ba536716f98ee975&chksm=fd2783d616ee85982188bf963aec7477cbe0addffcc1f1021fc1f06e3aa79ac51aad05766311&scene=126&sessionid=0#rd"
+              }
+            }
+          ],
+          "sample_sources": [
+            {
+              "id": 30518,
+              "title": "生活模拟赛道十年无人突破770万美金月收入，《心动小镇》海外版《Heartopia》却为很能做到？",
+              "published": "2026-09-18T03:25:51+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzU2NTgyOTI4Ng==&mid=2247544822&idx=1&sn=aca19e0143062986ba536716f98ee975&chksm=fd2783d616ee85982188bf963aec7477cbe0addffcc1f1021fc1f06e3aa79ac51aad05766311&scene=126&sessionid=0#rd"
             }
           ]
         },
         {
-          "type": "tracked_exact_name",
+          "type": "tracked_alias",
+          "canonical_name": "星布谷地",
           "q": "星布谷地",
-          "aliases": [],
+          "aliases": [
+            "Petit Planet"
+          ],
+          "since": "2026-09-12T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
-          "articles": 5,
+          "articles": 29,
           "page_receipts": [
             {
               "page": 1,
               "page_size": 100,
-              "count": 5,
-              "total": 5,
-              "pages": 1
+              "count": 29,
+              "total": 29,
+              "pages": 1,
+              "first_item": {
+                "id": 31793,
+                "title": "在上海旧船厂，小红书和游戏厂商想做一个“开放世界冒险岛”",
+                "published": "2026-10-11T06:37:39+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5Njc5MjgyMA==&mid=2989877762&idx=1&sn=00ef58494cb174a421da85d60297cbad&chksm=909970a0aa30e13404fc5cfa6482b6e8b8ba14c8f492f4eb3264383945582dc9bf2d5e390c48&scene=126&sessionid=0#rd"
+              },
+              "last_item": {
+                "id": 30140,
+                "title": "上海厂商下周正面PK新兴赛道；穿越火线研发商创始人离婚前妻分127个亿｜HOT周报",
+                "published": "2026-09-13T05:00:37+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MzkwMjY0ODI1Mg==&mid=2247578008&idx=1&sn=6d6d92bd24a5ddf4e283c247b3da8a3b&chksm=c1a07ef9aab5374a4b48463b79483c4e3ab8ee8f818bddc27e9d4efc0d1ab72009b16c1236d2&scene=126&sessionid=0#rd"
+              }
+            }
+          ],
+          "sample_sources": [
+            {
+              "id": 31793,
+              "title": "在上海旧船厂，小红书和游戏厂商想做一个“开放世界冒险岛”",
+              "published": "2026-10-11T06:37:39+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5Njc5MjgyMA==&mid=2989877762&idx=1&sn=00ef58494cb174a421da85d60297cbad&chksm=909970a0aa30e13404fc5cfa6482b6e8b8ba14c8f492f4eb3264383945582dc9bf2d5e390c48&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31813,
+              "title": "TapTap 10 月手游预约榜前 10 ，网易新游首爆",
+              "published": "2026-10-10T11:04:52+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzYzMTA1NzIyMQ==&mid=2247495362&idx=2&sn=fe82bdaae991f59ea7fb5105f1f09508&chksm=f1c0c41913e96d26f121b66af7ce5d8031cc7d4fe9161007f1f7335df16305509424574a9bf6&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31787,
+              "title": "9月主机游戏大乱斗 几家欢喜几家愁？",
+              "published": "2026-10-10T10:09:14+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5NTMxNTU0MQ==&mid=2650048920&idx=1&sn=7dd31c0daef77baa724a3653d52ee280&chksm=bf641e7763ee8239fb2231d8091a12200401ab81cf01adcdce01e6b1cc520cd1229973edebeb&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31664,
+              "title": "米哈游大伟哥成“小红书RED LAND”最大“人形彩蛋”，玩家：合照来者不拒",
+              "published": "2026-10-08T15:37:04+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5NzQwMjI4MA==&mid=2657337894&idx=2&sn=d670c9c9e390e8106a4a842f99115e74&chksm=bced614f9a5834b3aeba8a986784a8164d5aba6d1898d72a9ee07fb9d146997c0a3828f14306&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31680,
+              "title": "线上线下共繁华｜国庆假期游戏营收30强",
+              "published": "2026-10-08T11:26:14+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzI3OTAxOTg0MA==&mid=2649969679&idx=1&sn=43ffd7ce4fd80b3846b1e6c89a63c951&chksm=f276c36ce31c3594f8c333bf208802d647a42b56d9163b73ca79463fe3b5877ebc9aa8a5d2d0&scene=126&sessionid=0#rd"
             }
           ]
         },
         {
-          "type": "tracked_exact_name",
-          "q": "未眠野",
-          "aliases": [],
+          "type": "tracked_alias",
+          "canonical_name": "粒粒的小人国",
+          "q": "Animula Nook",
+          "aliases": [
+            "粒粒的小人国",
+            "Animula Nook / Lili's Tiny Kingdom",
+            "Lili's Tiny Kingdom"
+          ],
+          "since": "2026-09-12T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
@@ -263,14 +893,93 @@
               "page_size": 100,
               "count": 0,
               "total": 0,
-              "pages": 1
+              "pages": 1,
+              "first_item": null,
+              "last_item": null
+            }
+          ],
+          "sample_sources": []
+        },
+        {
+          "type": "tracked_alias",
+          "canonical_name": "粒粒的小人国",
+          "q": "粒粒的小人国",
+          "aliases": [
+            "Animula Nook",
+            "Animula Nook / Lili's Tiny Kingdom",
+            "Lili's Tiny Kingdom"
+          ],
+          "since": "2026-09-12T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 15,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 15,
+              "total": 15,
+              "pages": 1,
+              "first_item": {
+                "id": 31813,
+                "title": "TapTap 10 月手游预约榜前 10 ，网易新游首爆",
+                "published": "2026-10-10T11:04:52+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MzYzMTA1NzIyMQ==&mid=2247495362&idx=2&sn=fe82bdaae991f59ea7fb5105f1f09508&chksm=f1c0c41913e96d26f121b66af7ce5d8031cc7d4fe9161007f1f7335df16305509424574a9bf6&scene=126&sessionid=0#rd"
+              },
+              "last_item": {
+                "id": 30310,
+                "title": "60家游戏公司社招：岗位收缩10%，但在研项目好像多了？",
+                "published": "2026-09-15T10:40:38+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzMzNjM3OQ==&mid=2247572883&idx=1&sn=5087c241241c0c8469b78ca561625659&chksm=cfd324ea8f8fdf9029b0b33f056b6ba0e7a02d02a529683f62df4dd470dbb7dd88b096a188d7&scene=126&sessionid=0#rd"
+              }
+            }
+          ],
+          "sample_sources": [
+            {
+              "id": 31813,
+              "title": "TapTap 10 月手游预约榜前 10 ，网易新游首爆",
+              "published": "2026-10-10T11:04:52+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzYzMTA1NzIyMQ==&mid=2247495362&idx=2&sn=fe82bdaae991f59ea7fb5105f1f09508&chksm=f1c0c41913e96d26f121b66af7ce5d8031cc7d4fe9161007f1f7335df16305509424574a9bf6&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31724,
+              "title": "为什么草莓音乐节会做一场游戏展？丨触乐",
+              "published": "2026-10-09T09:57:16+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzA4MDIxNzkyNA==&mid=2658925521&idx=1&sn=110abc8f7138f933b8411081136ee7c4&chksm=857ee0596ee0a803e5cc14e6d85eab44bc894e6d108b5e2a4406d9d36624095ce03dc585a94f&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31532,
+              "title": "最近3天，我在广州动漫节上玩“疯”了",
+              "published": "2026-10-06T03:21:15+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzI3OTAxOTg0MA==&mid=2649969663&idx=1&sn=34bd15cfbb6ba17105753f621ddf845e&chksm=f2a1d50cf986902ba80ca2bd4b09eb118cecc49a853817a383049cf92fce0afe52956e1db967&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31468,
+              "title": "在上海，小红书也来做二次元开放世界",
+              "published": "2026-10-02T14:35:26+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzkwMjY0ODI1Mg==&mid=2247579605&idx=1&sn=2dbd930814b096b882cc2b1543cd1c53&chksm=c12e8a4cfb1e53028709c1efdfb6bfb2f76a69a695f4683bf8683ce2bd5ffcf640c39e0e5a8a&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31499,
+              "title": "首曝一年两次测试，腾讯这款生活模拟新游立住了吗？",
+              "published": "2026-10-01T13:57:46+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzMzNjM3OQ==&mid=2247573570&idx=1&sn=f82a9e92604d9900e2f0c68d5554a96b&chksm=cf3295364151c862fa3bec0b2ed165b5acfb4fd5c7b8a017856cea84f8863daea1d33c36afad&scene=126&sessionid=0#rd"
             }
           ]
         },
         {
-          "type": "tracked_exact_name",
-          "q": "火人冲冲冲",
-          "aliases": [],
+          "type": "tracked_alias",
+          "canonical_name": "粒粒的小人国",
+          "q": "Animula Nook / Lili's Tiny Kingdom",
+          "aliases": [
+            "Animula Nook",
+            "粒粒的小人国",
+            "Lili's Tiny Kingdom"
+          ],
+          "since": "2026-09-12T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
@@ -281,32 +990,389 @@
               "page_size": 100,
               "count": 0,
               "total": 0,
-              "pages": 1
+              "pages": 1,
+              "first_item": null,
+              "last_item": null
             }
-          ]
+          ],
+          "sample_sources": []
         },
         {
-          "type": "tracked_exact_name",
-          "q": "塔塔冒险队",
-          "aliases": [],
+          "type": "tracked_alias",
+          "canonical_name": "粒粒的小人国",
+          "q": "Lili's Tiny Kingdom",
+          "aliases": [
+            "Animula Nook",
+            "粒粒的小人国",
+            "Animula Nook / Lili's Tiny Kingdom"
+          ],
+          "since": "2026-09-12T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
-          "articles": 4,
+          "articles": 0,
           "page_receipts": [
             {
               "page": 1,
               "page_size": 100,
-              "count": 4,
-              "total": 4,
-              "pages": 1
+              "count": 0,
+              "total": 0,
+              "pages": 1,
+              "first_item": null,
+              "last_item": null
+            }
+          ],
+          "sample_sources": []
+        },
+        {
+          "type": "tracked_alias",
+          "canonical_name": "崩坏：因缘精灵",
+          "q": "Honkai: Fatebound Spirits",
+          "aliases": [
+            "崩坏：因缘精灵"
+          ],
+          "since": "2026-09-12T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 0,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 0,
+              "total": 0,
+              "pages": 1,
+              "first_item": null,
+              "last_item": null
+            }
+          ],
+          "sample_sources": []
+        },
+        {
+          "type": "tracked_alias",
+          "canonical_name": "崩坏：因缘精灵",
+          "q": "崩坏：因缘精灵",
+          "aliases": [
+            "Honkai: Fatebound Spirits"
+          ],
+          "since": "2026-09-12T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 11,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 11,
+              "total": 11,
+              "pages": 1,
+              "first_item": {
+                "id": 31787,
+                "title": "9月主机游戏大乱斗 几家欢喜几家愁？",
+                "published": "2026-10-10T10:09:14+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5NTMxNTU0MQ==&mid=2650048920&idx=1&sn=7dd31c0daef77baa724a3653d52ee280&chksm=bf641e7763ee8239fb2231d8091a12200401ab81cf01adcdce01e6b1cc520cd1229973edebeb&scene=126&sessionid=0#rd"
+              },
+              "last_item": {
+                "id": 30140,
+                "title": "上海厂商下周正面PK新兴赛道；穿越火线研发商创始人离婚前妻分127个亿｜HOT周报",
+                "published": "2026-09-13T05:00:37+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MzkwMjY0ODI1Mg==&mid=2247578008&idx=1&sn=6d6d92bd24a5ddf4e283c247b3da8a3b&chksm=c1a07ef9aab5374a4b48463b79483c4e3ab8ee8f818bddc27e9d4efc0d1ab72009b16c1236d2&scene=126&sessionid=0#rd"
+              }
+            }
+          ],
+          "sample_sources": [
+            {
+              "id": 31787,
+              "title": "9月主机游戏大乱斗 几家欢喜几家愁？",
+              "published": "2026-10-10T10:09:14+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5NTMxNTU0MQ==&mid=2650048920&idx=1&sn=7dd31c0daef77baa724a3653d52ee280&chksm=bf641e7763ee8239fb2231d8091a12200401ab81cf01adcdce01e6b1cc520cd1229973edebeb&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31690,
+              "title": "除了腾讯网易！这些过百万预约的手游，超期待",
+              "published": "2026-10-08T11:21:59+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzYzMTA1NzIyMQ==&mid=2247495298&idx=2&sn=8b83323752a896df778ec7f13bc2af40&chksm=f17d4f325440f2aabaca9d9dfa9cd1bb7c1e7355df51cddc2dc85e7e41fa9b4c4f189fee0d05&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31551,
+              "title": "这是入职米哈游最好的时机",
+              "published": "2026-10-05T15:43:55+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=Mzk4ODk3NDMwMA==&mid=2247487230&idx=1&sn=bc1c260bffda919058b36ab50673dfe0&chksm=c4e0f801ed664f0a1c55df51656c4640a985d86d8f2e26b99b052368b454b8739802fb853ea4&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31213,
+              "title": "2026年最挤的赛道，都遇见同一个问题",
+              "published": "2026-09-28T10:48:10+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzkzOTYwMjE2NA==&mid=2247554412&idx=1&sn=cb9a92c440efc15f783cf499eb39e84b&chksm=c33df12c0cfc61a9820f98d78700b409fb8fe733b963f5f16b405a937992f9e5bf4060132c16&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 30875,
+              "title": "PC开路一周后，《伊莫》手游版上线，真正的考验这才开始",
+              "published": "2026-09-23T10:17:13+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzI3OTAxOTg0MA==&mid=2649969483&idx=1&sn=a3de1080d9147258b19a8af59f5a644a&chksm=f23bcc7119e40a1dd17e35c592378b7855674692cc100e41719a6450362dfe8a9cc72542c358&scene=126&sessionid=0#rd"
             }
           ]
         },
         {
-          "type": "tracked_exact_name",
-          "q": "源初之结",
+          "type": "tracked_alias",
+          "canonical_name": "王者万象棋",
+          "q": "王者万象棋",
+          "aliases": [
+            "Honor of Kings: Chess"
+          ],
+          "since": "2026-09-12T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 39,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 39,
+              "total": 39,
+              "pages": 1,
+              "first_item": {
+                "id": 31793,
+                "title": "在上海旧船厂，小红书和游戏厂商想做一个“开放世界冒险岛”",
+                "published": "2026-10-11T06:37:39+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5Njc5MjgyMA==&mid=2989877762&idx=1&sn=00ef58494cb174a421da85d60297cbad&chksm=909970a0aa30e13404fc5cfa6482b6e8b8ba14c8f492f4eb3264383945582dc9bf2d5e390c48&scene=126&sessionid=0#rd"
+              },
+              "last_item": {
+                "id": 30088,
+                "title": "三角洲分期付款系统上线；LOL引入全队语音功能",
+                "published": "2026-09-12T05:28:06+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=Mzg4MzE5NTY2Ng==&mid=2247516550&idx=2&sn=5a2645aba85a91317dd432e1fdf9f601&chksm=ce512e946e86e8d5a6d6eb2e9a29c6296ba47adb9409c1d6a0931867ba02883de46babc41d99&scene=126&sessionid=0#rd"
+              }
+            }
+          ],
+          "sample_sources": [
+            {
+              "id": 31793,
+              "title": "在上海旧船厂，小红书和游戏厂商想做一个“开放世界冒险岛”",
+              "published": "2026-10-11T06:37:39+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5Njc5MjgyMA==&mid=2989877762&idx=1&sn=00ef58494cb174a421da85d60297cbad&chksm=909970a0aa30e13404fc5cfa6482b6e8b8ba14c8f492f4eb3264383945582dc9bf2d5e390c48&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31773,
+              "title": "9月PC榜：腾讯《王者万象棋》、FunPlus《伊莫》空降榜单",
+              "published": "2026-10-10T06:40:07+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5OTc2ODUxMw==&mid=2650026391&idx=2&sn=f31f6b04205d6e9157fddafc7fdc13c3&chksm=bee17f20bbc6bf0551eca808b248624fe22ba0be8cbdfaccd73431d00fa96d7a2bcaa2b93923&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31767,
+              "title": "满月的《王者万象棋》，成了吗？",
+              "published": "2026-10-10T02:22:06+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=Mzk4ODk3NDMwMA==&mid=2247487283&idx=1&sn=9d049847b494e7e86959f2b2de961c58&chksm=c46b88cc75a4b567ec963c92a1a35b94b1f4b94b1ce0f2a1560bf407453529d4af9e9d70acdd&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31763,
+              "title": "2026国庆档最赚钱游戏TOP30",
+              "published": "2026-10-09T10:45:45+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=Mzk0NTg0MTg2MQ==&mid=2247491933&idx=1&sn=977c0c18167fd92dbb3f2adbfd45491e&chksm=c2b70878fbbdda8805f3aa660e05263b2cebe285b72fe3f4b3cc5866680359dea88d23767d24&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31786,
+              "title": "游戏设计左道，网状build（构筑）过程设计",
+              "published": "2026-10-09T10:39:11+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5NTMxNTU0MQ==&mid=2650048876&idx=2&sn=90ad0e4f3c76ee10bfcb2c93651a9c1f&chksm=bfbe53eff5a5381298f342591146e7b49b048f2b8fbad174fb1d29f716304f4d4cba6d2d4613&scene=126&sessionid=0#rd"
+            }
+          ]
+        },
+        {
+          "type": "tracked_alias",
+          "canonical_name": "王者万象棋",
+          "q": "Honor of Kings: Chess",
+          "aliases": [
+            "王者万象棋"
+          ],
+          "since": "2026-09-12T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 0,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 0,
+              "total": 0,
+              "pages": 1,
+              "first_item": null,
+              "last_item": null
+            }
+          ],
+          "sample_sources": []
+        },
+        {
+          "type": "tracked_alias",
+          "canonical_name": "代号：Team2",
+          "q": "Team2",
+          "aliases": [
+            "代号：Team2",
+            "Squad Clash",
+            "Smash Realm"
+          ],
+          "since": "2026-09-12T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 0,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 0,
+              "total": 0,
+              "pages": 1,
+              "first_item": null,
+              "last_item": null
+            }
+          ],
+          "sample_sources": []
+        },
+        {
+          "type": "tracked_alias",
+          "canonical_name": "代号：Team2",
+          "q": "代号：Team2",
+          "aliases": [
+            "Team2",
+            "Squad Clash",
+            "Smash Realm"
+          ],
+          "since": "2026-09-12T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 0,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 0,
+              "total": 0,
+              "pages": 1,
+              "first_item": null,
+              "last_item": null
+            }
+          ],
+          "sample_sources": []
+        },
+        {
+          "type": "tracked_alias",
+          "canonical_name": "代号：Team2",
+          "q": "Squad Clash",
+          "aliases": [
+            "Team2",
+            "代号：Team2",
+            "Smash Realm"
+          ],
+          "since": "2026-09-12T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 0,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 0,
+              "total": 0,
+              "pages": 1,
+              "first_item": null,
+              "last_item": null
+            }
+          ],
+          "sample_sources": []
+        },
+        {
+          "type": "tracked_alias",
+          "canonical_name": "代号：Team2",
+          "q": "Smash Realm",
+          "aliases": [
+            "Team2",
+            "代号：Team2",
+            "Squad Clash"
+          ],
+          "since": "2026-09-12T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 0,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 0,
+              "total": 0,
+              "pages": 1,
+              "first_item": null,
+              "last_item": null
+            }
+          ],
+          "sample_sources": []
+        },
+        {
+          "type": "tracked_alias",
+          "canonical_name": "mo.co",
+          "q": "mo.co",
           "aliases": [],
+          "since": "2026-09-12T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 1,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 1,
+              "total": 1,
+              "pages": 1,
+              "first_item": {
+                "id": 31522,
+                "title": "上线之后，还能退回测试：Supercell 为什么要重做 Mo.co？",
+                "published": "2026-10-04T13:47:15+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MzU4NTcxMjE1Mg==&mid=2247497484&idx=1&sn=b72491d53b96ae4b6d0556540913fc61&chksm=fccdf2c7d64befe85512e52de4b974772ed83001778f8e70f420cb81f7c3a80c0af0c3de1579&scene=126&sessionid=0#rd"
+              },
+              "last_item": {
+                "id": 31522,
+                "title": "上线之后，还能退回测试：Supercell 为什么要重做 Mo.co？",
+                "published": "2026-10-04T13:47:15+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MzU4NTcxMjE1Mg==&mid=2247497484&idx=1&sn=b72491d53b96ae4b6d0556540913fc61&chksm=fccdf2c7d64befe85512e52de4b974772ed83001778f8e70f420cb81f7c3a80c0af0c3de1579&scene=126&sessionid=0#rd"
+              }
+            }
+          ],
+          "sample_sources": [
+            {
+              "id": 31522,
+              "title": "上线之后，还能退回测试：Supercell 为什么要重做 Mo.co？",
+              "published": "2026-10-04T13:47:15+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzU4NTcxMjE1Mg==&mid=2247497484&idx=1&sn=b72491d53b96ae4b6d0556540913fc61&chksm=fccdf2c7d64befe85512e52de4b974772ed83001778f8e70f420cb81f7c3a80c0af0c3de1579&scene=126&sessionid=0#rd"
+            }
+          ]
+        },
+        {
+          "type": "tracked_alias",
+          "canonical_name": "Aniimo",
+          "q": "Aniimo",
+          "aliases": [
+            "伊莫"
+          ],
+          "since": "2026-09-12T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
@@ -317,86 +1383,250 @@
               "page_size": 100,
               "count": 3,
               "total": 3,
-              "pages": 1
+              "pages": 1,
+              "first_item": {
+                "id": 31283,
+                "title": "冲17万在线：《伊莫》悄悄打了一场后劲战？",
+                "published": "2026-09-29T11:09:02+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5MDEwMTk2MA==&mid=2651305095&idx=1&sn=801936dfd390426e7f4537d709b091e8&chksm=bc5d6003a8ebd74a2befa48f0e466eebc4a3347d3502bb674ed1981718ad153562aec4782262&scene=126&sessionid=0#rd"
+              },
+              "last_item": {
+                "id": 30537,
+                "title": "出海洞察丨OpenAI按下IPO暂停键，FunPlus《伊莫》全球上线",
+                "published": "2026-09-18T09:20:14+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=Mzg3NDU0MTA0OA==&mid=2247527750&idx=1&sn=a6c1a6f631d75310508daff82bbc50c5&chksm=cfebc1ae6f408618e077265f34df8c9755af647520b9e9064c78af38cdcbcd3ffa3d71374023&scene=126&sessionid=0#rd"
+              }
+            }
+          ],
+          "sample_sources": [
+            {
+              "id": 31283,
+              "title": "冲17万在线：《伊莫》悄悄打了一场后劲战？",
+              "published": "2026-09-29T11:09:02+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5MDEwMTk2MA==&mid=2651305095&idx=1&sn=801936dfd390426e7f4537d709b091e8&chksm=bc5d6003a8ebd74a2befa48f0e466eebc4a3347d3502bb674ed1981718ad153562aec4782262&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 30770,
+              "title": "流水全球前10，FunPlus用史上最大投入做了一款“帕鲁Like”",
+              "published": "2026-09-21T14:38:39+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzIwOTc2MjY2MA==&mid=2247551852&idx=2&sn=b28a95da610a46e7d897bac4ec1d5991&chksm=96b6cb0e9888db612ac80180022098ca5eba3f58d374bd8a603e3e1535ce1fa1f6ef8f68b8ad&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 30537,
+              "title": "出海洞察丨OpenAI按下IPO暂停键，FunPlus《伊莫》全球上线",
+              "published": "2026-09-18T09:20:14+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=Mzg3NDU0MTA0OA==&mid=2247527750&idx=1&sn=a6c1a6f631d75310508daff82bbc50c5&chksm=cfebc1ae6f408618e077265f34df8c9755af647520b9e9064c78af38cdcbcd3ffa3d71374023&scene=126&sessionid=0#rd"
             }
           ]
         },
         {
-          "type": "tracked_exact_name",
-          "q": "蓝色星原：旅谣",
-          "aliases": [],
+          "type": "tracked_alias",
+          "canonical_name": "Aniimo",
+          "q": "伊莫",
+          "aliases": [
+            "Aniimo"
+          ],
+          "since": "2026-09-12T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
-          "articles": 1,
+          "articles": 29,
           "page_receipts": [
             {
               "page": 1,
               "page_size": 100,
-              "count": 1,
-              "total": 1,
-              "pages": 1
+              "count": 29,
+              "total": 29,
+              "pages": 1,
+              "first_item": {
+                "id": 31773,
+                "title": "9月PC榜：腾讯《王者万象棋》、FunPlus《伊莫》空降榜单",
+                "published": "2026-10-10T06:40:07+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5OTc2ODUxMw==&mid=2650026391&idx=2&sn=f31f6b04205d6e9157fddafc7fdc13c3&chksm=bee17f20bbc6bf0551eca808b248624fe22ba0be8cbdfaccd73431d00fa96d7a2bcaa2b93923&scene=126&sessionid=0#rd"
+              },
+              "last_item": {
+                "id": 30172,
+                "title": "9月14日—9月20日共有29款游戏开测｜GameRes",
+                "published": "2026-09-13T13:29:00+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5NTMxNTU0MQ==&mid=2650048431&idx=2&sn=0f5b64d8f914442dc311dbf30b7fe7ca&chksm=bf1f62f7a942e976268adf4ef85aaae9cdc62c1d2330ef0afb1b40cc95cf957107760475d330&scene=126&sessionid=0#rd"
+              }
+            }
+          ],
+          "sample_sources": [
+            {
+              "id": 31773,
+              "title": "9月PC榜：腾讯《王者万象棋》、FunPlus《伊莫》空降榜单",
+              "published": "2026-10-10T06:40:07+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5OTc2ODUxMw==&mid=2650026391&idx=2&sn=f31f6b04205d6e9157fddafc7fdc13c3&chksm=bee17f20bbc6bf0551eca808b248624fe22ba0be8cbdfaccd73431d00fa96d7a2bcaa2b93923&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31283,
+              "title": "冲17万在线：《伊莫》悄悄打了一场后劲战？",
+              "published": "2026-09-29T11:09:02+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5MDEwMTk2MA==&mid=2651305095&idx=1&sn=801936dfd390426e7f4537d709b091e8&chksm=bc5d6003a8ebd74a2befa48f0e466eebc4a3347d3502bb674ed1981718ad153562aec4782262&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31213,
+              "title": "2026年最挤的赛道，都遇见同一个问题",
+              "published": "2026-09-28T10:48:10+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzkzOTYwMjE2NA==&mid=2247554412&idx=1&sn=cb9a92c440efc15f783cf499eb39e84b&chksm=c33df12c0cfc61a9820f98d78700b409fb8fe733b963f5f16b405a937992f9e5bf4060132c16&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31214,
+              "title": "王者荣耀中国队成功卫冕亚运金牌 / 米哈游反舞弊通报 /《源初之结》放弃抽卡机制",
+              "published": "2026-09-28T10:48:10+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzkzOTYwMjE2NA==&mid=2247554412&idx=2&sn=359ec768d2971d125120f7fb173dc523&chksm=c38148721ade4c68081090203e6dcf0ae52a9805a96b4bf17906be2bf1d5705cf1c7db60f6da&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31098,
+              "title": "《伊莫》诊断",
+              "published": "2026-09-27T02:05:03+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzU1NzA0NTg3MA==&mid=2247484370&idx=1&sn=efba1539e8e05b1e323437c4463b2c9f&chksm=fde7904715acb0b52a3a07f57ae2f52776c9b502e48b8f684853ab646cc0a7962233322054a2&scene=126&sessionid=0#rd"
             }
           ]
         },
         {
-          "type": "tracked_exact_name",
-          "q": "Dressmaker",
-          "aliases": [],
+          "type": "tracked_alias",
+          "canonical_name": "闪耀吧！噜咪",
+          "q": "闪耀吧！噜咪",
+          "aliases": [
+            "噜咪"
+          ],
+          "since": "2026-09-12T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
-          "articles": 0,
+          "articles": 38,
           "page_receipts": [
             {
               "page": 1,
               "page_size": 100,
-              "count": 0,
-              "total": 0,
-              "pages": 1
+              "count": 38,
+              "total": 38,
+              "pages": 1,
+              "first_item": {
+                "id": 31777,
+                "title": "微信小游戏畅销榜TOP100｜10月10日：天龙八部荣耀版↑21夺黑马，IP改编线集体上冲，头部进入平台期",
+                "published": "2026-10-10T06:35:35+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MzA5MTM4NzE3MA==&mid=2648748437&idx=1&sn=d0d841284cae0933852eef21fa0b476d&chksm=89101a722864c909bdf02b13982e691b4cbcc5d7c7e074d3b18ab995f4b90001a7cbcf723251&scene=126&sessionid=0#rd"
+              },
+              "last_item": {
+                "id": 30140,
+                "title": "上海厂商下周正面PK新兴赛道；穿越火线研发商创始人离婚前妻分127个亿｜HOT周报",
+                "published": "2026-09-13T05:00:37+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MzkwMjY0ODI1Mg==&mid=2247578008&idx=1&sn=6d6d92bd24a5ddf4e283c247b3da8a3b&chksm=c1a07ef9aab5374a4b48463b79483c4e3ab8ee8f818bddc27e9d4efc0d1ab72009b16c1236d2&scene=126&sessionid=0#rd"
+              }
+            }
+          ],
+          "sample_sources": [
+            {
+              "id": 31777,
+              "title": "微信小游戏畅销榜TOP100｜10月10日：天龙八部荣耀版↑21夺黑马，IP改编线集体上冲，头部进入平台期",
+              "published": "2026-10-10T06:35:35+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzA5MTM4NzE3MA==&mid=2648748437&idx=1&sn=d0d841284cae0933852eef21fa0b476d&chksm=89101a722864c909bdf02b13982e691b4cbcc5d7c7e074d3b18ab995f4b90001a7cbcf723251&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31716,
+              "title": "微信小游戏畅销榜TOP100｜10月9日：英雄杀↑50夺黑马，卡牌线集体爆发，向僵尸开炮夺回榜首",
+              "published": "2026-10-09T08:37:44+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzA5MTM4NzE3MA==&mid=2648748431&idx=1&sn=f6fa1ecf09b5ac726dc2887fce30c9e4&chksm=89b2f3f5d5b055d2775d74a468c74e01fc4a33c8962d926e91db43e7ed504f42a54077e426aa&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31629,
+              "title": "微信小游戏畅销榜TOP100｜10月8日：三国冰河时代霸榜，花札物语↑49夺黑马",
+              "published": "2026-10-08T07:40:12+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzA5MTM4NzE3MA==&mid=2648748399&idx=1&sn=bfe3d66b6fd7dc1dd96efd88e2081093&chksm=89dc539b74b01251097c17a4be9f5728de8a293f5ba1e11e1eac8f7f69340a29c93fe0449b1e&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31627,
+              "title": "微信小游戏畅销榜TOP100｜10月7日：狱国争霸↑23夺黑马，头部前5连续三天锁死",
+              "published": "2026-10-07T12:20:56+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzA5MTM4NzE3MA==&mid=2648748386&idx=1&sn=71bb890246f7b701d073aa1db1c87e19&chksm=89860518d2c2bdbc75ff454be72d70054153151300cf8c629cf433505f135c221cd62f344528&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31569,
+              "title": "微信小游戏畅销榜TOP100｜10月6日：秘密花园HD↑18夺黑马，头部前5连续两日锁死",
+              "published": "2026-10-06T12:02:22+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzA5MTM4NzE3MA==&mid=2648748374&idx=1&sn=0c0718a6558a2b184521eb3fa57bf5a0&chksm=89f2b371d3db039d9b0098663bf7663ba638147313973f52735706586773a6455a4d4a9b5008&scene=126&sessionid=0#rd"
             }
           ]
         },
         {
-          "type": "tracked_exact_name",
-          "q": "崩坏：因缘精灵",
-          "aliases": [],
+          "type": "tracked_alias",
+          "canonical_name": "闪耀吧！噜咪",
+          "q": "噜咪",
+          "aliases": [
+            "闪耀吧！噜咪"
+          ],
+          "since": "2026-09-12T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
-          "articles": 1,
+          "articles": 15,
           "page_receipts": [
             {
               "page": 1,
               "page_size": 100,
-              "count": 1,
-              "total": 1,
-              "pages": 1
+              "count": 15,
+              "total": 15,
+              "pages": 1,
+              "first_item": {
+                "id": 31222,
+                "title": "女性向+休闲捉宠双出彩:恋与深空回暖，闪耀吧噜咪跻身iOS畅销榜",
+                "published": "2026-09-29T06:01:56+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MzI3OTAxOTg0MA==&mid=2649969564&idx=1&sn=ccb60c3e27ede7cd518057aae04a2ad0&chksm=f2c3d58454605a3a54edfaad55d7de0e89a1d55bec10b23b9436fb47a702e924142281a7b9f1&scene=126&sessionid=0#rd"
+              },
+              "last_item": {
+                "id": 30140,
+                "title": "上海厂商下周正面PK新兴赛道；穿越火线研发商创始人离婚前妻分127个亿｜HOT周报",
+                "published": "2026-09-13T05:00:37+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MzkwMjY0ODI1Mg==&mid=2247578008&idx=1&sn=6d6d92bd24a5ddf4e283c247b3da8a3b&chksm=c1a07ef9aab5374a4b48463b79483c4e3ab8ee8f818bddc27e9d4efc0d1ab72009b16c1236d2&scene=126&sessionid=0#rd"
+              }
             }
-          ]
-        },
-        {
-          "type": "tracked_exact_name",
-          "q": "Aniimo",
-          "aliases": [],
-          "status": "success",
-          "expected_pages": 1,
-          "fetched_pages": 1,
-          "articles": 0,
-          "page_receipts": [
+          ],
+          "sample_sources": [
             {
-              "page": 1,
-              "page_size": 100,
-              "count": 0,
-              "total": 0,
-              "pages": 1
+              "id": 31222,
+              "title": "女性向+休闲捉宠双出彩:恋与深空回暖，闪耀吧噜咪跻身iOS畅销榜",
+              "published": "2026-09-29T06:01:56+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzI3OTAxOTg0MA==&mid=2649969564&idx=1&sn=ccb60c3e27ede7cd518057aae04a2ad0&chksm=f2c3d58454605a3a54edfaad55d7de0e89a1d55bec10b23b9436fb47a702e924142281a7b9f1&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 30893,
+              "title": "首月8000万流水，B站、莉莉丝撞车畅销榜：轻度游戏正在接管手游大盘",
+              "published": "2026-09-23T11:59:31+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5Njc5MjgyMA==&mid=2989877251&idx=1&sn=c0d817ae24268bc853adb94739eae6b0&chksm=90a632fb37ddcbc48d23c588d1328dfa2fd03407d34d777807c31be1c4d8906bdc702d79f98f&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 30872,
+              "title": "玩啥？TapTap新品榜前 10 手游，哪款好玩",
+              "published": "2026-09-23T10:01:08+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzYzMTA1NzIyMQ==&mid=2247494781&idx=2&sn=9f3bc31a6cc148b264e8e42eb482695d&chksm=f146665d5711693e54052a728f6ad91758d8b60ea2219ddee7d934b01835d8bbfa57b028c79a&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 30744,
+              "title": "老牌SLG韧性不减  《三国志・战略版》《率土之滨》重回榜单 | iOS畅销周榜",
+              "published": "2026-09-21T11:09:20+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzI3OTAxOTg0MA==&mid=2649969426&idx=1&sn=32d3a16f757bdfe17bdb870a21e6c415&chksm=f2072a6f278291164b2ab0a740f52cf8b8c1eb42fbbea45462d4357fc1546cef282d937796a9&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 30626,
+              "title": "免费榜第二，畅销榜却排到90多名，B站这款捉宠新游在赚谁的钱？",
+              "published": "2026-09-19T15:53:36+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=Mzk2NDEwMDU4Ng==&mid=2247508190&idx=1&sn=db9c12b50c5df7fceef3799befdd20eb&chksm=c518cdf663ef20a8fb3b1b23679f24edaf55be309fcdef4c492da024a7336485362470140632&scene=126&sessionid=0#rd"
             }
           ]
         },
         {
-          "type": "tracked_exact_name",
-          "q": "王者万象棋",
+          "type": "tracked_alias",
+          "canonical_name": "火人冲冲冲",
+          "q": "火人冲冲冲",
           "aliases": [],
+          "since": "2026-09-12T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
@@ -407,111 +1637,819 @@
               "page_size": 100,
               "count": 2,
               "total": 2,
-              "pages": 1
+              "pages": 1,
+              "first_item": {
+                "id": 31045,
+                "title": "凉屋布局轻竞技，《火人冲冲冲》自动打架，怎么还这么多纠结？",
+                "published": "2026-09-25T13:48:22+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MzU4NTcxMjE1Mg==&mid=2247497150&idx=1&sn=3ae87fc1463c73c646e80387a1a89134&chksm=fcafc3c0471ffac1b5827f98d679ba7700dcff6bdab9b871242ab768e3de770437af1a4e3dc1&scene=126&sessionid=0#rd"
+              },
+              "last_item": {
+                "id": 30470,
+                "title": "腾讯Supercell前成员的创业公司解散，游戏疑似移交字节运营",
+                "published": "2026-09-17T11:08:47+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzMzNjM3OQ==&mid=2247572967&idx=1&sn=4dbd93dc56fc2e09aaa3f9c2ddd19f19&chksm=cf50db33249c5e1e5e1e927acc72356e3faa1a7e3c000b7d439ec048694b91b9692ce4cc1209&scene=126&sessionid=0#rd"
+              }
+            }
+          ],
+          "sample_sources": [
+            {
+              "id": 31045,
+              "title": "凉屋布局轻竞技，《火人冲冲冲》自动打架，怎么还这么多纠结？",
+              "published": "2026-09-25T13:48:22+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzU4NTcxMjE1Mg==&mid=2247497150&idx=1&sn=3ae87fc1463c73c646e80387a1a89134&chksm=fcafc3c0471ffac1b5827f98d679ba7700dcff6bdab9b871242ab768e3de770437af1a4e3dc1&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 30470,
+              "title": "腾讯Supercell前成员的创业公司解散，游戏疑似移交字节运营",
+              "published": "2026-09-17T11:08:47+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzMzNjM3OQ==&mid=2247572967&idx=1&sn=4dbd93dc56fc2e09aaa3f9c2ddd19f19&chksm=cf50db33249c5e1e5e1e927acc72356e3faa1a7e3c000b7d439ec048694b91b9692ce4cc1209&scene=126&sessionid=0#rd"
             }
           ]
         },
         {
-          "type": "tracked_exact_name",
+          "type": "tracked_alias",
+          "canonical_name": "奇遇动物城",
+          "q": "奇遇动物城",
+          "aliases": [],
+          "since": "2026-09-12T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 15,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 15,
+              "total": 15,
+              "pages": 1,
+              "first_item": {
+                "id": 31555,
+                "title": "不再死磕SLG！莉莉丝多赛道铺开，休闲新品海外收入大涨42%",
+                "published": "2026-10-06T03:18:40+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MzY5NzQwMDgzOQ==&mid=2247484427&idx=1&sn=f1154625ebd390f22d1549c5db98017f&chksm=f53b515e8f554d4f5d49d01ccc9a3a4606dcc03639f156b55907341714229a0687618f7978e1&scene=126&sessionid=0#rd"
+              },
+              "last_item": {
+                "id": 30943,
+                "title": "颠覆常识？莉莉丝今天首曝的生活模拟新游，是人和动物同住的现代都市",
+                "published": "2026-09-24T08:09:45+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5OTc2ODUxMw==&mid=2650025609&idx=1&sn=eba3ae2adb4d52ed92a21ce8fd967a38&chksm=be8a804bc1fada086ef19c45d3243a42c99931f8376469c8e2cc23c02fab0a4501e531d7faf7&scene=126&sessionid=0#rd"
+              }
+            }
+          ],
+          "sample_sources": [
+            {
+              "id": 31555,
+              "title": "不再死磕SLG！莉莉丝多赛道铺开，休闲新品海外收入大涨42%",
+              "published": "2026-10-06T03:18:40+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzY5NzQwMDgzOQ==&mid=2247484427&idx=1&sn=f1154625ebd390f22d1549c5db98017f&chksm=f53b515e8f554d4f5d49d01ccc9a3a4606dcc03639f156b55907341714229a0687618f7978e1&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31468,
+              "title": "在上海，小红书也来做二次元开放世界",
+              "published": "2026-10-02T14:35:26+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzkwMjY0ODI1Mg==&mid=2247579605&idx=1&sn=2dbd930814b096b882cc2b1543cd1c53&chksm=c12e8a4cfb1e53028709c1efdfb6bfb2f76a69a695f4683bf8683ce2bd5ffcf640c39e0e5a8a&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31424,
+              "title": "出海榜单洗牌：点点互动双游霸榜，柠檬微趣稳居合成赛道头部",
+              "published": "2026-10-02T01:50:09+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzY5NzQwMDgzOQ==&mid=2247484386&idx=1&sn=610bc2cf7d97a9e6eaa960a7f29cfc03&chksm=f520e2911a2708230285f961b1ec57f0bad3d5b121cc4a9bf98fcf5ec85dd562ad2472d65d82&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31499,
+              "title": "首曝一年两次测试，腾讯这款生活模拟新游立住了吗？",
+              "published": "2026-10-01T13:57:46+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzMzNjM3OQ==&mid=2247573570&idx=1&sn=f82a9e92604d9900e2f0c68d5554a96b&chksm=cf3295364151c862fa3bec0b2ed165b5acfb4fd5c7b8a017856cea84f8863daea1d33c36afad&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31140,
+              "title": "国庆档腾网米决战上海滩；沙特土豪出手上海二游厂商｜HOT周报",
+              "published": "2026-09-27T15:03:52+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzkwMjY0ODI1Mg==&mid=2247579384&idx=2&sn=dcfcbe28b50cd3c8dc0c1f6b6c03f0f0&chksm=c168869737fb9709c0819f4580390e542374a55d4108af1d4079c789522156635a6dcafdbee2&scene=126&sessionid=0#rd"
+            }
+          ]
+        },
+        {
+          "type": "tracked_alias",
+          "canonical_name": "未眠野",
+          "q": "未眠野",
+          "aliases": [],
+          "since": "2026-09-12T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 15,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 15,
+              "total": 15,
+              "pages": 1,
+              "first_item": {
+                "id": 31459,
+                "title": "乐元素员工爆料: 国庆只放两天, 三倍工资",
+                "published": "2026-10-02T15:55:19+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=Mzk0NTg0MTg2MQ==&mid=2247491837&idx=1&sn=6c05a938028b19bdad170801af31b0de&chksm=c2cd18e6bae6c8e2dd85aeb8b51e10b4b247dcd3e577f76e2d27e005b1ef11dfc809c315dfad&scene=126&sessionid=0#rd"
+              },
+              "last_item": {
+                "id": 30111,
+                "title": "首曝3天，刷屏游戏圈：这款成都大世界火了",
+                "published": "2026-09-12T11:34:07+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5MDEwMTk2MA==&mid=2651304174&idx=1&sn=a5f401fcca34ad32d54c2718a721ae26&chksm=bc97871b09df5133dab8d5f57cc9fa0a0622b6dfe028ab901f164be341ec09286ac11a1af85f&scene=126&sessionid=0#rd"
+              }
+            }
+          ],
+          "sample_sources": [
+            {
+              "id": 31459,
+              "title": "乐元素员工爆料: 国庆只放两天, 三倍工资",
+              "published": "2026-10-02T15:55:19+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=Mzk0NTg0MTg2MQ==&mid=2247491837&idx=1&sn=6c05a938028b19bdad170801af31b0de&chksm=c2cd18e6bae6c8e2dd85aeb8b51e10b4b247dcd3e577f76e2d27e005b1ef11dfc809c315dfad&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31004,
+              "title": "试玩《未眠野》：让开放世界的自由，落到玩家手里",
+              "published": "2026-09-24T14:23:03+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5NzQwMjI4MA==&mid=2657337234&idx=2&sn=d50a20d7a02f0ceb23f8b9126a501a47&chksm=bcb483cc5890c3249747f0f82c87635c315c83041766eff28f70d100af6d0791b4ce30d5f42d&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 30969,
+              "title": "成都团队《未眠野》开启测试，这款开放世界游戏能破局吗？",
+              "published": "2026-09-24T10:43:42+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzMzNjM3OQ==&mid=2247573404&idx=1&sn=0dc5ab0e500d29ee12841b581c4b8e2f&chksm=cff45834abc5c55a16e2179261199fb45268e05d9ce3646b0de3e24df25f46c4fb4e6ad97e4b&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 30965,
+              "title": "已开发18年！育碧确认《超越善恶2》仍在制作！",
+              "published": "2026-09-24T10:28:04+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=Mzg2MjgzODk2OQ==&mid=2247503325&idx=1&sn=371912d9e969888584e82ac4a54c1ebe&chksm=cfc4fe36b4e140503b82f381c31812ace62bcd7feb5d2f771f3a71586a2d60e51683f222c2ab&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 30936,
+              "title": "成都最新开放世界首测，对话项目组：想攻坚技术与交互的天花板",
+              "published": "2026-09-24T03:47:21+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzkwMjY0ODI1Mg==&mid=2247579270&idx=1&sn=f3e05f380d98f90de8c5b5e6bb8096b1&chksm=c1118475233e50f20544124b619f6ff5a555aed6aca38e3865569da5e71ae1bf8304c6efa193&scene=126&sessionid=0#rd"
+            }
+          ]
+        },
+        {
+          "type": "tracked_alias",
+          "canonical_name": "Dressmaker",
+          "q": "Dressmaker",
+          "aliases": [
+            "针影裁梦"
+          ],
+          "since": "2026-09-12T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 2,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 2,
+              "total": 2,
+              "pages": 1,
+              "first_item": {
+                "id": 31356,
+                "title": "裁缝知道得还是太多了丨触乐怪话",
+                "published": "2026-09-30T12:34:40+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MzA4MDIxNzkyNA==&mid=2658925221&idx=2&sn=695fb887304fd46899bad692d88ef2e7&chksm=8594556c7db2ea1e7ac448024e2497d66327a2ee49dec6fa51d620c5a671364d5dc62986d1b2&scene=126&sessionid=0#rd"
+              },
+              "last_item": {
+                "id": 30918,
+                "title": "“让女玩家做裙子的游戏火了”！3人开发《针影裁梦》好评96%, Steam在线破万人",
+                "published": "2026-09-23T15:24:57+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5NzQwMjI4MA==&mid=2657337073&idx=4&sn=f854af03628a1d1426f3424f5f235665&chksm=bcf4eef26c909665b0210b08ac4157752dd1418b04c0338dc9c0a5f4ec37b8ec018f51f60208&scene=126&sessionid=0#rd"
+              }
+            }
+          ],
+          "sample_sources": [
+            {
+              "id": 31356,
+              "title": "裁缝知道得还是太多了丨触乐怪话",
+              "published": "2026-09-30T12:34:40+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzA4MDIxNzkyNA==&mid=2658925221&idx=2&sn=695fb887304fd46899bad692d88ef2e7&chksm=8594556c7db2ea1e7ac448024e2497d66327a2ee49dec6fa51d620c5a671364d5dc62986d1b2&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 30918,
+              "title": "“让女玩家做裙子的游戏火了”！3人开发《针影裁梦》好评96%, Steam在线破万人",
+              "published": "2026-09-23T15:24:57+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5NzQwMjI4MA==&mid=2657337073&idx=4&sn=f854af03628a1d1426f3424f5f235665&chksm=bcf4eef26c909665b0210b08ac4157752dd1418b04c0338dc9c0a5f4ec37b8ec018f51f60208&scene=126&sessionid=0#rd"
+            }
+          ]
+        },
+        {
+          "type": "tracked_alias",
+          "canonical_name": "Dressmaker",
+          "q": "针影裁梦",
+          "aliases": [
+            "Dressmaker"
+          ],
+          "since": "2026-09-12T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 2,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 2,
+              "total": 2,
+              "pages": 1,
+              "first_item": {
+                "id": 31356,
+                "title": "裁缝知道得还是太多了丨触乐怪话",
+                "published": "2026-09-30T12:34:40+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MzA4MDIxNzkyNA==&mid=2658925221&idx=2&sn=695fb887304fd46899bad692d88ef2e7&chksm=8594556c7db2ea1e7ac448024e2497d66327a2ee49dec6fa51d620c5a671364d5dc62986d1b2&scene=126&sessionid=0#rd"
+              },
+              "last_item": {
+                "id": 30918,
+                "title": "“让女玩家做裙子的游戏火了”！3人开发《针影裁梦》好评96%, Steam在线破万人",
+                "published": "2026-09-23T15:24:57+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5NzQwMjI4MA==&mid=2657337073&idx=4&sn=f854af03628a1d1426f3424f5f235665&chksm=bcf4eef26c909665b0210b08ac4157752dd1418b04c0338dc9c0a5f4ec37b8ec018f51f60208&scene=126&sessionid=0#rd"
+              }
+            }
+          ],
+          "sample_sources": [
+            {
+              "id": 31356,
+              "title": "裁缝知道得还是太多了丨触乐怪话",
+              "published": "2026-09-30T12:34:40+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzA4MDIxNzkyNA==&mid=2658925221&idx=2&sn=695fb887304fd46899bad692d88ef2e7&chksm=8594556c7db2ea1e7ac448024e2497d66327a2ee49dec6fa51d620c5a671364d5dc62986d1b2&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 30918,
+              "title": "“让女玩家做裙子的游戏火了”！3人开发《针影裁梦》好评96%, Steam在线破万人",
+              "published": "2026-09-23T15:24:57+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5NzQwMjI4MA==&mid=2657337073&idx=4&sn=f854af03628a1d1426f3424f5f235665&chksm=bcf4eef26c909665b0210b08ac4157752dd1418b04c0338dc9c0a5f4ec37b8ec018f51f60208&scene=126&sessionid=0#rd"
+            }
+          ]
+        },
+        {
+          "type": "tracked_alias",
+          "canonical_name": "源初之结",
+          "q": "源初之结",
+          "aliases": [],
+          "since": "2026-09-12T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 36,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 36,
+              "total": 36,
+              "pages": 1,
+              "first_item": {
+                "id": 31680,
+                "title": "线上线下共繁华｜国庆假期游戏营收30强",
+                "published": "2026-10-08T11:26:14+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MzI3OTAxOTg0MA==&mid=2649969679&idx=1&sn=43ffd7ce4fd80b3846b1e6c89a63c951&chksm=f276c36ce31c3594f8c333bf208802d647a42b56d9163b73ca79463fe3b5877ebc9aa8a5d2d0&scene=126&sessionid=0#rd"
+              },
+              "last_item": {
+                "id": 30094,
+                "title": "2026中国七大二次元游戏公司",
+                "published": "2026-09-12T07:18:49+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=Mzk0OTg3ODM3Ng==&mid=2247494707&idx=1&sn=cbd66c7b3fe92478cfa32e710efc6a5a&chksm=c24def72cd6737656721c7e50a6af914f547e62dffcb82b17a58f72b78e77369ebbcc68ea09a&scene=126&sessionid=0#rd"
+              }
+            }
+          ],
+          "sample_sources": [
+            {
+              "id": 31680,
+              "title": "线上线下共繁华｜国庆假期游戏营收30强",
+              "published": "2026-10-08T11:26:14+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzI3OTAxOTg0MA==&mid=2649969679&idx=1&sn=43ffd7ce4fd80b3846b1e6c89a63c951&chksm=f276c36ce31c3594f8c333bf208802d647a42b56d9163b73ca79463fe3b5877ebc9aa8a5d2d0&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31662,
+              "title": "《三角洲行动》日活突破5800万，华纳千亿美元合并，《艾希》续作众筹破3000万丨陀螺周报",
+              "published": "2026-10-08T11:25:55+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5Njc5MjgyMA==&mid=2989877659&idx=1&sn=adbbf0ad8ea2156e51632d229ee8c0d4&chksm=901af311126a13e1b42789ddfd8942931bd1fe8ff939dcad2fb1e483a647bf8eacaec3c4baef&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31615,
+              "title": "米哈游9月动作密集！治愈新作《星布谷地》开启计费测试，原神/星穹铁道/绝区零全球版本接连上线",
+              "published": "2026-10-07T02:26:19+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzY5NzQwMDgzOQ==&mid=2247484432&idx=1&sn=1dca278e84e14f1d8e8ee7873a19bd6d&chksm=f528a64df97944bb571c103be13aa04f85d7f986f109406ccd44aaf1b3554f01633341863741&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31551,
+              "title": "这是入职米哈游最好的时机",
+              "published": "2026-10-05T15:43:55+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=Mzk4ODk3NDMwMA==&mid=2247487230&idx=1&sn=bc1c260bffda919058b36ab50673dfe0&chksm=c4e0f801ed664f0a1c55df51656c4640a985d86d8f2e26b99b052368b454b8739802fb853ea4&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31486,
+              "title": "又双叒叕一款SLG新游曝光：卧龙吟IP新作《三国：卧龙归来》首曝",
+              "published": "2026-10-03T14:13:56+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzEwMzkyNQ==&mid=2247494496&idx=1&sn=8c8cdb606dd1ae878513bf50bbe40386&chksm=cfc451e0c53087be44baa17887a0969f15272555242aa41bca2dfcd16d94c7370aaae077a57b&scene=126&sessionid=0#rd"
+            }
+          ]
+        },
+        {
+          "type": "tracked_alias",
+          "canonical_name": "时之铃",
           "q": "时之铃",
           "aliases": [],
+          "since": "2026-09-12T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
-          "articles": 0,
+          "articles": 1,
           "page_receipts": [
             {
               "page": 1,
               "page_size": 100,
-              "count": 0,
-              "total": 0,
-              "pages": 1
+              "count": 1,
+              "total": 1,
+              "pages": 1,
+              "first_item": {
+                "id": 30529,
+                "title": "对话异类二游制作人：不做同质化产品，内部测了两年都没玩腻",
+                "published": "2026-09-18T07:16:45+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5NTIzNjA2MA==&mid=2651810989&idx=1&sn=003466cfc0a073a972ebc7a0216e99f1&chksm=bc22b90eae782688fec25efaf020c6c0beb017b843b90b2e224e5ab0c40b30db2c11fce0e077&scene=126&sessionid=0#rd"
+              },
+              "last_item": {
+                "id": 30529,
+                "title": "对话异类二游制作人：不做同质化产品，内部测了两年都没玩腻",
+                "published": "2026-09-18T07:16:45+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5NTIzNjA2MA==&mid=2651810989&idx=1&sn=003466cfc0a073a972ebc7a0216e99f1&chksm=bc22b90eae782688fec25efaf020c6c0beb017b843b90b2e224e5ab0c40b30db2c11fce0e077&scene=126&sessionid=0#rd"
+              }
+            }
+          ],
+          "sample_sources": [
+            {
+              "id": 30529,
+              "title": "对话异类二游制作人：不做同质化产品，内部测了两年都没玩腻",
+              "published": "2026-09-18T07:16:45+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5NTIzNjA2MA==&mid=2651810989&idx=1&sn=003466cfc0a073a972ebc7a0216e99f1&chksm=bc22b90eae782688fec25efaf020c6c0beb017b843b90b2e224e5ab0c40b30db2c11fce0e077&scene=126&sessionid=0#rd"
             }
           ]
         },
         {
-          "type": "tracked_exact_name",
-          "q": "灵动小镇",
+          "type": "tracked_alias",
+          "canonical_name": "蓝色星原：旅谣",
+          "q": "蓝色星原：旅谣",
           "aliases": [],
+          "since": "2026-09-12T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
-          "articles": 0,
+          "articles": 24,
           "page_receipts": [
             {
               "page": 1,
               "page_size": 100,
-              "count": 0,
-              "total": 0,
-              "pages": 1
+              "count": 24,
+              "total": 24,
+              "pages": 1,
+              "first_item": {
+                "id": 31813,
+                "title": "TapTap 10 月手游预约榜前 10 ，网易新游首爆",
+                "published": "2026-10-10T11:04:52+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MzYzMTA1NzIyMQ==&mid=2247495362&idx=2&sn=fe82bdaae991f59ea7fb5105f1f09508&chksm=f1c0c41913e96d26f121b66af7ce5d8031cc7d4fe9161007f1f7335df16305509424574a9bf6&scene=126&sessionid=0#rd"
+              },
+              "last_item": {
+                "id": 30140,
+                "title": "上海厂商下周正面PK新兴赛道；穿越火线研发商创始人离婚前妻分127个亿｜HOT周报",
+                "published": "2026-09-13T05:00:37+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MzkwMjY0ODI1Mg==&mid=2247578008&idx=1&sn=6d6d92bd24a5ddf4e283c247b3da8a3b&chksm=c1a07ef9aab5374a4b48463b79483c4e3ab8ee8f818bddc27e9d4efc0d1ab72009b16c1236d2&scene=126&sessionid=0#rd"
+              }
+            }
+          ],
+          "sample_sources": [
+            {
+              "id": 31813,
+              "title": "TapTap 10 月手游预约榜前 10 ，网易新游首爆",
+              "published": "2026-10-10T11:04:52+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzYzMTA1NzIyMQ==&mid=2247495362&idx=2&sn=fe82bdaae991f59ea7fb5105f1f09508&chksm=f1c0c41913e96d26f121b66af7ce5d8031cc7d4fe9161007f1f7335df16305509424574a9bf6&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31690,
+              "title": "除了腾讯网易！这些过百万预约的手游，超期待",
+              "published": "2026-10-08T11:21:59+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzYzMTA1NzIyMQ==&mid=2247495298&idx=2&sn=8b83323752a896df778ec7f13bc2af40&chksm=f17d4f325440f2aabaca9d9dfa9cd1bb7c1e7355df51cddc2dc85e7e41fa9b4c4f189fee0d05&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31459,
+              "title": "乐元素员工爆料: 国庆只放两天, 三倍工资",
+              "published": "2026-10-02T15:55:19+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=Mzk0NTg0MTg2MQ==&mid=2247491837&idx=1&sn=6c05a938028b19bdad170801af31b0de&chksm=c2cd18e6bae6c8e2dd85aeb8b51e10b4b247dcd3e577f76e2d27e005b1ef11dfc809c315dfad&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31229,
+              "title": "2026的蛮啾网络, 给钱真不含糊!",
+              "published": "2026-09-29T03:39:55+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=Mzk0OTg3ODM3Ng==&mid=2247495113&idx=1&sn=566a60508c2139ed3a14b96b1fb3d399&chksm=c2d07ea961165b4b16a80877b664743ecedff1bfd9c9ee3295a375f7733912ef31ac6007ae9b&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31213,
+              "title": "2026年最挤的赛道，都遇见同一个问题",
+              "published": "2026-09-28T10:48:10+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MzkzOTYwMjE2NA==&mid=2247554412&idx=1&sn=cb9a92c440efc15f783cf499eb39e84b&chksm=c33df12c0cfc61a9820f98d78700b409fb8fe733b963f5f16b405a937992f9e5bf4060132c16&scene=126&sessionid=0#rd"
             }
           ]
         },
         {
-          "type": "tracked_exact_name",
-          "q": "闪耀吧！噜咪",
+          "type": "tracked_alias",
+          "canonical_name": "Project63",
+          "q": "Project63",
           "aliases": [],
+          "since": "2026-09-12T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
-          "articles": 3,
+          "articles": 2,
           "page_receipts": [
             {
               "page": 1,
               "page_size": 100,
-              "count": 3,
-              "total": 3,
-              "pages": 1
+              "count": 2,
+              "total": 2,
+              "pages": 1,
+              "first_item": {
+                "id": 31565,
+                "title": "灵犀新作《Project63》海外开测 ！重新定义东南亚题材！",
+                "published": "2026-10-06T15:08:13+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=Mzg2MjgzODk2OQ==&mid=2247503517&idx=1&sn=04fb0420085c5158df39b38004410f9b&chksm=cf0686a9a0ef215e4e9c3d5549168960c1a4ed8ebbb7d6833419fda93df2f750ca2ef0634a58&scene=126&sessionid=0#rd"
+              },
+              "last_item": {
+                "id": 31531,
+                "title": "灵犀互娱在东南亚市场测试了一款微恐摸金新游？",
+                "published": "2026-10-05T03:23:38+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzMzNjM3OQ==&mid=2247573606&idx=1&sn=0f5210a4267f6817401b91caa757aea5&chksm=cf1c28ae3e93943d3ac3d0c57989246b8df57971630f1cda409c8c761540c628d2d0b928686b&scene=126&sessionid=0#rd"
+              }
+            }
+          ],
+          "sample_sources": [
+            {
+              "id": 31565,
+              "title": "灵犀新作《Project63》海外开测 ！重新定义东南亚题材！",
+              "published": "2026-10-06T15:08:13+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=Mzg2MjgzODk2OQ==&mid=2247503517&idx=1&sn=04fb0420085c5158df39b38004410f9b&chksm=cf0686a9a0ef215e4e9c3d5549168960c1a4ed8ebbb7d6833419fda93df2f750ca2ef0634a58&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 31531,
+              "title": "灵犀互娱在东南亚市场测试了一款微恐摸金新游？",
+              "published": "2026-10-05T03:23:38+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzMzNjM3OQ==&mid=2247573606&idx=1&sn=0f5210a4267f6817401b91caa757aea5&chksm=cf1c28ae3e93943d3ac3d0c57989246b8df57971630f1cda409c8c761540c628d2d0b928686b&scene=126&sessionid=0#rd"
             }
           ]
         },
         {
-          "type": "tracked_exact_name",
-          "q": "代号：Team2",
-          "aliases": [],
+          "type": "tracked_alias",
+          "canonical_name": "Dear Passengers",
+          "q": "Dear Passengers",
+          "aliases": [
+            "亲爱的乘客"
+          ],
+          "since": "2026-09-12T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
-          "articles": 0,
+          "articles": 2,
           "page_receipts": [
             {
               "page": 1,
               "page_size": 100,
-              "count": 0,
-              "total": 0,
-              "pages": 1
+              "count": 2,
+              "total": 2,
+              "pages": 1,
+              "first_item": {
+                "id": 31177,
+                "title": "必火无疑！Steam预约破250万人、全球第3，《亲爱的乘客》是什么奇葩游戏",
+                "published": "2026-09-28T15:56:50+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5NzQwMjI4MA==&mid=2657337406&idx=5&sn=4ce17613b086a748034c50e6b7ec99c3&chksm=bc40a9db701060a778d1aec43318d9e9009806263608d004f329e7ec5455aa9dbd229f39f1f9&scene=126&sessionid=0#rd"
+              },
+              "last_item": {
+                "id": 30358,
+                "title": "2026年8月全球手游收入与下载量排行榜TOP10",
+                "published": "2026-09-16T01:24:02+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=Mzk4ODE0MzI3NQ==&mid=2247496369&idx=1&sn=dfd0514a3cdfa2af230c4a3fcd38a60a&chksm=c4a76e879678f00a98340fe675bec973b9112ab6c048c1df0fa12d1f719c65b7ca5b05e39624&scene=126&sessionid=0#rd"
+              }
+            }
+          ],
+          "sample_sources": [
+            {
+              "id": 31177,
+              "title": "必火无疑！Steam预约破250万人、全球第3，《亲爱的乘客》是什么奇葩游戏",
+              "published": "2026-09-28T15:56:50+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5NzQwMjI4MA==&mid=2657337406&idx=5&sn=4ce17613b086a748034c50e6b7ec99c3&chksm=bc40a9db701060a778d1aec43318d9e9009806263608d004f329e7ec5455aa9dbd229f39f1f9&scene=126&sessionid=0#rd"
+            },
+            {
+              "id": 30358,
+              "title": "2026年8月全球手游收入与下载量排行榜TOP10",
+              "published": "2026-09-16T01:24:02+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=Mzk4ODE0MzI3NQ==&mid=2247496369&idx=1&sn=dfd0514a3cdfa2af230c4a3fcd38a60a&chksm=c4a76e879678f00a98340fe675bec973b9112ab6c048c1df0fa12d1f719c65b7ca5b05e39624&scene=126&sessionid=0#rd"
+            }
+          ]
+        },
+        {
+          "type": "tracked_alias",
+          "canonical_name": "Dear Passengers",
+          "q": "亲爱的乘客",
+          "aliases": [
+            "Dear Passengers"
+          ],
+          "since": "2026-09-12T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 1,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 1,
+              "total": 1,
+              "pages": 1,
+              "first_item": {
+                "id": 31177,
+                "title": "必火无疑！Steam预约破250万人、全球第3，《亲爱的乘客》是什么奇葩游戏",
+                "published": "2026-09-28T15:56:50+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5NzQwMjI4MA==&mid=2657337406&idx=5&sn=4ce17613b086a748034c50e6b7ec99c3&chksm=bc40a9db701060a778d1aec43318d9e9009806263608d004f329e7ec5455aa9dbd229f39f1f9&scene=126&sessionid=0#rd"
+              },
+              "last_item": {
+                "id": 31177,
+                "title": "必火无疑！Steam预约破250万人、全球第3，《亲爱的乘客》是什么奇葩游戏",
+                "published": "2026-09-28T15:56:50+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5NzQwMjI4MA==&mid=2657337406&idx=5&sn=4ce17613b086a748034c50e6b7ec99c3&chksm=bc40a9db701060a778d1aec43318d9e9009806263608d004f329e7ec5455aa9dbd229f39f1f9&scene=126&sessionid=0#rd"
+              }
+            }
+          ],
+          "sample_sources": [
+            {
+              "id": 31177,
+              "title": "必火无疑！Steam预约破250万人、全球第3，《亲爱的乘客》是什么奇葩游戏",
+              "published": "2026-09-28T15:56:50+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5NzQwMjI4MA==&mid=2657337406&idx=5&sn=4ce17613b086a748034c50e6b7ec99c3&chksm=bc40a9db701060a778d1aec43318d9e9009806263608d004f329e7ec5455aa9dbd229f39f1f9&scene=126&sessionid=0#rd"
+            }
+          ]
+        },
+        {
+          "type": "candidate_keyword",
+          "q": "代号 坎农",
+          "aliases": [],
+          "since": "2026-09-28T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 1,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 1,
+              "total": 1,
+              "pages": 1,
+              "first_item": {
+                "id": 31752,
+                "title": "B站全新\"偷菜\"游戏开启预约：像素风情怀拉满 模拟类休闲至上",
+                "published": "2026-10-09T13:08:36+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzEwMzkyNQ==&mid=2247494576&idx=2&sn=c8da15a67a91749d4b708ced9f3df9fd&chksm=cfb5333f3f2b9c21250715015527835e9d989cfde3c29465aa0991f167981a60d4628b92dc83&scene=126&sessionid=0#rd"
+              },
+              "last_item": {
+                "id": 31752,
+                "title": "B站全新\"偷菜\"游戏开启预约：像素风情怀拉满 模拟类休闲至上",
+                "published": "2026-10-09T13:08:36+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzEwMzkyNQ==&mid=2247494576&idx=2&sn=c8da15a67a91749d4b708ced9f3df9fd&chksm=cfb5333f3f2b9c21250715015527835e9d989cfde3c29465aa0991f167981a60d4628b92dc83&scene=126&sessionid=0#rd"
+              }
+            }
+          ],
+          "sample_sources": [
+            {
+              "id": 31752,
+              "title": "B站全新\"偷菜\"游戏开启预约：像素风情怀拉满 模拟类休闲至上",
+              "published": "2026-10-09T13:08:36+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzEwMzkyNQ==&mid=2247494576&idx=2&sn=c8da15a67a91749d4b708ced9f3df9fd&chksm=cfb5333f3f2b9c21250715015527835e9d989cfde3c29465aa0991f167981a60d4628b92dc83&scene=126&sessionid=0#rd"
+            }
+          ]
+        },
+        {
+          "type": "candidate_keyword",
+          "q": "深空当铺",
+          "aliases": [],
+          "since": "2026-09-28T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 1,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 1,
+              "total": 1,
+              "pages": 1,
+              "first_item": {
+                "id": 31772,
+                "title": "10月最强Demo？1.9万同时在线，未卖先爆，它却差点被埋没",
+                "published": "2026-10-10T06:40:07+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5OTc2ODUxMw==&mid=2650026391&idx=1&sn=78f37fc957d3c6835cfb2091a017f032&chksm=beb36c95df9a85e060f73ca13df4cfca4021db1a7dc3eea38a21ab1a1eb910ad2927c30ffe77&scene=126&sessionid=0#rd"
+              },
+              "last_item": {
+                "id": 31772,
+                "title": "10月最强Demo？1.9万同时在线，未卖先爆，它却差点被埋没",
+                "published": "2026-10-10T06:40:07+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5OTc2ODUxMw==&mid=2650026391&idx=1&sn=78f37fc957d3c6835cfb2091a017f032&chksm=beb36c95df9a85e060f73ca13df4cfca4021db1a7dc3eea38a21ab1a1eb910ad2927c30ffe77&scene=126&sessionid=0#rd"
+              }
+            }
+          ],
+          "sample_sources": [
+            {
+              "id": 31772,
+              "title": "10月最强Demo？1.9万同时在线，未卖先爆，它却差点被埋没",
+              "published": "2026-10-10T06:40:07+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5OTc2ODUxMw==&mid=2650026391&idx=1&sn=78f37fc957d3c6835cfb2091a017f032&chksm=beb36c95df9a85e060f73ca13df4cfca4021db1a7dc3eea38a21ab1a1eb910ad2927c30ffe77&scene=126&sessionid=0#rd"
+            }
+          ]
+        },
+        {
+          "type": "candidate_keyword",
+          "q": "偷菜",
+          "aliases": [],
+          "since": "2026-09-28T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 1,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 1,
+              "total": 1,
+              "pages": 1,
+              "first_item": {
+                "id": 31752,
+                "title": "B站全新\"偷菜\"游戏开启预约：像素风情怀拉满 模拟类休闲至上",
+                "published": "2026-10-09T13:08:36+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzEwMzkyNQ==&mid=2247494576&idx=2&sn=c8da15a67a91749d4b708ced9f3df9fd&chksm=cfb5333f3f2b9c21250715015527835e9d989cfde3c29465aa0991f167981a60d4628b92dc83&scene=126&sessionid=0#rd"
+              },
+              "last_item": {
+                "id": 31752,
+                "title": "B站全新\"偷菜\"游戏开启预约：像素风情怀拉满 模拟类休闲至上",
+                "published": "2026-10-09T13:08:36+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzEwMzkyNQ==&mid=2247494576&idx=2&sn=c8da15a67a91749d4b708ced9f3df9fd&chksm=cfb5333f3f2b9c21250715015527835e9d989cfde3c29465aa0991f167981a60d4628b92dc83&scene=126&sessionid=0#rd"
+              }
+            }
+          ],
+          "sample_sources": [
+            {
+              "id": 31752,
+              "title": "B站全新\"偷菜\"游戏开启预约：像素风情怀拉满 模拟类休闲至上",
+              "published": "2026-10-09T13:08:36+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzEwMzkyNQ==&mid=2247494576&idx=2&sn=c8da15a67a91749d4b708ced9f3df9fd&chksm=cfb5333f3f2b9c21250715015527835e9d989cfde3c29465aa0991f167981a60d4628b92dc83&scene=126&sessionid=0#rd"
+            }
+          ]
+        },
+        {
+          "type": "candidate_keyword",
+          "q": "10月最强Demo",
+          "aliases": [],
+          "since": "2026-09-28T00:00:00+08:00",
+          "until": "2026-10-13T00:00:00+08:00",
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 1,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 1,
+              "total": 1,
+              "pages": 1,
+              "first_item": {
+                "id": 31772,
+                "title": "10月最强Demo？1.9万同时在线，未卖先爆，它却差点被埋没",
+                "published": "2026-10-10T06:40:07+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5OTc2ODUxMw==&mid=2650026391&idx=1&sn=78f37fc957d3c6835cfb2091a017f032&chksm=beb36c95df9a85e060f73ca13df4cfca4021db1a7dc3eea38a21ab1a1eb910ad2927c30ffe77&scene=126&sessionid=0#rd"
+              },
+              "last_item": {
+                "id": 31772,
+                "title": "10月最强Demo？1.9万同时在线，未卖先爆，它却差点被埋没",
+                "published": "2026-10-10T06:40:07+00:00",
+                "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5OTc2ODUxMw==&mid=2650026391&idx=1&sn=78f37fc957d3c6835cfb2091a017f032&chksm=beb36c95df9a85e060f73ca13df4cfca4021db1a7dc3eea38a21ab1a1eb910ad2927c30ffe77&scene=126&sessionid=0#rd"
+              }
+            }
+          ],
+          "sample_sources": [
+            {
+              "id": 31772,
+              "title": "10月最强Demo？1.9万同时在线，未卖先爆，它却差点被埋没",
+              "published": "2026-10-10T06:40:07+00:00",
+              "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5OTc2ODUxMw==&mid=2650026391&idx=1&sn=78f37fc957d3c6835cfb2091a017f032&chksm=beb36c95df9a85e060f73ca13df4cfca4021db1a7dc3eea38a21ab1a1eb910ad2927c30ffe77&scene=126&sessionid=0#rd"
+            }
+          ]
+        },
+        {
+          "type": "candidate_identity",
+          "q": "代号：坎农",
+          "aliases": [],
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "matches": []
+        },
+        {
+          "type": "candidate_identity",
+          "q": "坎农",
+          "aliases": [],
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "matches": []
+        },
+        {
+          "type": "candidate_identity",
+          "q": "深空当铺",
+          "aliases": [],
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "matches": []
+        },
+        {
+          "type": "candidate_identity",
+          "q": "深空商场",
+          "aliases": [],
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "matches": []
+        },
+        {
+          "type": "candidate_identity",
+          "q": "Dear Passengers",
+          "aliases": [],
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "matches": [
+            {
+              "game_key": "com.jf.ragdoll.lab.sandbox.lite",
+              "canonical_name": "Dear Passengers",
+              "platform": "gp_tw",
+              "icon": "https://ai.xianjianwendao.com/kb/imgproxy?app=com.jf.ragdoll.lab.sandbox.lite&platform=gp_tw",
+              "game_type_main": "模擬",
+              "game_type_sub": null
             }
           ]
         }
       ],
-      "scope": "北京时间最近3天全量文章完整分页，叠加5个重点品类关键词和19个重点在研产品精确检索；新增线索经search_games/get_game交叉核验。未核验线索仅留私有输入，不自动公开。",
-      "dedupe_baseline": {
-        "scan_date": "2026-10-08",
-        "candidates": [
-          "Project63",
-          "Dear Passengers"
+      "scope": "北京时间最近14天全量文章完整分页，叠加5个重点品类关键词；19个重点跟踪产品最近30天使用36个规范名/外文名/旧代号检索。App与PC均覆盖；典型二合、微信小游戏和传统SLG不进入公开候选。",
+      "candidate_identity_review": {
+        "代号：坎农": [
+          "代号：坎农",
+          "坎农"
         ],
-        "tracked_updates": [
-          "星布谷地",
-          "Project63",
-          "粒粒的小人国",
-          "Dressmaker",
-          "塔塔冒险队",
-          "Dear Passengers",
-          "火人冲冲冲",
-          "mo.co",
-          "奇遇动物城",
-          "未眠野",
-          "源初之结",
-          "蓝色星原：旅谣"
-        ]
+        "深空当铺": [
+          "深空当铺",
+          "深空商场"
+        ],
+        "result": "四个search_games查询均为0命中；只有媒体证据，未新增include_candidate决定。",
+        "same_name_conflict": {
+          "query": "Dear Passengers",
+          "game_detail": {
+            "game_key": "com.jf.ragdoll.lab.sandbox.lite",
+            "canonical_name": "Dear Passengers",
+            "names": [],
+            "platform": "gp_tw",
+            "game_type_main": "模擬",
+            "icon": "https://ai.xianjianwendao.com/kb/imgproxy?app=com.jf.ragdoll.lab.sandbox.lite&platform=gp_tw"
+          },
+          "decision": "移动应用包名与PC/Steam项目不符，不关联。"
+        }
       },
       "editorial_notes": [
-        "一针一线绣江南与星眠命中既有exclude决定，未重新入池。",
-        "Project63与Dear Passengers仅作为上次已核验基线保留，不视为永久白名单；本轮精确文章检索均为0。",
-        "星布谷地报道仅回顾2026-09-20旧测试，未将报道日期改写为开测日。",
-        "Plants on Fire属塔防/策略/合成，隔离为重点品类外。",
-        "Lord of Isles身份与核心循环不足，且可能为传统SLG，仅私有待审。"
+        "Project63与Dear Passengers仅依据既有include_candidate决定保留，不作为永久新品白名单。",
+        "代号：坎农与深空当铺保留在本次私有输入待审，未新增公开候选或主池。",
+        "报道日期不替代测试、Demo或发售日期；无法由官方证据确认的event_date保持null。",
+        "王者万象棋与Aniimo的新报道仅补充媒体/渠道表现，不据此新增生命周期节点。",
+        "既有exclude与exclude_candidate决定由editorial-decisions.json跨扫描保留。"
       ]
     },
     "excluded_rows": [
@@ -650,11 +2588,6 @@
         "source": "既有看板候选去重规则",
         "reviewed_at": "2026-10-08",
         "evidence_url": null
-      },
-      {
-        "name": "Plants on Fire",
-        "scope_status": "out_of_scope",
-        "scope_reason": "核心循环为塔防、卡组与合成对冲，不属于本轮重点模拟经营、自走棋、捉宠、多人合作或轻度MOBA。"
       }
     ],
     "coverage_note": "游研所提供产品情报；报道日期不等于事件发生日期，缺失指标不由 MCP 填充。"
@@ -662,11 +2595,11 @@
   "candidates": [
     {
       "name": "Project63",
-      "published_date": "2026-10-05",
+      "published_date": "2026-10-06",
       "event_date": null,
-      "evidence_title": "灵犀互娱在东南亚市场测试了一款微恐摸金新游？",
-      "source_url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzMzNjM3OQ==&mid=2247573606&idx=1&sn=0f5210a4267f6817401b91caa757aea5&chksm=cf1c28ae3e93943d3ac3d0c57989246b8df57971630f1cda409c8c761540c628d2d0b928686b&scene=126&sessionid=0#rd",
-      "summary": "四人微恐搜打撤已在东南亚测试；仅能确认9月下旬，准确开测日仍待官方公告。",
+      "evidence_title": "灵犀新作《Project63》海外开测 ！重新定义东南亚题材！",
+      "source_url": "http://mp.weixin.qq.com/s?__biz=Mzg2MjgzODk2OQ==&mid=2247503517&idx=1&sn=04fb0420085c5158df39b38004410f9b&chksm=cf0686a9a0ef215e4e9c3d5549168960c1a4ed8ebbb7d6833419fda93df2f750ca2ef0634a58&scene=126&sessionid=0#rd",
+      "summary": "海外开测报道；可确认东南亚题材与测试状态，但报道未给出可核验的具体开测日，保持事件日期未知。",
       "identity_status": "matched_tracked",
       "scope_status": "in_scope",
       "scope_reason": "",
@@ -705,6 +2638,48 @@
   ],
   "tracked_updates": [
     {
+      "name": "王者万象棋",
+      "published_date": "2026-10-10",
+      "event_date": null,
+      "evidence_title": "满月的《王者万象棋》，成了吗？",
+      "source_url": "http://mp.weixin.qq.com/s?__biz=Mzk4ODk3NDMwMA==&mid=2247487283&idx=1&sn=9d049847b494e7e86959f2b2de961c58&chksm=c46b88cc75a4b567ec963c92a1a35b94b1f4b94b1ce0f2a1560bf407453529d4af9e9d70acdd&scene=126&sessionid=0#rd",
+      "summary": "公测满月复盘与第三方估算数据；报道日期不作为公测日期，流水与预约口径保留为媒体估算。",
+      "identity_status": "matched_tracked",
+      "scope_status": "in_scope",
+      "scope_reason": "",
+      "category": [
+        "自走棋"
+      ],
+      "platform": [
+        "移动"
+      ],
+      "developer": "腾讯天美工作室群",
+      "publisher": "腾讯游戏",
+      "disposition": "已跟踪",
+      "metrics_status": "未接入 DataBrain"
+    },
+    {
+      "name": "Aniimo",
+      "published_date": "2026-10-10",
+      "event_date": null,
+      "evidence_title": "9月PC榜：腾讯《王者万象棋》、FunPlus《伊莫》空降榜单",
+      "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5OTc2ODUxMw==&mid=2650026391&idx=2&sn=f31f6b04205d6e9157fddafc7fdc13c3&chksm=bee17f20bbc6bf0551eca808b248624fe22ba0be8cbdfaccd73431d00fa96d7a2bcaa2b93923&scene=126&sessionid=0#rd",
+      "summary": "联想PC榜与Steam在线数据报道；仅作为渠道表现补充，不新增上线或测试节点。",
+      "identity_status": "matched_tracked",
+      "scope_status": "in_scope",
+      "scope_reason": "",
+      "category": [
+        "捉宠类"
+      ],
+      "platform": [
+        "PC/主机/移动"
+      ],
+      "developer": "Pawprint Studio",
+      "publisher": "Kingsglory Games",
+      "disposition": "已跟踪",
+      "metrics_status": "未接入 DataBrain"
+    },
+    {
       "name": "星布谷地",
       "published_date": "2026-10-07",
       "event_date": "2026-09-20",
@@ -727,11 +2702,11 @@
     },
     {
       "name": "Project63",
-      "published_date": "2026-10-05",
+      "published_date": "2026-10-06",
       "event_date": null,
-      "evidence_title": "灵犀互娱在东南亚市场测试了一款微恐摸金新游？",
-      "source_url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzMzNjM3OQ==&mid=2247573606&idx=1&sn=0f5210a4267f6817401b91caa757aea5&chksm=cf1c28ae3e93943d3ac3d0c57989246b8df57971630f1cda409c8c761540c628d2d0b928686b&scene=126&sessionid=0#rd",
-      "summary": "四人微恐搜打撤已在东南亚测试；仅能确认9月下旬，准确开测日仍待官方公告。",
+      "evidence_title": "灵犀新作《Project63》海外开测 ！重新定义东南亚题材！",
+      "source_url": "http://mp.weixin.qq.com/s?__biz=Mzg2MjgzODk2OQ==&mid=2247503517&idx=1&sn=04fb0420085c5158df39b38004410f9b&chksm=cf0686a9a0ef215e4e9c3d5549168960c1a4ed8ebbb7d6833419fda93df2f750ca2ef0634a58&scene=126&sessionid=0#rd",
+      "summary": "海外开测报道；可确认东南亚题材与测试状态，但报道未给出可核验的具体开测日，保持事件日期未知。",
       "identity_status": "matched_tracked",
       "scope_status": "in_scope",
       "scope_reason": "",

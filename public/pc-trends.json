@@ -1,12 +1,12 @@
 {
   "meta": {
     "query_range": [
-      "2026-07-10",
-      "2026-10-07"
+      "2026-07-14",
+      "2026-10-11"
     ],
     "games": 71,
     "source_updates": {
-      "Dressmaker": "2026-10-08"
+      "Dressmaker": "2026-10-12"
     }
   },
   "games": {
@@ -749,31 +749,15 @@
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "创世理想乡": {
-      "start_date": "2026-07-10",
-      "end_date": "2026-10-07",
+      "start_date": "2026-07-14",
+      "end_date": "2026-10-11",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_b43ee868667b451989065d4713e626a8",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_20175ba8794b4fdc8ec22d10e28f3326",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 76
-          },
-          {
-            "date": "2026-07-11",
-            "value": 95
-          },
-          {
-            "date": "2026-07-12",
-            "value": 108
-          },
-          {
-            "date": "2026-07-13",
-            "value": 76
-          },
           {
             "date": "2026-07-14",
             "value": 71
@@ -1116,7 +1100,23 @@
           },
           {
             "date": "2026-10-07",
-            "value": 82
+            "value": 79
+          },
+          {
+            "date": "2026-10-08",
+            "value": 74
+          },
+          {
+            "date": "2026-10-09",
+            "value": 80
+          },
+          {
+            "date": "2026-10-10",
+            "value": 95
+          },
+          {
+            "date": "2026-10-11",
+            "value": 81
           }
         ]
       },
@@ -1126,22 +1126,6 @@
         "granularity": "daily",
         "currency": "USD",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 576
-          },
-          {
-            "date": "2026-07-11",
-            "value": 1619
-          },
-          {
-            "date": "2026-07-12",
-            "value": 2614
-          },
-          {
-            "date": "2026-07-13",
-            "value": 576
-          },
           {
             "date": "2026-07-14",
             "value": 540
@@ -1481,37 +1465,37 @@
           {
             "date": "2026-10-06",
             "value": 600
+          },
+          {
+            "date": "2026-10-07",
+            "value": 600
+          },
+          {
+            "date": "2026-10-08",
+            "value": 564
+          },
+          {
+            "date": "2026-10-09",
+            "value": 1511
+          },
+          {
+            "date": "2026-10-10",
+            "value": 720
           }
         ]
       },
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "迪士尼梦幻星谷": {
-      "start_date": "2026-07-10",
-      "end_date": "2026-10-07",
+      "start_date": "2026-07-14",
+      "end_date": "2026-10-11",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_b43ee868667b451989065d4713e626a8",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_20175ba8794b4fdc8ec22d10e28f3326",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 5205
-          },
-          {
-            "date": "2026-07-11",
-            "value": 4824
-          },
-          {
-            "date": "2026-07-12",
-            "value": 5042
-          },
-          {
-            "date": "2026-07-13",
-            "value": 4048
-          },
           {
             "date": "2026-07-14",
             "value": 3937
@@ -1854,7 +1838,23 @@
           },
           {
             "date": "2026-10-07",
-            "value": 3994
+            "value": 5331
+          },
+          {
+            "date": "2026-10-08",
+            "value": 4754
+          },
+          {
+            "date": "2026-10-09",
+            "value": 4356
+          },
+          {
+            "date": "2026-10-10",
+            "value": 4873
+          },
+          {
+            "date": "2026-10-11",
+            "value": 4143
           }
         ]
       },
@@ -1864,22 +1864,6 @@
         "granularity": "daily",
         "currency": "USD",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 137651
-          },
-          {
-            "date": "2026-07-11",
-            "value": 82554
-          },
-          {
-            "date": "2026-07-12",
-            "value": 81307
-          },
-          {
-            "date": "2026-07-13",
-            "value": 44460
-          },
           {
             "date": "2026-07-14",
             "value": 62844
@@ -2219,37 +2203,37 @@
           {
             "date": "2026-10-06",
             "value": 41274
+          },
+          {
+            "date": "2026-10-07",
+            "value": 30517
+          },
+          {
+            "date": "2026-10-08",
+            "value": 22446
+          },
+          {
+            "date": "2026-10-09",
+            "value": 46421
+          },
+          {
+            "date": "2026-10-10",
+            "value": 42371
           }
         ]
       },
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "鹅鸭杀": {
-      "start_date": "2026-07-10",
-      "end_date": "2026-10-07",
+      "start_date": "2026-07-14",
+      "end_date": "2026-10-11",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_a72fd8a1cd544d9aa78070d19ef04e8e",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_394b2417607f456d8ede86960a2f9d7c",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 5563
-          },
-          {
-            "date": "2026-07-11",
-            "value": 4720
-          },
-          {
-            "date": "2026-07-12",
-            "value": 4322
-          },
-          {
-            "date": "2026-07-13",
-            "value": 3746
-          },
           {
             "date": "2026-07-14",
             "value": 3664
@@ -2592,7 +2576,23 @@
           },
           {
             "date": "2026-10-07",
-            "value": 1118
+            "value": 2479
+          },
+          {
+            "date": "2026-10-08",
+            "value": 2576
+          },
+          {
+            "date": "2026-10-09",
+            "value": 3196
+          },
+          {
+            "date": "2026-10-10",
+            "value": 3854
+          },
+          {
+            "date": "2026-10-11",
+            "value": 1717
           }
         ]
       },
@@ -2606,31 +2606,15 @@
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "方舟：生存进化": {
-      "start_date": "2026-07-10",
-      "end_date": "2026-10-07",
+      "start_date": "2026-07-14",
+      "end_date": "2026-10-11",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_b43ee868667b451989065d4713e626a8",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_20175ba8794b4fdc8ec22d10e28f3326",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 20585
-          },
-          {
-            "date": "2026-07-11",
-            "value": 21027
-          },
-          {
-            "date": "2026-07-12",
-            "value": 22117
-          },
-          {
-            "date": "2026-07-13",
-            "value": 19413
-          },
           {
             "date": "2026-07-14",
             "value": 19265
@@ -2973,7 +2957,23 @@
           },
           {
             "date": "2026-10-07",
-            "value": 9374
+            "value": 11830
+          },
+          {
+            "date": "2026-10-08",
+            "value": 11419
+          },
+          {
+            "date": "2026-10-09",
+            "value": 12431
+          },
+          {
+            "date": "2026-10-10",
+            "value": 15261
+          },
+          {
+            "date": "2026-10-11",
+            "value": 13231
           }
         ]
       },
@@ -2983,22 +2983,6 @@
         "granularity": "daily",
         "currency": "USD",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 4326
-          },
-          {
-            "date": "2026-07-11",
-            "value": 56626
-          },
-          {
-            "date": "2026-07-12",
-            "value": 29489
-          },
-          {
-            "date": "2026-07-13",
-            "value": 25216
-          },
           {
             "date": "2026-07-14",
             "value": 32195
@@ -3338,37 +3322,37 @@
           {
             "date": "2026-10-06",
             "value": 17270
+          },
+          {
+            "date": "2026-10-07",
+            "value": 18240
+          },
+          {
+            "date": "2026-10-08",
+            "value": 17623
+          },
+          {
+            "date": "2026-10-09",
+            "value": 11991
+          },
+          {
+            "date": "2026-10-10",
+            "value": 27208
           }
         ]
       },
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "胡闹厨房2": {
-      "start_date": "2026-07-10",
-      "end_date": "2026-10-07",
+      "start_date": "2026-07-14",
+      "end_date": "2026-10-11",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_4443760fd4984e13a9a7d9c18d7d264d",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_11f27c63c97448da903a42c71dcbbda7",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 6072
-          },
-          {
-            "date": "2026-07-11",
-            "value": 6021
-          },
-          {
-            "date": "2026-07-12",
-            "value": 5467
-          },
-          {
-            "date": "2026-07-13",
-            "value": 4052
-          },
           {
             "date": "2026-07-14",
             "value": 3714
@@ -3711,7 +3695,23 @@
           },
           {
             "date": "2026-10-07",
-            "value": 2117
+            "value": 3947
+          },
+          {
+            "date": "2026-10-08",
+            "value": 3713
+          },
+          {
+            "date": "2026-10-09",
+            "value": 3816
+          },
+          {
+            "date": "2026-10-10",
+            "value": 4501
+          },
+          {
+            "date": "2026-10-11",
+            "value": 2732
           }
         ]
       },
@@ -3721,22 +3721,6 @@
         "granularity": "daily",
         "currency": "USD",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 162375
-          },
-          {
-            "date": "2026-07-11",
-            "value": 131407
-          },
-          {
-            "date": "2026-07-12",
-            "value": 116074
-          },
-          {
-            "date": "2026-07-13",
-            "value": 94342
-          },
           {
             "date": "2026-07-14",
             "value": 14994
@@ -4076,37 +4060,37 @@
           {
             "date": "2026-10-06",
             "value": 32703
+          },
+          {
+            "date": "2026-10-07",
+            "value": 76133
+          },
+          {
+            "date": "2026-10-08",
+            "value": 31959
+          },
+          {
+            "date": "2026-10-09",
+            "value": 28719
+          },
+          {
+            "date": "2026-10-10",
+            "value": 14994
           }
         ]
       },
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "幻兽帕鲁": {
-      "start_date": "2026-07-10",
-      "end_date": "2026-10-07",
+      "start_date": "2026-07-14",
+      "end_date": "2026-10-11",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_b43ee868667b451989065d4713e626a8",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_20175ba8794b4fdc8ec22d10e28f3326",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 381708
-          },
-          {
-            "date": "2026-07-11",
-            "value": 526060
-          },
-          {
-            "date": "2026-07-12",
-            "value": 642397
-          },
-          {
-            "date": "2026-07-13",
-            "value": 569202
-          },
           {
             "date": "2026-07-14",
             "value": 588510
@@ -4449,7 +4433,23 @@
           },
           {
             "date": "2026-10-07",
-            "value": 36309
+            "value": 40723
+          },
+          {
+            "date": "2026-10-08",
+            "value": 38448
+          },
+          {
+            "date": "2026-10-09",
+            "value": 41546
+          },
+          {
+            "date": "2026-10-10",
+            "value": 50373
+          },
+          {
+            "date": "2026-10-11",
+            "value": 47874
           }
         ]
       },
@@ -4459,22 +4459,6 @@
         "granularity": "daily",
         "currency": "USD",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 2700305
-          },
-          {
-            "date": "2026-07-11",
-            "value": 3376888
-          },
-          {
-            "date": "2026-07-12",
-            "value": 2391030
-          },
-          {
-            "date": "2026-07-13",
-            "value": 1689023
-          },
           {
             "date": "2026-07-14",
             "value": 1651023
@@ -4814,37 +4798,37 @@
           {
             "date": "2026-10-06",
             "value": 237271
+          },
+          {
+            "date": "2026-10-07",
+            "value": 127233
+          },
+          {
+            "date": "2026-10-08",
+            "value": 216852
+          },
+          {
+            "date": "2026-10-09",
+            "value": 214484
+          },
+          {
+            "date": "2026-10-10",
+            "value": 234618
           }
         ]
       },
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "恐鬼症": {
-      "start_date": "2026-07-10",
-      "end_date": "2026-10-07",
+      "start_date": "2026-07-14",
+      "end_date": "2026-10-11",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_4443760fd4984e13a9a7d9c18d7d264d",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_11f27c63c97448da903a42c71dcbbda7",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 8050
-          },
-          {
-            "date": "2026-07-11",
-            "value": 7953
-          },
-          {
-            "date": "2026-07-12",
-            "value": 8417
-          },
-          {
-            "date": "2026-07-13",
-            "value": 7704
-          },
           {
             "date": "2026-07-14",
             "value": 7224
@@ -5187,7 +5171,23 @@
           },
           {
             "date": "2026-10-07",
-            "value": 7074
+            "value": 7689
+          },
+          {
+            "date": "2026-10-08",
+            "value": 10300
+          },
+          {
+            "date": "2026-10-09",
+            "value": 12135
+          },
+          {
+            "date": "2026-10-10",
+            "value": 13741
+          },
+          {
+            "date": "2026-10-11",
+            "value": 13862
           }
         ]
       },
@@ -5197,22 +5197,6 @@
         "granularity": "daily",
         "currency": "USD",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 85589
-          },
-          {
-            "date": "2026-07-11",
-            "value": 84550
-          },
-          {
-            "date": "2026-07-12",
-            "value": 89491
-          },
-          {
-            "date": "2026-07-13",
-            "value": 81911
-          },
           {
             "date": "2026-07-14",
             "value": 76810
@@ -5552,109 +5536,37 @@
           {
             "date": "2026-10-06",
             "value": 58333
+          },
+          {
+            "date": "2026-10-07",
+            "value": 57057
+          },
+          {
+            "date": "2026-10-08",
+            "value": 76430
+          },
+          {
+            "date": "2026-10-09",
+            "value": 90040
+          },
+          {
+            "date": "2026-10-10",
+            "value": 145687
           }
         ]
       },
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "乐高派对": {
-      "start_date": "2026-06-22",
-      "end_date": "2026-09-19",
+      "start_date": "2026-07-14",
+      "end_date": "2026-10-10",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_ee2be309c906486281483b4f879955a3",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_05672f9d3c8a49718ced555df7507231",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-06-22",
-            "value": 58
-          },
-          {
-            "date": "2026-06-23",
-            "value": 44
-          },
-          {
-            "date": "2026-06-24",
-            "value": 41
-          },
-          {
-            "date": "2026-06-25",
-            "value": 40
-          },
-          {
-            "date": "2026-06-26",
-            "value": 51
-          },
-          {
-            "date": "2026-06-27",
-            "value": 91
-          },
-          {
-            "date": "2026-06-28",
-            "value": 94
-          },
-          {
-            "date": "2026-06-29",
-            "value": 58
-          },
-          {
-            "date": "2026-06-30",
-            "value": 45
-          },
-          {
-            "date": "2026-07-01",
-            "value": 51
-          },
-          {
-            "date": "2026-07-02",
-            "value": 45
-          },
-          {
-            "date": "2026-07-03",
-            "value": 64
-          },
-          {
-            "date": "2026-07-04",
-            "value": 88
-          },
-          {
-            "date": "2026-07-05",
-            "value": 88
-          },
-          {
-            "date": "2026-07-06",
-            "value": 57
-          },
-          {
-            "date": "2026-07-07",
-            "value": 44
-          },
-          {
-            "date": "2026-07-08",
-            "value": 42
-          },
-          {
-            "date": "2026-07-09",
-            "value": 46
-          },
-          {
-            "date": "2026-07-10",
-            "value": 55
-          },
-          {
-            "date": "2026-07-11",
-            "value": 79
-          },
-          {
-            "date": "2026-07-12",
-            "value": 76
-          },
-          {
-            "date": "2026-07-13",
-            "value": 44
-          },
           {
             "date": "2026-07-14",
             "value": 40
@@ -5925,7 +5837,91 @@
           },
           {
             "date": "2026-09-19",
-            "value": 89
+            "value": 83
+          },
+          {
+            "date": "2026-09-20",
+            "value": 83
+          },
+          {
+            "date": "2026-09-21",
+            "value": 46
+          },
+          {
+            "date": "2026-09-22",
+            "value": 42
+          },
+          {
+            "date": "2026-09-23",
+            "value": 41
+          },
+          {
+            "date": "2026-09-24",
+            "value": 36
+          },
+          {
+            "date": "2026-09-25",
+            "value": 49
+          },
+          {
+            "date": "2026-09-26",
+            "value": 85
+          },
+          {
+            "date": "2026-09-27",
+            "value": 92
+          },
+          {
+            "date": "2026-09-28",
+            "value": 52
+          },
+          {
+            "date": "2026-09-29",
+            "value": 40
+          },
+          {
+            "date": "2026-09-30",
+            "value": 40
+          },
+          {
+            "date": "2026-10-01",
+            "value": 45
+          },
+          {
+            "date": "2026-10-02",
+            "value": 56
+          },
+          {
+            "date": "2026-10-03",
+            "value": 87
+          },
+          {
+            "date": "2026-10-04",
+            "value": 94
+          },
+          {
+            "date": "2026-10-05",
+            "value": 43
+          },
+          {
+            "date": "2026-10-06",
+            "value": 38
+          },
+          {
+            "date": "2026-10-07",
+            "value": 38
+          },
+          {
+            "date": "2026-10-08",
+            "value": 32
+          },
+          {
+            "date": "2026-10-09",
+            "value": 43
+          },
+          {
+            "date": "2026-10-10",
+            "value": 81
           }
         ]
       },
@@ -5934,7 +5930,364 @@
         "scope": "PC / Steam",
         "granularity": "daily",
         "currency": "USD",
-        "points": []
+        "points": [
+          {
+            "date": "2026-07-14",
+            "value": 0
+          },
+          {
+            "date": "2026-07-15",
+            "value": 2399
+          },
+          {
+            "date": "2026-07-16",
+            "value": 2399
+          },
+          {
+            "date": "2026-07-17",
+            "value": 0
+          },
+          {
+            "date": "2026-07-18",
+            "value": 0
+          },
+          {
+            "date": "2026-07-19",
+            "value": 1280
+          },
+          {
+            "date": "2026-07-20",
+            "value": 0
+          },
+          {
+            "date": "2026-07-21",
+            "value": 2399
+          },
+          {
+            "date": "2026-07-22",
+            "value": 4063
+          },
+          {
+            "date": "2026-07-23",
+            "value": 4575
+          },
+          {
+            "date": "2026-07-24",
+            "value": 2783
+          },
+          {
+            "date": "2026-07-25",
+            "value": 3999
+          },
+          {
+            "date": "2026-07-26",
+            "value": 0
+          },
+          {
+            "date": "2026-07-27",
+            "value": 1152
+          },
+          {
+            "date": "2026-07-28",
+            "value": 0
+          },
+          {
+            "date": "2026-07-29",
+            "value": 0
+          },
+          {
+            "date": "2026-07-30",
+            "value": 0
+          },
+          {
+            "date": "2026-07-31",
+            "value": 3359
+          },
+          {
+            "date": "2026-08-01",
+            "value": 9741
+          },
+          {
+            "date": "2026-08-02",
+            "value": 10233
+          },
+          {
+            "date": "2026-08-03",
+            "value": 14376
+          },
+          {
+            "date": "2026-08-04",
+            "value": 4658
+          },
+          {
+            "date": "2026-08-05",
+            "value": 2889
+          },
+          {
+            "date": "2026-08-06",
+            "value": 13816
+          },
+          {
+            "date": "2026-08-07",
+            "value": 3224
+          },
+          {
+            "date": "2026-08-08",
+            "value": 7904
+          },
+          {
+            "date": "2026-08-09",
+            "value": 2396
+          },
+          {
+            "date": "2026-08-10",
+            "value": 1679
+          },
+          {
+            "date": "2026-08-11",
+            "value": 1679
+          },
+          {
+            "date": "2026-08-12",
+            "value": 0
+          },
+          {
+            "date": "2026-08-13",
+            "value": 9315
+          },
+          {
+            "date": "2026-08-14",
+            "value": 5889
+          },
+          {
+            "date": "2026-08-15",
+            "value": 0
+          },
+          {
+            "date": "2026-08-16",
+            "value": 3839
+          },
+          {
+            "date": "2026-08-17",
+            "value": 14812
+          },
+          {
+            "date": "2026-08-18",
+            "value": 7678
+          },
+          {
+            "date": "2026-08-19",
+            "value": 2527
+          },
+          {
+            "date": "2026-08-20",
+            "value": 0
+          },
+          {
+            "date": "2026-08-21",
+            "value": 0
+          },
+          {
+            "date": "2026-08-22",
+            "value": 6654
+          },
+          {
+            "date": "2026-08-23",
+            "value": 19259
+          },
+          {
+            "date": "2026-08-24",
+            "value": 3071
+          },
+          {
+            "date": "2026-08-25",
+            "value": 2399
+          },
+          {
+            "date": "2026-08-26",
+            "value": 2399
+          },
+          {
+            "date": "2026-08-27",
+            "value": 0
+          },
+          {
+            "date": "2026-08-28",
+            "value": 0
+          },
+          {
+            "date": "2026-08-29",
+            "value": 2175
+          },
+          {
+            "date": "2026-08-30",
+            "value": 0
+          },
+          {
+            "date": "2026-08-31",
+            "value": 2079
+          },
+          {
+            "date": "2026-09-01",
+            "value": 2495
+          },
+          {
+            "date": "2026-09-02",
+            "value": 1952
+          },
+          {
+            "date": "2026-09-03",
+            "value": 6878
+          },
+          {
+            "date": "2026-09-04",
+            "value": 3007
+          },
+          {
+            "date": "2026-09-05",
+            "value": 7006
+          },
+          {
+            "date": "2026-09-06",
+            "value": 2399
+          },
+          {
+            "date": "2026-09-07",
+            "value": 2399
+          },
+          {
+            "date": "2026-09-08",
+            "value": 4703
+          },
+          {
+            "date": "2026-09-09",
+            "value": 2207
+          },
+          {
+            "date": "2026-09-10",
+            "value": 1952
+          },
+          {
+            "date": "2026-09-11",
+            "value": 5023
+          },
+          {
+            "date": "2026-09-12",
+            "value": 15644
+          },
+          {
+            "date": "2026-09-13",
+            "value": 0
+          },
+          {
+            "date": "2026-09-14",
+            "value": 2751
+          },
+          {
+            "date": "2026-09-15",
+            "value": 1568
+          },
+          {
+            "date": "2026-09-16",
+            "value": 15580
+          },
+          {
+            "date": "2026-09-17",
+            "value": 1500
+          },
+          {
+            "date": "2026-09-18",
+            "value": 3807
+          },
+          {
+            "date": "2026-09-19",
+            "value": 5486
+          },
+          {
+            "date": "2026-09-20",
+            "value": 3784
+          },
+          {
+            "date": "2026-09-21",
+            "value": 1679
+          },
+          {
+            "date": "2026-09-22",
+            "value": 0
+          },
+          {
+            "date": "2026-09-23",
+            "value": 9248
+          },
+          {
+            "date": "2026-09-24",
+            "value": 3314
+          },
+          {
+            "date": "2026-09-25",
+            "value": 2262
+          },
+          {
+            "date": "2026-09-26",
+            "value": 13704
+          },
+          {
+            "date": "2026-09-27",
+            "value": 9270
+          },
+          {
+            "date": "2026-09-28",
+            "value": 5732
+          },
+          {
+            "date": "2026-09-29",
+            "value": 8352
+          },
+          {
+            "date": "2026-09-30",
+            "value": 3359
+          },
+          {
+            "date": "2026-10-01",
+            "value": 0
+          },
+          {
+            "date": "2026-10-02",
+            "value": 1635
+          },
+          {
+            "date": "2026-10-03",
+            "value": 5688
+          },
+          {
+            "date": "2026-10-04",
+            "value": 1679
+          },
+          {
+            "date": "2026-10-05",
+            "value": 3090
+          },
+          {
+            "date": "2026-10-06",
+            "value": 3426
+          },
+          {
+            "date": "2026-10-07",
+            "value": 3426
+          },
+          {
+            "date": "2026-10-08",
+            "value": 1679
+          },
+          {
+            "date": "2026-10-09",
+            "value": 1679
+          },
+          {
+            "date": "2026-10-10",
+            "value": 10237
+          }
+        ]
       },
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
@@ -7034,103 +7387,15 @@
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "漫威终极逆转": {
-      "start_date": "2026-06-22",
-      "end_date": "2026-09-19",
+      "start_date": "2026-07-14",
+      "end_date": "2026-10-10",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_bba62c7850884a9aa13d319de7441269",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_0a10a86c1e674ff1942728759b0e29c8",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-06-22",
-            "value": 1558
-          },
-          {
-            "date": "2026-06-23",
-            "value": 1873
-          },
-          {
-            "date": "2026-06-24",
-            "value": 1832
-          },
-          {
-            "date": "2026-06-25",
-            "value": 1780
-          },
-          {
-            "date": "2026-06-26",
-            "value": 1890
-          },
-          {
-            "date": "2026-06-27",
-            "value": 1878
-          },
-          {
-            "date": "2026-06-28",
-            "value": 1837
-          },
-          {
-            "date": "2026-06-29",
-            "value": 1793
-          },
-          {
-            "date": "2026-06-30",
-            "value": 1742
-          },
-          {
-            "date": "2026-07-01",
-            "value": 1833
-          },
-          {
-            "date": "2026-07-02",
-            "value": 1703
-          },
-          {
-            "date": "2026-07-03",
-            "value": 1703
-          },
-          {
-            "date": "2026-07-04",
-            "value": 1810
-          },
-          {
-            "date": "2026-07-05",
-            "value": 1741
-          },
-          {
-            "date": "2026-07-06",
-            "value": 1741
-          },
-          {
-            "date": "2026-07-07",
-            "value": 2006
-          },
-          {
-            "date": "2026-07-08",
-            "value": 1927
-          },
-          {
-            "date": "2026-07-09",
-            "value": 1880
-          },
-          {
-            "date": "2026-07-10",
-            "value": 2017
-          },
-          {
-            "date": "2026-07-11",
-            "value": 1876
-          },
-          {
-            "date": "2026-07-12",
-            "value": 1812
-          },
-          {
-            "date": "2026-07-13",
-            "value": 1766
-          },
           {
             "date": "2026-07-14",
             "value": 1612
@@ -7401,7 +7666,91 @@
           },
           {
             "date": "2026-09-19",
-            "value": 2532
+            "value": 2659
+          },
+          {
+            "date": "2026-09-20",
+            "value": 2595
+          },
+          {
+            "date": "2026-09-21",
+            "value": 2430
+          },
+          {
+            "date": "2026-09-22",
+            "value": 2478
+          },
+          {
+            "date": "2026-09-23",
+            "value": 2389
+          },
+          {
+            "date": "2026-09-24",
+            "value": 2091
+          },
+          {
+            "date": "2026-09-25",
+            "value": 2160
+          },
+          {
+            "date": "2026-09-26",
+            "value": 2370
+          },
+          {
+            "date": "2026-09-27",
+            "value": 2300
+          },
+          {
+            "date": "2026-09-28",
+            "value": 2456
+          },
+          {
+            "date": "2026-09-29",
+            "value": 3235
+          },
+          {
+            "date": "2026-09-30",
+            "value": 3059
+          },
+          {
+            "date": "2026-10-01",
+            "value": 2894
+          },
+          {
+            "date": "2026-10-02",
+            "value": 2823
+          },
+          {
+            "date": "2026-10-03",
+            "value": 2863
+          },
+          {
+            "date": "2026-10-04",
+            "value": 2783
+          },
+          {
+            "date": "2026-10-05",
+            "value": 2653
+          },
+          {
+            "date": "2026-10-06",
+            "value": 2764
+          },
+          {
+            "date": "2026-10-07",
+            "value": 2977
+          },
+          {
+            "date": "2026-10-08",
+            "value": 2804
+          },
+          {
+            "date": "2026-10-09",
+            "value": 2747
+          },
+          {
+            "date": "2026-10-10",
+            "value": 2781
           }
         ]
       },
@@ -7412,319 +7761,375 @@
         "currency": "USD",
         "points": [
           {
-            "date": "2026-06-22",
-            "value": 10566
-          },
-          {
-            "date": "2026-06-23",
-            "value": 13366
-          },
-          {
-            "date": "2026-06-24",
-            "value": 15906
-          },
-          {
-            "date": "2026-06-25",
-            "value": 11456
-          },
-          {
-            "date": "2026-06-26",
-            "value": 14770
-          },
-          {
-            "date": "2026-06-27",
-            "value": 20920
-          },
-          {
-            "date": "2026-06-28",
-            "value": 8714
-          },
-          {
-            "date": "2026-06-29",
-            "value": 11178
-          },
-          {
-            "date": "2026-06-30",
-            "value": 13556
-          },
-          {
-            "date": "2026-07-01",
-            "value": 41240
-          },
-          {
-            "date": "2026-07-02",
-            "value": 25924
-          },
-          {
-            "date": "2026-07-03",
-            "value": 21614
-          },
-          {
-            "date": "2026-07-04",
-            "value": 20446
-          },
-          {
-            "date": "2026-07-05",
-            "value": 16466
-          },
-          {
-            "date": "2026-07-06",
-            "value": 18206
-          },
-          {
-            "date": "2026-07-07",
-            "value": 22384
-          },
-          {
-            "date": "2026-07-08",
-            "value": 34728
-          },
-          {
-            "date": "2026-07-09",
-            "value": 8740
-          },
-          {
-            "date": "2026-07-10",
-            "value": 7488
-          },
-          {
-            "date": "2026-07-11",
-            "value": 14686
-          },
-          {
-            "date": "2026-07-12",
-            "value": 12220
-          },
-          {
-            "date": "2026-07-13",
-            "value": 10542
-          },
-          {
             "date": "2026-07-14",
-            "value": 11524
+            "value": 7687
           },
           {
             "date": "2026-07-15",
-            "value": 12632
+            "value": 8568
           },
           {
             "date": "2026-07-16",
-            "value": 12566
+            "value": 8599
           },
           {
             "date": "2026-07-17",
-            "value": 12754
+            "value": 6699
           },
           {
             "date": "2026-07-18",
-            "value": 11258
+            "value": 7057
           },
           {
             "date": "2026-07-19",
-            "value": 10826
+            "value": 7667
           },
           {
             "date": "2026-07-20",
-            "value": 11184
+            "value": 5908
           },
           {
             "date": "2026-07-21",
-            "value": 12478
+            "value": 6848
           },
           {
             "date": "2026-07-22",
-            "value": 15682
+            "value": 9947
           },
           {
             "date": "2026-07-23",
-            "value": 15858
+            "value": 8529
           },
           {
             "date": "2026-07-24",
-            "value": 0
+            "value": 9300
           },
           {
             "date": "2026-07-25",
-            "value": 9526
+            "value": 5602
           },
           {
             "date": "2026-07-26",
-            "value": 808
+            "value": 3823
           },
           {
             "date": "2026-07-27",
-            "value": 9646
+            "value": 7783
           },
           {
             "date": "2026-07-28",
-            "value": 14716
+            "value": 8240
           },
           {
             "date": "2026-07-29",
-            "value": 0
+            "value": 9820
           },
           {
             "date": "2026-07-30",
-            "value": 15920
+            "value": 9169
           },
           {
             "date": "2026-07-31",
-            "value": 11426
+            "value": 8827
           },
           {
             "date": "2026-08-01",
-            "value": 12618
+            "value": 9640
           },
           {
             "date": "2026-08-02",
-            "value": 12308
+            "value": 9271
           },
           {
             "date": "2026-08-03",
-            "value": 12914
+            "value": 8708
           },
           {
             "date": "2026-08-04",
-            "value": 17616
+            "value": 14780
           },
           {
             "date": "2026-08-05",
-            "value": 61076
+            "value": 26946
           },
           {
             "date": "2026-08-06",
-            "value": 32708
+            "value": 15133
           },
           {
             "date": "2026-08-07",
-            "value": 16158
+            "value": 9874
           },
           {
             "date": "2026-08-08",
-            "value": 18252
+            "value": 12724
           },
           {
             "date": "2026-08-09",
-            "value": 14590
+            "value": 11953
           },
           {
             "date": "2026-08-10",
-            "value": 15314
+            "value": 9070
           },
           {
             "date": "2026-08-11",
-            "value": 14258
+            "value": 8911
           },
           {
             "date": "2026-08-12",
-            "value": 15424
+            "value": 9741
           },
           {
             "date": "2026-08-13",
-            "value": 14882
+            "value": 7888
           },
           {
             "date": "2026-08-14",
-            "value": 12718
+            "value": 8450
           },
           {
             "date": "2026-08-15",
-            "value": 13448
+            "value": 8617
           },
           {
             "date": "2026-08-16",
-            "value": 12052
+            "value": 9352
           },
           {
             "date": "2026-08-17",
-            "value": 16234
+            "value": 9954
           },
           {
             "date": "2026-08-18",
-            "value": 16720
+            "value": 18470
           },
           {
             "date": "2026-08-19",
-            "value": 17066
+            "value": 11608
           },
           {
             "date": "2026-08-20",
-            "value": 18686
+            "value": 11435
           },
           {
             "date": "2026-08-21",
-            "value": 13916
+            "value": 9384
           },
           {
             "date": "2026-08-22",
-            "value": 13128
+            "value": 10806
           },
           {
             "date": "2026-08-23",
-            "value": 13854
+            "value": 9822
           },
           {
             "date": "2026-08-24",
-            "value": 14820
+            "value": 9553
           },
           {
             "date": "2026-08-25",
-            "value": 43066
+            "value": 15444
           },
           {
             "date": "2026-08-26",
-            "value": 32178
+            "value": 13574
           },
           {
             "date": "2026-08-27",
-            "value": 23800
+            "value": 10979
           },
           {
             "date": "2026-08-28",
-            "value": 18930
+            "value": 11939
           },
           {
             "date": "2026-08-29",
-            "value": 18798
+            "value": 12549
           },
           {
             "date": "2026-08-30",
-            "value": 17564
+            "value": 13677
           },
           {
             "date": "2026-08-31",
-            "value": 20746
+            "value": 11429
+          },
+          {
+            "date": "2026-09-01",
+            "value": 13274
+          },
+          {
+            "date": "2026-09-02",
+            "value": 21474
+          },
+          {
+            "date": "2026-09-03",
+            "value": 15864
+          },
+          {
+            "date": "2026-09-04",
+            "value": 12160
+          },
+          {
+            "date": "2026-09-05",
+            "value": 14590
+          },
+          {
+            "date": "2026-09-06",
+            "value": 11267
+          },
+          {
+            "date": "2026-09-07",
+            "value": 8925
+          },
+          {
+            "date": "2026-09-08",
+            "value": 9480
+          },
+          {
+            "date": "2026-09-09",
+            "value": 8777
+          },
+          {
+            "date": "2026-09-10",
+            "value": 7638
+          },
+          {
+            "date": "2026-09-11",
+            "value": 8136
+          },
+          {
+            "date": "2026-09-12",
+            "value": 8473
+          },
+          {
+            "date": "2026-09-13",
+            "value": 9081
+          },
+          {
+            "date": "2026-09-14",
+            "value": 6804
+          },
+          {
+            "date": "2026-09-15",
+            "value": 6325
+          },
+          {
+            "date": "2026-09-16",
+            "value": 6202
+          },
+          {
+            "date": "2026-09-17",
+            "value": 7925
+          },
+          {
+            "date": "2026-09-18",
+            "value": 5799
+          },
+          {
+            "date": "2026-09-19",
+            "value": 7685
+          },
+          {
+            "date": "2026-09-20",
+            "value": 9478
+          },
+          {
+            "date": "2026-09-21",
+            "value": 6534
+          },
+          {
+            "date": "2026-09-22",
+            "value": 7102
+          },
+          {
+            "date": "2026-09-23",
+            "value": 6586
+          },
+          {
+            "date": "2026-09-24",
+            "value": 8302
+          },
+          {
+            "date": "2026-09-25",
+            "value": 6683
+          },
+          {
+            "date": "2026-09-26",
+            "value": 7718
+          },
+          {
+            "date": "2026-09-27",
+            "value": 8130
+          },
+          {
+            "date": "2026-09-28",
+            "value": 6834
+          },
+          {
+            "date": "2026-09-29",
+            "value": 8861
+          },
+          {
+            "date": "2026-09-30",
+            "value": 9648
+          },
+          {
+            "date": "2026-10-01",
+            "value": 5932
+          },
+          {
+            "date": "2026-10-02",
+            "value": 5777
+          },
+          {
+            "date": "2026-10-03",
+            "value": 7539
+          },
+          {
+            "date": "2026-10-04",
+            "value": 7659
+          },
+          {
+            "date": "2026-10-05",
+            "value": 5618
+          },
+          {
+            "date": "2026-10-06",
+            "value": 7916
+          },
+          {
+            "date": "2026-10-07",
+            "value": 18220
+          },
+          {
+            "date": "2026-10-08",
+            "value": 7871
+          },
+          {
+            "date": "2026-10-09",
+            "value": 8154
+          },
+          {
+            "date": "2026-10-10",
+            "value": 12467
           }
         ]
       },
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "猛兽派对": {
-      "start_date": "2026-07-10",
-      "end_date": "2026-10-07",
+      "start_date": "2026-07-14",
+      "end_date": "2026-10-11",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_3300b93032674bb2b9dc6535a5b07b11",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_394b2417607f456d8ede86960a2f9d7c",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 5961
-          },
-          {
-            "date": "2026-07-11",
-            "value": 5527
-          },
-          {
-            "date": "2026-07-12",
-            "value": 5266
-          },
-          {
-            "date": "2026-07-13",
-            "value": 4517
-          },
           {
             "date": "2026-07-14",
             "value": 4223
@@ -8067,7 +8472,23 @@
           },
           {
             "date": "2026-10-07",
-            "value": 3596
+            "value": 5233
+          },
+          {
+            "date": "2026-10-08",
+            "value": 4812
+          },
+          {
+            "date": "2026-10-09",
+            "value": 4989
+          },
+          {
+            "date": "2026-10-10",
+            "value": 5520
+          },
+          {
+            "date": "2026-10-11",
+            "value": 4095
           }
         ]
       },
@@ -8077,22 +8498,6 @@
         "granularity": "daily",
         "currency": "USD",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 39244
-          },
-          {
-            "date": "2026-07-11",
-            "value": 30106
-          },
-          {
-            "date": "2026-07-12",
-            "value": 25919
-          },
-          {
-            "date": "2026-07-13",
-            "value": 18423
-          },
           {
             "date": "2026-07-14",
             "value": 19038
@@ -8432,6 +8837,22 @@
           {
             "date": "2026-10-06",
             "value": 28519
+          },
+          {
+            "date": "2026-10-07",
+            "value": 34460
+          },
+          {
+            "date": "2026-10-08",
+            "value": 30252
+          },
+          {
+            "date": "2026-10-09",
+            "value": 23544
+          },
+          {
+            "date": "2026-10-10",
+            "value": 20334
           }
         ]
       },
@@ -12128,31 +12549,15 @@
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "珊瑚岛": {
-      "start_date": "2026-07-10",
-      "end_date": "2026-10-07",
+      "start_date": "2026-07-14",
+      "end_date": "2026-10-11",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_e5b0d6d6054f4b7fbb66fd9965b757a7",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_05672f9d3c8a49718ced555df7507231",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 3554
-          },
-          {
-            "date": "2026-07-11",
-            "value": 3994
-          },
-          {
-            "date": "2026-07-12",
-            "value": 4433
-          },
-          {
-            "date": "2026-07-13",
-            "value": 3281
-          },
           {
             "date": "2026-07-14",
             "value": 3085
@@ -12495,7 +12900,23 @@
           },
           {
             "date": "2026-10-07",
-            "value": 1352
+            "value": 1398
+          },
+          {
+            "date": "2026-10-08",
+            "value": 1359
+          },
+          {
+            "date": "2026-10-09",
+            "value": 1430
+          },
+          {
+            "date": "2026-10-10",
+            "value": 1795
+          },
+          {
+            "date": "2026-10-11",
+            "value": 1782
           }
         ]
       },
@@ -12505,22 +12926,6 @@
         "granularity": "daily",
         "currency": "USD",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 8397
-          },
-          {
-            "date": "2026-07-11",
-            "value": 2423
-          },
-          {
-            "date": "2026-07-12",
-            "value": 12668
-          },
-          {
-            "date": "2026-07-13",
-            "value": 13651
-          },
           {
             "date": "2026-07-14",
             "value": 12308
@@ -12860,37 +13265,37 @@
           {
             "date": "2026-10-06",
             "value": 6923
+          },
+          {
+            "date": "2026-10-07",
+            "value": 11111
+          },
+          {
+            "date": "2026-10-08",
+            "value": 12161
+          },
+          {
+            "date": "2026-10-09",
+            "value": 15716
+          },
+          {
+            "date": "2026-10-10",
+            "value": 12212
           }
         ]
       },
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "史莱姆牧场": {
-      "start_date": "2026-07-10",
-      "end_date": "2026-10-06",
+      "start_date": "2026-07-14",
+      "end_date": "2026-10-11",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_4443760fd4984e13a9a7d9c18d7d264d",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_11f27c63c97448da903a42c71dcbbda7",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 1439
-          },
-          {
-            "date": "2026-07-11",
-            "value": 1307
-          },
-          {
-            "date": "2026-07-12",
-            "value": 1296
-          },
-          {
-            "date": "2026-07-13",
-            "value": 1144
-          },
           {
             "date": "2026-07-14",
             "value": 1104
@@ -13230,6 +13635,26 @@
           {
             "date": "2026-10-06",
             "value": 1109
+          },
+          {
+            "date": "2026-10-07",
+            "value": 1063
+          },
+          {
+            "date": "2026-10-08",
+            "value": 1052
+          },
+          {
+            "date": "2026-10-09",
+            "value": 1064
+          },
+          {
+            "date": "2026-10-10",
+            "value": 1248
+          },
+          {
+            "date": "2026-10-11",
+            "value": 1072
           }
         ]
       },
@@ -13239,22 +13664,6 @@
         "granularity": "daily",
         "currency": "USD",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 22149
-          },
-          {
-            "date": "2026-07-11",
-            "value": 18151
-          },
-          {
-            "date": "2026-07-12",
-            "value": 16824
-          },
-          {
-            "date": "2026-07-13",
-            "value": 16200
-          },
           {
             "date": "2026-07-14",
             "value": 18103
@@ -13594,6 +14003,22 @@
           {
             "date": "2026-10-06",
             "value": 4547
+          },
+          {
+            "date": "2026-10-07",
+            "value": 3804
+          },
+          {
+            "date": "2026-10-08",
+            "value": 5569
+          },
+          {
+            "date": "2026-10-09",
+            "value": 4707
+          },
+          {
+            "date": "2026-10-10",
+            "value": 15064
           }
         ]
       },
@@ -16195,31 +16620,15 @@
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "心动小镇": {
-      "start_date": "2026-07-10",
-      "end_date": "2026-10-06",
+      "start_date": "2026-07-14",
+      "end_date": "2026-10-10",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_b43ee868667b451989065d4713e626a8",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_20175ba8794b4fdc8ec22d10e28f3326",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 10489
-          },
-          {
-            "date": "2026-07-11",
-            "value": 15832
-          },
-          {
-            "date": "2026-07-12",
-            "value": 14604
-          },
-          {
-            "date": "2026-07-13",
-            "value": 12587
-          },
           {
             "date": "2026-07-14",
             "value": 11867
@@ -16559,6 +16968,22 @@
           {
             "date": "2026-10-06",
             "value": 6726
+          },
+          {
+            "date": "2026-10-07",
+            "value": 7208
+          },
+          {
+            "date": "2026-10-08",
+            "value": 6757
+          },
+          {
+            "date": "2026-10-09",
+            "value": 7477
+          },
+          {
+            "date": "2026-10-10",
+            "value": 10529
           }
         ]
       },
@@ -16568,22 +16993,6 @@
         "granularity": "daily",
         "currency": "USD",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 47255
-          },
-          {
-            "date": "2026-07-11",
-            "value": 123683
-          },
-          {
-            "date": "2026-07-12",
-            "value": 108062
-          },
-          {
-            "date": "2026-07-13",
-            "value": 42454
-          },
           {
             "date": "2026-07-14",
             "value": 40282
@@ -16923,37 +17332,37 @@
           {
             "date": "2026-10-06",
             "value": 28330
+          },
+          {
+            "date": "2026-10-07",
+            "value": 28482
+          },
+          {
+            "date": "2026-10-08",
+            "value": 22420
+          },
+          {
+            "date": "2026-10-09",
+            "value": 35570
+          },
+          {
+            "date": "2026-10-10",
+            "value": 114885
           }
         ]
       },
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "星露谷物语": {
-      "start_date": "2026-07-10",
-      "end_date": "2026-10-07",
+      "start_date": "2026-07-14",
+      "end_date": "2026-10-11",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_4443760fd4984e13a9a7d9c18d7d264d",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_11f27c63c97448da903a42c71dcbbda7",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 74075
-          },
-          {
-            "date": "2026-07-11",
-            "value": 76919
-          },
-          {
-            "date": "2026-07-12",
-            "value": 80398
-          },
-          {
-            "date": "2026-07-13",
-            "value": 68716
-          },
           {
             "date": "2026-07-14",
             "value": 66284
@@ -17296,7 +17705,23 @@
           },
           {
             "date": "2026-10-07",
-            "value": 41837
+            "value": 49720
+          },
+          {
+            "date": "2026-10-08",
+            "value": 46387
+          },
+          {
+            "date": "2026-10-09",
+            "value": 49829
+          },
+          {
+            "date": "2026-10-10",
+            "value": 58239
+          },
+          {
+            "date": "2026-10-11",
+            "value": 52440
           }
         ]
       },
@@ -17306,22 +17731,6 @@
         "granularity": "daily",
         "currency": "USD",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 352625
-          },
-          {
-            "date": "2026-07-11",
-            "value": 221061
-          },
-          {
-            "date": "2026-07-12",
-            "value": 137740
-          },
-          {
-            "date": "2026-07-13",
-            "value": 198552
-          },
           {
             "date": "2026-07-14",
             "value": 199343
@@ -17661,6 +18070,22 @@
           {
             "date": "2026-10-06",
             "value": 218930
+          },
+          {
+            "date": "2026-10-07",
+            "value": 215179
+          },
+          {
+            "date": "2026-10-08",
+            "value": 134431
+          },
+          {
+            "date": "2026-10-09",
+            "value": 194099
+          },
+          {
+            "date": "2026-10-10",
+            "value": 176294
           }
         ]
       },
@@ -18405,31 +18830,15 @@
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "终极鸡马": {
-      "start_date": "2026-07-10",
-      "end_date": "2026-10-07",
+      "start_date": "2026-07-14",
+      "end_date": "2026-10-11",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_e5b0d6d6054f4b7fbb66fd9965b757a7",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_05672f9d3c8a49718ced555df7507231",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 858
-          },
-          {
-            "date": "2026-07-11",
-            "value": 831
-          },
-          {
-            "date": "2026-07-12",
-            "value": 763
-          },
-          {
-            "date": "2026-07-13",
-            "value": 660
-          },
           {
             "date": "2026-07-14",
             "value": 571
@@ -18772,7 +19181,23 @@
           },
           {
             "date": "2026-10-07",
-            "value": 376
+            "value": 521
+          },
+          {
+            "date": "2026-10-08",
+            "value": 504
+          },
+          {
+            "date": "2026-10-09",
+            "value": 480
+          },
+          {
+            "date": "2026-10-10",
+            "value": 600
+          },
+          {
+            "date": "2026-10-11",
+            "value": 630
           }
         ]
       },
@@ -18782,22 +19207,6 @@
         "granularity": "daily",
         "currency": "USD",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 23121
-          },
-          {
-            "date": "2026-07-11",
-            "value": 18228
-          },
-          {
-            "date": "2026-07-12",
-            "value": 13659
-          },
-          {
-            "date": "2026-07-13",
-            "value": 1799
-          },
           {
             "date": "2026-07-14",
             "value": 6296
@@ -19137,6 +19546,22 @@
           {
             "date": "2026-10-06",
             "value": 8951
+          },
+          {
+            "date": "2026-10-07",
+            "value": 6594
+          },
+          {
+            "date": "2026-10-08",
+            "value": 6891
+          },
+          {
+            "date": "2026-10-09",
+            "value": 5117
+          },
+          {
+            "date": "2026-10-10",
+            "value": 5893
           }
         ]
       },
@@ -19881,31 +20306,15 @@
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "Among Us": {
-      "start_date": "2026-07-10",
-      "end_date": "2026-10-07",
+      "start_date": "2026-07-14",
+      "end_date": "2026-10-11",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_a72fd8a1cd544d9aa78070d19ef04e8e",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_394b2417607f456d8ede86960a2f9d7c",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 8641
-          },
-          {
-            "date": "2026-07-11",
-            "value": 8488
-          },
-          {
-            "date": "2026-07-12",
-            "value": 8479
-          },
-          {
-            "date": "2026-07-13",
-            "value": 8802
-          },
           {
             "date": "2026-07-14",
             "value": 9448
@@ -20248,7 +20657,23 @@
           },
           {
             "date": "2026-10-07",
-            "value": 6513
+            "value": 5968
+          },
+          {
+            "date": "2026-10-08",
+            "value": 6612
+          },
+          {
+            "date": "2026-10-09",
+            "value": 7608
+          },
+          {
+            "date": "2026-10-10",
+            "value": 9786
+          },
+          {
+            "date": "2026-10-11",
+            "value": 10426
           }
         ]
       },
@@ -20258,22 +20683,6 @@
         "granularity": "daily",
         "currency": "USD",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 20092
-          },
-          {
-            "date": "2026-07-11",
-            "value": 19213
-          },
-          {
-            "date": "2026-07-12",
-            "value": 18303
-          },
-          {
-            "date": "2026-07-13",
-            "value": 10240
-          },
           {
             "date": "2026-07-14",
             "value": 14706
@@ -20613,37 +21022,37 @@
           {
             "date": "2026-10-06",
             "value": 11702
+          },
+          {
+            "date": "2026-10-07",
+            "value": 10587
+          },
+          {
+            "date": "2026-10-08",
+            "value": 10565
+          },
+          {
+            "date": "2026-10-09",
+            "value": 11824
+          },
+          {
+            "date": "2026-10-10",
+            "value": 15976
           }
         ]
       },
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "Cozy Grove": {
-      "start_date": "2026-07-10",
-      "end_date": "2026-10-07",
+      "start_date": "2026-07-14",
+      "end_date": "2026-10-11",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_b43ee868667b451989065d4713e626a8",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_20175ba8794b4fdc8ec22d10e28f3326",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 106
-          },
-          {
-            "date": "2026-07-11",
-            "value": 103
-          },
-          {
-            "date": "2026-07-12",
-            "value": 105
-          },
-          {
-            "date": "2026-07-13",
-            "value": 93
-          },
           {
             "date": "2026-07-14",
             "value": 86
@@ -20986,7 +21395,23 @@
           },
           {
             "date": "2026-10-07",
-            "value": 69
+            "value": 75
+          },
+          {
+            "date": "2026-10-08",
+            "value": 72
+          },
+          {
+            "date": "2026-10-09",
+            "value": 66
+          },
+          {
+            "date": "2026-10-10",
+            "value": 84
+          },
+          {
+            "date": "2026-10-11",
+            "value": 73
           }
         ]
       },
@@ -20996,22 +21421,6 @@
         "granularity": "daily",
         "currency": "USD",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 696
-          },
-          {
-            "date": "2026-07-11",
-            "value": 672
-          },
-          {
-            "date": "2026-07-12",
-            "value": 684
-          },
-          {
-            "date": "2026-07-13",
-            "value": 612
-          },
           {
             "date": "2026-07-14",
             "value": 1463
@@ -21351,6 +21760,22 @@
           {
             "date": "2026-10-06",
             "value": 159
+          },
+          {
+            "date": "2026-10-07",
+            "value": 172
+          },
+          {
+            "date": "2026-10-08",
+            "value": 168
+          },
+          {
+            "date": "2026-10-09",
+            "value": 155
+          },
+          {
+            "date": "2026-10-10",
+            "value": 2386
           }
         ]
       },
@@ -22095,31 +22520,15 @@
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "Dark and Darker": {
-      "start_date": "2026-07-10",
-      "end_date": "2026-10-07",
+      "start_date": "2026-07-14",
+      "end_date": "2026-10-11",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_4443760fd4984e13a9a7d9c18d7d264d",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_11f27c63c97448da903a42c71dcbbda7",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 5037
-          },
-          {
-            "date": "2026-07-11",
-            "value": 4864
-          },
-          {
-            "date": "2026-07-12",
-            "value": 4607
-          },
-          {
-            "date": "2026-07-13",
-            "value": 3866
-          },
           {
             "date": "2026-07-14",
             "value": 3692
@@ -22462,7 +22871,23 @@
           },
           {
             "date": "2026-10-07",
-            "value": 2366
+            "value": 2612
+          },
+          {
+            "date": "2026-10-08",
+            "value": 2591
+          },
+          {
+            "date": "2026-10-09",
+            "value": 4839
+          },
+          {
+            "date": "2026-10-10",
+            "value": 8119
+          },
+          {
+            "date": "2026-10-11",
+            "value": 6160
           }
         ]
       },
@@ -22472,22 +22897,6 @@
         "granularity": "daily",
         "currency": "USD",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 17869
-          },
-          {
-            "date": "2026-07-11",
-            "value": 16324
-          },
-          {
-            "date": "2026-07-12",
-            "value": 16421
-          },
-          {
-            "date": "2026-07-13",
-            "value": 14199
-          },
           {
             "date": "2026-07-14",
             "value": 15117
@@ -22827,37 +23236,37 @@
           {
             "date": "2026-10-06",
             "value": 11037
+          },
+          {
+            "date": "2026-10-07",
+            "value": 13949
+          },
+          {
+            "date": "2026-10-08",
+            "value": 9627
+          },
+          {
+            "date": "2026-10-09",
+            "value": 25599
+          },
+          {
+            "date": "2026-10-10",
+            "value": 108672
           }
         ]
       },
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "Dinkum": {
-      "start_date": "2026-07-10",
-      "end_date": "2026-10-07",
+      "start_date": "2026-07-14",
+      "end_date": "2026-10-11",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_e5b0d6d6054f4b7fbb66fd9965b757a7",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_05672f9d3c8a49718ced555df7507231",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 1214
-          },
-          {
-            "date": "2026-07-11",
-            "value": 1314
-          },
-          {
-            "date": "2026-07-12",
-            "value": 1347
-          },
-          {
-            "date": "2026-07-13",
-            "value": 1006
-          },
           {
             "date": "2026-07-14",
             "value": 988
@@ -23200,7 +23609,23 @@
           },
           {
             "date": "2026-10-07",
-            "value": 551
+            "value": 685
+          },
+          {
+            "date": "2026-10-08",
+            "value": 791
+          },
+          {
+            "date": "2026-10-09",
+            "value": 881
+          },
+          {
+            "date": "2026-10-10",
+            "value": 1068
+          },
+          {
+            "date": "2026-10-11",
+            "value": 984
           }
         ]
       },
@@ -23210,22 +23635,6 @@
         "granularity": "daily",
         "currency": "USD",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 1199
-          },
-          {
-            "date": "2026-07-11",
-            "value": 6141
-          },
-          {
-            "date": "2026-07-12",
-            "value": 10715
-          },
-          {
-            "date": "2026-07-13",
-            "value": 9211
-          },
           {
             "date": "2026-07-14",
             "value": 11450
@@ -23565,37 +23974,37 @@
           {
             "date": "2026-10-06",
             "value": 2878
+          },
+          {
+            "date": "2026-10-07",
+            "value": 3070
+          },
+          {
+            "date": "2026-10-08",
+            "value": 959
+          },
+          {
+            "date": "2026-10-09",
+            "value": 3838
+          },
+          {
+            "date": "2026-10-10",
+            "value": 10771
           }
         ]
       },
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "Dread Hunger": {
-      "start_date": "2026-07-10",
-      "end_date": "2026-10-07",
+      "start_date": "2026-07-14",
+      "end_date": "2026-10-11",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c611a8317ab643bca985549e7edd0710",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_0a10a86c1e674ff1942728759b0e29c8",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 1089
-          },
-          {
-            "date": "2026-07-11",
-            "value": 890
-          },
-          {
-            "date": "2026-07-12",
-            "value": 904
-          },
-          {
-            "date": "2026-07-13",
-            "value": 802
-          },
           {
             "date": "2026-07-14",
             "value": 824
@@ -23938,7 +24347,23 @@
           },
           {
             "date": "2026-10-07",
-            "value": 398
+            "value": 793
+          },
+          {
+            "date": "2026-10-08",
+            "value": 759
+          },
+          {
+            "date": "2026-10-09",
+            "value": 734
+          },
+          {
+            "date": "2026-10-10",
+            "value": 796
+          },
+          {
+            "date": "2026-10-11",
+            "value": 418
           }
         ]
       },
@@ -26166,31 +26591,15 @@
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "First Class Trouble": {
-      "start_date": "2026-07-10",
-      "end_date": "2026-10-07",
+      "start_date": "2026-07-14",
+      "end_date": "2026-10-11",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_a72fd8a1cd544d9aa78070d19ef04e8e",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_394b2417607f456d8ede86960a2f9d7c",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 94
-          },
-          {
-            "date": "2026-07-11",
-            "value": 162
-          },
-          {
-            "date": "2026-07-12",
-            "value": 143
-          },
-          {
-            "date": "2026-07-13",
-            "value": 105
-          },
           {
             "date": "2026-07-14",
             "value": 158
@@ -26533,7 +26942,23 @@
           },
           {
             "date": "2026-10-07",
-            "value": 16
+            "value": 17
+          },
+          {
+            "date": "2026-10-08",
+            "value": 18
+          },
+          {
+            "date": "2026-10-09",
+            "value": 10
+          },
+          {
+            "date": "2026-10-10",
+            "value": 27
+          },
+          {
+            "date": "2026-10-11",
+            "value": 37
           }
         ]
       },
@@ -26543,22 +26968,6 @@
         "granularity": "daily",
         "currency": "USD",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 16045
-          },
-          {
-            "date": "2026-07-11",
-            "value": 10913
-          },
-          {
-            "date": "2026-07-12",
-            "value": 2518
-          },
-          {
-            "date": "2026-07-13",
-            "value": 272
-          },
           {
             "date": "2026-07-14",
             "value": 3918
@@ -26897,6 +27306,22 @@
           },
           {
             "date": "2026-10-06",
+            "value": 899
+          },
+          {
+            "date": "2026-10-07",
+            "value": 0
+          },
+          {
+            "date": "2026-10-08",
+            "value": 0
+          },
+          {
+            "date": "2026-10-09",
+            "value": 0
+          },
+          {
+            "date": "2026-10-10",
             "value": 899
           }
         ]
@@ -27643,9 +28068,9 @@
     },
     "How to Fish": {
       "start_date": "2026-08-20",
-      "end_date": "2026-10-06",
+      "end_date": "2026-10-10",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_1d3ecc4842654de4b69be965b133fa32",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_f9008bf8fcb94f3181645dcb6453c554",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
@@ -27842,6 +28267,22 @@
           {
             "date": "2026-10-06",
             "value": 31170
+          },
+          {
+            "date": "2026-10-07",
+            "value": 28916
+          },
+          {
+            "date": "2026-10-08",
+            "value": 27572
+          },
+          {
+            "date": "2026-10-09",
+            "value": 25652
+          },
+          {
+            "date": "2026-10-10",
+            "value": 28438
           }
         ]
       },
@@ -28042,37 +28483,37 @@
           {
             "date": "2026-10-06",
             "value": 423831
+          },
+          {
+            "date": "2026-10-07",
+            "value": 440649
+          },
+          {
+            "date": "2026-10-08",
+            "value": 418366
+          },
+          {
+            "date": "2026-10-09",
+            "value": 345308
+          },
+          {
+            "date": "2026-10-10",
+            "value": 377096
           }
         ]
       },
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "Jackbox派对包": {
-      "start_date": "2026-07-10",
-      "end_date": "2026-10-07",
+      "start_date": "2026-07-14",
+      "end_date": "2026-10-11",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_e5b0d6d6054f4b7fbb66fd9965b757a7",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_05672f9d3c8a49718ced555df7507231",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 14
-          },
-          {
-            "date": "2026-07-11",
-            "value": 25
-          },
-          {
-            "date": "2026-07-12",
-            "value": 26
-          },
-          {
-            "date": "2026-07-13",
-            "value": 16
-          },
           {
             "date": "2026-07-14",
             "value": 14
@@ -28415,7 +28856,23 @@
           },
           {
             "date": "2026-10-07",
+            "value": 10
+          },
+          {
+            "date": "2026-10-08",
+            "value": 8
+          },
+          {
+            "date": "2026-10-09",
             "value": 12
+          },
+          {
+            "date": "2026-10-10",
+            "value": 22
+          },
+          {
+            "date": "2026-10-11",
+            "value": 54
           }
         ]
       },
@@ -28425,22 +28882,6 @@
         "granularity": "daily",
         "currency": "USD",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 0
-          },
-          {
-            "date": "2026-07-11",
-            "value": 800
-          },
-          {
-            "date": "2026-07-12",
-            "value": 0
-          },
-          {
-            "date": "2026-07-13",
-            "value": 0
-          },
           {
             "date": "2026-07-14",
             "value": 0
@@ -28779,6 +29220,22 @@
           },
           {
             "date": "2026-10-06",
+            "value": 0
+          },
+          {
+            "date": "2026-10-07",
+            "value": 0
+          },
+          {
+            "date": "2026-10-08",
+            "value": 0
+          },
+          {
+            "date": "2026-10-09",
+            "value": 0
+          },
+          {
+            "date": "2026-10-10",
             "value": 0
           }
         ]
@@ -32476,31 +32933,15 @@
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "Paralives": {
-      "start_date": "2026-07-10",
-      "end_date": "2026-10-07",
+      "start_date": "2026-07-14",
+      "end_date": "2026-10-11",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_1d3ecc4842654de4b69be965b133fa32",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_f9008bf8fcb94f3181645dcb6453c554",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 3463
-          },
-          {
-            "date": "2026-07-11",
-            "value": 3565
-          },
-          {
-            "date": "2026-07-12",
-            "value": 3758
-          },
-          {
-            "date": "2026-07-13",
-            "value": 2988
-          },
           {
             "date": "2026-07-14",
             "value": 2661
@@ -32843,7 +33284,23 @@
           },
           {
             "date": "2026-10-07",
-            "value": 997
+            "value": 961
+          },
+          {
+            "date": "2026-10-08",
+            "value": 937
+          },
+          {
+            "date": "2026-10-09",
+            "value": 1092
+          },
+          {
+            "date": "2026-10-10",
+            "value": 1324
+          },
+          {
+            "date": "2026-10-11",
+            "value": 1305
           }
         ]
       },
@@ -32853,22 +33310,6 @@
         "granularity": "daily",
         "currency": "USD",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 0
-          },
-          {
-            "date": "2026-07-11",
-            "value": 138141
-          },
-          {
-            "date": "2026-07-12",
-            "value": 184978
-          },
-          {
-            "date": "2026-07-13",
-            "value": 132767
-          },
           {
             "date": "2026-07-14",
             "value": 110468
@@ -33208,37 +33649,37 @@
           {
             "date": "2026-10-06",
             "value": 48471
+          },
+          {
+            "date": "2026-10-07",
+            "value": 46680
+          },
+          {
+            "date": "2026-10-08",
+            "value": 45528
+          },
+          {
+            "date": "2026-10-09",
+            "value": 0
+          },
+          {
+            "date": "2026-10-10",
+            "value": 5861
           }
         ]
       },
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "PEAK": {
-      "start_date": "2026-07-10",
-      "end_date": "2026-10-06",
+      "start_date": "2026-07-14",
+      "end_date": "2026-10-10",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_4443760fd4984e13a9a7d9c18d7d264d",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_11f27c63c97448da903a42c71dcbbda7",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 16226
-          },
-          {
-            "date": "2026-07-11",
-            "value": 15713
-          },
-          {
-            "date": "2026-07-12",
-            "value": 15687
-          },
-          {
-            "date": "2026-07-13",
-            "value": 14384
-          },
           {
             "date": "2026-07-14",
             "value": 12967
@@ -33578,6 +34019,22 @@
           {
             "date": "2026-10-06",
             "value": 13007
+          },
+          {
+            "date": "2026-10-07",
+            "value": 12349
+          },
+          {
+            "date": "2026-10-08",
+            "value": 12320
+          },
+          {
+            "date": "2026-10-09",
+            "value": 13921
+          },
+          {
+            "date": "2026-10-10",
+            "value": 16846
           }
         ]
       },
@@ -33587,22 +34044,6 @@
         "granularity": "daily",
         "currency": "USD",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 166914
-          },
-          {
-            "date": "2026-07-11",
-            "value": 134066
-          },
-          {
-            "date": "2026-07-12",
-            "value": 135319
-          },
-          {
-            "date": "2026-07-13",
-            "value": 26846
-          },
           {
             "date": "2026-07-14",
             "value": 101978
@@ -33942,37 +34383,37 @@
           {
             "date": "2026-10-06",
             "value": 88910
+          },
+          {
+            "date": "2026-10-07",
+            "value": 89219
+          },
+          {
+            "date": "2026-10-08",
+            "value": 87021
+          },
+          {
+            "date": "2026-10-09",
+            "value": 88158
+          },
+          {
+            "date": "2026-10-10",
+            "value": 139851
           }
         ]
       },
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "PlateUp!": {
-      "start_date": "2026-07-10",
-      "end_date": "2026-10-07",
+      "start_date": "2026-07-14",
+      "end_date": "2026-10-11",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_4443760fd4984e13a9a7d9c18d7d264d",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_11f27c63c97448da903a42c71dcbbda7",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 1087
-          },
-          {
-            "date": "2026-07-11",
-            "value": 1294
-          },
-          {
-            "date": "2026-07-12",
-            "value": 1317
-          },
-          {
-            "date": "2026-07-13",
-            "value": 957
-          },
           {
             "date": "2026-07-14",
             "value": 887
@@ -34315,7 +34756,23 @@
           },
           {
             "date": "2026-10-07",
-            "value": 2713
+            "value": 3373
+          },
+          {
+            "date": "2026-10-08",
+            "value": 3482
+          },
+          {
+            "date": "2026-10-09",
+            "value": 3728
+          },
+          {
+            "date": "2026-10-10",
+            "value": 4459
+          },
+          {
+            "date": "2026-10-11",
+            "value": 3863
           }
         ]
       },
@@ -34325,22 +34782,6 @@
         "granularity": "daily",
         "currency": "USD",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 16216
-          },
-          {
-            "date": "2026-07-11",
-            "value": 20038
-          },
-          {
-            "date": "2026-07-12",
-            "value": 5997
-          },
-          {
-            "date": "2026-07-13",
-            "value": 5997
-          },
           {
             "date": "2026-07-14",
             "value": 9099
@@ -34680,37 +35121,37 @@
           {
             "date": "2026-10-06",
             "value": 33456
+          },
+          {
+            "date": "2026-10-07",
+            "value": 30554
+          },
+          {
+            "date": "2026-10-08",
+            "value": 47970
+          },
+          {
+            "date": "2026-10-09",
+            "value": 41559
+          },
+          {
+            "date": "2026-10-10",
+            "value": 24366
           }
         ]
       },
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "Project Winter": {
-      "start_date": "2026-07-10",
-      "end_date": "2026-10-07",
+      "start_date": "2026-07-14",
+      "end_date": "2026-10-11",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_a72fd8a1cd544d9aa78070d19ef04e8e",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_394b2417607f456d8ede86960a2f9d7c",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 50
-          },
-          {
-            "date": "2026-07-11",
-            "value": 37
-          },
-          {
-            "date": "2026-07-12",
-            "value": 34
-          },
-          {
-            "date": "2026-07-13",
-            "value": 34
-          },
           {
             "date": "2026-07-14",
             "value": 66
@@ -35053,7 +35494,23 @@
           },
           {
             "date": "2026-10-07",
-            "value": 15
+            "value": 33
+          },
+          {
+            "date": "2026-10-08",
+            "value": 29
+          },
+          {
+            "date": "2026-10-09",
+            "value": 32
+          },
+          {
+            "date": "2026-10-10",
+            "value": 38
+          },
+          {
+            "date": "2026-10-11",
+            "value": 22
           }
         ]
       },
@@ -35063,22 +35520,6 @@
         "granularity": "daily",
         "currency": "USD",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 296
-          },
-          {
-            "date": "2026-07-11",
-            "value": 823
-          },
-          {
-            "date": "2026-07-12",
-            "value": 200
-          },
-          {
-            "date": "2026-07-13",
-            "value": 52
-          },
           {
             "date": "2026-07-14",
             "value": 1940
@@ -35418,37 +35859,37 @@
           {
             "date": "2026-10-06",
             "value": 83
+          },
+          {
+            "date": "2026-10-07",
+            "value": 90
+          },
+          {
+            "date": "2026-10-08",
+            "value": 79
+          },
+          {
+            "date": "2026-10-09",
+            "value": 86
+          },
+          {
+            "date": "2026-10-10",
+            "value": 823
           }
         ]
       },
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "Pummel Party": {
-      "start_date": "2026-07-10",
-      "end_date": "2026-10-07",
+      "start_date": "2026-07-14",
+      "end_date": "2026-10-11",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_4443760fd4984e13a9a7d9c18d7d264d",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_11f27c63c97448da903a42c71dcbbda7",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 2830
-          },
-          {
-            "date": "2026-07-11",
-            "value": 2732
-          },
-          {
-            "date": "2026-07-12",
-            "value": 2332
-          },
-          {
-            "date": "2026-07-13",
-            "value": 1760
-          },
           {
             "date": "2026-07-14",
             "value": 1596
@@ -35791,7 +36232,23 @@
           },
           {
             "date": "2026-10-07",
-            "value": 990
+            "value": 2028
+          },
+          {
+            "date": "2026-10-08",
+            "value": 2023
+          },
+          {
+            "date": "2026-10-09",
+            "value": 2083
+          },
+          {
+            "date": "2026-10-10",
+            "value": 2619
+          },
+          {
+            "date": "2026-10-11",
+            "value": 1534
           }
         ]
       },
@@ -35801,22 +36258,6 @@
         "granularity": "daily",
         "currency": "USD",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 50486
-          },
-          {
-            "date": "2026-07-11",
-            "value": 35209
-          },
-          {
-            "date": "2026-07-12",
-            "value": 39741
-          },
-          {
-            "date": "2026-07-13",
-            "value": 22917
-          },
           {
             "date": "2026-07-14",
             "value": 25063
@@ -36156,6 +36597,22 @@
           {
             "date": "2026-10-06",
             "value": 34090
+          },
+          {
+            "date": "2026-10-07",
+            "value": 41023
+          },
+          {
+            "date": "2026-10-08",
+            "value": 35061
+          },
+          {
+            "date": "2026-10-09",
+            "value": 25668
+          },
+          {
+            "date": "2026-10-10",
+            "value": 34981
           }
         ]
       },
@@ -36900,31 +37357,15 @@
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "Smalland": {
-      "start_date": "2026-07-10",
-      "end_date": "2026-10-07",
+      "start_date": "2026-07-14",
+      "end_date": "2026-10-11",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_b43ee868667b451989065d4713e626a8",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_20175ba8794b4fdc8ec22d10e28f3326",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 305
-          },
-          {
-            "date": "2026-07-11",
-            "value": 324
-          },
-          {
-            "date": "2026-07-12",
-            "value": 324
-          },
-          {
-            "date": "2026-07-13",
-            "value": 233
-          },
           {
             "date": "2026-07-14",
             "value": 244
@@ -37267,7 +37708,23 @@
           },
           {
             "date": "2026-10-07",
-            "value": 160
+            "value": 179
+          },
+          {
+            "date": "2026-10-08",
+            "value": 190
+          },
+          {
+            "date": "2026-10-09",
+            "value": 199
+          },
+          {
+            "date": "2026-10-10",
+            "value": 227
+          },
+          {
+            "date": "2026-10-11",
+            "value": 180
           }
         ]
       },
@@ -37277,22 +37734,6 @@
         "granularity": "daily",
         "currency": "USD",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 8398
-          },
-          {
-            "date": "2026-07-11",
-            "value": 13520
-          },
-          {
-            "date": "2026-07-12",
-            "value": 30819
-          },
-          {
-            "date": "2026-07-13",
-            "value": 0
-          },
           {
             "date": "2026-07-14",
             "value": 5831
@@ -37632,37 +38073,37 @@
           {
             "date": "2026-10-06",
             "value": 3366
+          },
+          {
+            "date": "2026-10-07",
+            "value": 1370
+          },
+          {
+            "date": "2026-10-08",
+            "value": 5475
+          },
+          {
+            "date": "2026-10-09",
+            "value": 1896
+          },
+          {
+            "date": "2026-10-10",
+            "value": 8174
           }
         ]
       },
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "SMASH LEGENDS": {
-      "start_date": "2026-07-10",
-      "end_date": "2026-10-07",
+      "start_date": "2026-07-14",
+      "end_date": "2026-10-11",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_a72fd8a1cd544d9aa78070d19ef04e8e",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_394b2417607f456d8ede86960a2f9d7c",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 134
-          },
-          {
-            "date": "2026-07-11",
-            "value": 122
-          },
-          {
-            "date": "2026-07-12",
-            "value": 133
-          },
-          {
-            "date": "2026-07-13",
-            "value": 111
-          },
           {
             "date": "2026-07-14",
             "value": 107
@@ -38005,7 +38446,23 @@
           },
           {
             "date": "2026-10-07",
-            "value": 100
+            "value": 91
+          },
+          {
+            "date": "2026-10-08",
+            "value": 92
+          },
+          {
+            "date": "2026-10-09",
+            "value": 102
+          },
+          {
+            "date": "2026-10-10",
+            "value": 111
+          },
+          {
+            "date": "2026-10-11",
+            "value": 114
           }
         ]
       },
@@ -39495,31 +39952,15 @@
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "Sun Haven": {
-      "start_date": "2026-07-10",
-      "end_date": "2026-10-07",
+      "start_date": "2026-07-14",
+      "end_date": "2026-10-11",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_b43ee868667b451989065d4713e626a8",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_20175ba8794b4fdc8ec22d10e28f3326",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 990
-          },
-          {
-            "date": "2026-07-11",
-            "value": 1108
-          },
-          {
-            "date": "2026-07-12",
-            "value": 1198
-          },
-          {
-            "date": "2026-07-13",
-            "value": 928
-          },
           {
             "date": "2026-07-14",
             "value": 836
@@ -39862,7 +40303,23 @@
           },
           {
             "date": "2026-10-07",
-            "value": 625
+            "value": 623
+          },
+          {
+            "date": "2026-10-08",
+            "value": 617
+          },
+          {
+            "date": "2026-10-09",
+            "value": 632
+          },
+          {
+            "date": "2026-10-10",
+            "value": 706
+          },
+          {
+            "date": "2026-10-11",
+            "value": 735
           }
         ]
       },
@@ -39872,22 +40329,6 @@
         "granularity": "daily",
         "currency": "USD",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 24070
-          },
-          {
-            "date": "2026-07-11",
-            "value": 63
-          },
-          {
-            "date": "2026-07-12",
-            "value": 10336
-          },
-          {
-            "date": "2026-07-13",
-            "value": 10336
-          },
           {
             "date": "2026-07-14",
             "value": 0
@@ -40227,6 +40668,22 @@
           {
             "date": "2026-10-06",
             "value": 2734
+          },
+          {
+            "date": "2026-10-07",
+            "value": 3657
+          },
+          {
+            "date": "2026-10-08",
+            "value": 1573
+          },
+          {
+            "date": "2026-10-09",
+            "value": 0
+          },
+          {
+            "date": "2026-10-10",
+            "value": 5018
           }
         ]
       },
@@ -41352,31 +41809,15 @@
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "人类一败涂地": {
-      "start_date": "2026-07-10",
-      "end_date": "2026-10-07",
+      "start_date": "2026-07-14",
+      "end_date": "2026-10-11",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_730aaa25d3334474bb6d18c5a1ee8b40",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_6f8f5ea24830429096173419881310e6",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 2334
-          },
-          {
-            "date": "2026-07-11",
-            "value": 2058
-          },
-          {
-            "date": "2026-07-12",
-            "value": 1888
-          },
-          {
-            "date": "2026-07-13",
-            "value": 1480
-          },
           {
             "date": "2026-07-14",
             "value": 1375
@@ -41719,7 +42160,23 @@
           },
           {
             "date": "2026-10-07",
-            "value": 1092
+            "value": 2110
+          },
+          {
+            "date": "2026-10-08",
+            "value": 2034
+          },
+          {
+            "date": "2026-10-09",
+            "value": 1997
+          },
+          {
+            "date": "2026-10-10",
+            "value": 2322
+          },
+          {
+            "date": "2026-10-11",
+            "value": 1228
           }
         ]
       },
@@ -41729,22 +42186,6 @@
         "granularity": "daily",
         "currency": "USD",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 37053
-          },
-          {
-            "date": "2026-07-11",
-            "value": 28242
-          },
-          {
-            "date": "2026-07-12",
-            "value": 28898
-          },
-          {
-            "date": "2026-07-13",
-            "value": 22341
-          },
           {
             "date": "2026-07-14",
             "value": 20054
@@ -42084,6 +42525,22 @@
           {
             "date": "2026-10-06",
             "value": 10959
+          },
+          {
+            "date": "2026-10-07",
+            "value": 12948
+          },
+          {
+            "date": "2026-10-08",
+            "value": 10916
+          },
+          {
+            "date": "2026-10-09",
+            "value": 9723
+          },
+          {
+            "date": "2026-10-10",
+            "value": 32176
           }
         ]
       },
@@ -42878,31 +43335,15 @@
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "Mechabellum": {
-      "start_date": "2026-07-10",
-      "end_date": "2026-10-07",
+      "start_date": "2026-07-14",
+      "end_date": "2026-10-11",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_730aaa25d3334474bb6d18c5a1ee8b40",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_6f8f5ea24830429096173419881310e6",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 1520
-          },
-          {
-            "date": "2026-07-11",
-            "value": 1440
-          },
-          {
-            "date": "2026-07-12",
-            "value": 1451
-          },
-          {
-            "date": "2026-07-13",
-            "value": 1234
-          },
           {
             "date": "2026-07-14",
             "value": 1209
@@ -43245,7 +43686,23 @@
           },
           {
             "date": "2026-10-07",
-            "value": 1537
+            "value": 1987
+          },
+          {
+            "date": "2026-10-08",
+            "value": 1883
+          },
+          {
+            "date": "2026-10-09",
+            "value": 1999
+          },
+          {
+            "date": "2026-10-10",
+            "value": 2229
+          },
+          {
+            "date": "2026-10-11",
+            "value": 1744
           }
         ]
       },
@@ -43255,22 +43712,6 @@
         "granularity": "daily",
         "currency": "USD",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 15110
-          },
-          {
-            "date": "2026-07-11",
-            "value": 6692
-          },
-          {
-            "date": "2026-07-12",
-            "value": 2243
-          },
-          {
-            "date": "2026-07-13",
-            "value": 1247
-          },
           {
             "date": "2026-07-14",
             "value": 1127
@@ -43610,6 +44051,22 @@
           {
             "date": "2026-10-06",
             "value": 12378
+          },
+          {
+            "date": "2026-10-07",
+            "value": 6120
+          },
+          {
+            "date": "2026-10-08",
+            "value": 2824
+          },
+          {
+            "date": "2026-10-09",
+            "value": 5998
+          },
+          {
+            "date": "2026-10-10",
+            "value": 7686
           }
         ]
       },
@@ -45092,103 +45549,15 @@
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "The Bazaar": {
-      "start_date": "2026-06-22",
-      "end_date": "2026-09-19",
+      "start_date": "2026-07-14",
+      "end_date": "2026-10-11",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_ea5cee5368004a8ab9efba68d27b0518",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_6f8f5ea24830429096173419881310e6",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-06-22",
-            "value": 4620
-          },
-          {
-            "date": "2026-06-23",
-            "value": 4860
-          },
-          {
-            "date": "2026-06-24",
-            "value": 4802
-          },
-          {
-            "date": "2026-06-25",
-            "value": 4612
-          },
-          {
-            "date": "2026-06-26",
-            "value": 4881
-          },
-          {
-            "date": "2026-06-27",
-            "value": 5710
-          },
-          {
-            "date": "2026-06-28",
-            "value": 5793
-          },
-          {
-            "date": "2026-06-29",
-            "value": 5204
-          },
-          {
-            "date": "2026-06-30",
-            "value": 5167
-          },
-          {
-            "date": "2026-07-01",
-            "value": 4783
-          },
-          {
-            "date": "2026-07-02",
-            "value": 6641
-          },
-          {
-            "date": "2026-07-03",
-            "value": 6734
-          },
-          {
-            "date": "2026-07-04",
-            "value": 7493
-          },
-          {
-            "date": "2026-07-05",
-            "value": 7580
-          },
-          {
-            "date": "2026-07-06",
-            "value": 6790
-          },
-          {
-            "date": "2026-07-07",
-            "value": 6739
-          },
-          {
-            "date": "2026-07-08",
-            "value": 6453
-          },
-          {
-            "date": "2026-07-09",
-            "value": 6731
-          },
-          {
-            "date": "2026-07-10",
-            "value": 6984
-          },
-          {
-            "date": "2026-07-11",
-            "value": 7056
-          },
-          {
-            "date": "2026-07-12",
-            "value": 6891
-          },
-          {
-            "date": "2026-07-13",
-            "value": 6139
-          },
           {
             "date": "2026-07-14",
             "value": 6095
@@ -45459,7 +45828,95 @@
           },
           {
             "date": "2026-09-19",
-            "value": 3569
+            "value": 3934
+          },
+          {
+            "date": "2026-09-20",
+            "value": 3806
+          },
+          {
+            "date": "2026-09-21",
+            "value": 3573
+          },
+          {
+            "date": "2026-09-22",
+            "value": 3475
+          },
+          {
+            "date": "2026-09-23",
+            "value": 3411
+          },
+          {
+            "date": "2026-09-24",
+            "value": 3404
+          },
+          {
+            "date": "2026-09-25",
+            "value": 3508
+          },
+          {
+            "date": "2026-09-26",
+            "value": 3557
+          },
+          {
+            "date": "2026-09-27",
+            "value": 3565
+          },
+          {
+            "date": "2026-09-28",
+            "value": 3233
+          },
+          {
+            "date": "2026-09-29",
+            "value": 3257
+          },
+          {
+            "date": "2026-09-30",
+            "value": 3195
+          },
+          {
+            "date": "2026-10-01",
+            "value": 3304
+          },
+          {
+            "date": "2026-10-02",
+            "value": 3232
+          },
+          {
+            "date": "2026-10-03",
+            "value": 3342
+          },
+          {
+            "date": "2026-10-04",
+            "value": 3386
+          },
+          {
+            "date": "2026-10-05",
+            "value": 3157
+          },
+          {
+            "date": "2026-10-06",
+            "value": 3141
+          },
+          {
+            "date": "2026-10-07",
+            "value": 3096
+          },
+          {
+            "date": "2026-10-08",
+            "value": 4125
+          },
+          {
+            "date": "2026-10-09",
+            "value": 4073
+          },
+          {
+            "date": "2026-10-10",
+            "value": 4260
+          },
+          {
+            "date": "2026-10-11",
+            "value": 4023
           }
         ]
       },
@@ -45469,94 +45926,6 @@
         "granularity": "daily",
         "currency": "USD",
         "points": [
-          {
-            "date": "2026-06-22",
-            "value": 7441
-          },
-          {
-            "date": "2026-06-23",
-            "value": 6447
-          },
-          {
-            "date": "2026-06-24",
-            "value": 11371
-          },
-          {
-            "date": "2026-06-25",
-            "value": 6978
-          },
-          {
-            "date": "2026-06-26",
-            "value": 48084
-          },
-          {
-            "date": "2026-06-27",
-            "value": 64850
-          },
-          {
-            "date": "2026-06-28",
-            "value": 35272
-          },
-          {
-            "date": "2026-06-29",
-            "value": 29106
-          },
-          {
-            "date": "2026-06-30",
-            "value": 23368
-          },
-          {
-            "date": "2026-07-01",
-            "value": 27946
-          },
-          {
-            "date": "2026-07-02",
-            "value": 30289
-          },
-          {
-            "date": "2026-07-03",
-            "value": 28829
-          },
-          {
-            "date": "2026-07-04",
-            "value": 35883
-          },
-          {
-            "date": "2026-07-05",
-            "value": 33722
-          },
-          {
-            "date": "2026-07-06",
-            "value": 29385
-          },
-          {
-            "date": "2026-07-07",
-            "value": 27716
-          },
-          {
-            "date": "2026-07-08",
-            "value": 25022
-          },
-          {
-            "date": "2026-07-09",
-            "value": 34990
-          },
-          {
-            "date": "2026-07-10",
-            "value": 30287
-          },
-          {
-            "date": "2026-07-11",
-            "value": 12335
-          },
-          {
-            "date": "2026-07-12",
-            "value": 17351
-          },
-          {
-            "date": "2026-07-13",
-            "value": 22887
-          },
           {
             "date": "2026-07-14",
             "value": 15419
@@ -45824,37 +46193,109 @@
           {
             "date": "2026-09-18",
             "value": 9470
+          },
+          {
+            "date": "2026-09-19",
+            "value": 7907
+          },
+          {
+            "date": "2026-09-20",
+            "value": 7378
+          },
+          {
+            "date": "2026-09-21",
+            "value": 5522
+          },
+          {
+            "date": "2026-09-22",
+            "value": 9218
+          },
+          {
+            "date": "2026-09-23",
+            "value": 5381
+          },
+          {
+            "date": "2026-09-24",
+            "value": 7011
+          },
+          {
+            "date": "2026-09-25",
+            "value": 5374
+          },
+          {
+            "date": "2026-09-26",
+            "value": 8389
+          },
+          {
+            "date": "2026-09-27",
+            "value": 9060
+          },
+          {
+            "date": "2026-09-28",
+            "value": 5477
+          },
+          {
+            "date": "2026-09-29",
+            "value": 5704
+          },
+          {
+            "date": "2026-09-30",
+            "value": 6695
+          },
+          {
+            "date": "2026-10-01",
+            "value": 5503
+          },
+          {
+            "date": "2026-10-02",
+            "value": 2489
+          },
+          {
+            "date": "2026-10-03",
+            "value": 7369
+          },
+          {
+            "date": "2026-10-04",
+            "value": 2795
+          },
+          {
+            "date": "2026-10-05",
+            "value": 5742
+          },
+          {
+            "date": "2026-10-06",
+            "value": 4737
+          },
+          {
+            "date": "2026-10-07",
+            "value": 2985
+          },
+          {
+            "date": "2026-10-08",
+            "value": 4548
+          },
+          {
+            "date": "2026-10-09",
+            "value": 9906
+          },
+          {
+            "date": "2026-10-10",
+            "value": 8262
           }
         ]
       },
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "The Outlast Trials": {
-      "start_date": "2026-07-10",
-      "end_date": "2026-10-07",
+      "start_date": "2026-07-14",
+      "end_date": "2026-10-11",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_730aaa25d3334474bb6d18c5a1ee8b40",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_6f8f5ea24830429096173419881310e6",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 7033
-          },
-          {
-            "date": "2026-07-11",
-            "value": 6652
-          },
-          {
-            "date": "2026-07-12",
-            "value": 6572
-          },
-          {
-            "date": "2026-07-13",
-            "value": 5742
-          },
           {
             "date": "2026-07-14",
             "value": 8164
@@ -46197,7 +46638,23 @@
           },
           {
             "date": "2026-10-07",
-            "value": 23641
+            "value": 43719
+          },
+          {
+            "date": "2026-10-08",
+            "value": 47551
+          },
+          {
+            "date": "2026-10-09",
+            "value": 47633
+          },
+          {
+            "date": "2026-10-10",
+            "value": 47740
+          },
+          {
+            "date": "2026-10-11",
+            "value": 26712
           }
         ]
       },
@@ -46207,22 +46664,6 @@
         "granularity": "daily",
         "currency": "USD",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 279795
-          },
-          {
-            "date": "2026-07-11",
-            "value": 174198
-          },
-          {
-            "date": "2026-07-12",
-            "value": 167923
-          },
-          {
-            "date": "2026-07-13",
-            "value": 71936
-          },
           {
             "date": "2026-07-14",
             "value": 70924
@@ -46562,21 +47003,57 @@
           {
             "date": "2026-10-06",
             "value": 698097
+          },
+          {
+            "date": "2026-10-07",
+            "value": 734908
+          },
+          {
+            "date": "2026-10-08",
+            "value": 820027
+          },
+          {
+            "date": "2026-10-09",
+            "value": 495652
+          },
+          {
+            "date": "2026-10-10",
+            "value": 1959414
           }
         ]
       },
       "note": "PC / Steam 日频第三方估算（USD）；缺失日期不插值，收入不等于利润。"
     },
     "BigWalk": {
-      "start_date": "2026-08-09",
-      "end_date": "2026-09-19",
+      "start_date": "2026-08-04",
+      "end_date": "2026-10-11",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c156a5e5d60941d785d74bf7573b39a1",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_f9008bf8fcb94f3181645dcb6453c554",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
+          {
+            "date": "2026-08-04",
+            "value": 15987
+          },
+          {
+            "date": "2026-08-05",
+            "value": 18633
+          },
+          {
+            "date": "2026-08-06",
+            "value": 16270
+          },
+          {
+            "date": "2026-08-07",
+            "value": 17570
+          },
+          {
+            "date": "2026-08-08",
+            "value": 24449
+          },
           {
             "date": "2026-08-09",
             "value": 28247
@@ -46743,7 +47220,95 @@
           },
           {
             "date": "2026-09-19",
-            "value": 6969
+            "value": 7258
+          },
+          {
+            "date": "2026-09-20",
+            "value": 7384
+          },
+          {
+            "date": "2026-09-21",
+            "value": 5064
+          },
+          {
+            "date": "2026-09-22",
+            "value": 4612
+          },
+          {
+            "date": "2026-09-23",
+            "value": 4003
+          },
+          {
+            "date": "2026-09-24",
+            "value": 3926
+          },
+          {
+            "date": "2026-09-25",
+            "value": 4702
+          },
+          {
+            "date": "2026-09-26",
+            "value": 6113
+          },
+          {
+            "date": "2026-09-27",
+            "value": 6413
+          },
+          {
+            "date": "2026-09-28",
+            "value": 4131
+          },
+          {
+            "date": "2026-09-29",
+            "value": 3588
+          },
+          {
+            "date": "2026-09-30",
+            "value": 3654
+          },
+          {
+            "date": "2026-10-01",
+            "value": 3915
+          },
+          {
+            "date": "2026-10-02",
+            "value": 5769
+          },
+          {
+            "date": "2026-10-03",
+            "value": 7727
+          },
+          {
+            "date": "2026-10-04",
+            "value": 8345
+          },
+          {
+            "date": "2026-10-05",
+            "value": 6163
+          },
+          {
+            "date": "2026-10-06",
+            "value": 5565
+          },
+          {
+            "date": "2026-10-07",
+            "value": 5039
+          },
+          {
+            "date": "2026-10-08",
+            "value": 4704
+          },
+          {
+            "date": "2026-10-09",
+            "value": 5500
+          },
+          {
+            "date": "2026-10-10",
+            "value": 7504
+          },
+          {
+            "date": "2026-10-11",
+            "value": 5715
           }
         ]
       },
@@ -46753,6 +47318,26 @@
         "granularity": "daily",
         "currency": "USD",
         "points": [
+          {
+            "date": "2026-08-04",
+            "value": 1205836
+          },
+          {
+            "date": "2026-08-05",
+            "value": 2158939
+          },
+          {
+            "date": "2026-08-06",
+            "value": 1258872
+          },
+          {
+            "date": "2026-08-07",
+            "value": 1242539
+          },
+          {
+            "date": "2026-08-08",
+            "value": 1434483
+          },
           {
             "date": "2026-08-09",
             "value": 1439220
@@ -46916,6 +47501,94 @@
           {
             "date": "2026-09-18",
             "value": 170475
+          },
+          {
+            "date": "2026-09-19",
+            "value": 251778
+          },
+          {
+            "date": "2026-09-20",
+            "value": 267306
+          },
+          {
+            "date": "2026-09-21",
+            "value": 136156
+          },
+          {
+            "date": "2026-09-22",
+            "value": 144152
+          },
+          {
+            "date": "2026-09-23",
+            "value": 130479
+          },
+          {
+            "date": "2026-09-24",
+            "value": 162447
+          },
+          {
+            "date": "2026-09-25",
+            "value": 164766
+          },
+          {
+            "date": "2026-09-26",
+            "value": 245029
+          },
+          {
+            "date": "2026-09-27",
+            "value": 211606
+          },
+          {
+            "date": "2026-09-28",
+            "value": 141065
+          },
+          {
+            "date": "2026-09-29",
+            "value": 100062
+          },
+          {
+            "date": "2026-09-30",
+            "value": 144888
+          },
+          {
+            "date": "2026-10-01",
+            "value": 50119
+          },
+          {
+            "date": "2026-10-02",
+            "value": 310794
+          },
+          {
+            "date": "2026-10-03",
+            "value": 361157
+          },
+          {
+            "date": "2026-10-04",
+            "value": 340741
+          },
+          {
+            "date": "2026-10-05",
+            "value": 284149
+          },
+          {
+            "date": "2026-10-06",
+            "value": 205593
+          },
+          {
+            "date": "2026-10-07",
+            "value": 228222
+          },
+          {
+            "date": "2026-10-08",
+            "value": 250480
+          },
+          {
+            "date": "2026-10-09",
+            "value": 243560
+          },
+          {
+            "date": "2026-10-10",
+            "value": 263362
           }
         ]
       },
@@ -46924,7 +47597,7 @@
     "Dressmaker": {
       "title": "Steam 同时在线趋势",
       "start_date": "2026-09-25",
-      "end_date": "2026-10-07",
+      "end_date": "2026-10-11",
       "source": "SteamCharts",
       "session_url": "https://steamcharts.com/app/4019220/chart-data.json",
       "activity": {
@@ -46983,6 +47656,22 @@
           {
             "date": "2026-10-07",
             "value": 25625
+          },
+          {
+            "date": "2026-10-08",
+            "value": 24710
+          },
+          {
+            "date": "2026-10-09",
+            "value": 25521
+          },
+          {
+            "date": "2026-10-10",
+            "value": 28720
+          },
+          {
+            "date": "2026-10-11",
+            "value": 30714
           }
         ]
       },
@@ -46997,31 +47686,15 @@
       "note": "逐小时在线人数抽样按完整 UTC 日求均值；仅展示已返回的完整日期，不是 DAU，也不补齐缺失日期。"
     },
     "药剂工艺": {
-      "start_date": "2026-07-10",
-      "end_date": "2026-10-07",
+      "start_date": "2026-07-14",
+      "end_date": "2026-10-11",
       "source": "DataBrain / Alinea",
-      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_4443760fd4984e13a9a7d9c18d7d264d",
+      "session_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_11f27c63c97448da903a42c71dcbbda7",
       "activity": {
         "label": "PC 日均 ACU",
         "scope": "PC / Steam",
         "granularity": "daily",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 690
-          },
-          {
-            "date": "2026-07-11",
-            "value": 648
-          },
-          {
-            "date": "2026-07-12",
-            "value": 657
-          },
-          {
-            "date": "2026-07-13",
-            "value": 540
-          },
           {
             "date": "2026-07-14",
             "value": 486
@@ -47364,7 +48037,23 @@
           },
           {
             "date": "2026-10-07",
-            "value": 503
+            "value": 588
+          },
+          {
+            "date": "2026-10-08",
+            "value": 578
+          },
+          {
+            "date": "2026-10-09",
+            "value": 580
+          },
+          {
+            "date": "2026-10-10",
+            "value": 634
+          },
+          {
+            "date": "2026-10-11",
+            "value": 557
           }
         ]
       },
@@ -47374,22 +48063,6 @@
         "granularity": "daily",
         "currency": "USD",
         "points": [
-          {
-            "date": "2026-07-10",
-            "value": 2399
-          },
-          {
-            "date": "2026-07-11",
-            "value": 0
-          },
-          {
-            "date": "2026-07-12",
-            "value": 0
-          },
-          {
-            "date": "2026-07-13",
-            "value": 10635
-          },
           {
             "date": "2026-07-14",
             "value": 10123
@@ -47729,6 +48402,22 @@
           {
             "date": "2026-10-06",
             "value": 8258
+          },
+          {
+            "date": "2026-10-07",
+            "value": 5235
+          },
+          {
+            "date": "2026-10-08",
+            "value": 1918
+          },
+          {
+            "date": "2026-10-09",
+            "value": 0
+          },
+          {
+            "date": "2026-10-10",
+            "value": 0
           }
         ]
       },
