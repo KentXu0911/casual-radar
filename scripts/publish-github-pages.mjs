@@ -6,6 +6,7 @@ import { verifyPublication } from "./publication-verifier.mjs";
 import { writeRefreshReport } from "./refresh-runner-lib.mjs";
 import { spawnSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
+import { githubNetwork } from "./github-network-lib.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const repository = "KentXu0911/casual-radar";
@@ -59,7 +60,7 @@ if (!fs.existsSync(path.join(checkout, ".git"))) {
   if (run("git", ["status", "--porcelain"], checkout, true).trim()) throw new Error("Publishing checkout has uncommitted changes; inspect it before retrying.");
   const origin = run("git", ["remote", "get-url", "origin"], checkout, true).trim();
   if (!origin.endsWith(`${repository}.git`) && !origin.endsWith(repository)) throw new Error("Unexpected publishing repository.");
-  run("git", ["pull", "--ff-only", "origin", "main"], checkout);
+  await githubNetwork("git", ["pull", "--ff-only", "origin", "main"], { cwd: checkout });
   const remoteHead = run("git", ["rev-parse", "HEAD"], checkout, true).trim();
   if (fs.existsSync(baselinePath)) {
     const baseline = JSON.parse(fs.readFileSync(baselinePath, "utf8"));
@@ -110,11 +111,11 @@ if (!exportOnly) {
     if (changed) run("git", ["commit", "-m", message], checkout);
     const sha = run("git", ["rev-parse", "HEAD"], checkout, true).trim();
     phase = "deploy";
-    run("git", ["push", "origin", "HEAD:main"], checkout);
+    await githubNetwork("git", ["push", "origin", "HEAD:main"], { cwd: checkout });
     const deadline = Date.now() + 15 * 60_000;
     let deployment;
     while (Date.now() < deadline) {
-      const runs = JSON.parse(run("gh", ["api", `repos/${repository}/actions/workflows/pages.yml/runs?head_sha=${sha}&per_page=10`], checkout, true)).workflow_runs;
+      const runs = JSON.parse(await githubNetwork("gh", ["api", `repos/${repository}/actions/workflows/pages.yml/runs?head_sha=${sha}&per_page=10`], { cwd: checkout })).workflow_runs;
       const latest = runs.filter(item => item.head_sha === sha).sort((a, b) => b.id - a.id)[0];
       if (latest?.status === "completed") {
         if (latest.conclusion !== "success") throw new Error(`Pages deployment failed: ${latest.html_url}`);
@@ -129,7 +130,8 @@ if (!exportOnly) {
     let verificationError;
     for (let attempt = 0; attempt < 8; attempt++) {
       try {
-        report.publication = await verifyPublication({ sha, runId: deployment.id, url: "https://kentxu0911.github.io/casual-radar/", version });
+        report.publication = await verifyPublication({ sha, runId: deployment.id, url: "https://kentxu0911.github.io/casual-radar/", version,
+          getRun: async id => JSON.parse(await githubNetwork("gh", ["api", `repos/${repository}/actions/runs/${id}`], { cwd: checkout })) });
         verificationError = null; break;
       } catch (error) {
         verificationError = error;

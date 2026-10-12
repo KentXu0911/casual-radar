@@ -1,18 +1,8 @@
 {
-  "checked_at": "2026-10-10",
-  "scope": "intelligence",
+  "checked_at": "2026-10-12",
+  "scope": "manual",
   "status": "complete",
   "modules": {
-    "intelligence": {
-      "required": true,
-      "status": "passed"
-    },
-    "editorial": {
-      "required": true,
-      "status": "passed",
-      "checked_at": "2026-10-10",
-      "notes": "近3天游研所完整分页与重点品类/在研产品精确检索已复核；既有排除决定保留，未确认线索不公开，媒体必做队列为空。"
-    },
     "identity": {
       "required": true,
       "status": "passed"

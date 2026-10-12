@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "version": "b5766ff0c3d2bb39a8ef",
+  "version": "396cc8dc9e457998939d",
   "source_commit": null,
-  "generated_at": "2026-10-10T02:49:56.780Z",
+  "generated_at": "2026-10-12T02:30:48.134Z",
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "anomaly-attributions.json": "7fb5668a3b8358281bee3c2d8f1d1e775b9b7e36b1b99098b66aaed19ede63aa",
-    "content-health.json": "8b224674e35d0f83e0db496396e14f7faf049ab9dab03f9ee66d0ff000c578dd",
+    "content-health.json": "f68f86ee9ba77a1720e3d05297d20eadeaf01cde9072da94c0694d219f8709dd",
     "dashboard_data.json": "595a46f3d7b87066531221fc475a846165da29f440a5690a83f8f06076a5c333",
     "databrain_events.json": "9d541a7db691715a9868bea6e5c35110a621c590037625bcd21ca5a5e39ae0fe",
     "databrain_latest_metrics.json": "47b7bf2388388cca19a4f61094619effe29e7f5fc0b0636ce05faa0fd0ef7f06",
