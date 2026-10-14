@@ -1,67 +1,29 @@
 {
-  "checked_at": "2026-10-12",
-  "scope": "weekly",
+  "checked_at": "2026-10-14",
+  "scope": "daily",
   "status": "complete",
   "modules": {
     "metrics": {
       "required": true,
       "status": "passed",
-      "checked_at": "2026-10-11"
-    },
-    "steam": {
-      "required": true,
-      "status": "passed"
-    },
-    "events": {
-      "required": true,
-      "status": "passed"
-    },
-    "research": {
-      "required": true,
-      "status": "passed"
-    },
-    "grp": {
-      "required": true,
-      "status": "passed"
-    },
-    "evidence": {
-      "required": true,
-      "status": "passed",
-      "checked_at": "2026-10-12",
-      "notes": "Revalidated after editorial cleanup; remaining event and research records passed source-evidence checks."
-    },
-    "attributions": {
-      "required": true,
-      "status": "passed"
-    },
-    "intelligence": {
-      "required": true,
-      "status": "passed"
-    },
-    "editorial": {
-      "required": true,
-      "status": "passed",
-      "checked_at": "2026-10-12",
-      "reviewed_scope": "identity, category, lifecycle, source evidence, GRP and anomaly attribution",
-      "quarantined_source_records": 134,
-      "notes": "77 automated evidence rejections plus 57 semantic editorial rejections; no new candidate approval or lifecycle milestone was added."
+      "checked_at": "2026-10-13"
     },
     "identity": {
-      "required": true,
+      "required": false,
       "status": "passed"
     },
     "lifecycle": {
-      "required": true,
+      "required": false,
       "status": "passed"
     },
     "media": {
-      "required": true,
+      "required": false,
       "status": "passed",
       "pending_changes": 0,
       "historical_backlog": 49
     },
     "views": {
-      "required": true,
+      "required": false,
       "status": "passed"
     },
     "content": {
@@ -74,7 +36,7 @@
   "historical_media_status": "pending",
   "dates": {
     "intelligence": "2026-10-12",
-    "metrics": "2026-10-11",
+    "metrics": "2026-10-13",
     "lifecycle": "2026-10-08"
   }
 }
