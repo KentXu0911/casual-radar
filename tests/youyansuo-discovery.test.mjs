@@ -143,11 +143,18 @@ test("excluded merge games cannot return through candidates, tracked updates or 
   assert.match(discovery.meta.excluded_rows.find((item) => item.name === "Yumtopia").scope_reason, /典型二合/);
 });
 
-test("editorial candidate selection retains only the two approved products", () => {
+test("editorial candidate selection publishes only approved products present in the current scan", () => {
   const discovery = JSON.parse(fs.readFileSync(path.join(root, "public", "youyansuo_discovery.json"), "utf8"));
-  assert.deepEqual(discovery.candidates.map((item) => item.name).sort(), ["Dear Passengers", "Project63"]);
+  const decisions = JSON.parse(fs.readFileSync(path.join(root, "public", "editorial-decisions.json"), "utf8")).decisions;
+  const approved = new Set(decisions.filter((item) => item.action === "include_candidate").map((item) => item.name));
+  const excluded = new Set(decisions.filter((item) => ["exclude", "exclude_candidate"].includes(item.action)).map((item) => item.name));
+  assert.ok(discovery.candidates.length > 0);
+  assert.ok(discovery.candidates.every((item) => approved.has(item.name) && !excluded.has(item.name)));
+  assert.equal(discovery.meta.pending_candidates, 0);
   const removed = discovery.meta.excluded_rows.filter((item) => item.decision_source === "用户候选筛选");
-  assert.equal(removed.length, 10);
+  assert.deepEqual(removed.map((item) => item.name).sort(), decisions
+    .filter((item) => item.action === "exclude" && item.scope === "candidate_selection")
+    .map((item) => item.name).sort());
   const bundle = normalizeDiscovery(input({ candidates: removed.map((item) => row(item.name, { scope_status: "in_scope" })) }), games, { today: "2026-09-28" });
   assert.equal(bundle.candidates.length, 0);
 });

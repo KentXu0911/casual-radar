@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "version": "0971d3d73d391300efb0",
+  "version": "a6b12a722390503cfd6a",
   "source_commit": null,
-  "generated_at": "2026-10-14T02:20:22.669Z",
+  "generated_at": "2026-10-14T04:50:29.273Z",
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "anomaly-attributions.json": "b8c52850b3bda3036412d6cfe92fd802763b4ac5688d0b0455b15bce453ee5eb",
-    "content-health.json": "716a75bbde14b92514c1f5489aa3a71e0e8624d140fd340246b32873b6084f21",
+    "content-health.json": "e585b7aef75ef5811e96d638fd40108718c999a22174eb56f63232b1290ad4d7",
     "dashboard_data.json": "595a46f3d7b87066531221fc475a846165da29f440a5690a83f8f06076a5c333",
     "databrain_events.json": "468690486e55c2b9a7903695a4d0d3ec2c76f3fa470a2693f657b0f9c52dbc48",
     "databrain_latest_metrics.json": "d5cb767704a1a40c08f181663939b99e908923965000d720f1cd27fe22b305c6",
@@ -15,7 +15,7 @@
     "databrain_trends.json": "3dcd4394105a0d10134937ebd05bd1aa1ab1b1bbb31219782adf0e5c2f2d35a3",
     "databrain_trends_90d.json": "2092aa520ff929cd649bc063db3741180d6c086b1a5574317526309467c882bf",
     "development-profiles.json": "7a44422d353ac978e61b2b190acf58aaeb5e7bebddc79da902f151e98638ff23",
-    "editorial-decisions.json": "35cfcb00f32c449a7ced43b2e28c4476e6a42f191d8648927078905a35997f1e",
+    "editorial-decisions.json": "aba23d5cc114dbe6d98ee01723fd120462ccbdb44b289d6aea442ded838beee9",
     "favicon.svg": "e6d2e59b7b5bbb0342e0fb496dfc262decbfe4426bbb7b047aec8d467d1dc6f7",
     "file.svg": "1e0ae4d1a1ddfa36752988647b731e4abf150c414d069ec83c96fb0aaeff0307",
     "game-icons/001-fallguys.jpg": "12b7e6bbaf9a25dc629d4e99fb887d9c9a91ee30c2187b8e8de69c2e6f5fd988",
@@ -345,6 +345,6 @@
     "video-thumbnails/xiaomi-star-draw-second-test.jpg": "704028393e814a887f96e7e4c9d7416ccfe37f528546f13d11314fa8e2cc7ea3",
     "weekly_scan.json": "5449e93caa70e9b8cb5e0d263553c30a50be61f9f674ada3498c69be601004fb",
     "window.svg": "decf1cf7bb22b5c99c4857cfcd5718ce5465c4454166317589c83fc73df74b66",
-    "youyansuo_discovery.json": "758396c800d2f8cfefd18d9bc52d61b6c4e1c417e593824be4a551f574ee1b08"
+    "youyansuo_discovery.json": "f1ad89f4763b5d59a31225df2ce2f888e735c9becd423ffa171dda76bca0a8e7"
   }
 }

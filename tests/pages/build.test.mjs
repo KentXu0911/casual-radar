@@ -26,7 +26,9 @@ test("Pages ships all dashboard data, current candidates and verified test foota
   const names = ["dashboard_data", "games", "pipeline-icons", "databrain_trends", "databrain_trends_90d", "databrain_latest_metrics", "databrain_snapshots", "video-covers", "pc-metrics", "development-profiles", "pc-trends", "databrain_events", "databrain_research", "youyansuo_discovery"];
   for (const name of names) JSON.parse(await readFile(path.join(output, `${name}.json`), "utf8"));
   const discovery = JSON.parse(await readFile(path.join(output, "youyansuo_discovery.json"), "utf8"));
-  assert.equal(discovery.candidates.length, 2);
+  const sourceDiscovery = JSON.parse(await readFile(path.join(root, "public", "youyansuo_discovery.json"), "utf8"));
+  assert.deepEqual(discovery.candidates, sourceDiscovery.candidates);
+  assert.equal(discovery.meta.scan_date, sourceDiscovery.meta.scan_date);
   const covers = JSON.parse(await readFile(path.join(output, "video-covers.json"), "utf8"));
   for (const key of ["BV1Rmh96ZERt", "BV1k6Nb6KEC2", "BV1qkhJ6PESD", "BV1rTH16DESw", "BV18Keu6fEGX", "BV1Mohb61Em9"]) {
     const entry = covers[key] || covers[`https://www.bilibili.com/video/${key}/`];

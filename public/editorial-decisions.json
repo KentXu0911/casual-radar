@@ -167,6 +167,17 @@
       "reason": "用户明确选择加入看板；保留已晋级状态和最新已核验报道。",
       "source": "用户编辑决定 · 2026-10-08",
       "reviewed_at": "2026-10-08"
+    },
+    {
+      "name": "极境：垂钓者",
+      "action": "include_candidate",
+      "scope": "candidate_selection",
+      "reason": "官网、官方Bilibili首曝PV与实机、媒体详情共同确认产品身份及多人联机拟真钓鱼核心；属于模拟经营/多人合作观察范围，10月21日首测日期仅按官方招募信息记录。",
+      "source": "紫龙游戏官网与官方Bilibili账号 · 2026-10-14编辑核验",
+      "reviewed_at": "2026-10-14",
+      "evidence_url": "https://ef.zlongame.com/",
+      "video_url": "https://www.bilibili.com/video/BV1ubpb6xES5/",
+      "recheck_trigger": "产品身份、核心玩法或测试安排发生明确变化后重新核验"
     }
   ]
 }
