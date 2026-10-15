@@ -1,34 +1,29 @@
 {
-  "checked_at": "2026-10-14",
-  "scope": "intelligence",
+  "checked_at": "2026-10-15",
+  "scope": "daily",
   "status": "complete",
   "modules": {
-    "intelligence": {
-      "required": true,
-      "status": "passed"
-    },
-    "editorial": {
+    "metrics": {
       "required": true,
       "status": "passed",
-      "checked_at": "2026-10-14",
-      "notes": "核验1个公开候选与2条已跟踪动态；本批次媒体必做队列为0；来源证据校验0条隔离。"
+      "checked_at": "2026-10-14"
     },
     "identity": {
-      "required": true,
+      "required": false,
       "status": "passed"
     },
     "lifecycle": {
-      "required": true,
+      "required": false,
       "status": "passed"
     },
     "media": {
-      "required": true,
+      "required": false,
       "status": "passed",
       "pending_changes": 0,
       "historical_backlog": 49
     },
     "views": {
-      "required": true,
+      "required": false,
       "status": "passed"
     },
     "content": {
@@ -41,7 +36,7 @@
   "historical_media_status": "pending",
   "dates": {
     "intelligence": "2026-10-14",
-    "metrics": "2026-10-13",
+    "metrics": "2026-10-14",
     "lifecycle": "2026-10-08"
   }
 }
