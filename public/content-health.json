@@ -1,29 +1,69 @@
 {
   "checked_at": "2026-10-19",
-  "scope": "daily",
+  "scope": "weekly",
   "status": "complete",
   "modules": {
     "metrics": {
       "required": true,
       "status": "passed",
-      "checked_at": "2026-10-18"
+      "checked_at": "2026-10-19"
+    },
+    "steam": {
+      "required": true,
+      "status": "passed",
+      "checked_at": "2026-10-19"
+    },
+    "events": {
+      "required": true,
+      "status": "passed",
+      "checked_at": "2026-10-19"
+    },
+    "research": {
+      "required": true,
+      "status": "passed",
+      "checked_at": "2026-10-19"
+    },
+    "grp": {
+      "required": true,
+      "status": "passed",
+      "checked_at": "2026-10-19"
+    },
+    "evidence": {
+      "required": true,
+      "status": "passed",
+      "checked_at": "2026-10-19"
+    },
+    "attributions": {
+      "required": true,
+      "status": "passed",
+      "checked_at": "2026-10-19"
+    },
+    "intelligence": {
+      "required": true,
+      "status": "passed",
+      "checked_at": "2026-10-19"
+    },
+    "editorial": {
+      "required": true,
+      "status": "passed",
+      "checked_at": "2026-10-19"
     },
     "identity": {
-      "required": false,
+      "required": true,
       "status": "passed"
     },
     "lifecycle": {
-      "required": false,
+      "required": true,
       "status": "passed"
     },
     "media": {
-      "required": false,
+      "required": true,
       "status": "passed",
       "pending_changes": 0,
       "historical_backlog": 49
     },
     "views": {
-      "required": false,
+      "required": true,
       "status": "passed"
     },
     "content": {
@@ -35,7 +75,7 @@
   "historical_media_backlog": 49,
   "historical_media_status": "pending",
   "dates": {
-    "intelligence": "2026-10-14",
+    "intelligence": "2026-10-19",
     "metrics": "2026-10-18",
     "lifecycle": "2026-10-08"
   }

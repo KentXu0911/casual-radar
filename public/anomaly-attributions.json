@@ -1,129 +1,113 @@
 {
   "meta": {
-    "reviewed_at": "2026-10-12",
-    "as_of": "2026-10-11",
+    "reviewed_at": "2026-10-19",
+    "as_of": "2026-10-18",
     "event_query_range": [
-      "2026-07-14",
-      "2026-10-11"
+      "2026-07-21",
+      "2026-10-18"
     ],
-    "alerts": 8,
-    "covered_alerts": 8,
+    "alerts": 7,
+    "covered_alerts": 7,
     "uncovered_alerts": 0,
     "policy": "每条异动必须绑定当前指标窗口，并记录同期事件或已检索无证据结论。"
   },
   "games": {
-    "漫威终极逆转": {
+    "胡闹厨房2": {
+      "status": "inconclusive",
+      "reviewedAt": "2026-10-19",
+      "summary": "暂未发现同期事件",
+      "sources": [
+        {
+          "label": "DataBrain：同期公开事件核查",
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_7ef8b6ae1e8447a6944fe63d5f4be3f3"
+        }
+      ],
+      "signalKeys": [
+        "日收入|PC / Steam 全球|2026-10-11|2026-10-17|up"
+      ]
+    },
+    "炉石传说：酒馆战棋": {
+      "status": "inconclusive",
+      "reviewedAt": "2026-10-19",
+      "summary": "暂未发现同期事件",
+      "sources": [
+        {
+          "label": "DataBrain：同期公开事件核查",
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_d9534a0c65ff4c16bb6aabab60560109"
+        }
+      ],
+      "signalKeys": [
+        "日收入|移动端全球|2026-10-11|2026-10-17|up"
+      ]
+    },
+    "Jackbox派对包": {
       "status": "hypothesis",
-      "reviewedAt": "2026-10-12",
-      "summary": "可能原因：10/8 国服S27赛季【X战警：末日终章】来袭！",
+      "reviewedAt": "2026-10-19",
+      "summary": "可能原因：10/15 The Jackbox Party Pack 12 正式发售",
       "sources": [
         {
-          "label": "Steam官方公告：国服S27赛季【X战警：末日终章】来袭！",
-          "url": "https://steamcommunity.com/app/2955370/announcements/"
+          "label": "官方渠道：The Jackbox Party Pack 12 正式发售",
+          "url": "https://www.jackboxgames.com/blog/the-jackbox-party-pack-12-is-available-now-on-major-platforms"
         }
       ],
       "signalKeys": [
-        "日收入|移动端全球|2026-10-04|2026-10-10|up"
+        "ACU|PC / Steam 全球|2026-10-12|2026-10-18|up"
       ]
     },
-    "PlateUp!": {
+    "Paralives": {
       "status": "inconclusive",
-      "reviewedAt": "2026-10-12",
+      "reviewedAt": "2026-10-19",
       "summary": "暂未发现同期事件",
       "sources": [
         {
           "label": "DataBrain：同期公开事件核查",
-          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_eeb315dc476349bbb4b2eea7a3ba8b71"
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_3466c7b8efe5417da2666d2d97a4ab04"
         }
       ],
       "signalKeys": [
-        "ACU|PC / Steam 全球|2026-10-05|2026-10-11|up",
-        "日收入|PC / Steam 全球|2026-10-04|2026-10-10|up"
+        "日收入|PC / Steam 全球|2026-10-11|2026-10-17|up"
       ]
     },
-    "Rush Royale": {
+    "人类一败涂地": {
       "status": "inconclusive",
-      "reviewedAt": "2026-10-12",
+      "reviewedAt": "2026-10-19",
       "summary": "暂未发现同期事件",
       "sources": [
         {
           "label": "DataBrain：同期公开事件核查",
-          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_5e262980efde4931b982f8dde33e95f7"
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_7ca6b5e6c30642559d3bbd51576d64f8"
         }
       ],
       "signalKeys": [
-        "日收入|移动端全球|2026-10-04|2026-10-10|up"
+        "ACU|PC / Steam 全球|2026-10-12|2026-10-18|down"
       ]
     },
-    "T3 Arena": {
+    "The Bazaar": {
       "status": "inconclusive",
-      "reviewedAt": "2026-10-12",
+      "reviewedAt": "2026-10-19",
       "summary": "暂未发现同期事件",
       "sources": [
         {
           "label": "DataBrain：同期公开事件核查",
-          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_8e016013b06548dd96d56dd7685a0a30"
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_1a9808edcb214ba882963a29328626f6"
         }
       ],
       "signalKeys": [
-        "日收入|移动端全球|2026-10-04|2026-10-10|down"
+        "日收入|PC / Steam 全球|2026-10-11|2026-10-17|up"
       ]
     },
-    "PICO PARK 2": {
+    "药剂工艺": {
       "status": "inconclusive",
-      "reviewedAt": "2026-10-12",
+      "reviewedAt": "2026-10-19",
       "summary": "暂未发现同期事件",
       "sources": [
         {
           "label": "DataBrain：同期公开事件核查",
-          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_bc61751acacb4b4785b960c90ee8fd44"
+          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_bfbf6e3acd6d4785ab9a9c967f7f40cb"
         }
       ],
       "signalKeys": [
-        "ACU|PC / Steam 全球|2026-10-01|2026-10-07|up"
-      ]
-    },
-    "The Outlast Trials": {
-      "status": "inconclusive",
-      "reviewedAt": "2026-10-12",
-      "summary": "暂未发现同期事件",
-      "sources": [
-        {
-          "label": "DataBrain：同期公开事件核查",
-          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_911ae5c5a076489b810d538c0e146a1d"
-        }
-      ],
-      "signalKeys": [
-        "ACU|PC / Steam 全球|2026-10-05|2026-10-11|up",
-        "日收入|PC / Steam 全球|2026-10-04|2026-10-10|up"
-      ]
-    },
-    "BigWalk": {
-      "status": "inconclusive",
-      "reviewedAt": "2026-10-12",
-      "summary": "暂未发现同期事件",
-      "sources": [
-        {
-          "label": "DataBrain：同期公开事件核查",
-          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_9bea1b5de49846a3ac790481b21de652"
-        }
-      ],
-      "signalKeys": [
-        "日收入|PC / Steam 全球|2026-10-04|2026-10-10|up"
-      ]
-    },
-    "蛋仔滑滑": {
-      "status": "inconclusive",
-      "reviewedAt": "2026-10-12",
-      "summary": "暂未发现同期事件",
-      "sources": [
-        {
-          "label": "DataBrain：同期公开事件核查",
-          "url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_41321a4757ba4d208323297228307b55"
-        }
-      ],
-      "signalKeys": [
-        "日收入|移动端全球|2026-10-04|2026-10-10|up"
+        "ACU|PC / Steam 全球|2026-10-12|2026-10-18|down"
       ]
     }
   }

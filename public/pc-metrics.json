@@ -5,7 +5,7 @@
     "method": "DataBrain / Alinea estimates cross-checked with official Steam store data where available",
     "coverage": "37 products with operating metrics, 2 products with Steam review coverage only, 3 products unavailable; How to Fish refreshed from Steam Charts on 2026-09-07; other entries retain their own dates",
     "source_updates": {
-      "Dressmaker": "2026-10-12"
+      "Dressmaker": "2026-10-19"
     }
   },
   "games": {
@@ -880,36 +880,36 @@
       "reviews_count": null
     },
     "Dressmaker": {
-      "average_ccu": 25266.57,
+      "average_ccu": 25013.4,
       "peak_ccu": 43198,
       "historical_peak_ccu": 43198,
       "revenue_30d": null,
       "sales_units": null,
-      "reviews_count": 13733,
-      "review_score": 98.43,
-      "data_date": "2026-10-12",
+      "reviews_count": 16929,
+      "review_score": 98.58,
+      "data_date": "2026-10-19",
       "source": "SteamCharts / Steam 官方评价",
       "source_url": "https://steamcharts.com/app/4019220",
       "confidence": "第三方统计",
       "field_sources": {
         "average_ccu": {
-          "date": "2026-10-12",
+          "date": "2026-10-19",
           "url": "https://steamcharts.com/app/4019220"
         },
         "peak_ccu": {
-          "date": "2026-10-12",
+          "date": "2026-10-19",
           "url": "https://steamcharts.com/app/4019220"
         },
         "historical_peak_ccu": {
-          "date": "2026-10-12",
+          "date": "2026-10-19",
           "url": "https://steamcharts.com/app/4019220"
         },
         "reviews_count": {
-          "date": "2026-10-12",
+          "date": "2026-10-19",
           "url": "https://store.steampowered.com/appreviews/4019220?json=1&filter=summary&language=all&purchase_type=all&num_per_page=0"
         },
         "review_score": {
-          "date": "2026-10-12",
+          "date": "2026-10-19",
           "url": "https://store.steampowered.com/appreviews/4019220?json=1&filter=summary&language=all&purchase_type=all&num_per_page=0"
         }
       },

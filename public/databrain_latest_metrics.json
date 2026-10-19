@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updated": "2026-10-19T02:23:02.416Z",
+    "updated": "2026-10-19T05:40:22.370Z",
     "mobile_games": 44,
     "pc_games": 71,
     "query_range": [
-      "2026-09-07",
+      "2026-07-21",
       "2026-10-18"
     ],
     "sessions": [
@@ -81,7 +81,15 @@
       "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_a972148ed2d24508b914bcb7ca721749",
       "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_317e09ef124f4a119d3ce27f001a9836",
       "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_382a1ce5dc014fb1b76e9e7d4122ff82",
-      "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_5de60c652d6547fcad19af40572b372b"
+      "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_5de60c652d6547fcad19af40572b372b",
+      "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c7b6d0b061bd436a91eb5cfc588469dc",
+      "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_7849f7d8ad7348d7a17dc53fd86f0f68",
+      "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_0aeb62bb9b6e4e5b9859e9aca41ddcc6",
+      "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_e1e74515a11e4eab816146d203686c46",
+      "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_02c0839e3963423eaa9519a992b39bd3",
+      "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_69ad6df808e94db780d457c8ec3e82c0",
+      "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_d9b0a6a29cc64c5d97374884abf489af",
+      "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_547d15ed47764b1795fc44f0db538eee"
     ],
     "targeted_refresh": {
       "games": [
@@ -96,9 +104,8 @@
         "皇室战争",
         "炉石传说：酒馆战棋",
         "漫威终极逆转",
-        "七日世界",
         "潜水员戴夫",
-        "随机骰子",
+        "索尼克大乱斗",
         "塔塔冒险队",
         "太空行动",
         "心动小镇",
@@ -106,6 +113,7 @@
         "元梦之星",
         "云顶之弈",
         "Among Us",
+        "Aniimo",
         "Castle Clashers",
         "Cup Heroes",
         "Epic Shaman Battle: 4P Defense",
@@ -129,17 +137,17 @@
         "黎明杀机",
         "猛兽派对",
         "七龙珠：破界斗士",
+        "七日世界",
         "人类一败涂地",
+        "沙石镇时光",
         "珊瑚岛",
         "史莱姆牧场",
         "死亡笔记：杀手同盟",
-        "索尼克大乱斗",
         "糖豆人",
         "药剂工艺",
         "致命公司",
         "终极鸡马",
         "捉鬼敢死队：灵魂释放",
-        "Aniimo",
         "BigWalk",
         "Cozy Grove",
         "Dale & Dawson Stationery Supplies",
@@ -174,10 +182,11 @@
         "Sun Haven",
         "Super Auto Pets",
         "The Bazaar",
-        "The Outlast Trials"
+        "The Outlast Trials",
+        "Town of Salem 2"
       ],
       "source_query_range": [
-        "2026-09-07",
+        "2026-07-21",
         "2026-10-18"
       ]
     },
@@ -195,9 +204,8 @@
         "皇室战争",
         "炉石传说：酒馆战棋",
         "漫威终极逆转",
-        "七日世界",
         "潜水员戴夫",
-        "随机骰子",
+        "索尼克大乱斗",
         "塔塔冒险队",
         "太空行动",
         "心动小镇",
@@ -205,6 +213,7 @@
         "元梦之星",
         "云顶之弈",
         "Among Us",
+        "Aniimo",
         "Castle Clashers",
         "Cup Heroes",
         "Epic Shaman Battle: 4P Defense",
@@ -228,17 +237,17 @@
         "黎明杀机",
         "猛兽派对",
         "七龙珠：破界斗士",
+        "七日世界",
         "人类一败涂地",
+        "沙石镇时光",
         "珊瑚岛",
         "史莱姆牧场",
         "死亡笔记：杀手同盟",
-        "索尼克大乱斗",
         "糖豆人",
         "药剂工艺",
         "致命公司",
         "终极鸡马",
         "捉鬼敢死队：灵魂释放",
-        "Aniimo",
         "BigWalk",
         "Cozy Grove",
         "Dale & Dawson Stationery Supplies",
@@ -273,17 +282,17 @@
         "Sun Haven",
         "Super Auto Pets",
         "The Bazaar",
-        "The Outlast Trials"
+        "The Outlast Trials",
+        "Town of Salem 2"
       ],
       "retained_previous_games": [
         "猫和老鼠",
+        "随机骰子",
         "金铲铲之战",
         "背包乱斗",
         "内容警告",
         "超自然行动组",
-        "沙石镇时光",
         "乐高派对",
-        "Town of Salem 2",
         "Bag Fight",
         "灵动小镇",
         "王者万象棋"
@@ -335,7 +344,7 @@
       "revenue_data_date": "2026-10-17",
       "data_date": "2026-10-17",
       "source": "DataBrain / Sensor Tower",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_3868448e815c474e88214cfbdec7f5bb",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c7b6d0b061bd436a91eb5cfc588469dc",
       "note": "DAU 为最新日频值；MAU 为最新可用自然月；收入为最新 30 个日历日内可用日收入之和。"
     },
     "爆裂小队": {
@@ -348,7 +357,7 @@
       "revenue_data_date": "2026-10-17",
       "data_date": "2026-10-17",
       "source": "DataBrain / Sensor Tower",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_5ce516862ba74592a3dc0b2bb625a418",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_e1e74515a11e4eab816146d203686c46",
       "note": "DAU 为最新日频值；MAU 为最新可用自然月；收入为最新 30 个日历日内可用日收入之和。"
     },
     "蛋仔派对": {
@@ -361,7 +370,7 @@
       "revenue_data_date": "2026-10-17",
       "data_date": "2026-10-17",
       "source": "DataBrain / Sensor Tower",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_3868448e815c474e88214cfbdec7f5bb",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c7b6d0b061bd436a91eb5cfc588469dc",
       "note": "DAU 为最新日频值；MAU 为最新可用自然月；收入为最新 30 个日历日内可用日收入之和。"
     },
     "第五人格": {
@@ -374,7 +383,7 @@
       "revenue_data_date": "2026-10-17",
       "data_date": "2026-10-17",
       "source": "DataBrain / Sensor Tower",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_f9025b91e3c5415fb2b4f4641134a4cb",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_7849f7d8ad7348d7a17dc53fd86f0f68",
       "note": "DAU 为最新日频值；MAU 为最新可用自然月；收入为最新 30 个日历日内可用日收入之和。"
     },
     "鹅鸭杀": {
@@ -387,7 +396,7 @@
       "revenue_data_date": "2026-10-17",
       "data_date": "2026-10-17",
       "source": "DataBrain / Sensor Tower",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_3868448e815c474e88214cfbdec7f5bb",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c7b6d0b061bd436a91eb5cfc588469dc",
       "note": "DAU 为最新日频值；MAU 为最新可用自然月；收入为最新 30 个日历日内可用日收入之和。"
     },
     "荒野乱斗": {
@@ -400,7 +409,7 @@
       "revenue_data_date": "2026-10-17",
       "data_date": "2026-10-17",
       "source": "DataBrain / Sensor Tower",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_3868448e815c474e88214cfbdec7f5bb",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c7b6d0b061bd436a91eb5cfc588469dc",
       "note": "DAU 为最新日频值；MAU 为最新可用自然月；收入为最新 30 个日历日内可用日收入之和。"
     },
     "皇室战争": {
@@ -413,7 +422,7 @@
       "revenue_data_date": "2026-10-17",
       "data_date": "2026-10-17",
       "source": "DataBrain / Sensor Tower",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_f9025b91e3c5415fb2b4f4641134a4cb",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_7849f7d8ad7348d7a17dc53fd86f0f68",
       "note": "DAU 为最新日频值；MAU 为最新可用自然月；收入为最新 30 个日历日内可用日收入之和。"
     },
     "金铲铲之战": {
@@ -439,7 +448,7 @@
       "revenue_data_date": "2026-10-17",
       "data_date": "2026-10-17",
       "source": "DataBrain / Sensor Tower",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_f9025b91e3c5415fb2b4f4641134a4cb",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_7849f7d8ad7348d7a17dc53fd86f0f68",
       "note": "DAU 为最新日频值；MAU 为最新可用自然月；收入为最新 30 个日历日内可用日收入之和。"
     },
     "漫威终极逆转": {
@@ -452,7 +461,7 @@
       "revenue_data_date": "2026-10-17",
       "data_date": "2026-10-17",
       "source": "DataBrain / Sensor Tower",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_f9025b91e3c5415fb2b4f4641134a4cb",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_7849f7d8ad7348d7a17dc53fd86f0f68",
       "note": "DAU 为最新日频值；MAU 为最新可用自然月；收入为最新 30 个日历日内可用日收入之和。"
     },
     "七日世界": {
@@ -483,15 +492,15 @@
     },
     "索尼克大乱斗": {
       "platform": "mobile",
-      "dau": 76618,
+      "dau": 83163,
       "mau": null,
-      "monthly_revenue": 55612,
-      "dau_data_date": "2026-10-13",
+      "monthly_revenue": 55958,
+      "dau_data_date": "2026-10-17",
       "mau_data_date": null,
-      "revenue_data_date": "2026-10-13",
-      "data_date": "2026-10-13",
+      "revenue_data_date": "2026-10-17",
+      "data_date": "2026-10-17",
       "source": "DataBrain / Sensor Tower",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_68f85ad0eba5443293e4e62c477e47f0",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c7b6d0b061bd436a91eb5cfc588469dc",
       "note": "DAU 为最新日频值；MAU 为最新可用自然月；收入为最新 30 个日历日内可用日收入之和。"
     },
     "塔塔冒险队": {
@@ -504,7 +513,7 @@
       "revenue_data_date": "2026-10-17",
       "data_date": "2026-10-17",
       "source": "DataBrain / Sensor Tower",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_5ce516862ba74592a3dc0b2bb625a418",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_e1e74515a11e4eab816146d203686c46",
       "note": "DAU 为最新日频值；MAU 为最新可用自然月；收入为最新 30 个日历日内可用日收入之和。"
     },
     "太空行动": {
@@ -517,7 +526,7 @@
       "revenue_data_date": "2026-10-17",
       "data_date": "2026-10-17",
       "source": "DataBrain / Sensor Tower",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_3868448e815c474e88214cfbdec7f5bb",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c7b6d0b061bd436a91eb5cfc588469dc",
       "note": "DAU 为最新日频值；MAU 为最新可用自然月；收入为最新 30 个日历日内可用日收入之和。"
     },
     "心动小镇": {
@@ -530,7 +539,7 @@
       "revenue_data_date": "2026-10-17",
       "data_date": "2026-10-17",
       "source": "DataBrain / Sensor Tower",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_a972148ed2d24508b914bcb7ca721749",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_02c0839e3963423eaa9519a992b39bd3",
       "note": "DAU 为最新日频值；MAU 为最新可用自然月；收入为最新 30 个日历日内可用日收入之和。"
     },
     "星露谷物语": {
@@ -543,7 +552,7 @@
       "revenue_data_date": "2026-10-17",
       "data_date": "2026-10-17",
       "source": "DataBrain / Sensor Tower",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_294dbc7e59174a7193bd8f6f76aff39a",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_0aeb62bb9b6e4e5b9859e9aca41ddcc6",
       "note": "DAU 为最新日频值；MAU 为最新可用自然月；收入为最新 30 个日历日内可用日收入之和。"
     },
     "元梦之星": {
@@ -556,7 +565,7 @@
       "revenue_data_date": "2026-10-17",
       "data_date": "2026-10-17",
       "source": "DataBrain / Sensor Tower",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_3868448e815c474e88214cfbdec7f5bb",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c7b6d0b061bd436a91eb5cfc588469dc",
       "note": "DAU 为最新日频值；MAU 为最新可用自然月；收入为最新 30 个日历日内可用日收入之和。"
     },
     "云顶之弈": {
@@ -569,7 +578,7 @@
       "revenue_data_date": "2026-10-17",
       "data_date": "2026-10-17",
       "source": "DataBrain / Sensor Tower",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_f9025b91e3c5415fb2b4f4641134a4cb",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_7849f7d8ad7348d7a17dc53fd86f0f68",
       "note": "DAU 为最新日频值；MAU 为最新可用自然月；收入为最新 30 个日历日内可用日收入之和。"
     },
     "Among Us": {
@@ -582,7 +591,7 @@
       "revenue_data_date": "2026-10-17",
       "data_date": "2026-10-17",
       "source": "DataBrain / Sensor Tower",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_3868448e815c474e88214cfbdec7f5bb",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c7b6d0b061bd436a91eb5cfc588469dc",
       "note": "DAU 为最新日频值；MAU 为最新可用自然月；收入为最新 30 个日历日内可用日收入之和。"
     },
     "Bag Fight": {
@@ -608,7 +617,7 @@
       "revenue_data_date": "2026-10-17",
       "data_date": "2026-10-17",
       "source": "DataBrain / Sensor Tower",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_5ce516862ba74592a3dc0b2bb625a418",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_e1e74515a11e4eab816146d203686c46",
       "note": "DAU 为最新日频值；MAU 为最新可用自然月；收入为最新 30 个日历日内可用日收入之和。"
     },
     "Cup Heroes": {
@@ -621,7 +630,7 @@
       "revenue_data_date": "2026-10-17",
       "data_date": "2026-10-17",
       "source": "DataBrain / Sensor Tower",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_a972148ed2d24508b914bcb7ca721749",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_02c0839e3963423eaa9519a992b39bd3",
       "note": "DAU 为最新日频值；MAU 为最新可用自然月；收入为最新 30 个日历日内可用日收入之和。"
     },
     "Epic Shaman Battle: 4P Defense": {
@@ -634,7 +643,7 @@
       "revenue_data_date": "2026-10-01",
       "data_date": "2026-10-17",
       "source": "DataBrain / Sensor Tower",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_5ce516862ba74592a3dc0b2bb625a418",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_e1e74515a11e4eab816146d203686c46",
       "note": "DAU 为最新日频值；MAU 为最新可用自然月；收入为最新 30 个日历日内可用日收入之和。"
     },
     "FRAG Pro Shooter": {
@@ -647,7 +656,7 @@
       "revenue_data_date": "2026-10-17",
       "data_date": "2026-10-17",
       "source": "DataBrain / Sensor Tower",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_3868448e815c474e88214cfbdec7f5bb",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c7b6d0b061bd436a91eb5cfc588469dc",
       "note": "DAU 为最新日频值；MAU 为最新可用自然月；收入为最新 30 个日历日内可用日收入之和。"
     },
     "Lucky Defense": {
@@ -660,7 +669,7 @@
       "revenue_data_date": "2026-10-17",
       "data_date": "2026-10-17",
       "source": "DataBrain / Sensor Tower",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_5ce516862ba74592a3dc0b2bb625a418",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_e1e74515a11e4eab816146d203686c46",
       "note": "DAU 为最新日频值；MAU 为最新可用自然月；收入为最新 30 个日历日内可用日收入之和。"
     },
     "Pocket Champs": {
@@ -673,7 +682,7 @@
       "revenue_data_date": "2026-10-17",
       "data_date": "2026-10-17",
       "source": "DataBrain / Sensor Tower",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_5ce516862ba74592a3dc0b2bb625a418",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_e1e74515a11e4eab816146d203686c46",
       "note": "DAU 为最新日频值；MAU 为最新可用自然月；收入为最新 30 个日历日内可用日收入之和。"
     },
     "Rush Royale": {
@@ -686,7 +695,7 @@
       "revenue_data_date": "2026-10-17",
       "data_date": "2026-10-17",
       "source": "DataBrain / Sensor Tower",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_f9025b91e3c5415fb2b4f4641134a4cb",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_7849f7d8ad7348d7a17dc53fd86f0f68",
       "note": "DAU 为最新日频值；MAU 为最新可用自然月；收入为最新 30 个日历日内可用日收入之和。"
     },
     "SMASH LEGENDS": {
@@ -699,7 +708,7 @@
       "revenue_data_date": "2026-10-17",
       "data_date": "2026-10-17",
       "source": "DataBrain / Sensor Tower",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_3868448e815c474e88214cfbdec7f5bb",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c7b6d0b061bd436a91eb5cfc588469dc",
       "note": "DAU 为最新日频值；MAU 为最新可用自然月；收入为最新 30 个日历日内可用日收入之和。"
     },
     "Stumble Guys": {
@@ -712,7 +721,7 @@
       "revenue_data_date": "2026-10-17",
       "data_date": "2026-10-17",
       "source": "DataBrain / Sensor Tower",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_3868448e815c474e88214cfbdec7f5bb",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c7b6d0b061bd436a91eb5cfc588469dc",
       "note": "DAU 为最新日频值；MAU 为最新可用自然月；收入为最新 30 个日历日内可用日收入之和。"
     },
     "T3 Arena": {
@@ -725,7 +734,7 @@
       "revenue_data_date": "2026-10-17",
       "data_date": "2026-10-17",
       "source": "DataBrain / Sensor Tower",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_3868448e815c474e88214cfbdec7f5bb",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c7b6d0b061bd436a91eb5cfc588469dc",
       "note": "DAU 为最新日频值；MAU 为最新可用自然月；收入为最新 30 个日历日内可用日收入之和。"
     },
     "TopTop": {
@@ -738,7 +747,7 @@
       "revenue_data_date": "2026-10-17",
       "data_date": "2026-10-17",
       "source": "DataBrain / Sensor Tower",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_5ce516862ba74592a3dc0b2bb625a418",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_e1e74515a11e4eab816146d203686c46",
       "note": "DAU 为最新日频值；MAU 为最新可用自然月；收入为最新 30 个日历日内可用日收入之和。"
     },
     "WePlay": {
@@ -751,7 +760,7 @@
       "revenue_data_date": "2026-10-17",
       "data_date": "2026-10-17",
       "source": "DataBrain / Sensor Tower",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_5ce516862ba74592a3dc0b2bb625a418",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_e1e74515a11e4eab816146d203686c46",
       "note": "DAU 为最新日频值；MAU 为最新可用自然月；收入为最新 30 个日历日内可用日收入之和。"
     },
     "Zooba": {
@@ -764,7 +773,7 @@
       "revenue_data_date": "2026-10-17",
       "data_date": "2026-10-17",
       "source": "DataBrain / Sensor Tower",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_3868448e815c474e88214cfbdec7f5bb",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c7b6d0b061bd436a91eb5cfc588469dc",
       "note": "DAU 为最新日频值；MAU 为最新可用自然月；收入为最新 30 个日历日内可用日收入之和。"
     },
     "王者万象棋": {
@@ -803,7 +812,7 @@
       "revenue_data_date": "2026-10-17",
       "data_date": "2026-10-17",
       "source": "DataBrain / Sensor Tower",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_382a1ce5dc014fb1b76e9e7d4122ff82",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_d9b0a6a29cc64c5d97374884abf489af",
       "note": "DAU 为最新日频值；MAU 为最新可用自然月；收入为最新 30 个日历日内可用日收入之和。"
     },
     "多多自走棋": {
@@ -816,7 +825,7 @@
       "revenue_data_date": "2026-10-17",
       "data_date": "2026-10-17",
       "source": "DataBrain / Sensor Tower",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_382a1ce5dc014fb1b76e9e7d4122ff82",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_d9b0a6a29cc64c5d97374884abf489af",
       "note": "DAU 为最新日频值；MAU 为最新可用自然月；收入为最新 30 个日历日内可用日收入之和。"
     },
     "超自然行动组": {
@@ -842,7 +851,7 @@
       "revenue_data_date": "2026-10-17",
       "data_date": "2026-10-17",
       "source": "DataBrain / Sensor Tower",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_317e09ef124f4a119d3ce27f001a9836",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_69ad6df808e94db780d457c8ec3e82c0",
       "note": "DAU 为最新日频值；MAU 为最新可用自然月；收入为最新 30 个日历日内可用日收入之和。"
     },
     "潜水员戴夫": {
@@ -855,20 +864,20 @@
       "revenue_data_date": "2026-10-17",
       "data_date": "2026-10-17",
       "source": "DataBrain / Sensor Tower",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_294dbc7e59174a7193bd8f6f76aff39a",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_0aeb62bb9b6e4e5b9859e9aca41ddcc6",
       "note": "DAU 为最新日频值；MAU 为最新可用自然月；收入为最新 30 个日历日内可用日收入之和。"
     },
     "Aniimo": {
       "platform": "mobile",
-      "dau": 179700,
+      "dau": 208164,
       "mau": null,
-      "monthly_revenue": 3659702,
-      "dau_data_date": "2026-10-13",
+      "monthly_revenue": 4045551,
+      "dau_data_date": "2026-10-17",
       "mau_data_date": null,
-      "revenue_data_date": "2026-10-13",
-      "data_date": "2026-10-13",
+      "revenue_data_date": "2026-10-17",
+      "data_date": "2026-10-17",
       "source": "DataBrain / Sensor Tower",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_fdeae023213f423bb46b72e89095634f",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_d9b0a6a29cc64c5d97374884abf489af",
       "note": "DAU 为最新日频值；MAU 为最新可用自然月；收入为最新 30 个日历日内可用日收入之和。"
     },
     "灵动小镇": {
@@ -912,10 +921,10 @@
     "创世理想乡": {
       "average_ccu": 90,
       "peak_ccu": 159,
-      "revenue_30d": 30295,
+      "revenue_30d": null,
       "data_date": "2026-10-18",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_a972148ed2d24508b914bcb7ca721749",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_02c0839e3963423eaa9519a992b39bd3",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -925,7 +934,7 @@
       "revenue_30d": 977979,
       "data_date": "2026-10-18",
       "source": "alinea / databrain",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_a972148ed2d24508b914bcb7ca721749",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_02c0839e3963423eaa9519a992b39bd3",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -935,17 +944,17 @@
       "revenue_30d": null,
       "data_date": "2026-10-18",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_3868448e815c474e88214cfbdec7f5bb",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c7b6d0b061bd436a91eb5cfc588469dc",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
     "方舟：生存进化": {
       "average_ccu": 13340,
       "peak_ccu": 23265,
-      "revenue_30d": 581149,
+      "revenue_30d": 5005712,
       "data_date": "2026-10-18",
-      "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_a972148ed2d24508b914bcb7ca721749",
+      "source": "alinea / databrain",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_02c0839e3963423eaa9519a992b39bd3",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -955,17 +964,17 @@
       "revenue_30d": 1162125,
       "data_date": "2026-10-18",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_294dbc7e59174a7193bd8f6f76aff39a",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_0aeb62bb9b6e4e5b9859e9aca41ddcc6",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
     "幻兽帕鲁": {
       "average_ccu": 48808,
       "peak_ccu": 102261,
-      "revenue_30d": 5386469,
+      "revenue_30d": 12365332,
       "data_date": "2026-10-18",
-      "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_a972148ed2d24508b914bcb7ca721749",
+      "source": "alinea / databrain",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_02c0839e3963423eaa9519a992b39bd3",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -975,7 +984,7 @@
       "revenue_30d": 2426619,
       "data_date": "2026-10-18",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_294dbc7e59174a7193bd8f6f76aff39a",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_0aeb62bb9b6e4e5b9859e9aca41ddcc6",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -995,7 +1004,7 @@
       "revenue_30d": 886210,
       "data_date": "2026-10-18",
       "source": "alinea / databrain",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_f9025b91e3c5415fb2b4f4641134a4cb",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_7849f7d8ad7348d7a17dc53fd86f0f68",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1012,10 +1021,10 @@
     "猛兽派对": {
       "average_ccu": 5750,
       "peak_ccu": 17365,
-      "revenue_30d": 968473,
+      "revenue_30d": 1712358,
       "data_date": "2026-10-18",
-      "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_3868448e815c474e88214cfbdec7f5bb",
+      "source": "alinea / databrain",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c7b6d0b061bd436a91eb5cfc588469dc",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1032,20 +1041,20 @@
     "七龙珠：破界斗士": {
       "average_ccu": 211,
       "peak_ccu": 798,
-      "revenue_30d": 53246,
+      "revenue_30d": 64192,
       "data_date": "2026-10-18",
       "source": "alinea / databrain",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_f9025b91e3c5415fb2b4f4641134a4cb",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_7849f7d8ad7348d7a17dc53fd86f0f68",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
     "七日世界": {
       "average_ccu": 17743,
       "peak_ccu": 29629,
-      "revenue_30d": 3871273,
+      "revenue_30d": 8704884,
       "data_date": "2026-10-17",
-      "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_a972148ed2d24508b914bcb7ca721749",
+      "source": "alinea / databrain",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_02c0839e3963423eaa9519a992b39bd3",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1055,17 +1064,17 @@
       "revenue_30d": 1798031,
       "data_date": "2026-10-17",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_294dbc7e59174a7193bd8f6f76aff39a",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_0aeb62bb9b6e4e5b9859e9aca41ddcc6",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
     "沙石镇时光": {
-      "average_ccu": 962,
+      "average_ccu": 939,
       "peak_ccu": 1707,
-      "revenue_30d": 278125,
-      "data_date": "2026-10-14",
+      "revenue_30d": 267725,
+      "data_date": "2026-10-18",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_91939ef9f2474438aed3458f841f304f",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_0aeb62bb9b6e4e5b9859e9aca41ddcc6",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1075,7 +1084,7 @@
       "revenue_30d": 368858,
       "data_date": "2026-10-18",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_5ce516862ba74592a3dc0b2bb625a418",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_e1e74515a11e4eab816146d203686c46",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1085,7 +1094,7 @@
       "revenue_30d": 312607,
       "data_date": "2026-10-18",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_294dbc7e59174a7193bd8f6f76aff39a",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_0aeb62bb9b6e4e5b9859e9aca41ddcc6",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1095,17 +1104,17 @@
       "revenue_30d": 3193,
       "data_date": "2026-10-17",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_5ce516862ba74592a3dc0b2bb625a418",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_e1e74515a11e4eab816146d203686c46",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
     "索尼克大乱斗": {
       "average_ccu": 123,
       "peak_ccu": 241,
-      "revenue_30d": 78275,
+      "revenue_30d": null,
       "data_date": "2026-10-17",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_3868448e815c474e88214cfbdec7f5bb",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c7b6d0b061bd436a91eb5cfc588469dc",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1115,17 +1124,17 @@
       "revenue_30d": 3521,
       "data_date": "2026-10-17",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_3868448e815c474e88214cfbdec7f5bb",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c7b6d0b061bd436a91eb5cfc588469dc",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
     "糖豆人": {
       "average_ccu": 407,
       "peak_ccu": 655,
-      "revenue_30d": 54548,
+      "revenue_30d": 249049,
       "data_date": "2026-10-18",
-      "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_3868448e815c474e88214cfbdec7f5bb",
+      "source": "alinea / databrain",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c7b6d0b061bd436a91eb5cfc588469dc",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1135,7 +1144,7 @@
       "revenue_30d": 3496860,
       "data_date": "2026-10-17",
       "source": "alinea / databrain",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_a972148ed2d24508b914bcb7ca721749",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_02c0839e3963423eaa9519a992b39bd3",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1145,17 +1154,17 @@
       "revenue_30d": 4405284,
       "data_date": "2026-10-18",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_294dbc7e59174a7193bd8f6f76aff39a",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_0aeb62bb9b6e4e5b9859e9aca41ddcc6",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
     "致命公司": {
       "average_ccu": 2709,
       "peak_ccu": 5676,
-      "revenue_30d": 597082,
+      "revenue_30d": 501782,
       "data_date": "2026-10-17",
-      "source": "alinea / databrain",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_f9025b91e3c5415fb2b4f4641134a4cb",
+      "source": "alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_7849f7d8ad7348d7a17dc53fd86f0f68",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1165,17 +1174,17 @@
       "revenue_30d": 211296,
       "data_date": "2026-10-18",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_5ce516862ba74592a3dc0b2bb625a418",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_e1e74515a11e4eab816146d203686c46",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
     "捉鬼敢死队：灵魂释放": {
       "average_ccu": 7,
       "peak_ccu": 23,
-      "revenue_30d": null,
+      "revenue_30d": 16931,
       "data_date": "2026-10-17",
-      "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_f9025b91e3c5415fb2b4f4641134a4cb",
+      "source": "alinea / databrain",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_7849f7d8ad7348d7a17dc53fd86f0f68",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1185,17 +1194,17 @@
       "revenue_30d": 402228,
       "data_date": "2026-10-18",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_3868448e815c474e88214cfbdec7f5bb",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c7b6d0b061bd436a91eb5cfc588469dc",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
     "Cozy Grove": {
       "average_ccu": 71,
       "peak_ccu": 131,
-      "revenue_30d": 2724,
+      "revenue_30d": 3297,
       "data_date": "2026-10-18",
       "source": "alinea / databrain",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_a972148ed2d24508b914bcb7ca721749",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_02c0839e3963423eaa9519a992b39bd3",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1205,7 +1214,7 @@
       "revenue_30d": 35797,
       "data_date": "2026-10-17",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_294dbc7e59174a7193bd8f6f76aff39a",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_0aeb62bb9b6e4e5b9859e9aca41ddcc6",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1215,7 +1224,7 @@
       "revenue_30d": 592939,
       "data_date": "2026-10-17",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_294dbc7e59174a7193bd8f6f76aff39a",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_0aeb62bb9b6e4e5b9859e9aca41ddcc6",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1225,7 +1234,7 @@
       "revenue_30d": 147921,
       "data_date": "2026-10-18",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_5ce516862ba74592a3dc0b2bb625a418",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_e1e74515a11e4eab816146d203686c46",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1235,7 +1244,7 @@
       "revenue_30d": null,
       "data_date": "2026-10-18",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_f9025b91e3c5415fb2b4f4641134a4cb",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_7849f7d8ad7348d7a17dc53fd86f0f68",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1245,27 +1254,27 @@
       "revenue_30d": 1582892,
       "data_date": "2026-10-17",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_294dbc7e59174a7193bd8f6f76aff39a",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_0aeb62bb9b6e4e5b9859e9aca41ddcc6",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
     "Faaast Penguin": {
       "average_ccu": 78,
       "peak_ccu": 210,
-      "revenue_30d": 36491,
+      "revenue_30d": null,
       "data_date": "2026-10-17",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_3868448e815c474e88214cfbdec7f5bb",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c7b6d0b061bd436a91eb5cfc588469dc",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
     "Fields of Mistria": {
       "average_ccu": 6031,
       "peak_ccu": 13415,
-      "revenue_30d": 683242,
+      "revenue_30d": 907610,
       "data_date": "2026-10-17",
       "source": "alinea / databrain",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_a972148ed2d24508b914bcb7ca721749",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_02c0839e3963423eaa9519a992b39bd3",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1275,17 +1284,17 @@
       "revenue_30d": 14829,
       "data_date": "2026-10-18",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_3868448e815c474e88214cfbdec7f5bb",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c7b6d0b061bd436a91eb5cfc588469dc",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
     "Go-Go Town!": {
       "average_ccu": 124,
       "peak_ccu": 355,
-      "revenue_30d": 163343,
+      "revenue_30d": 196512,
       "data_date": "2026-10-17",
       "source": "alinea / databrain",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_a972148ed2d24508b914bcb7ca721749",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_02c0839e3963423eaa9519a992b39bd3",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1295,7 +1304,7 @@
       "revenue_30d": 10434510,
       "data_date": "2026-10-17",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_317e09ef124f4a119d3ce27f001a9836",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_69ad6df808e94db780d457c8ec3e82c0",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1305,7 +1314,7 @@
       "revenue_30d": 2040,
       "data_date": "2026-10-18",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_5ce516862ba74592a3dc0b2bb625a418",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_e1e74515a11e4eab816146d203686c46",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1315,17 +1324,17 @@
       "revenue_30d": 6904,
       "data_date": "2026-10-17",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_294dbc7e59174a7193bd8f6f76aff39a",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_0aeb62bb9b6e4e5b9859e9aca41ddcc6",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
     "Lockdown Protocol": {
       "average_ccu": 251,
       "peak_ccu": 588,
-      "revenue_30d": 111608,
+      "revenue_30d": 142268,
       "data_date": "2026-10-17",
       "source": "alinea / databrain",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_f9025b91e3c5415fb2b4f4641134a4cb",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_7849f7d8ad7348d7a17dc53fd86f0f68",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1335,7 +1344,7 @@
       "revenue_30d": 176944,
       "data_date": "2026-10-17",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_5ce516862ba74592a3dc0b2bb625a418",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_e1e74515a11e4eab816146d203686c46",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1345,7 +1354,7 @@
       "revenue_30d": 12790,
       "data_date": "2026-10-17",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_294dbc7e59174a7193bd8f6f76aff39a",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_0aeb62bb9b6e4e5b9859e9aca41ddcc6",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1355,7 +1364,7 @@
       "revenue_30d": 1435348,
       "data_date": "2026-10-17",
       "source": "alinea / databrain",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_a972148ed2d24508b914bcb7ca721749",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_02c0839e3963423eaa9519a992b39bd3",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1365,7 +1374,7 @@
       "revenue_30d": 1542067,
       "data_date": "2026-10-18",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_317e09ef124f4a119d3ce27f001a9836",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_69ad6df808e94db780d457c8ec3e82c0",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1375,7 +1384,7 @@
       "revenue_30d": 2830630,
       "data_date": "2026-10-17",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_294dbc7e59174a7193bd8f6f76aff39a",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_0aeb62bb9b6e4e5b9859e9aca41ddcc6",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1385,7 +1394,7 @@
       "revenue_30d": 690495,
       "data_date": "2026-10-18",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_294dbc7e59174a7193bd8f6f76aff39a",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_0aeb62bb9b6e4e5b9859e9aca41ddcc6",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1395,7 +1404,7 @@
       "revenue_30d": 11433,
       "data_date": "2026-10-18",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_3868448e815c474e88214cfbdec7f5bb",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c7b6d0b061bd436a91eb5cfc588469dc",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1405,7 +1414,7 @@
       "revenue_30d": 863259,
       "data_date": "2026-10-18",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_294dbc7e59174a7193bd8f6f76aff39a",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_0aeb62bb9b6e4e5b9859e9aca41ddcc6",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1415,17 +1424,17 @@
       "revenue_30d": 2224944,
       "data_date": "2026-10-17",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_294dbc7e59174a7193bd8f6f76aff39a",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_0aeb62bb9b6e4e5b9859e9aca41ddcc6",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
     "Smalland": {
       "average_ccu": 166,
       "peak_ccu": 452,
-      "revenue_30d": 36600,
+      "revenue_30d": 110192,
       "data_date": "2026-10-18",
       "source": "alinea / databrain",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_a972148ed2d24508b914bcb7ca721749",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_02c0839e3963423eaa9519a992b39bd3",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1435,7 +1444,7 @@
       "revenue_30d": null,
       "data_date": "2026-10-18",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_3868448e815c474e88214cfbdec7f5bb",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c7b6d0b061bd436a91eb5cfc588469dc",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1445,27 +1454,27 @@
       "revenue_30d": 71324,
       "data_date": "2026-10-17",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_317e09ef124f4a119d3ce27f001a9836",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_69ad6df808e94db780d457c8ec3e82c0",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
     "Stumble Guys": {
       "average_ccu": 2061,
       "peak_ccu": 4172,
-      "revenue_30d": 114690,
+      "revenue_30d": 140254,
       "data_date": "2026-10-17",
-      "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_3868448e815c474e88214cfbdec7f5bb",
+      "source": "alinea / databrain",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_c7b6d0b061bd436a91eb5cfc588469dc",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
     "Sun Haven": {
       "average_ccu": 738,
       "peak_ccu": 1481,
-      "revenue_30d": 191458,
+      "revenue_30d": 209451,
       "data_date": "2026-10-18",
       "source": "alinea / databrain",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_a972148ed2d24508b914bcb7ca721749",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_02c0839e3963423eaa9519a992b39bd3",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1475,7 +1484,7 @@
       "revenue_30d": null,
       "data_date": "2026-10-17",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_f9025b91e3c5415fb2b4f4641134a4cb",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_7849f7d8ad7348d7a17dc53fd86f0f68",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1495,7 +1504,7 @@
       "revenue_30d": 531816,
       "data_date": "2026-10-18",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_382a1ce5dc014fb1b76e9e7d4122ff82",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_d9b0a6a29cc64c5d97374884abf489af",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1515,7 +1524,7 @@
       "revenue_30d": 40742,
       "data_date": "2026-10-17",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_382a1ce5dc014fb1b76e9e7d4122ff82",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_d9b0a6a29cc64c5d97374884abf489af",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1525,7 +1534,7 @@
       "revenue_30d": 312922,
       "data_date": "2026-10-18",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_382a1ce5dc014fb1b76e9e7d4122ff82",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_d9b0a6a29cc64c5d97374884abf489af",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1535,7 +1544,7 @@
       "revenue_30d": 11256,
       "data_date": "2026-10-17",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_382a1ce5dc014fb1b76e9e7d4122ff82",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_d9b0a6a29cc64c5d97374884abf489af",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1545,7 +1554,7 @@
       "revenue_30d": 103347,
       "data_date": "2026-10-17",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_382a1ce5dc014fb1b76e9e7d4122ff82",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_d9b0a6a29cc64c5d97374884abf489af",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1555,7 +1564,7 @@
       "revenue_30d": 231277,
       "data_date": "2026-10-18",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_382a1ce5dc014fb1b76e9e7d4122ff82",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_d9b0a6a29cc64c5d97374884abf489af",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1565,7 +1574,7 @@
       "revenue_30d": 13274156,
       "data_date": "2026-10-18",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_382a1ce5dc014fb1b76e9e7d4122ff82",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_d9b0a6a29cc64c5d97374884abf489af",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1575,7 +1584,7 @@
       "revenue_30d": 5911649,
       "data_date": "2026-10-18",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_317e09ef124f4a119d3ce27f001a9836",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_69ad6df808e94db780d457c8ec3e82c0",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
@@ -1585,27 +1594,27 @@
       "revenue_30d": 179425,
       "data_date": "2026-10-18",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_294dbc7e59174a7193bd8f6f76aff39a",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_0aeb62bb9b6e4e5b9859e9aca41ddcc6",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
     "Dressmaker": {
       "average_ccu": 23048,
       "peak_ccu": 43174,
-      "revenue_30d": 15503298,
+      "revenue_30d": 8976533,
       "data_date": "2026-10-17",
-      "source": "alinea / databrain",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_5de60c652d6547fcad19af40572b372b",
+      "source": "alinea",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_547d15ed47764b1795fc44f0db538eee",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     },
     "Town of Salem 2": {
-      "average_ccu": 132,
+      "average_ccu": 129,
       "peak_ccu": 345,
-      "revenue_30d": 14660,
-      "data_date": "2026-10-13",
+      "revenue_30d": 14548,
+      "data_date": "2026-10-17",
       "source": "alinea",
-      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_58b955e4ea4046e29222737ce967ca96",
+      "source_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_metrics_e1e74515a11e4eab816146d203686c46",
       "confidence": "第三方估算",
       "note": "近 30 日指标由 DataBrain 返回的日频第三方序列聚合；缺失日期不插值。"
     }

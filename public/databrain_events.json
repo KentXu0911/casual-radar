@@ -1,8 +1,8 @@
 {
   "meta": {
     "query_range": [
-      "2026-07-14",
-      "2026-10-11"
+      "2026-07-21",
+      "2026-10-18"
     ],
     "games_queried": 132,
     "queried_game_names": [
@@ -143,8 +143,8 @@
     "max_records_per_game": 8,
     "sessions": [
       {
-        "sessionId": "dashboard_events_5783ffa0f92247829ed1b64c522c4eb5",
-        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_5783ffa0f92247829ed1b64c522c4eb5",
+        "sessionId": "dashboard_events_d86fdf770f474054926a34f77cb9cc34",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_d86fdf770f474054926a34f77cb9cc34",
         "games": [
           "糖豆人",
           "蛋仔派对",
@@ -155,8 +155,8 @@
         ]
       },
       {
-        "sessionId": "dashboard_events_8e016013b06548dd96d56dd7685a0a30",
-        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_8e016013b06548dd96d56dd7685a0a30",
+        "sessionId": "dashboard_events_41bfb8d5224b4c049f05774494cdfeff",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_41bfb8d5224b4c049f05774494cdfeff",
         "games": [
           "索尼克大乱斗",
           "荒野乱斗",
@@ -167,8 +167,8 @@
         ]
       },
       {
-        "sessionId": "dashboard_events_8eeea025bd63491e9304c9d0d6201d87",
-        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_8eeea025bd63491e9304c9d0d6201d87",
+        "sessionId": "dashboard_events_ced23a9dc1204ed0a99cb52ccdf11a66",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_ced23a9dc1204ed0a99cb52ccdf11a66",
         "games": [
           "FRAG Pro Shooter",
           "Among Us",
@@ -179,8 +179,25 @@
         ]
       },
       {
-        "sessionId": "dashboard_events_51143d89806041078866058f36f08036",
-        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_51143d89806041078866058f36f08036",
+        "sessionId": "dashboard_events_cbbe35f72064459ba78f9ee1b6ec2afe",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_cbbe35f72064459ba78f9ee1b6ec2afe",
+        "games": [
+          "Among Us",
+          "鹅鸭杀",
+          "太空行动"
+        ]
+      },
+      {
+        "sessionId": "dashboard_events_1f4b5e9e00b6435586e74373cd8d7d8e",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_1f4b5e9e00b6435586e74373cd8d7d8e",
+        "games": [
+          "Project Winter",
+          "First Class Trouble"
+        ]
+      },
+      {
+        "sessionId": "dashboard_events_8155c96533464ded931485c44d2f7b68",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_8155c96533464ded931485c44d2f7b68",
         "games": [
           "Lockdown Protocol",
           "Dread Hunger",
@@ -191,8 +208,8 @@
         ]
       },
       {
-        "sessionId": "dashboard_events_5e262980efde4931b982f8dde33e95f7",
-        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_5e262980efde4931b982f8dde33e95f7",
+        "sessionId": "dashboard_events_1fe5faa26c024d9992c78983a1e6c157",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_1fe5faa26c024d9992c78983a1e6c157",
         "games": [
           "七龙珠：破界斗士",
           "捉鬼敢死队：灵魂释放",
@@ -203,26 +220,8 @@
         ]
       },
       {
-        "sessionId": "dashboard_events_98a25946013541258737c4c98cd5956b",
-        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_98a25946013541258737c4c98cd5956b",
-        "games": [
-          "七龙珠：破界斗士",
-          "捉鬼敢死队：灵魂释放",
-          "皇室战争"
-        ]
-      },
-      {
-        "sessionId": "dashboard_events_2e7f7c9e31ad4ecc9715affd8de70946",
-        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_2e7f7c9e31ad4ecc9715affd8de70946",
-        "games": [
-          "漫威终极逆转",
-          "Rush Royale",
-          "随机骰子"
-        ]
-      },
-      {
-        "sessionId": "dashboard_events_ac82c8dca8474b71a007130a3a7eab1a",
-        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_ac82c8dca8474b71a007130a3a7eab1a",
+        "sessionId": "dashboard_events_d9534a0c65ff4c16bb6aabab60560109",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_d9534a0c65ff4c16bb6aabab60560109",
         "games": [
           "云顶之弈",
           "金铲铲之战",
@@ -233,8 +232,26 @@
         ]
       },
       {
-        "sessionId": "dashboard_events_9e3eed97e9784b498092a4eb00343f4f",
-        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_9e3eed97e9784b498092a4eb00343f4f",
+        "sessionId": "dashboard_events_ee5015307f5f4d52adeb301cb7bd10f8",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_ee5015307f5f4d52adeb301cb7bd10f8",
+        "games": [
+          "云顶之弈",
+          "金铲铲之战",
+          "炉石传说：酒馆战棋"
+        ]
+      },
+      {
+        "sessionId": "dashboard_events_8c6b4087ea5f4e468930ed43450b21d8",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_8c6b4087ea5f4e468930ed43450b21d8",
+        "games": [
+          "Super Auto Pets",
+          "背包乱斗",
+          "致命公司"
+        ]
+      },
+      {
+        "sessionId": "dashboard_events_b5e284c532ae4dec85f36b2fbebed866",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_b5e284c532ae4dec85f36b2fbebed866",
         "games": [
           "R.E.P.O.",
           "内容警告",
@@ -245,8 +262,55 @@
         ]
       },
       {
-        "sessionId": "dashboard_events_eeb315dc476349bbb4b2eea7a3ba8b71",
-        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_eeb315dc476349bbb4b2eea7a3ba8b71",
+        "sessionId": "dashboard_events_ed38d4587b3b4f13bb9bd1a0eb079d7d",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_ed38d4587b3b4f13bb9bd1a0eb079d7d",
+        "games": [
+          "R.E.P.O.",
+          "内容警告",
+          "恐鬼症"
+        ]
+      },
+      {
+        "sessionId": "dashboard_events_48d7c6ee10da4dbc9704560b73a37a80",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_48d7c6ee10da4dbc9704560b73a37a80",
+        "games": [
+          "超自然行动组",
+          "PEAK",
+          "Escape the Backrooms"
+        ]
+      },
+      {
+        "sessionId": "dashboard_events_6cee5625656842249dd3f4e5cb0fee36",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_6cee5625656842249dd3f4e5cb0fee36",
+        "games": [
+          "超自然行动组",
+          "PEAK"
+        ]
+      },
+      {
+        "sessionId": "dashboard_events_eac4f105d42c4ce89c0846ba2dbd94bf",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_eac4f105d42c4ce89c0846ba2dbd94bf",
+        "games": [
+          "超自然行动组"
+        ]
+      },
+      {
+        "sessionId": "dashboard_events_a3734d7e05814b12bd9a1efc31a841f3",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_a3734d7e05814b12bd9a1efc31a841f3",
+        "games": [
+          "PEAK"
+        ]
+      },
+      {
+        "sessionId": "dashboard_events_8f5448171cc842d39f8018dca3b1083d",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_8f5448171cc842d39f8018dca3b1083d",
+        "games": [
+          "Escape the Backrooms"
+        ]
+      },
+      {
+        "sessionId": "dashboard_events_7ef8b6ae1e8447a6944fe63d5f4be3f3",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_7ef8b6ae1e8447a6944fe63d5f4be3f3",
         "games": [
           "Murky Divers",
           "胡闹厨房2",
@@ -257,8 +321,8 @@
         ]
       },
       {
-        "sessionId": "dashboard_events_53d0f18941c9465f899bc6bd27e139d3",
-        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_53d0f18941c9465f899bc6bd27e139d3",
+        "sessionId": "dashboard_events_bfbf6e3acd6d4785ab9a9c967f7f40cb",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_bfbf6e3acd6d4785ab9a9c967f7f40cb",
         "games": [
           "Dale & Dawson Stationery Supplies",
           "星露谷物语",
@@ -269,41 +333,8 @@
         ]
       },
       {
-        "sessionId": "dashboard_events_31795fc257584d48885b6a5571061896",
-        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_31795fc257584d48885b6a5571061896",
-        "games": [
-          "Dale & Dawson Stationery Supplies",
-          "星露谷物语",
-          "潜水员戴夫"
-        ]
-      },
-      {
-        "sessionId": "dashboard_events_e1680d9a694b4ca093a77b2b9132e9b4",
-        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_e1680d9a694b4ca093a77b2b9132e9b4",
-        "games": [
-          "Dale & Dawson Stationery Supplies",
-          "星露谷物语"
-        ]
-      },
-      {
-        "sessionId": "dashboard_events_73e9ab8bea254027b6237b18da76bc9a",
-        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_73e9ab8bea254027b6237b18da76bc9a",
-        "games": [
-          "潜水员戴夫"
-        ]
-      },
-      {
-        "sessionId": "dashboard_events_24927880daa944f083ee0df4fd0dcf37",
-        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_24927880daa944f083ee0df4fd0dcf37",
-        "games": [
-          "史莱姆牧场",
-          "药剂工艺",
-          "沙石镇时光"
-        ]
-      },
-      {
-        "sessionId": "dashboard_events_9dfdc2497dc140db96492ddd3fdd269d",
-        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_9dfdc2497dc140db96492ddd3fdd269d",
+        "sessionId": "dashboard_events_90202089a83742e3b34ff903842b8e35",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_90202089a83742e3b34ff903842b8e35",
         "games": [
           "珊瑚岛",
           "WePlay",
@@ -314,8 +345,8 @@
         ]
       },
       {
-        "sessionId": "dashboard_events_230ef70bbafd45efaf391094ed40c4d7",
-        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_230ef70bbafd45efaf391094ed40c4d7",
+        "sessionId": "dashboard_events_592638103f684421ba5aa3fc76873d80",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_592638103f684421ba5aa3fc76873d80",
         "games": [
           "Jackbox派对包",
           "爆裂小队",
@@ -326,8 +357,8 @@
         ]
       },
       {
-        "sessionId": "dashboard_events_1f436debf1b143429020492127a2b36b",
-        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_1f436debf1b143429020492127a2b36b",
+        "sessionId": "dashboard_events_492806bbdd5d42fb85537e59685e160e",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_492806bbdd5d42fb85537e59685e160e",
         "games": [
           "Luma Island",
           "塔塔冒险队",
@@ -338,26 +369,8 @@
         ]
       },
       {
-        "sessionId": "dashboard_events_5dc14918bc7e4395bef721e2fc03873c",
-        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_5dc14918bc7e4395bef721e2fc03873c",
-        "games": [
-          "Luma Island",
-          "塔塔冒险队",
-          "Epic Shaman Battle: 4P Defense"
-        ]
-      },
-      {
-        "sessionId": "dashboard_events_66ed28b15491408dbf14197c907ac069",
-        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_66ed28b15491408dbf14197c907ac069",
-        "games": [
-          "Plinko Defense",
-          "I Am Sword",
-          "Castle Clashers"
-        ]
-      },
-      {
-        "sessionId": "dashboard_events_42fd456edb7241a9915c4669f041e8cb",
-        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_42fd456edb7241a9915c4669f041e8cb",
+        "sessionId": "dashboard_events_c14a8cab498c470a86f6c6e680d41e80",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_c14a8cab498c470a86f6c6e680d41e80",
         "games": [
           "Cup Heroes",
           "Bag Fight",
@@ -368,8 +381,8 @@
         ]
       },
       {
-        "sessionId": "dashboard_events_5f3f3553875045c8a4488dfb031b73f8",
-        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_5f3f3553875045c8a4488dfb031b73f8",
+        "sessionId": "dashboard_events_af1262e66865426ea310aa1a08b89418",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_af1262e66865426ea310aa1a08b89418",
         "games": [
           "灵动小镇",
           "Smalland",
@@ -380,8 +393,8 @@
         ]
       },
       {
-        "sessionId": "dashboard_events_dfb24d8aaeb34423a2b56b932f93a3b7",
-        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_dfb24d8aaeb34423a2b56b932f93a3b7",
+        "sessionId": "dashboard_events_4c6bd811d920440c8c7ba7bea526324b",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_4c6bd811d920440c8c7ba7bea526324b",
         "games": [
           "Fields of Mistria",
           "Go-Go Town!",
@@ -392,8 +405,8 @@
         ]
       },
       {
-        "sessionId": "dashboard_events_dc8d84ab9da14abea43930cda05bbabe",
-        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_dc8d84ab9da14abea43930cda05bbabe",
+        "sessionId": "dashboard_events_3466c7b8efe5417da2666d2d97a4ab04",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_3466c7b8efe5417da2666d2d97a4ab04",
         "games": [
           "粒粒的小人国",
           "Paralives",
@@ -404,8 +417,8 @@
         ]
       },
       {
-        "sessionId": "dashboard_events_41321a4757ba4d208323297228307b55",
-        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_41321a4757ba4d208323297228307b55",
+        "sessionId": "dashboard_events_0cd80063dea0499bbdf2e3b7d84d3a57",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_0cd80063dea0499bbdf2e3b7d84d3a57",
         "games": [
           "崩坏：因缘精灵",
           "王者万象棋",
@@ -416,8 +429,8 @@
         ]
       },
       {
-        "sessionId": "dashboard_events_9bea1b5de49846a3ac790481b21de652",
-        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_9bea1b5de49846a3ac790481b21de652",
+        "sessionId": "dashboard_events_4bc763000bda42948c58139cc0117e45",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_4bc763000bda42948c58139cc0117e45",
         "games": [
           "BigWalk",
           "小冰冰斗蛐蛐",
@@ -428,8 +441,8 @@
         ]
       },
       {
-        "sessionId": "dashboard_events_bc61751acacb4b4785b960c90ee8fd44",
-        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_bc61751acacb4b4785b960c90ee8fd44",
+        "sessionId": "dashboard_events_1a9808edcb214ba882963a29328626f6",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_1a9808edcb214ba882963a29328626f6",
         "games": [
           "多多自走棋",
           "Mechabellum",
@@ -440,8 +453,8 @@
         ]
       },
       {
-        "sessionId": "dashboard_events_911ae5c5a076489b810d538c0e146a1d",
-        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_911ae5c5a076489b810d538c0e146a1d",
+        "sessionId": "dashboard_events_7ca6b5e6c30642559d3bbd51576d64f8",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_7ca6b5e6c30642559d3bbd51576d64f8",
         "games": [
           "人类一败涂地",
           "Chained Together",
@@ -452,8 +465,8 @@
         ]
       },
       {
-        "sessionId": "dashboard_events_312f24af80eb4bb7a8b4b5e16d72f81b",
-        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_312f24af80eb4bb7a8b4b5e16d72f81b",
+        "sessionId": "dashboard_events_35ae8b56aa4941c89a36a05400fe6ea2",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_35ae8b56aa4941c89a36a05400fe6ea2",
         "games": [
           "My Time at Evershine",
           "闪耀吧！噜咪",
@@ -464,8 +477,8 @@
         ]
       },
       {
-        "sessionId": "dashboard_events_cdb1fb293d8845c7ba3b58fa6defe6d2",
-        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_cdb1fb293d8845c7ba3b58fa6defe6d2",
+        "sessionId": "dashboard_events_94a3db1254324c52aae2a130b3b8b4ba",
+        "system_url": "https://databrain.woa.com/v2/agent/chat?sessionId=dashboard_events_94a3db1254324c52aae2a130b3b8b4ba",
         "games": [
           "Dressmaker",
           "源初之结",
@@ -503,32 +516,32 @@
     "failed_batches": [],
     "batch_size": 6,
     "game_scan_status": {
-      "糖豆人": "no_results",
+      "糖豆人": "complete",
       "蛋仔派对": "complete",
       "元梦之星": "complete",
-      "Stumble Guys": "no_results",
+      "Stumble Guys": "complete",
       "猛兽派对": "complete",
-      "Faaast Penguin": "no_results",
-      "索尼克大乱斗": "complete",
-      "荒野乱斗": "complete",
+      "Faaast Penguin": "complete",
+      "索尼克大乱斗": "no_results",
+      "荒野乱斗": "no_results",
       "宝可梦大集结": "complete",
-      "T3 Arena": "complete",
+      "T3 Arena": "no_results",
       "SMASH LEGENDS": "complete",
-      "Zooba": "complete",
-      "FRAG Pro Shooter": "no_results",
-      "Among Us": "no_results",
-      "鹅鸭杀": "no_results",
+      "Zooba": "no_results",
+      "FRAG Pro Shooter": "complete",
+      "Among Us": "complete",
+      "鹅鸭杀": "complete",
       "太空行动": "complete",
       "Project Winter": "no_results",
       "First Class Trouble": "no_results",
-      "Lockdown Protocol": "complete",
-      "Dread Hunger": "complete",
+      "Lockdown Protocol": "no_results",
+      "Dread Hunger": "no_results",
       "第五人格": "no_results",
-      "黎明杀机": "complete",
-      "猫和老鼠": "complete",
+      "黎明杀机": "no_results",
+      "猫和老鼠": "no_results",
       "逃跑吧！少年": "no_results",
       "七龙珠：破界斗士": "complete",
-      "捉鬼敢死队：灵魂释放": "complete",
+      "捉鬼敢死队：灵魂释放": "no_results",
       "皇室战争": "complete",
       "漫威终极逆转": "complete",
       "Rush Royale": "complete",
@@ -545,78 +558,78 @@
       "超自然行动组": "complete",
       "PEAK": "complete",
       "Escape the Backrooms": "complete",
-      "Murky Divers": "complete",
+      "Murky Divers": "no_results",
       "胡闹厨房2": "complete",
       "PlateUp!": "complete",
       "Dark and Darker": "complete",
-      "Pummel Party": "complete",
+      "Pummel Party": "no_results",
       "King of the Castle": "complete",
       "Dale & Dawson Stationery Supplies": "no_results",
-      "星露谷物语": "complete",
-      "潜水员戴夫": "complete",
+      "星露谷物语": "no_results",
+      "潜水员戴夫": "no_results",
       "史莱姆牧场": "complete",
-      "药剂工艺": "complete",
-      "沙石镇时光": "complete",
-      "珊瑚岛": "complete",
-      "WePlay": "complete",
-      "TopTop": "complete",
-      "Pocket Champs": "complete",
-      "乐高派对": "complete",
-      "终极鸡马": "complete",
+      "药剂工艺": "no_results",
+      "沙石镇时光": "no_results",
+      "珊瑚岛": "no_results",
+      "WePlay": "no_results",
+      "TopTop": "no_results",
+      "Pocket Champs": "no_results",
+      "乐高派对": "no_results",
+      "终极鸡马": "no_results",
       "Jackbox派对包": "complete",
-      "爆裂小队": "complete",
-      "死亡笔记：杀手同盟": "complete",
-      "Town of Salem 2": "no_results",
-      "Lucky Defense": "complete",
-      "Dinkum": "no_results",
-      "Luma Island": "no_results",
+      "爆裂小队": "no_results",
+      "死亡笔记：杀手同盟": "no_results",
+      "Town of Salem 2": "complete",
+      "Lucky Defense": "no_results",
+      "Dinkum": "complete",
+      "Luma Island": "complete",
       "塔塔冒险队": "complete",
       "Epic Shaman Battle: 4P Defense": "no_results",
-      "Plinko Defense": "no_results",
+      "Plinko Defense": "complete",
       "I Am Sword": "no_results",
       "Castle Clashers": "complete",
       "Cup Heroes": "complete",
       "Bag Fight": "complete",
       "幻兽帕鲁": "complete",
       "创世理想乡": "complete",
-      "方舟：生存进化": "complete",
+      "方舟：生存进化": "no_results",
       "七日世界": "complete",
-      "灵动小镇": "complete",
-      "Smalland": "complete",
-      "动物森友会": "complete",
-      "心动小镇": "complete",
-      "Palia": "complete",
-      "迪士尼梦幻星谷": "complete",
-      "Fields of Mistria": "complete",
-      "Go-Go Town!": "complete",
-      "Cozy Grove": "complete",
-      "Sun Haven": "complete",
-      "山海奇旅": "complete",
+      "灵动小镇": "no_results",
+      "Smalland": "no_results",
+      "动物森友会": "no_results",
+      "心动小镇": "no_results",
+      "Palia": "no_results",
+      "迪士尼梦幻星谷": "no_results",
+      "Fields of Mistria": "no_results",
+      "Go-Go Town!": "no_results",
+      "Cozy Grove": "no_results",
+      "Sun Haven": "no_results",
+      "山海奇旅": "no_results",
       "星布谷地": "complete",
-      "粒粒的小人国": "no_results",
+      "粒粒的小人国": "complete",
       "Paralives": "complete",
-      "Witchbrook": "no_results",
-      "朋友收集 梦想生活": "no_results",
-      "Starsand Island": "no_results",
+      "Witchbrook": "complete",
+      "朋友收集 梦想生活": "complete",
+      "Starsand Island": "complete",
       "Spirit Crossing": "complete",
-      "崩坏：因缘精灵": "no_results",
+      "崩坏：因缘精灵": "complete",
       "王者万象棋": "complete",
       "舞力全开：派对": "complete",
-      "蛋仔滑滑": "complete",
+      "蛋仔滑滑": "no_results",
       "裂隙远征": "complete",
       "诡影藏锋": "complete",
       "BigWalk": "complete",
       "小冰冰斗蛐蛐": "complete",
-      "代号：Team2": "no_results",
+      "代号：Team2": "complete",
       "集合！浆果镇": "no_results",
       "How to Fish": "complete",
       "妖妖棋": "complete",
       "多多自走棋": "complete",
-      "Mechabellum": "no_results",
+      "Mechabellum": "complete",
       "The Bazaar": "no_results",
-      "Once Upon a Galaxy": "complete",
-      "Random Dice 2": "complete",
-      "PICO PARK 2": "no_results",
+      "Once Upon a Galaxy": "no_results",
+      "Random Dice 2": "no_results",
+      "PICO PARK 2": "complete",
       "人类一败涂地": "complete",
       "Chained Together": "complete",
       "Deceit 2": "complete",
@@ -626,24 +639,24 @@
       "My Time at Evershine": "complete",
       "闪耀吧！噜咪": "complete",
       "BanG Dream! Our Notes": "complete",
-      "火人冲冲冲": "complete",
-      "奇遇动物城": "complete",
+      "火人冲冲冲": "no_results",
+      "奇遇动物城": "no_results",
       "未眠野": "complete",
-      "Dressmaker": "no_results",
-      "源初之结": "no_results",
-      "时之铃": "no_results",
-      "蓝色星原：旅谣": "no_results",
-      "Project63": "no_results",
-      "Dear Passengers": "no_results"
+      "Dressmaker": "complete",
+      "源初之结": "complete",
+      "时之铃": "complete",
+      "蓝色星原：旅谣": "complete",
+      "Project63": "complete",
+      "Dear Passengers": "complete"
     },
-    "updated": "2026-10-12T09:03:24.182Z",
-    "games_with_events": 61,
+    "updated": "2026-10-19T05:58:23.631Z",
+    "games_with_events": 57,
     "games_in_bundle": 132,
-    "events": 109,
+    "events": 85,
     "source": "DataBrain Agent · Web Search",
     "coverage_note": "事件由 DataBrain Agent 查询并要求给出实际发生日期；无明确实际日期的内容不会进入图表。DataBrain 当前返回的是可追溯公开信源事件，不是 DAU 原始序列。",
     "evidence_validation": {
-      "checked_at": "2026-10-12T09:15:13.157Z",
+      "checked_at": "2026-10-19T06:13:12.186Z",
       "rejected_records": 0,
       "policy": "Original links required; placeholder URLs, unavailable search redirects, homonyms and homepage-only event dates are quarantined."
     }
@@ -651,82 +664,24 @@
   "games": {
     "皇室战争": [
       {
-        "event_date": "2026-08-31",
-        "published_date": "2026-09-02",
-        "title": "Clash Royale: Best Chaos Infinite Elixir Decks",
-        "summary": "《皇室战争》（Clash Royale）开启“混沌无限圣水”活动，提供7倍圣水生成速度，玩家社区针对该模式研究并推荐了包含超级骑士与皮卡的重型卡组策略。",
-        "source": "Game Rant",
-        "url": "https://gamerant.com/clash-royale-best-chaos-infinite-elixir-decks/",
-        "date_meaning": "活动开始日期"
-      },
-      {
-        "event_date": "2026-08-06",
-        "published_date": "2026-08-06",
-        "title": "日本代表選手確定！目標進軍全球電競錦標賽 2026！",
-        "summary": "日本电子竞技联盟（JESU）宣布《皇室战争》（Clash Royale）日本代表选手名单，选手“たぁ”将代表日本参加2026年12月在洛杉矶举办的全球电竞锦标赛。",
-        "source": "Technow",
-        "url": "https://technow.com.hk/games/1065757/",
-        "date_meaning": "选手入选日期"
-      },
-      {
-        "event_date": "2026-08-04",
-        "published_date": "2026-08-04",
-        "title": "Clash Royale’s August update changes Spirits, abilities and Void",
-        "summary": "《皇室战争》（Clash Royale）发布8月平衡性调整，削弱了四种精灵的生命值使其无法单独攻击护卫塔，并将英雄技能限制为单次使用，同时调整了虚空法术的消耗。",
-        "source": "jeu.video",
-        "url": "https://jeu.video/article/clash-royale-august-balance-changes-spirits-abilities",
-        "date_meaning": "版本更新日期"
-      },
-      {
-        "event_date": "2026-08-03",
-        "published_date": "2026-08-03",
-        "title": "全新主题季：混沌K试炼 × Clash Royale",
-        "summary": "《皇室战争》（Clash Royale）开启K.H.A.O.S主题赛季，推出新英雄“女武神”与“狂战士”，以及“野蛮人精锐”的全新觉醒形态，并包含Ken的混沌选秀联赛。",
-        "source": "官方博客",
-        "url": "https://supercell.com/en/games/clashroyale/zh-hans/blog/news/%E5%85%A8%E6%96%B0-%E4%B8%BB%E9%A2%98%E5%AD%A3-%E6%B7%B7%E6%B2%8C-k-%E8%AF%95%E7%82%BC/",
-        "date_meaning": "赛季开始日期"
+        "event_date": "2026-09-05",
+        "published_date": "2026-09-05",
+        "title": "Clash Royale League Live Events",
+        "summary": "《皇室战争》联赛直播活动，参与互动有机会赢取游戏内奖励。",
+        "source": "Supercell 官方网站",
+        "url": "https://clashroyale.com/blog/news/clash-royale-league-live-events.html",
+        "date_meaning": "实际发生日期"
       }
     ],
     "Dark and Darker": [
       {
         "event_date": "2026-07-31",
         "published_date": "2026-07-17",
-        "title": "Arena Season 3 Commencement",
-        "summary": "Dark and Darker宣布竞技场第3赛季将于2026年7月31日开始。",
-        "source": "darkanddarker.com",
-        "url": "https://darkanddarker.com/news/204",
-        "date_meaning": "实际发生日期",
-        "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTzszT4DJ4lRPrtvpi9Jv4vdnD59Qet5sr9qAW9BlFH0E3E65PdADI9FFFCQeCWyfxGeRW4ADhdnjYI23nHL3ed4-BApZpkhRNNB38fvgDpDdQNro_GzeTvOSMB_o="
-      },
-      {
-        "event_date": "2026-07-30",
-        "published_date": "2026-07-17",
-        "title": "Trading Post and Marketplace Opening",
-        "summary": "Dark and Darker宣布交易站和市场将于2026年7月30日开放，此前将进行为期两周的“Solo Self Found”活动。",
-        "source": "darkanddarker.com",
-        "url": "https://darkanddarker.com/news/204",
-        "date_meaning": "实际发生日期",
-        "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTzszT4DJ4lRPrtvpi9Jv4vdnD59Qet5sr9qAW9BlFH0E3E65PdADI9FFFCQeCWyfxGeRW4ADhdnjYI23nHL3ed4-BApZpkhRNNB38fvgDpDdQNro_GzeTvOSMB_o="
-      },
-      {
-        "event_date": "2026-07-18",
-        "published_date": "2026-07-17",
-        "title": "Twitch Drops Campaign",
-        "summary": "Dark and Darker宣布将于2026年7月18日开始Twitch Drops活动。",
-        "source": "darkanddarker.com",
-        "url": "https://darkanddarker.com/news/204",
-        "date_meaning": "实际发生日期",
-        "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTzszT4DJ4lRPrtvpi9Jv4vdnD59Qet5sr9qAW9BlFH0E3E65PdADI9FFFCQeCWyfxGeRW4ADhdnjYI23nHL3ed4-BApZpkhRNNB38fvgDpDdQNro_GzeTvOSMB_o="
-      },
-      {
-        "event_date": "2026-07-17",
-        "published_date": "2026-07-17",
-        "title": "Welcome to Early Access Season 10",
-        "summary": "Dark and Darker宣布开启抢先体验第10赛季，所有角色等级、物品、藏匿处、库存等都已重置。",
-        "source": "darkanddarker.com",
-        "url": "https://darkanddarker.com/news/204",
-        "date_meaning": "实际发生日期",
-        "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTzszT4DJ4lRPrtvpi9Jv4vdnD59Qet5sr9qAW9BlFH0E3E65PdADI9FFFCQeCWyfxGeRW4ADhdnjYI23nHL3ed4-BApZpkhRNNB38fvgDpDdQNro_GzeTvOSMB_o="
+        "title": "Marketplace and Trading Post Opening",
+        "summary": "The Marketplace and Trading Post for Dark and Darker's Early Access Season 10 opened on July 31, 2026, after a two-week 'Solo Self Found' event.",
+        "source": "Dark and Darker Official Website",
+        "url": "https://darkanddarker.com/news/170",
+        "date_meaning": "游戏功能开放"
       }
     ],
     "Palia": [
@@ -778,57 +733,15 @@
         "date_meaning": "实际发布日期"
       }
     ],
-    "元梦之星": [
-      {
-        "event_date": "2026-09-08",
-        "published_date": "2026-09-08",
-        "title": "《元梦之星》\"妙笔生花\"赛季如约启幕",
-        "summary": "《元梦之星》\"妙笔生花\"赛季如约启幕！青绿山水深处，一卷尘封的长卷缓缓铺展，\"妙笔狸仙妙妙\"衔笔，为画中唤来溪声、鹿影与满树灵鸟。",
-        "source": "TapTap",
-        "url": "https://www.taptap.cn/app/383413/all-info",
-        "date_meaning": "实际发生日期",
-        "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTkSqFHCbdJK41dm1xbkt5NNwVEKROocxvNLQzJKcYfh19qn_yEn09RNQOITFd_MxVmSnrXT_65gBzLI8JLiCqUYo6NSf1b6nEyZsCgZcohmk89SBHzoaHx6fKA49KwBalTJQj"
-      },
-      {
-        "event_date": "2026-08-01",
-        "published_date": "2026-07-14",
-        "title": "《元梦之星》星宝农场全新小岛区域开放",
-        "summary": "农场无限大，跳岛来度假！《星宝农场》全新小岛区域将于8月惬意开放！星宝们将从星宝农场码头出发，建造店铺、经营配方，将冷清海岛打理成热闹温馨的度假胜地。",
-        "source": "TapTap",
-        "url": "https://www.taptap.cn/app/383413/all-info",
-        "date_meaning": "实际发生日期",
-        "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTkSqFHCbdJK41dm1xbkt5NNwVEKROocxvNLQzJKcYfh19qn_yEn09RNQOITFd_MxVmSnrXT_65gBzLI8JLiCqUYo6NSf1b6nEyZsCgZcohmk89SBHzoaHx6fKA49KwBalTJQj"
-      },
-      {
-        "event_date": "2026-07-17",
-        "published_date": "2026-07-14",
-        "title": "《元梦之星》奇迹农场全新钓鱼玩法【奇迹之岛】上线",
-        "summary": "来《奇迹之岛》，钓波大的！《奇迹农场》全新钓鱼玩法【奇迹之岛】7月17日上线！星宝们将登岛体验四人同屏出海，共赴这片变幻莫测的深海挥竿垂钓。",
-        "source": "TapTap",
-        "url": "https://www.taptap.cn/app/383413/all-info",
-        "date_meaning": "实际发生日期",
-        "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTkSqFHCbdJK41dm1xbkt5NNwVEKROocxvNLQzJKcYfh19qn_yEn09RNQOITFd_MxVmSnrXT_65gBzLI8JLiCqUYo6NSf1b6nEyZsCgZcohmk89SBHzoaHx6fKA49KwBalTJQj"
-      },
-      {
-        "event_date": "2026-07-14",
-        "published_date": "2026-07-14",
-        "title": "《元梦之星》\"晴空幻想\"赛季梦幻启幕",
-        "summary": "《元梦之星》\"晴空幻想\"赛季梦幻启幕！漂浮的天气王国云海间，\"奇彩公主米拉娜\"以彩虹为笔，想在晴空画下属于自己的印记。",
-        "source": "TapTap",
-        "url": "https://www.taptap.cn/app/383413/all-info",
-        "date_meaning": "实际发生日期",
-        "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTkSqFHCbdJK41dm1xbkt5NNwVEKROocxvNLQzJKcYfh19qn_yEn09RNQOITFd_MxVmSnrXT_65gBzLI8JLiCqUYo6NSf1b6nEyZsCgZcohmk89SBHzoaHx6fKA49KwBalTJQj"
-      }
-    ],
     "Dinkum": [
       {
-        "event_date": "2026-06-25",
-        "published_date": "2026-06-22",
-        "title": "《Dinkum》“荒野扩张”大型内容更新上线",
-        "summary": "澳洲风情模拟经营游戏《Dinkum》发布重大更新，新增内陆生物群落、载具及联机任务系统。",
-        "source": "官方渠道",
-        "url": "https://www.dinkumgame.com/updates",
-        "date_meaning": "版本更新日期"
+        "event_date": "2026-10-08",
+        "published_date": "2026-10-08",
+        "title": "万圣节“Spooky Event”活动上线",
+        "summary": "《Dinkum》发布 10 月版本更新，开启万圣节主题活动，玩家可捕捉幽灵蝙蝠、收集“Ghoul Drops”制作节日道具，并新增农场动物地图显示及多人存档优化。",
+        "source": "SteamDB",
+        "url": "https://steamdb.info/patchnotes/25568182/",
+        "date_meaning": "活动开始日期"
       }
     ],
     "潜水员戴夫": [
@@ -904,46 +817,6 @@
         "date_meaning": "上线/发售"
       }
     ],
-    "Paralives": [
-      {
-        "event_date": "2026-10-10",
-        "published_date": "2026-10-10",
-        "title": "Patch Notes 0.1.9",
-        "summary": "Paralives 发布 Patch 0.1.9 版本更新，引入了新的玩法扩展内容及多项功能优化。",
-        "source": "官方网站",
-        "url": "https://www.paralives.com/news/patch-notes-019",
-        "date_meaning": "实际发生日期"
-      },
-      {
-        "event_date": "2026-07-14",
-        "published_date": "2026-07-14",
-        "title": "Patch 0.1.6 Is Now Available",
-        "summary": "Paralives 发布 Patch 0.1.6 版本更新，主要提升了游戏运行性能并优化了基础建造功能的流畅度。",
-        "source": "官方网站",
-        "url": "https://www.paralives.com/news/patch-016-is-now-available",
-        "date_meaning": "实际发生日期"
-      }
-    ],
-    "炉石传说：酒馆战棋": [
-      {
-        "event_date": "2026-10-01",
-        "published_date": "2026-10-01",
-        "title": "36.6 更新档说明",
-        "summary": "炉石传说：酒馆战棋发布赛季中期平衡性调整，针对当前环境下的随从数值进行微调。",
-        "source": "官方公告",
-        "url": "https://news.blizzard.com/zh-tw/article/24294373/2026-10-1-36-6",
-        "date_meaning": "更新发布日期"
-      },
-      {
-        "event_date": "2026-08-05",
-        "published_date": "2026-07-28",
-        "title": "第 14 赛季：达拉然的黑暗之赐",
-        "summary": "炉石传说：酒馆战棋开启第 14 赛季，引入“黑暗之赐”发现机制与“发动”关键词。",
-        "source": "官方公告",
-        "url": "https://hs.blizzard.cn/news/24290432/index.html",
-        "date_meaning": "赛季开启日期"
-      }
-    ],
     "妖妖棋": [
       {
         "event_date": "2026-02-12",
@@ -955,65 +828,15 @@
         "date_meaning": "品牌焕新日期"
       }
     ],
-    "Aniimo": [
-      {
-        "event_date": "2026-09-16",
-        "published_date": "2026-09-23",
-        "title": "Aniimo 全平台全球发布",
-        "summary": "《Aniimo》PC/主机版于 9 月 16 日上线，移动版于 9 月 23 日上线，实现跨平台互通。",
-        "source": "aniimo.com",
-        "url": "https://aniimo.com/news/aniimo-global-launch-dates-coming-to-pc-consoles-on-september-16-mobile-on-september-23",
-        "date_meaning": "游戏上线日期"
-      }
-    ],
-    "Stumble Guys": [
-      {
-        "event_date": "2026-09-16",
-        "published_date": "2026-09-16",
-        "title": "Stumble Guys - G.O.A.T.捆绑包- PS5™ (中日英韩文版)",
-        "summary": "《Stumble Guys - G.O.A.T.捆绑包》于9月16日在PS5™平台发售。",
-        "source": "PlayStation Store",
-        "url": "https://store.playstation.com/zh-hans-hk/product/HP7396-PPSA15179_00-000000GOATBUNDLE",
-        "date_meaning": "event_date",
-        "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUdxJmYv8xMXRNtvFH4JNCXbzo1w1okmQgu7sdyhr3JBGMJJy1q9hbkRJY0H28CEQzRntcMilk4563ukvOrvmu1A0cxVsodLzTJRzbliOy-prfgF1CzHJ_NnmlWjsUdIKv4kaiLg_Upiegm_lVrzeVfv9lOfBWqRnytp0xPkLbxG9jtwzcC6GeF4FKi6yCNJo="
-      }
-    ],
     "漫威终极逆转": [
       {
-        "event_date": "2026-10-08",
-        "published_date": "2026-10-08",
-        "title": "国服S27赛季【X战警：末日终章】来袭！",
-        "summary": "《漫威终极逆转》S27赛季正式开启，推出新角色「斯特里夫」及「圣所对决」限时模式。",
-        "source": "Steam官方公告",
-        "url": "https://steamcommunity.com/app/2955370/announcements/",
-        "date_meaning": "赛季开始日期"
-      },
-      {
-        "event_date": "2026-09-28",
-        "published_date": "2026-09-28",
-        "title": "限时游戏模式 - 选秀 (Draft) 回归",
-        "summary": "《漫威终极逆转》选秀模式再次开启，采用圣所计分规则，玩家可即时构筑牌组。",
-        "source": "官方帮助中心",
-        "url": "https://marvelsnap.helpshift.com/hc/zh-hant/3-marvel-snap/faq/672-limited-time-game-mode---draft/",
-        "date_meaning": "活动开始日期"
-      },
-      {
-        "event_date": "2026-09-01",
-        "published_date": "2026-09-01",
-        "title": "新赛季：AXIS: Inversion (轴心：反转)",
-        "summary": "《漫威终极逆转》开启9月赛季，主题为英雄与反派身份互换，推出资深钢铁侠等新卡。",
-        "source": "Steam官方公告",
-        "url": "https://steamcommunity.com/app/1997040/allnews/",
-        "date_meaning": "赛季开始日期"
-      },
-      {
-        "event_date": "2026-07-23",
-        "published_date": "2026-07-23",
-        "title": "限时模式 - 宏伟竞技场对决",
-        "summary": "《漫威终极逆转》推出融合大竞技场规则的新活动，奖励包含系列4卡牌“蜘蛛感应”。",
-        "source": "官方帮助中心",
-        "url": "https://marvelsnap.helpshift.com/hc/zh-hant/3-marvel-snap/faq/636-limited-time-game-mode---grand-arena-showdown/",
-        "date_meaning": "活动开始日期"
+        "event_date": "2026-07-21",
+        "published_date": "2026-07-21",
+        "title": "MARVEL SNAP 更新",
+        "summary": "《漫威终极逆转》更新，包含性能和兼容性修复。",
+        "source": "MARVEL SNAP 官方网站",
+        "url": "https://www.marvelsnap.com/news/patch-notes-2026-07-21",
+        "date_meaning": "实际发生日期"
       }
     ],
     "随机骰子": [
@@ -1048,29 +871,6 @@
         "url": "https://tech-insider.org/squad-busters-shutdown-supercell-2026/",
         "date_meaning": "实际发生日期",
         "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0A1oAQw2wkxSayWL-5Wq1CYux8g6BUCR4BLgwpcd5tWRBIRQBXgoHJRE3UaFvwDjPq0nEIoW138FoHnWWNMAxPnjZ1DmqAbdP1taWI9Jc6DufD2y2ch6YEqjesdSR_XFKMvi9Et_reeJ6X3GsxgF4o9EvG-goww4-Zg=="
-      }
-    ],
-    "Town of Salem 2": [
-      {
-        "event_date": "2026-07-27",
-        "published_date": "2026-07-27",
-        "title": "Town of Salem 2 – Introducing Voice Chat Mode Patch Notes (R1)",
-        "summary": "《Town of Salem2》引入了语音聊天模式的补丁更新。",
-        "source": "Town of Salem 2 Official Site",
-        "url": "https://www.blankmediagames.com/townofsalem2/news/town-of-salem-2-introducing-voice-chat-mode-patch-notes-r1/",
-        "date_meaning": "版本更新日期"
-      }
-    ],
-    "Bag Fight": [
-      {
-        "event_date": "2026-09-29",
-        "published_date": "2026-09-29",
-        "title": "袋战(Bag Fight) - Google Play 上的应用更新",
-        "summary": "Bag Fight在Google Play上更新，提供新型解谜冒险游戏体验，强调即时组织、策略战斗、多功能阿森纳、实时随机播放、升级解锁、定制丰富、无障碍乐趣和无尽挑战。",
-        "source": "google.com",
-        "url": "https://play.google.com/store/apps/details?id=com.allinc.bagfight&hl=zh",
-        "date_meaning": "实际发生日期",
-        "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENqJb2zEdq8Nnpm60d4hCpQl7hamMwlHOPl-rAXml56tWx4qGsSXhfAJecd_OsPl7jzmFA3_6Bcu95XEJ0v1fpuhMxQL2DO5-030ZGd1RJSwTFqkUAjudgDgvd7-5H_BgfAi1QiO4MLGW5mnKr7VM70qpS2mKYGliKhYDesAK0lDRK"
       }
     ],
     "Cozy Grove": [
@@ -1160,28 +960,6 @@
         "date_meaning": "版本更新日期"
       }
     ],
-    "蛋仔派对": [
-      {
-        "event_date": "2026-10-01",
-        "published_date": "2026-09-29",
-        "title": "《蛋仔派对》十一版本“一蛋暴富”开启，小猪佩奇联动上线",
-        "summary": "《蛋仔派对》十一版本“一蛋暴富”开启，登录立领一栋楼！更有60+枚彩虹币、海量外观配饰好礼一并奉上！【新玩法】9月29日“蛋仔城”试营业，多元职业任你体验。【新联动】10月1日小猪佩奇联动上线，小猪佩...",
-        "source": "TapTap",
-        "url": "https://www.taptap.cn/app/206776",
-        "date_meaning": "实际发生日期",
-        "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9Rb8cRkkQT8cqlXgwODN-OiVgrXA9jCeWSCwU4KkTeOJAjWRDfxklsGzeF8xRjlr92f3YkTB1DNW0L90WQDjz99GEBrm62-Tx4JnkV1riOjhlyL2aX1ATqpLa"
-      },
-      {
-        "event_date": "2026-09-29",
-        "published_date": "2026-09-29",
-        "title": "《蛋仔派对》十一版本“一蛋暴富”开启",
-        "summary": "《蛋仔派对》十一版本“一蛋暴富”开启，登录立领一栋楼！更有60+枚彩虹币、海量外观配饰好礼一并奉上！【新玩法】9月29日“蛋仔城”试营业，多元职业任你体验。【新联动】10月1日小猪佩奇联动上线，小猪佩...",
-        "source": "TapTap",
-        "url": "https://www.taptap.cn/app/206776",
-        "date_meaning": "实际发生日期",
-        "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9Rb8cRkkQT8cqlXgwODN-OiVgrXA9jCeWSCwU4KkTeOJAjWRDfxklsGzeF8xRjlr92f3YkTB1DNW0L90WQDjz99GEBrm62-Tx4JnkV1riOjhlyL2aX1ATqpLa"
-      }
-    ],
     "黎明杀机": [
       {
         "event_date": "2026-10-06",
@@ -1196,31 +974,14 @@
     ],
     "云顶之弈": [
       {
-        "event_date": "2026-09-02",
-        "published_date": "2026-09-02",
-        "title": "TFT Pro Circuit - Enchanted Wilds",
-        "summary": "云顶之弈发布“Enchanted Wilds”职业巡回赛详情，包含赛事日期、赛制及奖金池信息。",
-        "source": "英雄联盟官方网站",
-        "url": "https://www.leagueoflegends.com/en-us/news/esports/tft-pro-circuit-enchanted-wilds-everything-you-need-to-know/",
-        "date_meaning": "赛事信息发布日期"
-      },
-      {
-        "event_date": "2026-08-19",
-        "published_date": "2026-08-19",
-        "title": "4v4 arrives to Compete TFT",
-        "summary": "云顶之弈引入全新 4v4 模式，并预告“Tactician's Superbrawl”将于 11 月举行。",
-        "source": "英雄联盟官方网站",
-        "url": "https://www.leagueoflegends.com/en-us/news/esports/4v4-arrives-to-compete-tft/",
-        "date_meaning": "新模式上线日期"
-      },
-      {
-        "event_date": "2026-07-20",
-        "published_date": "2026-07-20",
-        "title": "5 Questions with AUR Huanmie",
-        "summary": "云顶之弈官方采访“Space Gods”冠军 AUR Huanmie，深度回顾其在锦标赛中的夺冠表现。",
-        "source": "英雄联盟官方网站",
-        "url": "https://www.leagueoflegends.com/en-us/news/esports/5-questions-with-aur-huanmie-the-space-gods-champion/",
-        "date_meaning": "采访发布日期"
+        "event_date": "2026-08-27",
+        "published_date": "2026-08-18",
+        "title": "【云顶之弈】第18赛季“自然之力”活动预告",
+        "summary": "《云顶之弈》第18赛季“自然之力”于8月27日上线，引入自然仙灵、召唤师峡谷野怪和大元素使拉克丝等新内容。",
+        "source": "qq.com",
+        "url": "https://lol.qq.com/news/detail.shtml?docid=2921014690423416012",
+        "date_meaning": "实际发生日期",
+        "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmc93LudRX4TTpBXlf7Zam7x4T5Bmq4YbT3gow8rxYOMiHgL8OaKh3pIz4K_Fkp692fPvZ2YBSso_NYkqZEt3ojWPqnQOs9f6_MFQj8TP-cVZjHP9YCXw798XP-QiH5W7mu7AaS1_12QVn1dOX5Ywc6DZBEnThnQk="
       }
     ],
     "Super Auto Pets": [
@@ -1353,22 +1114,22 @@
     ],
     "Starsand Island": [
       {
-        "event_date": "2026-08-18",
-        "title": "Starsand Island launches on PC and consoles on 18th August",
-        "summary": "Seed Sparkle Lab 宣布 Starsand Island 将于 8 月 18 日在 PC、Xbox Series、PS5 及 Nintendo Switch 2 全面上线，包含在线多人模式及秋季嘉年华内容。",
-        "source": "gamespress.com",
-        "url": "https://www.gamespress.com/Starsand-Island-launches-on-PC-and-consoles-on-18th-August",
-        "date_meaning": "Full Release Date",
-        "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGScR4JyLL3A6HtNr7qGSdwlhU59BOKZmG6P0HEbNYnJAnS44Mn1IBIVs5FER3kJBnXQLA3SkMGklg5hUoVw_Gi82IaJpLjmrm6z5ul-B3EwEBfGizBVaItAlr5DRpA28zWJX82-RRMMjHwZxLkWuj1rD7alQYRUk1p2RHK3E-4GxYgJE3BTN1JBFYtFCsA-rk="
+        "event_date": "2026-08-26",
+        "published_date": "2026-08-26",
+        "title": "1.08.4646 补丁发布",
+        "summary": "《Starsand Island》修复了宠物、剧情、联机及建造相关的多项性能问题。",
+        "source": "steampowered.com",
+        "url": "https://store.steampowered.com/news/app/2966320/view/694270021955748358",
+        "date_meaning": "实际发生日期"
       },
       {
-        "event_date": "2026-07-31",
-        "title": "Starsand Island physical edition pre-orders open",
-        "summary": "Starsand Island 的 Switch 2 和 PS5 实体版于 7 月 31 日开启预售，预计 11 月 12 日发货。",
-        "source": "gamespress.com",
-        "url": "https://www.gamespress.com/Starsand-Island-launches-on-PC-and-consoles-on-18th-August",
-        "date_meaning": "Pre-order Start Date",
-        "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGScR4JyLL3A6HtNr7qGSdwlhU59BOKZmG6P0HEbNYnJAnS44Mn1IBIVs5FER3kJBnXQLA3SkMGklg5hUoVw_Gi82IaJpLjmrm6z5ul-B3EwEBfGizBVaItAlr5DRpA28zWJX82-RRMMjHwZxLkWuj1rD7alQYRUk1p2RHK3E-4GxYgJE3BTN1JBFYtFCsA-rk="
+        "event_date": "2026-08-18",
+        "published_date": "2026-08-18",
+        "title": "Starsand Island 1.0 正式版上线",
+        "summary": "《Starsand Island》1.0版本正式发布，引入了最多四人的在线多人游戏功能。",
+        "source": "steampowered.com",
+        "url": "https://store.steampowered.com/news/app/2966320/view/704401217928824522",
+        "date_meaning": "实际发生日期"
       }
     ],
     "多多自走棋": [
@@ -1402,26 +1163,6 @@
         "source": "GameSensor",
         "url": "https://zh.gamesensor.info/app/2644470",
         "date_meaning": "价格快照日期"
-      }
-    ],
-    "Dressmaker": [
-      {
-        "event_date": "2026-09-22",
-        "published_date": "2026-09-22",
-        "title": "《针影裁梦》现已发售！超40万愿望单的裁缝模拟游戏正式上线",
-        "summary": "开发团队Cozy Lives今日正式推出备受期待的制作模拟游戏《针影裁梦》，游戏目前已拥有超过40万愿望单，现已登陆PC与Mac平台Steam，并同步发布全新游戏上线宣传片。",
-        "source": "3dmgame.com",
-        "url": "https://www.3dmgame.com/news/202609/3949000.html",
-        "date_meaning": "游戏发售日期"
-      },
-      {
-        "event_date": "2026-09-21",
-        "published_date": "2026-09-21",
-        "title": "针影裁梦",
-        "summary": "《针影裁梦》于2026年9月21日在Steam平台发售。",
-        "source": "steampowered.com",
-        "url": "https://store.steampowered.com/app/2405110/_/?l=schinese",
-        "date_meaning": "游戏发售日期"
       }
     ],
     "源初之结": [
@@ -1488,46 +1229,24 @@
     ],
     "Rush Royale": [
       {
-        "event_date": "2026-08-24",
-        "published_date": "2026-08-24",
-        "title": "限时活动「大麻烦」(Big Trouble)",
-        "summary": "《Rush Royale》开启为期两周的活动，重做剑舞者与战士技能，并新增六项暴击强化福利。",
-        "source": "GameUpNews",
-        "url": "https://gameupnews.com/rush-royale-drops-the-big-trouble-event-with-new-perks-and-critical-hit-upgrades/",
-        "date_meaning": "活动开始日期"
-      },
-      {
-        "event_date": "2026-07-17",
-        "published_date": "2026-07-17",
-        "title": "Rhandum 联赛回归",
-        "summary": "《Rush Royale》举办全球竞技联赛，提供超过7,777美元奖金池，采用标准化等级确保公平。",
-        "source": "GamerseGames",
-        "url": "https://www.gamersegames.com.br/2026/07/17/rush-royale-inicia-liga-rhandum-com-premiacao-superior-a-us-7-777-e-recompensas-exclusivas/",
-        "date_meaning": "联赛开始日期"
+        "event_date": "2026-10-17",
+        "published_date": "2026-10-17",
+        "title": "Rhandum League Tournament",
+        "summary": "《Rush Royale》Rhandum 联赛锦标赛即将开始，玩家可为冠军头衔而战。",
+        "source": "My.Games",
+        "url": "https://my.games/news/rush-royale-rhandum-league-tournament",
+        "date_meaning": "实际发生日期"
       }
     ],
     "闪耀吧！噜咪": [
       {
-        "event_date": "2026-09-15",
-        "published_date": "2026-09-15",
-        "title": "「闪耀吧！噜咪」今日公测！",
-        "summary": "异世界捉宠 RPG《闪耀吧！噜咪》正式上线，提供海量体力与彩色噜咪蛋福利。",
-        "source": "App Store",
-        "url": "https://apps.apple.com/cn/app/%E9%97%AA%E8%80%80%E5%90%A7-%E5%99%9C%E5%92%AA/id6754912970?platform=vision",
-        "date_meaning": "公测日期",
-        "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFy_DjXHAlJrJQytYmIBw1YXeUQt4jGswShDroSQWjrwWubQHnRkwV1htQVbMcADhiA8q_066fZcluPWtMmvVLzYTnko5-P1sPIJoX1rlPRyzWxtuxaSx1HfBaNGVnxOvVbfnzCWLRuhysFoearHYuVsKeXdLrFwk5OQYbuIz6hA3-EcobXLV1uXM7TtLRbHKITH0TU7Twqm2_UejLYyDdkaKoM6w=="
-      }
-    ],
-    "恐鬼症": [
-      {
-        "event_date": "2026-10-06",
-        "published_date": "2026-10-08",
-        "title": "Phasmophobia - The Crimson Eye Approaches Once More",
-        "summary": "《Phasmophobia》部署“Crimson Eye”活动更新，为万圣节预热。",
-        "source": "Kinetic Games",
-        "url": "https://kineticgames.co.uk/news/the-crimson-eye-approaches-once-more",
-        "date_meaning": "活动更新部署日期",
-        "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9chJqV8Xq4aUcLEq61nwgKmJg4OIEnnn9oXDEQ4QsrSd6h9rgoidn084WtB8fkUdY5ZD4QgIXpKLRoZj0uGY_aHp33xfyHTVt3KSyGEyzISAzhjj8ClEGL-4t8BtFO0bWAqAeA9_jhKfiQQSDvwFyEcZOC-bqcLWRJyRSxRo="
+        "event_date": "2026-08-28",
+        "published_date": "2026-08-28",
+        "title": "B站游戏《闪耀吧！噜咪》公测定档9月17日",
+        "summary": "哔哩哔哩游戏自研的异世界冒险捉宠RPG手游《闪耀吧！噜咪》正式宣布全球公测将于9月17日开启。",
+        "source": "Sohu",
+        "url": "https://www.sohu.com/a/716400000_120000",
+        "date_meaning": "定档日期"
       }
     ],
     "迪士尼梦幻星谷": [
@@ -1559,81 +1278,28 @@
         "date_meaning": "实际发生日期"
       }
     ],
-    "人类一败涂地": [
-      {
-        "event_date": "2026-10-03",
-        "published_date": "2026-10-03",
-        "title": "《人类一败涂地》团队VR 新作《小小羊群》发售：Steam 国区首发价¥57.67",
-        "summary": "由《人类一败涂地》开发团队No Brakes Games 打造的温馨VR 物理解谜游戏《小小羊群》现已正式登陆SteamVR / Quest 平台，Steam 国区首发特惠-21%，折后价¥57.67，优惠截止至10 月13 日。",
-        "source": "腾讯新闻客户端",
-        "url": "https://news.qq.com/rain/a/20261003A06V3E00",
-        "date_meaning": "发售",
-        "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnhOEt0rRfnD_VkuhPQrlH4pPC_lQVr0gB03oAo9h0HtTw_GVRBLE5W3fR8cDIqybU7vVLsUulI-ym6iuMm822IkhTdOLGwP1uT-dm9lW1UrV7HzUY_r2-K69iYO_hGthFILNi1rk="
-      },
-      {
-        "event_date": "2026-09-14",
-        "published_date": "2026-10-09",
-        "title": "全新官方免费关卡——监牢正式上线！与Roblox知名关卡巴里的监狱逃生联动关卡上线！",
-        "summary": "《人类一败涂地》全新关卡“监牢”已正式上线，此次“监牢”关卡来自于和Roblox上深受玩家喜爱的关卡BARRY'S PRISON RUN“巴里的监狱逃生”的联动关卡。",
-        "source": "Steam",
-        "url": "https://store.steampowered.com/app/477160/Human_Fall_Flat/?l=schinese&snr=1_1056_4_1056_1057&curator_clanid=43890595",
-        "date_meaning": "版本更新",
-        "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG59qebzk1K2s_juIbeRBENZX6BXbxwLCliPivMxeS_osECNXZN2SSZtNEPxFtmChXwR5AWfQVnC-nU3aeQbHD-PTl_XVYdQg7UwuDUKItKVVg5DHxLXOV3ARR06fDRVRLm__sNCLJl3iHNVF2CzFiSWlyycAgXhhAMJFq5OwWjW2n7FxzXiiMWYXK3y5RY8OQwPTu3oJgbd_zD8BX0g8kmhOtf3jZzTLN9fbO9vxPP"
-      },
-      {
-        "event_date": "2026-08-20",
-        "published_date": "2026-08-20",
-        "title": "《人类一败涂地》团队要做2A游戏新工作室获鹰角网络投资",
-        "summary": "《人类一败涂地》开发团队资深成员Sitara Shefta与Will Dudley成立全新独立游戏工作室Pretty Cool Games，并获得鹰角网络投资，计划开发一款双A级、基于物理玩法的新IP游戏。",
-        "source": "搜狐网",
-        "url": "https://timeline.sohu.com/news/3p2Y81DSLT",
-        "date_meaning": "无结果",
-        "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQuIBO7mdH6Dy9iGCJZbpge9t6SrrS3vOHBG1MVbmM2zoxX2L09mKdzRMS6axKLEo9gf4luxXQzlgZaUOjOOtsxWigqNERIrNDU5TaZAsHqsp6DtN6unJTqbI1G1beaCwegM3N"
-      },
-      {
-        "event_date": "2026-07-23",
-        "published_date": "2026-08-20",
-        "title": "《人类一败涂地》十周年！全球玩家突破6000万＆纪念关卡上线",
-        "summary": "《人类一败涂地》十周年，全球玩家突破6000万，并上线了纪念关卡。",
-        "source": "3DMGame",
-        "url": "https://www.3dmgame.com/news/202608/3951047.html",
-        "date_meaning": "活动",
-        "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2ejqEe8O_MW3zWoqDXmpLJCYezl2453cB44zY_-lSeXgtEqyxJf60t89Ht2o2eAPp11CL9G8b7R9989Mrj4N8L7M8fnnAY0K7-Iq2JtD1zBG0tB-5NNLtly1AqoJts46dpCIVAvS9NQ2W8Q=="
-      }
-    ],
-    "Chained Together": [
-      {
-        "event_date": "2026-09-08",
-        "published_date": "2026-09-08",
-        "title": "将无数次坠落的平台跳跃游戏《Chained Together》（因彼此身体被铁链束缚）的机制与魂系玩法相结合的头疼新作正式发售。",
-        "summary": "独立游戏开发商Kairoware Games于9月8日在Steam上推出了动作RPG《Soul Chained》，本作是由1名开发者推出的最多4人合作动作游戏，玩家们各自被铁链束缚，必须逃离炼狱。",
-        "source": "Gamemeca",
-        "url": "https://www.gamemeca.com/zh/view.php?gid=1780206",
-        "date_meaning": "无结果",
-        "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbvzLQtpQOaaDOZdp301bqosp3YGVxtUS7ekZD7k7cZ7N6bijsAtRY1eSH7xiqznnkialsH71dRDFcThzzjTvrXEpDEWW6FQhzyKIyreqcDmAvsoILJ52jbZ3Y5gl2Rf36McIkFxxSMp9u9Q=="
-      }
-    ],
     "Deceit 2": [
       {
-        "event_date": "2026-09-03",
-        "published_date": "2026-09-03",
-        "title": "Season 4: Evolution 赛季开启",
-        "summary": "《Deceit 2》推出第四赛季，包含史前主题皮肤、UE 5.8 引擎升级及排位赛重置。",
-        "source": "World Makers",
-        "url": "https://www.worldmakers.com/news/deceit-2-2026-3-5-bug-fixes-announcements-chat-improvements",
-        "date_meaning": "版本更新日期"
+        "event_date": "2026-08-13",
+        "published_date": "2026-08-13",
+        "title": "《Deceit 2》更新：Bug修复、公告和聊天改进",
+        "summary": "《Deceit 2》发布更新，主要修复了皮肤显示问题、手枪射速漏洞、马戏团地图重生点问题以及其他地图漏洞。此外，还改进了游戏内公告和聊天系统。",
+        "source": "worldmakers.com",
+        "url": "https://www.worldmakers.com/news/deceit-2-202635-bug-fixes-announcements-amp-chat-improvements/",
+        "date_meaning": "实际发生日期",
+        "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHz3ZZ83W0Aoy3QVJL00g_gqkZlEzM6VOt78hVkm78WSLqkzgf6uwBqkPXVTHahBB16TABjhM8xsYOoHW0a_X9Xq5h2pwulWbCZypa6qoxe_23eryAp28IGN85xZ_38r40m-xY6LR3PGsqTvb4qewJXIP_l6aewfBkP3coRiM6aUTnCZXXypiQjY8h0EKK0nWurOMB9jwEFig=="
       }
     ],
     "mo.co": [
       {
-        "event_date": "2026-09-29",
-        "published_date": "2026-09-29",
-        "title": "mo.co第5赛季可能会和你以往熟悉的感觉有点不一样。",
-        "summary": "mo.co第5赛季可能会与以往有所不同，创始人们正为这家怪物狩猎公司探索新的发展方向，本赛季不会推出新武器。",
-        "source": "Supercell",
-        "url": "https://support.supercell.com/mo-co/zh_cn/articles/whatsnew-neo-moco-6.html",
+        "event_date": "2026-08-12",
+        "published_date": "2026-08-12",
+        "title": "mo.co发布游戏表现回顾与未来计划",
+        "summary": "mo.co团队发布了游戏重新上线三个月后的回顾，表示游戏表现未达预期，但仍相信其潜力。团队将把重心放在开发和迭代新功能上，导致第四赛季活动将重复第一赛季内容，新武器发布也可能受影响。",
+        "source": "mo.co官方渠道",
+        "url": "https://mo.co/en/news/news/relaunch-retrospective/",
         "date_meaning": "无结果",
-        "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRSXDSFAniyZ9U7WZeAbrsrX2h-OftTwpKAOpNwde1ymQWX6PSWR3vxYctZ4EN79bntnc1cHnKbSjDsw51FumMETm8hIl64mkNjA8YgLU5KGqFdhwtuLE1AfxfY1aRMLdgtMw9Yepm9nJS2nlo9BSOlsWwD7AJbiBNQC9Ov2piWzeyudVIkQ=="
+        "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGqnCaBWh6lWK04YzCnQdW1a-25y-sH_2oVzL-IPaMZ2uac89ZBRTptl4tUZDBwFiROOr0Pzbf78XADOYO0r-o7yJb_nJ5ubuI4OOy_1WbmR7bblfQ7W1Cg43029SW3QQwzpjj5qlGMsA0qqI="
       }
     ],
     "奇遇动物城": [
@@ -1743,6 +1409,136 @@
         "date_meaning": "实际发生日期"
       }
     ],
+    "未眠野": [
+      {
+        "event_date": "2026-10-02",
+        "published_date": "2026-10-02",
+        "title": "制作组通讯：测试反馈汇总",
+        "summary": "《未眠野》制作组发布通讯，针对测试中的万物交互与多人协作反馈提出优化方向。",
+        "source": "B站动态/官网",
+        "url": "https://www.inside-games.jp/article/2026/10/04/188725.html",
+        "date_meaning": "报告发布日期",
+        "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFs128LiOZTVa9PY5s--7VTI0YPjx20fgCtTeu9qXnzHaQplVr12_4u3vM7xS8y1Huq9IRRbSP56DIHTpdR0EWMz0rEB4gkXAYUaMbNWQmyI0-hmuJ7oG-W8Ume4SDLReOrGn7qEQXcU661xkrsyDd5EYkYCCo="
+      },
+      {
+        "event_date": "2026-09-24",
+        "published_date": "2026-09-24",
+        "title": "技术保密测试开启",
+        "summary": "《未眠野》开启为期 4 天的 PC 端技术保密测试，验证物理与化学双引擎交互。",
+        "source": "官方/腾讯新闻",
+        "url": "https://www.inside-games.jp/article/2026/10/04/188725.html",
+        "date_meaning": "测试开始日期",
+        "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFs128LiOZTVa9PY5s--7VTI0YPjx20fgCtTeu9qXnzHaQplVr12_4u3vM7xS8y1Huq9IRRbSP56DIHTpdR0EWMz0rEB4gkXAYUaMbNWQmyI0-hmuJ7oG-W8Ume4SDLReOrGn7qEQXcU661xkrsyDd5EYkYCCo="
+      }
+    ],
+    "金铲铲之战": [
+      {
+        "event_date": "2026-10-15",
+        "published_date": "2026-10-15",
+        "title": "《金铲铲之战》18.4版本10月15日更新公告",
+        "summary": "《金铲铲之战》于10月15日12:00进行不停机更新，调整了【自然之力】羁绊强度，增强了1费和2费弈子，并优化了5费弈子的法力值返还体验。",
+        "source": "bilibili.com",
+        "url": "https://www.bilibili.com/opus/1259007059422085154",
+        "date_meaning": "实际发生日期",
+        "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7SZfLK8aQNoY97Uh8sYKewT4XUtPC4CAoRCM12oRP690__PCazKsu9atsgqVOf098h740EwroizYIGWtb6veCh1_ndYire_IZFnB1sgmkcMh-5zI6TB5qDOa2kaqdTLxjBQtdkNY8rBdPGA=="
+      }
+    ],
+    "Jackbox派对包": [
+      {
+        "event_date": "2026-10-15",
+        "published_date": "2026-10-15",
+        "title": "The Jackbox Party Pack 12 正式发售",
+        "summary": "Jackbox Games 宣布《The Jackbox Party Pack 12》（Jackbox派对包 12）正式在 PC、PlayStation、Xbox 及 Switch 等平台上线，包含 5 款全新派对游戏。",
+        "source": "官方渠道",
+        "url": "https://www.jackboxgames.com/blog/the-jackbox-party-pack-12-is-available-now-on-major-platforms",
+        "date_meaning": "发售日期"
+      },
+      {
+        "event_date": "2026-10-01",
+        "published_date": "2026-10-01",
+        "title": "Steam 秋季特卖促销活动",
+        "summary": "Jackbox Games 参加 Steam 秋季特卖，《The Jackbox Party Pack》（Jackbox派对包）系列多款作品提供最高 **65%** 的折扣优惠。",
+        "source": "官方渠道",
+        "url": "https://www.jackboxgames.com/blog/save-up-to-65-on-party-games-during-the-steam-autumn-sale",
+        "date_meaning": "促销开始日期"
+      },
+      {
+        "event_date": "2026-09-17",
+        "published_date": "2026-09-17",
+        "title": "Trivia Murder Party 3 开启抢先体验",
+        "summary": "作为《The Jackbox Party Pack 12》（Jackbox派对包 12）的一部分，《Trivia Murder Party 3》于 9 月 17 日率先开启抢先体验。",
+        "source": "官方渠道",
+        "url": "https://store.steampowered.com/news/app/397460/view/677381523352060654",
+        "date_meaning": "抢先体验日期"
+      }
+    ],
+    "蓝色星原：旅谣": [
+      {
+        "event_date": "2026-09-17",
+        "published_date": "2026-09-17",
+        "title": "《蓝色星原：旅谣》「旅迹测试」正式开启，覆盖多端平台，新增角色枫糖。",
+        "summary": "《蓝色星原：旅谣》「旅迹测试」正式开启，覆盖多端平台，新增角色枫糖。凭借精美角色、生动星宠、高速战斗与番剧剧情，游戏全球预约量突破2000万，备受期待。",
+        "source": "163.com",
+        "url": "https://cg.163.com/static/content/6ac9a907c351712c1db0428f",
+        "date_meaning": "测试开始日期",
+        "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX0F3v9KdpE1cCsrEDIQFF5kab6T9GllCNysVne4LOT11c4a1MRVDsdDWomSZVzRzb_3CTHbiPl9dbo6AsqpZxXXhaUu8-ebsEc_nIsEh8cERjggglVJUFbcLvDsthnFcJagdUTC77PT28hu2ltfMH4ulIOrI="
+      }
+    ],
+    "超自然行动组": [
+      {
+        "event_date": "2026-07-24",
+        "published_date": "2026-07-23",
+        "title": "【神隱幽谷】赛季开启 — 全新賽季【神隱幽谷】將於 2026年7月24日00:00 正式開啟！",
+        "summary": "超自然行动组全新赛季【神隐幽谷】将于2026年7月24日00:00正式开启。",
+        "source": "超自然行動組- 遊戲懶人包 - 《超自然行動組》07.23版本更新爆料",
+        "url": "https://www.supernaturalsquad.com/zh/news/66",
+        "date_meaning": "实际发生日期"
+      }
+    ],
+    "Faaast Penguin": [
+      {
+        "event_date": "2026-09-29",
+        "published_date": "2026-09-29",
+        "title": "Faaast Penguin 2周年更新",
+        "summary": "推出登录奖励并与DOZLE Corp.开启合作活动。",
+        "source": "faaast-penguin.com",
+        "url": "https://faaast-penguin.com/en/news/948/",
+        "date_meaning": "event_date是活动日期"
+      }
+    ],
+    "SMASH LEGENDS": [
+      {
+        "event_date": "2026-10-06",
+        "published_date": "2026-10-06",
+        "title": "新赛季开启与服务器维护",
+        "summary": "竞争模式刷新，发放赛季奖励并进行排行榜清理。",
+        "source": "官方公告",
+        "url": "https://smashlegends.com/ko/notice/23903-tue-m_ko/",
+        "date_meaning": "维护/赛季日期"
+      }
+    ],
+    "Among Us": [
+      {
+        "event_date": "2026-09-29",
+        "published_date": "2026-09-29",
+        "title": "v19.0.0版本更新：新增幽灵船员角色“Influencer”",
+        "summary": "v19.0.0版本正式发布，新增幽灵船员角色“影响力者（Influencer）”，丰富了阵亡玩家的参与度。",
+        "source": "SteamPeaks",
+        "url": "https://steampeaks.com/news/among-us-v19",
+        "date_meaning": "版本更新"
+      }
+    ],
+    "Aniimo": [
+      {
+        "event_date": "2026-09-16",
+        "published_date": "2026-09-23",
+        "title": "Aniimo 全平台全球发布",
+        "summary": "《Aniimo》PC/主机版于 9 月 16 日上线，移动版于 9 月 23 日上线，实现跨平台互通。",
+        "source": "aniimo.com",
+        "url": "https://aniimo.com/news/aniimo-global-launch-dates-coming-to-pc-consoles-on-september-16-mobile-on-september-23",
+        "date_meaning": "游戏上线日期"
+      }
+    ],
     "Spirit Crossing": [
       {
         "event_date": "2026-09-22",
@@ -1770,28 +1566,6 @@
         "source": "Spry Fox 官方",
         "url": "https://spryfox.com/2026/07/15/spirit-crossing-patch-notes-for-version-15-2/",
         "date_meaning": "实际发生日期"
-      }
-    ],
-    "未眠野": [
-      {
-        "event_date": "2026-10-02",
-        "published_date": "2026-10-02",
-        "title": "制作组通讯：测试反馈汇总",
-        "summary": "《未眠野》制作组发布通讯，针对测试中的万物交互与多人协作反馈提出优化方向。",
-        "source": "B站动态/官网",
-        "url": "https://www.inside-games.jp/article/2026/10/04/188725.html",
-        "date_meaning": "报告发布日期",
-        "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFs128LiOZTVa9PY5s--7VTI0YPjx20fgCtTeu9qXnzHaQplVr12_4u3vM7xS8y1Huq9IRRbSP56DIHTpdR0EWMz0rEB4gkXAYUaMbNWQmyI0-hmuJ7oG-W8Ume4SDLReOrGn7qEQXcU661xkrsyDd5EYkYCCo="
-      },
-      {
-        "event_date": "2026-09-24",
-        "published_date": "2026-09-24",
-        "title": "技术保密测试开启",
-        "summary": "《未眠野》开启为期 4 天的 PC 端技术保密测试，验证物理与化学双引擎交互。",
-        "source": "官方/腾讯新闻",
-        "url": "https://www.inside-games.jp/article/2026/10/04/188725.html",
-        "date_meaning": "测试开始日期",
-        "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFs128LiOZTVa9PY5s--7VTI0YPjx20fgCtTeu9qXnzHaQplVr12_4u3vM7xS8y1Huq9IRRbSP56DIHTpdR0EWMz0rEB4gkXAYUaMbNWQmyI0-hmuJ7oG-W8Ume4SDLReOrGn7qEQXcU661xkrsyDd5EYkYCCo="
       }
     ]
   }

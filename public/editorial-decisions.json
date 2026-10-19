@@ -178,6 +178,16 @@
       "evidence_url": "https://ef.zlongame.com/",
       "video_url": "https://www.bilibili.com/video/BV1ubpb6xES5/",
       "recheck_trigger": "产品身份、核心玩法或测试安排发生明确变化后重新核验"
+    },
+    {
+      "name": "Draft Showdown",
+      "action": "include_candidate",
+      "scope": "candidate_selection",
+      "reason": "游研所多区商店身份统一为 internal_game_key 1125；QuestLab 开发、Voodoo 发行，Roguelite 持续选兵与军团自动战斗构成核心循环，属于自走棋观察范围。报道日期仅作为证据发布日期，不作为上线节点。",
+      "source": "游研所 MCP 游戏目录与产品拆解 · 2026-10-19 编辑核验",
+      "reviewed_at": "2026-10-19",
+      "evidence_url": "http://mp.weixin.qq.com/s?__biz=Mzk2NDY1ODE3MA==&mid=2247485817&idx=1&sn=7e18366f653f00ed83f49a6b22bb9027&chksm=c5c95f26f6d13e9e8f2abba83a383187270bcb03a207a6c48e4eea85a1b31abbd122bdbe86bf&scene=126&sessionid=0#rd",
+      "recheck_trigger": "产品身份、核心玩法或发行归属发生明确变化后重新核验"
     }
   ]
 }
