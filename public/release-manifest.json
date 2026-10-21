@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
-  "version": "72a775decca24220fec9",
+  "version": "ad51a299a3b122da0550",
   "source_commit": null,
-  "generated_at": "2026-10-21T02:27:30.514Z",
+  "generated_at": "2026-10-21T04:48:19.473Z",
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "anomaly-attributions.json": "cbcdab1acf6bdd01f60b64c97c14a7e2e6eed60ed5c2043ea248d5bd15190971",
-    "content-health.json": "ef609223294e9905ecf2dd495d59c90c01481cb8d177a160cef9bb3c5f714cbe",
+    "anomaly-attributions.json": "83db393ee16902f28899f2c45ded017f9de4488012febc795621749345ab040d",
+    "content-health.json": "4f32812d4a22111b3f169daecb7055aaa3f57bfc72a7224669944f76dc0c4a69",
     "dashboard_data.json": "595a46f3d7b87066531221fc475a846165da29f440a5690a83f8f06076a5c333",
-    "databrain_events.json": "c287ccf13d7e24ca09dc41e601d45dcaad03d110e7374b05c07f077f3e7b9efe",
+    "databrain_events.json": "d7b56a735f946639cc00dac8cdffc8482dbdd0819c3ab2d61867a3f90d355193",
     "databrain_latest_metrics.json": "61b2e38273b86157d3fded716fb95541bc9edcdf4f5ec10ead65e7f8c679f016",
-    "databrain_research.json": "d8bcae371234350ffc7973de8814b40563efede965da7b49a43e59683c21ec4c",
+    "databrain_research.json": "1247d90c392d530ce78423d44f579dfa312e4fafe4db67e6f506f7750994b3b8",
     "databrain_snapshots.json": "ed8d10cbb341fb78b60b4bf67ba4b518c3e4a4c65583958f24970057066f62ef",
     "databrain_trends.json": "3dcd4394105a0d10134937ebd05bd1aa1ab1b1bbb31219782adf0e5c2f2d35a3",
     "databrain_trends_90d.json": "f7f0c9b8fbb801d2ed20cffbc3b580bd5740f92036d422cc60cf0c343e8771b3",
     "development-profiles.json": "7a44422d353ac978e61b2b190acf58aaeb5e7bebddc79da902f151e98638ff23",
-    "editorial-decisions.json": "9e7a948ce2141ab5006eceea941a343079275939f48ddf04fe541ffff0304754",
+    "editorial-decisions.json": "b9330f3a73ac8ba3ec9da137eef9b7677c5096c65551b06d81168a30eb343980",
     "favicon.svg": "e6d2e59b7b5bbb0342e0fb496dfc262decbfe4426bbb7b047aec8d467d1dc6f7",
     "file.svg": "1e0ae4d1a1ddfa36752988647b731e4abf150c414d069ec83c96fb0aaeff0307",
     "game-icons/001-fallguys.jpg": "12b7e6bbaf9a25dc629d4e99fb887d9c9a91ee30c2187b8e8de69c2e6f5fd988",
@@ -345,6 +345,6 @@
     "video-thumbnails/xiaomi-star-draw-second-test.jpg": "704028393e814a887f96e7e4c9d7416ccfe37f528546f13d11314fa8e2cc7ea3",
     "weekly_scan.json": "5449e93caa70e9b8cb5e0d263553c30a50be61f9f674ada3498c69be601004fb",
     "window.svg": "decf1cf7bb22b5c99c4857cfcd5718ce5465c4454166317589c83fc73df74b66",
-    "youyansuo_discovery.json": "e96e3504b4d253b17d5587681009ed4ca635a4be0abd67e91a39bdba12243493"
+    "youyansuo_discovery.json": "2f27385557c1f4465b7ca45c1e04af9d9d4877716e03f84a29f6f9e0c46097f6"
   }
 }

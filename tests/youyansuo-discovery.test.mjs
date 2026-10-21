@@ -39,6 +39,25 @@ test("rejects stale, partial and unevidenced MCP scans", () => {
   assert.throws(() => normalizeDiscovery(input({ scan_date: "2026-02-31" }), games, { today: "2026-02-31" }), /不是今天/);
 });
 
+test("public discovery keeps coverage receipts but strips raw MCP rows", () => {
+  const coverageNotes = {
+    queries: [{
+      q: "模拟经营",
+      status: "success",
+      expected_pages: 1,
+      fetched_pages: 1,
+      page_receipts: [{ page: 1, count: 1, total: 1, items: [{ id: 7, url: "https://example.com/raw" }] }],
+    }],
+    identity_queries: [{ q: "9 Kings", status: "success", count: 1, items: [{ app_id: "private-id", icon: "https://example.com/icon" }] }],
+    get_game: [{ internal_game_key: 37296, status: "success", canonical_name: "9 Kings", app_id: "private-id", icon: "https://example.com/icon" }],
+  };
+  const bundle = normalizeDiscovery(input({ coverage_notes: coverageNotes }), games, { today: "2026-09-28" });
+  assert.deepEqual(bundle.meta.coverage_notes.queries[0].page_receipts, [{ page: 1, count: 1, total: 1 }]);
+  assert.deepEqual(bundle.meta.coverage_notes.identity_queries, [{ q: "9 Kings", status: "success", count: 1 }]);
+  assert.deepEqual(bundle.meta.coverage_notes.get_game, [{ internal_game_key: 37296, status: "success", canonical_name: "9 Kings" }]);
+  assert.equal(coverageNotes.queries[0].page_receipts[0].items[0].id, 7);
+});
+
 test("keeps candidates separate and matches only exact unique aliases", () => {
   const bundle = normalizeDiscovery(input({
     candidates: [

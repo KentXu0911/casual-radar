@@ -1,6 +1,6 @@
 {
   "meta": {
-    "reviewed_at": "2026-10-19",
+    "reviewed_at": "2026-10-21",
     "as_of": "2026-10-18",
     "event_query_range": [
       "2026-07-21",
@@ -14,7 +14,7 @@
   "games": {
     "胡闹厨房2": {
       "status": "inconclusive",
-      "reviewedAt": "2026-10-19",
+      "reviewedAt": "2026-10-21",
       "summary": "暂未发现同期事件",
       "sources": [
         {
@@ -28,7 +28,7 @@
     },
     "炉石传说：酒馆战棋": {
       "status": "inconclusive",
-      "reviewedAt": "2026-10-19",
+      "reviewedAt": "2026-10-21",
       "summary": "暂未发现同期事件",
       "sources": [
         {
@@ -42,7 +42,7 @@
     },
     "Jackbox派对包": {
       "status": "hypothesis",
-      "reviewedAt": "2026-10-19",
+      "reviewedAt": "2026-10-21",
       "summary": "可能原因：10/15 The Jackbox Party Pack 12 正式发售",
       "sources": [
         {
@@ -56,7 +56,7 @@
     },
     "Paralives": {
       "status": "inconclusive",
-      "reviewedAt": "2026-10-19",
+      "reviewedAt": "2026-10-21",
       "summary": "暂未发现同期事件",
       "sources": [
         {
@@ -70,7 +70,7 @@
     },
     "人类一败涂地": {
       "status": "inconclusive",
-      "reviewedAt": "2026-10-19",
+      "reviewedAt": "2026-10-21",
       "summary": "暂未发现同期事件",
       "sources": [
         {
@@ -84,7 +84,7 @@
     },
     "The Bazaar": {
       "status": "inconclusive",
-      "reviewedAt": "2026-10-19",
+      "reviewedAt": "2026-10-21",
       "summary": "暂未发现同期事件",
       "sources": [
         {
@@ -98,7 +98,7 @@
     },
     "药剂工艺": {
       "status": "inconclusive",
-      "reviewedAt": "2026-10-19",
+      "reviewedAt": "2026-10-21",
       "summary": "暂未发现同期事件",
       "sources": [
         {

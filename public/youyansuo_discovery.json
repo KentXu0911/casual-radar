@@ -2,111 +2,61 @@
   "meta": {
     "source": "youyansuo",
     "mode": "mcp_read_only",
-    "scan_date": "2026-10-19",
-    "generated_at": "2026-10-19T06:13:12.148Z",
+    "scan_date": "2026-10-21",
+    "generated_at": "2026-10-21T04:47:37.468Z",
     "status": "imported",
-    "candidates": 4,
-    "tracked_updates": 5,
+    "candidates": 1,
+    "tracked_updates": 1,
     "rejected_rows": 0,
     "pending_candidates": 0,
     "candidate_publication_policy": "editorial_approval_required",
     "tool_calls": {
-      "total": 66,
+      "total": 49,
       "failed": 0,
       "search_articles": {
-        "calls": 39,
-        "notes": "最近14天全量与5个重点品类、已跟踪产品规范名/别名；全部真实调用成功且分页完整。"
+        "calls": 36,
+        "notes": "35个逻辑查询；全量文章122条并完整读取2页，其余重点品类及跟踪产品主名/别名查询均完成分页。"
       },
       "get_article": {
-        "calls": 16,
-        "notes": "重新读取入选更新与新品线索详情，核验来源链接、报道日期、核心循环和主体信息。"
+        "calls": 7,
+        "notes": "读取候选与已跟踪变化的文章详情，全部成功。"
       },
       "search_games": {
-        "calls": 10,
-        "notes": "含开始前最小授权检查；候选身份与同名冲突均为本次真实只读调用。"
+        "calls": 5,
+        "notes": "9 Kings、Dressmaker/针影裁梦、极境：垂钓者、深空之劫身份查询全部成功；9 Kings统一映射internal_game_key=37296。"
       },
       "get_game": {
         "calls": 1,
-        "notes": "以 internal_game_key=1125 复核 Draft Showdown 统一身份与归属。"
+        "notes": "以internal_game_key=37296复核9 Kings目录身份，成功。"
       }
     },
     "coverage_notes": {
-      "windows": {
-        "new_candidates": {
-          "since": "2026-10-05T00:00:00+08:00",
-          "until": "2026-10-20T00:00:00+08:00"
-        },
-        "tracked_products": {
-          "since": "2026-09-19T00:00:00+08:00",
-          "until": "2026-10-20T00:00:00+08:00"
-        }
-      },
       "queries": [
         {
           "type": "all_articles",
           "q": "",
           "aliases": [],
-          "since": 1791129600,
-          "until": 1792425600,
+          "since": 1792252800,
+          "until": 1792512000,
           "status": "success",
-          "expected_pages": 7,
-          "fetched_pages": 7,
-          "articles": 689,
+          "expected_pages": 2,
+          "fetched_pages": 2,
+          "articles": 122,
           "page_receipts": [
             {
               "page": 1,
               "page_size": 100,
               "count": 100,
-              "total": 689,
-              "pages": 7,
+              "total": 122,
+              "pages": 2,
               "data_date": null
             },
             {
               "page": 2,
               "page_size": 100,
-              "count": 100,
-              "total": 689,
-              "pages": 7,
-              "data_date": null
-            },
-            {
-              "page": 3,
-              "page_size": 100,
-              "count": 100,
-              "total": 689,
-              "pages": 7,
-              "data_date": null
-            },
-            {
-              "page": 4,
-              "page_size": 100,
-              "count": 100,
-              "total": 689,
-              "pages": 7,
-              "data_date": null
-            },
-            {
-              "page": 5,
-              "page_size": 100,
-              "count": 100,
-              "total": 689,
-              "pages": 7,
-              "data_date": null
-            },
-            {
-              "page": 6,
-              "page_size": 100,
-              "count": 100,
-              "total": 689,
-              "pages": 7,
-              "data_date": null
-            },
-            {
-              "page": 7,
-              "page_size": 100,
-              "count": 89,
-              "total": 689,
-              "pages": 7,
+              "count": 22,
+              "total": 122,
+              "pages": 2,
               "data_date": null
             }
           ]
@@ -115,18 +65,18 @@
           "type": "category_keyword",
           "q": "模拟经营",
           "aliases": [],
-          "since": 1791129600,
-          "until": 1792425600,
+          "since": 1792252800,
+          "until": 1792512000,
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
-          "articles": 63,
+          "articles": 9,
           "page_receipts": [
             {
               "page": 1,
               "page_size": 100,
-              "count": 63,
-              "total": 63,
+              "count": 9,
+              "total": 9,
               "pages": 1,
               "data_date": null
             }
@@ -136,18 +86,18 @@
           "type": "category_keyword",
           "q": "自走棋",
           "aliases": [],
-          "since": 1791129600,
-          "until": 1792425600,
+          "since": 1792252800,
+          "until": 1792512000,
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
-          "articles": 27,
+          "articles": 7,
           "page_receipts": [
             {
               "page": 1,
               "page_size": 100,
-              "count": 27,
-              "total": 27,
+              "count": 7,
+              "total": 7,
               "pages": 1,
               "data_date": null
             }
@@ -157,18 +107,18 @@
           "type": "category_keyword",
           "q": "捉宠",
           "aliases": [],
-          "since": 1791129600,
-          "until": 1792425600,
+          "since": 1792252800,
+          "until": 1792512000,
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
-          "articles": 5,
+          "articles": 1,
           "page_receipts": [
             {
               "page": 1,
               "page_size": 100,
-              "count": 5,
-              "total": 5,
+              "count": 1,
+              "total": 1,
               "pages": 1,
               "data_date": null
             }
@@ -178,18 +128,18 @@
           "type": "category_keyword",
           "q": "多人合作",
           "aliases": [],
-          "since": 1791129600,
-          "until": 1792425600,
+          "since": 1792252800,
+          "until": 1792512000,
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
-          "articles": 6,
+          "articles": 3,
           "page_receipts": [
             {
               "page": 1,
               "page_size": 100,
-              "count": 6,
-              "total": 6,
+              "count": 3,
+              "total": 3,
               "pages": 1,
               "data_date": null
             }
@@ -199,18 +149,18 @@
           "type": "category_keyword",
           "q": "MOBA",
           "aliases": [],
-          "since": 1791129600,
-          "until": 1792425600,
+          "since": 1792252800,
+          "until": 1792512000,
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
-          "articles": 26,
+          "articles": 9,
           "page_receipts": [
             {
               "page": 1,
               "page_size": 100,
-              "count": 26,
-              "total": 26,
+              "count": 9,
+              "total": 9,
               "pages": 1,
               "data_date": null
             }
@@ -221,18 +171,18 @@
           "q": "塔塔冒险队",
           "product": "塔塔冒险队",
           "aliases": [],
-          "since": 1789747200,
-          "until": 1792425600,
+          "since": 1792252800,
+          "until": 1792512000,
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
-          "articles": 62,
+          "articles": 7,
           "page_receipts": [
             {
               "page": 1,
               "page_size": 100,
-              "count": 62,
-              "total": 62,
+              "count": 7,
+              "total": 7,
               "pages": 1,
               "data_date": null
             }
@@ -243,8 +193,8 @@
           "q": "代号：奇旅",
           "product": "代号：奇旅",
           "aliases": [],
-          "since": 1789747200,
-          "until": 1792425600,
+          "since": 1792252800,
+          "until": 1792512000,
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
@@ -265,18 +215,18 @@
           "q": "星布谷地",
           "product": "星布谷地",
           "aliases": [],
-          "since": 1789747200,
-          "until": 1792425600,
+          "since": 1792252800,
+          "until": 1792512000,
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
-          "articles": 35,
+          "articles": 4,
           "page_receipts": [
             {
               "page": 1,
               "page_size": 100,
-              "count": 35,
-              "total": 35,
+              "count": 4,
+              "total": 4,
               "pages": 1,
               "data_date": null
             }
@@ -287,18 +237,18 @@
           "q": "粒粒的小人国",
           "product": "粒粒的小人国",
           "aliases": [],
-          "since": 1789747200,
-          "until": 1792425600,
+          "since": 1792252800,
+          "until": 1792512000,
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
-          "articles": 17,
+          "articles": 1,
           "page_receipts": [
             {
               "page": 1,
               "page_size": 100,
-              "count": 17,
-              "total": 17,
+              "count": 1,
+              "total": 1,
               "pages": 1,
               "data_date": null
             }
@@ -309,8 +259,8 @@
           "q": "Witchbrook",
           "product": "Witchbrook",
           "aliases": [],
-          "since": 1789747200,
-          "until": 1792425600,
+          "since": 1792252800,
+          "until": 1792512000,
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
@@ -331,8 +281,8 @@
           "q": "Spirit Crossing",
           "product": "Spirit Crossing",
           "aliases": [],
-          "since": 1789747200,
-          "until": 1792425600,
+          "since": 1792252800,
+          "until": 1792512000,
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
@@ -353,74 +303,8 @@
           "q": "崩坏：因缘精灵",
           "product": "崩坏：因缘精灵",
           "aliases": [],
-          "since": 1789747200,
-          "until": 1792425600,
-          "status": "success",
-          "expected_pages": 1,
-          "fetched_pages": 1,
-          "articles": 13,
-          "page_receipts": [
-            {
-              "page": 1,
-              "page_size": 100,
-              "count": 13,
-              "total": 13,
-              "pages": 1,
-              "data_date": null
-            }
-          ]
-        },
-        {
-          "type": "tracked_product",
-          "q": "王者万象棋",
-          "product": "王者万象棋",
-          "aliases": [],
-          "since": 1789747200,
-          "until": 1792425600,
-          "status": "success",
-          "expected_pages": 1,
-          "fetched_pages": 1,
-          "articles": 39,
-          "page_receipts": [
-            {
-              "page": 1,
-              "page_size": 100,
-              "count": 39,
-              "total": 39,
-              "pages": 1,
-              "data_date": null
-            }
-          ]
-        },
-        {
-          "type": "tracked_product",
-          "q": "山海奇旅",
-          "product": "山海奇旅",
-          "aliases": [],
-          "since": 1789747200,
-          "until": 1792425600,
-          "status": "success",
-          "expected_pages": 1,
-          "fetched_pages": 1,
-          "articles": 1,
-          "page_receipts": [
-            {
-              "page": 1,
-              "page_size": 100,
-              "count": 1,
-              "total": 1,
-              "pages": 1,
-              "data_date": null
-            }
-          ]
-        },
-        {
-          "type": "tracked_product",
-          "q": "诡影藏锋",
-          "product": "诡影藏锋",
-          "aliases": [],
-          "since": 1789747200,
-          "until": 1792425600,
+          "since": 1792252800,
+          "until": 1792512000,
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
@@ -438,13 +322,105 @@
         },
         {
           "type": "tracked_product",
+          "q": "王者万象棋",
+          "product": "王者万象棋",
+          "aliases": [],
+          "since": 1792252800,
+          "until": 1792512000,
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 2,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 2,
+              "total": 2,
+              "pages": 1,
+              "data_date": null
+            }
+          ]
+        },
+        {
+          "type": "tracked_product",
+          "q": "山海奇旅",
+          "product": "山海奇旅",
+          "aliases": [
+            "代号：奇旅"
+          ],
+          "since": 1792252800,
+          "until": 1792512000,
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 0,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 0,
+              "total": 0,
+              "pages": 1,
+              "data_date": null
+            }
+          ]
+        },
+        {
+          "type": "tracked_product",
+          "q": "代号：奇旅",
+          "product": "山海奇旅",
+          "aliases": [
+            "代号：奇旅"
+          ],
+          "since": 1792252800,
+          "until": 1792512000,
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 0,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 0,
+              "total": 0,
+              "pages": 1,
+              "data_date": null
+            }
+          ]
+        },
+        {
+          "type": "tracked_product",
+          "q": "诡影藏锋",
+          "product": "诡影藏锋",
+          "aliases": [],
+          "since": 1792252800,
+          "until": 1792512000,
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 1,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 1,
+              "total": 1,
+              "pages": 1,
+              "data_date": null
+            }
+          ]
+        },
+        {
+          "type": "tracked_product",
           "q": "妖妖棋",
           "product": "妖妖棋",
           "aliases": [
             "代号：妖鬼"
           ],
-          "since": 1789747200,
-          "until": 1792425600,
+          "since": 1792252800,
+          "until": 1792512000,
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
@@ -467,8 +443,8 @@
           "aliases": [
             "代号：妖鬼"
           ],
-          "since": 1789747200,
-          "until": 1792425600,
+          "since": 1792252800,
+          "until": 1792512000,
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
@@ -489,18 +465,18 @@
           "q": "mo.co",
           "product": "mo.co",
           "aliases": [],
-          "since": 1789747200,
-          "until": 1792425600,
+          "since": 1792252800,
+          "until": 1792512000,
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
-          "articles": 1,
+          "articles": 0,
           "page_receipts": [
             {
               "page": 1,
               "page_size": 100,
-              "count": 1,
-              "total": 1,
+              "count": 0,
+              "total": 0,
               "pages": 1,
               "data_date": null
             }
@@ -513,8 +489,8 @@
           "aliases": [
             "时光3：永耀之境"
           ],
-          "since": 1789747200,
-          "until": 1792425600,
+          "since": 1792252800,
+          "until": 1792512000,
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
@@ -537,78 +513,8 @@
           "aliases": [
             "时光3：永耀之境"
           ],
-          "since": 1789747200,
-          "until": 1792425600,
-          "status": "success",
-          "expected_pages": 1,
-          "fetched_pages": 1,
-          "articles": 0,
-          "page_receipts": [
-            {
-              "page": 1,
-              "page_size": 100,
-              "count": 0,
-              "total": 0,
-              "pages": 1,
-              "data_date": null
-            }
-          ]
-        },
-        {
-          "type": "tracked_product",
-          "q": "闪耀吧！噜咪",
-          "product": "闪耀吧！噜咪",
-          "aliases": [
-            "噜咪"
-          ],
-          "since": 1789747200,
-          "until": 1792425600,
-          "status": "success",
-          "expected_pages": 1,
-          "fetched_pages": 1,
-          "articles": 40,
-          "page_receipts": [
-            {
-              "page": 1,
-              "page_size": 100,
-              "count": 40,
-              "total": 40,
-              "pages": 1,
-              "data_date": null
-            }
-          ]
-        },
-        {
-          "type": "tracked_product",
-          "q": "噜咪",
-          "product": "闪耀吧！噜咪",
-          "aliases": [
-            "噜咪"
-          ],
-          "since": 1789747200,
-          "until": 1792425600,
-          "status": "success",
-          "expected_pages": 1,
-          "fetched_pages": 1,
-          "articles": 10,
-          "page_receipts": [
-            {
-              "page": 1,
-              "page_size": 100,
-              "count": 10,
-              "total": 10,
-              "pages": 1,
-              "data_date": null
-            }
-          ]
-        },
-        {
-          "type": "tracked_product",
-          "q": "火人冲冲冲",
-          "product": "火人冲冲冲",
-          "aliases": [],
-          "since": 1789747200,
-          "until": 1792425600,
+          "since": 1792252800,
+          "until": 1792512000,
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
@@ -626,21 +532,91 @@
         },
         {
           "type": "tracked_product",
-          "q": "奇遇动物城",
-          "product": "奇遇动物城",
-          "aliases": [],
-          "since": 1789747200,
-          "until": 1792425600,
+          "q": "闪耀吧！噜咪",
+          "product": "闪耀吧！噜咪",
+          "aliases": [
+            "噜咪"
+          ],
+          "since": 1792252800,
+          "until": 1792512000,
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
-          "articles": 15,
+          "articles": 5,
           "page_receipts": [
             {
               "page": 1,
               "page_size": 100,
-              "count": 15,
-              "total": 15,
+              "count": 5,
+              "total": 5,
+              "pages": 1,
+              "data_date": null
+            }
+          ]
+        },
+        {
+          "type": "tracked_product",
+          "q": "噜咪",
+          "product": "闪耀吧！噜咪",
+          "aliases": [
+            "噜咪"
+          ],
+          "since": 1792252800,
+          "until": 1792512000,
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 0,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 0,
+              "total": 0,
+              "pages": 1,
+              "data_date": null
+            }
+          ]
+        },
+        {
+          "type": "tracked_product",
+          "q": "火人冲冲冲",
+          "product": "火人冲冲冲",
+          "aliases": [],
+          "since": 1792252800,
+          "until": 1792512000,
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 0,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 0,
+              "total": 0,
+              "pages": 1,
+              "data_date": null
+            }
+          ]
+        },
+        {
+          "type": "tracked_product",
+          "q": "奇遇动物城",
+          "product": "奇遇动物城",
+          "aliases": [],
+          "since": 1792252800,
+          "until": 1792512000,
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 0,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 0,
+              "total": 0,
               "pages": 1,
               "data_date": null
             }
@@ -651,18 +627,18 @@
           "q": "未眠野",
           "product": "未眠野",
           "aliases": [],
-          "since": 1789747200,
-          "until": 1792425600,
+          "since": 1792252800,
+          "until": 1792512000,
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
-          "articles": 13,
+          "articles": 0,
           "page_receipts": [
             {
               "page": 1,
               "page_size": 100,
-              "count": 13,
-              "total": 13,
+              "count": 0,
+              "total": 0,
               "pages": 1,
               "data_date": null
             }
@@ -673,18 +649,18 @@
           "q": "源初之结",
           "product": "源初之结",
           "aliases": [],
-          "since": 1789747200,
-          "until": 1792425600,
+          "since": 1792252800,
+          "until": 1792512000,
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
-          "articles": 44,
+          "articles": 8,
           "page_receipts": [
             {
               "page": 1,
               "page_size": 100,
-              "count": 44,
-              "total": 44,
+              "count": 8,
+              "total": 8,
               "pages": 1,
               "data_date": null
             }
@@ -695,8 +671,8 @@
           "q": "时之铃",
           "product": "时之铃",
           "aliases": [],
-          "since": 1789747200,
-          "until": 1792425600,
+          "since": 1792252800,
+          "until": 1792512000,
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
@@ -717,18 +693,18 @@
           "q": "蓝色星原：旅谣",
           "product": "蓝色星原：旅谣",
           "aliases": [],
-          "since": 1789747200,
-          "until": 1792425600,
+          "since": 1792252800,
+          "until": 1792512000,
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
-          "articles": 22,
+          "articles": 0,
           "page_receipts": [
             {
               "page": 1,
               "page_size": 100,
-              "count": 22,
-              "total": 22,
+              "count": 0,
+              "total": 0,
               "pages": 1,
               "data_date": null
             }
@@ -739,18 +715,18 @@
           "q": "Project63",
           "product": "Project63",
           "aliases": [],
-          "since": 1789747200,
-          "until": 1792425600,
+          "since": 1792252800,
+          "until": 1792512000,
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
-          "articles": 3,
+          "articles": 0,
           "page_receipts": [
             {
               "page": 1,
               "page_size": 100,
-              "count": 3,
-              "total": 3,
+              "count": 0,
+              "total": 0,
               "pages": 1,
               "data_date": null
             }
@@ -763,8 +739,54 @@
           "aliases": [
             "亲爱的乘客"
           ],
-          "since": 1789747200,
-          "until": 1792425600,
+          "since": 1792252800,
+          "until": 1792512000,
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 0,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 0,
+              "total": 0,
+              "pages": 1,
+              "data_date": null
+            }
+          ]
+        },
+        {
+          "type": "tracked_product",
+          "q": "亲爱的乘客",
+          "product": "Dear Passengers",
+          "aliases": [
+            "亲爱的乘客"
+          ],
+          "since": 1792252800,
+          "until": 1792512000,
+          "status": "success",
+          "expected_pages": 1,
+          "fetched_pages": 1,
+          "articles": 0,
+          "page_receipts": [
+            {
+              "page": 1,
+              "page_size": 100,
+              "count": 0,
+              "total": 0,
+              "pages": 1,
+              "data_date": null
+            }
+          ]
+        },
+        {
+          "type": "tracked_product",
+          "q": "极境：垂钓者",
+          "product": "极境：垂钓者",
+          "aliases": [],
+          "since": 1792252800,
+          "until": 1792512000,
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
@@ -782,57 +804,60 @@
         },
         {
           "type": "tracked_product",
-          "q": "亲爱的乘客",
-          "product": "Dear Passengers",
-          "aliases": [
-            "亲爱的乘客"
-          ],
-          "since": 1789747200,
-          "until": 1792425600,
-          "status": "success",
-          "expected_pages": 1,
-          "fetched_pages": 1,
-          "articles": 1,
-          "page_receipts": [
-            {
-              "page": 1,
-              "page_size": 100,
-              "count": 1,
-              "total": 1,
-              "pages": 1,
-              "data_date": null
-            }
-          ]
-        },
-        {
-          "type": "tracked_product",
-          "q": "极境：垂钓者",
-          "product": "极境：垂钓者",
+          "q": "Draft Showdown",
+          "product": "Draft Showdown",
           "aliases": [],
-          "since": 1789747200,
-          "until": 1792425600,
+          "since": 1792252800,
+          "until": 1792512000,
           "status": "success",
           "expected_pages": 1,
           "fetched_pages": 1,
-          "articles": 4,
+          "articles": 2,
           "page_receipts": [
             {
               "page": 1,
               "page_size": 100,
-              "count": 4,
-              "total": 4,
+              "count": 2,
+              "total": 2,
               "pages": 1,
               "data_date": null
             }
           ]
         }
       ],
+      "tool_availability": {
+        "status": "complete",
+        "required_tools": [
+          "search_articles",
+          "search_games",
+          "get_game"
+        ],
+        "observed_at": "2026-10-21T12:44:43+08:00"
+      },
+      "query_plan_source": {
+        "authoritative_files": [
+          "public/games.json",
+          "public/product-catalog.json",
+          "public/editorial-decisions.json"
+        ],
+        "notes": "以当前权威文件及今天失败批次待执行的35项队列真实重跑；未复用旧文章、候选或分页。"
+      },
+      "pagination_notes": "全量查询首页返回pages=2并读取第2页；其余查询pages=1且完整读取。",
       "identity_queries": [
         {
-          "q": "Project63",
+          "q": "9 Kings",
           "status": "success",
-          "count": 0,
-          "purpose": "OAuth health check and identity lookup"
+          "count": 6
+        },
+        {
+          "q": "Dressmaker",
+          "status": "success",
+          "count": 0
+        },
+        {
+          "q": "针影裁梦",
+          "status": "success",
+          "count": 0
         },
         {
           "q": "极境：垂钓者",
@@ -840,62 +865,36 @@
           "count": 0
         },
         {
-          "q": "代号：坎农",
+          "q": "深空之劫",
           "status": "success",
           "count": 0
-        },
-        {
-          "q": "深空当铺",
-          "status": "success",
-          "count": 0
-        },
-        {
-          "q": "代号FT",
-          "status": "success",
-          "count": 0
-        },
-        {
-          "q": "代号Bricks",
-          "status": "success",
-          "count": 0
-        },
-        {
-          "q": "Draft Showdown",
-          "status": "success",
-          "count": 7,
-          "internal_game_key": 1125
-        },
-        {
-          "q": "星际开荒模拟器",
-          "status": "success",
-          "count": 2,
-          "internal_game_key": 37224,
-          "note": "仅买量素材与抖音小游戏来源，不纳入公开候选"
-        },
-        {
-          "q": "我的末日房车",
-          "status": "success",
-          "count": 2,
-          "internal_game_key": 37910,
-          "note": "抖音小游戏，按范围排除"
         }
       ],
       "get_game": [
         {
-          "internal_game_key": 1125,
+          "internal_game_key": 37296,
           "status": "success",
-          "canonical_name": "Draft Showdown",
-          "grp": "Voodoo"
+          "canonical_name": "9 Kings 나인 킹즈"
         }
       ],
       "editorial_notes": [
-        "Project63、Dear Passengers 仅因既有 include_candidate 决定继续公开，不构成永久白名单。",
-        "Draft Showdown 身份、品类与核心循环已完成本轮 MCP 编辑核验，等待在内容基线内记录 include_candidate 决定。",
-        "代号：坎农与深空当铺仍无游戏目录身份命中，仅留私有待审；不新增公开候选或主池。",
-        "代号FT、代号Bricks、星际开荒模拟器保留在私有原始检查点；我的末日房车为小游戏，均不新增公开候选。",
-        "所有事件日期仅在官方或明确事件证据存在时填写；报道日不替代事件日。",
-        "本发布输入只保留已写入 include_candidate 决定的候选；代号：坎农、深空当铺及其他未核验线索完整保留在同批私有 raw 输入，不进入公开候选或待审计数。"
-      ]
+        "Project63与Dear Passengers仅依既有include_candidate决定继续公开，不构成永久白名单。",
+        "9 Kings由6个App商店条目统一映射internal_game_key=37296；文章确认Sad Socket开发、Playdigious移植发行及九宫格抽卡放置、自动战斗核心，完成身份、品类与核心循环编辑核验。",
+        "Dressmaker/针影裁梦的新报道属于已上线后的经营与更新观察，不新增或改写发售节点。",
+        "极境：垂钓者的10月21日测试仅在媒体周度汇总再次出现；本轮不以汇总报道替代官方节点证据。",
+        "深空之劫为自走棋战斗与SLG经营融合，但身份目录未命中且报道呈传统SLG发行语境，仅留私有待审，不新增公开候选。",
+        "未知事件日期保持null；报道日期不替代事件日期。"
+      ],
+      "editorial_policy": {
+        "project63_and_dear_passengers_whitelisted": false,
+        "new_leads_publication": "仅9 Kings完成身份、品类与核心循环核验；其他未核验线索不入公开候选或主池。",
+        "out_of_scope": [
+          "典型二合",
+          "微信小游戏",
+          "传统SLG"
+        ],
+        "event_date_policy": "报道日期和视频上传日期不得作为测试或上线日期；未知事件日保持null。"
+      }
     },
     "excluded_rows": [
       {
@@ -1039,194 +1038,49 @@
   },
   "candidates": [
     {
-      "name": "Project63",
-      "published_date": "2026-10-14",
+      "name": "9 Kings",
+      "published_date": "2026-10-19",
       "event_date": null,
-      "evidence_title": "灵犀入局“多人微恐游戏”！《Project63》海外测试，会是下个爆款么？",
-      "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5NzQwMjI4MA==&mid=2657338492&idx=3&sn=bb886e4a15cc1ebd6e5c40a2d5a239a0&chksm=bc46289070c2361b14d9ee640893b03a19b23075b202af7981e5d34ad52015518e4c38e4583b&scene=126&sessionid=0#rd",
-      "summary": "东南亚五地小规模测试的四人合作寻宝与生存撤离报道；没有可核验的具体开测日，保持事件日期未知。",
-      "identity_status": "matched_tracked",
+      "evidence_title": "5人团队、销量100万+，《9 Kings》手机版给买断制手游的又一个样本",
+      "source_url": "http://mp.weixin.qq.com/s?__biz=Mzk2NDY1ODE3MA==&mid=2247485997&idx=1&sn=b0f6f308172016aed3f5235c61b1ca7f&chksm=c5e5a212c90b5ef7a9d23318dc483aaa72557aa25dea97c3b657d224168c873ca5c157659f44&scene=126&sessionid=0#rd",
+      "summary": "游研所目录6个App商店条目统一映射internal_game_key=37296；Sad Socket开发、Playdigious移植发行。核心为九宫格抽卡放置建筑/军队/法术并自动迎战，胜后从对手牌库选卡推进，PC验证后推出App买断版。",
+      "identity_status": "verified_mcp_identity",
       "scope_status": "in_scope",
-      "scope_reason": "",
+      "scope_reason": "App/PC多端的轻度自走棋与王国经营融合，核心循环和主体均已核验。",
       "category": [
-        "社交-多人合作类"
+        "自走棋",
+        "卡牌",
+        "模拟经营"
       ],
       "platform": [
-        "Android"
-      ],
-      "developer": "Qookka Entertainment Limited（Google Play开发主体）",
-      "publisher": "QOOKKA GAMES",
-      "disposition": "已晋级",
-      "metrics_status": "未接入 DataBrain"
-    },
-    {
-      "name": "极境：垂钓者",
-      "published_date": "2026-10-12",
-      "event_date": null,
-      "evidence_title": "“战棋大佬紫龙”下场钓鱼，新游《极境：垂钓者》能打动赛博钓鱼佬吗？",
-      "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5NzQwMjI4MA==&mid=2657338293&idx=4&sn=dff6799bbfd51c806bf25677a9868a95&chksm=bc5a2f09240b102e5c71f771f3daccdd489b70b98228321cfa2bc4aa556b69451151e390cfeb&scene=126&sessionid=0#rd",
-      "summary": "JackWalker Studio开发的多人联机拟真钓鱼游戏；官网、官方Bilibili首曝PV/实机与媒体详情共同确认身份和核心循环。10月21日首测仅保留在已核验说明中，报道日期不作为测试日期。",
-      "identity_status": "verified_official",
-      "scope_status": "in_scope",
-      "scope_reason": "多人联机拟真钓鱼与轻量生活模拟核心明确。",
-      "category": [
-        "模拟经营类",
-        "社交-多人合作类"
-      ],
-      "platform": [
-        "PC"
-      ],
-      "developer": "JackWalker Studio（BlackJack Studio 旗下）",
-      "publisher": "紫龙游戏",
-      "disposition": "待人工核验",
-      "metrics_status": "未接入 DataBrain"
-    },
-    {
-      "name": "Draft Showdown",
-      "published_date": "2026-10-10",
-      "event_date": null,
-      "evidence_title": "4个月下载量从10万涨到100万+，《Draft Showdown》如何翻新一套旧玩法？",
-      "source_url": "http://mp.weixin.qq.com/s?__biz=Mzk2NDY1ODE3MA==&mid=2247485817&idx=1&sn=7e18366f653f00ed83f49a6b22bb9027&chksm=c5c95f26f6d13e9e8f2abba83a383187270bcb03a207a6c48e4eea85a1b31abbd122bdbe86bf&scene=126&sessionid=0#rd",
-      "summary": "QuestLab研发、Voodoo发行的移动端轻度策略产品；Roguelite三选一选兵与军团自动战斗构成核心循环。游研所多区商店条目归一到 internal_game_key 1125，产品身份一致；报道日期不作为上线节点。",
-      "identity_status": "verified_mcp",
-      "scope_status": "in_scope",
-      "scope_reason": "自动战斗与持续选兵构筑属于自走棋观察范围。",
-      "category": [
-        "自走棋"
-      ],
-      "platform": [
-        "iOS/Android"
-      ],
-      "developer": "QuestLab",
-      "publisher": "Voodoo",
-      "disposition": "待人工核验",
-      "metrics_status": "未接入 DataBrain"
-    },
-    {
-      "name": "Dear Passengers",
-      "published_date": "2026-09-28",
-      "event_date": null,
-      "evidence_title": "必火无疑！Steam预约破250万人、全球第3，《亲爱的乘客》是什么奇葩游戏",
-      "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5NzQwMjI4MA==&mid=2657337406&idx=5&sn=4ce17613b086a748034c50e6b7ec99c3&chksm=bc40a9db701060a778d1aec43318d9e9009806263608d004f329e7ec5455aa9dbd229f39f1f9&scene=126&sessionid=0#rd",
-      "summary": "FLEXUS Games 的 PC 多人合作游戏愿望单与PV传播报道；截至报道仍未发布Demo，具体发售日未知。",
-      "identity_status": "matched_tracked",
-      "scope_status": "in_scope",
-      "scope_reason": "",
-      "category": [
-        "社交-多人合作类"
-      ],
-      "platform": [
+        "App",
         "PC/Steam"
       ],
-      "developer": "FLEXUS",
-      "publisher": "FLEXUS",
-      "disposition": "已晋级",
+      "developer": "Sad Socket",
+      "publisher": "Playdigious",
+      "disposition": "待人工核验",
       "metrics_status": "未接入 DataBrain"
     }
   ],
   "tracked_updates": [
     {
-      "name": "崩坏：因缘精灵",
-      "published_date": "2026-10-16",
+      "name": "Dressmaker",
+      "published_date": "2026-10-20",
       "event_date": null,
-      "evidence_title": "上亿投入，大厂集体上桌，大厂到底看上捉宠什么？",
-      "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5Njc5MjgyMA==&mid=2989877966&idx=1&sn=da2af32c3b2cf4557b9ce68cbc30e3dd&chksm=90737d2d0613673ff3a36628ae09ec45a72888082e14e6016c0edb060308a4803dd2dc8af314&scene=126&sessionid=0#rd",
-      "summary": "行业横向报道确认精灵组队、自动交战与自走棋特征；不新增测试或上线节点。",
+      "evidence_title": "98%好评、24小时回本，玩家把这款“赛博缝纫机”踩冒烟了",
+      "source_url": "http://mp.weixin.qq.com/s?__biz=MzkzOTYwMjE2NA==&mid=2247554726&idx=1&sn=f24bbe11e6d60aac9c376f8598bc9cf6&chksm=c3aa0f18877bdf7982a08d64311832aaa3a730535ca49f3b61a13ac78949081ca91d602a0004&scene=126&sessionid=0#rd",
+      "summary": "报道复盘已上线后的裁缝制作与经营循环、玩家创作生态及持续内容更新；报道中的好评率和回本表述仅作为该报道时点信息，不刷新日频指标，也不改写既有2026-09-21官方发售节点。",
       "identity_status": "matched_tracked",
       "scope_status": "in_scope",
-      "scope_reason": "",
-      "category": [
-        "捉宠类"
-      ],
-      "platform": [
-        "移动"
-      ],
-      "developer": "米哈游",
-      "publisher": "米哈游 (Cognosphere)",
-      "disposition": "已跟踪",
-      "metrics_status": "未接入 DataBrain"
-    },
-    {
-      "name": "闪耀吧！噜咪",
-      "published_date": "2026-10-16",
-      "event_date": null,
-      "evidence_title": "上亿投入，大厂集体上桌，大厂到底看上捉宠什么？",
-      "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5Njc5MjgyMA==&mid=2989877966&idx=1&sn=da2af32c3b2cf4557b9ce68cbc30e3dd&chksm=90737d2d0613673ff3a36628ae09ec45a72888082e14e6016c0edb060308a4803dd2dc8af314&scene=126&sessionid=0#rd",
-      "summary": "捉宠赛道横向报道中的已上线产品对照；不新增生命周期节点。",
-      "identity_status": "matched_tracked",
-      "scope_status": "in_scope",
-      "scope_reason": "",
-      "category": [
-        "捉宠类"
-      ],
-      "platform": [
-        "iOS/微信小游戏"
-      ],
-      "developer": "未公开",
-      "publisher": "Shanghai Hode Information Technology Co.,Ltd.（App Store 所列发行主体）",
-      "disposition": "已跟踪",
-      "metrics_status": "未接入 DataBrain"
-    },
-    {
-      "name": "星布谷地",
-      "published_date": "2026-10-15",
-      "event_date": "2026-09-20",
-      "evidence_title": "米哈游生活模拟游戏终测，有了最有活人感的AI丨触乐",
-      "source_url": "http://mp.weixin.qq.com/s?__biz=MzA4MDIxNzkyNA==&mid=2658925684&idx=1&sn=bb0c49add517ff6ce1a021d718a3296d&chksm=85423aaaf2542f32d351f668f98e62092e2ef153f135ee3bb6a8b5b91a5e0b325d717a7b2960&scene=126&sessionid=0#rd",
-      "summary": "9月20日删档计费终测中的AI NPC社交陪伴设计复盘；报道日不生成新测试节点。",
-      "identity_status": "matched_tracked",
-      "scope_status": "in_scope",
-      "scope_reason": "",
+      "scope_reason": "已跟踪模拟经营产品的上线后动态。",
       "category": [
         "模拟经营类"
       ],
       "platform": [
-        "PC/Nintendo Switch 2/iOS/Android"
+        "PC/Steam"
       ],
-      "developer": "米哈游",
-      "publisher": "米哈游 (Cognosphere)",
-      "disposition": "已跟踪",
-      "metrics_status": "未接入 DataBrain"
-    },
-    {
-      "name": "Project63",
-      "published_date": "2026-10-14",
-      "event_date": null,
-      "evidence_title": "灵犀入局“多人微恐游戏”！《Project63》海外测试，会是下个爆款么？",
-      "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5NzQwMjI4MA==&mid=2657338492&idx=3&sn=bb886e4a15cc1ebd6e5c40a2d5a239a0&chksm=bc46289070c2361b14d9ee640893b03a19b23075b202af7981e5d34ad52015518e4c38e4583b&scene=126&sessionid=0#rd",
-      "summary": "四人合作寻宝、生存撤离与东南亚校园怪谈玩法复盘；测试覆盖五地，但具体开测日未由官方证据确认。",
-      "identity_status": "matched_tracked",
-      "scope_status": "in_scope",
-      "scope_reason": "",
-      "category": [
-        "社交-多人合作类"
-      ],
-      "platform": [
-        "Android"
-      ],
-      "developer": "Qookka Entertainment Limited（Google Play开发主体）",
-      "publisher": "QOOKKA GAMES",
-      "disposition": "已跟踪",
-      "metrics_status": "未接入 DataBrain"
-    },
-    {
-      "name": "蓝色星原：旅谣",
-      "published_date": "2026-10-14",
-      "event_date": null,
-      "evidence_title": "临门一脚：刚刚，上海新二游列出了70条回应",
-      "source_url": "http://mp.weixin.qq.com/s?__biz=MjM5MDEwMTk2MA==&mid=2651305653&idx=1&sn=2c6e2d1f1efbf9855595979a4127ad42&chksm=bca43725b5db67f9ed2f6e41c5e3860f326bfd8cbf526e042812641d75936691c03fda784436&scene=126&sessionid=0#rd",
-      "summary": "三测后约70项调优计划，覆盖减负、保底、奇波、家园、探索与多端性能；不据媒体首页或报道日生成生命周期节点。",
-      "identity_status": "matched_tracked",
-      "scope_status": "in_scope",
-      "scope_reason": "",
-      "category": [
-        "捉宠类"
-      ],
-      "platform": [
-        "Android/iOS/PC"
-      ],
-      "developer": "积咪网络（蛮啾网络旗下）",
-      "publisher": "蛮奈网络",
+      "developer": "Cozy Lives",
+      "publisher": "Free Lives",
       "disposition": "已跟踪",
       "metrics_status": "未接入 DataBrain"
     }

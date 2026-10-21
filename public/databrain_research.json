@@ -736,7 +736,7 @@
     },
     "coverage_note": "统一扫描全部跟踪产品及别名；研究资料按发布日期收录，不自动作为测试、上线或版本事件。",
     "evidence_validation": {
-      "checked_at": "2026-10-19T06:13:12.189Z",
+      "checked_at": "2026-10-21T04:47:37.508Z",
       "rejected_records": 0,
       "policy": "Original links required; placeholder URLs, unavailable search redirects, homonyms and homepage-only event dates are quarantined."
     }

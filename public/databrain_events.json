@@ -656,7 +656,7 @@
     "source": "DataBrain Agent · Web Search",
     "coverage_note": "事件由 DataBrain Agent 查询并要求给出实际发生日期；无明确实际日期的内容不会进入图表。DataBrain 当前返回的是可追溯公开信源事件，不是 DAU 原始序列。",
     "evidence_validation": {
-      "checked_at": "2026-10-19T06:13:12.186Z",
+      "checked_at": "2026-10-21T04:47:37.505Z",
       "rejected_records": 0,
       "policy": "Original links required; placeholder URLs, unavailable search redirects, homonyms and homepage-only event dates are quarantined."
     }

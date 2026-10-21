@@ -44,6 +44,30 @@ function validSourceUrl(value) {
   } catch { return ""; }
 }
 
+function publicCoverageNotes(value) {
+  const notes = structuredClone(value || {});
+  if (Array.isArray(notes.queries)) {
+    notes.queries = notes.queries.map(query => ({
+      ...query,
+      page_receipts: Array.isArray(query.page_receipts)
+        ? query.page_receipts.map(({ items: _items, ...receipt }) => receipt)
+        : [],
+    }));
+  }
+  if (Array.isArray(notes.identity_queries)) {
+    notes.identity_queries = notes.identity_queries.map(({ items: _items, ...query }) => query);
+  }
+  if (Array.isArray(notes.get_game)) {
+    notes.get_game = notes.get_game.map(row => ({
+      internal_game_key: row.internal_game_key ?? row.game_key ?? null,
+      status: row.status,
+      canonical_name: row.canonical_name || "",
+      ...(row.grp ? { grp: row.grp } : {}),
+    }));
+  }
+  return notes;
+}
+
 export function normalizeDiscovery(input, gamesDocument, options = {}) {
   if (input?.source !== "youyansuo" || input.mode !== "mcp_read_only") throw new Error("输入必须是游研所 MCP 只读扫描结果。");
   if (input.status !== "complete") throw new Error(`游研所扫描未完整成功：${input.status || "unknown"}`);
@@ -140,7 +164,7 @@ export function normalizeDiscovery(input, gamesDocument, options = {}) {
       pending_candidates: options.publishApprovedOnly ? normalizedCandidates.filter(row => !approved(row)).length : 0,
       candidate_publication_policy: options.publishApprovedOnly ? "editorial_approval_required" : "draft",
       tool_calls: input.tool_calls,
-      coverage_notes: input.coverage_notes || [],
+      coverage_notes: publicCoverageNotes(input.coverage_notes),
       excluded_rows: [...excludedRows.values()],
       coverage_note: "游研所提供产品情报；报道日期不等于事件发生日期，缺失指标不由 MCP 填充。",
     },
