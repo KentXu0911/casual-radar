@@ -1,34 +1,29 @@
 {
-  "checked_at": "2026-10-21",
-  "scope": "intelligence",
+  "checked_at": "2026-10-28",
+  "scope": "daily",
   "status": "complete",
   "modules": {
-    "intelligence": {
-      "required": true,
-      "status": "passed"
-    },
-    "editorial": {
+    "metrics": {
       "required": true,
       "status": "passed",
-      "checked_at": "2026-10-21",
-      "notes": "核验1个公开候选（9 Kings）与1条已跟踪动态（Dressmaker）；媒体必做队列为0；来源证据校验0条隔离；原始MCP条目仅保留在忽略目录。"
+      "checked_at": "2026-10-27"
     },
     "identity": {
-      "required": true,
+      "required": false,
       "status": "passed"
     },
     "lifecycle": {
-      "required": true,
+      "required": false,
       "status": "passed"
     },
     "media": {
-      "required": true,
+      "required": false,
       "status": "passed",
       "pending_changes": 0,
       "historical_backlog": 49
     },
     "views": {
-      "required": true,
+      "required": false,
       "status": "passed"
     },
     "content": {
@@ -41,7 +36,7 @@
   "historical_media_status": "pending",
   "dates": {
     "intelligence": "2026-10-21",
-    "metrics": "2026-10-20",
+    "metrics": "2026-10-27",
     "lifecycle": "2026-10-08"
   }
 }
